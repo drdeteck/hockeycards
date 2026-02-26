@@ -10,12 +10,12 @@
 }
 
 .btn-outline-light:not(:disabled):not(.disabled).active, .btn-outline-light:not(:disabled):not(.disabled):active, .show>.btn-outline-light.dropdown-toggle, .btn-outline-light:hover {
-    background: #A5B092;
-    border-color: #404E29;
+    background: var(--color-pale-blue);
+    border-color: var(--color-border);
 }
 
 .btn-outline-light {
-    border-color: #404E29;
+    border-color: var(--color-border);
 }
 
 .btn-sm {
@@ -23,7 +23,7 @@
 }
 
 .header .btn-outline-light {
-    border-color: #f8f9fa;
+    border-color: var(--color-white);
 }
 
 /* menu button tweaks */
@@ -54,10 +54,10 @@
 
 /* ensure buttons in header have white text and highlight on hover/focus */
 .main-header .btn-outline-light {
-    color: #fff;
+    color: var(--color-white);
 }
 .main-header .btn-outline-light:hover,
 .main-header .btn-outline-light:focus {
-    color: #fff;
-    background-color: #828E6C;
+    color: var(--color-white);
+    background-color: var(--color-blue);
 }

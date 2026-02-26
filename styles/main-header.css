@@ -1,6 +1,6 @@
 .main-header {
-    color: #FDFDFD;
-    background-color: #5e6a4b;
+    color: var(--color-white);
+    background-color: var(--color-dark-blue);
     padding: 8px 2% 8px 2%;
 }
 

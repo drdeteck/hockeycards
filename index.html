@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- MS APPLICATION -->
-    <meta name="msapplication-TileColor" content="#404E29" />
+    <meta name="msapplication-TileColor" content="#243847" />
     <meta name="msapplication-TileImage" content="" />
     <!-- CHROME THEME COLOR -->
-    <meta name="theme-color" content="#404E29" />
-    <title>Cycledh</title>
+    <meta name="theme-color" content="#243847" />
+    <title>Phil's Hockey Cards Collection</title>
     <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -34,8 +34,7 @@
     <div class="header">
         <div class="header-control-row">
             <a title="Back to homepage" href="#home" class="header-logo">
-                <span class="vh logo-cycl">Cycl</span>
-                <span class="vh logo-edh">edh</span>
+                <span class="vh logo-title">Phil's Hockey Cards Collection</span>
             </a>
             <div class="header-links">
                 <a href="#home" class="btn btn-outline-light btn-sm">Home</a>
@@ -166,7 +165,7 @@
     <script type="text/html" id="button-icon-template">
 
         <label class="btn btn-outline-light btn-sm " data-bind="css: {active: $root.CurrentCollectionKey() === $data.key, disabled: $data.isDisabled}, attr: {title: $data.displayName}">
-        <input type="radio"  name="options" data-bind="checked: $root.CurrentCollectionKey, attr:{id: $data.key, value: $data.key}">
+        <input type="radio"  name="options" data-bind="checked: $root.CurrentCollectionKey, attr:{value: $data.key}">
             <span class="set-icon" data-bind="template: $data.setKey"></span>
         </label>
     
@@ -175,7 +174,7 @@
     <script type="text/html" id="button-text-template">
 
         <label class="btn btn-outline-light btn-sm" data-bind="css: {active: $root.CurrentCollectionKey() === $data.key, disabled: $data.isDisabled}">
-            <input type="radio" name="options" data-bind="checked: $root.CurrentCollectionKey, attr:{id: $data.key, value: $data.key}">
+            <input type="radio" name="options" data-bind="checked: $root.CurrentCollectionKey, attr:{value: $data.key}">
             <span class="" data-bind="text: $data.displayName"></span>
         </label>
     </script>
@@ -197,7 +196,7 @@
                     <img class="card border-black" data-bind="attr: { 
                             src: $root.ParseImageUri($data),
                             alt: ($data.name || '') + ' (' + ($data['set'] || '') + ')',
-                            title: ($data.name || '') + ' (' + ($data['set'] || '') + ')' }">
+                            title: ($data.name || '') + ' (' + ($data.number || 'NNO') + ')' }">
                 </div>
             </div>
             <!-- price removed: no prices in this project -->

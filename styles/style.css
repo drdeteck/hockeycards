@@ -1,34 +1,54 @@
-body {
-    color: #16161D;
-    font-size: 15px;
-    font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    background-color: #404E29;
+:root {
+    /* Theme palette
+       XPale-Blue #B0C4D4
+       Pale-Blue  #8FA8BC
+       Blue       #5C7A8F
+       Dark-Blue  #3A5266
+       XDark-Blue #243847
+       Palette reference: https://paletton.com/#uid=53y0y0kePjQ7jtgbpo0iBfBnwcz
+    */
+    --color-text: #16161D;
+    --color-main-bg: #F5F6F7;
+    --color-header-bg: #142C41;
+    --color-app-bg: #243847;
+    --color-pale-blue: #8FA8BC;
+    --color-blue: #5C7A8F;
+    --color-dark-blue: #3A5266;
+    --color-border: #768896;
+    --color-white: #f8f9fa;
+    --color-black: #000;
 }
 
-/* Colors
-XPale-Green #D1DAC4
-Pale-Green #A5B092
-Green #828E6C
-Dark-Green #5E6A4B
-XDark-Green #404E29
-*/
+body {
+    color: var(--color-text);
+    font-size: 15px;
+    font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: var(--color-app-bg);
+}
 
 ul {
     padding: 0;
 }
 
 .header {
-    background-color: #404E29;
+    background-color: var(--color-header-bg);
     padding: 0 2.5%;
     width: 100%;
 }
 
 .logo-cycl {
-    color: #000;
+    color: var(--color-black);
 }
 
 .logo-edh {
-    color: #828E6C;
+    color: var(--color-blue);
+}
+
+.logo-title {
+    color: var(--color-white);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.2;
 }
 
 .header-control-row {
@@ -58,20 +78,12 @@ ul {
     justify-content: space-between;
 }
 
-@media screen and (min-width: 420px) {
-    .header-logo {
-        -webkit-box-flex: 0;
-        -webkit-flex: 0 0 34px;
-        -ms-flex: 0 0 34px;
-        flex: 0 0 34px;
-    }
-}
-
 .header-logo {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 28px;
-    -ms-flex: 0 0 28px;
-    flex: 0 0 28px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-width: 0;
     height: 52px;
     display: -webkit-box;
     display: -webkit-flex;
@@ -85,8 +97,30 @@ ul {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    color: #000;
-    font-size: 24px;
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.header-links {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 52px;
+    margin-left: auto;
 }
 
 @media screen and (min-width: 800px) {
@@ -100,15 +134,16 @@ ul {
         -webkit-flex-flow: row nowrap;
         -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
-        -webkit-box-pack: start;
-        -webkit-justify-content: flex-start;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
         -webkit-box-align: center;
         -webkit-align-items: center;
         -ms-flex-align: center;
         align-items: center;
         height: 52px;
+        margin-left: auto;
     }
 }
 
@@ -116,7 +151,7 @@ ul {
 
 .main {
     min-height: 70vh;
-    background-color: #F5F6F7;
+    background-color: var(--color-main-bg);
 }
 
 .inner-flex {

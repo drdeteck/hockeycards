@@ -45,7 +45,11 @@ function DataViewModel() {
             // avoid infinite loop by checking current hash
             var hash = window.location.hash.slice(1);
             if (hash !== key) {
-                window.location.hash = key;
+                if (window.history && window.history.replaceState) {
+                    window.history.replaceState(null, '', '#' + key);
+                } else {
+                    window.location.hash = key;
+                }
             }
             self.CurrentRoute(key);
         }
@@ -94,7 +98,7 @@ function DataViewModel() {
             return { key: itm.key, displayName: itm.years || itm.name };
         });
         return [{
-            name: 'Sets',            // matches menu-row-template expectation
+            name: 'McDonald\'s',            // matches menu-row-template expectation
             template: 'button-text-template',  // layout for controls in groups
             groups: [{
                 text: firstCategory,
@@ -108,7 +112,15 @@ function DataViewModel() {
 
     // Route change handler
     self.SetRoute = function (route) {
-        window.location.hash = route;
+        if (window.history && window.history.replaceState) {
+            window.history.replaceState(null, '', '#' + route);
+            self.CurrentRoute(route);
+            if (route !== 'home' && route !== 'about') {
+                self.CurrentCollectionKey(route);
+            }
+        } else {
+            window.location.hash = route;
+        }
     };
 
     self.HandleRouteChange = function () {
@@ -160,7 +172,7 @@ var rawData = {"McD91-92":{
     "name": "1991-92 Upper Deck McDonald's All-Stars",
      "years": "1991-92", "makers": "Upper Deck", 
      "key": "McD91-92", 
-          "category": "McDonald's",
+          "category": "Upper Deck McDonald's",
 
      "total-cards": 25,
       "tcdb-href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
@@ -210,7 +222,7 @@ var rawData = {"McD91-92":{
     { "name": "1992-93 Upper Deck McDonald's All-Stars",
      "years": "1992-93", "makers": "Upper Deck", 
      "key": "McD92-93", 
-     "category": "McDonald's",
+     "category": "Upper Deck McDonald's",
      "total-cards": 28,
       "tcdb-href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
     "cards": [
@@ -262,7 +274,7 @@ var rawData = {"McD91-92":{
     { "name": "1993-94 Upper Deck McDonald's NHL All-Stars",
      "years": "1993-94", "makers": "Upper Deck", 
      "key": "McD93-94", 
-     "category": "McDonald's",
+     "category": "Upper Deck McDonald's",
      "total-cards": 28,
       "tcdb-href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
     "cards": [
@@ -309,6 +321,55 @@ var rawData = {"McD91-92":{
                 { "name": "Ed Belfour", "number": "McH-06", "team": "Chicago Blackhawks", "orientation": "landscape", "image-front": "img/cards/McD93-94/138869-4099310Fr.jpg", "image-back": "img/cards/McD93-94/138869-4099310Bk.jpg" }
             ]
         }
+    ]
+},"McD94-95":
+    { "name": "1994-95 Upper Deck McDonald's",
+     "years": "1994-95", "makers": "Upper Deck", 
+     "key": "McD94-95", 
+     "category": "Upper Deck McDonald's",
+     "total-cards": 40,
+            "tcdb-href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+    "cards": [
+                { "name": "Joe Sakic", "number": "McD-01", "team": "Quebec Nordiques", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-1Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-1Bk.jpg" },
+                { "name": "Adam Graves", "number": "McD-02", "team": "New York Rangers", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-2Fr.jpg", "image-back": "img/cards/McD94-95/62943-4099871RepBk.jpg" },
+                { "name": "Alexei Yashin", "number": "McD-03", "team": "Ottawa Senators", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-3Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-3Bk.jpg" },
+                { "name": "Patrick Roy", "number": "McD-04", "team": "Montreal Canadiens", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-4Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-4Bk.jpg" },
+                { "name": "Ray Bourque", "number": "McD-05", "team": "Boston Bruins", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-5Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-5Bk.jpg" },
+                { "name": "Brian Leetch", "number": "McD-06", "team": "New York Rangers", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-6Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-6Bk.jpg" },
+                { "name": "Scott Stevens", "number": "McD-07", "team": "New Jersey Devils", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-7Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-7Bk.jpg" },
+                { "name": "Alexander Mogilny", "number": "McD-08", "team": "Buffalo Sabres", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-8Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-8Bk.jpg" },
+                { "name": "Eric Lindros", "number": "McD-09", "team": "Philadelphia Flyers", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-9Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-9Bk.jpg" },
+                { "name": "Jaromir Jagr", "number": "McD-10", "team": "Pittsburgh Penguins", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-10Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-10Bk.jpg" },
+                { "name": "Sandis Ozolinsh", "number": "McD-11", "team": "San Jose Sharks", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-11Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-11Bk.jpg" },
+                { "name": "Sergei Fedorov", "number": "McD-12", "team": "Detroit Red Wings", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-12Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-12Bk.jpg" },
+                { "name": "Brett Hull", "number": "McD-13", "team": "St. Louis Blues", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-13Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-13Bk.jpg" },
+                { "name": "Felix Potvin", "number": "McD-14", "team": "Toronto Maple Leafs", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-14Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-14Bk.jpg" },
+                { "name": "Al MacInnis", "number": "McD-15", "team": "St. Louis Blues", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-15Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-15Bk.jpg" },
+                { "name": "Chris Chelios", "number": "McD-16", "team": "Chicago Blackhawks", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-16Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-16Bk.jpg" },
+                { "name": "Rob Blake", "number": "McD-17", "team": "Los Angeles Kings", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-17Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-17Bk.jpg" },
+                { "name": "Dave Andreychuk", "number": "McD-18", "team": "Toronto Maple Leafs", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-18Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-18Bk.jpg" },
+                { "name": "Paul Coffey", "number": "McD-19", "team": "Detroit Red Wings", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-19Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-19Bk.jpg" },
+                { "name": "Jeremy Roenick", "number": "McD-20", "team": "Chicago Blackhawks", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-20Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-20Bk.jpg" },
+                { "name": "Joe Nieuwendyk", "number": "McD-21", "team": "Calgary Flames", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-21Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-21Bk.jpg" },
+                { "name": "Cam Neely", "number": "McD-22", "team": "Boston Bruins", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-22Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-22Bk.jpg" },
+                { "name": "Pavel Bure", "number": "McD-23", "team": "Vancouver Canucks", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-23Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-23Bk.jpg" },
+                { "name": "Wendel Clark", "number": "McD-24", "team": "Quebec Nordiques", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-24Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-24Bk.jpg" },
+                { "name": "Teemu Selanne", "number": "McD-25", "team": "Winnipeg Jets", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-25Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-25Bk.jpg" },
+                { "name": "Pierre Turgeon", "number": "McD-26", "team": "New York Islanders", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-26Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-26Bk.jpg" },
+                { "name": "Alexei Zhamnov", "number": "McD-27", "team": "Winnipeg Jets", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-27Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-27Bk.jpg" },
+                { "name": "Doug Gilmour", "number": "McD-28", "team": "Toronto Maple Leafs", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-28Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-28Bk.jpg" },
+                { "name": "Vincent Damphousse", "number": "McD-29", "team": "Montreal Canadiens", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-29Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-29Bk.jpg" },
+                { "name": "Brendan Shanahan", "number": "McD-30", "team": "St. Louis Blues", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-30Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-30Bk.jpg" },
+                { "name": "Peter Forsberg", "number": "McD-31", "team": "Quebec Nordiques", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-31Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-31Bk.jpg" },
+                { "name": "Paul Kariya", "number": "McD-32", "team": "Anaheim Mighty Ducks", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-32Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-32Bk.jpg" },
+                { "name": "Viktor Kozlov", "number": "McD-33", "team": "San Jose Sharks", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-33Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-33Bk.jpg" },
+                { "name": "Brett Lindros", "number": "McD-34", "team": "New York Islanders", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-34Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-34Bk.jpg" },
+                { "name": "Martin Brodeur", "number": "McD-35", "team": "New Jersey Devils", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-35Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-35Bk.jpg" },
+                { "name": "Alexandre Daigle", "number": "McD-36", "team": "Ottawa Senators", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-36Fr.jpg", "image-back": "img/cards/McD94-95/62943-4099905RepBk.jpg" },
+                { "name": "Jason Arnott", "number": "McD-37", "team": "Edmonton Oilers", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-37Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-37Bk.jpg" },
+                { "name": "Alexei Kovalev", "number": "McD-38", "team": "New York Rangers", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-38Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-38Bk.jpg" },
+                { "name": "Mikael Renberg", "number": "McD-39", "team": "Philadelphia Flyers", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-39Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-39Bk.jpg" },
+                { "name": "Mike Richter CL", "number": "NNO", "team": "New York Rangers", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-NNOFr.jpg", "image-back": "img/cards/McD94-95/62943-NNOBk.jpg" }
     ]
 }
 };
