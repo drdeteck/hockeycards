@@ -49,11 +49,20 @@
 .card-grid-item-card {
     display: block;
     position: relative;
-    padding-bottom: 139.344262295%;
+    padding-bottom: 138.34%;
     width: 100%;
     height: 0;
     -webkit-perspective: 2000px;
     perspective: 2000px;
+}
+
+/* Landscape orientation for cards like holograms */
+.card-grid-item.card-landscape {
+    width: 380px;
+}
+
+.card-grid-item-card.card-landscape {
+    padding-bottom: 71.43%;
 }
 
 .card-grid-item-invisible-label {

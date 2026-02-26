@@ -301,12 +301,12 @@ var rawData = {"McD91-92":{
             "name": "Holograms",
             "tcdb-href": "https://www.tcdb.com/Checklist.cfm/sid/125618/1993-94-Upper-Deck-McDonald's-NHL-All-Stars---Holograms",
             "cards": [
-                { "name": "Mario Lemieux", "number": "McH-01", "team": "Pittsburgh Penguins", "image-front": "img/cards/McD93-94/138869-4099305Fr.jpg", "image-back": "img/cards/McD93-94/138869-4099305Bk.jpg" },
-                { "name": "Teemu Selanne", "number": "McH-02", "team": "Winnipeg Jets", "image-front": "img/cards/McD93-94/138869-4099306Fr.jpg", "image-back": "img/cards/McD93-94/138869-4099306Bk.jpg" },
-                { "name": "Luc Robitaille", "number": "McH-03", "team": "Los Angeles Kings", "image-front": "img/cards/McD93-94/138869-4099307Fr.jpg", "image-back": "img/cards/McD93-94/138869-4099307Bk.jpg" },
-                { "name": "Ray Bourque", "number": "McH-04", "team": "Boston Bruins", "image-front": "img/cards/McD93-94/138869-4099308Fr.jpg", "image-back": "img/cards/McD93-94/138869-4099308Bk.jpg" },
-                { "name": "Chris Chelios", "number": "McH-05", "team": "Chicago Blackhawks", "image-front": "img/cards/McD93-94/138869-4099309RepFr.jpg", "image-back": "img/cards/McD93-94/138869-4099309RepBk.jpg" },
-                { "name": "Ed Belfour", "number": "McH-06", "team": "Chicago Blackhawks", "image-front": "img/cards/McD93-94/138869-4099310Fr.jpg", "image-back": "img/cards/McD93-94/138869-4099310Bk.jpg" }
+                { "name": "Mario Lemieux", "number": "McH-01", "team": "Pittsburgh Penguins", "orientation": "landscape", "image-front": "img/cards/McD93-94/138869-4099305Fr.jpg", "image-back": "img/cards/McD93-94/138869-4099305Bk.jpg" },
+                { "name": "Teemu Selanne", "number": "McH-02", "team": "Winnipeg Jets", "orientation": "landscape", "image-front": "img/cards/McD93-94/138869-4099306Fr.jpg", "image-back": "img/cards/McD93-94/138869-4099306Bk.jpg" },
+                { "name": "Luc Robitaille", "number": "McH-03", "team": "Los Angeles Kings", "orientation": "landscape", "image-front": "img/cards/McD93-94/138869-4099307Fr.jpg", "image-back": "img/cards/McD93-94/138869-4099307Bk.jpg" },
+                { "name": "Ray Bourque", "number": "McH-04", "team": "Boston Bruins", "orientation": "landscape", "image-front": "img/cards/McD93-94/138869-4099308Fr.jpg", "image-back": "img/cards/McD93-94/138869-4099308Bk.jpg" },
+                { "name": "Chris Chelios", "number": "McH-05", "team": "Chicago Blackhawks", "orientation": "landscape", "image-front": "img/cards/McD93-94/138869-4099309RepFr.jpg", "image-back": "img/cards/McD93-94/138869-4099309RepBk.jpg" },
+                { "name": "Ed Belfour", "number": "McH-06", "team": "Chicago Blackhawks", "orientation": "landscape", "image-front": "img/cards/McD93-94/138869-4099310Fr.jpg", "image-back": "img/cards/McD93-94/138869-4099310Bk.jpg" }
             ]
         }
     ]

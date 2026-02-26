@@ -187,9 +187,10 @@
     <script type="text/html" id="card-template">
 
         <!-- expects a single card object in $data -->
-    <li class="card-grid-item">
+    <li class="card-grid-item" data-bind="css: { 'card-landscape': $data.orientation === 'landscape' }">
         <a class="card-grid-item-card"
-            data-bind="attr: { href: ($data.scryfall_uri || $data['tcdb-href'] || $data['image-front'] || $root.ParseImageUri($data) || '#') }">
+            data-bind="css: { 'card-landscape': $data.orientation === 'landscape' },
+            attr: { href: ($data.scryfall_uri || $data['tcdb-href'] || $data['image-front'] || $root.ParseImageUri($data) || '#') }">
             <span class="card-grid-item-invisible-label" aria-hidden="true" data-bind="text: name"></span>
             <div class="card-grid-item-card-faces">
                 <div class="card-grid-item-card-front">
