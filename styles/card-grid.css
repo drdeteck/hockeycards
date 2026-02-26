@@ -136,15 +136,3 @@ img.card {
     text-align: center;
 }
 
-.border-black {}
-
-.card-grid-item-price {
-    position: absolute; 
-    bottom: -28px;
-    width: 100%;
-    text-align: center;
-}
-
-.card-grid-item-price-label {
-
-}

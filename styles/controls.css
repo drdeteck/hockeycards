@@ -1,9 +1,3 @@
-.collection-control-group {
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-}
-
 .collection-control-title {
     text-align: center;
     align-self: center;

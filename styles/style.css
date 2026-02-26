@@ -36,14 +36,6 @@ ul {
     width: 100%;
 }
 
-.logo-cycl {
-    color: var(--color-black);
-}
-
-.logo-edh {
-    color: var(--color-blue);
-}
-
 .logo-title {
     color: var(--color-white);
     font-size: 22px;

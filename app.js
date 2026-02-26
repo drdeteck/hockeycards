@@ -1,5 +1,5 @@
 // Root namespace definition
-window.MTGHB = window.MTGHB || {};
+window.HCHB = window.HCHB || {};
 
 (function (App, $, undefined) {
 
@@ -14,8 +14,7 @@ window.MTGHB = window.MTGHB || {};
             // supply the rawData before applying bindings
             App.ViewModel.Data(rawData);
 
-            // if we generated menu rows they become Root, otherwise fall back to original root
-            App.ViewModel.Root = App.ViewModel.MenuRows && App.ViewModel.MenuRows().length ? App.ViewModel.MenuRows : root;
+            App.ViewModel.Root = App.ViewModel.MenuRows;
 
             ko.applyBindings(App.ViewModel);
             console.log('MenuRows at bind:', App.ViewModel.MenuRows());
@@ -27,7 +26,7 @@ window.MTGHB = window.MTGHB || {};
         });
     };
 
-}(MTGHB.App = MTGHB.App || {}, $));
+}(HCHB.App = HCHB.App || {}, $));
 
 function DataViewModel() {
     var self = this;
@@ -36,7 +35,7 @@ function DataViewModel() {
     self.Data = ko.observable({});
 
     // routing / selection state
-    self.CurrentCollectionKey = ko.observable(MTGHB.App.HomeCollection);
+    self.CurrentCollectionKey = ko.observable(HCHB.App.HomeCollection);
     self.CurrentRoute = ko.observable('home');
 
     // when the selected collection key changes (e.g. via menu radio), push it into the route
@@ -77,13 +76,6 @@ function DataViewModel() {
         if (card['image-front']) {
             return card['image-front'];
         }
-        // Fallbacks for MTG data if ever mixed in
-        if (card['image_uris']) {
-            return card['image_uris']['normal'];
-        }
-        if (card['card_faces'] && card['card_faces'][0] && card['card_faces'][0]['image_uris']) {
-            return card['card_faces'][0]['image_uris']['normal'];
-        }
         return '';
     };
 
@@ -92,22 +84,33 @@ function DataViewModel() {
         var d = self.Data() || {};
         var items = Object.values(d);
         if (items.length === 0) return [];
-        var firstCategory = items[0].category || '';
-        var controls = items.map(function (itm) {
-            // prefer the years field for the label; fall back to name if missing
-            return { key: itm.key, displayName: itm.years || itm.name };
+        var grouped = {};
+        var categoryOrder = [];
+        items.forEach(function (itm) {
+            var category = itm.category || '';
+            if (!grouped[category]) {
+                grouped[category] = [];
+                categoryOrder.push(category);
+            }
+            grouped[category].push({
+                key: itm.key,
+                displayName: itm.years || itm.name
+            });
+        });
+        var groups = categoryOrder.map(function (category) {
+            return {
+                text: category,
+                controls: grouped[category]
+            };
         });
         return [{
             name: 'McDonald\'s',            // matches menu-row-template expectation
             template: 'button-text-template',  // layout for controls in groups
-            groups: [{
-                text: firstCategory,
-                controls: controls
-            }]
+            groups: groups
         }];
     });
 
-    // menu rows can serve as the "root" collection for binding
+    // menu rows serve as the root collection for binding
     self.Root = self.MenuRows;
 
     // Route change handler
@@ -133,46 +136,11 @@ function DataViewModel() {
     };
 }
 
-function CollectionViewModel(doc) {
-    var self = this;
-    self.Key = ko.observable(doc.name);
-    self.Documents = ko.observableArray();
-
-    self.SortedDocuments = ko.pureComputed(function () {
-        return self.Documents.sorted(function (left, right) {
-            return left.Index() === right.Index() ? 0 : left.Index() < right.Index() ? -1 : 1;
-        });
-    });
-
-    console.log(doc);
-
-    // init
-    doc.forEach(doc => {
-        self.Documents.push(new DocumentViewModel(doc))
-    });
-}
-
-function DocumentViewModel(doc) {
-    var self = this;
-
-    self.doOverrideSort = doc['doOverrideSort'];
-    self.Key = ko.observable(doc.name);
-    self.Query = ko.observable(doc["query"]);
-    self.Index = ko.observable(doc.index);
-    self.Cards = ko.observableArray(doc.data);
-}
-
-const asyncForEach = async (array, callback) => {
-    for (let index = 0; index < array.length; index++) {
-        await callback(array[index], index, array)
-    }
-}
-
 var rawData = {"McD91-92":{
     "name": "1991-92 Upper Deck McDonald's All-Stars",
      "years": "1991-92", "makers": "Upper Deck", 
      "key": "McD91-92", 
-          "category": "Upper Deck McDonald's",
+          "category": "Upper Deck",
 
      "total-cards": 25,
       "tcdb-href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
@@ -222,7 +190,7 @@ var rawData = {"McD91-92":{
     { "name": "1992-93 Upper Deck McDonald's All-Stars",
      "years": "1992-93", "makers": "Upper Deck", 
      "key": "McD92-93", 
-     "category": "Upper Deck McDonald's",
+    "category": "Upper Deck",
      "total-cards": 28,
       "tcdb-href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
     "cards": [
@@ -274,7 +242,7 @@ var rawData = {"McD91-92":{
     { "name": "1993-94 Upper Deck McDonald's NHL All-Stars",
      "years": "1993-94", "makers": "Upper Deck", 
      "key": "McD93-94", 
-     "category": "Upper Deck McDonald's",
+    "category": "Upper Deck",
      "total-cards": 28,
       "tcdb-href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
     "cards": [
@@ -326,7 +294,7 @@ var rawData = {"McD91-92":{
     { "name": "1994-95 Upper Deck McDonald's",
      "years": "1994-95", "makers": "Upper Deck", 
      "key": "McD94-95", 
-     "category": "Upper Deck McDonald's",
+    "category": "Upper Deck",
      "total-cards": 40,
             "tcdb-href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
     "cards": [
@@ -371,5 +339,62 @@ var rawData = {"McD91-92":{
                 { "name": "Mikael Renberg", "number": "McD-39", "team": "Philadelphia Flyers", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-McD-39Fr.jpg", "image-back": "img/cards/McD94-95/62943-McD-39Bk.jpg" },
                 { "name": "Mike Richter CL", "number": "NNO", "team": "New York Rangers", "orientation": "landscape", "image-front": "img/cards/McD94-95/62943-NNOFr.jpg", "image-back": "img/cards/McD94-95/62943-NNOBk.jpg" }
     ]
+},"McD95-96":
+    { "name": "1995-96 Pinnacle McDonald's",
+     "years": "1995-96", "makers": "Pinnacle", 
+     "key": "McD95-96", 
+    "category": "Pinnacle",
+     "total-cards": 40,
+      "tcdb-href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+    "cards": [
+        { "name": "Jaromir Jagr GW", "number": "McD-01", "team": "Pittsburgh Penguins", "image-front": "img/cards/McD95-96/62768-McD-1Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-1Bk.jpg" },
+        { "name": "Eric Lindros GW", "number": "McD-02", "team": "Philadelphia Flyers", "image-front": "img/cards/McD95-96/62768-McD-2Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-2Bk.jpg" },
+        { "name": "Alexei Zhamnov GW", "number": "McD-03", "team": "Winnipeg Jets", "image-front": "img/cards/McD95-96/62768-McD-3Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-3Bk.jpg" },
+        { "name": "Paul Coffey GW", "number": "McD-04", "team": "Detroit Red Wings", "image-front": "img/cards/McD95-96/62768-McD-4Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-4Bk.jpg" },
+        { "name": "Mark Messier GW", "number": "McD-05", "team": "New York Rangers", "image-front": "img/cards/McD95-96/62768-McD-5Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-5Bk.jpg" },
+        { "name": "Brett Hull GW", "number": "McD-06", "team": "St. Louis Blues", "image-front": "img/cards/McD95-96/62768-McD-6Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-6Bk.jpg" },
+        { "name": "Peter Forsberg GW", "number": "McD-07", "team": "Colorado Avalanche", "image-front": "img/cards/McD95-96/62768-McD-7Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-7Bk.jpg" },
+        { "name": "Pavel Bure GW", "number": "McD-08", "team": "Vancouver Canucks", "image-front": "img/cards/McD95-96/62768-McD-8Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-8Bk.jpg" },
+        { "name": "Doug Gilmour GW", "number": "McD-09", "team": "Toronto Maple Leafs", "image-front": "img/cards/McD95-96/62768-McD-9Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-9Bk.jpg" },
+        { "name": "Owen Nolan GW", "number": "McD-10", "team": "San Jose Sharks", "image-front": "img/cards/McD95-96/62768-McD-10Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-10Bk.jpg" },
+        { "name": "Paul Kariya GW", "number": "McD-11", "team": "Anaheim Mighty Ducks", "image-front": "img/cards/McD95-96/62768-McD-11Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-11Bk.jpg" },
+        { "name": "Joe Nieuwendyk GW", "number": "McD-12", "team": "Calgary Flames", "image-front": "img/cards/McD95-96/62768-McD-12Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-12Bk.jpg" },
+        { "name": "Pierre Turgeon GW", "number": "McD-13", "team": "Montreal Canadiens", "image-front": "img/cards/McD95-96/62768-McD-13Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-13Bk.jpg" },
+        { "name": "Jason Arnott GW", "number": "McD-14", "team": "Edmonton Oilers", "image-front": "img/cards/McD95-96/62768-McD-14Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-14Bk.jpg" },
+        { "name": "Mario Lemieux GW", "number": "McD-15", "team": "Pittsburgh Penguins", "image-front": "img/cards/McD95-96/62768-McD-15Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-15Bk.jpg" },
+        { "name": "Jeremy Roenick GW", "number": "McD-16", "team": "Chicago Blackhawks", "image-front": "img/cards/McD95-96/62768-McD-16Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-16Bk.jpg" },
+        { "name": "Sergei Fedorov GW", "number": "McD-17", "team": "Detroit Red Wings", "image-front": "img/cards/McD95-96/62768-McD-17Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-17Bk.jpg" },
+        { "name": "Mats Sundin GW", "number": "McD-18", "team": "Toronto Maple Leafs", "image-front": "img/cards/McD95-96/62768-McD-18Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-18Bk.jpg" },
+        { "name": "Teemu Selanne GW", "number": "McD-19", "team": "Winnipeg Jets", "image-front": "img/cards/McD95-96/62768-McD-19Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-19Bk.jpg" },
+        { "name": "John LeClair GW", "number": "McD-20", "team": "Philadelphia Flyers", "image-front": "img/cards/McD95-96/62768-McD-20Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-20Bk.jpg" },
+        { "name": "Alexander Mogilny GW", "number": "McD-21", "team": "Vancouver Canucks", "image-front": "img/cards/McD95-96/62768-McD-21Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-21Bk.jpg" },
+        { "name": "Mikael Renberg GW", "number": "McD-22", "team": "Philadelphia Flyers", "image-front": "img/cards/McD95-96/62768-McD-22Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-22Bk.jpg" },
+        { "name": "Chris Chelios GW", "number": "McD-23", "team": "Chicago Blackhawks", "image-front": "img/cards/McD95-96/62768-McD-23Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-23Bk.jpg" },
+        { "name": "Mark Recchi GW", "number": "McD-24", "team": "Montreal Canadiens", "image-front": "img/cards/McD95-96/62768-McD-24Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-24Bk.jpg" },
+        { "name": "Patrick Roy GS", "number": "McD-25", "team": "Montreal Canadiens", "image-front": "img/cards/McD95-96/62768-McD-25Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-25Bk.jpg" },
+        { "name": "Félix Potvin GS", "number": "McD-26", "team": "Toronto Maple Leafs", "image-front": "img/cards/McD95-96/62768-McD-26Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-26Bk.jpg" },
+        { "name": "Martin Brodeur GS", "number": "McD-27", "team": "New Jersey Devils", "image-front": "img/cards/McD95-96/62768-McD-27Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-27Bk.jpg" },
+        { "name": "Dominik Hasek GS", "number": "McD-28", "team": "Buffalo Sabres", "image-front": "img/cards/McD95-96/62768-McD-28Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-28Bk.jpg" },
+        { "name": "Ed Belfour GS", "number": "McD-29", "team": "Chicago Blackhawks", "image-front": "img/cards/McD95-96/62768-McD-29Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-29Bk.jpg" },
+        { "name": "Kirk McLean GS", "number": "McD-30", "team": "Vancouver Canucks", "image-front": "img/cards/McD95-96/62768-McD-30Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-30Bk.jpg" },
+        { "name": "Jeff Friesen FGW", "number": "McD-31", "team": "San Jose Sharks", "image-front": "img/cards/McD95-96/62768-McD-31Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-31Bk.jpg" },
+        { "name": "Todd Harvey FGW", "number": "McD-32", "team": "Dallas Stars", "image-front": "img/cards/McD95-96/62768-McD-32Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-32Bk.jpg" },
+        { "name": "Brett Lindros FGW", "number": "McD-33", "team": "New York Islanders", "image-front": "img/cards/McD95-96/62768-McD-33Fr.jpg", "image-back": "img/cards/McD95-96/62768-4098961RepBk.jpg" },
+        { "name": "Valeri Bure FGW", "number": "McD-34", "team": "Montreal Canadiens", "image-front": "img/cards/McD95-96/62768-4098962RepFr.jpg", "image-back": "img/cards/McD95-96/62768-4098962RepBk.jpg" },
+        { "name": "Oleg Tverdovsky FGW", "number": "McD-35", "team": "Anaheim Mighty Ducks", "image-front": "img/cards/McD95-96/62768-McD-35Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-35Bk.jpg" },
+        { "name": "Kenny Jonsson FGW", "number": "McD-36", "team": "Toronto Maple Leafs", "image-front": "img/cards/McD95-96/62768-McD-36Fr.jpg", "image-back": "img/cards/McD95-96/62768-McD-36Bk.jpg" },
+        { "name": "Mariusz Czerkawski FGW", "number": "McD-37", "team": "Boston Bruins", "image-front": "img/cards/McD95-96/62768-4098965RepFr.jpg", "image-back": "img/cards/McD95-96/62768-4098965RepBk.jpg" },
+        { "name": "Alexandre Daigle FGW", "number": "McD-38", "team": "Ottawa Senators", "image-front": "img/cards/McD95-96/62768-4098966RepFr.jpg", "image-back": "img/cards/McD95-96/62768-McD-38Bk.jpg" },
+        { "name": "Saku Koivu FGW", "number": "McD-39", "team": "Montreal Canadiens", "image-front": "img/cards/McD95-96/62768-4098967RepFr.jpg", "image-back": "img/cards/McD95-96/62768-McD-39Bk.jpg" },
+        { "name": "Jim Carey FGW", "number": "McD-40", "team": "Washington Capitals", "image-front": "img/cards/McD95-96/62768-4098968RepFr.jpg", "image-back": "img/cards/McD95-96/62768-4098968RepBk.jpg" }
+    ]
 }
 };
+
+if (rawData["McD95-96"] && rawData["McD95-96"].cards) {
+    rawData["McD95-96"].cards.forEach(function (card) {
+        if (/^McD-(0[1-9]|[12][0-9]|30)$/.test(card.number || '')) {
+            card.orientation = 'landscape';
+        }
+    });
+}
