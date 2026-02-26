@@ -1,0 +1,63 @@
+.collection-control-group {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.collection-control-title {
+    text-align: center;
+    align-self: center;
+}
+
+.btn-outline-light:not(:disabled):not(.disabled).active, .btn-outline-light:not(:disabled):not(.disabled):active, .show>.btn-outline-light.dropdown-toggle, .btn-outline-light:hover {
+    background: #A5B092;
+    border-color: #404E29;
+}
+
+.btn-outline-light {
+    border-color: #404E29;
+}
+
+.btn-sm {
+    padding: 2px 6px;
+}
+
+.header .btn-outline-light {
+    border-color: #f8f9fa;
+}
+
+/* menu button tweaks */
+.collections-inner {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.collection-group .btn {
+    /* remove extra spacing so buttons sit flush; borders will join naturally */
+    margin: 0;
+}
+
+/* collapse adjacent borders in a button group */
+.collection-group .btn + .btn {
+    margin-left: -1px;      /* overlap borders to avoid double-thick line */
+}
+
+.collection-group .btn:first-child {
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+.collection-group .btn:last-child {
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+/* ensure buttons in header have white text and highlight on hover/focus */
+.main-header .btn-outline-light {
+    color: #fff;
+}
+.main-header .btn-outline-light:hover,
+.main-header .btn-outline-light:focus {
+    color: #fff;
+    background-color: #828E6C;
+}

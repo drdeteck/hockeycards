@@ -1,0 +1,333 @@
+[
+    {
+        "key": "lands",
+        "cycles": [
+            {
+                "name": "checkland",
+                "query": "is:checkland"
+            },
+            {
+                "name": "shockland",
+                "query": "is:shockland"
+            },
+            {
+                "name": "fetchland",
+                "query": "is:fetchland"
+            },
+            {
+                "name": "bounceland",
+                "query": "is:bounceland"
+            },
+            {
+                "name": "fastland",
+                "query": "is:fastland"
+            },
+            {
+                "name": "scryland",
+                "query": "is:scryland"
+            },
+            {
+                "name": "painland",
+                "query": "is:painland"
+            },
+            {
+                "name": "shadowland",
+                "query": "is:shadowland"
+            },
+            {
+                "name": "filterland",
+                "query": "is:filterland"
+            },
+            {
+                "name": "cycleland",
+                "query": "is:cycleland"
+            },
+            {
+                "name": "triland",
+                "query": "is:triland"
+            },
+            {
+                "name": "tangoland",
+                "query": "is:tangoland"
+            }
+        ]
+    },
+    {
+        "key": "cycles",
+        "cycles": [
+            {
+                "name": "guilds charm",
+                "query": "charm c:m cmc:2"
+            },
+            {
+                "name": "dragon command",
+                "query": "command c:m r:r"
+            }
+        ]
+    },
+    {
+        "key": "edhWhite",
+        "cycles": [
+            {
+                "index": 1,
+                "name": "commander",
+                "top": 10,
+                "query": "f:commander c=w order:edhrec is:commander  prefer:usd-low"
+            },
+            {
+                "index": 2,
+                "name": "creatures",
+                "top": 10,
+                "query": "f:commander c=w order:edhrec -is:commander type:creature prefer:usd-low"
+            },
+            {
+                "index": 3,
+                "name": "instant",
+                "top": 10,
+                "query": "f:commander c=w order:edhrec type:instant prefer:usd-low"
+            },
+            {
+                "index": 4,
+                "name": "sorcery",
+                "top": 10,
+                "query": "f:commander c=w order:edhrec type:sorcery prefer:usd-low"
+            },
+            {
+                "index": 5,
+                "name": "enchantment",
+                "top": 10,
+                "query": "f:commander c=w order:edhrec type:enchantment prefer:usd-low"
+            },
+            {
+                "index": 6,
+                "name": "artifact",
+                "top": 10,
+                "query": "f:commander c=w order:edhrec type:artifact prefer:usd-low"
+            },
+            {
+                "index": 7,
+                "name": "planeswalker",
+                "top": 10,
+                "query": "f:commander c=w order:edhrec type:planeswalker prefer:usd-low"
+            },
+            {
+                "index": 8,
+                "name": "land",
+                "top": 10,
+                "query": "f:commander identity=w order:edhrec type:land prefer:usd-low"
+            }
+        ]
+    },
+    {
+        "key": "edhBlue",
+        "cycles": [
+            {
+                "index": 1,
+                "name": "commander",
+                "top": 10,
+                "query": "f:commander c=u order:edhrec is:commander prefer:usd-low"
+            },
+            {
+                "index": 2,
+                "name": "creatures",
+                "top": 10,
+                "query": "f:commander c=u order:edhrec -is:commander type:creature prefer:usd-low"
+            },
+            {
+                "index": 3,
+                "name": "instant",
+                "top": 10,
+                "query": "f:commander c=u order:edhrec type:instant prefer:usd-low"
+            },
+            {
+                "index": 4,
+                "name": "sorcery",
+                "top": 10,
+                "query": "f:commander c=u order:edhrec type:sorcery prefer:usd-low"
+            },
+            {
+                "index": 5,
+                "name": "enchantment",
+                "top": 10,
+                "query": "f:commander c=u order:edhrec type:enchantment prefer:usd-low"
+            },
+            {
+                "index": 6,
+                "name": "artifact",
+                "top": 10,
+                "query": "f:commander c=u order:edhrec type:artifact prefer:usd-low"
+            },
+            {
+                "index": 7,
+                "name": "planeswalker",
+                "top": 10,
+                "query": "f:commander c=u order:edhrec type:planeswalker prefer:usd-low"
+            },
+            {
+                "index": 8,
+                "name": "land",
+                "top": 10,
+                "query": "f:commander identity=u order:edhrec type:land prefer:usd-low"
+            }
+        ]
+    },
+    {
+        "key": "edhBlack",
+        "cycles": [
+            {
+                "index": 1,
+                "name": "commander",
+                "top": 10,
+                "query": "f:commander c=b order:edhrec is:commander prefer:usd-low"
+            },
+            {
+                "index": 2,
+                "name": "creatures",
+                "top": 10,
+                "query": "f:commander c=b order:edhrec -is:commander type:creature prefer:usd-low"
+            },
+            {
+                "index": 3,
+                "name": "instant",
+                "top": 10,
+                "query": "f:commander c=b order:edhrec type:instant prefer:usd-low"
+            },
+            {
+                "index": 4,
+                "name": "sorcery",
+                "top": 10,
+                "query": "f:commander c=b order:edhrec type:sorcery prefer:usd-low"
+            },
+            {
+                "index": 5,
+                "name": "enchantment",
+                "top": 10,
+                "query": "f:commander c=b order:edhrec type:enchantment prefer:usd-low"
+            },
+            {
+                "index": 6,
+                "name": "artifact",
+                "top": 10,
+                "query": "f:commander c=b order:edhrec type:artifact prefer:usd-low"
+            },
+            {
+                "index": 7,
+                "name": "planeswalker",
+                "top": 10,
+                "query": "f:commander c=b order:edhrec type:planeswalker prefer:usd-low"
+            },
+            {
+                "index": 8,
+                "name": "land",
+                "top": 10,
+                "query": "f:commander identity=b order:edhrec type:land prefer:usd-low"
+            }
+        ]
+    },
+    {
+        "key": "edhRed",
+        "cycles": [
+            {
+                "index": 1,
+                "name": "commander",
+                "top": 10,
+                "query": "f:commander c=r order:edhrec is:commander prefer:usd-low"
+            },
+            {
+                "index": 2,
+                "name": "creatures",
+                "top": 10,
+                "query": "f:commander c=r order:edhrec -is:commander type:creature prefer:usd-low"
+            },
+            {
+                "index": 3,
+                "name": "instant",
+                "top": 10,
+                "query": "f:commander c=r order:edhrec type:instant prefer:usd-low"
+            },
+            {
+                "index": 4,
+                "name": "sorcery",
+                "top": 10,
+                "query": "f:commander c=r order:edhrec type:sorcery prefer:usd-low"
+            },
+            {
+                "index": 5,
+                "name": "enchantment",
+                "top": 10,
+                "query": "f:commander c=r order:edhrec type:enchantment prefer:usd-low"
+            },
+            {
+                "index": 6,
+                "name": "artifact",
+                "top": 10,
+                "query": "f:commander c=r order:edhrec type:artifact prefer:usd-low"
+            },
+            {
+                "index": 7,
+                "name": "planeswalker",
+                "top": 10,
+                "query": "f:commander c=r order:edhrec type:planeswalker prefer:usd-low"
+            },
+            {
+                "index": 8,
+                "name": "land",
+                "top": 10,
+                "query": "f:commander identity=r order:edhrec type:land prefer:usd-low"
+            }
+        ]
+    },
+    {
+        "key": "edhGreen",
+        "cycles": [
+            {
+                "index": 1,
+                "name": "commander",
+                "top": 10,
+                "query": "f:commander c=g order:edhrec is:commander prefer:usd-low"
+            },
+            {
+                "index": 2,
+                "name": "creatures",
+                "top": 10,
+                "query": "f:commander c=g order:edhrec -is:commander type:creature prefer:usd-low"
+            },
+            {
+                "index": 3,
+                "name": "instant",
+                "top": 10,
+                "query": "f:commander c=g order:edhrec type:instant prefer:usd-low"
+            },
+            {
+                "index": 4,
+                "name": "sorcery",
+                "top": 10,
+                "query": "f:commander c=g order:edhrec type:sorcery prefer:usd-low"
+            },
+            {
+                "index": 5,
+                "name": "enchantment",
+                "top": 10,
+                "query": "f:commander c=g order:edhrec type:enchantment prefer:usd-low"
+            },
+            {
+                "index": 6,
+                "name": "artifact",
+                "top": 10,
+                "query": "f:commander c=g order:edhrec type:artifact prefer:usd-low"
+            },
+            {
+                "index": 7,
+                "name": "planeswalker",
+                "top": 10,
+                "query": "f:commander c=g order:edhrec type:planeswalker prefer:usd-low"
+            },
+            {
+                "index": 8,
+                "name": "land",
+                "top": 10,
+                "query": "f:commander identity=g order:edhrec type:land prefer:usd-low"
+            }
+        ]
+    }
+]
