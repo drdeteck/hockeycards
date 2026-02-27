@@ -171,6 +171,29 @@ function DataViewModel() {
         return '#' + ctx.collection.key;
     });
 
+    self.CardBrandLogoSymbol = ko.pureComputed(function () {
+        var ctx = self.CurrentCardContext();
+        if (!ctx || !ctx.collection) {
+            return '';
+        }
+
+        var haystack = [
+            ctx.collection.makers || '',
+            ctx.collection.category || '',
+            ctx.collection.name || ''
+        ].join(' ').toLowerCase();
+
+        if (haystack.indexOf('upper deck') !== -1) {
+            return '#logo-upperdeck';
+        }
+
+        return '';
+    });
+
+    self.HasCardBrandLogo = ko.pureComputed(function () {
+        return !!self.CardBrandLogoSymbol();
+    });
+
     self.CanTransformCard = ko.pureComputed(function () {
         var ctx = self.CurrentCardContext();
         return !!(ctx && ctx.card && ctx.card['image-back']);

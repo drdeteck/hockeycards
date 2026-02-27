@@ -74,6 +74,21 @@
     cursor: pointer;
 }
 
+.card-action-button,
+.card-profile-actions .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.icon-inline {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    flex: 0 0 auto;
+}
+
 .card-action-button:hover:not(:disabled) {
     background: #EEE9F9;
 }
@@ -351,10 +366,27 @@
     background-color: var(--color-dark-blue);
     color: var(--color-white);
     padding: 10px;
+    display: flex;
+    align-items: stretch;
+    gap: 8px;
+}
+
+.card-profile-prints-brand {
+    flex: 0 0 34px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-profile-prints-meta {
+    flex: 1 1 auto;
+    min-width: 0;
 }
 
 .card-profile-prints-set-name {
-    display: block;
+    display: flex;
+    align-items: center;
     margin: 0;
     padding: 0;
     border: 0;
@@ -369,6 +401,22 @@
     line-height: 19px;
     list-style: none;
     text-decoration: none;
+}
+
+.card-profile-prints-set-name > span {
+    min-width: 0;
+}
+
+.brand-logo {
+    width: 100%;
+    height: 100%;
+    max-width: 34px;
+    max-height: 40px;
+    display: block;
+    flex: 0 0 auto;
+    align-self: center;
+    color: currentColor;
+    opacity: 0.82;
 }
 
 .card-profile-prints-set-details {
