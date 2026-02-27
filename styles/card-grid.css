@@ -123,8 +123,8 @@
 }
 
 img.card {
-    -webkit-border-radius: 0;
-    border-radius: 0;
+    -webkit-border-radius: 4.75% / 3.5%;
+    border-radius: 4.75% / 3.5%;
     background-image: -webkit-repeating-linear-gradient(145deg, #DDD, #DDD 5px, #CCC 5px, #CCC 10px);
     background-image: -o-repeating-linear-gradient(145deg, #DDD, #DDD 5px, #CCC 5px, #CCC 10px);
     background-image: repeating-linear-gradient(-55deg, #DDD, #DDD 5px, #CCC 5px, #CCC 10px);

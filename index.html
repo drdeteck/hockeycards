@@ -10,6 +10,10 @@
     <!-- CHROME THEME COLOR -->
     <meta name="theme-color" content="#243847" />
     <title>Phil's Hockey Cards Collection</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -18,6 +22,7 @@
     <link rel='stylesheet' href='styles/card-grid-header.css?ver=0.0.1' type='text/css' />
     <link rel='stylesheet' href='styles/main-header.css?ver=0.0.1' type='text/css' media='all' />
     <link rel='stylesheet' href='styles/controls.css?ver=0.0.1' type='text/css' media='all' />
+    <link rel='stylesheet' href='styles/card-detail.css?ver=0.0.1' type='text/css' media='all' />
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
@@ -45,10 +50,12 @@
     <div class="main">
         <!-- Menu Rows -->
         <div class="main-inner"
-            data-bind="template: {name: 'menu-row-template', foreach: Root}, visible: CurrentRoute() !== 'about'"></div>
+            data-bind="template: {name: 'menu-row-template', foreach: Root}, visible: CurrentRoute() !== 'about'">
+        </div>
 
         <!-- HOME VIEW: Cards Grid -->
-        <div data-bind="visible: CurrentRoute() === 'home' || $root.CurrentCollection()">
+        <div
+            data-bind="visible: !IsCardView() && CurrentRoute() !== 'about' && ($root.CurrentRoute() === 'home' || $root.CurrentCollection())">
             <!-- bind directly to the 'cards' array on the active collection -->
             <div class="collection" data-bind="with: $root.CurrentCollection">
                 <h2 class="card-grid-header">
@@ -90,6 +97,110 @@
             </div>
         </div>
 
+        <!-- CARD VIEW -->
+        <div class="card-profile-page card-profile" data-bind="visible: IsCardView()">
+            <div class="inner-flex card-profile-wrap" data-bind="if: CurrentCardContext">
+                <div class="card-profile-grid" data-bind="with: CurrentCardContext">
+                    <section class="card-profile-image card-image">
+                        <div class="card-profile-image-front card-image-front">
+                            <img class="card-profile-card-image"
+                                data-bind="css: { 'card-landscape': card.orientation === 'landscape' }, attr: { src: $root.ParseImageUri(card), alt: (card.name || 'Card') + ' (' + (collection.name || '') + ' #' + (card.number || 'NNO') + ')', title: (card.name || 'Card') + ' (' + (collection.name || '') + ' #' + (card.number || 'NNO') + ')' }">
+                        </div>
+                    </section>
+
+                    <section class="card-profile-text card-text">
+                        <h1 class="card-profile-title card-text-title">
+                            <span class="card-text-card-name" data-bind="text: card.name || 'Unknown Card'"></span>
+                            <span class="card-profile-number" data-bind="text: '#' + (card.number || 'NNO')"></span>
+                        </h1>
+
+                        <p class="card-profile-type-line" data-bind="text: $root.CardTypeLine()"></p>
+                        <p class="card-profile-type-line card-profile-set-line">
+                            <span><strong>Set:</strong> </span><span data-bind="text: collection.name"></span>
+                        </p>
+
+                        <div class="card-profile-text-box">
+                            <p data-bind="visible: !!insert"><strong>Insert:</strong> <span
+                                    data-bind="text: insert && insert.name"></span></p>
+                        </div>
+
+                        <div class="card-profile-actions card-actions">
+                            <a class="btn btn-sm btn-outline-secondary"
+                                data-bind="attr: { href: $root.CardBackHref(), 'aria-label': 'Back to set ' + collection.name }">Back
+                                to set</a>
+                            <a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer"
+                                data-bind="attr: { href: $root.CardExternalHref(), 'aria-label': 'Open external page for ' + (card.name || 'card') }">Open
+                                external</a>
+                        </div>
+                    </section>
+
+                    <aside class="card-profile-prints prints">
+                        <div class="card-profile-prints-current">
+                            <div class="card-profile-prints-set-name" data-bind="text: collection.name"></div>
+                            <div class="card-profile-prints-set-details">
+                                <span data-bind="text: '#' + (card.number || 'NNO')"></span>
+                                <span> · </span>
+                                <span data-bind="text: insert ? 'Insert' : 'Base Set'"></span>
+                                <span> · English</span>
+                            </div>
+                        </div>
+
+                        <div class="card-profile-prints-spacer" aria-hidden="true"></div>
+
+                        <table class="card-profile-table prints-table card-related-table"
+                            data-bind="visible: $root.CardFacesParts().length">
+                            <thead>
+                                <tr>
+                                    <th>Faces, Parts & Related</th>
+                                </tr>
+                            </thead>
+                            <tbody data-bind="foreach: $root.CardFacesParts()">
+                                <tr>
+                                    <td>
+                                        <a
+                                            data-bind="text: card.name + ', ' + ((insert && insert.name) || collection.years || collection.name) + ' #' + (card.number || 'NNO'), attr: { href: $root.BuildCardRoute(card, insert || collection) }"></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table class="card-profile-table prints-table card-set-list-table">
+                            <thead>
+                                <tr>
+                                    <th>Other cards in this set</th>
+                                </tr>
+                            </thead>
+                            <tbody data-bind="foreach: $root.VisibleCardSetCards()">
+                                <tr
+                                    data-bind="css: { current: $root.IsCurrentCardRoute($root.BuildCardRoute($data, $parent.collection)) }">
+                                    <td>
+                                        <a
+                                            data-bind="text: (number || 'NNO') + ' - ' + (name || 'Card'), attr: { href: $root.BuildCardRoute($data, $parent.collection) }"></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tbody data-bind="if: $root.HasMoreSetCards()">
+                                <tr>
+                                    <td>
+                                        <button type="button" class="card-profile-soft-toggle"
+                                            data-bind="click: $root.ToggleShowAllSetCards, text: $root.ShowAllSetCards() ? 'Show less ←' : 'Show more →'"></button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </aside>
+                </div>
+            </div>
+
+            <!-- ko if: HasCardRouteError -->
+            <div class="card-profile-error">
+                <h1>Card Not Found</h1>
+                <p data-bind="text: CardRouteError"></p>
+                <p><a href="#home" style="color: #0066cc;">Back to Home</a></p>
+            </div>
+            <!-- /ko -->
+        </div>
+
         <!-- ABOUT VIEW -->
         <div data-bind="visible: CurrentRoute() === 'about'" style="padding: 20px;">
             <h1>About</h1>
@@ -98,7 +209,7 @@
         </div>
 
         <!-- DEFAULT/404 VIEW -->
-        <div data-bind="visible: CurrentRoute() !== 'home' && CurrentRoute() !== 'about' && !$root.CurrentCollection()"
+        <div data-bind="visible: !IsCardView() && CurrentRoute() !== 'home' && CurrentRoute() !== 'about' && !$root.CurrentCollection()"
             style="padding: 20px;">
             <h1>Page Not Found</h1>
             <p>Route: <span data-bind="text: CurrentRoute()"></span></p>
@@ -152,8 +263,9 @@
 
         <!-- expects a single card object in $data -->
     <li class="card-grid-item" data-bind="css: { 'card-landscape': $data.orientation === 'landscape' }">
-        <a class="card-grid-item-card" data-bind="css: { 'card-landscape': $data.orientation === 'landscape' },
-            attr: { href: ($data['tcdb-href'] || $data['image-front'] || $root.ParseImageUri($data) || '#') }">
+        <a class="card-grid-item-card"
+            data-bind="css: { 'card-landscape': $data.orientation === 'landscape' },
+            attr: { href: $root.BuildCardRoute($data, $parent), 'aria-label': 'Open card details for ' + (($data.name || 'Unknown') + ' ' + ($data.number || 'NNO')) }">
             <span class="card-grid-item-invisible-label" aria-hidden="true" data-bind="text: name"></span>
             <div class="card-grid-item-card-faces">
                 <div class="card-grid-item-card-front">
