@@ -42,6 +42,7 @@ function DataViewModel() {
     self.CurrentCardContext = ko.observable(null);
     self.CardRouteError = ko.observable('');
     self.ShowAllSetCards = ko.observable(false);
+    self.CardImageFace = ko.observable('front');
 
     // when the selected collection key changes (e.g. via menu radio), push it into the route
     self.CurrentCollectionKey.subscribe(function(key) {
@@ -169,6 +170,19 @@ function DataViewModel() {
         }
         return '#' + ctx.collection.key;
     });
+
+    self.CanTransformCard = ko.pureComputed(function () {
+        var ctx = self.CurrentCardContext();
+        return !!(ctx && ctx.card && ctx.card['image-back']);
+    });
+
+    self.ToggleCardFace = function () {
+        if (!self.CanTransformCard()) {
+            return;
+        }
+
+        self.CardImageFace(self.CardImageFace() === 'front' ? 'back' : 'front');
+    };
 
     self.NormalizeText = function (value) {
         return (value || '').toString().trim().toLowerCase();
@@ -413,6 +427,18 @@ function DataViewModel() {
         return '';
     };
 
+    self.ParseCardProfileImageUri = function (card) {
+        if (!card) {
+            return '';
+        }
+
+        if (self.CardImageFace() === 'back' && card['image-back']) {
+            return card['image-back'];
+        }
+
+        return card['image-front'] || card['image-back'] || '';
+    };
+
     // build menu rows automatically whenever the data changes
     self.MenuRows = ko.computed(function () {
         var d = self.Data() || {};
@@ -461,6 +487,7 @@ function DataViewModel() {
         var hash = window.location.hash.slice(1) || 'home';
         self.IsHandlingRoute = true;
         self.CurrentRoute(hash);
+        self.CardImageFace('front');
 
         var cardParts = self.CardRouteParts();
         if (cardParts) {
@@ -477,6 +504,7 @@ function DataViewModel() {
                 self.CurrentCardContext(result);
                 self.CardRouteError('');
                 self.ShowAllSetCards(false);
+                self.CardImageFace('front');
                 if (result.collection && result.collection.key) {
                     self.CurrentCollectionKey(result.collection.key);
                 }

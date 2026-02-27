@@ -101,11 +101,25 @@
         <div class="card-profile-page card-profile" data-bind="visible: IsCardView()">
             <div class="inner-flex card-profile-wrap" data-bind="if: CurrentCardContext">
                 <div class="card-profile-grid" data-bind="with: CurrentCardContext">
-                    <section class="card-profile-image card-image">
+                    <section class="card-profile-image card-image"
+                        data-bind="css: { 'flip-backside': $root.CardImageFace() === 'back' }">
                         <div class="card-profile-image-front card-image-front">
                             <img class="card-profile-card-image"
-                                data-bind="css: { 'card-landscape': card.orientation === 'landscape' }, attr: { src: $root.ParseImageUri(card), alt: (card.name || 'Card') + ' (' + (collection.name || '') + ' #' + (card.number || 'NNO') + ')', title: (card.name || 'Card') + ' (' + (collection.name || '') + ' #' + (card.number || 'NNO') + ')' }">
+                                data-bind="css: { 'card-landscape': card.orientation === 'landscape' }, attr: { src: card['image-front'] || card['image-back'] || '', alt: (card.name || 'Card') + ' (' + (collection.name || '') + ' #' + (card.number || 'NNO') + ')', title: (card.name || 'Card') + ' (' + (collection.name || '') + ' #' + (card.number || 'NNO') + ')' }">
                         </div>
+                        <div class="card-profile-image-back card-image-back">
+                            <img class="card-profile-card-image"
+                                data-bind="css: { 'card-landscape': card.orientation === 'landscape' }, attr: { src: card['image-back'] || card['image-front'] || '', alt: (card.name || 'Card') + ' back (' + (collection.name || '') + ' #' + (card.number || 'NNO') + ')', title: (card.name || 'Card') + ' back (' + (collection.name || '') + ' #' + (card.number || 'NNO') + ')' }">
+                        </div>
+                    </section>
+
+                    <section class="card-profile-image-actions card-actions" aria-label="Card actions">
+                        <button name="button" type="button" class="card-action-button button-n"
+                            data-bind="click: $root.ToggleCardFace, enable: $root.CanTransformCard, css: { 'is-active': $root.CardImageFace() === 'back' }"
+                            title="Transform Card">
+                            <span class="card-action-label"
+                                data-bind="text: $root.CardImageFace() === 'back' ? 'Show Front' : 'Show Back'"></span>
+                        </button>
                     </section>
 
                     <section class="card-profile-text card-text">
