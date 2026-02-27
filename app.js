@@ -187,6 +187,10 @@ function DataViewModel() {
             return '#logo-upperdeck';
         }
 
+        if (haystack.indexOf('pinnacle') !== -1) {
+            return '#logo-pinnacle';
+        }
+
         return '';
     });
 

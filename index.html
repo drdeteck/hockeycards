@@ -17,12 +17,12 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel='stylesheet' href='styles/style.css?ver=0.0.1' type='text/css' media='all' />
-    <link rel='stylesheet' href='styles/card-grid.css?ver=0.0.1' type='text/css' media='all' />
-    <link rel='stylesheet' href='styles/card-grid-header.css?ver=0.0.1' type='text/css' />
-    <link rel='stylesheet' href='styles/main-header.css?ver=0.0.1' type='text/css' media='all' />
-    <link rel='stylesheet' href='styles/controls.css?ver=0.0.1' type='text/css' media='all' />
-    <link rel='stylesheet' href='styles/card-detail.css?ver=0.0.1' type='text/css' media='all' />
+    <link rel='stylesheet' href='styles/style.css?ver=0.1.0' type='text/css' media='all' />
+    <link rel='stylesheet' href='styles/card-grid.css?ver=0.1.0' type='text/css' media='all' />
+    <link rel='stylesheet' href='styles/card-grid-header.css?ver=0.1.0' type='text/css' />
+    <link rel='stylesheet' href='styles/main-header.css?ver=0.1.0' type='text/css' media='all' />
+    <link rel='stylesheet' href='styles/controls.css?ver=0.1.0' type='text/css' media='all' />
+    <link rel='stylesheet' href='styles/card-detail.css?ver=0.1.0' type='text/css' media='all' />
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
@@ -50,6 +50,10 @@
             <path fill="currentColor" fill-opacity="0.72" fill-rule="evenodd" clip-rule="evenodd"
                 transform="translate(96.378 96.378) scale(0.94) translate(-96.378 -96.378)"
                 d="M171.73 114.688l11.863-10.262-1.318-2.799h-15.379l-3.295 3.498v-.699l-1.318-2.799h-14.279l-3.295 14.461c-.221-.234-.221-.701-.66-.934l-1.316-2.1c-.439-1.166-1.979-2.1-3.955-2.1-3.076-.232-5.932 1.4-6.371 3.5-.219.932 0 1.633.439 2.332l1.318 2.1c.439 1.166 1.977 2.098 4.174 2.332 2.416 0 4.613-.934 5.711-2.566l-1.316 5.598-.221 1.4 1.318 3.031H158.11l1.318-6.996 4.174 6.996H181.836l-3.295-4.432-6.811-9.561zM86.272 118.652l1.318-5.83-.439-.467h1.318l.439-1.633 1.318-6.297-1.318-2.799H64.304l-3.295 13.994c0-.234-.22-.467-.22-.467l-1.318-2.1c-.659-1.166-1.978-2.1-4.174-2.1-3.076-.232-5.712 1.4-6.371 3.266.22-2.1-.22-4.432-1.318-6.064-2.417-3.965-7.03-6.297-16.916-6.297H15.753L10.7 124.016l-.439 1.166 1.538 3.031h17.575c9.667 0 17.355-4.197 18.893-10.961.22-.234.22-.467.22-.701 0-.232.22-.465.22-.699 0-.232.22-.467.22-.699 0 .699.22 1.166.439 1.633l1.318 2.1c.659 1.166 2.197 2.098 4.174 2.332 2.197 0 4.174-.699 5.272-1.867l-1.098 4.898-.439 1.633 1.318 2.799H85.175l.22-1.633 1.538-6.064-.879-1.865v-.467h.218zm-57.337-2.099l.879-3.73h.659c.878 0 1.538 0 2.417.232-.44 1.633-1.978 2.799-3.955 3.498zM132.406 102.559c-2.416-.699-4.613-1.166-7.25-1.398H121.642c-9.008 0-17.576 5.131-19.553 12.127-1.098 3.5-.439 8.863 3.295 12.129 3.955 3.266 7.469 3.732 14.5 3.732 1.977 0 6.371-.467 8.566-.934l.439-1.631 1.758-8.164-.879-3.965c-1.098.465-1.318.932-2.416 1.398-2.197.699-4.174 1.166-5.932 1.4-1.758 0-2.637-.234-3.295-.701 1.098-2.564 4.395-3.498 7.25-3.498 2.416 0 4.393.934 6.15 1.865l.221-1.398 1.977-8.164-1.317-2.798zM100.332 115.154l-1.318-2.1c-.439-1.166-1.977-2.1-3.954-2.1-3.076-.232-5.932 1.4-6.371 3.5-.439.932-.22 1.633.439 2.332l1.318 2.1c.439 1.166 1.977 2.098 4.174 2.332 3.075 0 5.711-1.633 6.372-3.732.219-.699 0-1.632-.66-2.332zM48.047 64.308H33.329l-1.099 4.431-2.197 8.863c-.22 1.167-.659 2.1-2.417 2.566v-.466l3.075-12.595-1.318-2.798H14.436l-1.099 4.431-2.417 9.796C9.602 86.7 16.852 91.598 23.442 91.598c.878 0 1.538.233 2.416.233.659 0 1.538-.233 2.417-.233 9.227 0 16.256-3.032 17.794-9.563l.22-1.166v-.233l3.295-13.528-1.537-2.8zM179.859 76.669c.877-3.499.219-4.665-.66-6.53-1.537-3.499-5.932-5.831-12.303-5.831h-17.355l-1.098 4.431-4.613 19.592 1.318 3.032h14.498l.879-4.898 2.197 4.898h18.892l-3.295-4.432-3.734-5.131c3.077-.932 4.614-2.332 5.274-5.131zM141.854 81.334l1.537-5.831-.439-.467h1.318l.439-1.633 1.537-6.297-1.537-2.798h-25.264l-.879 4.431-1.318 4.898c0-.7-.219-1.399-.439-2.099l-1.318-2.566v-.233l-.219-.233c-1.318-2.799-5.492-4.198-11.205-4.198H86.053l-1.098 4.431-1.099 4.665c0-.699-.22-1.399-.659-1.866h.22l-1.318-2.799-.22-.233c-1.538-2.799-5.712-4.198-11.204-4.198H52.441l-1.099 4.431-4.613 19.826 1.318 2.799h14.499l.439-1.633 1.099-5.131h6.371c5.712 0 10.105-2.099 12.083-5.598l-2.196 9.563 1.318 2.799h14.499l.22-1.633 1.317-5.131h6.152c5.932 0 10.545-2.333 12.303-5.831l-2.197 9.562 1.318 3.032h25.482l.439-1.633 1.539-6.064-.879-1.866v-.466h.001zM8.724 61.742h175.528v-3.498H8.724v3.498zM8.504 99.061h175.529v-3.499H8.504v3.499zM8.724 136.146h175.528v-3.5H8.724v3.5z" />
+        </symbol>
+        <symbol id="logo-pinnacle" viewBox="0 0 249.60633 248.38587">
+            <path fill="currentColor" fill-opacity="0.82" transform="translate(-107.05196,-64.41831)"
+                d="m 167.52274,311.80036 -60.47078,-0.68709 9.71171,-12 c 15.39005,-19.01629 29.4246,-35.7474 32.65761,-38.93234 1.63712,-1.61279 7.59188,-8.67058 13.23279,-15.68399 5.64091,-7.0134 14.86423,-17.99385 20.49627,-24.40099 11.38109,-12.9474 42.89565,-49.76524 67.73462,-79.13302 8.92362,-10.55065 18.14278,-21.28299 20.48701,-23.84966 2.34423,-2.56667 13.94308,-16.01153 25.77522,-29.877477 18.27216,-21.412918 21.58287,-24.727114 21.97688,-22 0.25515,1.765944 3.70224,24.210807 7.66022,49.877477 10.48875,68.01735 29.87178,195.83615 29.87399,197 0.002,1.03066 -82.9684,0.89339 -189.13554,-0.31291 z m 67.72887,-52.2822 c 15.72528,-19.17098 28.75893,-34.30476 28.96365,-33.63061 0.47796,1.57388 9.77825,65.55459 9.77825,67.26878 0,0.79257 11.37208,1.29027 29.48172,1.29027 h 29.48173 l -0.82378,-4.39112 c -0.45308,-2.41512 -2.89769,-18.46512 -5.43246,-35.66667 -2.53478,-17.20155 -5.44246,-36.8855 -6.46152,-43.74212 -2.35984,-15.87792 1.299,-14.70806 -46.37953,-14.82914 l -40.87193,-0.1038 -26.58125,31.03309 c -33.89067,39.56671 -56.41303,66.1795 -56.41272,66.65823 1.4e-4,0.20617 12.75014,0.50864 28.33334,0.67214 l 28.33307,0.29728 z m 80.07524,-77.80931 c 0,-2.19464 -8.83429,-59.93347 -10.15959,-66.40064 l -0.77975,-3.80506 -4.197,5.11825 c -2.30835,2.81503 -15.24175,18.02731 -28.74089,33.80505 -13.49914,15.77775 -25.44213,29.73682 -26.53998,31.02015 -1.89396,2.21395 -0.14349,2.33334 34.21056,2.33334 31.84709,0 36.20665,-0.24938 36.20665,-2.07109 z" />
         </symbol>
     </svg>
 
@@ -121,29 +125,31 @@
         <div class="card-profile-page card-profile" data-bind="visible: IsCardView()">
             <div class="inner-flex card-profile-wrap" data-bind="if: CurrentCardContext">
                 <div class="card-profile-grid" data-bind="with: CurrentCardContext">
-                    <section class="card-profile-image card-image"
-                        data-bind="css: { 'flip-backside': $root.CardImageFace() === 'back' }">
-                        <div class="card-profile-image-front card-image-front">
-                            <img class="card-profile-card-image"
-                                data-bind="css: { 'card-landscape': card.orientation === 'landscape' }, attr: { src: card['image-front'] || card['image-back'] || '', alt: (card.name || 'Card') + ' (' + (collection.name || '') + ' #' + (card.number || 'NNO') + ')', title: (card.name || 'Card') + ' (' + (collection.name || '') + ' #' + (card.number || 'NNO') + ')' }">
-                        </div>
-                        <div class="card-profile-image-back card-image-back">
-                            <img class="card-profile-card-image"
-                                data-bind="css: { 'card-landscape': card.orientation === 'landscape' }, attr: { src: card['image-back'] || card['image-front'] || '', alt: (card.name || 'Card') + ' back (' + (collection.name || '') + ' #' + (card.number || 'NNO') + ')', title: (card.name || 'Card') + ' back (' + (collection.name || '') + ' #' + (card.number || 'NNO') + ')' }">
-                        </div>
-                    </section>
+                    <div class="card-profile-media">
+                        <section class="card-profile-image card-image"
+                            data-bind="css: { 'flip-backside': $root.CardImageFace() === 'back' }">
+                            <div class="card-profile-image-front card-image-front">
+                                <img class="card-profile-card-image"
+                                    data-bind="css: { 'card-landscape': card.orientation === 'landscape' }, attr: { src: card['image-front'] || card['image-back'] || '', alt: (card.name || 'Card') + ' (' + (collection.name || '') + ' #' + (card.number || 'NNO') + ')', title: (card.name || 'Card') + ' (' + (collection.name || '') + ' #' + (card.number || 'NNO') + ')' }">
+                            </div>
+                            <div class="card-profile-image-back card-image-back">
+                                <img class="card-profile-card-image"
+                                    data-bind="css: { 'card-landscape': card.orientation === 'landscape' }, attr: { src: card['image-back'] || card['image-front'] || '', alt: (card.name || 'Card') + ' back (' + (collection.name || '') + ' #' + (card.number || 'NNO') + ')', title: (card.name || 'Card') + ' back (' + (collection.name || '') + ' #' + (card.number || 'NNO') + ')' }">
+                            </div>
+                        </section>
 
-                    <section class="card-profile-image-actions card-actions" aria-label="Card actions">
-                        <button name="button" type="button" class="card-action-button button-n"
-                            data-bind="click: $root.ToggleCardFace, enable: $root.CanTransformCard, css: { 'is-active': $root.CardImageFace() === 'back' }"
-                            title="Transform Card">
-                            <svg class="icon-inline" aria-hidden="true" focusable="false">
-                                <use href="#icon-transform"></use>
-                            </svg>
-                            <span class="card-action-label"
-                                data-bind="text: $root.CardImageFace() === 'back' ? 'Show Front' : 'Show Back'"></span>
-                        </button>
-                    </section>
+                        <section class="card-profile-image-actions card-actions" aria-label="Card actions">
+                            <button name="button" type="button" class="card-action-button button-n"
+                                data-bind="click: $root.ToggleCardFace, enable: $root.CanTransformCard, css: { 'is-active': $root.CardImageFace() === 'back' }"
+                                title="Transform Card">
+                                <svg class="icon-inline" aria-hidden="true" focusable="false">
+                                    <use href="#icon-transform"></use>
+                                </svg>
+                                <span class="card-action-label"
+                                    data-bind="text: $root.CardImageFace() === 'back' ? 'Show Front' : 'Show Back'"></span>
+                            </button>
+                        </section>
+                    </div>
 
                     <section class="card-profile-text card-text">
                         <h1 class="card-profile-title card-text-title">
