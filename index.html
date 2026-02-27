@@ -18,18 +18,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel='stylesheet' href='styles/style.css?ver=0.1.0' type='text/css' media='all' />
-    <link rel='stylesheet' href='styles/card-grid.css?ver=0.1.0' type='text/css' media='all' />
+    <link rel='stylesheet' href='styles/card-grid.css?ver=0.1.2' type='text/css' media='all' />
     <link rel='stylesheet' href='styles/card-grid-header.css?ver=0.1.0' type='text/css' />
-    <link rel='stylesheet' href='styles/main-header.css?ver=0.1.0' type='text/css' media='all' />
-    <link rel='stylesheet' href='styles/controls.css?ver=0.1.0' type='text/css' media='all' />
+    <link rel='stylesheet' href='styles/main-header.css?ver=0.1.1' type='text/css' media='all' />
+    <link rel='stylesheet' href='styles/controls.css?ver=0.1.3' type='text/css' media='all' />
     <link rel='stylesheet' href='styles/card-detail.css?ver=0.1.0' type='text/css' media='all' />
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-    <script src="raw-data.js"></script>
-    <script src="app.js"></script>
+    <script src="data/mcdonalds-data.js"></script>
+    <script src="data/mario-lemieux-data.js"></script>
+    <script src="app.js?ver=0.1.9"></script>
 </head>
 
 <body>
@@ -82,14 +83,32 @@
             data-bind="visible: !IsCardView() && CurrentRoute() !== 'about' && ($root.CurrentRoute() === 'home' || $root.CurrentCollection())">
             <!-- bind directly to the 'cards' array on the active collection -->
             <div class="collection" data-bind="with: $root.CurrentCollection">
+                <!-- ko if: set_key === 'ML-all' -->
+                <!-- ko foreach: $root.CurrentCollectionYearGroups -->
+                <h2 class="card-grid-header">
+                    <span class="card-grid-header-inner">
+                        <span class="card-grid-header-content">
+                            <span data-bind="text: label">Year</span>
+                            <span class="card-grid-header-dot">• </span>
+                            <span data-bind="text: (cards || []).length + ' cards'">0 cards</span>
+                        </span>
+                    </span>
+                </h2>
+                <div class="card-grid">
+                    <ul class="card-grid-inner" data-bind="template: {name: 'card-template', foreach: cards}"></ul>
+                </div>
+                <!-- /ko -->
+                <!-- /ko -->
+
+                <!-- ko if: set_key !== 'ML-all' -->
                 <h2 class="card-grid-header">
                     <span class="card-grid-header-inner">
                         <span class="card-grid-header-content">
                             <!-- inside 'with', $data is the collection object -->
-                            <span data-bind="text: name">No set</span>
+                            <span data-bind="text: set_display_name || set_name">No set</span>
                             <span class="card-grid-header-dot">• </span>
                             <a target="_blank"
-                                data-bind="text: (cards || []).length + ' cards', attr: { href: $root.CurrentCollection()['tcdb-href'] || '#' }">0
+                                data-bind="text: (cards || []).length + ' cards', attr: { href: $root.CurrentCollection().set_tcdb_href || '#' }">0
                                 card</a>
                         </span>
                     </span>
@@ -104,10 +123,10 @@
                 <h2 class="card-grid-header">
                     <span class="card-grid-header-inner">
                         <span class="card-grid-header-content">
-                            <span data-bind="text: name">Insert</span>
+                            <span data-bind="text: set_display_name || set_name">Insert</span>
                             <span class="card-grid-header-dot">• </span>
                             <a target="_blank"
-                                data-bind="text: (cards || []).length + ' cards', attr: { href: $data['tcdb-href'] || '#' }">0
+                                data-bind="text: (cards || []).length + ' cards', attr: { href: $data.set_tcdb_href || '#' }">0
                                 card</a>
                         </span>
                     </span>
@@ -116,6 +135,7 @@
                     <ul class="card-grid-inner" data-bind="template: {name: 'card-template', foreach: cards}">
                     </ul>
                 </div>
+                <!-- /ko -->
                 <!-- /ko -->
                 <!-- /ko -->
             </div>
@@ -130,11 +150,11 @@
                             data-bind="css: { 'flip-backside': $root.CardImageFace() === 'back' }">
                             <div class="card-profile-image-front card-image-front">
                                 <img class="card-profile-card-image"
-                                    data-bind="css: { 'card-landscape': card.orientation === 'landscape' }, attr: { src: card['image-front'] || card['image-back'] || '', alt: (card.name || 'Card') + ' (' + (collection.name || '') + ' #' + (card.number || 'NNO') + ')', title: (card.name || 'Card') + ' (' + (collection.name || '') + ' #' + (card.number || 'NNO') + ')' }">
+                                    data-bind="css: { 'card-landscape': card.orientation === 'landscape' }, attr: { src: card.image_front || card.image_back || '', alt: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.number || 'NNO') + ')', title: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.number || 'NNO') + ')' }">
                             </div>
                             <div class="card-profile-image-back card-image-back">
                                 <img class="card-profile-card-image"
-                                    data-bind="css: { 'card-landscape': card.orientation === 'landscape' }, attr: { src: card['image-back'] || card['image-front'] || '', alt: (card.name || 'Card') + ' back (' + (collection.name || '') + ' #' + (card.number || 'NNO') + ')', title: (card.name || 'Card') + ' back (' + (collection.name || '') + ' #' + (card.number || 'NNO') + ')' }">
+                                    data-bind="css: { 'card-landscape': card.orientation === 'landscape' }, attr: { src: card.image_back || card.image_front || '', alt: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.number || 'NNO') + ')', title: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.number || 'NNO') + ')' }">
                             </div>
                         </section>
 
@@ -154,7 +174,8 @@
                     <section class="card-profile-text card-text">
                         <h1 class="card-profile-title card-text-title">
                             <span class="card-text-card-name" data-bind="text: card.name || 'Unknown Card'"></span>
-                            <span class="card-profile-number" data-bind="text: '#' + (card.number || 'NNO')"></span>
+                            <span class="card-profile-number"
+                                data-bind="text: '#' + $root.CardCollectorNumberValue()"></span>
                         </h1>
 
                         <p class="card-profile-type-line">
@@ -167,11 +188,10 @@
                         <div class="card-profile-divider" aria-hidden="true"></div>
                         <p class="card-profile-type-line card-profile-secondary-line card-profile-year-line">
                             <span><strong>Year:</strong> </span><span
-                                data-bind="text: collection.years || 'Unknown' "></span>
+                                data-bind="text: card.set_year_label || collection.set_year_label || 'Unknown' "></span>
                         </p>
                         <p class="card-profile-type-line card-profile-secondary-line card-profile-set-line">
-                            <span><strong>Set:</strong> </span><span
-                                data-bind="text: collection['name-no-years'] || collection.name"></span>
+                            <span><strong>Set:</strong> </span><span data-bind="text: $root.CardSetDisplay()"></span>
                         </p>
                         <p class="card-profile-type-line card-profile-secondary-line card-profile-insert-line">
                             <span><strong>Insert:</strong> </span><span
@@ -180,7 +200,7 @@
 
                         <div class="card-profile-actions card-actions">
                             <a class="btn btn-sm btn-outline-secondary"
-                                data-bind="attr: { href: $root.CardBackHref(), 'aria-label': 'Back to set ' + collection.name }"><svg
+                                data-bind="attr: { href: $root.CardBackHref(), 'aria-label': 'Back to set ' + (collection.set_display_name || collection.set_name) }"><svg
                                     class="icon-inline" aria-hidden="true" focusable="false">
                                     <use href="#icon-back"></use>
                                 </svg>Back
@@ -202,14 +222,16 @@
                             </div>
                             <div class="card-profile-prints-meta">
                                 <div class="card-profile-prints-set-name">
-                                    <span data-bind="text: collection['name-no-years'] || collection.name"></span>
+                                    <span data-bind="text: $root.CardSetDisplay()"></span>
                                 </div>
                                 <div class="card-profile-prints-set-details">
-                                    <span data-bind="text: '#' + (card.number || 'NNO')"></span>
+                                    <span data-bind="text: '#' + $root.CardCollectorNumberValue()"></span>
                                     <span> · </span>
-                                    <span data-bind="text: insert ? 'Insert' : 'Base Set'"></span>
+                                    <span
+                                        data-bind="text: $root.CardInsertValue() === 'None' ? 'Base Set' : $root.CardInsertValue()"></span>
                                     <span> · </span>
-                                    <span data-bind="text: collection.years || 'Unknown' "></span>
+                                    <span
+                                        data-bind="text: card.set_year_label || collection.set_year_label || 'Unknown'"></span>
                                 </div>
                             </div>
                         </div>
@@ -227,7 +249,7 @@
                                 <tr>
                                     <td>
                                         <a
-                                            data-bind="text: card.name + ', ' + ((insert && insert.name) || collection.years || collection.name) + ' #' + (card.number || 'NNO'), attr: { href: $root.BuildCardRoute(card, insert || collection) }"></a>
+                                            data-bind="text: card.name + ', ' + ((insert && (insert.set_display_name || insert.set_name)) || collection.set_display_name || collection.set_name) + ' #' + (card.number || 'NNO'), attr: { href: $root.BuildCardRoute(card, insert || collection) }"></a>
                                     </td>
                                 </tr>
                             </tbody>
@@ -340,12 +362,12 @@
                 <div class="card-grid-item-card-front">
                     <img class="card" data-bind="attr: { 
                             src: $root.ParseImageUri($data),
-                            alt: ($data.name || '') + ' (' + ($data['set'] || '') + ')',
+                            alt: ($data.name || '') + ' (' + ($data.set_display_name || $data.set_name || '') + ')',
                             title: ($data.name || '') + ' (' + ($data.number || 'NNO') + ')' }">
                 </div>
             </div>
-            <!-- price removed: no prices in this project -->
         </a>
+        <div class="card-grid-item-meta" data-bind="text: $root.GetGridCardMeta($data)"></div>
     </li>
 
     </script>

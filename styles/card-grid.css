@@ -46,6 +46,18 @@
     margin-bottom: 40px;
 }
 
+.card-grid-item-meta {
+    display: block;
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 1.2;
+    color: var(--color-dark-blue);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .card-grid-item-card {
     display: block;
     position: relative;
