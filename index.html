@@ -114,15 +114,26 @@
                             <span class="card-profile-number" data-bind="text: '#' + (card.number || 'NNO')"></span>
                         </h1>
 
-                        <p class="card-profile-type-line" data-bind="text: $root.CardTypeLine()"></p>
-                        <p class="card-profile-type-line card-profile-set-line">
-                            <span><strong>Set:</strong> </span><span data-bind="text: collection.name"></span>
+                        <p class="card-profile-type-line">
+                            <span><strong>Team:</strong> </span><span data-bind="text: $root.CardTeamValue()"></span>
                         </p>
-
-                        <div class="card-profile-text-box">
-                            <p data-bind="visible: !!insert"><strong>Insert:</strong> <span
-                                    data-bind="text: insert && insert.name"></span></p>
-                        </div>
+                        <p class="card-profile-type-line">
+                            <span><strong>Position:</strong> </span><span
+                                data-bind="text: $root.CardPositionValue()"></span>
+                        </p>
+                        <div class="card-profile-divider" aria-hidden="true"></div>
+                        <p class="card-profile-type-line card-profile-secondary-line card-profile-year-line">
+                            <span><strong>Year:</strong> </span><span
+                                data-bind="text: collection.years || 'Unknown' "></span>
+                        </p>
+                        <p class="card-profile-type-line card-profile-secondary-line card-profile-set-line">
+                            <span><strong>Set:</strong> </span><span
+                                data-bind="text: collection['name-no-years'] || collection.name"></span>
+                        </p>
+                        <p class="card-profile-type-line card-profile-secondary-line card-profile-insert-line">
+                            <span><strong>Insert:</strong> </span><span
+                                data-bind="text: $root.CardInsertValue()"></span>
+                        </p>
 
                         <div class="card-profile-actions card-actions">
                             <a class="btn btn-sm btn-outline-secondary"
@@ -136,12 +147,14 @@
 
                     <aside class="card-profile-prints prints">
                         <div class="card-profile-prints-current">
-                            <div class="card-profile-prints-set-name" data-bind="text: collection.name"></div>
+                            <div class="card-profile-prints-set-name"
+                                data-bind="text: collection['name-no-years'] || collection.name"></div>
                             <div class="card-profile-prints-set-details">
                                 <span data-bind="text: '#' + (card.number || 'NNO')"></span>
                                 <span> · </span>
                                 <span data-bind="text: insert ? 'Insert' : 'Base Set'"></span>
-                                <span> · English</span>
+                                <span> · </span>
+                                <span data-bind="text: collection.years || 'Unknown' "></span>
                             </div>
                         </div>
 
@@ -172,10 +185,10 @@
                             </thead>
                             <tbody data-bind="foreach: $root.VisibleCardSetCards()">
                                 <tr
-                                    data-bind="css: { current: $root.IsCurrentCardRoute($root.BuildCardRoute($data, $parent.collection)) }">
+                                    data-bind="css: { current: $root.IsCurrentCardRoute($root.BuildCardRoute($data, $root.CardSetListContainer())) }">
                                     <td>
                                         <a
-                                            data-bind="text: (number || 'NNO') + ' - ' + (name || 'Card'), attr: { href: $root.BuildCardRoute($data, $parent.collection) }"></a>
+                                            data-bind="text: (number || 'NNO') + ' - ' + (name || 'Card'), attr: { href: $root.BuildCardRoute($data, $root.CardSetListContainer()) }"></a>
                                     </td>
                                 </tr>
                             </tbody>

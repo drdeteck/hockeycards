@@ -465,10 +465,131 @@ var rawData = {"McD91-92":{
 }
 };
 
+function buildNameNoYears(name) {
+    var rawName = (name || '').toString().trim();
+    if (!rawName) {
+        return '';
+    }
+    return rawName.replace(/^\d{4}-\d{2}\s+/, '');
+}
+
+function buildYears(setData, setKey) {
+    if (setData && setData.years) {
+        return setData.years;
+    }
+
+    var nameMatch = (((setData && setData.name) || '').toString()).match(/^(\d{4}-\d{2})\b/);
+    if (nameMatch && nameMatch[1]) {
+        return nameMatch[1];
+    }
+
+    var keyMatch = (setKey || '').toString().match(/(\d{2})-(\d{2})/);
+    if (keyMatch && keyMatch[1] && keyMatch[2]) {
+        var startTwoDigitYear = parseInt(keyMatch[1], 10);
+        var centuryPrefix = startTwoDigitYear >= 90 ? '19' : '20';
+        return centuryPrefix + keyMatch[1] + '-' + keyMatch[2];
+    }
+
+    return '';
+}
+
+var playerPositionByName = {
+    'Adam Oates': 'Center',
+    'Al Iafrate': 'Defense',
+    'Al MacInnis': 'Defense',
+    'Alexander Mogilny': 'Right Wing',
+    'Alexei Yashin': 'Center',
+    'Andy Moog': 'Goalie',
+    'Brett Hull': 'Right Wing',
+    'Brian Leetch': 'Defense',
+    'Cam Neely': 'Right Wing',
+    'Chris Chelios': 'Defense',
+    'Chris Osgood': 'Goalie',
+    'Curtis Joseph': 'Goalie',
+    'Damian Rhodes': 'Goalie',
+    'Dominik Hasek': 'Goalie',
+    'Doug Gilmour': 'Center',
+    'Ed Belfour': 'Goalie',
+    'Eric Lindros': 'Center',
+    'Felix Potvin': 'Goalie',
+    'Félix Potvin': 'Goalie',
+    'Gary Roberts': 'Left Wing',
+    'Grant Fuhr': 'Goalie',
+    'Jari Kurri': 'Right Wing',
+    'Jarome Iginla': 'Right Wing',
+    'Jaromir Jagr': 'Right Wing',
+    'Jeremy Roenick': 'Center',
+    'Joe Nieuwendyk': 'Center',
+    'Joe Sakic': 'Center',
+    'John LeClair': 'Left Wing',
+    'John Vanbiesbrouck': 'Goalie',
+    'Keith Tkachuk': 'Left Wing',
+    'Kirk McLean': 'Goalie',
+    'Luc Robitaille': 'Left Wing',
+    'Mario Lemieux': 'Center',
+    'Mark Messier': 'Center',
+    'Mark Recchi': 'Right Wing',
+    'Mike Modano': 'Center',
+    'Mike Richter': 'Goalie',
+    'Mike Vernon': 'Goalie',
+    'Patrick Roy': 'Goalie',
+    'Paul Coffey': 'Defense',
+    'Phil Housley': 'Defense',
+    'Pierre Turgeon': 'Center',
+    'Ray Bourque': 'Defense',
+    'Rob Blake': 'Defense',
+    'Rod Brind\'Amour': 'Center',
+    'Scott Stevens': 'Defense',
+    'Sergei Fedorov': 'Center',
+    'Steve Yzerman': 'Center',
+    'Teemu Selanne': 'Right Wing',
+    'Theoren Fleury': 'Right Wing',
+    'Trevor Linden': 'Center',
+    'Vincent Damphousse': 'Center',
+    'Walter Gretzky': 'Non-Player',
+    'Wayne Gretzky': 'Center'
+};
+
+function normalizeNameForPosition(name) {
+    return (name || '').toString().trim().replace(/\s+(GW|SP|FGW|CAG|GS|ROO|IB|CL)$/i, '');
+}
+
+function inferCardPosition(card) {
+    if (!card || card.position) {
+        return card && card.position;
+    }
+
+    var cardName = (card.name || '').toString().trim();
+    if (!cardName) {
+        return 'Unknown';
+    }
+
+    if (/checklist/i.test(cardName)) {
+        return 'Checklist';
+    }
+
+    if (/token/i.test(cardName)) {
+        return 'Token';
+    }
+
+    var normalizedName = normalizeNameForPosition(cardName);
+    if (playerPositionByName[normalizedName]) {
+        return playerPositionByName[normalizedName];
+    }
+
+    return 'Unknown';
+}
+
 Object.keys(rawData).forEach(function (setKey) {
     var setData = rawData[setKey] || {};
     var cards = setData.cards || [];
     var defaultOrientation = setData['card-default-orientation'];
+
+    setData['name-no-years'] = setData['name-no-years'] || buildNameNoYears(setData.name);
+    setData.years = setData.years || buildYears(setData, setKey);
+    cards.forEach(function (card) {
+        card.position = inferCardPosition(card);
+    });
 
     if (defaultOrientation) {
         cards.forEach(function (card) {
@@ -501,6 +622,12 @@ Object.keys(rawData).forEach(function (setKey) {
     (setData.inserts || []).forEach(function (insertSet) {
         var insertCards = insertSet.cards || [];
         var insertDefaultOrientation = insertSet['card-default-orientation'];
+
+        insertSet['name-no-years'] = insertSet['name-no-years'] || buildNameNoYears(insertSet.name);
+        insertSet.years = insertSet.years || setData.years || buildYears(insertSet, insertSet.key);
+        insertCards.forEach(function (card) {
+            card.position = inferCardPosition(card);
+        });
 
         if (insertDefaultOrientation) {
             insertCards.forEach(function (card) {

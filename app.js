@@ -249,9 +249,10 @@ function DataViewModel() {
             return [];
         }
 
-        var baseCards = (ctx.collection.cards || []).slice();
+        var listContainer = ctx.insert || ctx.collection;
+        var sourceCards = (listContainer.cards || []).slice();
 
-        var filteredCards = baseCards;
+        var filteredCards = sourceCards;
 
         filteredCards.sort(function (leftCard, rightCard) {
             var leftNumber = (leftCard && leftCard.number) || '';
@@ -260,6 +261,14 @@ function DataViewModel() {
         });
 
         return filteredCards;
+    });
+
+    self.CardSetListContainer = ko.pureComputed(function () {
+        var ctx = self.CurrentCardContext();
+        if (!ctx || !ctx.collection) {
+            return null;
+        }
+        return ctx.insert || ctx.collection;
     });
 
     self.VisibleCardSetCards = ko.pureComputed(function () {
@@ -308,6 +317,75 @@ function DataViewModel() {
         }
 
         return 'Team: Unknown';
+    });
+
+    self.CardTeamValue = ko.pureComputed(function () {
+        var ctx = self.CurrentCardContext();
+        if (!ctx || !ctx.card) {
+            return 'Unknown';
+        }
+
+        if (ctx.card.team) {
+            return ctx.card.team;
+        }
+
+        if (ctx.insert && ctx.insert.name) {
+            return ctx.insert.name;
+        }
+
+        return 'Unknown';
+    });
+
+    self.CardPositionLine = ko.pureComputed(function () {
+        var ctx = self.CurrentCardContext();
+        if (!ctx || !ctx.card) {
+            return 'Position: Unknown';
+        }
+
+        return 'Position: ' + (ctx.card.position || 'Unknown');
+    });
+
+    self.CardPositionValue = ko.pureComputed(function () {
+        var ctx = self.CurrentCardContext();
+        if (!ctx || !ctx.card) {
+            return 'Unknown';
+        }
+
+        return ctx.card.position || 'Unknown';
+    });
+
+    self.CardInsertLine = ko.pureComputed(function () {
+        var ctx = self.CurrentCardContext();
+        if (!ctx || !ctx.card) {
+            return 'Insert: None';
+        }
+
+        if (ctx.insert && ctx.insert['name-no-years']) {
+            return 'Insert: ' + ctx.insert['name-no-years'];
+        }
+
+        if (ctx.insert && ctx.insert.name) {
+            return 'Insert: ' + ctx.insert.name;
+        }
+
+        return 'Insert: None';
+    });
+
+    self.CardInsertValue = ko.pureComputed(function () {
+        var ctx = self.CurrentCardContext();
+        if (!ctx || !ctx.card) {
+            return 'None';
+        }
+
+        if (ctx.insert && ctx.insert['name-no-years']) {
+            return ctx.insert['name-no-years'];
+        }
+
+        if (ctx.insert && ctx.insert.name) {
+            return ctx.insert.name;
+        }
+
+        return 'None';
     });
 
     // computed access to the currently-selected collection
