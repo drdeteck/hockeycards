@@ -754,6 +754,21 @@ function DataViewModel() {
         return (setWithSubset + ' · ' + collectorNumber).trim();
     };
 
+    self.GetGridCardMetaMcDo = function (card) {
+        if (!card) {
+            return '';
+        }
+
+        var subset = (card.insert_subset || '').toString().trim();
+        var collectorNumber = (card.base_number || card.number || 'NNO').toString().trim();
+
+        if (!subset) {
+            return collectorNumber;
+        }
+
+        return (subset + ' · ' + collectorNumber).trim();
+    };
+
     self.ParseCardProfileImageUri = function (card) {
         if (!card) {
             return '';

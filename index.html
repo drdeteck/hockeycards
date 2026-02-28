@@ -95,7 +95,9 @@
                     </span>
                 </h2>
                 <div class="card-grid">
-                    <ul class="card-grid-inner" data-bind="template: {name: 'card-template', foreach: cards}"></ul>
+                    <ul class="card-grid-inner"
+                        data-bind="template: {name: (($root.CurrentCollection() && $root.CurrentCollection().source === 'mario') ? 'card-template-mario' : 'card-template-mcd'), foreach: cards}">
+                    </ul>
                 </div>
                 <!-- /ko -->
                 <!-- /ko -->
@@ -114,7 +116,9 @@
                     </span>
                 </h2>
                 <div class="card-grid">
-                    <ul class="card-grid-inner" data-bind="template: {name: 'card-template', foreach: cards}"></ul>
+                    <ul class="card-grid-inner"
+                        data-bind="template: {name: (($root.CurrentCollection() && $root.CurrentCollection().source === 'mario') ? 'card-template-mario' : 'card-template-mcd'), foreach: cards}">
+                    </ul>
                 </div>
 
                 <!-- renders any inner sets / inserts (e.g. Holograms) -->
@@ -132,7 +136,8 @@
                     </span>
                 </h2>
                 <div class="card-grid">
-                    <ul class="card-grid-inner" data-bind="template: {name: 'card-template', foreach: cards}">
+                    <ul class="card-grid-inner"
+                        data-bind="template: {name: (($root.CurrentCollection() && $root.CurrentCollection().source === 'mario') ? 'card-template-mario' : 'card-template-mcd'), foreach: cards}">
                     </ul>
                 </div>
                 <!-- /ko -->
@@ -350,7 +355,7 @@
             <span class="" data-bind="text: $data.displayName"></span>
         </label>
     </script>
-    <script type="text/html" id="card-template">
+    <script type="text/html" id="card-template-mario">
 
         <!-- expects a single card object in $data -->
     <li class="card-grid-item" data-bind="css: { 'card-landscape': $data.orientation === 'landscape' }">
@@ -368,6 +373,27 @@
             </div>
         </a>
         <div class="card-grid-item-meta" data-bind="text: $root.GetGridCardMeta($data)"></div>
+    </li>
+
+    </script>
+    <script type="text/html" id="card-template-mcd">
+
+        <!-- expects a single card object in $data -->
+    <li class="card-grid-item" data-bind="css: { 'card-landscape': $data.orientation === 'landscape' }">
+        <a class="card-grid-item-card"
+            data-bind="css: { 'card-landscape': $data.orientation === 'landscape' },
+            attr: { href: $root.BuildCardRoute($data, $parent), 'aria-label': 'Open card details for ' + (($data.name || 'Unknown') + ' ' + ($data.number || 'NNO')) }">
+            <span class="card-grid-item-invisible-label" aria-hidden="true" data-bind="text: name"></span>
+            <div class="card-grid-item-card-faces">
+                <div class="card-grid-item-card-front">
+                    <img class="card" data-bind="attr: { 
+                            src: $root.ParseImageUri($data),
+                            alt: ($data.name || '') + ' (' + ($data.set_display_name || $data.set_name || '') + ')',
+                            title: ($data.name || '') + ' (' + ($data.number || 'NNO') + ')' }">
+                </div>
+            </div>
+        </a>
+        <div class="card-grid-item-meta" data-bind="text: $root.GetGridCardMetaMcDo($data)"></div>
     </li>
 
     </script>
