@@ -26,8 +26,6 @@ window.HCHB = window.HCHB || {};
             App.ViewModel.Root = App.ViewModel.MenuRows;
 
             ko.applyBindings(App.ViewModel);
-            console.log('MenuRows at bind:', App.ViewModel.MenuRows());
-            console.log('Menu HTML:', document.querySelector('.main-inner')?.innerHTML);
 
             // Setup routing
             window.addEventListener('hashchange', App.ViewModel.HandleRouteChange);
@@ -480,15 +478,6 @@ function DataViewModel() {
         return items.slice(0, 5);
     });
 
-    self.CardPrints = ko.pureComputed(function () {
-        var ctx = self.CurrentCardContext();
-        if (!ctx || !ctx.card || !ctx.collection) {
-            return [];
-        }
-
-        return self.FindCardsByName(ctx.card.name);
-    });
-
     self.CardSetCards = ko.pureComputed(function () {
         var ctx = self.CurrentCardContext();
         if (!ctx || !ctx.collection) {
@@ -542,19 +531,6 @@ function DataViewModel() {
         return (ctx.card.set_name || ctx.collection.set_name || '').toString().trim();
     });
 
-    self.CardTypeLine = ko.pureComputed(function () {
-        var ctx = self.CurrentCardContext();
-        if (!ctx || !ctx.card) {
-            return '';
-        }
-
-        if (ctx.card.team) {
-            return 'Team: ' + self.NormalizeTeamName(ctx.card.team);
-        }
-
-        return 'Team: Unknown';
-    });
-
     self.NormalizeTeamName = function (team) {
         var normalized = (team || '').toString().trim();
         if (!normalized) {
@@ -586,15 +562,6 @@ function DataViewModel() {
         return (ctx.card.base_number || ctx.card.number || 'NNO').toString().trim();
     });
 
-    self.CardPositionLine = ko.pureComputed(function () {
-        var ctx = self.CurrentCardContext();
-        if (!ctx || !ctx.card) {
-            return 'Position: Unknown';
-        }
-
-        return 'Position: ' + (ctx.card.position || 'Unknown');
-    });
-
     self.CardPositionValue = ko.pureComputed(function () {
         var ctx = self.CurrentCardContext();
         if (!ctx || !ctx.card) {
@@ -602,23 +569,6 @@ function DataViewModel() {
         }
 
         return ctx.card.position || 'Unknown';
-    });
-
-    self.CardInsertLine = ko.pureComputed(function () {
-        var ctx = self.CurrentCardContext();
-        if (!ctx || !ctx.card) {
-            return 'Insert: None';
-        }
-
-        if (ctx.card.insert_subset) {
-            return 'Insert: ' + ctx.card.insert_subset;
-        }
-
-        if (ctx.insert && ctx.insert.set_name) {
-            return 'Insert: ' + ctx.insert.set_name;
-        }
-
-        return 'Insert: None';
     });
 
     self.CardInsertValue = ko.pureComputed(function () {
@@ -691,14 +641,6 @@ function DataViewModel() {
             });
     });
 
-    // log changes for debugging during development
-    self.CurrentCollection.subscribe(function(col) {
-        console.log('CurrentCollection changed', col && col.set_display_name, 'cards=', col && col.cards && col.cards.length, 'inserts=', col && col.inserts && col.inserts.length);
-        if (col && col.inserts) {
-            console.log('Inserts array:', col.inserts);
-        }
-    });
-
     // helper used by the card template to pick an image URL
     // (template uses $root.ParseImageUri so it must live on the root viewmodel)
     self.ParseImageUri = function (card) {
@@ -769,16 +711,13 @@ function DataViewModel() {
         return (subset + ' · ' + collectorNumber).trim();
     };
 
-    self.ParseCardProfileImageUri = function (card) {
-        if (!card) {
-            return '';
+    // unified dispatcher for the card-template: uses set name for mario, omits it for McD
+    self.GetCardGridMeta = function (card) {
+        var col = self.CurrentCollection();
+        if (col && col.source === 'mario') {
+            return self.GetGridCardMeta(card);
         }
-
-        if (self.CardImageFace() === 'back' && card.image_back) {
-            return card.image_back;
-        }
-
-        return card.image_front || card.image_back || '';
+        return self.GetGridCardMetaMcDo(card);
     };
 
     // build menu rows automatically whenever the data changes
@@ -874,18 +813,6 @@ function DataViewModel() {
     self.Root = self.MenuRows;
 
     // Route change handler
-    self.SetRoute = function (route) {
-        if (window.history && window.history.replaceState) {
-            window.history.replaceState(null, '', '#' + route);
-            self.CurrentRoute(route);
-            if (route !== 'home' && route !== 'about' && route.indexOf('card/') !== 0) {
-                self.CurrentCollectionKey(route);
-            }
-        } else {
-            window.location.hash = route;
-        }
-    };
-
     self.HandleRouteChange = function () {
         var hash = window.location.hash.slice(1) || 'home';
         self.IsHandlingRoute = true;
