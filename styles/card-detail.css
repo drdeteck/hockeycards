@@ -725,6 +725,11 @@
         gap: 4px;
     }
 
+    .card-profile-number {
+        font-size: 0.6em;
+        align-self: flex-end;
+    }
+
     .card-profile-type-line {
         font-size: 19px;
     }
