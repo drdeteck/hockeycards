@@ -230,7 +230,7 @@
     display: flex;
     justify-content: space-between;
     gap: 8px;
-    align-items: center;
+    align-items: baseline;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-flow: row wrap;
@@ -719,22 +719,19 @@
     }
 
     .card-profile-title {
-        font-size: 28px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 4px;
+        font-size: 20px;
+        align-items: baseline;
     }
 
     .card-profile-number {
-        font-size: 0.6em;
-        align-self: flex-end;
+        font-size: 0.75em;
     }
 
     .card-profile-type-line {
-        font-size: 19px;
+        font-size: 14px;
     }
 
     .card-profile-text-box p {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
