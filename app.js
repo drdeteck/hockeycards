@@ -720,6 +720,24 @@ function DataViewModel() {
         return self.GetGridCardMetaMcDo(card);
     };
 
+    self.IsCurrentCollectionMario = ko.pureComputed(function () {
+        var col = self.CurrentCollection();
+        return !!(col && col.source === 'mario');
+    });
+
+    self.GetEbaySearchUrl = function (card) {
+        if (!card) { return '#'; }
+        var parts = [];
+        var name = (card.name || '').toString().trim();
+        var displayName = (card.set_display_name || card.set_name || '').toString().trim();
+        var baseNumber = (card.base_number || card.number || '').toString().trim();
+        if (name) { parts.push(name); }
+        if (displayName) { parts.push(displayName); }
+        if (baseNumber) { parts.push(baseNumber); }
+        if (!parts.length) { return '#'; }
+        return 'https://www.ebay.com/sch/i.html?_nkw=' + encodeURIComponent(parts.join(' ')) + '&_sacat=212';
+    };
+
     // build menu rows automatically whenever the data changes
     self.MenuRows = ko.computed(function () {
         var d = self.Data() || {};
