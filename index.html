@@ -4,6 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Browse Phil's personal hockey card collection — McDonald's Upper Deck All-Stars (1991–99) and a complete Mario Lemieux set spanning 1985 to the late 1990s.">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Phil's Hockey Cards Collection">
+    <meta property="og:description" content="Browse Phil's personal hockey card collection — McDonald's Upper Deck All-Stars (1991–99) and a complete Mario Lemieux set spanning 1985 to the late 1990s.">
+    <meta property="og:type" content="website">
     <!-- MS APPLICATION -->
     <meta name="msapplication-TileColor" content="#243847" />
     <meta name="msapplication-TileImage" content="" />
@@ -318,10 +323,46 @@
         </div>
 
         <!-- ABOUT VIEW -->
-        <div data-bind="visible: CurrentRoute() === 'about'" style="padding: 20px;">
+        <div data-bind="visible: CurrentRoute() === 'about'" style="padding: 20px; max-width: 720px; margin: 0 auto;">
             <h1>About</h1>
-            <p>This is a Knockout.js application for browsing Phil's hockey card collection.</p>
-            <p><a href="#home" style="color: #0066cc;">Back to Home</a></p>
+            <p>
+                This is a personal collection browser for Phil's hockey cards.
+                It is a static single-page application built with
+                <a href="https://knockoutjs.com" target="_blank" rel="noopener noreferrer">Knockout.js</a>
+                and <a href="https://getbootstrap.com/docs/4.4/" target="_blank" rel="noopener noreferrer">Bootstrap 4</a>
+                — no server or build step required.
+            </p>
+            <h2>Collections</h2>
+            <ul>
+                <li>
+                    <strong>McDonald's All-Stars (1991–99)</strong> —
+                    Upper Deck promotional sets distributed through McDonald's Canada, including
+                    holograms, oversized cards, game-film inserts, and other parallels.
+                </li>
+                <li>
+                    <strong>Mario Lemieux</strong> —
+                    Cards spanning the 1985-86 rookie season through the late 1990s,
+                    covering O-Pee-Chee, Topps, Upper Deck, Pinnacle, and more.
+                </li>
+            </ul>
+            <h2>How to use</h2>
+            <ul>
+                <li>Select a set from the navigation bar at the top.</li>
+                <li>Click any card thumbnail to open the card detail view.</li>
+                <li>Use the <strong>Transform</strong> button on the detail view to flip the card and see the back.</li>
+                <li>Each card and set has its own shareable URL — just copy the address bar.</li>
+            </ul>
+            <h2>External links</h2>
+            <ul>
+                <li>
+                    <a href="https://www.tcdb.com" target="_blank" rel="noopener noreferrer">Trading Card Database (TCDB)</a>
+                    — authoritative reference for card numbers and set information.
+                </li>
+                <li>
+                    <a href="https://github.com/drdeteck/hockeycards" target="_blank" rel="noopener noreferrer">Source code on GitHub</a>
+                </li>
+            </ul>
+            <p><a href="#home" style="color: #0066cc;">← Back to Home</a></p>
         </div>
 
         <!-- DEFAULT/404 VIEW -->
