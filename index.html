@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel='stylesheet' href='styles/style.css?ver=0.1.0' type='text/css' media='all' />
-    <link rel='stylesheet' href='styles/card-grid.css?ver=0.1.3' type='text/css' media='all' />
+    <link rel='stylesheet' href='styles/card-grid.css?ver=0.1.4' type='text/css' media='all' />
     <link rel='stylesheet' href='styles/card-grid-header.css?ver=0.1.0' type='text/css' />
     <link rel='stylesheet' href='styles/main-header.css?ver=0.1.1' type='text/css' media='all' />
     <link rel='stylesheet' href='styles/controls.css?ver=0.1.3' type='text/css' media='all' />
@@ -405,7 +405,7 @@
             <a class="card-grid-item-tcdb-link" target="_blank" rel="noopener noreferrer"
                 data-bind="attr: { href: tcdb_href || '#', title: tcdb_href ? ('View on TCDB: ' + ($data.name || '')) : 'No TCDB link' },
                            css: { 'card-grid-item-tcdb-link--no-link': !tcdb_href }">
-                <svg class="icon-tcdb-card" aria-hidden="true" focusable="false">
+                <svg class="icon-tcdb-card" width="13" height="16" aria-hidden="true" focusable="false">
                     <use href="#logo-tcdb-card"></use>
                 </svg>
                 <span class="sr-only">TCDB</span>
