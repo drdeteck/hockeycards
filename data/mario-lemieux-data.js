@@ -2,7 +2,7 @@ window.marioCleanData = {
     "dataset": "mario-lemieux-clean",
     "version": "0.2.0",
     "player": "Mario Lemieux",
-    "updated_at": "2026-02-27",
+    "updated_at": "2026-03-02",
     "cards": [
         {
             "id": "ml-1985-86-opc-9",
@@ -1769,6 +1769,34 @@ window.marioCleanData = {
             "position": "Center"
         },
         {
+            "id": "ml-1995-96-pinnacle-mcdonalds-mcd-15",
+            "player_name": "Mario Lemieux",
+            "set_year_label": "1995-96",
+            "set_year_start": 1995,
+            "set_year_end": 1996,
+            "set_brand": "Pinnacle",
+            "set_name": "Pinnacle McDonald's",
+            "set_display_name": "1995-96 Pinnacle McDonald's",
+            "set_variant_note": null,
+            "insert_subset": "Game Winners",
+            "base_number": "McD-15",
+            "orientation": "landscape",
+            "orientation_source": "inferred-image",
+            "image_front": "img/cards/McD95-96/62768-McD-15Fr.jpg",
+            "image_back": "img/cards/McD95-96/62768-McD-15Bk.jpg",
+            "set_tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+            "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+            "status": "normalized",
+            "source": {
+                "type": "manual",
+                "reference": "canonical-source",
+                "row_index": null,
+                "imported_at": "2026-03-02"
+            },
+            "team": "Pittsburgh Penguins",
+            "position": "Center"
+        },
+        {
             "id": "ml-1990-91-score-sniper-337",
             "player_name": "Mario Lemieux",
             "set_year_label": "1990-91",
@@ -1883,6 +1911,6 @@ window.marioCleanData = {
     ],
     "collection_key": "mario-lemieux",
     "menu_key": "ML",
-    "image_folder": "img/mario-lemieux"
+    "image_folder": "img/cards/ML66"
 };
 
