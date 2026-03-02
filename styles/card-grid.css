@@ -101,6 +101,43 @@
     height: 16px;
 }
 
+.card-grid-item-tcdb-link {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    color: var(--color-dark-blue);
+    opacity: 0.65;
+    text-decoration: none;
+    -webkit-transition: opacity 0.15s;
+    transition: opacity 0.15s;
+}
+
+.card-grid-item-tcdb-link:hover,
+.card-grid-item-tcdb-link:focus {
+    opacity: 1;
+    color: var(--color-dark-blue);
+    text-decoration: none;
+}
+
+.card-grid-item-tcdb-link--no-link {
+    color: #c0392b;
+    opacity: 1;
+    cursor: default;
+    pointer-events: none;
+}
+
+.icon-tcdb-card {
+    width: 13px;
+    height: 16px;
+}
+
 .card-grid-item-card {
     display: block;
     position: relative;

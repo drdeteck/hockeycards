@@ -157,6 +157,10 @@ function DataViewModel() {
                 image_front: row.image_front || '',
                 image_back: row.image_back || '',
                 set_tcdb_href: row.set_tcdb_href || row.tcdb_href || '#',
+                tcdb_href: (function () {
+                    var url = row.tcdb_href || row.set_tcdb_href || '';
+                    return (url && url !== '#' && url.indexOf('http') === 0) ? url : '';
+                }()),
                 'mario-id': row.id || ''
             };
 
