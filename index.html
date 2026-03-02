@@ -208,7 +208,7 @@
                                 data-bind="text: '#' + $root.CardCollectorNumberValue()"></span>
                         </h1>
 
-                        <p class="card-profile-type-line">
+                        <p class="card-profile-type-line card-profile-secondary-line">
                             <span><strong>Team:</strong> </span><span data-bind="text: $root.CardTeamValue()"></span>
                         </p>
                         <p class="card-profile-type-line">
@@ -223,7 +223,7 @@
                         <p class="card-profile-type-line card-profile-secondary-line card-profile-set-line">
                             <span><strong>Set:</strong> </span><span data-bind="text: $root.CardSetDisplay()"></span>
                         </p>
-                        <p class="card-profile-type-line card-profile-secondary-line card-profile-insert-line">
+                        <p class="card-profile-type-line card-profile-secondary-line card-profile-insert-line" data-bind="visible: $root.CardHasInsert()">
                             <span><strong>Insert:</strong> </span><span
                                 data-bind="text: $root.CardInsertValue()"></span>
                         </p>
