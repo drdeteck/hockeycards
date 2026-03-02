@@ -592,6 +592,10 @@ function DataViewModel() {
         return 'None';
     });
 
+    self.CardHasInsert = ko.pureComputed(function () {
+        return self.CardInsertValue() !== 'None';
+    });
+
     // computed access to the currently-selected collection
     self.CurrentCollection = ko.pureComputed(function () {
         var d = self.Data() || {};
