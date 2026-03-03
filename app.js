@@ -83,15 +83,23 @@ function DataViewModel() {
         return Math.floor(seasonStart / 10) * 10 + 's';
     };
 
-    self.ComposeSetDisplayName = function (setYearLabel, setName) {
+    self.ComposeSetDisplayName = function (setYearLabel, setName, setVariation) {
         var yearText = (setYearLabel || '').toString().trim();
         var nameText = self.StripYearFromText(setName || '').toString().trim();
+        var variationText = (setVariation || '').toString().trim();
 
+        var baseName = '';
         if (yearText && nameText) {
-            return yearText + ' ' + nameText;
+            baseName = yearText + ' ' + nameText;
+        } else {
+            baseName = yearText || nameText || '';
         }
 
-        return yearText || nameText || '';
+        if (baseName && variationText) {
+            return baseName + ' (' + variationText + ')';
+        }
+
+        return baseName;
     };
 
     self.BuildMarioCollections = function (marioData) {
@@ -114,14 +122,15 @@ function DataViewModel() {
             var parsedYearEnd = parseInt(setData.set_year_end, 10);
             var seasonEnd = !isNaN(parsedYearEnd) ? parsedYearEnd : (self.GetSeasonEndYear(yearLabel) || null);
             var setName = setData.set_name || 'Unknown';
-            var setDisplayName = setData.set_display_name || self.ComposeSetDisplayName(yearLabel, setName);
+            var setVariation = setData.set_variation || '';
+            var setDisplayName = setData.set_display_name || self.ComposeSetDisplayName(yearLabel, setName, setVariation);
 
             // Build the proper set entry (with all cards from base + subsets)
             var properSetCards = [];
             var properSetSubsets = [];
 
             (setData.cards || []).forEach(function (row) {
-                var cardItem = self._buildMarioCardItem(row, setKey, yearLabel, seasonStart, seasonEnd, setName, setDisplayName, '');
+                var cardItem = self._buildMarioCardItem(row, setKey, yearLabel, seasonStart, seasonEnd, setName, setVariation, setDisplayName, '');
                 properSetCards.push(cardItem);
                 allCards.push(cardItem);
             });
@@ -129,7 +138,7 @@ function DataViewModel() {
             (setData.subsets || []).forEach(function (subset) {
                 var subCards = [];
                 (subset.cards || []).forEach(function (row) {
-                    var cardItem = self._buildMarioCardItem(row, subset.set_key, yearLabel, seasonStart, seasonEnd, setName, setDisplayName, subset.set_name);
+                    var cardItem = self._buildMarioCardItem(row, subset.set_key, yearLabel, seasonStart, seasonEnd, setName, setVariation, setDisplayName, subset.set_name);
                     subCards.push(cardItem);
                     allCards.push(cardItem);
                 });
@@ -151,6 +160,7 @@ function DataViewModel() {
             result[setKey] = {
                 set_key: setKey,
                 set_name: setName,
+                set_variation: setVariation || null,
                 set_year_label: yearLabel,
                 set_year_start: seasonStart,
                 set_year_end: seasonEnd,
@@ -237,7 +247,7 @@ function DataViewModel() {
         return result;
     };
 
-    self._buildMarioCardItem = function (row, routingSetKey, yearLabel, seasonStart, seasonEnd, setName, setDisplayName, subsetName) {
+    self._buildMarioCardItem = function (row, routingSetKey, yearLabel, seasonStart, seasonEnd, setName, setVariation, setDisplayName, subsetName) {
         var baseNumber = row.base_number || 'NNO';
         var tcdbHref = row.tcdb_href || '';
         return {
@@ -249,6 +259,7 @@ function DataViewModel() {
             orientation: row.orientation || 'unknown',
             variant_note: row.variant_note || null,
             set_name: setName,
+            set_variation: setVariation || null,
             set_year_label: yearLabel,
             set_year_start: seasonStart,
             set_year_end: seasonEnd,
@@ -588,7 +599,14 @@ function DataViewModel() {
             return '';
         }
 
-        return (ctx.card.set_name || ctx.collection.set_name || '').toString().trim();
+        var setName = (ctx.card.set_name || ctx.collection.set_name || '').toString().trim();
+        var variation = (ctx.card.set_variation || ctx.collection.set_variation || '').toString().trim();
+
+        if (setName && variation) {
+            return setName + ' (' + variation + ')';
+        }
+
+        return setName;
     });
 
     self.NormalizeTeamName = function (team) {
@@ -722,7 +740,14 @@ function DataViewModel() {
             return '';
         }
 
-        return self.StripYearFromText(rawSet);
+        var setName = self.StripYearFromText(rawSet);
+        var variation = (card.set_variation || '').toString().trim();
+
+        if (setName && variation) {
+            return setName + ' (' + variation + ')';
+        }
+
+        return setName;
     };
 
     self.StripYearFromText = function (value) {
