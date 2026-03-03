@@ -257,6 +257,8 @@ function DataViewModel() {
             team: row.team || 'Pittsburgh Penguins',
             position: row.position || 'Center',
             orientation: row.orientation || 'unknown',
+            orientation_front: row.orientation_front || row.orientation || 'unknown',
+            orientation_back: row.orientation_back || row.orientation || 'unknown',
             variant_note: row.variant_note || null,
             set_name: setName,
             set_variation: setVariation || null,
