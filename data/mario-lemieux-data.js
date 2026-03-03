@@ -540,7 +540,7 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1991-92-score-canadian-bilingual-365",
                     "base_number": "365",
-                    "orientation": "portrait",
+                    "orientation": "landscape",
                     "image_front": "img/cards/ML66/1991-92-Score-Canadian-Bilingual-365-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1991-92-Score-Canadian-Bilingual-365-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
@@ -1934,7 +1934,7 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1996-97-collectors-choice-210",
                     "base_number": "210",
-                    "orientation": "portrait",
+                    "orientation": "landscape",
                     "image_front": "img/cards/ML66/1996-97-Collector's-Choice-210-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1996-97-Collector's-Choice-210-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
