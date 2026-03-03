@@ -180,11 +180,11 @@
                             data-bind="css: { 'flip-backside': $root.CardImageFace() === 'back' }">
                             <div class="card-profile-image-front card-image-front">
                                 <img class="card-profile-card-image"
-                                    data-bind="css: { 'card-landscape': card.orientation === 'landscape' }, attr: { src: card.image_front || card.image_back || '', alt: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')', title: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')' }">
+                                    data-bind="css: { 'card-landscape': card.orientation_front === 'landscape' }, attr: { src: card.image_front || card.image_back || '', alt: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')', title: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')' }">
                             </div>
                             <div class="card-profile-image-back card-image-back">
                                 <img class="card-profile-card-image"
-                                    data-bind="css: { 'card-landscape': card.orientation === 'landscape' }, attr: { src: card.image_back || card.image_front || '', alt: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')', title: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')' }">
+                                    data-bind="css: { 'card-landscape': card.orientation_back === 'landscape' }, attr: { src: card.image_back || card.image_front || '', alt: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')', title: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')' }">
                             </div>
                         </section>
 
@@ -423,9 +423,9 @@
     <script type="text/html" id="card-template">
 
         <!-- expects a single card object in $data -->
-    <li class="card-grid-item" data-bind="css: { 'card-landscape': $data.orientation === 'landscape' }">
+    <li class="card-grid-item" data-bind="css: { 'card-landscape': $data.orientation_front === 'landscape' }">
         <a class="card-grid-item-card"
-            data-bind="css: { 'card-landscape': $data.orientation === 'landscape' },
+            data-bind="css: { 'card-landscape': $data.orientation_front === 'landscape' },
             attr: { href: $root.BuildCardRoute($data, $parent), 'aria-label': 'Open card details for ' + (($data.name || 'Unknown') + ' ' + ($data.base_number || $data.number || 'NNO')) }">
             <span class="card-grid-item-invisible-label" aria-hidden="true" data-bind="text: name"></span>
             <div class="card-grid-item-card-faces">

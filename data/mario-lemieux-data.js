@@ -1967,6 +1967,7 @@ window.marioLemieuxData = {
                     "id": "ml-1996-97-collectors-choice-210",
                     "base_number": "210",
                     "orientation": "landscape",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1996-97-Collector's-Choice-210-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1996-97-Collector's-Choice-210-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
