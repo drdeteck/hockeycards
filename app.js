@@ -416,6 +416,17 @@ function DataViewModel() {
             }
         }
 
+        // Fallback: use the card's own _parent_key when rendered outside a subset context
+        if (card && card._parent_key && card._set_key) {
+            var cardParentKey = card._parent_key;
+            var cardSubsetKey = card._set_key;
+            var cardPrefix = cardParentKey + '-';
+            if (cardSubsetKey.indexOf(cardPrefix) === 0) {
+                var cardSubsetSlug = cardSubsetKey.slice(cardPrefix.length);
+                return '#' + encodeURIComponent(cardParentKey) + '/' + encodeURIComponent(cardSubsetSlug) + '/' + encodeURIComponent(cardKey);
+            }
+        }
+
         var setKey = (card && card._set_key) || (collectionOrSubset && collectionOrSubset.set_key);
         if (!setKey) {
             var currentCollection = self.CurrentCollection();
