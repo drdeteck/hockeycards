@@ -1,6 +1,6 @@
 window.marioLemieuxData = {
     "dataset": "mario-lemieux",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "player": "Mario Lemieux",
     "updated_at": "2026-03-03",
     "image_folder": "img/cards/ML66",
@@ -299,26 +299,6 @@ window.marioLemieuxData = {
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
                 }
-            ],
-            "subsets": [
-                {
-                    "set_key": "1990-91-score-sniper",
-                    "set_name": "Sniper",
-                    "set_display_name": "1990-91 Score - Sniper",
-                    "set_tcdb_href": "",
-                    "cards": [
-                        {
-                            "id": "ml-1990-91-score-sniper-337",
-                            "base_number": "337",
-                            "orientation": "portrait",
-                            "image_front": "",
-                            "image_back": "",
-                            "tcdb_href": "",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center"
-                        }
-                    ]
-                }
             ]
         },
         "1990-91-score-canadian": {
@@ -340,6 +320,26 @@ window.marioLemieuxData = {
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1990-91-score-canadian-sniper",
+                    "set_name": "Sniper",
+                    "set_display_name": "1990-91 Score (Canadian) - Sniper",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1990-91-score-canadian-sniper-337",
+                            "base_number": "337",
+                            "orientation": "portrait",
+                            "image_front": "img/cards/ML66/1990-91-Score-Canadian-337-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1990-91-Score-Canadian-337-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
                 }
             ]
         },
@@ -427,16 +427,6 @@ window.marioLemieuxData = {
             "set_tcdb_href": "",
             "cards": [
                 {
-                    "id": "ml-1991-92-pinnacle-270",
-                    "base_number": "270",
-                    "orientation": "portrait",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                },
-                {
                     "id": "ml-1991-92-pinnacle-1",
                     "base_number": "1",
                     "orientation": "portrait",
@@ -456,6 +446,26 @@ window.marioLemieuxData = {
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
                 }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1991-92-pinnacle-team-pinnacle",
+                    "set_name": "Team Pinnacle",
+                    "set_display_name": "1991-92 Pinnacle - Team Pinnacle",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1991-92-pinnacle-team-pinnacle-b5",
+                            "base_number": "B5",
+                            "orientation": "landscape",
+                            "image_front": "img/cards/ML66/1991-92-Pinnacle---Team-Pinnacle-B5-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1991-92-Pinnacle---Team-Pinnacle-B5-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                }
             ]
         },
         "1991-92-pro-set": {
@@ -467,16 +477,6 @@ window.marioLemieuxData = {
             "set_display_name": "1991-92 Pro Set",
             "set_tcdb_href": "",
             "cards": [
-                {
-                    "id": "ml-1991-92-pro-set-170",
-                    "base_number": "170",
-                    "orientation": "portrait",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                },
                 {
                     "id": "ml-1991-92-pro-set-194",
                     "base_number": "194",
@@ -532,21 +532,42 @@ window.marioLemieuxData = {
         "1991-92-score": {
             "set_key": "1991-92-score",
             "set_name": "Score",
+            "set_variation": "American",
             "set_year_label": "1991-92",
             "set_year_start": 1991,
             "set_year_end": 1992,
-            "set_display_name": "1991-92 Score",
+            "set_display_name": "1991-92 Score (American)",
             "set_tcdb_href": "",
             "cards": [
                 {
-                    "id": "ml-1991-92-score-314",
-                    "base_number": "314",
+                    "id": "ml-1991-92-score-200",
+                    "base_number": "200",
                     "orientation": "portrait",
-                    "image_front": "",
-                    "image_back": "",
+                    "image_front": "img/cards/ML66/1991-92-Score-American-200-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1991-92-Score-American-200-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1991-92-score-hot-cards",
+                    "set_name": "Hot Cards",
+                    "set_display_name": "1991-92 Score (American) - Hot Cards",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1991-92-score-hot-cards-5",
+                            "base_number": "5",
+                            "orientation": "portrait",
+                            "image_front": "img/cards/ML66/1991-92-Score-American---Hot-Cards-5-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1991-92-Score-American---Hot-Cards-5-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
                 }
             ]
         },
@@ -560,6 +581,16 @@ window.marioLemieuxData = {
             "set_display_name": "1991-92 Score (Canadian Bilingual)",
             "set_tcdb_href": "",
             "cards": [
+                {
+                    "id": "ml-1991-92-score-canadian-bilingual-200",
+                    "base_number": "200",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1991-92-Score-Canadian-Bilingual-200-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1991-92-Score-Canadian-Bilingual-200-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
                 {
                     "id": "ml-1991-92-score-canadian-bilingual-316",
                     "base_number": "316",
@@ -582,6 +613,28 @@ window.marioLemieuxData = {
                 }
             ]
         },
+        "1991-92-score-canadian-english": {
+            "set_key": "1991-92-score-canadian-english",
+            "set_name": "Score",
+            "set_variation": "Canadian English",
+            "set_year_label": "1991-92",
+            "set_year_start": 1991,
+            "set_year_end": 1992,
+            "set_display_name": "1991-92 Score (Canadian English)",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1991-92-score-canadian-english-200",
+                    "base_number": "200",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1991-92-Score-Canadian-English-200-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1991-92-Score-Canadian-English-200-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
         "1991-92-upper-deck": {
             "set_key": "1991-92-upper-deck",
             "set_name": "Upper Deck",
@@ -591,24 +644,6 @@ window.marioLemieuxData = {
             "set_display_name": "1991-92 Upper Deck",
             "set_tcdb_href": "",
             "subsets": [
-                {
-                    "set_key": "1991-92-upper-deck-base-holding-stanley-cup",
-                    "set_name": "Base (Holding Stanley Cup)",
-                    "set_display_name": "1991-92 Upper Deck - Base (Holding Stanley Cup)",
-                    "set_tcdb_href": "",
-                    "cards": [
-                        {
-                            "id": "ml-1991-92-upper-deck-54",
-                            "base_number": "54",
-                            "orientation": "portrait",
-                            "image_front": "",
-                            "image_back": "",
-                            "tcdb_href": "",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center"
-                        }
-                    ]
-                },
                 {
                     "set_key": "1991-92-upper-deck-base",
                     "set_name": "Base",
@@ -624,6 +659,16 @@ window.marioLemieuxData = {
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4896/cid/11277860/1991-92-Upper-Deck-156-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center"
+                        },
+                        {
+                            "id": "ml-1991-92-upper-deck-611",
+                            "base_number": "611",
+                            "orientation": "portrait",
+                            "image_front": "img/cards/ML66/1991-92-Upper-Deck-611-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1991-92-Upper-Deck-611-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
                         }
                     ]
                 },
@@ -633,16 +678,6 @@ window.marioLemieuxData = {
                     "set_display_name": "1991-92 Upper Deck - Award Winner Holograms",
                     "set_tcdb_href": "",
                     "cards": [
-                        {
-                            "id": "ml-1991-92-upper-deck-aw8",
-                            "base_number": "AW8",
-                            "orientation": "portrait",
-                            "image_front": "",
-                            "image_back": "",
-                            "tcdb_href": "",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center"
-                        },
                         {
                             "id": "ml-1991-92-upper-deck-aw9",
                             "base_number": "AW9",
@@ -696,6 +731,76 @@ window.marioLemieuxData = {
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
+                },
+                {
+                    "id": "ml-1992-93-parkhurst-136",
+                    "base_number": "136",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Parkhurst-136-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Parkhurst-136-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1992-93-parkhurst-462",
+                    "base_number": "462",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Parkhurst-462-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Parkhurst-462-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1992-93-parkhurst-498",
+                    "base_number": "498",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Parkhurst-498-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Parkhurst-498-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1992-93-parkhurst-emerald-ice",
+                    "set_name": "Emerald Ice",
+                    "set_display_name": "1992-93 Parkhurst - Emerald Ice",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1992-93-parkhurst-emerald-ice-136",
+                            "base_number": "136",
+                            "orientation": "portrait",
+                            "image_front": "img/cards/ML66/1992-93-Parkhurst---Emerald-Ice-136-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1992-93-Parkhurst---Emerald-Ice-136-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-1992-93-parkhurst-emerald-ice-462",
+                            "base_number": "462",
+                            "orientation": "portrait",
+                            "image_front": "img/cards/ML66/1992-93-Parkhurst---Emerald-Ice-462-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1992-93-Parkhurst---Emerald-Ice-462-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-1992-93-parkhurst-emerald-ice-498",
+                            "base_number": "498",
+                            "orientation": "portrait",
+                            "image_front": "img/cards/ML66/1992-93-Parkhurst---Emerald-Ice-498-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1992-93-Parkhurst---Emerald-Ice-498-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
                 }
             ]
         },
@@ -2002,6 +2107,395 @@ window.marioLemieuxData = {
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
                             "variant_note": "Exchange"
+                        }
+                    ]
+                }
+            ]
+        },
+        "1992-93-o-pee-chee": {
+            "set_key": "1992-93-o-pee-chee",
+            "set_name": "O-Pee-Chee",
+            "set_year_label": "1992-93",
+            "set_year_start": 1992,
+            "set_year_end": 1993,
+            "set_display_name": "1992-93 O-Pee-Chee",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1992-93-opc-138",
+                    "base_number": "138",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-O-Pee-Chee-138-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-O-Pee-Chee-138-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1992-93-opc-240",
+                    "base_number": "240",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-O-Pee-Chee-240-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-O-Pee-Chee-240-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1992-93-opc-292",
+                    "base_number": "292",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-O-Pee-Chee-292-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-O-Pee-Chee-292-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1992-93-o-pee-chee-25th-anniversary",
+                    "set_name": "25th Anniversary",
+                    "set_display_name": "1992-93 O-Pee-Chee - 25th Anniversary",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1992-93-opc-25th-anniversary-18",
+                            "base_number": "18",
+                            "orientation": "portrait",
+                            "image_front": "img/cards/ML66/1992-93-O-Pee-Chee---25th-Anniversary-18-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1992-93-O-Pee-Chee---25th-Anniversary-18-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                }
+            ]
+        },
+        "1992-93-o-pee-chee-premier": {
+            "set_key": "1992-93-o-pee-chee-premier",
+            "set_name": "O-Pee-Chee Premier",
+            "set_year_label": "1992-93",
+            "set_year_start": 1992,
+            "set_year_end": 1993,
+            "set_display_name": "1992-93 O-Pee-Chee Premier",
+            "set_tcdb_href": "",
+            "subsets": [
+                {
+                    "set_key": "1992-93-o-pee-chee-premier-star-performers",
+                    "set_name": "Star Performers",
+                    "set_display_name": "1992-93 O-Pee-Chee Premier - Star Performers",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1992-93-opc-premier-star-performers-22",
+                            "base_number": "22",
+                            "orientation": "portrait",
+                            "image_front": "img/cards/ML66/1992-93-O-Pee-Chee-Premier---Star-Performers-22-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1992-93-O-Pee-Chee-Premier---Star-Performers-22-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                }
+            ]
+        },
+        "1992-93-panini-diana-durivage": {
+            "set_key": "1992-93-panini-diana-durivage",
+            "set_name": "Panini Diana Durivage",
+            "set_year_label": "1992-93",
+            "set_year_start": 1992,
+            "set_year_end": 1993,
+            "set_display_name": "1992-93 Panini Diana Durivage",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1992-93-panini-diana-durivage-8",
+                    "base_number": "8",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Panini-Diana-Durivage-8-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Panini-Diana-Durivage-8-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "1992-93-pinnacle": {
+            "set_key": "1992-93-pinnacle",
+            "set_name": "Pinnacle",
+            "set_year_label": "1992-93",
+            "set_year_start": 1992,
+            "set_year_end": 1993,
+            "set_display_name": "1992-93 Pinnacle",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1992-93-pinnacle-300",
+                    "base_number": "300",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Pinnacle-300-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Pinnacle-300-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "1992-93-pinnacle-canadian": {
+            "set_key": "1992-93-pinnacle-canadian",
+            "set_name": "Pinnacle",
+            "set_variation": "Canadian",
+            "set_year_label": "1992-93",
+            "set_year_start": 1992,
+            "set_year_end": 1993,
+            "set_display_name": "1992-93 Pinnacle (Canadian)",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1992-93-pinnacle-canadian-300",
+                    "base_number": "300",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Pinnacle-Canadian-300-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Pinnacle-Canadian-300-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "1992-93-pro-set": {
+            "set_key": "1992-93-pro-set",
+            "set_name": "Pro Set",
+            "set_year_label": "1992-93",
+            "set_year_start": 1992,
+            "set_year_end": 1993,
+            "set_display_name": "1992-93 Pro Set",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1992-93-pro-set-1",
+                    "base_number": "1",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Pro-Set-1-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Pro-Set-1-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1992-93-pro-set-139",
+                    "base_number": "139",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Pro-Set-139-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Pro-Set-139-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "1992-93-score": {
+            "set_key": "1992-93-score",
+            "set_name": "Score",
+            "set_year_label": "1992-93",
+            "set_year_start": 1992,
+            "set_year_end": 1993,
+            "set_display_name": "1992-93 Score",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1992-93-score-390",
+                    "base_number": "390",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Score-390-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Score-390-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1992-93-score-413",
+                    "base_number": "413",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Score-413-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Score-413-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1992-93-score-433",
+                    "base_number": "433",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Score-433-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Score-433-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1992-93-score-448",
+                    "base_number": "448",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Score-448-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Score-448-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1992-93-score-519",
+                    "base_number": "519",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Score-519-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Score-519-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "1992-93-score-canadian": {
+            "set_key": "1992-93-score-canadian",
+            "set_name": "Score",
+            "set_variation": "Canadian",
+            "set_year_label": "1992-93",
+            "set_year_start": 1992,
+            "set_year_end": 1993,
+            "set_display_name": "1992-93 Score (Canadian)",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1992-93-score-canadian-390",
+                    "base_number": "390",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Score-Canadian-390-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Score-Canadian-390-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1992-93-score-canadian-413",
+                    "base_number": "413",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Score-Canadian-413-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Score-Canadian-413-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1992-93-score-canadian-433",
+                    "base_number": "433",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Score-Canadian-433-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Score-Canadian-433-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1992-93-score-canadian-448",
+                    "base_number": "448",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Score-Canadian-448-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Score-Canadian-448-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1992-93-score-canadian-519",
+                    "base_number": "519",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Score-Canadian-519-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Score-Canadian-519-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "1992-93-topps": {
+            "set_key": "1992-93-topps",
+            "set_name": "Topps",
+            "set_year_label": "1992-93",
+            "set_year_start": 1992,
+            "set_year_end": 1993,
+            "set_display_name": "1992-93 Topps",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1992-93-topps-212",
+                    "base_number": "212",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Topps-212-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Topps-212-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1992-93-topps-265",
+                    "base_number": "265",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Topps-265-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Topps-265-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1992-93-topps-504",
+                    "base_number": "504",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Topps-504-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Topps-504-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1992-93-topps-gold",
+                    "set_name": "Gold",
+                    "set_display_name": "1992-93 Topps - Gold",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1992-93-topps-gold-212",
+                            "base_number": "212",
+                            "orientation": "portrait",
+                            "image_front": "img/cards/ML66/1992-93-Topps---Gold-212-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1992-93-Topps---Gold-212-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-1992-93-topps-gold-265",
+                            "base_number": "265",
+                            "orientation": "portrait",
+                            "image_front": "img/cards/ML66/1992-93-Topps---Gold-265-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1992-93-Topps---Gold-265-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-1992-93-topps-gold-504",
+                            "base_number": "504",
+                            "orientation": "portrait",
+                            "image_front": "img/cards/ML66/1992-93-Topps---Gold-504-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1992-93-Topps---Gold-504-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
                         }
                     ]
                 }
