@@ -109,7 +109,7 @@ function DataViewModel() {
             var properSetSubsets = [];
 
             (setData.cards || []).forEach(function (row) {
-                var cardItem = self._buildMarioCardItem(row, setData, setKey, yearLabel, seasonStart, seasonEnd, setName, setDisplayName, '', null);
+                var cardItem = self._buildMarioCardItem(row, setKey, yearLabel, seasonStart, seasonEnd, setName, setDisplayName, '');
                 properSetCards.push(cardItem);
                 allCards.push(cardItem);
             });
@@ -117,7 +117,7 @@ function DataViewModel() {
             (setData.subsets || []).forEach(function (subset) {
                 var subCards = [];
                 (subset.cards || []).forEach(function (row) {
-                    var cardItem = self._buildMarioCardItem(row, setData, subset.set_key, yearLabel, seasonStart, seasonEnd, setName, setDisplayName, subset.set_name, subset);
+                    var cardItem = self._buildMarioCardItem(row, subset.set_key, yearLabel, seasonStart, seasonEnd, setName, setDisplayName, subset.set_name);
                     subCards.push(cardItem);
                     allCards.push(cardItem);
                 });
@@ -224,7 +224,7 @@ function DataViewModel() {
         return result;
     };
 
-    self._buildMarioCardItem = function (row, setData, routingSetKey, yearLabel, seasonStart, seasonEnd, setName, setDisplayName, subsetName, subset) {
+    self._buildMarioCardItem = function (row, routingSetKey, yearLabel, seasonStart, seasonEnd, setName, setDisplayName, subsetName) {
         var baseNumber = row.base_number || 'NNO';
         var tcdbHref = row.tcdb_href || '';
         return {
