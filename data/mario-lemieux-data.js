@@ -1,6 +1,6 @@
 window.marioLemieuxData = {
     "dataset": "mario-lemieux",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "player": "Mario Lemieux",
     "updated_at": "2026-03-03",
     "image_folder": "img/cards/ML66",
@@ -279,13 +279,14 @@ window.marioLemieuxData = {
                 }
             ]
         },
-        "1990-91-score": {
-            "set_key": "1990-91-score",
+        "1990-91-score-american": {
+            "set_key": "1990-91-score-american",
             "set_name": "Score",
+            "set_variation": "American",
             "set_year_label": "1990-91",
             "set_year_start": 1990,
             "set_year_end": 1991,
-            "set_display_name": "1990-91 Score",
+            "set_display_name": "1990-91 Score (American)",
             "set_tcdb_href": "",
             "cards": [
                 {
@@ -296,19 +297,7 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1990-91-Score-American-2-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center",
-                    "variant_note": "American"
-                },
-                {
-                    "id": "ml-1990-91-score-canadian-2",
-                    "base_number": "2",
-                    "orientation": "portrait",
-                    "image_front": "img/cards/ML66/1990-91-Score-Canadian-2-Mario-LemieuxFr.jpg",
-                    "image_back": "img/cards/ML66/1990-91-Score-Canadian-2-Mario-LemieuxBk.jpg",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center",
-                    "variant_note": "Canadian"
+                    "position": "Center"
                 }
             ],
             "subsets": [
@@ -329,6 +318,28 @@ window.marioLemieuxData = {
                             "position": "Center"
                         }
                     ]
+                }
+            ]
+        },
+        "1990-91-score-canadian": {
+            "set_key": "1990-91-score-canadian",
+            "set_name": "Score",
+            "set_variation": "Canadian",
+            "set_year_label": "1990-91",
+            "set_year_start": 1990,
+            "set_year_end": 1991,
+            "set_display_name": "1990-91 Score (Canadian)",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1990-91-score-canadian-2",
+                    "base_number": "2",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1990-91-Score-Canadian-2-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1990-91-Score-Canadian-2-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
                 }
             ]
         },
@@ -381,7 +392,19 @@ window.marioLemieuxData = {
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
-                },
+                }
+            ]
+        },
+        "1990-91-upper-deck-french": {
+            "set_key": "1990-91-upper-deck-french",
+            "set_name": "Upper Deck",
+            "set_variation": "French",
+            "set_year_label": "1990-91",
+            "set_year_start": 1990,
+            "set_year_end": 1991,
+            "set_display_name": "1990-91 Upper Deck (French)",
+            "set_tcdb_href": "",
+            "cards": [
                 {
                     "id": "ml-1990-91-ud-french-144",
                     "base_number": "144",
@@ -390,8 +413,7 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1990-91-Upper-Deck-French-144-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center",
-                    "variant_note": "French"
+                    "position": "Center"
                 }
             ]
         },
@@ -525,7 +547,19 @@ window.marioLemieuxData = {
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
-                },
+                }
+            ]
+        },
+        "1991-92-score-canadian-bilingual": {
+            "set_key": "1991-92-score-canadian-bilingual",
+            "set_name": "Score",
+            "set_variation": "Canadian Bilingual",
+            "set_year_label": "1991-92",
+            "set_year_start": 1991,
+            "set_year_end": 1992,
+            "set_display_name": "1991-92 Score (Canadian Bilingual)",
+            "set_tcdb_href": "",
+            "cards": [
                 {
                     "id": "ml-1991-92-score-canadian-bilingual-316",
                     "base_number": "316",
@@ -534,8 +568,7 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1991-92-Score-Canadian-Bilingual-316-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center",
-                    "variant_note": "Canadian Bilingual"
+                    "position": "Center"
                 },
                 {
                     "id": "ml-1991-92-score-canadian-bilingual-365",
@@ -545,8 +578,7 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1991-92-Score-Canadian-Bilingual-365-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center",
-                    "variant_note": "Canadian Bilingual"
+                    "position": "Center"
                 }
             ]
         },
