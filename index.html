@@ -146,9 +146,9 @@
                     </ul>
                 </div>
 
-                <!-- renders any inner sets / inserts (e.g. Holograms) -->
-                <!-- ko if: $root.CurrentCollection() && $root.CurrentCollection().inserts && $root.CurrentCollection().inserts.length -->
-                <!-- ko foreach: $root.CurrentCollection().inserts -->
+                <!-- renders any inner sets / subsets (e.g. Holograms) -->
+                <!-- ko if: $root.CurrentCollection() && $root.CurrentCollection().subsets && $root.CurrentCollection().subsets.length -->
+                <!-- ko foreach: $root.CurrentCollection().subsets -->
                 <h2 class="card-grid-header">
                     <span class="card-grid-header-inner">
                         <span class="card-grid-header-content">
@@ -180,11 +180,11 @@
                             data-bind="css: { 'flip-backside': $root.CardImageFace() === 'back' }">
                             <div class="card-profile-image-front card-image-front">
                                 <img class="card-profile-card-image"
-                                    data-bind="css: { 'card-landscape': card.orientation === 'landscape' }, attr: { src: card.image_front || card.image_back || '', alt: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.number || 'NNO') + ')', title: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.number || 'NNO') + ')' }">
+                                    data-bind="css: { 'card-landscape': card.orientation === 'landscape' }, attr: { src: card.image_front || card.image_back || '', alt: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')', title: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')' }">
                             </div>
                             <div class="card-profile-image-back card-image-back">
                                 <img class="card-profile-card-image"
-                                    data-bind="css: { 'card-landscape': card.orientation === 'landscape' }, attr: { src: card.image_back || card.image_front || '', alt: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.number || 'NNO') + ')', title: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.number || 'NNO') + ')' }">
+                                    data-bind="css: { 'card-landscape': card.orientation === 'landscape' }, attr: { src: card.image_back || card.image_front || '', alt: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')', title: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')' }">
                             </div>
                         </section>
 
@@ -296,7 +296,7 @@
                                     data-bind="css: { current: $root.IsCurrentCardRoute($root.BuildCardRoute($data, $root.CardSetListContainer())) }">
                                     <td>
                                         <a
-                                            data-bind="text: (number || 'NNO') + ' - ' + (name || 'Card'), attr: { href: $root.BuildCardRoute($data, $root.CardSetListContainer()) }"></a>
+                                            data-bind="text: (base_number || number || 'NNO') + ' - ' + (name || 'Card'), attr: { href: $root.BuildCardRoute($data, $root.CardSetListContainer()) }"></a>
                                     </td>
                                 </tr>
                             </tbody>
@@ -426,14 +426,14 @@
     <li class="card-grid-item" data-bind="css: { 'card-landscape': $data.orientation === 'landscape' }">
         <a class="card-grid-item-card"
             data-bind="css: { 'card-landscape': $data.orientation === 'landscape' },
-            attr: { href: $root.BuildCardRoute($data, $parent), 'aria-label': 'Open card details for ' + (($data.name || 'Unknown') + ' ' + ($data.number || 'NNO')) }">
+            attr: { href: $root.BuildCardRoute($data, $parent), 'aria-label': 'Open card details for ' + (($data.name || 'Unknown') + ' ' + ($data.base_number || $data.number || 'NNO')) }">
             <span class="card-grid-item-invisible-label" aria-hidden="true" data-bind="text: name"></span>
             <div class="card-grid-item-card-faces">
                 <div class="card-grid-item-card-front">
                     <img class="card" data-bind="attr: { 
                             src: $root.ParseImageUri($data),
                             alt: ($data.name || '') + ' (' + ($data.set_display_name || $data.set_name || '') + ')',
-                            title: ($data.name || '') + ' (' + ($data.number || 'NNO') + ')' }">
+                            title: ($data.name || '') + ' (' + ($data.base_number || $data.number || 'NNO') + ')' }">
                 </div>
             </div>
         </a>
@@ -448,8 +448,8 @@
                 <span class="sr-only">eBay</span>
             </a>
             <a class="card-grid-item-tcdb-link" target="_blank" rel="noopener noreferrer"
-                data-bind="attr: { href: tcdb_href || '#', title: tcdb_href ? ('View on TCDB: ' + ($data.name || '')) : 'No TCDB link' },
-                           css: { 'card-grid-item-tcdb-link--no-link': !tcdb_href }">
+                data-bind="attr: { href: tcdb_href || ($parent && $parent.set_tcdb_href) || '#', title: (tcdb_href || ($parent && $parent.set_tcdb_href)) ? ('View on TCDB: ' + ($data.name || '')) : 'No TCDB link' },
+                           css: { 'card-grid-item-tcdb-link--no-link': !(tcdb_href || ($parent && $parent.set_tcdb_href)) }">
                 <svg class="icon-tcdb-card" width="13" height="16" aria-hidden="true" focusable="false">
                     <use href="#logo-tcdb-card"></use>
                 </svg>

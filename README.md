@@ -19,7 +19,7 @@ A static single-page web application for browsing a personal hockey card collect
 
 - **Card grid** — browse a set by thumbnail with collector number and insert label
 - **Card detail view** — full-size front/back image with a CSS flip animation
-- **Deep-link routing** — every card and set has its own shareable URL (`#card/{setKey}/{cardNumber}`)
+- **Deep-link routing** — every card and set has its own shareable URL (`#{setKey}/{cardKey}`)
 - **eBay search** — one-click search for a card in eBay's Sports Trading Cards category (Mario Lemieux collection)
 - **TCDB links** — direct links to the [Trading Card Database](https://www.tcdb.com) for each set and card
 - **Brand logos** — SVG logos for Upper Deck and Pinnacle inline in the page (no external image requests)
@@ -50,7 +50,7 @@ hockeycards/
 ├── app.js                  # DataViewModel (Knockout) + routing + data helpers
 ├── data/
 │   ├── mcdonalds-data.js   # McDonald's sets (exposes window.rawData)
-│   └── mario-lemieux-data.js  # Mario Lemieux cards (exposes window.marioCleanData)
+│   └── mario-lemieux-data.js  # Mario Lemieux cards (exposes window.marioLemieuxData)
 ├── img/
 │   └── cards/
 │       ├── McD91-92/       # Card images for each McDonald's set
@@ -102,7 +102,7 @@ The app uses hash-based routing. All routes are bookmarkable.
 | `#McD97-98` | McDonald's 1997-98 set grid |
 | `#ML-all` | All Mario Lemieux cards grouped by year |
 | `#ML-1985-86` | Mario Lemieux cards for a specific season |
-| `#card/{setKey}/{cardNumber}` | Card detail view (e.g. `#card/McD91-92/Mc-1`) |
+| `#{setKey}/{cardKey}` | Card detail view (e.g. `#McD91-92/Mc-1`, `#ml-1985-86-o-pee-chee/9`) |
 
 ---
 
@@ -110,7 +110,7 @@ The app uses hash-based routing. All routes are bookmarkable.
 
 ### McDonald's data (`data/mcdonalds-data.js`)
 
-Exports a global `window.rawData` object keyed by `set_key`:
+Exports a global `window.rawData` object keyed by `set_key`. Set-level attributes live on the set; cards carry only card-level data. Nested subsets (inserts/holograms) are in the `subsets` array:
 
 ```js
 var rawData = {
@@ -120,7 +120,6 @@ var rawData = {
     "set_year_label": "1991-92",
     "set_year_start": 1991,
     "set_year_end": 1992,
-    "set_brand": "Upper Deck",
     "set_category": "Upper Deck",   // used for menu grouping
     "set_total_cards": 25,
     "set_tcdb_href": "https://www.tcdb.com/…",
@@ -128,18 +127,17 @@ var rawData = {
     "cards": [
       {
         "name": "Cam Neely",
-        "number": "Mc-1",
         "base_number": "Mc-1",
         "team": "Boston Bruins",
         "position": "",
         "orientation": "portrait",    // "portrait" | "landscape"
         "image_front": "img/cards/McD91-92/56699-Mc-1Fr.jpg",
         "image_back":  "img/cards/McD91-92/56699-Mc-1Bk.jpg",
-        "tcdb_href": "https://www.tcdb.com/…"
+        "tcdb_href": "https://www.tcdb.com/…"   // card/set TCDB link (optional)
       }
       // …
     ],
-    "inserts": [
+    "subsets": [
       // optional: nested insert/hologram sets (same schema as top-level sets)
     ]
   }
@@ -148,35 +146,41 @@ var rawData = {
 
 ### Mario Lemieux data (`data/mario-lemieux-data.js`)
 
-Exports `window.marioCleanData` with a flat `cards` array; `app.js` builds per-year collections at runtime via `BuildMarioCollections()`:
+Exports `window.marioLemieuxData` with a `sets` object. Each set carries its own attributes and a `cards` array. Cards with a distinct subset name are grouped under a `subsets` array on their parent set. `app.js` builds per-year virtual collections at runtime via `BuildMarioCollections()`:
 
 ```js
-window.marioCleanData = {
-  "dataset": "mario-lemieux-clean",
-  "version": "0.2.0",
+window.marioLemieuxData = {
+  "dataset": "mario-lemieux",
+  "version": "0.4.0",
   "player": "Mario Lemieux",
-  "updated_at": "2026-02-27",
-  "cards": [
-    {
-      "id": "ml-1985-86-opc-9",
-      "player_name": "Mario Lemieux",
+  "updated_at": "2026-03-03",
+  "image_folder": "img/cards/ML66",
+  "sets": {
+    "ml-1985-86-o-pee-chee": {
+      "set_key": "ml-1985-86-o-pee-chee",
+      "set_name": "O-Pee-Chee",
       "set_year_label": "1985-86",
       "set_year_start": 1985,
       "set_year_end": 1986,
-      "set_brand": "O-Pee-Chee",
-      "set_name": "O-Pee-Chee",
       "set_display_name": "1985-86 O-Pee-Chee",
-      "set_variant_note": "Rookie",
-      "insert_subset": "",
-      "base_number": "9",
-      "orientation": "portrait",
-      "image_front": "img/cards/ML66/1985-86-O-Pee-Chee-9-Mario-Lemieux-FR.jpg",
-      "image_back":  "img/cards/ML66/1985-86-O-Pee-Chee-9-Mario-Lemieux-BK.jpg",
-      "tcdb_href": "https://www.tcdb.com/…",
-      "team": "Pittsburgh Penguins",
-      "position": "Center"
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-1985-86-opc-9",
+          "base_number": "9",
+          "variant_note": "Rookie",   // optional
+          "orientation": "portrait",
+          "image_front": "img/cards/ML66/1985-86-O-Pee-Chee-9-Mario-Lemieux-FR.jpg",
+          "image_back":  "img/cards/ML66/1985-86-O-Pee-Chee-9-Mario-Lemieux-BK.jpg",
+          "tcdb_href": "https://www.tcdb.com/…",
+          "team": "Pittsburgh Penguins",
+          "position": "Center"
+        }
+      ]
+      // "subsets": [ … ]  // optional — for insert/parallel subsets within this set
     }
-  ]
+    // …
+  }
 };
 ```
 
@@ -193,9 +197,9 @@ window.marioCleanData = {
 ### Adding a new player (Mario Lemieux-style)
 
 1. Add card images under `img/cards/<PLAYER_FOLDER>/`.
-2. Create a new data file `data/<player>-data.js` that exports a `window.<player>CleanData` object with the `marioCleanData` schema.
+2. Create a new data file `data/<player>-data.js` that exports a `window.<player>Data` object with the `marioLemieuxData` schema (a `sets` object keyed by set_key).
 3. Load the script in `index.html` (before `app.js`).
-4. In `app.js`, add a `BuildPlayerCollections()` function modelled on `BuildMarioCollections()` and merge the result into `mergedData` inside `App.Init`.
+4. In `app.js`, add a `Build<Player>Collections()` function modelled on `BuildMarioCollections()` and merge the result into `mergedData` inside `App.Init`.
 
 ---
 
@@ -207,11 +211,11 @@ window.marioCleanData = {
 | `DataViewModel` | Knockout ViewModel — all observables, computed properties, and route logic live here |
 | `self.Data` | `ko.observable({})` — master dictionary of all collections keyed by `set_key` |
 | `self.CurrentCollectionKey` | Currently selected set; drives the card grid |
-| `self.CurrentRoute` | Raw hash value (e.g. `"McD91-92"`, `"about"`, `"card/…"`) |
+| `self.CurrentRoute` | Raw hash value (e.g. `"McD91-92"`, `"about"`, `"McD91-92/Mc-1"`) |
 | `self.HandleRouteChange` | Parses the URL hash and updates observables accordingly |
-| `self.BuildMarioCollections` | Transforms the flat `marioCleanData.cards` array into per-year collection objects |
+| `self.BuildMarioCollections` | Transforms `marioLemieuxData.sets` into per-year virtual collections + individual proper sets |
 | `self.MenuRows` | Computed array that generates the top navigation from `self.Data` |
-| `self.BuildCardRoute(card, collection)` | Returns the `#card/{key}/{number}` hash for a card link |
+| `self.BuildCardRoute(card, collection)` | Returns the `#{setKey}/{cardKey}` hash for a card link |
 
 ---
 

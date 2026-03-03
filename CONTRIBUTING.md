@@ -48,7 +48,7 @@ Thank you for your interest in contributing! This document covers everything you
 The following facts help you navigate the codebase efficiently:
 
 - **No build step.** Changes to `.js`, `.css`, or `.html` files are immediately reflected when you reload the page.
-- **Global namespace.** All app code lives under `window.HCHB`. Data files expose `window.rawData` and `window.marioCleanData`.
+- **Global namespace.** All app code lives under `window.HCHB`. Data files expose `window.rawData` and `window.marioLemieuxData`.
 - **Knockout.js MVVM.** The single `DataViewModel` in `app.js` holds all observables. Templates in `index.html` use `data-bind` attributes.
 - **Hash routing.** Navigation is entirely driven by `window.location.hash`. The `HandleRouteChange` function is the single entry point for all routing logic.
 - **Static hosting.** The app is deployed to GitHub Pages from the repository root. No server-side code exists.

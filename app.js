@@ -13,12 +13,12 @@ window.HCHB = window.HCHB || {};
 
             // supply the rawData before applying bindings
             var mergedData = Object.assign({}, rawData || {});
-            if (window.marioCleanData) {
-                var marioCollections = App.ViewModel.BuildMarioCollections(window.marioCleanData);
+            if (window.marioLemieuxData) {
+                var marioCollections = App.ViewModel.BuildMarioCollections(window.marioLemieuxData);
                 mergedData = Object.assign(mergedData, marioCollections);
             } else {
                 // TODO: Implement a robust data strategy (versioned loader + schema validation + fallback sources).
-                console.warn('Mario dataset not loaded. Expected window.marioCleanData from data/mario-lemieux-data.js');
+                console.warn('Mario dataset not loaded. Expected window.marioLemieuxData from data/mario-lemieux-data.js');
             }
 
             App.ViewModel.Data(mergedData);
@@ -71,41 +71,6 @@ function DataViewModel() {
         return Math.floor(seasonStart / 10) * 10 + 's';
     };
 
-    self.GetBrandCode = function (brand) {
-        var normalized = (brand || '').toString().trim().toLowerCase();
-        if (!normalized) {
-            return 'SET';
-        }
-
-        var known = {
-            'topps': 'TOPPS',
-            'o-pee-chee': 'OPC',
-            'upper deck': 'UD',
-            'pro set': 'PRO',
-            'score': 'SC',
-            'pinnacle': 'PIN',
-            'fleer': 'FL',
-            'parkhurst': 'PH',
-            'leaf': 'LEAF',
-            'donruss': 'DON',
-            'ultra': 'ULT'
-        };
-
-        if (known[normalized]) {
-            return known[normalized];
-        }
-
-        return normalized.replace(/[^a-z0-9]/g, '').toUpperCase().slice(0, 5) || 'SET';
-    };
-
-    self.GetSetRouteCode = function (value, maxLength) {
-        var token = (value || '').toString().trim().toUpperCase().replace(/[^A-Z0-9]+/g, '');
-        if (!token) {
-            return '';
-        }
-        return token.slice(0, maxLength || 8);
-    };
-
     self.ComposeSetDisplayName = function (setYearLabel, setName) {
         var yearText = (setYearLabel || '').toString().trim();
         var nameText = self.StripYearFromText(setName || '').toString().trim();
@@ -117,53 +82,76 @@ function DataViewModel() {
         return yearText || nameText || '';
     };
 
-    self.BuildMarioCollections = function (marioClean) {
-        var cards = (marioClean && marioClean.cards) || [];
-        if (!Array.isArray(cards) || cards.length === 0) {
+    self.BuildMarioCollections = function (marioData) {
+        var sets = (marioData && marioData.sets) || {};
+        var setKeys = Object.keys(sets);
+        if (setKeys.length === 0) {
             return {};
         }
 
         var byYear = {};
         var allCards = [];
+        var result = {};
 
-        cards.forEach(function (row) {
-            var yearLabel = row.set_year_label || 'Unknown';
+        setKeys.forEach(function (setKey) {
+            var setData = sets[setKey];
+            var yearLabel = setData.set_year_label || 'Unknown';
             var yearKey = 'ML-' + yearLabel;
-            var parsedYearStart = parseInt(row.set_year_start, 10);
+            var parsedYearStart = parseInt(setData.set_year_start, 10);
             var seasonStart = !isNaN(parsedYearStart) ? parsedYearStart : (self.GetSeasonStartYear(yearLabel) || 0);
-            var parsedYearEnd = parseInt(row.set_year_end, 10);
+            var parsedYearEnd = parseInt(setData.set_year_end, 10);
             var seasonEnd = !isNaN(parsedYearEnd) ? parsedYearEnd : (self.GetSeasonEndYear(yearLabel) || null);
-            var brand = row.set_brand || 'Unknown';
-            var baseNumber = row.base_number || 'NNO';
-            var setRouteCode = self.GetSetRouteCode(row.set_name || brand, 8) || self.GetBrandCode(brand);
-            var subsetRouteCode = self.GetSetRouteCode(row.insert_subset || '', 8);
-            var uniqueNumber = subsetRouteCode
-                ? (setRouteCode + '-' + subsetRouteCode + '-' + baseNumber)
-                : (setRouteCode + '-' + baseNumber);
-            var cardItem = {
-                name: row.player_name || 'Mario Lemieux',
-                number: uniqueNumber,
-                team: row.team || 'Pittsburgh Penguins',
-                position: row.position || 'Center',
-                orientation: row.orientation || 'unknown',
-                set_name: row.set_name || brand,
+            var setName = setData.set_name || 'Unknown';
+            var setDisplayName = setData.set_display_name || self.ComposeSetDisplayName(yearLabel, setName);
+
+            // Build the proper set entry (with all cards from base + subsets)
+            var properSetCards = [];
+            var properSetSubsets = [];
+
+            (setData.cards || []).forEach(function (row) {
+                var cardItem = self._buildMarioCardItem(row, setKey, yearLabel, seasonStart, seasonEnd, setName, setDisplayName, '');
+                properSetCards.push(cardItem);
+                allCards.push(cardItem);
+            });
+
+            (setData.subsets || []).forEach(function (subset) {
+                var subCards = [];
+                (subset.cards || []).forEach(function (row) {
+                    var cardItem = self._buildMarioCardItem(row, subset.set_key, yearLabel, seasonStart, seasonEnd, setName, setDisplayName, subset.set_name);
+                    subCards.push(cardItem);
+                    allCards.push(cardItem);
+                });
+                properSetSubsets.push({
+                    set_key: subset.set_key,
+                    set_name: subset.set_name,
+                    set_display_name: subset.set_display_name || (setDisplayName + ' - ' + subset.set_name),
+                    set_tcdb_href: subset.set_tcdb_href || '',
+                    set_year_label: yearLabel,
+                    set_year_start: seasonStart,
+                    set_year_end: seasonEnd,
+                    source: 'mario',
+                    cards: subCards
+                });
+            });
+
+            // Add proper set to result
+            result[setKey] = {
+                set_key: setKey,
+                set_name: setName,
                 set_year_label: yearLabel,
                 set_year_start: seasonStart,
                 set_year_end: seasonEnd,
-                set_brand: brand,
-                set_display_name: self.ComposeSetDisplayName(yearLabel, row.set_name || brand),
-                insert_subset: row.insert_subset || '',
-                base_number: baseNumber,
-                image_front: row.image_front || '',
-                image_back: row.image_back || '',
-                set_tcdb_href: row.set_tcdb_href || row.tcdb_href || '#',
-                tcdb_href: (function () {
-                    var url = row.tcdb_href || row.set_tcdb_href || '';
-                    return (url && url !== '#' && url.indexOf('http') === 0) ? url : '';
-                }()),
-                'mario-id': row.id || ''
+                set_category: self.GetDecadeLabel(yearLabel),
+                set_total_cards: properSetCards.length,
+                set_tcdb_href: setData.set_tcdb_href || '',
+                set_display_name: setDisplayName,
+                menu_key: yearKey,
+                source: 'mario',
+                cards: properSetCards,
+                subsets: properSetSubsets
             };
 
+            // Build/update virtual year collection
             if (!byYear[yearKey]) {
                 byYear[yearKey] = {
                     set_key: yearKey,
@@ -171,19 +159,19 @@ function DataViewModel() {
                     set_year_label: yearLabel,
                     set_year_start: seasonStart,
                     set_year_end: seasonEnd,
-                    set_brand: 'Mixed',
                     set_category: self.GetDecadeLabel(yearLabel),
                     set_total_cards: 0,
-                    set_tcdb_href: '#',
+                    set_tcdb_href: '',
                     set_display_name: yearLabel + ' Mario Lemieux Cards',
                     source: 'mario',
                     cards: [],
-                    inserts: []
+                    subsets: []
                 };
             }
 
-            byYear[yearKey].cards.push(cardItem);
-            allCards.push(cardItem);
+            var yearCollection = byYear[yearKey];
+            properSetCards.forEach(function (c) { yearCollection.cards.push(c); });
+            properSetSubsets.forEach(function (sub) { yearCollection.subsets.push(sub); });
         });
 
         Object.keys(byYear).forEach(function (key) {
@@ -195,7 +183,7 @@ function DataViewModel() {
                 if (setCompare !== 0) {
                     return setCompare;
                 }
-                return (left.number || '').toString().localeCompare((right.number || '').toString(), undefined, { numeric: true, sensitivity: 'base' });
+                return (left.base_number || '').toString().localeCompare((right.base_number || '').toString(), undefined, { numeric: true, sensitivity: 'base' });
             });
             byYear[key].set_total_cards = yearCards.length;
         });
@@ -213,7 +201,7 @@ function DataViewModel() {
             if (setCompare !== 0) {
                 return setCompare;
             }
-            return (left.number || '').toString().localeCompare((right.number || '').toString(), undefined, { numeric: true, sensitivity: 'base' });
+            return (left.base_number || '').toString().localeCompare((right.base_number || '').toString(), undefined, { numeric: true, sensitivity: 'base' });
         });
 
         var allCollection = {
@@ -222,17 +210,42 @@ function DataViewModel() {
             set_year_label: 'All ML Cards',
             set_year_start: null,
             set_year_end: null,
-            set_brand: 'Mixed',
             set_category: 'All',
             set_total_cards: allCards.length,
-            set_tcdb_href: '#',
+            set_tcdb_href: '',
             set_display_name: 'All Mario Lemieux Cards',
             source: 'mario',
             cards: allCards,
-            inserts: []
+            subsets: []
         };
 
-        return Object.assign({ 'ML-all': allCollection }, byYear);
+        result['ML-all'] = allCollection;
+        Object.assign(result, byYear);
+        return result;
+    };
+
+    self._buildMarioCardItem = function (row, routingSetKey, yearLabel, seasonStart, seasonEnd, setName, setDisplayName, subsetName) {
+        var baseNumber = row.base_number || 'NNO';
+        var tcdbHref = row.tcdb_href || '';
+        return {
+            id: row.id || '',
+            name: 'Mario Lemieux',
+            base_number: baseNumber,
+            team: row.team || 'Pittsburgh Penguins',
+            position: row.position || 'Center',
+            orientation: row.orientation || 'unknown',
+            variant_note: row.variant_note || null,
+            set_name: setName,
+            set_year_label: yearLabel,
+            set_year_start: seasonStart,
+            set_year_end: seasonEnd,
+            set_display_name: setDisplayName,
+            insert_subset: subsetName || '',
+            image_front: row.image_front || '',
+            image_back: row.image_back || '',
+            tcdb_href: (tcdbHref && tcdbHref.indexOf('http') === 0) ? tcdbHref : '',
+            _set_key: routingSetKey
+        };
     };
 
     // primary data dictionary (sets keyed by id)
@@ -280,21 +293,22 @@ function DataViewModel() {
 
     self.CardRouteParts = function () {
         var hash = window.location.hash.slice(1) || 'home';
-        var parts = hash.split('/');
-        if (parts[0] !== 'card') {
+        var slashIdx = hash.indexOf('/');
+        if (slashIdx === -1) {
             return null;
-        }
-        if (parts.length < 3) {
-            return { invalid: true, reason: 'Route is missing key or card number.' };
         }
 
         var decodedKey = '';
         var decodedNumber = '';
         try {
-            decodedKey = decodeURIComponent(parts[1] || '');
-            decodedNumber = decodeURIComponent(parts.slice(2).join('/') || '');
+            decodedKey = decodeURIComponent(hash.slice(0, slashIdx));
+            decodedNumber = decodeURIComponent(hash.slice(slashIdx + 1));
         } catch (e) {
             return { invalid: true, reason: 'Route contains invalid encoded values.' };
+        }
+
+        if (!decodedKey || !decodedNumber) {
+            return { invalid: true, reason: 'Route is missing set key or card key.' };
         }
 
         return {
@@ -303,20 +317,21 @@ function DataViewModel() {
         };
     };
 
-    self.FindCardInData = function (collectionOrInsertKey, cardNumber) {
+    self.FindCardInData = function (collectionOrSubsetKey, cardKey) {
         var data = self.Data() || {};
-        var normalizedNumber = (cardNumber || '').toString().trim().toUpperCase();
+        var normalizedKey = (cardKey || '').toString().trim().toUpperCase();
         var setKeys = Object.keys(data);
 
         for (var i = 0; i < setKeys.length; i++) {
             var setKey = setKeys[i];
             var setData = data[setKey] || {};
 
-            if (setData.set_key === collectionOrInsertKey) {
+            if (setData.set_key === collectionOrSubsetKey) {
                 var setCards = setData.cards || [];
                 for (var j = 0; j < setCards.length; j++) {
                     var setCard = setCards[j];
-                    if (((setCard.number || '').toString().trim().toUpperCase()) === normalizedNumber) {
+                    var cardId = ((setCard.base_number || setCard.number || '').toString().trim().toUpperCase());
+                    if (cardId === normalizedKey) {
                         return {
                             card: setCard,
                             collection: setData,
@@ -326,20 +341,21 @@ function DataViewModel() {
                 }
             }
 
-            var inserts = setData.inserts || [];
-            for (var k = 0; k < inserts.length; k++) {
-                var insert = inserts[k] || {};
-                if (insert.set_key !== collectionOrInsertKey) {
+            var subsets = setData.subsets || [];
+            for (var k = 0; k < subsets.length; k++) {
+                var subset = subsets[k] || {};
+                if (subset.set_key !== collectionOrSubsetKey) {
                     continue;
                 }
-                var insertCards = insert.cards || [];
-                for (var m = 0; m < insertCards.length; m++) {
-                    var insertCard = insertCards[m];
-                    if (((insertCard.number || '').toString().trim().toUpperCase()) === normalizedNumber) {
+                var subsetCards = subset.cards || [];
+                for (var m = 0; m < subsetCards.length; m++) {
+                    var subCard = subsetCards[m];
+                    var subCardId = ((subCard.base_number || subCard.number || '').toString().trim().toUpperCase());
+                    if (subCardId === normalizedKey) {
                         return {
-                            card: insertCard,
+                            card: subCard,
                             collection: setData,
-                            insert: insert
+                            insert: subset
                         };
                     }
                 }
@@ -349,17 +365,17 @@ function DataViewModel() {
         return null;
     };
 
-    self.BuildCardRoute = function (card, collectionOrInsert) {
-        var parentKey = collectionOrInsert && collectionOrInsert.set_key;
+    self.BuildCardRoute = function (card, collectionOrSubset) {
+        var parentKey = (card && card._set_key) || (collectionOrSubset && collectionOrSubset.set_key);
         if (!parentKey) {
             var currentCollection = self.CurrentCollection();
             parentKey = currentCollection && currentCollection.set_key;
         }
-        var number = card && card.number;
-        if (!parentKey || !number) {
+        var cardKey = card && (card.base_number || card.number);
+        if (!parentKey || !cardKey) {
             return '#';
         }
-        return '#card/' + encodeURIComponent(parentKey) + '/' + encodeURIComponent(number);
+        return '#' + encodeURIComponent(parentKey) + '/' + encodeURIComponent(cardKey);
     };
 
     self.CardExternalHref = ko.pureComputed(function () {
@@ -367,7 +383,7 @@ function DataViewModel() {
         if (!ctx || !ctx.card) {
             return '#';
         }
-        return ctx.card.set_tcdb_href || ctx.collection.set_tcdb_href || '#';
+        return (ctx.card.tcdb_href) || ctx.collection.set_tcdb_href || '#';
     });
 
     self.CardBackHref = ko.pureComputed(function () {
@@ -375,7 +391,8 @@ function DataViewModel() {
         if (!ctx || !ctx.collection || !ctx.collection.set_key) {
             return '#home';
         }
-        return '#' + ctx.collection.set_key;
+        var key = ctx.collection.menu_key || ctx.collection.set_key;
+        return '#' + key;
     });
 
     self.CardBrandLogoSymbol = ko.pureComputed(function () {
@@ -447,17 +464,17 @@ function DataViewModel() {
                 }
             }
 
-            var inserts = setData.inserts || [];
-            for (var k = 0; k < inserts.length; k++) {
-                var insert = inserts[k] || {};
-                var insertCards = insert.cards || [];
-                for (var m = 0; m < insertCards.length; m++) {
-                    var insertCard = insertCards[m] || {};
-                    if (self.NormalizeText(insertCard.name) === normalizedName) {
+            var subsets = setData.subsets || [];
+            for (var k = 0; k < subsets.length; k++) {
+                var subset = subsets[k] || {};
+                var subsetCards = subset.cards || [];
+                for (var m = 0; m < subsetCards.length; m++) {
+                    var subCard = subsetCards[m] || {};
+                    if (self.NormalizeText(subCard.name) === normalizedName) {
                         matches.push({
-                            card: insertCard,
+                            card: subCard,
                             collection: setData,
-                            insert: insert
+                            insert: subset
                         });
                     }
                 }
@@ -474,7 +491,9 @@ function DataViewModel() {
         }
 
         var items = self.FindCardsByName(ctx.card.name).filter(function (item) {
-            var sameNumber = self.NormalizeText(item.card.number) === self.NormalizeText(ctx.card.number);
+            var ctxKey = (ctx.card.base_number || ctx.card.number || '').toString().toLowerCase();
+            var itemKey = (item.card.base_number || item.card.number || '').toString().toLowerCase();
+            var sameNumber = itemKey === ctxKey;
             var sameContainer = (item.insert ? item.insert.set_key : item.collection.set_key) === (ctx.insert ? ctx.insert.set_key : ctx.collection.set_key);
             return !(sameNumber && sameContainer);
         });
@@ -494,8 +513,8 @@ function DataViewModel() {
         var filteredCards = sourceCards;
 
         filteredCards.sort(function (leftCard, rightCard) {
-            var leftNumber = (leftCard && leftCard.number) || '';
-            var rightNumber = (rightCard && rightCard.number) || '';
+            var leftNumber = (leftCard && (leftCard.base_number || leftCard.number)) || '';
+            var rightNumber = (rightCard && (rightCard.base_number || rightCard.number)) || '';
             return leftNumber.localeCompare(rightNumber, undefined, { numeric: true, sensitivity: 'base' });
         });
 
@@ -623,7 +642,7 @@ function DataViewModel() {
                 return setCompare;
             }
 
-            return (left.number || '').toString().localeCompare((right.number || '').toString(), undefined, { numeric: true, sensitivity: 'base' });
+            return (left.base_number || left.number || '').toString().localeCompare((right.base_number || right.number || '').toString(), undefined, { numeric: true, sensitivity: 'base' });
         });
 
         var groupsByYear = {};
@@ -753,7 +772,10 @@ function DataViewModel() {
         if (items.length === 0) return [];
 
         var mcdItems = items.filter(function (itm) { return itm && itm.source !== 'mario'; });
-        var marioItems = items.filter(function (itm) { return itm && itm.source === 'mario'; });
+        // Only show virtual year collections (ML-*) in the menu, not individual proper sets
+        var marioItems = items.filter(function (itm) {
+            return itm && itm.source === 'mario' && /^ML(-|$)/.test(itm.set_key || '');
+        });
 
         var groups = [];
         var currentGroup = null;
@@ -861,8 +883,11 @@ function DataViewModel() {
                 self.CardRouteError('');
                 self.ShowAllSetCards(false);
                 self.CardImageFace('front');
-                if (result.collection && result.collection.set_key) {
-                    self.CurrentCollectionKey(result.collection.set_key);
+                if (result.collection) {
+                    var menuKey = result.collection.menu_key || result.collection.set_key;
+                    if (menuKey) {
+                        self.CurrentCollectionKey(menuKey);
+                    }
                 }
             } else {
                 self.CurrentCardContext(null);
