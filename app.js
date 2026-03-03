@@ -21,6 +21,18 @@ window.HCHB = window.HCHB || {};
                 console.warn('Mario dataset not loaded. Expected window.marioLemieuxData from data/mario-lemieux-data.js');
             }
 
+            // Add _parent_key to all subsets so BuildCardRoute can emit Set/Subset/number URLs
+            Object.keys(mergedData).forEach(function (setKey) {
+                var setData = mergedData[setKey];
+                if (setData && Array.isArray(setData.subsets)) {
+                    setData.subsets.forEach(function (subset) {
+                        if (!subset._parent_key) {
+                            subset._parent_key = setKey;
+                        }
+                    });
+                }
+            });
+
             App.ViewModel.Data(mergedData);
 
             App.ViewModel.Root = App.ViewModel.MenuRows;
@@ -122,6 +134,7 @@ function DataViewModel() {
                     allCards.push(cardItem);
                 });
                 properSetSubsets.push({
+                    _parent_key: setKey,
                     set_key: subset.set_key,
                     set_name: subset.set_name,
                     set_display_name: subset.set_display_name || (setDisplayName + ' - ' + subset.set_name),
@@ -301,8 +314,17 @@ function DataViewModel() {
         var decodedKey = '';
         var decodedNumber = '';
         try {
-            decodedKey = decodeURIComponent(hash.slice(0, slashIdx));
-            decodedNumber = decodeURIComponent(hash.slice(slashIdx + 1));
+            var rawKey = hash.slice(0, slashIdx);
+            var rawRest = hash.slice(slashIdx + 1);
+            var subSlashIdx = rawRest.indexOf('/');
+            if (subSlashIdx !== -1) {
+                // 3-part URL: setKey/subsetSlug/cardNumber — reconstruct full subset key
+                decodedKey = decodeURIComponent(rawKey) + '-' + decodeURIComponent(rawRest.slice(0, subSlashIdx));
+                decodedNumber = decodeURIComponent(rawRest.slice(subSlashIdx + 1));
+            } else {
+                decodedKey = decodeURIComponent(rawKey);
+                decodedNumber = decodeURIComponent(rawRest);
+            }
         } catch (e) {
             return { invalid: true, reason: 'Route contains invalid encoded values.' };
         }
@@ -366,16 +388,31 @@ function DataViewModel() {
     };
 
     self.BuildCardRoute = function (card, collectionOrSubset) {
-        var parentKey = (card && card._set_key) || (collectionOrSubset && collectionOrSubset.set_key);
-        if (!parentKey) {
-            var currentCollection = self.CurrentCollection();
-            parentKey = currentCollection && currentCollection.set_key;
-        }
         var cardKey = card && (card.base_number || card.number);
-        if (!parentKey || !cardKey) {
+        if (!cardKey) {
             return '#';
         }
-        return '#' + encodeURIComponent(parentKey) + '/' + encodeURIComponent(cardKey);
+
+        // 3-part URL for subset cards: #parentSetKey/subsetSlug/cardNumber
+        if (collectionOrSubset && collectionOrSubset._parent_key) {
+            var parentKey = collectionOrSubset._parent_key;
+            var subsetSetKey = collectionOrSubset.set_key || '';
+            var prefix = parentKey + '-';
+            if (subsetSetKey.indexOf(prefix) === 0) {
+                var subsetSlug = subsetSetKey.slice(prefix.length);
+                return '#' + encodeURIComponent(parentKey) + '/' + encodeURIComponent(subsetSlug) + '/' + encodeURIComponent(cardKey);
+            }
+        }
+
+        var setKey = (card && card._set_key) || (collectionOrSubset && collectionOrSubset.set_key);
+        if (!setKey) {
+            var currentCollection = self.CurrentCollection();
+            setKey = currentCollection && currentCollection.set_key;
+        }
+        if (!setKey) {
+            return '#';
+        }
+        return '#' + encodeURIComponent(setKey) + '/' + encodeURIComponent(cardKey);
     };
 
     self.CardExternalHref = ko.pureComputed(function () {
