@@ -129,7 +129,7 @@ function DataViewModel() {
             (setData.subsets || []).forEach(function (subset) {
                 var subCards = [];
                 (subset.cards || []).forEach(function (row) {
-                    var cardItem = self._buildMarioCardItem(row, subset.set_key, yearLabel, seasonStart, seasonEnd, setName, setDisplayName, subset.set_name);
+                    var cardItem = self._buildMarioCardItem(row, subset.set_key, yearLabel, seasonStart, seasonEnd, setName, setDisplayName, subset.set_name, setKey);
                     subCards.push(cardItem);
                     allCards.push(cardItem);
                 });
@@ -237,7 +237,7 @@ function DataViewModel() {
         return result;
     };
 
-    self._buildMarioCardItem = function (row, routingSetKey, yearLabel, seasonStart, seasonEnd, setName, setDisplayName, subsetName) {
+    self._buildMarioCardItem = function (row, routingSetKey, yearLabel, seasonStart, seasonEnd, setName, setDisplayName, subsetName, parentSetKey) {
         var baseNumber = row.base_number || 'NNO';
         var tcdbHref = row.tcdb_href || '';
         return {
@@ -257,7 +257,8 @@ function DataViewModel() {
             image_front: row.image_front || '',
             image_back: row.image_back || '',
             tcdb_href: (tcdbHref && tcdbHref.indexOf('http') === 0) ? tcdbHref : '',
-            _set_key: routingSetKey
+            _set_key: routingSetKey,
+            _parent_key: parentSetKey
         };
     };
 
@@ -401,6 +402,17 @@ function DataViewModel() {
             if (subsetSetKey.indexOf(prefix) === 0) {
                 var subsetSlug = subsetSetKey.slice(prefix.length);
                 return '#' + encodeURIComponent(parentKey) + '/' + encodeURIComponent(subsetSlug) + '/' + encodeURIComponent(cardKey);
+            }
+        }
+
+        // Fallback: use the card's own _parent_key when rendered outside a subset context
+        if (card && card._parent_key && card._set_key) {
+            var cardParentKey = card._parent_key;
+            var cardSubsetKey = card._set_key;
+            var cardPrefix = cardParentKey + '-';
+            if (cardSubsetKey.indexOf(cardPrefix) === 0) {
+                var cardSubsetSlug = cardSubsetKey.slice(cardPrefix.length);
+                return '#' + encodeURIComponent(cardParentKey) + '/' + encodeURIComponent(cardSubsetSlug) + '/' + encodeURIComponent(cardKey);
             }
         }
 
