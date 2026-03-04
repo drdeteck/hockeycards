@@ -407,7 +407,21 @@
     </div>
     <footer id="footer" class="footer">
         <div class="inner-flex">
-            <p>Card data and images are presented for personal collection reference.</p>
+            <div class="footer-stats" data-bind="with: GlobalStats()">
+                <div class="footer-stat-item">
+                    <span class="footer-stat-icon">🖼️</span>
+                    <span class="footer-stat-value" data-bind="text: pctWithFront + '%'"></span>
+                    <span class="footer-stat-label">cards with images</span>
+                    <span class="footer-stat-detail" data-bind="text: '(' + cardsWithFront + ' / ' + totalCards + ')'"></span>
+                </div>
+                <div class="footer-stat-item">
+                    <span class="footer-stat-icon">✅</span>
+                    <span class="footer-stat-value" data-bind="text: pctInCollection + '%'"></span>
+                    <span class="footer-stat-label">of collection owned</span>
+                    <span class="footer-stat-detail" data-bind="text: '(' + cardsInCollection + ' / ' + totalCards + ')'"></span>
+                </div>
+            </div>
+            <p class="footer-credit">Card data and images are presented for personal collection reference.</p>
         </div>
     </footer>
     <!--------------->
