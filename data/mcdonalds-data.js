@@ -3762,7 +3762,7 @@ var rawData = {
                         "image_front": "img/cards/McD98-99/48890-T12Fr.jpg",
                         "image_back": "img/cards/McD98-99/48890-T12Bk.jpg",
                         "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates",
-                        "inCollection": false
+                        "inCollection": true
                     },
                     {
                         "name": "Luc Robitaille",
