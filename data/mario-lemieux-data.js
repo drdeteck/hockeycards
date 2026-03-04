@@ -2288,7 +2288,7 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-pro-set-139",
                     "base_number": "139",
-                    "orientation": "portrait",
+                    "orientation": "landscape",
                     "image_front": "img/cards/ML66/1992-93-Pro-Set-139-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Pro-Set-139-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",

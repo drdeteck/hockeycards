@@ -206,6 +206,12 @@ function DataViewModel() {
                 if (setCompare !== 0) {
                     return setCompare;
                 }
+                var leftVariation = (left.set_variation || '').toString();
+                var rightVariation = (right.set_variation || '').toString();
+                var variationCompare = leftVariation.localeCompare(rightVariation, undefined, { sensitivity: 'base' });
+                if (variationCompare !== 0) {
+                    return variationCompare;
+                }
                 var leftSubset = (left.insert_subset || '').toString();
                 var rightSubset = (right.insert_subset || '').toString();
                 var subsetCompare = leftSubset.localeCompare(rightSubset, undefined, { sensitivity: 'base' });
@@ -229,6 +235,12 @@ function DataViewModel() {
             var setCompare = leftSet.localeCompare(rightSet, undefined, { sensitivity: 'base' });
             if (setCompare !== 0) {
                 return setCompare;
+            }
+            var leftVariation = (left.set_variation || '').toString();
+            var rightVariation = (right.set_variation || '').toString();
+            var variationCompare = leftVariation.localeCompare(rightVariation, undefined, { sensitivity: 'base' });
+            if (variationCompare !== 0) {
+                return variationCompare;
             }
             var leftSubset = (left.insert_subset || '').toString();
             var rightSubset = (right.insert_subset || '').toString();
@@ -262,6 +274,13 @@ function DataViewModel() {
     self._buildMarioCardItem = function (row, routingSetKey, yearLabel, seasonStart, seasonEnd, setName, setVariation, setDisplayName, subsetName, parentSetKey) {
         var baseNumber = row.base_number || 'NNO';
         var tcdbHref = row.tcdb_href || '';
+        if (!tcdbHref && row.image_front) {
+            var imageFile = row.image_front.replace(/^.*\//, '');
+            var tcdbSlug = imageFile.match(/^(.+)Fr\.jpg$/i);
+            if (tcdbSlug) {
+                tcdbHref = 'https://www.tcdb.com/ViewCard.cfm/' + tcdbSlug[1];
+            }
+        }
         return {
             id: row.id || '',
             name: 'Mario Lemieux',
@@ -721,6 +740,13 @@ function DataViewModel() {
             var setCompare = leftSet.localeCompare(rightSet, undefined, { sensitivity: 'base' });
             if (setCompare !== 0) {
                 return setCompare;
+            }
+
+            var leftVariation = (left.set_variation || '').toString();
+            var rightVariation = (right.set_variation || '').toString();
+            var variationCompare = leftVariation.localeCompare(rightVariation, undefined, { sensitivity: 'base' });
+            if (variationCompare !== 0) {
+                return variationCompare;
             }
 
             var leftSubset = (left.insert_subset || '').toString();
