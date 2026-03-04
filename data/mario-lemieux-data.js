@@ -705,7 +705,8 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1991-92-Upper-Deck-156-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4896/cid/11277860/1991-92-Upper-Deck-156-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 },
                 {
                     "id": "ml-1991-92-upper-deck-611",
@@ -735,26 +736,6 @@ window.marioLemieuxData = {
                             "image_front": "img/cards/ML66/1991-92-Upper-Deck---Award-Winner-Holograms-AW9-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1991-92-Upper-Deck---Award-Winner-Holograms-AW9-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Upper-Deck---Award-Winner-Holograms-AW9-Mario-Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": true
-                        }
-                    ]
-                },
-                {
-                    "set_key": "1991-92-upper-deck-base-holding-stanley-cup",
-                    "set_name": "Base (Holding Stanley Cup)",
-                    "set_display_name": "1991-92 Upper Deck - Base (Holding Stanley Cup)",
-                    "set_tcdb_href": "",
-                    "cards": [
-                        {
-                            "id": "ml-1991-92-upper-deck-holding-stanley-cup-54",
-                            "base_number": "54",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
-                            "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
                             "inCollection": true
