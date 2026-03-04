@@ -89,6 +89,14 @@
                 <span class="logo-title">Phil's Hockey Cards Collection</span>
             </a>
             <div class="header-links">
+                <button type="button" class="btn btn-outline-light btn-sm collection-overlay-toggle"
+                    data-bind="click: $root.ToggleCollectionOverlay, css: { active: $root.ShowCollectionOverlay() }"
+                    title="Toggle collection overlay">
+                    <svg class="icon-inline icon-collection-check" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                    </svg>
+                    <span class="collection-overlay-toggle-label" data-bind="text: $root.ShowCollectionOverlay() ? 'Collection: On' : 'Collection: Off'">Collection</span>
+                </button>
                 <a href="#home" class="btn btn-outline-light btn-sm">Home</a>
                 <a href="#about" class="btn btn-outline-light btn-sm">About</a>
                 <a href="/login" class="btn btn-outline-light btn-sm disabled">
@@ -456,6 +464,13 @@
                             title: ($data.name || '') + ' (' + ($data.base_number || $data.number || 'NNO') + ')' }">
                 </div>
             </div>
+            <!-- ko if: $root.ShowCollectionOverlay() && $data.inCollection -->
+            <span class="card-owned-badge" aria-label="In collection" title="In collection">
+                <svg class="card-owned-badge-check" viewBox="0 0 10 10" aria-hidden="true" focusable="false">
+                    <polyline points="2,5.5 4.2,8 8,3" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </span>
+            <!-- /ko -->
         </a>
         <div class="card-grid-item-meta">
             <span class="card-grid-item-meta-text" data-bind="text: $root.GetCardGridMeta($data)"></span>
