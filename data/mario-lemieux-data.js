@@ -457,7 +457,7 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1991-92-pinnacle-team-pinnacle-b5",
                             "base_number": "B5",
-                            "orientation": "landscape",
+                            "orientation": "portrait",
                             "image_front": "img/cards/ML66/1991-92-Pinnacle---Team-Pinnacle-B5-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1991-92-Pinnacle---Team-Pinnacle-B5-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
