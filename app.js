@@ -796,6 +796,7 @@ function DataViewModel() {
             .map(function (label) {
                 return {
                     label: label,
+                    yearKey: 'ML-' + label,
                     cards: groupsByYear[label]
                 };
             });

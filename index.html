@@ -123,7 +123,7 @@
                         <span class="card-grid-header-content">
                             <span data-bind="text: label">Year</span>
                             <span class="card-grid-header-dot">• </span>
-                            <span data-bind="text: (cards || []).length + ' cards'">0 cards</span>
+                            <a data-bind="text: (cards || []).length + ' cards', attr: { href: '#' + yearKey, 'aria-label': 'View ' + label + ' cards' }">0 cards</a>
                         </span>
                     </span>
                 </h2>
