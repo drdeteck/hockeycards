@@ -744,28 +744,6 @@ window.marioLemieuxData = {
                 }
             ]
         },
-        "1992-93-fleer": {
-            "set_key": "1992-93-fleer",
-            "set_name": "Fleer",
-            "set_year_label": "1992-93",
-            "set_year_start": 1992,
-            "set_year_end": 1993,
-            "set_display_name": "1992-93 Fleer",
-            "set_tcdb_href": "",
-            "cards": [
-                {
-                    "id": "ml-1992-93-fleer-334",
-                    "base_number": "334",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                }
-            ]
-        },
         "1992-93-parkhurst": {
             "set_key": "1992-93-parkhurst",
             "set_name": "Parkhurst",
