@@ -17,7 +17,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1985-86-opc-9",
                     "base_number": "9",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1985-86-O-Pee-Chee-9-Mario-Lemieux-FR.jpg",
                     "image_back": "img/cards/ML66/1985-86-O-Pee-Chee-9-Mario-Lemieux-BK.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4860/cid/1185084/1985-86-O-Pee-Chee-9-Mario-Lemieux",
@@ -39,7 +40,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1985-86-topps-9",
                     "base_number": "9",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1985-86-Topps-9-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1985-86-Topps-9-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4861/cid/1174634/1985-86-Topps-9-Mario-Lemieux",
@@ -61,7 +63,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1986-87-opc-122",
                     "base_number": "122",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1986-87-O-Pee-Chee-122-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1986-87-O-Pee-Chee-122-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4862/cid/1185547/1986-87-O-Pee-Chee-122-Mario-Lemieux",
@@ -82,7 +85,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1986-87-topps-122",
                     "base_number": "122",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1986-87-Topps-122-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1986-87-Topps-122-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4863/cid/118236/1986-87-Topps-122-Mario-Lemieux",
@@ -103,7 +107,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1987-88-opc-15",
                     "base_number": "15",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1987-88-O-Pee-Chee-15-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1987-88-O-Pee-Chee-15-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4864/cid/1185790/1987-88-O-Pee-Chee-15-Mario-Lemieux",
@@ -124,7 +129,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1987-88-topps-15",
                     "base_number": "15",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1987-88-Topps-15-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1987-88-Topps-15-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4865/cid/1175190/1987-88-Topps-15-Mario-Lemieux",
@@ -145,7 +151,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1988-89-opc-1",
                     "base_number": "1",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1988-89-O-Pee-Chee-1-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1988-89-O-Pee-Chee-1-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4866/cid/1186176/1988-89-O-Pee-Chee-1-Mario-Lemieux",
@@ -166,7 +173,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1988-89-topps-1",
                     "base_number": "1",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1988-89-Topps-1-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1988-89-Topps-1-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4867/cid/1175476/1988-89-Topps-1-Mario-Lemieux",
@@ -187,7 +195,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1989-90-opc-1",
                     "base_number": "1",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1989-90-O-Pee-Chee-1-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1989-90-O-Pee-Chee-1-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4868/cid/1186576/1989-90-O-Pee-Chee-1-Mario-Lemieux",
@@ -197,7 +206,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1989-90-opc-319",
                     "base_number": "319",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1989-90-O-Pee-Chee-319-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1989-90-O-Pee-Chee-319-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1989-90-O-Pee-Chee-319-Mario-Lemieux",
@@ -218,7 +228,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1989-90-topps-1",
                     "base_number": "1",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1989-90-Topps-1-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1989-90-Topps-1-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4869/cid/1175776/1989-90-Topps-1-Mario-Lemieux",
@@ -239,7 +250,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1990-91-opc-175",
                     "base_number": "175",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1990-91-O-Pee-Chee-175-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1990-91-O-Pee-Chee-175-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1990-91-O-Pee-Chee-175-Mario-Lemieux",
@@ -260,7 +272,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1990-91-pro-set-236",
                     "base_number": "236",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1990-91-Pro-Set-236-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1990-91-Pro-Set-236-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1990-91-Pro-Set-236-Mario-Lemieux",
@@ -270,7 +283,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1990-91-pro-set-362",
                     "base_number": "362",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1990-91-Pro-Set-362-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1990-91-Pro-Set-362-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1990-91-Pro-Set-362-Mario-Lemieux",
@@ -292,7 +306,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1990-91-score-1",
                     "base_number": "2",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1990-91-Score-American-2-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1990-91-Score-American-2-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1990-91-Score-American-2-Mario-Lemieux",
@@ -315,7 +330,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1990-91-score-canadian-2",
                     "base_number": "2",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1990-91-Score-Canadian-2-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1990-91-Score-Canadian-2-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1990-91-Score-Canadian-2-Mario-Lemieux",
@@ -333,7 +349,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1990-91-score-canadian-sniper-337",
                             "base_number": "337",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1990-91-Score-Canadian-337-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1990-91-Score-Canadian-337-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1990-91-Score-Canadian-337-Mario-Lemieux",
@@ -357,7 +374,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1990-91-topps-1",
                     "base_number": "175",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1990-91-Topps-175-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1990-91-Topps-175-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1990-91-Topps-175-Mario-Lemieux",
@@ -378,7 +396,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1990-91-upper-deck-144",
                     "base_number": "144",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1990-91-Upper-Deck-144-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1990-91-Upper-Deck-144-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1990-91-Upper-Deck-144-Mario-Lemieux",
@@ -388,7 +407,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1990-91-upper-deck-305",
                     "base_number": "305",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1990-91-Upper-Deck-305-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1990-91-Upper-Deck-305-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1990-91-Upper-Deck-305-Mario-Lemieux",
@@ -411,7 +431,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1990-91-ud-french-144",
                     "base_number": "144",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1990-91-Upper-Deck-French-144-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1990-91-Upper-Deck-French-144-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1990-91-Upper-Deck-French-144-Mario-Lemieux",
@@ -432,7 +453,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1991-92-pinnacle-1",
                     "base_number": "1",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1991-92-Pinnacle-1-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1991-92-Pinnacle-1-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Pinnacle-1-Mario-Lemieux",
@@ -442,7 +464,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1991-92-pinnacle-380",
                     "base_number": "380",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1991-92-Pinnacle-380-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1991-92-Pinnacle-380-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Pinnacle-380-Mario-Lemieux",
@@ -460,7 +483,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1991-92-pinnacle-team-pinnacle-b5",
                             "base_number": "B5",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1991-92-Pinnacle---Team-Pinnacle-B5-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1991-92-Pinnacle---Team-Pinnacle-B5-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Pinnacle---Team-Pinnacle-B5-Mario-Lemieux",
@@ -483,7 +507,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1991-92-pro-set-194",
                     "base_number": "194",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1991-92-Pro-Set-194-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1991-92-Pro-Set-194-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Pro-Set-194-Mario-Lemieux",
@@ -494,7 +519,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1991-92-pro-set-318",
                     "base_number": "318",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1991-92-Pro-Set-318-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1991-92-Pro-Set-318-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Pro-Set-318-Mario-Lemieux",
@@ -504,7 +530,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1991-92-pro-set-581",
                     "base_number": "581",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1991-92-Pro-Set-581-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1991-92-Pro-Set-581-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Pro-Set-581-Mario-Lemieux",
@@ -522,7 +549,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1991-92-pro-set-potm-p3",
                             "base_number": "P3",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1991-92-Pro-Set---Player-of-the-Month-P3-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1991-92-Pro-Set---Player-of-the-Month-P3-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Pro-Set---Player-of-the-Month-P3-Mario-Lemieux",
@@ -546,7 +574,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1991-92-score-200",
                     "base_number": "200",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1991-92-Score-American-200-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1991-92-Score-American-200-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Score-American-200-Mario-Lemieux",
@@ -564,7 +593,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1991-92-score-hot-cards-5",
                             "base_number": "5",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1991-92-Score-American---Hot-Cards-5-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1991-92-Score-American---Hot-Cards-5-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Score-American---Hot-Cards-5-Mario-Lemieux",
@@ -588,7 +618,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1991-92-score-canadian-bilingual-200",
                     "base_number": "200",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1991-92-Score-Canadian-Bilingual-200-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1991-92-Score-Canadian-Bilingual-200-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Score-Canadian-Bilingual-200-Mario-Lemieux",
@@ -599,7 +630,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1991-92-score-canadian-bilingual-316",
                     "base_number": "316",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1991-92-Score-Canadian-Bilingual-316-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1991-92-Score-Canadian-Bilingual-316-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Score-Canadian-Bilingual-316-Mario-Lemieux",
@@ -610,7 +642,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1991-92-score-canadian-bilingual-365",
                     "base_number": "365",
-                    "orientation": "landscape",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
                     "image_front": "img/cards/ML66/1991-92-Score-Canadian-Bilingual-365-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1991-92-Score-Canadian-Bilingual-365-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Score-Canadian-Bilingual-365-Mario-Lemieux",
@@ -632,7 +665,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1991-92-score-canadian-english-200",
                     "base_number": "200",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1991-92-Score-Canadian-English-200-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1991-92-Score-Canadian-English-200-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Score-Canadian-English-200-Mario-Lemieux",
@@ -642,7 +676,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1991-92-score-canadian-english-365",
                     "base_number": "365",
-                    "orientation": "landscape",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -664,7 +699,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1991-92-upper-deck-156",
                     "base_number": "156",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1991-92-Upper-Deck-156-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1991-92-Upper-Deck-156-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4896/cid/11277860/1991-92-Upper-Deck-156-Mario-Lemieux",
@@ -674,7 +710,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1991-92-upper-deck-611",
                     "base_number": "611",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1991-92-Upper-Deck-611-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1991-92-Upper-Deck-611-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Upper-Deck-611-Mario-Lemieux",
@@ -693,7 +730,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1991-92-upper-deck-aw9",
                             "base_number": "AW9",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1991-92-Upper-Deck---Award-Winner-Holograms-AW9-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1991-92-Upper-Deck---Award-Winner-Holograms-AW9-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Upper-Deck---Award-Winner-Holograms-AW9-Mario-Lemieux",
@@ -712,7 +750,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1991-92-upper-deck-holding-stanley-cup-54",
                             "base_number": "54",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -736,7 +775,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-fleer-334",
                     "base_number": "334",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -757,7 +797,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-parkhurst-132",
                     "base_number": "132",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -767,7 +808,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-parkhurst-136",
                     "base_number": "136",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Parkhurst-136-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Parkhurst-136-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Parkhurst-136-Mario-Lemieux",
@@ -778,7 +820,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-parkhurst-462",
                     "base_number": "462",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Parkhurst-462-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Parkhurst-462-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Parkhurst-462-Mario-Lemieux",
@@ -788,7 +831,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-parkhurst-498",
                     "base_number": "498",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Parkhurst-498-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Parkhurst-498-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Parkhurst-498-Mario-Lemieux",
@@ -806,7 +850,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1992-93-parkhurst-emerald-ice-136",
                             "base_number": "136",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1992-93-Parkhurst---Emerald-Ice-136-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1992-93-Parkhurst---Emerald-Ice-136-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Parkhurst---Emerald-Ice-136-Mario-Lemieux",
@@ -816,7 +861,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1992-93-parkhurst-emerald-ice-462",
                             "base_number": "462",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1992-93-Parkhurst---Emerald-Ice-462-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1992-93-Parkhurst---Emerald-Ice-462-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Parkhurst---Emerald-Ice-462-Mario-Lemieux",
@@ -826,7 +872,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1992-93-parkhurst-emerald-ice-498",
                             "base_number": "498",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1992-93-Parkhurst---Emerald-Ice-498-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1992-93-Parkhurst---Emerald-Ice-498-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Parkhurst---Emerald-Ice-498-Mario-Lemieux",
@@ -849,7 +896,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-upper-deck-26",
                     "base_number": "26",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Upper-Deck-26-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Upper-Deck-26-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Upper-Deck-26-Mario-Lemieux",
@@ -859,7 +907,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-upper-deck-40",
                     "base_number": "40",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -869,7 +918,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-upper-deck-433",
                     "base_number": "433",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Upper-Deck-433-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Upper-Deck-433-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Upper-Deck-433-Mario-Lemieux",
@@ -880,7 +930,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-upper-deck-436",
                     "base_number": "436",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Upper-Deck-436-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Upper-Deck-436-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Upper-Deck-436-Mario-Lemieux",
@@ -891,7 +942,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-upper-deck-lemieux-stevens-tocchet",
                     "base_number": "NNO",
-                    "orientation": "landscape",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -903,7 +955,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-upper-deck-454",
                     "base_number": "454",
-                    "orientation": "landscape",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
                     "image_front": "img/cards/ML66/1992-93-Upper-Deck-454-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Upper-Deck-454-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Upper-Deck-454-Mario-Lemieux",
@@ -921,7 +974,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1992-93-upper-deck-gordie-howe-selects-g9",
                             "base_number": "G9",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1992-93-Upper-Deck---Gordie-Howe-Selects-G9-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1992-93-Upper-Deck---Gordie-Howe-Selects-G9-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Upper-Deck---Gordie-Howe-Selects-G9-Mario-Lemieux",
@@ -939,7 +993,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1992-93-upper-deck-world-junior-grads-wg11",
                             "base_number": "WG11",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1992-93-Upper-Deck---World-Junior-Grads-WG11-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1992-93-Upper-Deck---World-Junior-Grads-WG11-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Upper-Deck---World-Junior-Grads-WG11-Mario-Lemieux",
@@ -957,7 +1012,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1992-93-upper-deck-all-star-locker-series-6",
                             "base_number": "6",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1992-93-Upper-Deck-All-Star-Locker-Series-6-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1992-93-Upper-Deck-All-Star-Locker-Series-6-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Upper-Deck-All-Star-Locker-Series-6-Mario-Lemieux",
@@ -980,7 +1036,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1993-94-leaf-225",
                     "base_number": "225",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -998,7 +1055,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1993-94-leaf-mlc-1",
                             "base_number": "1",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -1009,7 +1067,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1993-94-leaf-mlc-2",
                             "base_number": "2",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -1019,7 +1078,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1993-94-leaf-mlc-3",
                             "base_number": "3",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -1029,7 +1089,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1993-94-leaf-mlc-4",
                             "base_number": "4",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -1039,7 +1100,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1993-94-leaf-mlc-5",
                             "base_number": "5",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -1049,7 +1111,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1993-94-leaf-mlc-6",
                             "base_number": "6",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -1059,7 +1122,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1993-94-leaf-mlc-7",
                             "base_number": "7",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -1069,7 +1133,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1993-94-leaf-mlc-8",
                             "base_number": "8",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -1079,7 +1144,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1993-94-leaf-mlc-9",
                             "base_number": "9",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -1089,7 +1155,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1993-94-leaf-mlc-10",
                             "base_number": "10",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -1107,7 +1174,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1993-94-leaf-painted-warriors-4",
                             "base_number": "4",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -1130,7 +1198,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1993-94-donruss-262",
                     "base_number": "262",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1152,7 +1221,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1993-94-score-234",
                     "base_number": "234",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1162,7 +1232,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1993-94-score-350",
                     "base_number": "350",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1173,7 +1244,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1993-94-score-479",
                     "base_number": "479",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1184,7 +1256,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1993-94-score-480",
                     "base_number": "480",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1206,7 +1279,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1993-94-topps-premier-91",
                     "base_number": "91",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1217,7 +1291,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1993-94-topps-premier-185",
                     "base_number": "185",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1239,7 +1314,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1993-94-upper-deck-117",
                     "base_number": "117",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1249,7 +1325,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1993-94-upper-deck-301",
                     "base_number": "301",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1268,7 +1345,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1993-94-upper-deck-gretzky-great-ones-gg4",
                             "base_number": "GG4",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -1292,7 +1370,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1994-95-fleer-140",
                     "base_number": "140",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1313,7 +1392,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1994-95-upper-deck-112",
                     "base_number": "112",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1334,7 +1414,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1995-96-pinnacle-150",
                     "base_number": "150",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1352,7 +1433,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1995-96-pinnacle-roaring-20s-6",
                             "base_number": "6",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -1375,7 +1457,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1995-96-upper-deck-129",
                     "base_number": "129",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1393,7 +1476,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1995-96-upper-deck-electric-ice-129",
                             "base_number": "129",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -1403,7 +1487,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1995-96-upper-deck-electric-ice-84",
                             "base_number": "84",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -1433,7 +1518,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1995-96-collectors-choice-ctg-c12",
                             "base_number": "C12",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -1457,7 +1543,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1996-97-donruss-88",
                     "base_number": "88",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1478,7 +1565,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1996-97-flair-78",
                     "base_number": "78",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1500,7 +1588,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1996-97-upper-deck-133",
                     "base_number": "133",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1527,7 +1616,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1996-97-spx-37",
                             "base_number": "37",
-                            "orientation": "landscape",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/5337-1229592Fr.jpg",
                             "image_back": "img/cards/ML66/5337-1229592Bk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5337/cid/1229592/1996-97-SPx-37-Mario-Lemieux",
@@ -1545,7 +1635,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1996-97-spx-gold-37",
                             "base_number": "37",
-                            "orientation": "landscape",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/48611-1608351Fr.jpg",
                             "image_back": "img/cards/ML66/48611-1608351Bk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48611/cid/1608351/1996-97-SPx-Gold-37-Mario-Lemieux",
@@ -1564,7 +1655,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1996-97-spx-holoview-heroes-hh6",
                             "base_number": "HH6",
-                            "orientation": "landscape",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/5338-1608370Fr.jpg",
                             "image_back": "img/cards/ML66/5338-1608370Bk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5338/cid/1608370/1996-97-SPx-Holoview-Heroes-HH6-Mario-Lemieux",
@@ -1587,7 +1679,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-2000-01-topps-140",
                     "base_number": "140",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/5338-1608370",
@@ -1608,7 +1701,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-2000-01-upper-deck-224",
                     "base_number": "224",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1630,7 +1724,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-2001-02-topps-40",
                     "base_number": "40",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1651,7 +1746,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-2001-02-upper-deck-130",
                     "base_number": "130",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1672,7 +1768,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-2001-02-sp-authentic-68",
                     "base_number": "68",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1694,7 +1791,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-2001-02-spx-52",
                     "base_number": "52",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1716,7 +1814,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-2002-03-topps-125",
                     "base_number": "125",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1737,7 +1836,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-2002-03-upper-deck-130",
                     "base_number": "130",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1758,7 +1858,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-2003-04-topps-20",
                     "base_number": "20",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1779,7 +1880,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-2003-04-upper-deck-145",
                     "base_number": "145",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1800,7 +1902,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-2003-04-upper-deck-honor-roll-68",
                     "base_number": "68",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1822,7 +1925,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-2005-06-ultra-148",
                     "base_number": "148",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1832,7 +1936,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-2005-06-ultra-154",
                     "base_number": "154",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1854,7 +1959,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-2005-06-parkhurst-390",
                     "base_number": "390",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1876,7 +1982,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-2005-06-upper-deck-147",
                     "base_number": "147",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1898,7 +2005,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-2005-06-sp-authentic-79",
                     "base_number": "79",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -1926,7 +2034,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-2005-06-upper-deck-victory-game-breakers-gb36",
                             "base_number": "GB36",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -1950,7 +2059,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-fleer-ultra-165",
                     "base_number": "165",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Ultra-165-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Ultra-165-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Ultra-165-Mario-Lemieux",
@@ -1969,7 +2079,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1992-93-fleer-ultra-nhl-all-stars-4",
                             "base_number": "4",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1992-93-Ultra---NHL-All-Stars-4-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1992-93-Ultra---NHL-All-Stars-4-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Ultra---NHL-All-Stars-4-Mario-Lemieux",
@@ -1987,7 +2098,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1992-93-fleer-ultra-award-winners-5",
                             "base_number": "5",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1992-93-Ultra---Award-Winners-5-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1992-93-Ultra---Award-Winners-5-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Ultra---Award-Winners-5-Mario-Lemieux",
@@ -2010,7 +2122,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1993-94-pinnacle-221",
                     "base_number": "221",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -2029,7 +2142,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1993-94-pinnacle-team-2001-30",
                             "base_number": "30",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -2058,7 +2172,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1994-95-topps-premier-finest-2",
                             "base_number": "2",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -2087,7 +2202,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1994-95-sp-premier-die-cut-112",
                             "base_number": "112",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -2110,7 +2226,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1994-95-parkhurst-vintage-v6",
                     "base_number": "V6",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -2138,7 +2255,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1995-96-metal-universe-123",
                             "base_number": "123",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -2167,7 +2285,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1996-97-pinnacle-mint-13",
                             "base_number": "13",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -2196,7 +2315,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1996-97-black-diamond-12",
                             "base_number": "12",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -2225,7 +2345,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-2000-01-topps-chrome-140",
                             "base_number": "140",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -2254,7 +2375,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-2001-02-bowman-youngstars-13",
                             "base_number": "13",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -2283,7 +2405,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-2002-03-pacific-quest-cup-gold-76",
                             "base_number": "76",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -2312,7 +2435,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1991-92-opc-premier-114",
                             "base_number": "114",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1991-92-O-Pee-Chee-Premier-114-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1991-92-O-Pee-Chee-Premier-114-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-O-Pee-Chee-Premier-114-Mario-Lemieux",
@@ -2342,7 +2466,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-2006-07-sp-authentic-23",
                             "base_number": "23",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -2372,7 +2497,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1992-93-ud-mcdonalds-mcd-21",
                             "base_number": "McD-21",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -2402,7 +2528,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1995-96-pinnacle-mcdonalds-mcd-15",
                             "base_number": "McD-15",
-                            "orientation": "landscape",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/McD95-96/62768-McD-15Fr.jpg",
                             "image_back": "img/cards/McD95-96/62768-McD-15Bk.jpg",
                             "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
@@ -2425,7 +2552,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-2006-07-parkhurst-150",
                     "base_number": "150",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -2447,7 +2575,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-2008-09-upper-deck-20th-anniversary-ud33",
                     "base_number": "UD-33",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -2475,7 +2604,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-2005-06-upper-deck-rookie-update-78",
                             "base_number": "78",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/62768-McD-15",
@@ -2505,7 +2635,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-2005-06-upper-deck-ice-76",
                             "base_number": "76",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
@@ -2529,7 +2660,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1990-91-opc-premier-63",
                     "base_number": "63",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1990-91-O-Pee-Chee-Premier-63-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1990-91-O-Pee-Chee-Premier-63-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1990-91-O-Pee-Chee-Premier-63-Mario-Lemieux",
@@ -2550,7 +2682,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1991-92-opc-153",
                     "base_number": "153",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1991-92-O-Pee-Chee-153-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1991-92-O-Pee-Chee-153-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-O-Pee-Chee-153-Mario-Lemieux",
@@ -2561,7 +2694,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1991-92-opc-523",
                     "base_number": "523",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1991-92-O-Pee-Chee-523-Mario-Lemieux-Fr.jpg",
                     "image_back": "img/cards/ML66/1991-92-O-Pee-Chee-523-Mario-Lemieux-Bk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-O-Pee-Chee-523-Mario-Lemieux-",
@@ -2583,7 +2717,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1991-92-parkhurst-137",
                     "base_number": "137",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1991-92-Parkhurst-137-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1991-92-Parkhurst-137-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Parkhurst-137-Mario-Lemieux",
@@ -2594,7 +2729,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1991-92-parkhurst-467",
                     "base_number": "467",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1991-92-Parkhurst-467-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1991-92-Parkhurst-467-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Parkhurst-467-Mario-Lemieux",
@@ -2612,7 +2748,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1991-92-parkhurst-collectibles-phc7",
                             "base_number": "PHC7",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1991-92-Parkhurst---Collectibles-PHC7-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1991-92-Parkhurst---Collectibles-PHC7-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Parkhurst---Collectibles-PHC7-Mario-Lemieux",
@@ -2635,7 +2772,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1991-92-pro-set-platinum-91",
                     "base_number": "91",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1991-92-Pro-Set-Platinum-91-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1991-92-Pro-Set-Platinum-91-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Pro-Set-Platinum-91-Mario-Lemieux",
@@ -2657,7 +2795,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1991-92-stadium-club-members-only-art-ross",
                     "base_number": "NNO",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
                     "tcdb_href": "",
@@ -2680,7 +2819,7 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1996-97-collectors-choice-210",
                     "base_number": "210",
-                    "orientation": "landscape",
+                    "orientation_front": "landscape",
                     "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1996-97-Collector's-Choice-210-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1996-97-Collector's-Choice-210-Mario-LemieuxBk.jpg",
@@ -2699,7 +2838,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1996-97-collectors-choice-ctg-c5",
                             "base_number": "C5",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1996-97-Collector's-Choice---You-Crash-the-Game-Silver-C5-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1996-97-Collector's-Choice---You-Crash-the-Game-Silver-C5-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1996-97-Collector's-Choice---You-Crash-the-Game-Silver-C5-Mario-Lemieux",
@@ -2709,7 +2849,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1996-97-collectors-choice-ctg-cr5",
                             "base_number": "CR5",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1996-97-Collector's-Choice---You-Crash-the-Game-Silver-Exchange-CR5-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1996-97-Collector's-Choice---You-Crash-the-Game-Silver-Exchange-CR5-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1996-97-Collector's-Choice---You-Crash-the-Game-Silver-Exchange-CR5-Mario-Lemieux",
@@ -2733,7 +2874,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-opc-138",
                     "base_number": "138",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-O-Pee-Chee-138-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-O-Pee-Chee-138-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-O-Pee-Chee-138-Mario-Lemieux",
@@ -2743,7 +2885,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-opc-240",
                     "base_number": "240",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-O-Pee-Chee-240-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-O-Pee-Chee-240-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-O-Pee-Chee-240-Mario-Lemieux",
@@ -2754,7 +2897,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-opc-292",
                     "base_number": "292",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-O-Pee-Chee-292-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-O-Pee-Chee-292-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-O-Pee-Chee-292-Mario-Lemieux",
@@ -2772,7 +2916,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1992-93-opc-25th-anniversary-18",
                             "base_number": "18",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1992-93-O-Pee-Chee---25th-Anniversary-18-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1992-93-O-Pee-Chee---25th-Anniversary-18-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-O-Pee-Chee---25th-Anniversary-18-Mario-Lemieux",
@@ -2801,7 +2946,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1992-93-opc-premier-star-performers-22",
                             "base_number": "22",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1992-93-O-Pee-Chee-Premier---Star-Performers-22-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1992-93-O-Pee-Chee-Premier---Star-Performers-22-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-O-Pee-Chee-Premier---Star-Performers-22-Mario-Lemieux",
@@ -2825,7 +2971,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-panini-diana-durivage-8",
                     "base_number": "8",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Panini-Diana-Durivage-8-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Panini-Diana-Durivage-8-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Panini-Diana-Durivage-8-Mario-Lemieux",
@@ -2846,7 +2993,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-pinnacle-300",
                     "base_number": "300",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Pinnacle-300-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Pinnacle-300-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Pinnacle-300-Mario-Lemieux",
@@ -2868,7 +3016,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-pinnacle-canadian-300",
                     "base_number": "300",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Pinnacle-Canadian-300-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Pinnacle-Canadian-300-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Pinnacle-Canadian-300-Mario-Lemieux",
@@ -2889,7 +3038,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-pro-set-1",
                     "base_number": "1",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Pro-Set-1-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Pro-Set-1-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Pro-Set-1-Mario-Lemieux",
@@ -2899,7 +3049,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-pro-set-139",
                     "base_number": "139",
-                    "orientation": "landscape",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
                     "image_front": "img/cards/ML66/1992-93-Pro-Set-139-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Pro-Set-139-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Pro-Set-139-Mario-Lemieux",
@@ -2920,7 +3071,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-score-390",
                     "base_number": "390",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Score-390-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Score-390-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Score-390-Mario-Lemieux",
@@ -2930,7 +3082,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-score-413",
                     "base_number": "413",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Score-413-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Score-413-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Score-413-Mario-Lemieux",
@@ -2940,7 +3093,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-score-433",
                     "base_number": "433",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Score-433-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Score-433-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Score-433-Mario-Lemieux",
@@ -2950,7 +3104,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-score-448",
                     "base_number": "448",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Score-448-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Score-448-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Score-448-Mario-Lemieux",
@@ -2960,7 +3115,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-score-519",
                     "base_number": "519",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Score-519-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Score-519-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Score-519-Mario-Lemieux",
@@ -2982,7 +3138,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-score-canadian-390",
                     "base_number": "390",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Score-Canadian-390-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Score-Canadian-390-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Score-Canadian-390-Mario-Lemieux",
@@ -2992,7 +3149,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-score-canadian-413",
                     "base_number": "413",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Score-Canadian-413-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Score-Canadian-413-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Score-Canadian-413-Mario-Lemieux",
@@ -3002,7 +3160,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-score-canadian-433",
                     "base_number": "433",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Score-Canadian-433-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Score-Canadian-433-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Score-Canadian-433-Mario-Lemieux",
@@ -3012,7 +3171,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-score-canadian-448",
                     "base_number": "448",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Score-Canadian-448-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Score-Canadian-448-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Score-Canadian-448-Mario-Lemieux",
@@ -3022,7 +3182,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-score-canadian-519",
                     "base_number": "519",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Score-Canadian-519-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Score-Canadian-519-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Score-Canadian-519-Mario-Lemieux",
@@ -3043,7 +3204,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-topps-212",
                     "base_number": "212",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Topps-212-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Topps-212-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Topps-212-Mario-Lemieux",
@@ -3053,7 +3215,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-topps-265",
                     "base_number": "265",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Topps-265-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Topps-265-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Topps-265-Mario-Lemieux",
@@ -3063,7 +3226,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1992-93-topps-504",
                     "base_number": "504",
-                    "orientation": "portrait",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1992-93-Topps-504-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1992-93-Topps-504-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Topps-504-Mario-Lemieux",
@@ -3082,7 +3246,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1992-93-topps-gold-212",
                             "base_number": "212",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1992-93-Topps---Gold-212-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1992-93-Topps---Gold-212-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Topps---Gold-212-Mario-Lemieux",
@@ -3092,7 +3257,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1992-93-topps-gold-265",
                             "base_number": "265",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1992-93-Topps---Gold-265-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1992-93-Topps---Gold-265-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Topps---Gold-265-Mario-Lemieux",
@@ -3102,7 +3268,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1992-93-topps-gold-504",
                             "base_number": "504",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1992-93-Topps---Gold-504-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1992-93-Topps---Gold-504-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Topps---Gold-504-Mario-Lemieux",
@@ -3131,7 +3298,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-2015-16-upper-deck-ud-portraits-p53",
                             "base_number": "P-53",
-                            "orientation": "portrait",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "",
