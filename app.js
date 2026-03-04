@@ -961,6 +961,42 @@ function DataViewModel() {
         return 'https://www.ebay.com/sch/i.html?_nkw=' + encodeURIComponent(parts.join(' ')) + '&_sacat=212';
     };
 
+    // global stats across all card data
+    self.GlobalStats = ko.pureComputed(function () {
+        var data = self.Data() || {};
+        var totalCards = 0;
+        var cardsWithFront = 0;
+        var cardsInCollection = 0;
+
+        function countCards(cards) {
+            if (!Array.isArray(cards)) { return; }
+            cards.forEach(function (card) {
+                totalCards++;
+                if (card.image_front) { cardsWithFront++; }
+                if (card.inCollection) { cardsInCollection++; }
+            });
+        }
+
+        Object.values(data).forEach(function (set) {
+            if (!set) { return; }
+            // For Mario virtual collections, only count from ML-all to avoid double-counting
+            if (set.source === 'mario' && set.set_key !== 'ML-all') { return; }
+            countCards(set.cards);
+            // For McDonald's, also count subset cards
+            if (set.source !== 'mario' && Array.isArray(set.subsets)) {
+                set.subsets.forEach(function (subset) { countCards(subset.cards); });
+            }
+        });
+
+        return {
+            totalCards: totalCards,
+            cardsWithFront: cardsWithFront,
+            cardsInCollection: cardsInCollection,
+            pctWithFront: totalCards > 0 ? Math.round(cardsWithFront / totalCards * 100) : 0,
+            pctInCollection: totalCards > 0 ? Math.round(cardsInCollection / totalCards * 100) : 0
+        };
+    });
+
     // build menu rows automatically whenever the data changes
     self.MenuRows = ko.computed(function () {
         var d = self.Data() || {};
