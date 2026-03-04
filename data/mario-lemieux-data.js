@@ -2486,22 +2486,53 @@ window.marioLemieuxData = {
             "set_year_start": 1992,
             "set_year_end": 1993,
             "set_display_name": "1992-93 Upper Deck McDonald's",
-            "set_tcdb_href": "",
+            "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
             "subsets": [
                 {
                     "set_key": "1992-93-upper-deck-mcdonalds-base-facsimile-auto",
                     "set_name": "Base (Facsimile Auto)",
                     "set_display_name": "1992-93 Upper Deck McDonald's - Base (Facsimile Auto)",
-                    "set_tcdb_href": "",
+                    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
                     "cards": [
                         {
                             "id": "ml-1992-93-ud-mcdonalds-mcd-21",
                             "base_number": "McD-21",
                             "orientation_front": "portrait",
                             "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
-                            "tcdb_href": "",
+                            "image_front": "img/cards/McD92-93/62883-4099244RepFr.jpg",
+                            "image_back": "img/cards/McD92-93/62883-4099244RepBk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "1993-94-upper-deck-mcdonalds-nhl-all-stars": {
+            "set_key": "1993-94-upper-deck-mcdonalds-nhl-all-stars",
+            "set_name": "Upper Deck McDonald's NHL All-Stars",
+            "set_year_label": "1993-94",
+            "set_year_start": 1993,
+            "set_year_end": 1994,
+            "set_display_name": "1993-94 Upper Deck McDonald's NHL All-Stars",
+            "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+            "subsets": [
+                {
+                    "set_key": "1993-94-upper-deck-mcdonalds-nhl-all-stars-holograms",
+                    "set_name": "Holograms",
+                    "set_display_name": "1993-94 Upper Deck McDonald's NHL All-Stars - Holograms",
+                    "set_tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125618/1993-94-Upper-Deck-McDonald's-NHL-All-Stars---Holograms",
+                    "cards": [
+                        {
+                            "id": "ml-1993-94-ud-mcdonalds-nhl-holograms-mch-01",
+                            "base_number": "McH-01",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
+                            "image_front": "img/cards/McD93-94/138869-4099305Fr.jpg",
+                            "image_back": "img/cards/McD93-94/138869-4099305Bk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125618/1993-94-Upper-Deck-McDonald's-NHL-All-Stars---Holograms",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
                             "inCollection": true
@@ -2517,7 +2548,7 @@ window.marioLemieuxData = {
             "set_year_start": 1995,
             "set_year_end": 1996,
             "set_display_name": "1995-96 Pinnacle McDonald's",
-            "set_tcdb_href": "",
+            "set_tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
             "subsets": [
                 {
                     "set_key": "1995-96-pinnacle-mcdonalds-game-winners",
@@ -2535,6 +2566,67 @@ window.marioLemieuxData = {
                             "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
                             "team": "Pittsburgh Penguins",
                             "position": "Center"
+                        }
+                    ]
+                }
+            ]
+        },
+        "1996-97-pinnacle-mcdonalds-3d-ice-breakers": {
+            "set_key": "1996-97-pinnacle-mcdonalds-3d-ice-breakers",
+            "set_name": "Pinnacle McDonald's 3D Ice Breakers",
+            "set_year_label": "1996-97",
+            "set_year_start": 1996,
+            "set_year_end": 1997,
+            "set_display_name": "1996-97 Pinnacle McDonald's 3D Ice Breakers",
+            "set_tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+            "subsets": [
+                {
+                    "set_key": "1996-97-pinnacle-mcdonalds-3d-ice-breakers-superstars",
+                    "set_name": "Superstars",
+                    "set_display_name": "1996-97 Pinnacle McDonald's 3D Ice Breakers - Superstars",
+                    "set_tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                    "cards": [
+                        {
+                            "id": "ml-1996-97-pinnacle-mcdonalds-mcd-21",
+                            "base_number": "McD-21",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
+                            "image_front": "img/cards/McD96-97/62685-McD-21Fr.jpg",
+                            "image_back": "img/cards/McD96-97/62685-McD-21Bk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                }
+            ]
+        },
+        "1998-99-upper-deck-ice-mcdonalds": {
+            "set_key": "1998-99-upper-deck-ice-mcdonalds",
+            "set_name": "Upper Deck Ice McDonald's",
+            "set_year_label": "1998-99",
+            "set_year_start": 1998,
+            "set_year_end": 1999,
+            "set_display_name": "1998-99 Upper Deck Ice McDonald's",
+            "set_tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+            "subsets": [
+                {
+                    "set_key": "1998-99-upper-deck-ice-mcdonalds-wayne-gretzky-teammates",
+                    "set_name": "Wayne Gretzky Teammates",
+                    "set_display_name": "1998-99 Upper Deck Ice McDonald's - Wayne Gretzky Teammates",
+                    "set_tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates",
+                    "cards": [
+                        {
+                            "id": "ml-1998-99-ud-ice-mcdonalds-t12",
+                            "base_number": "T12",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/McD98-99/48890-T12Fr.jpg",
+                            "image_back": "img/cards/McD98-99/48890-T12Bk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": true
                         }
                     ]
                 }
