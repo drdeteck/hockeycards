@@ -677,9 +677,9 @@ window.marioLemieuxData = {
                     "id": "ml-1991-92-score-canadian-english-365",
                     "base_number": "365",
                     "orientation_front": "landscape",
-                    "orientation_back": "landscape",
-                    "image_front": "",
-                    "image_back": "",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1991-92-Score-Canadian-English-365-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1991-92-Score-Canadian-English-365-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
@@ -2800,7 +2800,30 @@ window.marioLemieuxData = {
                 }
             ]
         },
-                "1991-92-stadium-club-members-only": {
+        "1991-92-stadium-club": {
+            "set_key": "1991-92-stadium-club",
+            "set_name": "Stadium Club",
+            "set_year_label": "1991-92",
+            "set_year_start": 1991,
+            "set_year_end": 1992,
+            "set_display_name": "1991-92 Stadium Club",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1991-92-stadium-club-174",
+                    "base_number": "174",
+                    "orientation_front": "portrait",
+                    "orientation_back": "landscape",
+                    "image_front": "img/cards/ML66/1991-92-Stadium-Club-174-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1991-92-Stadium-Club-174-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                }
+            ]
+        },
+        "1991-92-stadium-club-members-only": {
             "set_key": "1991-92-stadium-club-members-only",
             "set_name": "Stadium Club Members Only",
             "set_year_label": "1991-92",
