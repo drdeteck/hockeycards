@@ -206,6 +206,12 @@ function DataViewModel() {
                 if (setCompare !== 0) {
                     return setCompare;
                 }
+                var leftSubset = (left.insert_subset || '').toString();
+                var rightSubset = (right.insert_subset || '').toString();
+                var subsetCompare = leftSubset.localeCompare(rightSubset, undefined, { sensitivity: 'base' });
+                if (subsetCompare !== 0) {
+                    return subsetCompare;
+                }
                 return (left.base_number || '').toString().localeCompare((right.base_number || '').toString(), undefined, { numeric: true, sensitivity: 'base' });
             });
             byYear[key].set_total_cards = yearCards.length;
@@ -223,6 +229,12 @@ function DataViewModel() {
             var setCompare = leftSet.localeCompare(rightSet, undefined, { sensitivity: 'base' });
             if (setCompare !== 0) {
                 return setCompare;
+            }
+            var leftSubset = (left.insert_subset || '').toString();
+            var rightSubset = (right.insert_subset || '').toString();
+            var subsetCompare = leftSubset.localeCompare(rightSubset, undefined, { sensitivity: 'base' });
+            if (subsetCompare !== 0) {
+                return subsetCompare;
             }
             return (left.base_number || '').toString().localeCompare((right.base_number || '').toString(), undefined, { numeric: true, sensitivity: 'base' });
         });
@@ -709,6 +721,13 @@ function DataViewModel() {
             var setCompare = leftSet.localeCompare(rightSet, undefined, { sensitivity: 'base' });
             if (setCompare !== 0) {
                 return setCompare;
+            }
+
+            var leftSubset = (left.insert_subset || '').toString();
+            var rightSubset = (right.insert_subset || '').toString();
+            var subsetCompare = leftSubset.localeCompare(rightSubset, undefined, { sensitivity: 'base' });
+            if (subsetCompare !== 0) {
+                return subsetCompare;
             }
 
             return (left.base_number || left.number || '').toString().localeCompare((right.base_number || right.number || '').toString(), undefined, { numeric: true, sensitivity: 'base' });
