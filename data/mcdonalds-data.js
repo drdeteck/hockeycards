@@ -1751,12 +1751,12 @@ var rawData = {
                 "inCollection": false
             },
             {
-                "name": "Mike Richter CL",
+                "name": "Mike Richter",
                 "base_number": "NNO",
                 "team": "New York Rangers",
                 "position": "",
                 "orientation_front": "landscape",
-                "orientation_back": "landscape",
+                "orientation_back": "portrait",
                 "image_front": "img/cards/McD94-95/62943-NNOFr.jpg",
                 "image_back": "img/cards/McD94-95/62943-NNOBk.jpg",
                 "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
@@ -2761,12 +2761,12 @@ var rawData = {
                 "inCollection": false
             },
             {
-                "name": "Checklist CL",
+                "name": "Checklist",
                 "base_number": "NNO",
                 "team": "Checklist",
                 "position": "",
-                "orientation_front": "portrait",
-                "orientation_back": "portrait",
+                "orientation_front": "landscape",
+                "orientation_back": "landscape",
                 "image_front": "img/cards/McD96-97/62685-NNOFr.jpg",
                 "image_back": "img/cards/McD96-97/62685-NNOBk.jpg",
                 "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
