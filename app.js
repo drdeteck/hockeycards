@@ -331,7 +331,11 @@ function DataViewModel() {
     self.CardRouteError = ko.observable('');
     self.ShowAllSetCards = ko.observable(false);
     self.CardImageFace = ko.observable('front');
-    self.ShowCollectionOverlay = ko.observable(false);
+    // 'off' | 'owned' | 'missing'
+    self.CollectionOverlayMode = ko.observable('off');
+    self.ShowCollectionOverlay = ko.pureComputed(function () {
+        return self.CollectionOverlayMode() !== 'off';
+    });
 
     // when the selected collection key changes (e.g. via menu radio), push it into the route
     self.CurrentCollectionKey.subscribe(function(key) {
@@ -541,10 +545,6 @@ function DataViewModel() {
         }
 
         self.CardImageFace(self.CardImageFace() === 'front' ? 'back' : 'front');
-    };
-
-    self.ToggleCollectionOverlay = function () {
-        self.ShowCollectionOverlay(!self.ShowCollectionOverlay());
     };
 
     self.NormalizeText = function (value) {
