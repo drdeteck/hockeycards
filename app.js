@@ -22,12 +22,32 @@ window.HCHB = window.HCHB || {};
             }
 
             // Add _parent_key to all subsets so BuildCardRoute can emit Set/Subset/number URLs
+            // Also normalize orientation_front/orientation_back from orientation for any card missing them
             Object.keys(mergedData).forEach(function (setKey) {
                 var setData = mergedData[setKey];
-                if (setData && Array.isArray(setData.subsets)) {
+                if (!setData) { return; }
+
+                function normalizeCardOrientation(card) {
+                    var base = card.orientation || 'portrait';
+                    if (!card.orientation_front) {
+                        card.orientation_front = base;
+                    }
+                    if (!card.orientation_back) {
+                        card.orientation_back = base;
+                    }
+                }
+
+                if (Array.isArray(setData.cards)) {
+                    setData.cards.forEach(normalizeCardOrientation);
+                }
+
+                if (Array.isArray(setData.subsets)) {
                     setData.subsets.forEach(function (subset) {
                         if (!subset._parent_key) {
                             subset._parent_key = setKey;
+                        }
+                        if (Array.isArray(subset.cards)) {
+                            subset.cards.forEach(normalizeCardOrientation);
                         }
                     });
                 }
