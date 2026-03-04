@@ -754,17 +754,6 @@ window.marioLemieuxData = {
             "set_tcdb_href": "",
             "cards": [
                 {
-                    "id": "ml-1992-93-parkhurst-132",
-                    "base_number": "132",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                },
-                {
                     "id": "ml-1992-93-parkhurst-136",
                     "base_number": "136",
                     "orientation_front": "portrait",
@@ -864,17 +853,6 @@ window.marioLemieuxData = {
                     "position": "Center"
                 },
                 {
-                    "id": "ml-1992-93-upper-deck-40",
-                    "base_number": "40",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                },
-                {
                     "id": "ml-1992-93-upper-deck-433",
                     "base_number": "433",
                     "orientation_front": "portrait",
@@ -899,19 +877,6 @@ window.marioLemieuxData = {
                     "inCollection": true
                 },
                 {
-                    "id": "ml-1992-93-upper-deck-lemieux-stevens-tocchet",
-                    "base_number": "NNO",
-                    "orientation_front": "landscape",
-                    "orientation_back": "landscape",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center",
-                    "variant_note": "Lemieux/Stevens/Tocchet",
-                    "inCollection": true
-                },
-                {
                     "id": "ml-1992-93-upper-deck-454",
                     "base_number": "454",
                     "orientation_front": "landscape",
@@ -920,7 +885,8 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1992-93-Upper-Deck-454-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Upper-Deck-454-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 }
             ],
             "subsets": [
