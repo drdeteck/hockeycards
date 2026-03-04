@@ -1,6 +1,6 @@
 window.marioLemieuxData = {
     "dataset": "mario-lemieux",
-    "version": "0.7.0",
+    "version": "0.8.0",
     "player": "Mario Lemieux",
     "updated_at": "2026-03-04",
     "image_folder": "img/cards/ML66",
@@ -297,7 +297,8 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1990-91-Score-American-2-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1990-91-Score-American-2-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 }
             ]
         },
@@ -337,7 +338,8 @@ window.marioLemieuxData = {
                             "image_back": "img/cards/ML66/1990-91-Score-Canadian-337-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1990-91-Score-Canadian-337-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "inCollection": true
                         }
                     ]
                 }
@@ -391,7 +393,8 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1990-91-Upper-Deck-305-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1990-91-Upper-Deck-305-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 }
             ]
         },
@@ -485,7 +488,8 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1991-92-Pro-Set-194-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Pro-Set-194-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 },
                 {
                     "id": "ml-1991-92-pro-set-318",
@@ -589,7 +593,8 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1991-92-Score-Canadian-Bilingual-200-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Score-Canadian-Bilingual-200-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 },
                 {
                     "id": "ml-1991-92-score-canadian-bilingual-316",
@@ -599,7 +604,8 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1991-92-Score-Canadian-Bilingual-316-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Score-Canadian-Bilingual-316-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 },
                 {
                     "id": "ml-1991-92-score-canadian-bilingual-365",
@@ -632,6 +638,17 @@ window.marioLemieuxData = {
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Score-Canadian-English-200-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
+                },
+                {
+                    "id": "ml-1991-92-score-canadian-english-365",
+                    "base_number": "365",
+                    "orientation": "landscape",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
                 }
             ]
         },
@@ -662,7 +679,8 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1991-92-Upper-Deck-611-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Upper-Deck-611-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 }
             ],
             "subsets": [
@@ -680,7 +698,27 @@ window.marioLemieuxData = {
                             "image_back": "img/cards/ML66/1991-92-Upper-Deck---Award-Winner-Holograms-AW9-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Upper-Deck---Award-Winner-Holograms-AW9-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "inCollection": true
+                        }
+                    ]
+                },
+                {
+                    "set_key": "1991-92-upper-deck-base-holding-stanley-cup",
+                    "set_name": "Base (Holding Stanley Cup)",
+                    "set_display_name": "1991-92 Upper Deck - Base (Holding Stanley Cup)",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1991-92-upper-deck-holding-stanley-cup-54",
+                            "base_number": "54",
+                            "orientation": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": true
                         }
                     ]
                 }
@@ -734,7 +772,8 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1992-93-Parkhurst-136-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Parkhurst-136-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 },
                 {
                     "id": "ml-1992-93-parkhurst-462",
@@ -835,7 +874,8 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1992-93-Upper-Deck-433-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Upper-Deck-433-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 },
                 {
                     "id": "ml-1992-93-upper-deck-436",
@@ -845,7 +885,20 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1992-93-Upper-Deck-436-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Upper-Deck-436-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
+                },
+                {
+                    "id": "ml-1992-93-upper-deck-lemieux-stevens-tocchet",
+                    "base_number": "NNO",
+                    "orientation": "landscape",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "variant_note": "Lemieux/Stevens/Tocchet",
+                    "inCollection": true
                 },
                 {
                     "id": "ml-1992-93-upper-deck-454",
@@ -1065,6 +1118,28 @@ window.marioLemieuxData = {
                 }
             ]
         },
+                "1993-94-donruss": {
+            "set_key": "1993-94-donruss",
+            "set_name": "Donruss",
+            "set_year_label": "1993-94",
+            "set_year_start": 1993,
+            "set_year_end": 1994,
+            "set_display_name": "1993-94 Donruss",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1993-94-donruss-262",
+                    "base_number": "262",
+                    "orientation": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                }
+            ]
+        },
         "1993-94-score": {
             "set_key": "1993-94-score",
             "set_name": "Score",
@@ -1083,6 +1158,72 @@ window.marioLemieuxData = {
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
+                },
+                {
+                    "id": "ml-1993-94-score-350",
+                    "base_number": "350",
+                    "orientation": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                },
+                {
+                    "id": "ml-1993-94-score-479",
+                    "base_number": "479",
+                    "orientation": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                },
+                {
+                    "id": "ml-1993-94-score-480",
+                    "base_number": "480",
+                    "orientation": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                }
+            ]
+        },
+                "1993-94-topps-premier": {
+            "set_key": "1993-94-topps-premier",
+            "set_name": "Topps Premier",
+            "set_year_label": "1993-94",
+            "set_year_start": 1993,
+            "set_year_end": 1994,
+            "set_display_name": "1993-94 Topps Premier",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1993-94-topps-premier-91",
+                    "base_number": "91",
+                    "orientation": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                },
+                {
+                    "id": "ml-1993-94-topps-premier-185",
+                    "base_number": "185",
+                    "orientation": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
                 }
             ]
         },
@@ -1104,6 +1245,38 @@ window.marioLemieuxData = {
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
+                },
+                {
+                    "id": "ml-1993-94-upper-deck-301",
+                    "base_number": "301",
+                    "orientation": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1993-94-upper-deck-gretzky-great-ones",
+                    "set_name": "Gretzky's Great Ones",
+                    "set_display_name": "1993-94 Upper Deck - Gretzky's Great Ones",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1993-94-upper-deck-gretzky-great-ones-gg4",
+                            "base_number": "GG4",
+                            "orientation": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": true
+                        }
+                    ]
                 }
             ]
         },
@@ -1235,7 +1408,38 @@ window.marioLemieuxData = {
                             "image_back": "",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "inCollection": true
+                        }
+                    ]
+                }
+            ]
+        },
+                "1995-96-collectors-choice": {
+            "set_key": "1995-96-collectors-choice",
+            "set_name": "Collector's Choice",
+            "set_year_label": "1995-96",
+            "set_year_start": 1995,
+            "set_year_end": 1996,
+            "set_display_name": "1995-96 Collector's Choice",
+            "set_tcdb_href": "",
+            "subsets": [
+                {
+                    "set_key": "1995-96-collectors-choice-you-crash-the-game-silver",
+                    "set_name": "You Crash the Game Silver",
+                    "set_display_name": "1995-96 Collector's Choice - You Crash the Game Silver",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1995-96-collectors-choice-ctg-c12",
+                            "base_number": "C12",
+                            "orientation": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": true
                         }
                     ]
                 }
@@ -1259,6 +1463,28 @@ window.marioLemieuxData = {
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
+                }
+            ]
+        },
+                "1996-97-flair": {
+            "set_key": "1996-97-flair",
+            "set_name": "Flair",
+            "set_year_label": "1996-97",
+            "set_year_start": 1996,
+            "set_year_end": 1997,
+            "set_display_name": "1996-97 Flair",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1996-97-flair-78",
+                    "base_number": "78",
+                    "orientation": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
                 }
             ]
         },
@@ -1434,6 +1660,50 @@ window.marioLemieuxData = {
                 }
             ]
         },
+                "2001-02-sp-authentic": {
+            "set_key": "2001-02-sp-authentic",
+            "set_name": "SP Authentic",
+            "set_year_label": "2001-02",
+            "set_year_start": 2001,
+            "set_year_end": 2002,
+            "set_display_name": "2001-02 SP Authentic",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2001-02-sp-authentic-68",
+                    "base_number": "68",
+                    "orientation": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                }
+            ]
+        },
+                "2001-02-spx": {
+            "set_key": "2001-02-spx",
+            "set_name": "SPx",
+            "set_year_label": "2001-02",
+            "set_year_start": 2001,
+            "set_year_end": 2002,
+            "set_display_name": "2001-02 SPx",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2001-02-spx-52",
+                    "base_number": "52",
+                    "orientation": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                }
+            ]
+        },
         "2002-03-topps": {
             "set_key": "2002-03-topps",
             "set_name": "Topps",
@@ -1518,6 +1788,28 @@ window.marioLemieuxData = {
                 }
             ]
         },
+                "2003-04-upper-deck-honor-roll": {
+            "set_key": "2003-04-upper-deck-honor-roll",
+            "set_name": "Upper Deck Honor Roll",
+            "set_year_label": "2003-04",
+            "set_year_start": 2003,
+            "set_year_end": 2004,
+            "set_display_name": "2003-04 Upper Deck Honor Roll",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2003-04-upper-deck-honor-roll-68",
+                    "base_number": "68",
+                    "orientation": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                }
+            ]
+        },
         "2005-06-ultra": {
             "set_key": "2005-06-ultra",
             "set_name": "Ultra",
@@ -1536,6 +1828,39 @@ window.marioLemieuxData = {
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
+                },
+                {
+                    "id": "ml-2005-06-ultra-154",
+                    "base_number": "154",
+                    "orientation": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                }
+            ]
+        },
+        "2005-06-parkhurst": {
+            "set_key": "2005-06-parkhurst",
+            "set_name": "Parkhurst",
+            "set_year_label": "2005-06",
+            "set_year_start": 2005,
+            "set_year_end": 2006,
+            "set_display_name": "2005-06 Parkhurst",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2005-06-parkhurst-390",
+                    "base_number": "390",
+                    "orientation": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
                 }
             ]
         },
@@ -1561,6 +1886,58 @@ window.marioLemieuxData = {
                 }
             ]
         },
+        "2005-06-sp-authentic": {
+            "set_key": "2005-06-sp-authentic",
+            "set_name": "SP Authentic",
+            "set_year_label": "2005-06",
+            "set_year_start": 2005,
+            "set_year_end": 2006,
+            "set_display_name": "2005-06 SP Authentic",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2005-06-sp-authentic-79",
+                    "base_number": "79",
+                    "orientation": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                }
+            ]
+        },
+                "2005-06-upper-deck-victory": {
+            "set_key": "2005-06-upper-deck-victory",
+            "set_name": "Upper Deck Victory",
+            "set_year_label": "2005-06",
+            "set_year_start": 2005,
+            "set_year_end": 2006,
+            "set_display_name": "2005-06 Upper Deck Victory",
+            "set_tcdb_href": "",
+            "subsets": [
+                {
+                    "set_key": "2005-06-upper-deck-victory-game-breakers",
+                    "set_name": "Game Breakers",
+                    "set_display_name": "2005-06 Upper Deck Victory - Game Breakers",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2005-06-upper-deck-victory-game-breakers-gb36",
+                            "base_number": "GB36",
+                            "orientation": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": true
+                        }
+                    ]
+                }
+            ]
+        },
         "1992-93-fleer-ultra": {
             "set_key": "1992-93-fleer-ultra",
             "set_name": "Fleer Ultra",
@@ -1578,7 +1955,8 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1992-93-Ultra-165-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Ultra-165-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 }
             ],
             "subsets": [
@@ -1628,6 +2006,19 @@ window.marioLemieuxData = {
             "set_year_end": 1994,
             "set_display_name": "1993-94 Pinnacle",
             "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1993-94-pinnacle-221",
+                    "base_number": "221",
+                    "orientation": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                }
+            ],
             "subsets": [
                 {
                     "set_key": "1993-94-pinnacle-team-2001",
@@ -1704,6 +2095,28 @@ window.marioLemieuxData = {
                             "position": "Center"
                         }
                     ]
+                }
+            ]
+        },
+                "1994-95-parkhurst-vintage": {
+            "set_key": "1994-95-parkhurst-vintage",
+            "set_name": "Parkhurst Vintage",
+            "set_year_label": "1994-95",
+            "set_year_start": 1994,
+            "set_year_end": 1995,
+            "set_display_name": "1994-95 Parkhurst Vintage",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1994-95-parkhurst-vintage-v6",
+                    "base_number": "V6",
+                    "orientation": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
                 }
             ]
         },
@@ -1904,7 +2317,8 @@ window.marioLemieuxData = {
                             "image_back": "img/cards/ML66/1991-92-O-Pee-Chee-Premier-114-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-O-Pee-Chee-Premier-114-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "inCollection": true
                         }
                     ]
                 }
@@ -1933,7 +2347,8 @@ window.marioLemieuxData = {
                             "image_back": "",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "inCollection": true
                         }
                     ]
                 }
@@ -1962,7 +2377,8 @@ window.marioLemieuxData = {
                             "image_back": "",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "inCollection": true
                         }
                     ]
                 }
@@ -1997,6 +2413,50 @@ window.marioLemieuxData = {
                 }
             ]
         },
+                "2006-07-parkhurst": {
+            "set_key": "2006-07-parkhurst",
+            "set_name": "Parkhurst",
+            "set_year_label": "2006-07",
+            "set_year_start": 2006,
+            "set_year_end": 2007,
+            "set_display_name": "2006-07 Parkhurst",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2006-07-parkhurst-150",
+                    "base_number": "150",
+                    "orientation": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                }
+            ]
+        },
+                "2008-09-upper-deck-20th-anniversary": {
+            "set_key": "2008-09-upper-deck-20th-anniversary",
+            "set_name": "Upper Deck 20th Anniversary",
+            "set_year_label": "2008-09",
+            "set_year_start": 2008,
+            "set_year_end": 2009,
+            "set_display_name": "2008-09 Upper Deck 20th Anniversary",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2008-09-upper-deck-20th-anniversary-ud33",
+                    "base_number": "UD-33",
+                    "orientation": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                }
+            ]
+        },
         "2005-06-upper-deck-rookie-update": {
             "set_key": "2005-06-upper-deck-rookie-update",
             "set_name": "Upper Deck Rookie Update",
@@ -2020,7 +2480,8 @@ window.marioLemieuxData = {
                             "image_back": "",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/62768-McD-15",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "inCollection": true
                         }
                     ]
                 }
@@ -2049,7 +2510,8 @@ window.marioLemieuxData = {
                             "image_back": "",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "inCollection": true
                         }
                     ]
                 }
@@ -2093,7 +2555,8 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1991-92-O-Pee-Chee-153-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-O-Pee-Chee-153-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 },
                 {
                     "id": "ml-1991-92-opc-523",
@@ -2103,7 +2566,8 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1991-92-O-Pee-Chee-523-Mario-Lemieux-Bk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-O-Pee-Chee-523-Mario-Lemieux-",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 }
             ]
         },
@@ -2124,7 +2588,8 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1991-92-Parkhurst-137-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Parkhurst-137-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 },
                 {
                     "id": "ml-1991-92-parkhurst-467",
@@ -2175,7 +2640,31 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1991-92-Pro-Set-Platinum-91-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Pro-Set-Platinum-91-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
+                }
+            ]
+        },
+                "1991-92-stadium-club-members-only": {
+            "set_key": "1991-92-stadium-club-members-only",
+            "set_name": "Stadium Club Members Only",
+            "set_year_label": "1991-92",
+            "set_year_start": 1991,
+            "set_year_end": 1992,
+            "set_display_name": "1991-92 Stadium Club Members Only",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1991-92-stadium-club-members-only-art-ross",
+                    "base_number": "NNO",
+                    "orientation": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "variant_note": "Art Ross",
+                    "inCollection": true
                 }
             ]
         },
@@ -2259,7 +2748,8 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1992-93-O-Pee-Chee-240-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-O-Pee-Chee-240-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 },
                 {
                     "id": "ml-1992-93-opc-292",
@@ -2316,7 +2806,8 @@ window.marioLemieuxData = {
                             "image_back": "img/cards/ML66/1992-93-O-Pee-Chee-Premier---Star-Performers-22-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-O-Pee-Chee-Premier---Star-Performers-22-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "inCollection": true
                         }
                     ]
                 }
@@ -2577,7 +3068,8 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1992-93-Topps-504-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Topps-504-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 }
             ],
             "subsets": [
@@ -2616,6 +3108,36 @@ window.marioLemieuxData = {
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Topps---Gold-504-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center"
+                        }
+                    ]
+                }
+            ]
+        },
+                "2015-16-upper-deck": {
+            "set_key": "2015-16-upper-deck",
+            "set_name": "Upper Deck",
+            "set_year_label": "2015-16",
+            "set_year_start": 2015,
+            "set_year_end": 2016,
+            "set_display_name": "2015-16 Upper Deck",
+            "set_tcdb_href": "",
+            "subsets": [
+                {
+                    "set_key": "2015-16-upper-deck-ud-portraits",
+                    "set_name": "UD Portraits",
+                    "set_display_name": "2015-16 Upper Deck - UD Portraits",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2015-16-upper-deck-ud-portraits-p53",
+                            "base_number": "P-53",
+                            "orientation": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": true
                         }
                     ]
                 }
