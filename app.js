@@ -775,6 +775,62 @@ function DataViewModel() {
             });
     });
 
+    self.IsMLYearView = ko.pureComputed(function () {
+        var collection = self.CurrentCollection();
+        if (!collection) { return false; }
+        var key = collection.set_key || '';
+        return key !== 'ML-all' && key.indexOf('ML-') === 0;
+    });
+
+    self.CurrentCollectionYearSetGroups = ko.pureComputed(function () {
+        var collection = self.CurrentCollection();
+        if (!collection) { return []; }
+        var key = collection.set_key || '';
+        if (key === 'ML-all' || key.indexOf('ML-') !== 0) { return []; }
+
+        var allCards = [];
+        (collection.cards || []).forEach(function (card) { allCards.push(card); });
+        (collection.subsets || []).forEach(function (subset) {
+            (subset.cards || []).forEach(function (card) { allCards.push(card); });
+        });
+
+        var groupsBySet = {};
+        var setOrderKeys = [];
+        allCards.forEach(function (card) {
+            var setName = (card.set_name || '').toString();
+            var variation = (card.set_variation || '').toString();
+            var groupKey = variation ? (setName + '|||' + variation) : setName;
+            if (!groupsBySet[groupKey]) {
+                groupsBySet[groupKey] = { setName: setName, variation: variation, cards: [] };
+                setOrderKeys.push(groupKey);
+            }
+            groupsBySet[groupKey].cards.push(card);
+        });
+
+        setOrderKeys.sort(function (a, b) {
+            return a.localeCompare(b, undefined, { sensitivity: 'base' });
+        });
+
+        return setOrderKeys.map(function (groupKey) {
+            var group = groupsBySet[groupKey];
+            group.cards.sort(function (left, right) {
+                var leftSubset = (left.insert_subset || '').toString();
+                var rightSubset = (right.insert_subset || '').toString();
+                if (!leftSubset && rightSubset) { return -1; }
+                if (leftSubset && !rightSubset) { return 1; }
+                var subsetCompare = leftSubset.localeCompare(rightSubset, undefined, { sensitivity: 'base' });
+                if (subsetCompare !== 0) { return subsetCompare; }
+                return (left.base_number || '').toString().localeCompare(
+                    (right.base_number || '').toString(),
+                    undefined,
+                    { numeric: true, sensitivity: 'base' }
+                );
+            });
+            var label = group.variation ? (group.setName + ' (' + group.variation + ')') : group.setName;
+            return { label: label, cards: group.cards };
+        });
+    });
+
     // helper used by the card template to pick an image URL
     // (template uses $root.ParseImageUri so it must live on the root viewmodel)
     self.ParseImageUri = function (card) {
