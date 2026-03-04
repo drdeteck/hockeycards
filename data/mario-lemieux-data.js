@@ -1,8 +1,8 @@
 window.marioLemieuxData = {
     "dataset": "mario-lemieux",
-    "version": "0.6.0",
+    "version": "0.7.0",
     "player": "Mario Lemieux",
-    "updated_at": "2026-03-03",
+    "updated_at": "2026-03-04",
     "image_folder": "img/cards/ML66",
     "sets": {
         "1985-86-o-pee-chee": {
@@ -814,6 +814,16 @@ window.marioLemieuxData = {
             "set_tcdb_href": "",
             "cards": [
                 {
+                    "id": "ml-1992-93-upper-deck-26",
+                    "base_number": "26",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Upper-Deck-26-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Upper-Deck-26-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Upper-Deck-26-Mario-Lemieux",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
                     "id": "ml-1992-93-upper-deck-40",
                     "base_number": "40",
                     "orientation": "portrait",
@@ -822,6 +832,92 @@ window.marioLemieuxData = {
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
+                },
+                {
+                    "id": "ml-1992-93-upper-deck-433",
+                    "base_number": "433",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Upper-Deck-433-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Upper-Deck-433-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Upper-Deck-433-Mario-Lemieux",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1992-93-upper-deck-436",
+                    "base_number": "436",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Upper-Deck-436-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Upper-Deck-436-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Upper-Deck-436-Mario-Lemieux",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1992-93-upper-deck-454",
+                    "base_number": "454",
+                    "orientation": "landscape",
+                    "image_front": "img/cards/ML66/1992-93-Upper-Deck-454-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Upper-Deck-454-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Upper-Deck-454-Mario-Lemieux",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1992-93-upper-deck-gordie-howe-selects",
+                    "set_name": "Gordie Howe Selects",
+                    "set_display_name": "1992-93 Upper Deck - Gordie Howe Selects",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1992-93-upper-deck-gordie-howe-selects-g9",
+                            "base_number": "G9",
+                            "orientation": "portrait",
+                            "image_front": "img/cards/ML66/1992-93-Upper-Deck---Gordie-Howe-Selects-G9-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1992-93-Upper-Deck---Gordie-Howe-Selects-G9-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Upper-Deck---Gordie-Howe-Selects-G9-Mario-Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "1992-93-upper-deck-world-junior-grads",
+                    "set_name": "World Junior Grads",
+                    "set_display_name": "1992-93 Upper Deck - World Junior Grads",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1992-93-upper-deck-world-junior-grads-wg11",
+                            "base_number": "WG11",
+                            "orientation": "portrait",
+                            "image_front": "img/cards/ML66/1992-93-Upper-Deck---World-Junior-Grads-WG11-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1992-93-Upper-Deck---World-Junior-Grads-WG11-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Upper-Deck---World-Junior-Grads-WG11-Mario-Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "1992-93-upper-deck-all-star-locker-series",
+                    "set_name": "All-Star Locker Series",
+                    "set_display_name": "1992-93 Upper Deck - All-Star Locker Series",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1992-93-upper-deck-all-star-locker-series-6",
+                            "base_number": "6",
+                            "orientation": "portrait",
+                            "image_front": "img/cards/ML66/1992-93-Upper-Deck-All-Star-Locker-Series-6-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1992-93-Upper-Deck-All-Star-Locker-Series-6-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Upper-Deck-All-Star-Locker-Series-6-Mario-Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
                 }
             ]
         },
@@ -1479,20 +1575,50 @@ window.marioLemieuxData = {
             "set_year_end": 1993,
             "set_display_name": "1992-93 Fleer Ultra",
             "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1992-93-fleer-ultra-165",
+                    "base_number": "165",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1992-93-Ultra-165-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1992-93-Ultra-165-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Ultra-165-Mario-Lemieux",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ],
             "subsets": [
                 {
-                    "set_key": "1992-93-fleer-ultra-ultra-all-stars",
-                    "set_name": "Ultra All-Stars",
-                    "set_display_name": "1992-93 Fleer Ultra - Ultra All-Stars",
+                    "set_key": "1992-93-fleer-ultra-nhl-all-stars",
+                    "set_name": "NHL All-Stars",
+                    "set_display_name": "1992-93 Fleer Ultra - NHL All-Stars",
                     "set_tcdb_href": "",
                     "cards": [
                         {
-                            "id": "ml-1992-93-fleer-ultra-all-stars-4",
+                            "id": "ml-1992-93-fleer-ultra-nhl-all-stars-4",
                             "base_number": "4",
                             "orientation": "portrait",
-                            "image_front": "",
-                            "image_back": "",
-                            "tcdb_href": "",
+                            "image_front": "img/cards/ML66/1992-93-Ultra---NHL-All-Stars-4-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1992-93-Ultra---NHL-All-Stars-4-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Ultra---NHL-All-Stars-4-Mario-Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "1992-93-fleer-ultra-award-winners",
+                    "set_name": "Award Winners",
+                    "set_display_name": "1992-93 Fleer Ultra - Award Winners",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1992-93-fleer-ultra-award-winners-5",
+                            "base_number": "5",
+                            "orientation": "portrait",
+                            "image_front": "img/cards/ML66/1992-93-Ultra---Award-Winners-5-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1992-93-Ultra---Award-Winners-5-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Ultra---Award-Winners-5-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center"
                         }
