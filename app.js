@@ -206,6 +206,12 @@ function DataViewModel() {
                 if (setCompare !== 0) {
                     return setCompare;
                 }
+                var leftVariation = (left.set_variation || '').toString();
+                var rightVariation = (right.set_variation || '').toString();
+                var variationCompare = leftVariation.localeCompare(rightVariation, undefined, { sensitivity: 'base' });
+                if (variationCompare !== 0) {
+                    return variationCompare;
+                }
                 var leftSubset = (left.insert_subset || '').toString();
                 var rightSubset = (right.insert_subset || '').toString();
                 var subsetCompare = leftSubset.localeCompare(rightSubset, undefined, { sensitivity: 'base' });
@@ -229,6 +235,12 @@ function DataViewModel() {
             var setCompare = leftSet.localeCompare(rightSet, undefined, { sensitivity: 'base' });
             if (setCompare !== 0) {
                 return setCompare;
+            }
+            var leftVariation = (left.set_variation || '').toString();
+            var rightVariation = (right.set_variation || '').toString();
+            var variationCompare = leftVariation.localeCompare(rightVariation, undefined, { sensitivity: 'base' });
+            if (variationCompare !== 0) {
+                return variationCompare;
             }
             var leftSubset = (left.insert_subset || '').toString();
             var rightSubset = (right.insert_subset || '').toString();
@@ -721,6 +733,13 @@ function DataViewModel() {
             var setCompare = leftSet.localeCompare(rightSet, undefined, { sensitivity: 'base' });
             if (setCompare !== 0) {
                 return setCompare;
+            }
+
+            var leftVariation = (left.set_variation || '').toString();
+            var rightVariation = (right.set_variation || '').toString();
+            var variationCompare = leftVariation.localeCompare(rightVariation, undefined, { sensitivity: 'base' });
+            if (variationCompare !== 0) {
+                return variationCompare;
             }
 
             var leftSubset = (left.insert_subset || '').toString();
