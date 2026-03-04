@@ -642,36 +642,30 @@ window.marioLemieuxData = {
             "set_year_start": 1991,
             "set_year_end": 1992,
             "set_display_name": "1991-92 Upper Deck",
-            "set_tcdb_href": "",
-            "subsets": [
+            "set_tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4896/cid/11277860/1991-92-Upper-Deck-156-Mario-Lemieux",
+            "cards": [
                 {
-                    "set_key": "1991-92-upper-deck-base",
-                    "set_name": "Base",
-                    "set_display_name": "1991-92 Upper Deck - Base",
-                    "set_tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4896/cid/11277860/1991-92-Upper-Deck-156-Mario-Lemieux",
-                    "cards": [
-                        {
-                            "id": "ml-1991-92-upper-deck-156",
-                            "base_number": "156",
-                            "orientation": "portrait",
-                            "image_front": "img/cards/ML66/1991-92-Upper-Deck-156-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/1991-92-Upper-Deck-156-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4896/cid/11277860/1991-92-Upper-Deck-156-Mario-Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center"
-                        },
-                        {
-                            "id": "ml-1991-92-upper-deck-611",
-                            "base_number": "611",
-                            "orientation": "portrait",
-                            "image_front": "img/cards/ML66/1991-92-Upper-Deck-611-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/1991-92-Upper-Deck-611-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Upper-Deck-611-Mario-Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center"
-                        }
-                    ]
+                    "id": "ml-1991-92-upper-deck-156",
+                    "base_number": "156",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1991-92-Upper-Deck-156-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1991-92-Upper-Deck-156-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4896/cid/11277860/1991-92-Upper-Deck-156-Mario-Lemieux",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
                 },
+                {
+                    "id": "ml-1991-92-upper-deck-611",
+                    "base_number": "611",
+                    "orientation": "portrait",
+                    "image_front": "img/cards/ML66/1991-92-Upper-Deck-611-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1991-92-Upper-Deck-611-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Upper-Deck-611-Mario-Lemieux",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ],
+            "subsets": [
                 {
                     "set_key": "1991-92-upper-deck-award-winner-holograms",
                     "set_name": "Award Winner Holograms",
