@@ -332,6 +332,8 @@ function DataViewModel() {
     self.ShowAllSetCards = ko.observable(false);
     self.CardImageFace = ko.observable('front');
     self.ShowCollectionOverlay = ko.observable(false);
+    self.ShowExportOverlay = ko.observable(false);
+    self.ExportCopied = ko.observable(false);
 
     // when the selected collection key changes (e.g. via menu radio), push it into the route
     self.CurrentCollectionKey.subscribe(function(key) {
@@ -545,6 +547,14 @@ function DataViewModel() {
 
     self.ToggleCollectionOverlay = function () {
         self.ShowCollectionOverlay(!self.ShowCollectionOverlay());
+    };
+
+    self.ToggleExportOverlay = function () {
+        self.ShowExportOverlay(!self.ShowExportOverlay());
+    };
+
+    self.CloseExportOverlay = function () {
+        self.ShowExportOverlay(false);
     };
 
     self.NormalizeText = function (value) {
@@ -959,6 +969,79 @@ function DataViewModel() {
         if (baseNumber) { parts.push(baseNumber); }
         if (!parts.length) { return '#'; }
         return 'https://www.ebay.com/sch/i.html?_nkw=' + encodeURIComponent(parts.join(' ')) + '&_sacat=212';
+    };
+
+    // Returns the eBay search query string for a card (name + set + number)
+    self.GetEbaySearchText = function (card) {
+        if (!card) { return ''; }
+        var parts = [];
+        var name = (card.name || '').toString().trim();
+        var displayName = (card.set_display_name || card.set_name || '').toString().trim();
+        var baseNumber = (card.base_number || card.number || '').toString().trim();
+        if (name) { parts.push(name); }
+        if (displayName) { parts.push(displayName); }
+        if (baseNumber) { parts.push(baseNumber); }
+        return parts.join(' ');
+    };
+
+    // Flat list of all cards currently visible in the collection grid
+    self.CurrentViewCards = ko.pureComputed(function () {
+        var collection = self.CurrentCollection();
+        if (!collection) { return []; }
+
+        var cards = [];
+
+        if (collection.set_key === 'ML-all') {
+            self.CurrentCollectionYearGroups().forEach(function (group) {
+                (group.cards || []).forEach(function (card) { cards.push(card); });
+            });
+            return cards;
+        }
+
+        if (self.IsMLYearView()) {
+            self.CurrentCollectionYearSetGroups().forEach(function (group) {
+                (group.cards || []).forEach(function (card) { cards.push(card); });
+            });
+            return cards;
+        }
+
+        (collection.cards || []).forEach(function (card) { cards.push(card); });
+        (collection.subsets || []).forEach(function (subset) {
+            (subset.cards || []).forEach(function (card) { cards.push(card); });
+        });
+        return cards;
+    });
+
+    // Text content for the export overlay: one eBay search line per card
+    self.ExportCurrentViewText = ko.pureComputed(function () {
+        return self.CurrentViewCards()
+            .map(function (card) { return self.GetEbaySearchText(card); })
+            .filter(function (line) { return !!line; })
+            .join('\n');
+    });
+
+    self.CopyExportText = function () {
+        var text = self.ExportCurrentViewText();
+        if (!text) { return; }
+
+        var onCopied = function () {
+            self.ExportCopied(true);
+            setTimeout(function () { self.ExportCopied(false); }, 2000);
+        };
+
+        var fallbackCopy = function () {
+            var textarea = document.getElementById('export-textarea');
+            if (textarea) {
+                textarea.select();
+                try { document.execCommand('copy'); onCopied(); } catch (e) { }
+            }
+        };
+
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(onCopied, fallbackCopy);
+        } else {
+            fallbackCopy();
+        }
     };
 
     // global stats across all card data
