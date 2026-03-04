@@ -331,9 +331,13 @@ function DataViewModel() {
     self.CardRouteError = ko.observable('');
     self.ShowAllSetCards = ko.observable(false);
     self.CardImageFace = ko.observable('front');
-    self.ShowCollectionOverlay = ko.observable(false);
     self.ShowExportOverlay = ko.observable(false);
     self.ExportCopied = ko.observable(false);
+    // 'off' | 'owned' | 'missing'
+    self.CollectionOverlayMode = ko.observable('off');
+    self.ShowCollectionOverlay = ko.pureComputed(function () {
+        return self.CollectionOverlayMode() !== 'off';
+    });
 
     // when the selected collection key changes (e.g. via menu radio), push it into the route
     self.CurrentCollectionKey.subscribe(function(key) {
@@ -806,6 +810,7 @@ function DataViewModel() {
             .map(function (label) {
                 return {
                     label: label,
+                    yearKey: 'ML-' + label,
                     cards: groupsByYear[label]
                 };
             });

@@ -116,7 +116,14 @@ ul {
     gap: 4px;
 }
 
-.collection-overlay-toggle {
+.collection-overlay-toggle-group {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.collection-overlay-toggle-group .btn {
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
@@ -127,20 +134,34 @@ ul {
     gap: 4px;
 }
 
-.collection-overlay-toggle.active {
+.collection-overlay-owned-btn.active {
     background-color: #27ae60;
     border-color: #27ae60;
     color: var(--color-white);
 }
 
-.collection-overlay-toggle.active:hover,
-.collection-overlay-toggle.active:focus {
+.collection-overlay-owned-btn.active:hover,
+.collection-overlay-owned-btn.active:focus {
     background-color: #219a52;
     border-color: #219a52;
     color: var(--color-white);
 }
 
-.icon-collection-check {
+.collection-overlay-missing-btn.active {
+    background-color: #c0392b;
+    border-color: #c0392b;
+    color: var(--color-white);
+}
+
+.collection-overlay-missing-btn.active:hover,
+.collection-overlay-missing-btn.active:focus {
+    background-color: #a93226;
+    border-color: #a93226;
+    color: var(--color-white);
+}
+
+.icon-collection-check,
+.icon-collection-x {
     width: 14px;
     height: 14px;
     fill: currentColor;

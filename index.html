@@ -92,14 +92,26 @@
                 <span class="logo-title">Phil's Hockey Cards Collection</span>
             </a>
             <div class="header-links">
-                <button type="button" class="btn btn-outline-light btn-sm collection-overlay-toggle"
-                    data-bind="click: $root.ToggleCollectionOverlay, css: { active: $root.ShowCollectionOverlay() }"
-                    title="Toggle collection overlay">
-                    <svg class="icon-inline icon-collection-check" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
-                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
-                    </svg>
-                    <span class="collection-overlay-toggle-label" data-bind="text: $root.ShowCollectionOverlay() ? 'Collection: On' : 'Collection: Off'">Collection</span>
-                </button>
+                <div class="btn-group btn-group-toggle collection-overlay-toggle-group" data-toggle="buttons" role="group" aria-label="Collection overlay">
+                    <label class="btn btn-outline-light btn-sm" data-bind="css: { active: $root.CollectionOverlayMode() === 'off' }" title="Hide collection overlay">
+                        <input type="radio" name="collection-overlay-mode" value="off" data-bind="checked: $root.CollectionOverlayMode" autocomplete="off">
+                        <span>Off</span>
+                    </label>
+                    <label class="btn btn-outline-light btn-sm collection-overlay-owned-btn" data-bind="css: { active: $root.CollectionOverlayMode() === 'owned' }" title="Show overlay for owned cards">
+                        <input type="radio" name="collection-overlay-mode" value="owned" data-bind="checked: $root.CollectionOverlayMode" autocomplete="off">
+                        <svg class="icon-inline icon-collection-check" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                        </svg>
+                        <span>Owned</span>
+                    </label>
+                    <label class="btn btn-outline-light btn-sm collection-overlay-missing-btn" data-bind="css: { active: $root.CollectionOverlayMode() === 'missing' }" title="Show overlay for cards not in collection">
+                        <input type="radio" name="collection-overlay-mode" value="missing" data-bind="checked: $root.CollectionOverlayMode" autocomplete="off">
+                        <svg class="icon-inline icon-collection-x" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+                            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                        </svg>
+                        <span>Not Owned</span>
+                    </label>
+                </div>
                 <button type="button" class="btn btn-outline-light btn-sm export-view-toggle"
                     data-bind="click: $root.ToggleExportOverlay, css: { active: $root.ShowExportOverlay() }"
                     title="Export current view as eBay search list">
@@ -134,7 +146,7 @@
                         <span class="card-grid-header-content">
                             <span data-bind="text: label">Year</span>
                             <span class="card-grid-header-dot">• </span>
-                            <span data-bind="text: (cards || []).length + ' cards'">0 cards</span>
+                            <a data-bind="text: (cards || []).length + ' cards', attr: { href: '#' + yearKey, 'aria-label': 'View ' + label + ' cards' }">0 cards</a>
                         </span>
                     </span>
                 </h2>
@@ -511,10 +523,18 @@
                             title: ($data.name || '') + ' (' + ($data.base_number || $data.number || 'NNO') + ')' }">
                 </div>
             </div>
-            <!-- ko if: $root.ShowCollectionOverlay() && $data.inCollection -->
+            <!-- ko if: $root.CollectionOverlayMode() === 'owned' && $data.inCollection -->
             <span class="card-owned-badge" aria-label="In collection" title="In collection">
                 <svg class="card-owned-badge-check" viewBox="0 0 10 10" aria-hidden="true" focusable="false">
                     <polyline points="2,5.5 4.2,8 8,3" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </span>
+            <!-- /ko -->
+            <!-- ko if: $root.CollectionOverlayMode() === 'missing' && !$data.inCollection -->
+            <span class="card-missing-badge" aria-label="Not in collection" title="Not in collection">
+                <svg class="card-missing-badge-x" viewBox="0 0 10 10" aria-hidden="true" focusable="false">
+                    <line x1="2.5" y1="2.5" x2="7.5" y2="7.5" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+                    <line x1="7.5" y1="2.5" x2="2.5" y2="7.5" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
                 </svg>
             </span>
             <!-- /ko -->
