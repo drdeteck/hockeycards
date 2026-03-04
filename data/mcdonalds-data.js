@@ -18,7 +18,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-Mc-1Fr.jpg",
                 "image_back": "img/cards/McD91-92/56699-Mc-1Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Rick Tocchet",
@@ -28,7 +29,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-2295373RepFr.jpg",
                 "image_back": "img/cards/McD91-92/56699-2295373RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Kevin Stevens",
@@ -38,7 +40,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-2295374RepFr.jpg",
                 "image_back": "img/cards/McD91-92/56699-2295374RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Mark Recchi",
@@ -48,7 +51,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-2295375RepFr.jpg",
                 "image_back": "img/cards/McD91-92/56699-2295375RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Joe Sakic",
@@ -58,7 +62,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-2295376RepFr.jpg",
                 "image_back": "img/cards/McD91-92/56699-2295376RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Pat LaFontaine",
@@ -68,7 +73,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-Mc-6Fr.jpg",
                 "image_back": "img/cards/McD91-92/56699-Mc-6Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Darren Turcotte",
@@ -78,7 +84,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-2295378RepFr.jpg",
                 "image_back": "img/cards/McD91-92/56699-2295378RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Patrick Roy",
@@ -88,7 +95,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-Mc-8Fr.jpg",
                 "image_back": "img/cards/McD91-92/56699-Mc-8Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Andy Moog",
@@ -98,7 +106,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-Mc-9Fr.jpg",
                 "image_back": "img/cards/McD91-92/56699-Mc-9Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Ray Bourque",
@@ -108,7 +117,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-2295381RepFr.jpg",
                 "image_back": "img/cards/McD91-92/56699-2295381RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Paul Coffey",
@@ -118,7 +128,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-2295382RepFr.jpg",
                 "image_back": "img/cards/McD91-92/56699-2295382RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Brian Leetch",
@@ -128,7 +139,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-2295383RepFr.jpg",
                 "image_back": "img/cards/McD91-92/56699-2295383RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Brett Hull",
@@ -138,7 +150,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-2295384RepFr.jpg",
                 "image_back": "img/cards/McD91-92/56699-2295384RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Luc Robitaille",
@@ -148,7 +161,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-Mc-14Fr.jpg",
                 "image_back": "img/cards/McD91-92/56699-Mc-14Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Steve Larmer",
@@ -158,7 +172,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-Mc-15Fr.jpg",
                 "image_back": "img/cards/McD91-92/56699-Mc-15Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Vincent Damphousse",
@@ -168,7 +183,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-Mc-16Fr.jpg",
                 "image_back": "img/cards/McD91-92/56699-Mc-16Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Wayne Gretzky",
@@ -178,7 +194,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-Mc-17Fr.jpg",
                 "image_back": "img/cards/McD91-92/56699-Mc-17Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Theoren Fleury",
@@ -188,7 +205,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-Mc-18Fr.jpg",
                 "image_back": "img/cards/McD91-92/56699-Mc-18Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Steve Yzerman",
@@ -198,7 +216,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-Mc-19Fr.jpg",
                 "image_back": "img/cards/McD91-92/56699-Mc-19Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Mike Vernon",
@@ -208,7 +227,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-Mc-20Fr.jpg",
                 "image_back": "img/cards/McD91-92/56699-Mc-20Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Bill Ranford",
@@ -218,7 +238,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-Mc-21Fr.jpg",
                 "image_back": "img/cards/McD91-92/56699-Mc-21Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Chris Chelios",
@@ -228,7 +249,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-Mc-22Fr.jpg",
                 "image_back": "img/cards/McD91-92/56699-Mc-22Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Al MacInnis",
@@ -238,7 +260,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-2295394RepFr.jpg",
                 "image_back": "img/cards/McD91-92/56699-2295394RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Scott Stevens",
@@ -248,7 +271,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-2295395RepFr.jpg",
                 "image_back": "img/cards/McD91-92/56699-2295395RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Checklist",
@@ -258,7 +282,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD91-92/56699-Mc-25Fr.jpg",
                 "image_back": "img/cards/McD91-92/56699-Mc-25Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/56699/1991-92-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             }
         ],
         "subsets": [
@@ -281,7 +306,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD91-92/125616-2295397Fr.jpg",
                         "image_back": "",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125616/1991-92-Upper-Deck-McDonald's-All-Stars---Holograms"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125616/1991-92-Upper-Deck-McDonald's-All-Stars---Holograms",
+                        "inCollection": true
                     },
                     {
                         "name": "Chris Chelios",
@@ -291,7 +317,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD91-92/125616-2295398Fr.jpg",
                         "image_back": "",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125616/1991-92-Upper-Deck-McDonald's-All-Stars---Holograms"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125616/1991-92-Upper-Deck-McDonald's-All-Stars---Holograms",
+                        "inCollection": true
                     },
                     {
                         "name": "Ray Bourque",
@@ -301,7 +328,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD91-92/125616-2295399Fr.jpg",
                         "image_back": "",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125616/1991-92-Upper-Deck-McDonald's-All-Stars---Holograms"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125616/1991-92-Upper-Deck-McDonald's-All-Stars---Holograms",
+                        "inCollection": true
                     },
                     {
                         "name": "Brett Hull",
@@ -311,7 +339,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD91-92/125616-2295400Fr.jpg",
                         "image_back": "",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125616/1991-92-Upper-Deck-McDonald's-All-Stars---Holograms"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125616/1991-92-Upper-Deck-McDonald's-All-Stars---Holograms",
+                        "inCollection": true
                     },
                     {
                         "name": "Cam Neely",
@@ -321,7 +350,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD91-92/125616-2295401Fr.jpg",
                         "image_back": "",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125616/1991-92-Upper-Deck-McDonald's-All-Stars---Holograms"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125616/1991-92-Upper-Deck-McDonald's-All-Stars---Holograms",
+                        "inCollection": true
                     },
                     {
                         "name": "Patrick Roy",
@@ -331,7 +361,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD91-92/125616-2295402Fr.jpg",
                         "image_back": "",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125616/1991-92-Upper-Deck-McDonald's-All-Stars---Holograms"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125616/1991-92-Upper-Deck-McDonald's-All-Stars---Holograms",
+                        "inCollection": true
                     }
                 ]
             }
@@ -356,7 +387,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-4099224Fr.jpg",
                 "image_back": "img/cards/McD92-93/62883-4099224Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Brian Bellows",
@@ -366,7 +398,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-4099225Fr.jpg",
                 "image_back": "img/cards/McD92-93/62883-4099225Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Chris Chelios",
@@ -376,7 +409,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-4099226Fr.jpg",
                 "image_back": "img/cards/McD92-93/62883-4099226Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Vincent Damphousse",
@@ -386,7 +420,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-4099227Fr.jpg",
                 "image_back": "img/cards/McD92-93/62883-4099227Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Dave Ellett",
@@ -396,7 +431,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-4099228Fr.jpg",
                 "image_back": "img/cards/McD92-93/62883-4099228Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Sergei Fedorov",
@@ -406,7 +442,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-McD-6Fr.jpg",
                 "image_back": "img/cards/McD92-93/62883-McD-6Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Theoren Fleury",
@@ -416,7 +453,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-4099230RepFr.jpg",
                 "image_back": "img/cards/McD92-93/62883-4099230RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Phil Housley",
@@ -426,7 +464,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-4099231Fr.jpg",
                 "image_back": "img/cards/McD92-93/62883-McD-8Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Trevor Linden",
@@ -436,7 +475,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-4099232Fr.jpg",
                 "image_back": "img/cards/McD92-93/62883-4099232Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Al MacInnis",
@@ -446,7 +486,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-4099233RepFr.jpg",
                 "image_back": "img/cards/McD92-93/62883-4099233RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Adam Oates",
@@ -456,7 +497,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-McD-11Fr.jpg",
                 "image_back": "img/cards/McD92-93/62883-McD-11Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Luc Robitaille",
@@ -466,7 +508,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-McD-12Fr.jpg",
                 "image_back": "img/cards/McD92-93/62883-McD-12Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Jeremy Roenick",
@@ -476,7 +519,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-4099236Fr.jpg",
                 "image_back": "img/cards/McD92-93/62883-4099236Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Steve Yzerman",
@@ -486,7 +530,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-4099237RepFr.jpg",
                 "image_back": "img/cards/McD92-93/62883-4099237RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Don Beaupre",
@@ -496,7 +541,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-McD-15Fr.jpg",
                 "image_back": "img/cards/McD92-93/62883-4099238RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Rod Brind'Amour",
@@ -506,7 +552,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-4099239RepFr.jpg",
                 "image_back": "img/cards/McD92-93/62883-4099239RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Paul Coffey",
@@ -516,7 +563,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-4099240RepFr.jpg",
                 "image_back": "img/cards/McD92-93/62883-McD-17Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "John Cullen",
@@ -526,7 +574,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-4099241RepFr.jpg",
                 "image_back": "img/cards/McD92-93/62883-4099241Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Kevin Hatcher",
@@ -536,7 +585,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-4099242RepFr.jpg",
                 "image_back": "img/cards/McD92-93/62883-4099242RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Jaromir Jagr",
@@ -546,7 +596,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-McD-20Fr.jpg",
                 "image_back": "img/cards/McD92-93/62883-4099243RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Mario Lemieux",
@@ -556,7 +607,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-4099244RepFr.jpg",
                 "image_back": "img/cards/McD92-93/62883-4099244RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Alexander Mogilny",
@@ -566,7 +618,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-McD-22Fr.jpg",
                 "image_back": "img/cards/McD92-93/62883-4099245Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Kirk Muller",
@@ -576,7 +629,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-4099246RepFr.jpg",
                 "image_back": "img/cards/McD92-93/62883-4099246RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Owen Nolan",
@@ -586,7 +640,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-McD-24Fr.jpg",
                 "image_back": "img/cards/McD92-93/62883-4099247Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Mike Richter",
@@ -596,7 +651,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-4099248RepFr.jpg",
                 "image_back": "img/cards/McD92-93/62883-McD-25Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Joe Sakic",
@@ -606,7 +662,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-McD-26Fr.jpg",
                 "image_back": "img/cards/McD92-93/62883-4099249RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Scott Stevens",
@@ -616,7 +673,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-4099250Fr.jpg",
                 "image_back": "img/cards/McD92-93/62883-McD-27Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Checklist",
@@ -626,7 +684,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD92-93/62883-NNOFr.jpg",
                 "image_back": "img/cards/McD92-93/62883-NNOBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62883/1992-93-Upper-Deck-McDonald's-All-Stars",
+                "inCollection": true
             }
         ],
         "subsets": [
@@ -649,7 +708,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD92-93/125617-4099251Fr.jpg",
                         "image_back": "img/cards/McD92-93/125617-4099251RepBk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125617/1992-93-Upper-Deck-McDonald's-All-Stars---Holograms"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125617/1992-93-Upper-Deck-McDonald's-All-Stars---Holograms",
+                        "inCollection": true
                     },
                     {
                         "name": "Brett Hull",
@@ -659,7 +719,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD92-93/125617-4099252Fr.jpg",
                         "image_back": "img/cards/McD92-93/125617-4099252Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125617/1992-93-Upper-Deck-McDonald's-All-Stars---Holograms"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125617/1992-93-Upper-Deck-McDonald's-All-Stars---Holograms",
+                        "inCollection": true
                     },
                     {
                         "name": "Kevin Stevens",
@@ -669,7 +730,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD92-93/125617-4099253Fr.jpg",
                         "image_back": "img/cards/McD92-93/125617-4099253Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125617/1992-93-Upper-Deck-McDonald's-All-Stars---Holograms"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125617/1992-93-Upper-Deck-McDonald's-All-Stars---Holograms",
+                        "inCollection": true
                     },
                     {
                         "name": "Brian Leetch",
@@ -679,7 +741,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD92-93/125617-4099254Fr.jpg",
                         "image_back": "img/cards/McD92-93/125617-4099254Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125617/1992-93-Upper-Deck-McDonald's-All-Stars---Holograms"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125617/1992-93-Upper-Deck-McDonald's-All-Stars---Holograms",
+                        "inCollection": true
                     },
                     {
                         "name": "Ray Bourque",
@@ -689,7 +752,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD92-93/125617-4099255Fr.jpg",
                         "image_back": "img/cards/McD92-93/125617-4099255Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125617/1992-93-Upper-Deck-McDonald's-All-Stars---Holograms"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125617/1992-93-Upper-Deck-McDonald's-All-Stars---Holograms",
+                        "inCollection": true
                     },
                     {
                         "name": "Patrick Roy",
@@ -699,7 +763,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD92-93/125617-4099256Fr.jpg",
                         "image_back": "img/cards/McD92-93/125617-4099256Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125617/1992-93-Upper-Deck-McDonald's-All-Stars---Holograms"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125617/1992-93-Upper-Deck-McDonald's-All-Stars---Holograms",
+                        "inCollection": true
                     }
                 ]
             }
@@ -724,7 +789,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-1Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-1Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Pavel Bure",
@@ -734,7 +800,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-2Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-2Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Jon Casey",
@@ -744,7 +811,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-3Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-3Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Paul Coffey",
@@ -754,7 +822,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-4Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-4Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Doug Gilmour",
@@ -764,7 +833,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-5Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-5Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Phil Housley",
@@ -774,7 +844,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-6Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-6Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Brett Hull",
@@ -784,7 +855,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-7Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-7Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Jari Kurri",
@@ -794,7 +866,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-8Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-8Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Dave Manson",
@@ -804,7 +877,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-9Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-9Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Mike Modano",
@@ -814,7 +888,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-10Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-10Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Gary Roberts",
@@ -824,7 +899,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-11Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-11Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Jeremy Roenick",
@@ -834,7 +910,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-12Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-12Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Steve Yzerman",
@@ -844,7 +921,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-13Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-13Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Steve Duchesne",
@@ -854,7 +932,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-14Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-14Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Mike Gartner",
@@ -864,7 +943,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-4099296RepFr.jpg",
                 "image_back": "img/cards/McD93-94/62885-4099297Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Al Iafrate",
@@ -874,7 +954,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-16Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-16Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Jaromir Jagr",
@@ -884,7 +965,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-17Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-17Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Pat LaFontaine",
@@ -894,7 +976,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-18Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-18Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Alexander Mogilny",
@@ -904,7 +987,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-19Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-19Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Kirk Muller",
@@ -914,7 +998,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-4099291RepFr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-20aBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Kirk Muller",
@@ -924,7 +1009,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-4099297Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-4099291RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Adam Oates",
@@ -934,7 +1020,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-21Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-21Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Mark Recchi",
@@ -944,7 +1031,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-22Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-22Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Patrick Roy",
@@ -954,7 +1042,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-23Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-23Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Joe Sakic",
@@ -964,7 +1053,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-24Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-24Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Kevin Stevens",
@@ -974,7 +1064,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-25Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-25Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Scott Stevens",
@@ -984,7 +1075,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-26Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-26Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             },
             {
                 "name": "Pierre Turgeon",
@@ -994,7 +1086,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD93-94/62885-McD-27Fr.jpg",
                 "image_back": "img/cards/McD93-94/62885-McD-27Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62885/1993-94-Upper-Deck-McDonald's-NHL-All-Stars",
+                "inCollection": true
             }
         ],
         "subsets": [
@@ -1017,7 +1110,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD93-94/138869-4099305Fr.jpg",
                         "image_back": "img/cards/McD93-94/138869-4099305Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125618/1993-94-Upper-Deck-McDonald's-NHL-All-Stars---Holograms"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125618/1993-94-Upper-Deck-McDonald's-NHL-All-Stars---Holograms",
+                        "inCollection": true
                     },
                     {
                         "name": "Teemu Selanne",
@@ -1027,7 +1121,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD93-94/138869-4099306Fr.jpg",
                         "image_back": "img/cards/McD93-94/138869-4099306Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125618/1993-94-Upper-Deck-McDonald's-NHL-All-Stars---Holograms"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125618/1993-94-Upper-Deck-McDonald's-NHL-All-Stars---Holograms",
+                        "inCollection": true
                     },
                     {
                         "name": "Luc Robitaille",
@@ -1037,7 +1132,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD93-94/138869-4099307Fr.jpg",
                         "image_back": "img/cards/McD93-94/138869-4099307Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125618/1993-94-Upper-Deck-McDonald's-NHL-All-Stars---Holograms"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125618/1993-94-Upper-Deck-McDonald's-NHL-All-Stars---Holograms",
+                        "inCollection": true
                     },
                     {
                         "name": "Ray Bourque",
@@ -1047,7 +1143,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD93-94/138869-4099308Fr.jpg",
                         "image_back": "img/cards/McD93-94/138869-4099308Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125618/1993-94-Upper-Deck-McDonald's-NHL-All-Stars---Holograms"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125618/1993-94-Upper-Deck-McDonald's-NHL-All-Stars---Holograms",
+                        "inCollection": true
                     },
                     {
                         "name": "Chris Chelios",
@@ -1057,7 +1154,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD93-94/138869-4099309RepFr.jpg",
                         "image_back": "img/cards/McD93-94/138869-4099309RepBk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125618/1993-94-Upper-Deck-McDonald's-NHL-All-Stars---Holograms"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125618/1993-94-Upper-Deck-McDonald's-NHL-All-Stars---Holograms",
+                        "inCollection": true
                     },
                     {
                         "name": "Ed Belfour",
@@ -1067,7 +1165,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD93-94/138869-4099310Fr.jpg",
                         "image_back": "img/cards/McD93-94/138869-4099310Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125618/1993-94-Upper-Deck-McDonald's-NHL-All-Stars---Holograms"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/125618/1993-94-Upper-Deck-McDonald's-NHL-All-Stars---Holograms",
+                        "inCollection": true
                     }
                 ]
             }
@@ -1092,7 +1191,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-1Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-1Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Adam Graves",
@@ -1102,7 +1202,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-2Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-4099871RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Alexei Yashin",
@@ -1112,7 +1213,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-3Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-3Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Patrick Roy",
@@ -1122,7 +1224,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-4Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-4Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Ray Bourque",
@@ -1132,7 +1235,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-5Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-5Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Brian Leetch",
@@ -1142,7 +1246,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-6Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-6Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Scott Stevens",
@@ -1152,7 +1257,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-7Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-7Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Alexander Mogilny",
@@ -1162,7 +1268,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-8Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-8Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Eric Lindros",
@@ -1172,7 +1279,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-9Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-9Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Jaromir Jagr",
@@ -1182,7 +1290,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-10Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-10Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Sandis Ozolinsh",
@@ -1192,7 +1301,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-11Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-11Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Sergei Fedorov",
@@ -1202,7 +1312,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-12Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-12Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Brett Hull",
@@ -1212,7 +1323,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-13Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-13Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Felix Potvin",
@@ -1222,7 +1334,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-14Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-14Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Al MacInnis",
@@ -1232,7 +1345,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-15Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-15Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Chris Chelios",
@@ -1242,7 +1356,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-16Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-16Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Rob Blake",
@@ -1252,7 +1367,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-17Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-17Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Dave Andreychuk",
@@ -1262,7 +1378,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-18Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-18Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Paul Coffey",
@@ -1272,7 +1389,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-19Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-19Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Jeremy Roenick",
@@ -1282,7 +1400,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-20Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-20Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Joe Nieuwendyk",
@@ -1292,7 +1411,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-21Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-21Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Cam Neely",
@@ -1302,7 +1422,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-22Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-22Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Pavel Bure",
@@ -1312,7 +1433,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-23Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-23Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Wendel Clark",
@@ -1322,7 +1444,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-24Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-24Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Teemu Selanne",
@@ -1332,7 +1455,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-25Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-25Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Pierre Turgeon",
@@ -1342,7 +1466,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-26Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-26Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Alexei Zhamnov",
@@ -1352,7 +1477,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-27Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-27Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Doug Gilmour",
@@ -1362,7 +1488,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-28Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-28Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Vincent Damphousse",
@@ -1372,7 +1499,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-29Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-29Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Brendan Shanahan",
@@ -1382,7 +1510,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-30Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-30Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Peter Forsberg",
@@ -1392,7 +1521,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-31Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-31Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Paul Kariya",
@@ -1402,7 +1532,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-32Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-32Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Viktor Kozlov",
@@ -1412,7 +1543,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-33Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-33Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Brett Lindros",
@@ -1422,7 +1554,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-34Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-34Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Martin Brodeur",
@@ -1432,7 +1565,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-35Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-35Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Alexandre Daigle",
@@ -1442,7 +1576,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-36Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-4099905RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Jason Arnott",
@@ -1452,7 +1587,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-37Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-37Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Alexei Kovalev",
@@ -1462,7 +1598,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-38Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-38Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Mikael Renberg",
@@ -1472,7 +1609,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-McD-39Fr.jpg",
                 "image_back": "img/cards/McD94-95/62943-McD-39Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Mike Richter CL",
@@ -1482,7 +1620,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD94-95/62943-NNOFr.jpg",
                 "image_back": "img/cards/McD94-95/62943-NNOBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/62943/1994-95-Upper-Deck-McDonald's",
+                "inCollection": false
             }
         ]
     },
@@ -1505,7 +1644,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-1Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-1Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Eric Lindros GW",
@@ -1515,7 +1655,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-2Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-2Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Alexei Zhamnov GW",
@@ -1525,7 +1666,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-3Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-3Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Paul Coffey GW",
@@ -1535,7 +1677,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-4Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-4Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Mark Messier GW",
@@ -1545,7 +1688,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-5Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-5Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Brett Hull GW",
@@ -1555,7 +1699,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-6Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-6Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Peter Forsberg GW",
@@ -1565,7 +1710,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-7Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-7Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Pavel Bure GW",
@@ -1575,7 +1721,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-8Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-8Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Doug Gilmour GW",
@@ -1585,7 +1732,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-9Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-9Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Owen Nolan GW",
@@ -1595,7 +1743,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-10Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-10Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Paul Kariya GW",
@@ -1605,7 +1754,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-11Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-11Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Joe Nieuwendyk GW",
@@ -1615,7 +1765,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-12Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-12Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Pierre Turgeon GW",
@@ -1625,7 +1776,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-13Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-13Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Jason Arnott GW",
@@ -1635,7 +1787,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-14Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-14Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Mario Lemieux GW",
@@ -1645,7 +1798,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-15Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-15Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Jeremy Roenick GW",
@@ -1655,7 +1809,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-16Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-16Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Sergei Fedorov GW",
@@ -1665,7 +1820,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-17Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-17Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Mats Sundin GW",
@@ -1675,7 +1831,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-18Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-18Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Teemu Selanne GW",
@@ -1685,7 +1842,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-19Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-19Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "John LeClair GW",
@@ -1695,7 +1853,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-20Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-20Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Alexander Mogilny GW",
@@ -1705,7 +1864,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-21Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-21Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Mikael Renberg GW",
@@ -1715,7 +1875,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-22Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-22Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Chris Chelios GW",
@@ -1725,7 +1886,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-23Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-23Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Mark Recchi GW",
@@ -1735,7 +1897,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-24Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-24Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Patrick Roy GS",
@@ -1745,7 +1908,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-25Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-25Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "FÃ©lix Potvin GS",
@@ -1755,7 +1919,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-26Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-26Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Martin Brodeur GS",
@@ -1765,7 +1930,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-27Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-27Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Dominik Hasek GS",
@@ -1775,7 +1941,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-28Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-28Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Ed Belfour GS",
@@ -1785,7 +1952,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-29Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-29Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Kirk McLean GS",
@@ -1795,7 +1963,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-McD-30Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-30Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Jeff Friesen FGW",
@@ -1805,7 +1974,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD95-96/62768-McD-31Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-31Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Todd Harvey FGW",
@@ -1815,7 +1985,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD95-96/62768-McD-32Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-32Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Brett Lindros FGW",
@@ -1825,7 +1996,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD95-96/62768-McD-33Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-4098961RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Valeri Bure FGW",
@@ -1835,7 +2007,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD95-96/62768-4098962RepFr.jpg",
                 "image_back": "img/cards/McD95-96/62768-4098962RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Oleg Tverdovsky FGW",
@@ -1845,7 +2018,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD95-96/62768-McD-35Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-35Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Kenny Jonsson FGW",
@@ -1855,7 +2029,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD95-96/62768-McD-36Fr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-36Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Mariusz Czerkawski FGW",
@@ -1865,7 +2040,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD95-96/62768-4098965RepFr.jpg",
                 "image_back": "img/cards/McD95-96/62768-4098965RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Alexandre Daigle FGW",
@@ -1875,7 +2051,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD95-96/62768-4098966RepFr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-38Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Saku Koivu FGW",
@@ -1885,7 +2062,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD95-96/62768-4098967RepFr.jpg",
                 "image_back": "img/cards/McD95-96/62768-McD-39Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Jim Carey FGW",
@@ -1895,7 +2073,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD95-96/62768-4098968RepFr.jpg",
                 "image_back": "img/cards/McD95-96/62768-4098968RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Joe Sakic CL",
@@ -1905,7 +2084,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD95-96/62768-NNOFr.jpg",
                 "image_back": "img/cards/McD95-96/62768-NNOBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62768/1995-96-Pinnacle-McDonald's",
+                "inCollection": false
             }
         ]
     },
@@ -1928,7 +2108,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-3996081RepFr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-1Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Teemu Selanne",
@@ -1938,7 +2119,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-2Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-2Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Eric Daze",
@@ -1948,7 +2130,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-3996083RepFr.jpg",
                 "image_back": "img/cards/McD96-97/62685-3996083RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "John LeClair",
@@ -1958,7 +2141,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-4Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-4Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Saku Koivu",
@@ -1968,7 +2152,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-3996085RepFr.jpg",
                 "image_back": "img/cards/McD96-97/62685-3996085RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Ed Jovanovski",
@@ -1978,7 +2163,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-6Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-6Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Chris Osgood",
@@ -1988,7 +2174,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-3996087RepFr.jpg",
                 "image_back": "img/cards/McD96-97/62685-3996087RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Chris Chelios",
@@ -1998,7 +2185,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-3996088RepFr.jpg",
                 "image_back": "img/cards/McD96-97/62685-3996088RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Daniel Alfredsson",
@@ -2008,7 +2196,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-9Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-9Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Joe Sakic",
@@ -2018,7 +2207,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-10Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-10Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Alexander Mogilny",
@@ -2028,7 +2218,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-3996091RepFr.jpg",
                 "image_back": "img/cards/McD96-97/62685-3996091RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Jeremy Roenick",
@@ -2038,7 +2229,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-12Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-12Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Keith Tkachuk",
@@ -2048,7 +2240,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-3996093RepFr.jpg",
                 "image_back": "img/cards/McD96-97/62685-3996093RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Doug Gilmour",
@@ -2058,7 +2251,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-14Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-14Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Theoren Fleury",
@@ -2068,7 +2262,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-3996095RepFr.jpg",
                 "image_back": "img/cards/McD96-97/62685-3996095RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Doug Weight",
@@ -2078,7 +2273,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-16Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-16Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Steve Yzerman",
@@ -2088,7 +2284,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-3996097RepFr.jpg",
                 "image_back": "img/cards/McD96-97/62685-3996097RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Zigmund Palffy",
@@ -2098,7 +2295,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-18Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-18Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Pierre Turgeon",
@@ -2108,7 +2306,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-19Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-19Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Brian Leetch",
@@ -2118,7 +2317,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-20Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-20Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Mario Lemieux SP",
@@ -2128,7 +2328,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-21Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-21Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Mark Messier SP",
@@ -2138,7 +2339,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-3996102RepFr.jpg",
                 "image_back": "img/cards/McD96-97/62685-3996102RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Jaromir Jagr SP",
@@ -2148,7 +2350,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-23Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-23Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Brett Hull SP",
@@ -2158,7 +2361,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-24Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-24Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Eric Lindros SP",
@@ -2168,7 +2372,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-3996105RepFr.jpg",
                 "image_back": "img/cards/McD96-97/62685-3996105RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Sergei Fedorov SP",
@@ -2178,7 +2383,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-26Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-26Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Pavel Bure SP",
@@ -2188,7 +2394,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-27Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-27Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Peter Forsberg SP",
@@ -2198,7 +2405,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-28Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-28Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Paul Kariya SP",
@@ -2208,7 +2416,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-3996109RepFr.jpg",
                 "image_back": "img/cards/McD96-97/62685-3996109RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Patrick Roy SP",
@@ -2218,7 +2427,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-30Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-30Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Ray Bourque SP",
@@ -2228,7 +2438,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-31Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-3996111RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Jim Carey",
@@ -2238,7 +2449,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-32Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-32Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Martin Brodeur",
@@ -2248,7 +2460,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-33Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-33Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Trevor Kidd",
@@ -2258,7 +2471,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-34Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-34Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "John Vanbiesbrouck",
@@ -2268,7 +2482,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-3996115RepFr.jpg",
                 "image_back": "img/cards/McD96-97/62685-3996115RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Jocelyn Thibault",
@@ -2278,7 +2493,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-36Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-36Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Ed Belfour",
@@ -2288,7 +2504,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-37Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-37Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Felix Potvin",
@@ -2298,7 +2515,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-38Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-38Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Damian Rhodes",
@@ -2308,7 +2526,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-3996119RepFr.jpg",
                 "image_back": "img/cards/McD96-97/62685-3996119RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Curtis Joseph",
@@ -2318,7 +2537,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-McD-40Fr.jpg",
                 "image_back": "img/cards/McD96-97/62685-McD-40Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             },
             {
                 "name": "Checklist CL",
@@ -2328,7 +2548,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD96-97/62685-NNOFr.jpg",
                 "image_back": "img/cards/McD96-97/62685-NNOBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62685/1996-97-Pinnacle-McDonald's-3D-Ice-Breakers",
+                "inCollection": false
             }
         ]
     },
@@ -2351,7 +2572,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-1Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-3998221RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Theoren Fleury",
@@ -2361,7 +2583,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-2Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-2Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Pavel Bure",
@@ -2371,7 +2594,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-3Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-3998223RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Saku Koivu",
@@ -2381,7 +2605,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-4Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-4Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Joe Sakic",
@@ -2391,7 +2616,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-5Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-5Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Wade Redden",
@@ -2401,7 +2627,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-6Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-3998226RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Keith Tkachuk",
@@ -2411,7 +2638,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-7Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-7Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Eric Lindros",
@@ -2421,7 +2649,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-3998228RepFr.jpg",
                 "image_back": "img/cards/McD97-98/62696-3998228RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Paul Kariya",
@@ -2431,7 +2660,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-9Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-9Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Bryan Berard",
@@ -2441,7 +2671,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-3998230RepFr.jpg",
                 "image_back": "img/cards/McD97-98/62696-3998230RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Teemu Selanne",
@@ -2451,7 +2682,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-11Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-11Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Jarome Iginla",
@@ -2461,7 +2693,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-3998232RepFr.jpg",
                 "image_back": "img/cards/McD97-98/62696-3998232RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Mats Sundin",
@@ -2471,7 +2704,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-13Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-13Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Brendan Shanahan",
@@ -2481,7 +2715,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-3998234RepFr.jpg",
                 "image_back": "img/cards/McD97-98/62696-3998234RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Peter Forsberg",
@@ -2491,7 +2726,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-3998235RepFr.jpg",
                 "image_back": "img/cards/McD97-98/62696-3998235RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Brett Hull",
@@ -2501,7 +2737,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-16Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-16Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Ray Bourque",
@@ -2511,7 +2748,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-3998237RepFr.jpg",
                 "image_back": "img/cards/McD97-98/62696-3998237RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Doug Weight",
@@ -2521,7 +2759,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-18Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-18Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Steve Yzerman",
@@ -2531,7 +2770,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-19Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-3998239RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Jaromir Jagr",
@@ -2541,7 +2781,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-20Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-20Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Vincent Damphousse",
@@ -2551,7 +2792,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-3998241RepFr.jpg",
                 "image_back": "img/cards/McD97-98/62696-3998241RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Trevor Linden",
@@ -2561,7 +2803,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-22Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-22Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Patrick Roy CAG",
@@ -2571,7 +2814,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-3998243RepFr.jpg",
                 "image_back": "img/cards/McD97-98/62696-3998243RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "John Vanbiesbrouck CAG",
@@ -2581,7 +2825,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-3998244RepFr.jpg",
                 "image_back": "img/cards/McD97-98/62696-3998244RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Martin Brodeur CAG",
@@ -2591,7 +2836,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-25Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-3998245RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Dominik Hasek CAG",
@@ -2601,7 +2847,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-3998246RepFr.jpg",
                 "image_back": "img/cards/McD97-98/62696-3998246RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Curtis Joseph CAG",
@@ -2611,7 +2858,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-27Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-27Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Andy Moog CAG",
@@ -2621,7 +2869,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-3998248RepFr.jpg",
                 "image_back": "img/cards/McD97-98/62696-3998248RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Mike Richter CAG",
@@ -2631,7 +2880,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-29Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-29Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Damian Rhodes CAG",
@@ -2641,7 +2891,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-3998250RepFr.jpg",
                 "image_back": "img/cards/McD97-98/62696-30Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Felix Potvin CAG",
@@ -2651,7 +2902,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-31Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-31Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Chris Osgood CAG",
@@ -2661,7 +2913,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-3998252RepFr.jpg",
                 "image_back": "img/cards/McD97-98/62696-32Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Joe Thornton IB",
@@ -2671,7 +2924,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-3998253RepFr.jpg",
                 "image_back": "img/cards/McD97-98/62696-3998253RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Patrick Marleau IB",
@@ -2681,7 +2935,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-34Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-34Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Jaroslav Svejkovsky IB",
@@ -2691,7 +2946,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-35Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-35Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Dan Cleary IB",
@@ -2701,7 +2957,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-36Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-36Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Chris Phillips IB",
@@ -2711,7 +2968,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-3998257RepFr.jpg",
                 "image_back": "img/cards/McD97-98/62696-3998257RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Alexei Morozov IB",
@@ -2721,7 +2979,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-38Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-38Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Vaclav Prospal IB",
@@ -2731,7 +2990,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-39Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-39Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Sergei Samsonov IB",
@@ -2741,7 +3001,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD97-98/62696-40Fr.jpg",
                 "image_back": "img/cards/McD97-98/62696-40Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Checklist CL",
@@ -2751,7 +3012,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD97-98/62696-NNOFr.jpg",
                 "image_back": "img/cards/McD97-98/62696-NNOBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             }
         ],
         "subsets": [
@@ -2774,7 +3036,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD97-98/62696-3998265Fr.jpg",
                         "image_back": "img/cards/McD97-98/62696-3998265Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                        "inCollection": false
                     }
                 ]
             },
@@ -2797,7 +3060,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD97-98/62697-4519779Fr.jpg",
                         "image_back": "img/cards/McD97-98/62697-4519779Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                        "inCollection": false
                     },
                     {
                         "name": "Alexander Mogilny",
@@ -2807,7 +3071,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD97-98/62697-2Fr.jpg",
                         "image_back": "img/cards/McD97-98/62697-2Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                        "inCollection": false
                     },
                     {
                         "name": "Steve Yzerman",
@@ -2817,7 +3082,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD97-98/62697-3Fr.jpg",
                         "image_back": "img/cards/McD97-98/62697-3Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                        "inCollection": false
                     },
                     {
                         "name": "Eric Lindros",
@@ -2827,7 +3093,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD97-98/62697-4519782Fr.jpg",
                         "image_back": "img/cards/McD97-98/62697-4519782Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                        "inCollection": false
                     },
                     {
                         "name": "Patrick Roy",
@@ -2837,7 +3104,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD97-98/62697-4519783Fr.jpg",
                         "image_back": "img/cards/McD97-98/62697-4519783Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                        "inCollection": false
                     },
                     {
                         "name": "Paul Kariya",
@@ -2847,7 +3115,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD97-98/62697-6Fr.jpg",
                         "image_back": "img/cards/McD97-98/62697-6Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                        "inCollection": false
                     },
                     {
                         "name": "Ray Bourque",
@@ -2857,7 +3126,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD97-98/62697-7Fr.jpg",
                         "image_back": "img/cards/McD97-98/62697-7Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                        "inCollection": false
                     },
                     {
                         "name": "Saku Koivu",
@@ -2867,7 +3137,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD97-98/62697-8Fr.jpg",
                         "image_back": "img/cards/McD97-98/62697-8Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                        "inCollection": false
                     },
                     {
                         "name": "Theoren Fleury",
@@ -2877,7 +3148,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD97-98/62697-9Fr.jpg",
                         "image_back": "img/cards/McD97-98/62697-9Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                        "inCollection": false
                     },
                     {
                         "name": "Mats Sundin",
@@ -2887,7 +3159,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD97-98/62697-10Fr.jpg",
                         "image_back": "img/cards/McD97-98/62697-10Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                        "inCollection": false
                     },
                     {
                         "name": "Checklist CL",
@@ -2897,7 +3170,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD97-98/62697-NNOFr.jpg",
                         "image_back": "img/cards/McD97-98/62697-NNOBk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/62696/1997-98-Upper-Deck-Ice-McDonald's",
+                        "inCollection": false
                     }
                 ]
             }
@@ -2922,7 +3196,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-1631726RepFr.jpg",
                 "image_back": "img/cards/McD98-99/9579-1631726RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Theoren Fleury",
@@ -2932,7 +3207,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-2Fr.jpg",
                 "image_back": "img/cards/McD98-99/9579-2Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Joe Sakic",
@@ -2942,7 +3218,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-3Fr.jpg",
                 "image_back": "img/cards/McD98-99/9579-3Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Saku Koivu",
@@ -2952,7 +3229,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-4Fr.jpg",
                 "image_back": "img/cards/McD98-99/9579-4Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Brendan Shanahan",
@@ -2962,7 +3240,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-1631730RepFr.jpg",
                 "image_back": "img/cards/McD98-99/9579-1631730RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Steve Yzerman",
@@ -2972,7 +3251,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-6Fr.jpg",
                 "image_back": "img/cards/McD98-99/9579-6Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Peter Forsberg",
@@ -2982,7 +3262,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-1631732RepFr.jpg",
                 "image_back": "img/cards/McD98-99/9579-7Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Paul Kariya",
@@ -2992,7 +3273,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-8Fr.jpg",
                 "image_back": "img/cards/McD98-99/9579-8Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Alexei Yashin",
@@ -3002,7 +3284,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-1631734RepFr.jpg",
                 "image_back": "img/cards/McD98-99/9579-1631734RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Eric Lindros",
@@ -3012,7 +3295,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-10Fr.jpg",
                 "image_back": "img/cards/McD98-99/9579-10Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Jaromir Jagr",
@@ -3022,7 +3306,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-1631736RepFr.jpg",
                 "image_back": "img/cards/McD98-99/9579-11Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Mats Sundin",
@@ -3032,7 +3317,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-12Fr.jpg",
                 "image_back": "img/cards/McD98-99/9579-12Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Sergei Samsonov",
@@ -3042,7 +3328,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-13Fr.jpg",
                 "image_back": "img/cards/McD98-99/9579-13Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Pavel Bure",
@@ -3052,7 +3339,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-1631739RepFr.jpg",
                 "image_back": "img/cards/McD98-99/9579-1631739RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Patrick Roy",
@@ -3062,7 +3350,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-15Fr.jpg",
                 "image_back": "img/cards/McD98-99/9579-15Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Dominik Hasek",
@@ -3072,7 +3361,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-1631741RepFr.jpg",
                 "image_back": "img/cards/McD98-99/9579-1631741RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Martin Brodeur",
@@ -3082,7 +3372,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-17Fr.jpg",
                 "image_back": "img/cards/McD98-99/9579-17Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Curtis Joseph",
@@ -3092,7 +3383,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-1631743RepFr.jpg",
                 "image_back": "img/cards/McD98-99/9579-1631743RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Jocelyn Thibault",
@@ -3102,7 +3394,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-19Fr.jpg",
                 "image_back": "img/cards/McD98-99/9579-19Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Chris Osgood",
@@ -3112,7 +3405,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-1631745RepFr.jpg",
                 "image_back": "img/cards/McD98-99/9579-1631745RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Ed Belfour",
@@ -3122,7 +3416,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-21Fr.jpg",
                 "image_back": "img/cards/McD98-99/9579-21Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Mattias Ohlund ROO",
@@ -3132,7 +3427,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-1631747RepFr.jpg",
                 "image_back": "img/cards/McD98-99/9579-1631747RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Marian Hossa ROO",
@@ -3142,7 +3438,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-23Fr.jpg",
                 "image_back": "img/cards/McD98-99/9579-23Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Brendan Morrison ROO",
@@ -3152,7 +3449,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-1631749RepFr.jpg",
                 "image_back": "img/cards/McD98-99/9579-1631749RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Jason Botterill ROO",
@@ -3162,7 +3460,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-1631750RepFr.jpg",
                 "image_back": "img/cards/McD98-99/9579-1631750RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Cameron Mann ROO",
@@ -3172,7 +3471,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-26Fr.jpg",
                 "image_back": "img/cards/McD98-99/9579-26Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Daniel Briere ROO",
@@ -3182,7 +3482,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-27Fr.jpg",
                 "image_back": "img/cards/McD98-99/9579-1631752RepBk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Terry Ryan ROO",
@@ -3192,7 +3493,8 @@ var rawData = {
                 "orientation": "landscape",
                 "image_front": "img/cards/McD98-99/9579-28Fr.jpg",
                 "image_back": "img/cards/McD98-99/9579-28Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             },
             {
                 "name": "Checklist CL",
@@ -3202,7 +3504,8 @@ var rawData = {
                 "orientation": "portrait",
                 "image_front": "img/cards/McD98-99/405089-5191142Fr.jpg",
                 "image_back": "img/cards/McD98-99/405089-5191142Bk.jpg",
-                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's"
+                "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/9579/1998-99-Upper-Deck-Ice-McDonald's",
+                "inCollection": false
             }
         ],
         "subsets": [
@@ -3225,7 +3528,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD98-99/48889-M1Fr.jpg",
                         "image_back": "img/cards/McD98-99/48889-M1Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments",
+                        "inCollection": false
                     },
                     {
                         "name": "Wayne Gretzky",
@@ -3235,7 +3539,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD98-99/48889-M2Fr.jpg",
                         "image_back": "img/cards/McD98-99/48889-M2Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments",
+                        "inCollection": false
                     },
                     {
                         "name": "Wayne Gretzky",
@@ -3245,7 +3550,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD98-99/48889-M3Fr.jpg",
                         "image_back": "img/cards/McD98-99/48889-M3Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments",
+                        "inCollection": false
                     },
                     {
                         "name": "Wayne Gretzky",
@@ -3255,7 +3561,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD98-99/48889-M4Fr.jpg",
                         "image_back": "img/cards/McD98-99/48889-M4Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments",
+                        "inCollection": false
                     },
                     {
                         "name": "Wayne Gretzky",
@@ -3265,7 +3572,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD98-99/48889-M5Fr.jpg",
                         "image_back": "img/cards/McD98-99/48889-M5Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments",
+                        "inCollection": false
                     },
                     {
                         "name": "Wayne Gretzky",
@@ -3275,7 +3583,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD98-99/48889-M6Fr.jpg",
                         "image_back": "img/cards/McD98-99/48889-M6Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments",
+                        "inCollection": false
                     },
                     {
                         "name": "Wayne Gretzky",
@@ -3285,7 +3594,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD98-99/48889-M7Fr.jpg",
                         "image_back": "img/cards/McD98-99/48889-M7Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments",
+                        "inCollection": false
                     },
                     {
                         "name": "Wayne Gretzky",
@@ -3295,7 +3605,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD98-99/48889-M8Fr.jpg",
                         "image_back": "img/cards/McD98-99/48889-M8Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments",
+                        "inCollection": false
                     },
                     {
                         "name": "Wayne Gretzky",
@@ -3305,7 +3616,8 @@ var rawData = {
                         "orientation": "landscape",
                         "image_front": "img/cards/McD98-99/48889-M9Fr.jpg",
                         "image_back": "img/cards/McD98-99/48889-M9Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments",
+                        "inCollection": false
                     }
                 ]
             },
@@ -3328,7 +3640,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD98-99/48890-1631764RepFr.jpg",
                         "image_back": "img/cards/McD98-99/48890-T1Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates",
+                        "inCollection": false
                     },
                     {
                         "name": "Gordie Howe",
@@ -3338,7 +3651,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD98-99/48890-T2Fr.jpg",
                         "image_back": "img/cards/McD98-99/48890-T2Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates",
+                        "inCollection": false
                     },
                     {
                         "name": "Marty McSorley",
@@ -3348,7 +3662,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD98-99/48890-T3Fr.jpg",
                         "image_back": "img/cards/McD98-99/48890-T3Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates",
+                        "inCollection": false
                     },
                     {
                         "name": "Brian Leetch",
@@ -3358,7 +3673,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD98-99/48890-1631767RepFr.jpg",
                         "image_back": "img/cards/McD98-99/48890-1631767RepBk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates",
+                        "inCollection": false
                     },
                     {
                         "name": "Brett Hull",
@@ -3368,7 +3684,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD98-99/48890-T5Fr.jpg",
                         "image_back": "img/cards/McD98-99/48890-T5Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates",
+                        "inCollection": false
                     },
                     {
                         "name": "Esa Tikkanen",
@@ -3378,7 +3695,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD98-99/48890-1631769RepFr.jpg",
                         "image_back": "img/cards/McD98-99/48890-T6Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates",
+                        "inCollection": false
                     },
                     {
                         "name": "Grant Fuhr",
@@ -3388,7 +3706,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD98-99/48890-T7Fr.jpg",
                         "image_back": "img/cards/McD98-99/48890-1631770RepBk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates",
+                        "inCollection": false
                     },
                     {
                         "name": "Mike Richter",
@@ -3398,7 +3717,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD98-99/48890-T8Fr.jpg",
                         "image_back": "img/cards/McD98-99/48890-1631771RepBk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates",
+                        "inCollection": false
                     },
                     {
                         "name": "Jari Kurri",
@@ -3408,7 +3728,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD98-99/48890-T9Fr.jpg",
                         "image_back": "img/cards/McD98-99/48890-T9Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates",
+                        "inCollection": false
                     },
                     {
                         "name": "Paul Coffey",
@@ -3418,7 +3739,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD98-99/48890-T10Fr.jpg",
                         "image_back": "img/cards/McD98-99/48890-T10Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates",
+                        "inCollection": false
                     },
                     {
                         "name": "Rob Blake",
@@ -3428,7 +3750,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD98-99/48890-1631774RepFr.jpg",
                         "image_back": "img/cards/McD98-99/48890-1631774RepBk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates",
+                        "inCollection": false
                     },
                     {
                         "name": "Mario Lemieux",
@@ -3438,7 +3761,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD98-99/48890-T12Fr.jpg",
                         "image_back": "img/cards/McD98-99/48890-T12Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates",
+                        "inCollection": false
                     },
                     {
                         "name": "Luc Robitaille",
@@ -3448,7 +3772,8 @@ var rawData = {
                         "orientation": "portrait",
                         "image_front": "img/cards/McD98-99/48890-1631776RepFr.jpg",
                         "image_back": "img/cards/McD98-99/48890-T13Bk.jpg",
-                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates"
+                        "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48890/1998-99-Upper-Deck-Ice-McDonald's---Wayne-Gretzky-Teammates",
+                        "inCollection": false
                     }
                 ]
             }

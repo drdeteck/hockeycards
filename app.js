@@ -294,6 +294,7 @@ function DataViewModel() {
             image_front: row.image_front || '',
             image_back: row.image_back || '',
             tcdb_href: (tcdbHref && tcdbHref.indexOf('http') === 0) ? tcdbHref : '',
+            inCollection: !!(row.inCollection),
             _set_key: routingSetKey,
             _parent_key: parentSetKey || null
         };
@@ -310,6 +311,7 @@ function DataViewModel() {
     self.CardRouteError = ko.observable('');
     self.ShowAllSetCards = ko.observable(false);
     self.CardImageFace = ko.observable('front');
+    self.ShowCollectionOverlay = ko.observable(false);
 
     // when the selected collection key changes (e.g. via menu radio), push it into the route
     self.CurrentCollectionKey.subscribe(function(key) {
@@ -519,6 +521,10 @@ function DataViewModel() {
         }
 
         self.CardImageFace(self.CardImageFace() === 'front' ? 'back' : 'front');
+    };
+
+    self.ToggleCollectionOverlay = function () {
+        self.ShowCollectionOverlay(!self.ShowCollectionOverlay());
     };
 
     self.NormalizeText = function (value) {
