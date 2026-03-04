@@ -274,13 +274,6 @@ function DataViewModel() {
     self._buildMarioCardItem = function (row, routingSetKey, yearLabel, seasonStart, seasonEnd, setName, setVariation, setDisplayName, subsetName, parentSetKey) {
         var baseNumber = row.base_number || 'NNO';
         var tcdbHref = row.tcdb_href || '';
-        if (!tcdbHref && row.image_front) {
-            var imageFile = row.image_front.replace(/^.*\//, '');
-            var tcdbSlug = imageFile.match(/^(.+)Fr\.jpg$/i);
-            if (tcdbSlug) {
-                tcdbHref = 'https://www.tcdb.com/ViewCard.cfm/' + tcdbSlug[1];
-            }
-        }
         return {
             id: row.id || '',
             name: 'Mario Lemieux',
