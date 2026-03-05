@@ -237,6 +237,30 @@ ul {
     margin-bottom: 12px;
 }
 
+.footer-stat-group {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 180px;
+}
+
+.footer-stat-group-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-pale-blue);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding-bottom: 2px;
+    border-bottom: 1px solid var(--color-dark-blue);
+}
+
 .footer-stat-item {
     display: -webkit-box;
     display: -webkit-flex;
@@ -245,16 +269,68 @@ ul {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 8px;
     background-color: var(--color-dark-blue);
     border-radius: 8px;
-    padding: 10px 16px;
+    padding: 10px 14px;
+}
+
+.footer-stat-body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 4px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 0;
+}
+
+.footer-stat-top {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -webkit-align-items: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    gap: 6px;
+}
+
+.footer-stat-bar-track {
+    width: 100%;
+    height: 5px;
+    background-color: var(--color-header-bg);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.footer-stat-bar-fill {
+    height: 100%;
+    background-color: #4a9eda;
+    border-radius: 3px;
+    -webkit-transition: width 0.4s ease;
+    transition: width 0.4s ease;
+    min-width: 2px;
+}
+
+.footer-stat-bar-fill--owned {
+    background-color: #4caf82;
 }
 
 .footer-stat-icon {
     font-size: 20px;
     line-height: 1;
+    padding-top: 2px;
 }
 
 .footer-stat-value {
