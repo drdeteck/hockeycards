@@ -431,17 +431,95 @@
     <footer id="footer" class="footer">
         <div class="inner-flex">
             <div class="footer-stats" data-bind="with: GlobalStats()">
-                <div class="footer-stat-item">
-                    <span class="footer-stat-icon">🖼️</span>
-                    <span class="footer-stat-value" data-bind="text: pctWithFront + '%'"></span>
-                    <span class="footer-stat-label">cards with images</span>
-                    <span class="footer-stat-detail" data-bind="text: '(' + cardsWithFront + ' / ' + totalCards + ')'"></span>
+                <!-- Overall -->
+                <div class="footer-stat-group">
+                    <span class="footer-stat-group-label">Overall</span>
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-icon">🖼️</span>
+                        <div class="footer-stat-body">
+                            <div class="footer-stat-top">
+                                <span class="footer-stat-value" data-bind="text: pctWithFront + '%'"></span>
+                                <span class="footer-stat-label">cards with images</span>
+                            </div>
+                            <div class="footer-stat-bar-track">
+                                <div class="footer-stat-bar-fill" data-bind="style: { width: pctWithFront + '%' }"></div>
+                            </div>
+                            <span class="footer-stat-detail" data-bind="text: cardsWithFront + ' / ' + totalCards"></span>
+                        </div>
+                    </div>
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-icon">✅</span>
+                        <div class="footer-stat-body">
+                            <div class="footer-stat-top">
+                                <span class="footer-stat-value" data-bind="text: pctInCollection + '%'"></span>
+                                <span class="footer-stat-label">collection owned</span>
+                            </div>
+                            <div class="footer-stat-bar-track">
+                                <div class="footer-stat-bar-fill footer-stat-bar-fill--owned" data-bind="style: { width: pctInCollection + '%' }"></div>
+                            </div>
+                            <span class="footer-stat-detail" data-bind="text: cardsInCollection + ' / ' + totalCards"></span>
+                        </div>
+                    </div>
                 </div>
-                <div class="footer-stat-item">
-                    <span class="footer-stat-icon">✅</span>
-                    <span class="footer-stat-value" data-bind="text: pctInCollection + '%'"></span>
-                    <span class="footer-stat-label">of collection owned</span>
-                    <span class="footer-stat-detail" data-bind="text: '(' + cardsInCollection + ' / ' + totalCards + ')'"></span>
+                <!-- McDonald's -->
+                <div class="footer-stat-group" data-bind="with: mcd">
+                    <span class="footer-stat-group-label">🍟 McDonald's</span>
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-icon">🖼️</span>
+                        <div class="footer-stat-body">
+                            <div class="footer-stat-top">
+                                <span class="footer-stat-value" data-bind="text: pctWithFront + '%'"></span>
+                                <span class="footer-stat-label">cards with images</span>
+                            </div>
+                            <div class="footer-stat-bar-track">
+                                <div class="footer-stat-bar-fill" data-bind="style: { width: pctWithFront + '%' }"></div>
+                            </div>
+                            <span class="footer-stat-detail" data-bind="text: cardsWithFront + ' / ' + totalCards"></span>
+                        </div>
+                    </div>
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-icon">✅</span>
+                        <div class="footer-stat-body">
+                            <div class="footer-stat-top">
+                                <span class="footer-stat-value" data-bind="text: pctInCollection + '%'"></span>
+                                <span class="footer-stat-label">collection owned</span>
+                            </div>
+                            <div class="footer-stat-bar-track">
+                                <div class="footer-stat-bar-fill footer-stat-bar-fill--owned" data-bind="style: { width: pctInCollection + '%' }"></div>
+                            </div>
+                            <span class="footer-stat-detail" data-bind="text: cardsInCollection + ' / ' + totalCards"></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mario Lemieux -->
+                <div class="footer-stat-group" data-bind="with: mario">
+                    <span class="footer-stat-group-label">🏒 Mario Lemieux</span>
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-icon">🖼️</span>
+                        <div class="footer-stat-body">
+                            <div class="footer-stat-top">
+                                <span class="footer-stat-value" data-bind="text: pctWithFront + '%'"></span>
+                                <span class="footer-stat-label">cards with images</span>
+                            </div>
+                            <div class="footer-stat-bar-track">
+                                <div class="footer-stat-bar-fill" data-bind="style: { width: pctWithFront + '%' }"></div>
+                            </div>
+                            <span class="footer-stat-detail" data-bind="text: cardsWithFront + ' / ' + totalCards"></span>
+                        </div>
+                    </div>
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-icon">✅</span>
+                        <div class="footer-stat-body">
+                            <div class="footer-stat-top">
+                                <span class="footer-stat-value" data-bind="text: pctInCollection + '%'"></span>
+                                <span class="footer-stat-label">collection owned</span>
+                            </div>
+                            <div class="footer-stat-bar-track">
+                                <div class="footer-stat-bar-fill footer-stat-bar-fill--owned" data-bind="style: { width: pctInCollection + '%' }"></div>
+                            </div>
+                            <span class="footer-stat-detail" data-bind="text: cardsInCollection + ' / ' + totalCards"></span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <p class="footer-credit">Card data and images are presented for personal collection reference.</p>
