@@ -959,6 +959,17 @@ window.marioLemieuxData = {
             "set_tcdb_href": "",
             "cards": [
                 {
+                    "id": "ml-1993-94-leaf-1",
+                    "base_number": "1",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1993-94-Leaf-1-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1993-94-Leaf-1-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
                     "id": "ml-1993-94-leaf-225",
                     "base_number": "225",
                     "orientation_front": "portrait",
@@ -982,8 +993,8 @@ window.marioLemieuxData = {
                             "base_number": "1",
                             "orientation_front": "portrait",
                             "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
+                            "image_front": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-1-Title-CardFr.jpg",
+                            "image_back": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-1-Title-CardBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
@@ -994,8 +1005,8 @@ window.marioLemieuxData = {
                             "base_number": "2",
                             "orientation_front": "portrait",
                             "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
+                            "image_front": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-2-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-2-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "position": "Center"
@@ -1005,8 +1016,8 @@ window.marioLemieuxData = {
                             "base_number": "3",
                             "orientation_front": "portrait",
                             "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
+                            "image_front": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-3-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-3-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "position": "Center"
@@ -1016,8 +1027,8 @@ window.marioLemieuxData = {
                             "base_number": "4",
                             "orientation_front": "portrait",
                             "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
+                            "image_front": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-4-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-4-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "position": "Center"
@@ -1027,8 +1038,8 @@ window.marioLemieuxData = {
                             "base_number": "5",
                             "orientation_front": "portrait",
                             "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
+                            "image_front": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-5-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-5-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "position": "Center"
@@ -1038,8 +1049,8 @@ window.marioLemieuxData = {
                             "base_number": "6",
                             "orientation_front": "portrait",
                             "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
+                            "image_front": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-6-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-6-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "position": "Center"
@@ -1049,8 +1060,8 @@ window.marioLemieuxData = {
                             "base_number": "7",
                             "orientation_front": "portrait",
                             "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
+                            "image_front": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-7-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-7-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "position": "Center"
@@ -1060,8 +1071,8 @@ window.marioLemieuxData = {
                             "base_number": "8",
                             "orientation_front": "portrait",
                             "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
+                            "image_front": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-8-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-8-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "position": "Center"
@@ -1071,8 +1082,8 @@ window.marioLemieuxData = {
                             "base_number": "9",
                             "orientation_front": "portrait",
                             "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
+                            "image_front": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-9-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-9-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "position": "Center"
@@ -1082,8 +1093,8 @@ window.marioLemieuxData = {
                             "base_number": "10",
                             "orientation_front": "portrait",
                             "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
+                            "image_front": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-10-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-10-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "position": "Center"
@@ -1125,12 +1136,74 @@ window.marioLemieuxData = {
                     "base_number": "262",
                     "orientation_front": "portrait",
                     "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
+                    "image_front": "img/cards/ML66/1993-94-Donruss-262-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1993-94-Donruss-262-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "inCollection": true
+                }
+            ]
+        },
+        "1993-94-fleer-powerplay": {
+            "set_key": "1993-94-fleer-powerplay",
+            "set_name": "Fleer PowerPlay",
+            "set_year_label": "1993-94",
+            "set_year_start": 1993,
+            "set_year_end": 1994,
+            "set_display_name": "1993-94 Fleer PowerPlay",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1993-94-fleer-powerplay-190",
+                    "base_number": "190",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1993-94-Fleer-PowerPlay-190-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1993-94-Fleer-PowerPlay-190-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1993-94-fleer-powerplay-gamebreakers",
+                    "set_name": "Gamebreakers",
+                    "set_display_name": "1993-94 Fleer PowerPlay - Gamebreakers",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1993-94-fleer-powerplay-gamebreakers-5",
+                            "base_number": "5",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1993-94-Fleer-PowerPlay---Gamebreakers-5-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1993-94-Fleer-PowerPlay---Gamebreakers-5-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "1993-94-fleer-powerplay-point-leaders",
+                    "set_name": "Point Leaders",
+                    "set_display_name": "1993-94 Fleer PowerPlay - Point Leaders",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1993-94-fleer-powerplay-point-leaders-8",
+                            "base_number": "8",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1993-94-Fleer-PowerPlay---Point-Leaders-8-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1993-94-Fleer-PowerPlay---Point-Leaders-8-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
                 }
             ]
         },
