@@ -334,7 +334,7 @@ function DataViewModel() {
     self.ShowExportOverlay = ko.observable(false);
     self.ExportCopied = ko.observable(false);
     // 'off' | 'owned' | 'missing'
-    self.CollectionOverlayMode = ko.observable('off');
+    self.CollectionOverlayMode = ko.observable('owned');
     self.ShowCollectionOverlay = ko.pureComputed(function () {
         return self.CollectionOverlayMode() !== 'off';
     });
@@ -1022,11 +1022,22 @@ function DataViewModel() {
     });
 
     // Text content for the export overlay: one eBay search line per card
+    // When the collection overlay is active (mode !== 'off'), only export cards not in collection
     self.ExportCurrentViewText = ko.pureComputed(function () {
-        return self.CurrentViewCards()
+        var mode = self.CollectionOverlayMode();
+        var cards = self.CurrentViewCards();
+        if (mode !== 'off') {
+            cards = cards.filter(function (card) { return !card.inCollection; });
+        }
+        return cards
             .map(function (card) { return self.GetEbaySearchText(card); })
             .filter(function (line) { return !!line; })
             .join('\n');
+    });
+
+    self.ExportCurrentViewCount = ko.pureComputed(function () {
+        var text = self.ExportCurrentViewText();
+        return text ? text.split('\n').length : 0;
     });
 
     self.CopyExportText = function () {
