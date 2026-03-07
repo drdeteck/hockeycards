@@ -1637,17 +1637,6 @@ window.marioLemieuxData = {
             "set_tcdb_href": "",
             "cards": [
                 {
-                    "id": "ml-1995-96-pinnacle-150",
-                    "base_number": "150",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                },
-                {
                     "id": "ml-1995-96-pinnacle-192",
                     "base_number": "192",
                     "orientation_front": "portrait",
@@ -1661,25 +1650,6 @@ window.marioLemieuxData = {
             ],
             "subsets": [
                 {
-                    "set_key": "1995-96-pinnacle-roaring-20s",
-                    "set_name": "Roaring 20's",
-                    "set_display_name": "1995-96 Pinnacle - Roaring 20's",
-                    "set_tcdb_href": "",
-                    "cards": [
-                        {
-                            "id": "ml-1995-96-pinnacle-roaring-20s-6",
-                            "base_number": "6",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
-                            "tcdb_href": "",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center"
-                        }
-                    ]
-                },
-                {
                     "set_key": "1995-96-pinnacle-clear-shots",
                     "set_name": "Clear Shots",
                     "set_display_name": "1995-96 Pinnacle - Clear Shots",
@@ -1688,8 +1658,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1995-96-pinnacle-clear-shots-13",
                             "base_number": "13",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/1995-96-Pinnacle---Clear-Shots-13-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1995-96-Pinnacle---Clear-Shots-13-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -1738,8 +1708,8 @@ window.marioLemieuxData = {
                 },
                 {
                     "set_key": "1995-96-pinnacle-rink-collection",
-                    "set_name": "Rink Collection (Parallel)",
-                    "set_display_name": "1995-96 Pinnacle - Rink Collection (Parallel)",
+                    "set_name": "Rink Collection",
+                    "set_display_name": "1995-96 Pinnacle - Rink Collection",
                     "set_tcdb_href": "",
                     "cards": [
                         {
@@ -1778,17 +1748,6 @@ window.marioLemieuxData = {
                     "position": "Center"
                 },
                 {
-                    "id": "ml-1995-96-upper-deck-129",
-                    "base_number": "129",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                },
-                {
                     "id": "ml-1995-96-upper-deck-231",
                     "base_number": "231",
                     "orientation_front": "portrait",
@@ -1803,8 +1762,8 @@ window.marioLemieuxData = {
             "subsets": [
                 {
                     "set_key": "1995-96-upper-deck-electric-ice-parallel",
-                    "set_name": "Electric Ice (Parallel)",
-                    "set_display_name": "1995-96 Upper Deck - Electric Ice (Parallel)",
+                    "set_name": "Electric Ice",
+                    "set_display_name": "1995-96 Upper Deck - Electric Ice",
                     "set_tcdb_href": "",
                     "cards": [
                         {
@@ -1818,17 +1777,6 @@ window.marioLemieuxData = {
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
                             "inCollection": true
-                        },
-                        {
-                            "id": "ml-1995-96-upper-deck-electric-ice-129",
-                            "base_number": "129",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
-                            "tcdb_href": "",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center"
                         },
                         {
                             "id": "ml-1995-96-upper-deck-electric-ice-231",
@@ -2149,8 +2097,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1995-96-leaf-lemieuxs-best-1",
                             "base_number": "1",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-1-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-1-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -2160,8 +2108,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1995-96-leaf-lemieuxs-best-2",
                             "base_number": "2",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-2-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-2-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -2171,8 +2119,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1995-96-leaf-lemieuxs-best-3",
                             "base_number": "3",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-3-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-3-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -2182,8 +2130,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1995-96-leaf-lemieuxs-best-4",
                             "base_number": "4",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-4-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-4-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -2193,8 +2141,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1995-96-leaf-lemieuxs-best-5",
                             "base_number": "5",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-5-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-5-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -2204,8 +2152,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1995-96-leaf-lemieuxs-best-6",
                             "base_number": "6",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-6-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-6-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -2215,8 +2163,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1995-96-leaf-lemieuxs-best-7",
                             "base_number": "7",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-7-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-7-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -2226,8 +2174,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1995-96-leaf-lemieuxs-best-8",
                             "base_number": "8",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-8-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-8-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -2237,8 +2185,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1995-96-leaf-lemieuxs-best-9",
                             "base_number": "9",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-9-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-9-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -2248,8 +2196,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1995-96-leaf-lemieuxs-best-10",
                             "base_number": "10",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-10-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-10-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -3436,36 +3384,6 @@ window.marioLemieuxData = {
                             "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1994-95-Ultra---Scoring-Kings-5-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1994-95-Ultra---Scoring-Kings-5-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center"
-                        }
-                    ]
-                }
-            ]
-        },
-        "1995-96-metal-universe": {
-            "set_key": "1995-96-metal-universe",
-            "set_name": "Metal Universe",
-            "set_year_label": "1995-96",
-            "set_year_start": 1995,
-            "set_year_end": 1996,
-            "set_display_name": "1995-96 Metal Universe",
-            "set_tcdb_href": "",
-            "subsets": [
-                {
-                    "set_key": "1995-96-metal-universe-base-heavy-foil-design",
-                    "set_name": "Base (Heavy Foil Design)",
-                    "set_display_name": "1995-96 Metal Universe - Base (Heavy Foil Design)",
-                    "set_tcdb_href": "",
-                    "cards": [
-                        {
-                            "id": "ml-1995-96-metal-universe-123",
-                            "base_number": "123",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "position": "Center"
