@@ -1521,28 +1521,6 @@ window.marioLemieuxData = {
                 }
             ]
         },
-        "1994-95-fleer": {
-            "set_key": "1994-95-fleer",
-            "set_name": "Fleer",
-            "set_year_label": "1994-95",
-            "set_year_start": 1994,
-            "set_year_end": 1995,
-            "set_display_name": "1994-95 Fleer",
-            "set_tcdb_href": "",
-            "cards": [
-                {
-                    "id": "ml-1994-95-fleer-140",
-                    "base_number": "140",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                }
-            ]
-        },
         "1994-95-upper-deck": {
             "set_key": "1994-95-upper-deck",
             "set_name": "Upper Deck",
@@ -1562,24 +1540,13 @@ window.marioLemieuxData = {
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
-                },
-                {
-                    "id": "ml-1994-95-upper-deck-112",
-                    "base_number": "112",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
                 }
             ],
             "subsets": [
                 {
                     "set_key": "1994-95-upper-deck-electric-ice",
-                    "set_name": "Electric Ice (Parallel)",
-                    "set_display_name": "1994-95 Upper Deck - Electric Ice (Parallel)",
+                    "set_name": "Electric Ice",
+                    "set_display_name": "1994-95 Upper Deck - Electric Ice",
                     "set_tcdb_href": "",
                     "cards": [
                         {
@@ -1594,7 +1561,70 @@ window.marioLemieuxData = {
                             "position": "Center"
                         }
                     ]
+                },
+                {
+            "set_key": "1994-95-upper-deck-sp",
+            "set_name": "SP",
+            "set_year_label": "1994-95",
+            "set_year_start": 1994,
+            "set_year_end": 1995,
+            "set_display_name": "1994-95 SP",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1994-95-upper-deck-sp-sp-61",
+                    "base_number": "SP-61",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1994-95-Upper-Deck---SP-SP-61-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1994-95-Upper-Deck---SP-SP-61-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
                 }
+            ]
+        },
+                 {
+                    "set_key": "1994-95-upper-deck-sp-die-cut",
+                    "set_name": "SP Die-Cut",
+                    "set_display_name": "1994-95 Upper Deck - SP Die-Cut",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1994-95-upper-deck-sp-die-cut-sp-61",
+                            "base_number": "SP-61",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1994-95-Upper-Deck---SP-Die-Cut-SP-61-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1994-95-Upper-Deck---SP-Die-Cut-SP-61-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
+                {
+            "set_key": "1994-95-upper-deck-be-a-player",
+            "set_name": "Be a Player",
+            "set_year_label": "1994-95",
+            "set_year_start": 1994,
+            "set_year_end": 1995,
+            "set_display_name": "1994-95 Upper Deck Be a Player",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1994-95-upper-deck-be-a-player-r69",
+                    "base_number": "R69",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1994-95-Upper-Deck-Be-a-Player-R69-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1994-95-Upper-Deck-Be-a-Player-R69-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        }
             ]
         },
         "1995-96-pinnacle": {
@@ -3031,49 +3061,6 @@ window.marioLemieuxData = {
                 }
             ]
         },
-        "1994-95-sp": {
-            "set_key": "1994-95-sp",
-            "set_name": "SP",
-            "set_year_label": "1994-95",
-            "set_year_start": 1994,
-            "set_year_end": 1995,
-            "set_display_name": "1994-95 SP",
-            "set_tcdb_href": "",
-            "cards": [
-                {
-                    "id": "ml-1994-95-sp-sp-61",
-                    "base_number": "SP-61",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "img/cards/ML66/1994-95-Upper-Deck---SP-SP-61-Mario-LemieuxFr.jpg",
-                    "image_back": "img/cards/ML66/1994-95-Upper-Deck---SP-SP-61-Mario-LemieuxBk.jpg",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                }
-            ],
-            "subsets": [
-                {
-                    "set_key": "1994-95-sp-premier-die-cut-parallel",
-                    "set_name": "Premier Die-Cut (Parallel)",
-                    "set_display_name": "1994-95 SP - Premier Die-Cut (Parallel)",
-                    "set_tcdb_href": "",
-                    "cards": [
-                        {
-                            "id": "ml-1994-95-sp-premier-die-cut-sp-61",
-                            "base_number": "SP-61",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/1994-95-Upper-Deck---SP-Die-Cut-SP-61-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/1994-95-Upper-Deck---SP-Die-Cut-SP-61-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center"
-                        }
-                    ]
-                }
-            ]
-        },
         "1994-95-parkhurst-vintage": {
             "set_key": "1994-95-parkhurst-vintage",
             "set_name": "Parkhurst Vintage",
@@ -3454,28 +3441,6 @@ window.marioLemieuxData = {
                             "position": "Center"
                         }
                     ]
-                }
-            ]
-        },
-        "1994-95-upper-deck-be-a-player": {
-            "set_key": "1994-95-upper-deck-be-a-player",
-            "set_name": "Upper Deck Be a Player",
-            "set_year_label": "1994-95",
-            "set_year_start": 1994,
-            "set_year_end": 1995,
-            "set_display_name": "1994-95 Upper Deck Be a Player",
-            "set_tcdb_href": "",
-            "cards": [
-                {
-                    "id": "ml-1994-95-upper-deck-be-a-player-r69",
-                    "base_number": "R69",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "img/cards/ML66/1994-95-Upper-Deck-Be-a-Player-R69-Mario-LemieuxFr.jpg",
-                    "image_back": "img/cards/ML66/1994-95-Upper-Deck-Be-a-Player-R69-Mario-LemieuxBk.jpg",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
                 }
             ]
         },
