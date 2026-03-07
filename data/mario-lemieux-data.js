@@ -1,6 +1,6 @@
 window.marioLemieuxData = {
     "dataset": "mario-lemieux",
-    "version": "0.9.0",
+    "version": "0.10.0",
     "player": "Mario Lemieux",
     "updated_at": "2026-03-07",
     "image_folder": "img/cards/ML66",
@@ -1616,6 +1616,17 @@ window.marioLemieuxData = {
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
+                },
+                {
+                    "id": "ml-1995-96-pinnacle-192",
+                    "base_number": "192",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1995-96-Pinnacle-192-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1995-96-Pinnacle-192-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
                 }
             ],
             "subsets": [
@@ -1637,6 +1648,82 @@ window.marioLemieuxData = {
                             "position": "Center"
                         }
                     ]
+                },
+                {
+                    "set_key": "1995-96-pinnacle-clear-shots",
+                    "set_name": "Clear Shots",
+                    "set_display_name": "1995-96 Pinnacle - Clear Shots",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1995-96-pinnacle-clear-shots-13",
+                            "base_number": "13",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1995-96-Pinnacle---Clear-Shots-13-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1995-96-Pinnacle---Clear-Shots-13-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "1995-96-pinnacle-fantasy",
+                    "set_name": "FANtasy",
+                    "set_display_name": "1995-96 Pinnacle - FANtasy",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1995-96-pinnacle-fantasy-8",
+                            "base_number": "8",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1995-96-Pinnacle---FANtasy-8-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1995-96-Pinnacle---FANtasy-8-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "1995-96-pinnacle-first-strike",
+                    "set_name": "First Strike",
+                    "set_display_name": "1995-96 Pinnacle - First Strike",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1995-96-pinnacle-first-strike-13",
+                            "base_number": "13",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1995-96-Pinnacle---First-Strike-13-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1995-96-Pinnacle---First-Strike-13-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "1995-96-pinnacle-rink-collection",
+                    "set_name": "Rink Collection (Parallel)",
+                    "set_display_name": "1995-96 Pinnacle - Rink Collection (Parallel)",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1995-96-pinnacle-rink-collection-192",
+                            "base_number": "192",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1995-96-Pinnacle---Rink-Collection-192-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1995-96-Pinnacle---Rink-Collection-192-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
                 }
             ]
         },
@@ -1650,12 +1737,34 @@ window.marioLemieuxData = {
             "set_tcdb_href": "",
             "cards": [
                 {
+                    "id": "ml-1995-96-upper-deck-84",
+                    "base_number": "84",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1995-96-Upper-Deck-84-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1995-96-Upper-Deck-84-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
                     "id": "ml-1995-96-upper-deck-129",
                     "base_number": "129",
                     "orientation_front": "portrait",
                     "orientation_back": "portrait",
                     "image_front": "",
                     "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1995-96-upper-deck-231",
+                    "base_number": "231",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1995-96-Upper-Deck-231-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1995-96-Upper-Deck-231-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
@@ -1669,6 +1778,18 @@ window.marioLemieuxData = {
                     "set_tcdb_href": "",
                     "cards": [
                         {
+                            "id": "ml-1995-96-upper-deck-electric-ice-84",
+                            "base_number": "84",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1995-96-Upper-Deck---Electric-Ice-84-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1995-96-Upper-Deck---Electric-Ice-84-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": true
+                        },
+                        {
                             "id": "ml-1995-96-upper-deck-electric-ice-129",
                             "base_number": "129",
                             "orientation_front": "portrait",
@@ -1680,16 +1801,53 @@ window.marioLemieuxData = {
                             "position": "Center"
                         },
                         {
-                            "id": "ml-1995-96-upper-deck-electric-ice-84",
-                            "base_number": "84",
+                            "id": "ml-1995-96-upper-deck-electric-ice-231",
+                            "base_number": "231",
                             "orientation_front": "portrait",
                             "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
+                            "image_front": "img/cards/ML66/1995-96-Upper-Deck---Electric-Ice-231-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1995-96-Upper-Deck---Electric-Ice-231-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": true
+                            "position": "Center"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "1995-96-upper-deck-freeze-frame",
+                    "set_name": "Freeze Frame",
+                    "set_display_name": "1995-96 Upper Deck - Freeze Frame",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1995-96-upper-deck-freeze-frame-f16",
+                            "base_number": "F16",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1995-96-Upper-Deck---Freeze-Frame-F16-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1995-96-Upper-Deck---Freeze-Frame-F16-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "1995-96-upper-deck-special-edition",
+                    "set_name": "Special Edition",
+                    "set_display_name": "1995-96 Upper Deck - Special Edition",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1995-96-upper-deck-special-edition-se152",
+                            "base_number": "SE152",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1995-96-Upper-Deck---Special-Edition-SE152-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1995-96-Upper-Deck---Special-Edition-SE152-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
                         }
                     ]
                 }
@@ -2113,6 +2271,17 @@ window.marioLemieuxData = {
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
+                },
+                {
+                    "id": "ml-1996-97-donruss-131",
+                    "base_number": "131",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1996-97-Donruss-131-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1996-97-Donruss-131-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
                 }
             ]
         },
@@ -2130,12 +2299,33 @@ window.marioLemieuxData = {
                     "base_number": "78",
                     "orientation_front": "portrait",
                     "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
+                    "image_front": "img/cards/ML66/1996-97-Flair-78-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1996-97-Flair-78-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "inCollection": true
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1996-97-flair-hot-numbers",
+                    "set_name": "Hot Numbers",
+                    "set_display_name": "1996-97 Flair - Hot Numbers",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1996-97-flair-hot-numbers-7",
+                            "base_number": "7",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1996-97-Flair---Hot-Numbers-7-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1996-97-Flair---Hot-Numbers-7-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
                 }
             ]
         },
@@ -3921,6 +4111,28 @@ window.marioLemieuxData = {
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1996-97-Collector's-Choice-210-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
+                },
+                {
+                    "id": "ml-1996-97-collectors-choice-293",
+                    "base_number": "293",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1996-97-Collector's-Choice-293-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1996-97-Collector's-Choice-293-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1996-97-collectors-choice-335",
+                    "base_number": "335",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1996-97-Collector's-Choice-335-Eric-Lindros--Mark-Messier--Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1996-97-Collector's-Choice-335-Eric-Lindros--Mark-Messier--Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
                 }
             ],
             "subsets": [
@@ -3952,6 +4164,25 @@ window.marioLemieuxData = {
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
                             "variant_note": "Exchange"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "1996-97-collectors-choice-stick-ums",
+                    "set_name": "Stick Ums",
+                    "set_display_name": "1996-97 Collector's Choice - Stick Ums",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1996-97-collectors-choice-stick-ums-s7",
+                            "base_number": "S7",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1996-97-Collector's-Choice---Stick-Ums-S7-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1996-97-Collector's-Choice---Stick-Ums-S7-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
                         }
                     ]
                 }
@@ -4403,6 +4634,491 @@ window.marioLemieuxData = {
                             "inCollection": true
                         }
                     ]
+                }
+            ]
+        },
+        "1995-96-parkhurst-international": {
+            "set_key": "1995-96-parkhurst-international",
+            "set_name": "Parkhurst International",
+            "set_year_label": "1995-96",
+            "set_year_start": 1995,
+            "set_year_end": 1996,
+            "set_display_name": "1995-96 Parkhurst International",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1995-96-parkhurst-international-170",
+                    "base_number": "170",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1995-96-Parkhurst-International-170-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1995-96-Parkhurst-International-170-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "1995-96-playoff-one-on-one-challenge": {
+            "set_key": "1995-96-playoff-one-on-one-challenge",
+            "set_name": "Playoff One on One Challenge",
+            "set_year_label": "1995-96",
+            "set_year_start": 1995,
+            "set_year_end": 1996,
+            "set_display_name": "1995-96 Playoff One on One Challenge",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1995-96-playoff-one-on-one-challenge-79",
+                    "base_number": "79",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1995-96-Playoff-One-on-One-Challenge-79-Mario-Lemieux-Fr.jpg",
+                    "image_back": "img/cards/ML66/1995-96-Playoff-One-on-One-Challenge-79-Mario-Lemieux-Bk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1995-96-playoff-one-on-one-challenge-186",
+                    "base_number": "186",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1995-96-Playoff-One-on-One-Challenge-186-Mario-Lemieux-Fr.jpg",
+                    "image_back": "img/cards/ML66/1995-96-Playoff-One-on-One-Challenge-186-Mario-Lemieux-Bk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1995-96-playoff-one-on-one-challenge-298",
+                    "base_number": "298",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1995-96-Playoff-One-on-One-Challenge-298-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1995-96-Playoff-One-on-One-Challenge-298-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "1995-96-sp": {
+            "set_key": "1995-96-sp",
+            "set_name": "SP",
+            "set_year_label": "1995-96",
+            "set_year_start": 1995,
+            "set_year_end": 1996,
+            "set_display_name": "1995-96 SP",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1995-96-sp-113",
+                    "base_number": "113",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1995-96-SP-113-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1995-96-SP-113-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1995-96-sp-holoview-fx",
+                    "set_name": "Holoview FX",
+                    "set_display_name": "1995-96 SP - Holoview FX",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1995-96-sp-holoview-fx-fx17",
+                            "base_number": "FX17",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1995-96-SP---Holoview-FX17-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1995-96-SP---Holoview-FX17-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                }
+            ]
+        },
+        "1995-96-score-summit": {
+            "set_key": "1995-96-score-summit",
+            "set_name": "Score Summit",
+            "set_year_label": "1995-96",
+            "set_year_start": 1995,
+            "set_year_end": 1996,
+            "set_display_name": "1995-96 Score Summit",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1995-96-score-summit-118",
+                    "base_number": "118",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1995-96-Score-Summit-118-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1995-96-Score-Summit-118-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "1995-96-select-certified": {
+            "set_key": "1995-96-select-certified",
+            "set_name": "Select Certified",
+            "set_year_label": "1995-96",
+            "set_year_start": 1995,
+            "set_year_end": 1996,
+            "set_display_name": "1995-96 Select Certified",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1995-96-select-certified-1",
+                    "base_number": "1",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1995-96-Select-Certified-1-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1995-96-Select-Certified-1-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "1995-96-topps": {
+            "set_key": "1995-96-topps",
+            "set_name": "Topps",
+            "set_year_label": "1995-96",
+            "set_year_start": 1995,
+            "set_year_end": 1996,
+            "set_display_name": "1995-96 Topps",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1995-96-topps-100",
+                    "base_number": "100",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1995-96-Topps-100-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1995-96-Topps-100-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1995-96-topps-mystery-finest",
+                    "set_name": "Mystery Finest",
+                    "set_display_name": "1995-96 Topps - Mystery Finest",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1995-96-topps-mystery-finest-m2",
+                            "base_number": "M2",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1995-96-Topps---Mystery-Finest-M2-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1995-96-Topps---Mystery-Finest-M2-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                }
+            ]
+        },
+        "1995-96-ultra": {
+            "set_key": "1995-96-ultra",
+            "set_name": "Ultra",
+            "set_year_label": "1995-96",
+            "set_year_start": 1995,
+            "set_year_end": 1996,
+            "set_display_name": "1995-96 Ultra",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1995-96-ultra-288",
+                    "base_number": "288",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1995-96-Ultra-288-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1995-96-Ultra-288-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-1995-96-ultra-391",
+                    "base_number": "391",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1995-96-Ultra-391-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1995-96-Ultra-391-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "1995-96-upper-deck-be-a-player": {
+            "set_key": "1995-96-upper-deck-be-a-player",
+            "set_name": "Upper Deck Be a Player",
+            "set_year_label": "1995-96",
+            "set_year_start": 1995,
+            "set_year_end": 1996,
+            "set_display_name": "1995-96 Upper Deck Be a Player",
+            "set_tcdb_href": "",
+            "subsets": [
+                {
+                    "set_key": "1995-96-upper-deck-be-a-player-lethal-lines",
+                    "set_name": "Lethal Lines",
+                    "set_display_name": "1995-96 Upper Deck Be a Player - Lethal Lines",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1995-96-upper-deck-be-a-player-lethal-lines-ll11",
+                            "base_number": "LL11",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1995-96-Upper-Deck-Be-a-Player---Lethal-Lines-LL11-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1995-96-Upper-Deck-Be-a-Player---Lethal-Lines-LL11-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                }
+            ]
+        },
+        "1995-96-zenith": {
+            "set_key": "1995-96-zenith",
+            "set_name": "Zenith",
+            "set_year_label": "1995-96",
+            "set_year_start": 1995,
+            "set_year_end": 1996,
+            "set_display_name": "1995-96 Zenith",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1995-96-zenith-108",
+                    "base_number": "108",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1995-96-Zenith-108-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1995-96-Zenith-108-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "1996-97-donruss-canadian-ice": {
+            "set_key": "1996-97-donruss-canadian-ice",
+            "set_name": "Donruss Canadian Ice",
+            "set_year_label": "1996-97",
+            "set_year_start": 1996,
+            "set_year_end": 1997,
+            "set_display_name": "1996-97 Donruss Canadian Ice",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1996-97-donruss-canadian-ice-31",
+                    "base_number": "31",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1996-97-Donruss-Canadian-Ice-31-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1996-97-Donruss-Canadian-Ice-31-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1996-97-donruss-canadian-ice-mario-lemieux-scrapbook",
+                    "set_name": "Mario Lemieux Scrapbook",
+                    "set_display_name": "1996-97 Donruss Canadian Ice - Mario Lemieux Scrapbook",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1996-97-donruss-canadian-ice-scrapbook-1",
+                            "base_number": "1",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-1-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-1-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-1996-97-donruss-canadian-ice-scrapbook-2",
+                            "base_number": "2",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-2-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-2-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-1996-97-donruss-canadian-ice-scrapbook-25",
+                            "base_number": "25",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-25-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-25-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "1996-97-donruss-canadian-ice-o-canada",
+                    "set_name": "O-Canada",
+                    "set_display_name": "1996-97 Donruss Canadian Ice - O-Canada",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1996-97-donruss-canadian-ice-o-canada-13",
+                            "base_number": "13",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---O-Canada-13-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---O-Canada-13-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                }
+            ]
+        },
+        "1996-97-donruss-elite": {
+            "set_key": "1996-97-donruss-elite",
+            "set_name": "Donruss Elite",
+            "set_year_label": "1996-97",
+            "set_year_start": 1996,
+            "set_year_end": 1997,
+            "set_display_name": "1996-97 Donruss Elite",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1996-97-donruss-elite-109",
+                    "base_number": "109",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1996-97-Donruss-Elite-109-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1996-97-Donruss-Elite-109-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1996-97-donruss-elite-hart-to-hart-mario-lemieux",
+                    "set_name": "Hart to Hart Mario Lemieux",
+                    "set_display_name": "1996-97 Donruss Elite - Hart to Hart Mario Lemieux",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1996-97-donruss-elite-hart-to-hart-1",
+                            "base_number": "1",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-1-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-1-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-1996-97-donruss-elite-hart-to-hart-2",
+                            "base_number": "2",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-2-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-2-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-1996-97-donruss-elite-hart-to-hart-3",
+                            "base_number": "3",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-3-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-3-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-1996-97-donruss-elite-hart-to-hart-4",
+                            "base_number": "4",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-4-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-4-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-1996-97-donruss-elite-hart-to-hart-5",
+                            "base_number": "5",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-5-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-5-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-1996-97-donruss-elite-hart-to-hart-6",
+                            "base_number": "6",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-6-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-6-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                }
+            ]
+        },
+        "1996-97-fleer": {
+            "set_key": "1996-97-fleer",
+            "set_name": "Fleer",
+            "set_year_label": "1996-97",
+            "set_year_start": 1996,
+            "set_year_end": 1997,
+            "set_display_name": "1996-97 Fleer",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1996-97-fleer-87",
+                    "base_number": "87",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1996-97-Fleer-87-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1996-97-Fleer-87-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
                 }
             ]
         }
