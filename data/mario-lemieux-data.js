@@ -2240,17 +2240,6 @@ window.marioLemieuxData = {
             "set_tcdb_href": "",
             "cards": [
                 {
-                    "id": "ml-1996-97-donruss-88",
-                    "base_number": "88",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                },
-                {
                     "id": "ml-1996-97-donruss-131",
                     "base_number": "131",
                     "orientation_front": "portrait",
@@ -2317,17 +2306,6 @@ window.marioLemieuxData = {
             "set_tcdb_href": "",
             "cards": [
                 {
-                    "id": "ml-1996-97-upper-deck-133",
-                    "base_number": "133",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                },
-                {
                     "id": "ml-1996-97-upper-deck-321",
                     "base_number": "321",
                     "orientation_front": "portrait",
@@ -2349,8 +2327,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1996-97-upper-deck-hart-hopefuls-bronze-hh16",
                             "base_number": "HH16",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/1996-97-Upper-Deck---Hart-Hopefuls-Bronze-HH16-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1996-97-Upper-Deck---Hart-Hopefuls-Bronze-HH16-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -2369,8 +2347,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1996-97-upper-deck-hart-hopefuls-silver-hh16",
                             "base_number": "HH16",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/1996-97-Upper-Deck---Hart-Hopefuls-Silver-HH16-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1996-97-Upper-Deck---Hart-Hopefuls-Silver-HH16-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -3402,25 +3380,6 @@ window.marioLemieuxData = {
             "set_tcdb_href": "",
             "subsets": [
                 {
-                    "set_key": "1996-97-pinnacle-mint-mint-collection-bronze-card",
-                    "set_name": "Mint Collection (Bronze Card)",
-                    "set_display_name": "1996-97 Pinnacle Mint - Mint Collection (Bronze Card)",
-                    "set_tcdb_href": "",
-                    "cards": [
-                        {
-                            "id": "ml-1996-97-pinnacle-mint-13",
-                            "base_number": "13",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
-                            "tcdb_href": "",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center"
-                        }
-                    ]
-                },
-                {
                     "set_key": "1996-97-pinnacle-mint-mint-collection",
                     "set_name": "Mint Collection",
                     "set_display_name": "1996-97 Pinnacle Mint - Mint Collection",
@@ -3516,36 +3475,6 @@ window.marioLemieuxData = {
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
                             "variant_note": "Brass Coin"
-                        }
-                    ]
-                }
-            ]
-        },
-        "1996-97-black-diamond": {
-            "set_key": "1996-97-black-diamond",
-            "set_name": "Black Diamond",
-            "set_year_label": "1996-97",
-            "set_year_start": 1996,
-            "set_year_end": 1997,
-            "set_display_name": "1996-97 Black Diamond",
-            "set_tcdb_href": "",
-            "subsets": [
-                {
-                    "set_key": "1996-97-black-diamond-double-diamond",
-                    "set_name": "Double Diamond",
-                    "set_display_name": "1996-97 Black Diamond - Double Diamond",
-                    "set_tcdb_href": "",
-                    "cards": [
-                        {
-                            "id": "ml-1996-97-black-diamond-12",
-                            "base_number": "12",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
-                            "tcdb_href": "",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center"
                         }
                     ]
                 }
@@ -4180,8 +4109,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1996-97-collectors-choice-335",
                     "base_number": "335",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
                     "image_front": "img/cards/ML66/1996-97-Collector's-Choice-335-Eric-Lindros--Mark-Messier--Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1996-97-Collector's-Choice-335-Eric-Lindros--Mark-Messier--Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
@@ -4230,7 +4159,7 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1996-97-collectors-choice-stick-ums-s7",
                             "base_number": "S7",
-                            "orientation_front": "portrait",
+                            "orientation_front": "landscape",
                             "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1996-97-Collector's-Choice---Stick-Ums-S7-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1996-97-Collector's-Choice---Stick-Ums-S7-Mario-LemieuxBk.jpg",
@@ -5044,8 +4973,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1996-97-donruss-canadian-ice-o-canada-13",
                             "base_number": "13",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---O-Canada-13-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---O-Canada-13-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -5087,8 +5016,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1996-97-donruss-elite-hart-to-hart-1",
                             "base_number": "1",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-1-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-1-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -5098,8 +5027,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1996-97-donruss-elite-hart-to-hart-2",
                             "base_number": "2",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-2-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-2-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -5109,8 +5038,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1996-97-donruss-elite-hart-to-hart-3",
                             "base_number": "3",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-3-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-3-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -5120,8 +5049,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1996-97-donruss-elite-hart-to-hart-4",
                             "base_number": "4",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-4-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-4-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -5131,8 +5060,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1996-97-donruss-elite-hart-to-hart-5",
                             "base_number": "5",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-5-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-5-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -5142,8 +5071,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1996-97-donruss-elite-hart-to-hart-6",
                             "base_number": "6",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-6-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-6-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -5616,8 +5545,8 @@ window.marioLemieuxData = {
                 {
                     "id": "ml-1996-97-upper-deck-ice-114",
                     "base_number": "114",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
                     "image_front": "img/cards/ML66/1996-97-Upper-Deck-Ice-114-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1996-97-Upper-Deck-Ice-114-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
