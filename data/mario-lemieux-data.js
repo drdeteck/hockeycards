@@ -968,17 +968,6 @@ window.marioLemieuxData = {
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
-                },
-                {
-                    "id": "ml-1993-94-leaf-225",
-                    "base_number": "225",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
                 }
             ],
             "subsets": [
@@ -991,7 +980,7 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1993-94-leaf-mlc-1",
                             "base_number": "1",
-                            "orientation_front": "portrait",
+                            "orientation_front": "landscape",
                             "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-1-Title-CardFr.jpg",
                             "image_back": "img/cards/ML66/1993-94-Leaf---Mario-Lemieux-Collection-1-Title-CardBk.jpg",
@@ -1100,25 +1089,6 @@ window.marioLemieuxData = {
                             "position": "Center"
                         }
                     ]
-                },
-                {
-                    "set_key": "1993-94-leaf-painted-warriors",
-                    "set_name": "Painted Warriors",
-                    "set_display_name": "1993-94 Leaf - Painted Warriors",
-                    "set_tcdb_href": "",
-                    "cards": [
-                        {
-                            "id": "ml-1993-94-leaf-painted-warriors-4",
-                            "base_number": "4",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
-                            "tcdb_href": "",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center"
-                        }
-                    ]
                 }
             ]
         },
@@ -1216,17 +1186,6 @@ window.marioLemieuxData = {
             "set_display_name": "1993-94 Score",
             "set_tcdb_href": "",
             "cards": [
-                {
-                    "id": "ml-1993-94-score-234",
-                    "base_number": "234",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                },
                 {
                     "id": "ml-1993-94-score-350",
                     "base_number": "350",
@@ -1332,17 +1291,6 @@ window.marioLemieuxData = {
             "set_tcdb_href": "",
             "cards": [
                 {
-                    "id": "ml-1993-94-upper-deck-117",
-                    "base_number": "117",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                },
-                {
                     "id": "ml-1993-94-upper-deck-301",
                     "base_number": "301",
                     "orientation_front": "portrait",
@@ -1396,7 +1344,7 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-1993-94-upper-deck-award-winners-aw1",
                             "base_number": "AW1",
-                            "orientation_front": "portrait",
+                            "orientation_front": "landscape",
                             "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1993-94-Upper-Deck---Award-Winners-AW1-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1993-94-Upper-Deck---Award-Winners-AW1-Mario-LemieuxBk.jpg",
@@ -2401,27 +2349,7 @@ window.marioLemieuxData = {
                     "position": "Center"
                 }
             ],
-            "subsets": [
-                {
-                    "set_key": "1993-94-pinnacle-team-2001",
-                    "set_name": "Team 2001",
-                    "set_display_name": "1993-94 Pinnacle - Team 2001",
-                    "set_tcdb_href": "",
-                    "cards": [
-                        {
-                            "id": "ml-1993-94-pinnacle-team-2001-30",
-                            "base_number": "30",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
-                            "tcdb_href": "",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center"
-                        }
-                    ]
-                }
-            ]
+            "subsets": []
         },
         "1994-95-topps-premier": {
             "set_key": "1994-95-topps-premier",
