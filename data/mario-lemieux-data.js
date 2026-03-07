@@ -1,6 +1,6 @@
 window.marioLemieuxData = {
     "dataset": "mario-lemieux",
-    "version": "0.11.0",
+    "version": "0.12.0",
     "player": "Mario Lemieux",
     "updated_at": "2026-03-07",
     "image_folder": "img/cards/ML66",
@@ -2468,6 +2468,269 @@ window.marioLemieuxData = {
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
                 }
+            ],
+            "subsets": [
+                {
+                    "set_key": "2000-01-topps-mario-lemieux-reprints",
+                    "set_name": "Mario Lemieux Reprints",
+                    "set_display_name": "2000-01 Topps - Mario Lemieux Reprints",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-1",
+                            "base_number": "1",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-1-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-1-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-2",
+                            "base_number": "2",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-2-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-2-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-3",
+                            "base_number": "3",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-3-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-3-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-4",
+                            "base_number": "4",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-4-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-4-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-5",
+                            "base_number": "5",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-5-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-5-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-6",
+                            "base_number": "6",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-6-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-6-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-7",
+                            "base_number": "7",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-7-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-7-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-8",
+                            "base_number": "8",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-8-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-8-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-9",
+                            "base_number": "9",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-9-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-9-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-10",
+                            "base_number": "10",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-10-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-10-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-11",
+                            "base_number": "11",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-11-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-11-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-12",
+                            "base_number": "12",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-12-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-12-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-13",
+                            "base_number": "13",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-13-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-13-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-14",
+                            "base_number": "14",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-14-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-14-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-15",
+                            "base_number": "15",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-15-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-15-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-16",
+                            "base_number": "16",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-16-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-16-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-17",
+                            "base_number": "17",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-17-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-17-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-18",
+                            "base_number": "18",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-18-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-18-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-19",
+                            "base_number": "19",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-19-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-19-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-20",
+                            "base_number": "20",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-20-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-20-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-21",
+                            "base_number": "21",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-21-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-21-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-22",
+                            "base_number": "22",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-22-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-22-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-2000-01-topps-mario-lemieux-reprints-23",
+                            "base_number": "23",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-23-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-23-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                }
             ]
         },
         "2000-01-upper-deck": {
@@ -2965,6 +3228,19 @@ window.marioLemieuxData = {
             "set_year_end": 1995,
             "set_display_name": "1994-95 Topps Premier",
             "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1994-95-topps-premier-250",
+                    "base_number": "250",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1994-95-Topps-Premier-250-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1994-95-Topps-Premier-250-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ],
             "subsets": [
                 {
                     "set_key": "1994-95-topps-premier-finest-inserts-early-chromium",
@@ -5590,6 +5866,206 @@ window.marioLemieuxData = {
                             "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1996-97-Zenith---Champion-Salute-5-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1996-97-Zenith---Champion-Salute-5-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                }
+            ]
+        },
+        "1999-00-topps": {
+            "set_key": "1999-00-topps",
+            "set_name": "Topps",
+            "set_year_label": "1999-00",
+            "set_year_start": 1999,
+            "set_year_end": 2000,
+            "set_display_name": "1999-00 Topps",
+            "set_tcdb_href": "",
+            "subsets": [
+                {
+                    "set_key": "1999-00-topps-stanley-cup-heroes",
+                    "set_name": "Stanley Cup Heroes",
+                    "set_display_name": "1999-00 Topps - Stanley Cup Heroes",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1999-00-topps-stanley-cup-heroes-sc1",
+                            "base_number": "SC1",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1999-00-Topps---Stanley-Cup-Heroes-SC1-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1999-00-Topps---Stanley-Cup-Heroes-SC1-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                }
+            ]
+        },
+        "1999-00-upper-deck-retro": {
+            "set_key": "1999-00-upper-deck-retro",
+            "set_name": "Upper Deck Retro",
+            "set_year_label": "1999-00",
+            "set_year_start": 1999,
+            "set_year_end": 2000,
+            "set_display_name": "1999-00 Upper Deck Retro",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1999-00-upper-deck-retro-83",
+                    "base_number": "83",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1999-00-Upper-Deck-Retro-83-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1999-00-Upper-Deck-Retro-83-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1999-00-upper-deck-retro-distant-replay",
+                    "set_name": "Distant Replay",
+                    "set_display_name": "1999-00 Upper Deck Retro - Distant Replay",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1999-00-upper-deck-retro-distant-replay-dr12",
+                            "base_number": "DR12",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1999-00-Upper-Deck-Retro---Distant-Replay-DR12-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1999-00-Upper-Deck-Retro---Distant-Replay-DR12-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "1999-00-upper-deck-retro-generations",
+                    "set_name": "Generations",
+                    "set_display_name": "1999-00 Upper Deck Retro - Generations",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1999-00-upper-deck-retro-generations-g5b",
+                            "base_number": "G5B",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1999-00-Upper-Deck-Retro---Generations-G5B-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1999-00-Upper-Deck-Retro---Generations-G5B-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                }
+            ]
+        },
+        "2000-01-pacific-crown-royale": {
+            "set_key": "2000-01-pacific-crown-royale",
+            "set_name": "Pacific Crown Royale",
+            "set_year_label": "2000-01",
+            "set_year_start": 2000,
+            "set_year_end": 2001,
+            "set_display_name": "2000-01 Pacific Crown Royale",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2000-01-pacific-crown-royale-87",
+                    "base_number": "87",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2000-01-Pacific-Crown-Royale-87-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2000-01-Pacific-Crown-Royale-87-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "2000-01-pacific-crown-royale-jewels-of-the-crown",
+                    "set_name": "Jewels of the Crown",
+                    "set_display_name": "2000-01 Pacific Crown Royale - Jewels of the Crown",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2000-01-pacific-crown-royale-jewels-of-the-crown-22",
+                            "base_number": "22",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Pacific-Crown-Royale---Jewels-of-the-Crown-22-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Pacific-Crown-Royale---Jewels-of-the-Crown-22-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                }
+            ]
+        },
+        "2000-01-pacific-vanguard": {
+            "set_key": "2000-01-pacific-vanguard",
+            "set_name": "Pacific Vanguard",
+            "set_year_label": "2000-01",
+            "set_year_start": 2000,
+            "set_year_end": 2001,
+            "set_display_name": "2000-01 Pacific Vanguard",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2000-01-pacific-vanguard-151",
+                    "base_number": "151",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2000-01-Pacific-Vanguard-151-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2000-01-Pacific-Vanguard-151-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "2000-01-sp-authentic": {
+            "set_key": "2000-01-sp-authentic",
+            "set_name": "SP Authentic",
+            "set_year_label": "2000-01",
+            "set_year_start": 2000,
+            "set_year_end": 2001,
+            "set_display_name": "2000-01 SP Authentic",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2000-01-sp-authentic-72",
+                    "base_number": "72",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2000-01-SP-Authentic-72-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2000-01-SP-Authentic-72-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "2000-01-sp-authentic-honor",
+                    "set_name": "Honor",
+                    "set_display_name": "2000-01 SP Authentic - Honor",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2000-01-sp-authentic-honor-sp6",
+                            "base_number": "SP6",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-SP-Authentic---Honor-SP6-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-SP-Authentic---Honor-SP6-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "position": "Center"
