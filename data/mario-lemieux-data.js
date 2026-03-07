@@ -2786,17 +2786,139 @@ window.marioLemieuxData = {
             "set_year_end": 2002,
             "set_display_name": "2001-02 Upper Deck",
             "set_tcdb_href": "",
-            "cards": [
+            "subsets": [
                 {
-                    "id": "ml-2001-02-upper-deck-138",
-                    "base_number": "138",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "img/cards/ML66/2001-02-Upper-Deck-138-Mario-LemieuxFr.jpg",
-                    "image_back": "img/cards/ML66/2001-02-Upper-Deck-138-Mario-LemieuxBk.jpg",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "set_key": "2001-02-upper-deck-base",
+                    "set_name": "Base",
+                    "set_display_name": "2001-02 Upper Deck - Base",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2001-02-upper-deck-138",
+                            "base_number": "138",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2001-02-Upper-Deck-138-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2001-02-Upper-Deck-138-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "2001-02-upper-deck-challenge-for-the-cup",
+                    "set_name": "Challenge for the Cup",
+                    "set_display_name": "2001-02 Upper Deck - Challenge for the Cup",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2001-02-upper-deck-challenge-for-the-cup-68",
+                            "base_number": "68",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2001-02-Upper-Deck-Challenge-for-the-Cup-68-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2001-02-Upper-Deck-Challenge-for-the-Cup-68-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "2001-02-upper-deck-ice",
+                    "set_name": "Ice",
+                    "set_display_name": "2001-02 Upper Deck - Ice",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2001-02-upper-deck-ice-36",
+                            "base_number": "36",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2001-02-Upper-Deck-Ice-36-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2001-02-Upper-Deck-Ice-36-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "2001-02-upper-deck-mask-collection",
+                    "set_name": "Mask Collection",
+                    "set_display_name": "2001-02 Upper Deck - Mask Collection",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2001-02-upper-deck-mask-collection-79",
+                            "base_number": "79",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2001-02-Upper-Deck-Mask-Collection-79-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2001-02-Upper-Deck-Mask-Collection-79-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "2001-02-upper-deck-mvp",
+                    "set_name": "MVP",
+                    "set_display_name": "2001-02 Upper Deck - MVP",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2001-02-upper-deck-mvp-150",
+                            "base_number": "150",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2001-02-Upper-Deck-MVP-150-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2001-02-Upper-Deck-MVP-150-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "2001-02-upper-deck-playmakers",
+                    "set_name": "Playmakers",
+                    "set_display_name": "2001-02 Upper Deck - Playmakers",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2001-02-upper-deck-playmakers-79",
+                            "base_number": "79",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2001-02-Upper-Deck-Playmakers-79-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2001-02-Upper-Deck-Playmakers-79-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "2001-02-upper-deck-top-shelf",
+                    "set_name": "Top Shelf",
+                    "set_display_name": "2001-02 Upper Deck - Top Shelf",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2001-02-upper-deck-top-shelf-34",
+                            "base_number": "34",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2001-02-Upper-Deck-Top-Shelf-34-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2001-02-Upper-Deck-Top-Shelf-34-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
                 }
             ]
         },
@@ -2868,138 +2990,6 @@ window.marioLemieuxData = {
                 }
             ]
         },
-        "2001-02-upper-deck-challenge-for-the-cup": {
-            "set_key": "2001-02-upper-deck-challenge-for-the-cup",
-            "set_name": "Upper Deck Challenge for the Cup",
-            "set_year_label": "2001-02",
-            "set_year_start": 2001,
-            "set_year_end": 2002,
-            "set_display_name": "2001-02 Upper Deck Challenge for the Cup",
-            "set_tcdb_href": "",
-            "cards": [
-                {
-                    "id": "ml-2001-02-upper-deck-challenge-for-the-cup-68",
-                    "base_number": "68",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "img/cards/ML66/2001-02-Upper-Deck-Challenge-for-the-Cup-68-Mario-LemieuxFr.jpg",
-                    "image_back": "img/cards/ML66/2001-02-Upper-Deck-Challenge-for-the-Cup-68-Mario-LemieuxBk.jpg",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                }
-            ]
-        },
-        "2001-02-upper-deck-ice": {
-            "set_key": "2001-02-upper-deck-ice",
-            "set_name": "Upper Deck Ice",
-            "set_year_label": "2001-02",
-            "set_year_start": 2001,
-            "set_year_end": 2002,
-            "set_display_name": "2001-02 Upper Deck Ice",
-            "set_tcdb_href": "",
-            "cards": [
-                {
-                    "id": "ml-2001-02-upper-deck-ice-36",
-                    "base_number": "36",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "img/cards/ML66/2001-02-Upper-Deck-Ice-36-Mario-LemieuxFr.jpg",
-                    "image_back": "img/cards/ML66/2001-02-Upper-Deck-Ice-36-Mario-LemieuxBk.jpg",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                }
-            ]
-        },
-        "2001-02-upper-deck-mask-collection": {
-            "set_key": "2001-02-upper-deck-mask-collection",
-            "set_name": "Upper Deck Mask Collection",
-            "set_year_label": "2001-02",
-            "set_year_start": 2001,
-            "set_year_end": 2002,
-            "set_display_name": "2001-02 Upper Deck Mask Collection",
-            "set_tcdb_href": "",
-            "cards": [
-                {
-                    "id": "ml-2001-02-upper-deck-mask-collection-79",
-                    "base_number": "79",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "img/cards/ML66/2001-02-Upper-Deck-Mask-Collection-79-Mario-LemieuxFr.jpg",
-                    "image_back": "img/cards/ML66/2001-02-Upper-Deck-Mask-Collection-79-Mario-LemieuxBk.jpg",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                }
-            ]
-        },
-        "2001-02-upper-deck-mvp": {
-            "set_key": "2001-02-upper-deck-mvp",
-            "set_name": "Upper Deck MVP",
-            "set_year_label": "2001-02",
-            "set_year_start": 2001,
-            "set_year_end": 2002,
-            "set_display_name": "2001-02 Upper Deck MVP",
-            "set_tcdb_href": "",
-            "cards": [
-                {
-                    "id": "ml-2001-02-upper-deck-mvp-150",
-                    "base_number": "150",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "img/cards/ML66/2001-02-Upper-Deck-MVP-150-Mario-LemieuxFr.jpg",
-                    "image_back": "img/cards/ML66/2001-02-Upper-Deck-MVP-150-Mario-LemieuxBk.jpg",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                }
-            ]
-        },
-        "2001-02-upper-deck-playmakers": {
-            "set_key": "2001-02-upper-deck-playmakers",
-            "set_name": "Upper Deck Playmakers",
-            "set_year_label": "2001-02",
-            "set_year_start": 2001,
-            "set_year_end": 2002,
-            "set_display_name": "2001-02 Upper Deck Playmakers",
-            "set_tcdb_href": "",
-            "cards": [
-                {
-                    "id": "ml-2001-02-upper-deck-playmakers-79",
-                    "base_number": "79",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "img/cards/ML66/2001-02-Upper-Deck-Playmakers-79-Mario-LemieuxFr.jpg",
-                    "image_back": "img/cards/ML66/2001-02-Upper-Deck-Playmakers-79-Mario-LemieuxBk.jpg",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                }
-            ]
-        },
-        "2001-02-upper-deck-top-shelf": {
-            "set_key": "2001-02-upper-deck-top-shelf",
-            "set_name": "Upper Deck Top Shelf",
-            "set_year_label": "2001-02",
-            "set_year_start": 2001,
-            "set_year_end": 2002,
-            "set_display_name": "2001-02 Upper Deck Top Shelf",
-            "set_tcdb_href": "",
-            "cards": [
-                {
-                    "id": "ml-2001-02-upper-deck-top-shelf-34",
-                    "base_number": "34",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "img/cards/ML66/2001-02-Upper-Deck-Top-Shelf-34-Mario-LemieuxFr.jpg",
-                    "image_back": "img/cards/ML66/2001-02-Upper-Deck-Top-Shelf-34-Mario-LemieuxBk.jpg",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                }
-            ]
-        },
         "2001-02-pacific": {
             "set_key": "2001-02-pacific",
             "set_name": "Pacific",
@@ -3008,105 +2998,101 @@ window.marioLemieuxData = {
             "set_year_end": 2002,
             "set_display_name": "2001-02 Pacific",
             "set_tcdb_href": "",
-            "cards": [
+            "subsets": [
                 {
-                    "id": "ml-2001-02-pacific-316",
-                    "base_number": "316",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "img/cards/ML66/2001-02-Pacific-316-Mario-LemieuxFr.jpg",
-                    "image_back": "img/cards/ML66/2001-02-Pacific-316-Mario-LemieuxBk.jpg",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                }
-            ]
-        },
-        "2001-02-pacific-adrenaline": {
-            "set_key": "2001-02-pacific-adrenaline",
-            "set_name": "Pacific Adrenaline",
-            "set_year_label": "2001-02",
-            "set_year_start": 2001,
-            "set_year_end": 2002,
-            "set_display_name": "2001-02 Pacific Adrenaline",
-            "set_tcdb_href": "",
-            "cards": [
+                    "set_key": "2001-02-pacific-base",
+                    "set_name": "Base",
+                    "set_display_name": "2001-02 Pacific - Base",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2001-02-pacific-316",
+                            "base_number": "316",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2001-02-Pacific-316-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2001-02-Pacific-316-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
                 {
-                    "id": "ml-2001-02-pacific-adrenaline-155",
-                    "base_number": "155",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "img/cards/ML66/2001-02-Pacific-Adrenaline-155-Mario-LemieuxFr.jpg",
-                    "image_back": "img/cards/ML66/2001-02-Pacific-Adrenaline-155-Mario-LemieuxBk.jpg",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                }
-            ]
-        },
-        "2001-02-pacific-atomic": {
-            "set_key": "2001-02-pacific-atomic",
-            "set_name": "Pacific Atomic",
-            "set_year_label": "2001-02",
-            "set_year_start": 2001,
-            "set_year_end": 2002,
-            "set_display_name": "2001-02 Pacific Atomic",
-            "set_tcdb_href": "",
-            "cards": [
+                    "set_key": "2001-02-pacific-adrenaline",
+                    "set_name": "Adrenaline",
+                    "set_display_name": "2001-02 Pacific - Adrenaline",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2001-02-pacific-adrenaline-155",
+                            "base_number": "155",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2001-02-Pacific-Adrenaline-155-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2001-02-Pacific-Adrenaline-155-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
                 {
-                    "id": "ml-2001-02-pacific-atomic-79",
-                    "base_number": "79",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "img/cards/ML66/2001-02-Pacific-Atomic-79-Mario-LemieuxFr.jpg",
-                    "image_back": "img/cards/ML66/2001-02-Pacific-Atomic-79-Mario-LemieuxBk.jpg",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                }
-            ]
-        },
-        "2001-02-pacific-crown-royale": {
-            "set_key": "2001-02-pacific-crown-royale",
-            "set_name": "Pacific Crown Royale",
-            "set_year_label": "2001-02",
-            "set_year_start": 2001,
-            "set_year_end": 2002,
-            "set_display_name": "2001-02 Pacific Crown Royale",
-            "set_tcdb_href": "",
-            "cards": [
+                    "set_key": "2001-02-pacific-atomic",
+                    "set_name": "Atomic",
+                    "set_display_name": "2001-02 Pacific - Atomic",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2001-02-pacific-atomic-79",
+                            "base_number": "79",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2001-02-Pacific-Atomic-79-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2001-02-Pacific-Atomic-79-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
                 {
-                    "id": "ml-2001-02-pacific-crown-royale-117",
-                    "base_number": "117",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "img/cards/ML66/2001-02-Pacific-Crown-Royale-117-Mario-LemieuxFr.jpg",
-                    "image_back": "img/cards/ML66/2001-02-Pacific-Crown-Royale-117-Mario-LemieuxBk.jpg",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                }
-            ]
-        },
-        "2001-02-pacific-vanguard": {
-            "set_key": "2001-02-pacific-vanguard",
-            "set_name": "Pacific Vanguard",
-            "set_year_label": "2001-02",
-            "set_year_start": 2001,
-            "set_year_end": 2002,
-            "set_display_name": "2001-02 Pacific Vanguard",
-            "set_tcdb_href": "",
-            "cards": [
+                    "set_key": "2001-02-pacific-crown-royale",
+                    "set_name": "Crown Royale",
+                    "set_display_name": "2001-02 Pacific - Crown Royale",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2001-02-pacific-crown-royale-117",
+                            "base_number": "117",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2001-02-Pacific-Crown-Royale-117-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2001-02-Pacific-Crown-Royale-117-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
                 {
-                    "id": "ml-2001-02-pacific-vanguard-80",
-                    "base_number": "80",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "img/cards/ML66/2001-02-Pacific-Vanguard-80-Mario-LemieuxFr.jpg",
-                    "image_back": "img/cards/ML66/2001-02-Pacific-Vanguard-80-Mario-LemieuxBk.jpg",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "set_key": "2001-02-pacific-vanguard",
+                    "set_name": "Vanguard",
+                    "set_display_name": "2001-02 Pacific - Vanguard",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2001-02-pacific-vanguard-80",
+                            "base_number": "80",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2001-02-Pacific-Vanguard-80-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2001-02-Pacific-Vanguard-80-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
                 }
             ]
         },
