@@ -3149,12 +3149,12 @@ window.marioLemieuxData = {
             "set_tcdb_href": "",
             "cards": [
                 {
-                    "id": "ml-2002-03-topps-125",
-                    "base_number": "125",
+                    "id": "ml-2002-03-topps-2",
+                    "base_number": "2",
                     "orientation_front": "portrait",
                     "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
+                    "image_front": "img/cards/ML66/2002-03-Topps-2-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2002-03-Topps-2-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
@@ -3171,12 +3171,23 @@ window.marioLemieuxData = {
             "set_tcdb_href": "",
             "cards": [
                 {
-                    "id": "ml-2002-03-upper-deck-130",
-                    "base_number": "130",
+                    "id": "ml-2002-03-upper-deck-141",
+                    "base_number": "141",
                     "orientation_front": "portrait",
                     "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
+                    "image_front": "img/cards/ML66/2002-03-Upper-Deck-141-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2002-03-Upper-Deck-141-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-2002-03-upper-deck-191",
+                    "base_number": "191",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2002-03-Upper-Deck-191-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2002-03-Upper-Deck-191-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
@@ -6334,6 +6345,579 @@ window.marioLemieuxData = {
                             "position": "Center"
                         }
                     ]
+                }
+            ]
+        },
+        "2000-01-topps-gold-label": {
+            "set_key": "2000-01-topps-gold-label",
+            "set_name": "Topps Gold Label",
+            "set_year_label": "2000-01",
+            "set_year_start": 2000,
+            "set_year_end": 2001,
+            "set_display_name": "2000-01 Topps Gold Label",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2000-01-topps-gold-label-37",
+                    "base_number": "37",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2000-01-Topps-Gold-Label-37-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2000-01-Topps-Gold-Label-37-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "2000-01-topps-heritage": {
+            "set_key": "2000-01-topps-heritage",
+            "set_name": "Topps Heritage",
+            "set_year_label": "2000-01",
+            "set_year_start": 2000,
+            "set_year_end": 2001,
+            "set_display_name": "2000-01 Topps Heritage",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2000-01-topps-heritage-73",
+                    "base_number": "73",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2000-01-Topps-Heritage-73-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2000-01-Topps-Heritage-73-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "2000-01-topps-premier-plus": {
+            "set_key": "2000-01-topps-premier-plus",
+            "set_name": "Topps Premier Plus",
+            "set_year_label": "2000-01",
+            "set_year_start": 2000,
+            "set_year_end": 2001,
+            "set_display_name": "2000-01 Topps Premier Plus",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2000-01-topps-premier-plus-66",
+                    "base_number": "66",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2000-01-Topps-Premier-Plus-66-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2000-01-Topps-Premier-Plus-66-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "2000-01-topps-stars": {
+            "set_key": "2000-01-topps-stars",
+            "set_name": "Topps Stars",
+            "set_year_label": "2000-01",
+            "set_year_start": 2000,
+            "set_year_end": 2001,
+            "set_display_name": "2000-01 Topps Stars",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2000-01-topps-stars-100",
+                    "base_number": "100",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2000-01-Topps-Stars-100-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2000-01-Topps-Stars-100-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "2000-01-ud-reserve": {
+            "set_key": "2000-01-ud-reserve",
+            "set_name": "UD Reserve",
+            "set_year_label": "2000-01",
+            "set_year_start": 2000,
+            "set_year_end": 2001,
+            "set_display_name": "2000-01 UD Reserve",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2000-01-ud-reserve-70",
+                    "base_number": "70",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2000-01-UD-Reserve-70-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2000-01-UD-Reserve-70-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "2000-01-upper-deck-heroes": {
+            "set_key": "2000-01-upper-deck-heroes",
+            "set_name": "Upper Deck Heroes",
+            "set_year_label": "2000-01",
+            "set_year_start": 2000,
+            "set_year_end": 2001,
+            "set_display_name": "2000-01 Upper Deck Heroes",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2000-01-upper-deck-heroes-136",
+                    "base_number": "136",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2000-01-Upper-Deck-Heroes-136-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2000-01-Upper-Deck-Heroes-136-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "2000-01-upper-deck-legends": {
+            "set_key": "2000-01-upper-deck-legends",
+            "set_name": "Upper Deck Legends",
+            "set_year_label": "2000-01",
+            "set_year_start": 2000,
+            "set_year_end": 2001,
+            "set_display_name": "2000-01 Upper Deck Legends",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2000-01-upper-deck-legends-105",
+                    "base_number": "105",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2000-01-Upper-Deck-Legends-105-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2000-01-Upper-Deck-Legends-105-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "2000-01-upper-deck-legends-supreme-milestones",
+                    "set_name": "Supreme Milestones",
+                    "set_display_name": "2000-01 Upper Deck Legends - Supreme Milestones",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2000-01-upper-deck-legends-supreme-milestones-sm11",
+                            "base_number": "SM11",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Upper-Deck-Legends---Supreme-Milestones-SM11-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Upper-Deck-Legends---Supreme-Milestones-SM11-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                }
+            ]
+        },
+        "2000-01-upper-deck-pros-and-prospects": {
+            "set_key": "2000-01-upper-deck-pros-and-prospects",
+            "set_name": "Upper Deck Pros & Prospects",
+            "set_year_label": "2000-01",
+            "set_year_start": 2000,
+            "set_year_end": 2001,
+            "set_display_name": "2000-01 Upper Deck Pros & Prospects",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2000-01-upper-deck-pros-and-prospects-69",
+                    "base_number": "69",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2000-01-Upper-Deck-Pros-&-Prospects-69-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2000-01-Upper-Deck-Pros-&-Prospects-69-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "2000-01-upper-deck-rookie-update": {
+            "set_key": "2000-01-upper-deck-rookie-update",
+            "set_name": "Upper Deck Rookie Update",
+            "set_year_label": "2000-01",
+            "set_year_start": 2000,
+            "set_year_end": 2001,
+            "set_display_name": "2000-01 Upper Deck Rookie Update",
+            "set_tcdb_href": "",
+            "subsets": [
+                {
+                    "set_key": "2000-01-upper-deck-rookie-update-spx-update",
+                    "set_name": "2000-01 SPx Update",
+                    "set_display_name": "2000-01 Upper Deck Rookie Update - 2000-01 SPx Update",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2000-01-upper-deck-rookie-update-spx-update-144",
+                            "base_number": "144",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Upper-Deck-Rookie-Update---2000-01-SPx-Update-144-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Upper-Deck-Rookie-Update---2000-01-SPx-Update-144-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "2000-01-upper-deck-rookie-update-black-diamond-update",
+                    "set_name": "2000-01 Upper Deck Black Diamond Update",
+                    "set_display_name": "2000-01 Upper Deck Rookie Update - 2000-01 Upper Deck Black Diamond Update",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2000-01-upper-deck-rookie-update-black-diamond-update-107",
+                            "base_number": "107",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Upper-Deck-Rookie-Update---2000-01-Upper-Deck-Black-Diamond-Update-107-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Upper-Deck-Rookie-Update---2000-01-Upper-Deck-Black-Diamond-Update-107-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "2000-01-upper-deck-rookie-update-ice-update",
+                    "set_name": "2000-01 Upper Deck Ice Update",
+                    "set_display_name": "2000-01 Upper Deck Rookie Update - 2000-01 Upper Deck Ice Update",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2000-01-upper-deck-rookie-update-ice-update-75",
+                            "base_number": "75",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/2000-01-Upper-Deck-Rookie-Update---2000-01-Upper-Deck-Ice-Update-75-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/2000-01-Upper-Deck-Rookie-Update---2000-01-Upper-Deck-Ice-Update-75-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        }
+                    ]
+                }
+            ]
+        },
+        "2002-03-o-pee-chee": {
+            "set_key": "2002-03-o-pee-chee",
+            "set_name": "O-Pee-Chee",
+            "set_year_label": "2002-03",
+            "set_year_start": 2002,
+            "set_year_end": 2003,
+            "set_display_name": "2002-03 O-Pee-Chee",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2002-03-o-pee-chee-2",
+                    "base_number": "2",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2002-03-O-Pee-Chee-2-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2002-03-O-Pee-Chee-2-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "2002-03-pacific": {
+            "set_key": "2002-03-pacific",
+            "set_name": "Pacific",
+            "set_year_label": "2002-03",
+            "set_year_start": 2002,
+            "set_year_end": 2003,
+            "set_display_name": "2002-03 Pacific",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2002-03-pacific-312",
+                    "base_number": "312",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2002-03-Pacific-312-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2002-03-Pacific-312-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "2002-03-pacific-atomic": {
+            "set_key": "2002-03-pacific-atomic",
+            "set_name": "Pacific Atomic",
+            "set_year_label": "2002-03",
+            "set_year_start": 2002,
+            "set_year_end": 2003,
+            "set_display_name": "2002-03 Pacific Atomic",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2002-03-pacific-atomic-80",
+                    "base_number": "80",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2002-03-Pacific-Atomic-80-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2002-03-Pacific-Atomic-80-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "2002-03-pacific-calder": {
+            "set_key": "2002-03-pacific-calder",
+            "set_name": "Pacific Calder",
+            "set_year_label": "2002-03",
+            "set_year_start": 2002,
+            "set_year_end": 2003,
+            "set_display_name": "2002-03 Pacific Calder",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2002-03-pacific-calder-27",
+                    "base_number": "27",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2002-03-Pacific-Calder-27-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2002-03-Pacific-Calder-27-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "2002-03-pacific-crown-royale": {
+            "set_key": "2002-03-pacific-crown-royale",
+            "set_name": "Pacific Crown Royale",
+            "set_year_label": "2002-03",
+            "set_year_start": 2002,
+            "set_year_end": 2003,
+            "set_display_name": "2002-03 Pacific Crown Royale",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2002-03-pacific-crown-royale-78",
+                    "base_number": "78",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2002-03-Pacific-Crown-Royale-78-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2002-03-Pacific-Crown-Royale-78-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "2002-03-parkhurst": {
+            "set_key": "2002-03-parkhurst",
+            "set_name": "Parkhurst",
+            "set_year_label": "2002-03",
+            "set_year_start": 2002,
+            "set_year_end": 2003,
+            "set_display_name": "2002-03 Parkhurst",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2002-03-parkhurst-115",
+                    "base_number": "115",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2002-03-Parkhurst-115-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2002-03-Parkhurst-115-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "2002-03-sp-authentic": {
+            "set_key": "2002-03-sp-authentic",
+            "set_name": "SP Authentic",
+            "set_year_label": "2002-03",
+            "set_year_start": 2002,
+            "set_year_end": 2003,
+            "set_display_name": "2002-03 SP Authentic",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2002-03-sp-authentic-73",
+                    "base_number": "73",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2002-03-SP-Authentic-73-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2002-03-SP-Authentic-73-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "2002-03-sp-game-used": {
+            "set_key": "2002-03-sp-game-used",
+            "set_name": "SP Game Used",
+            "set_year_label": "2002-03",
+            "set_year_start": 2002,
+            "set_year_end": 2003,
+            "set_display_name": "2002-03 SP Game Used",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2002-03-sp-game-used-40",
+                    "base_number": "40",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2002-03-SP-Game-Used-40-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2002-03-SP-Game-Used-40-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "2002-03-spx": {
+            "set_key": "2002-03-spx",
+            "set_name": "SPx",
+            "set_year_label": "2002-03",
+            "set_year_start": 2002,
+            "set_year_end": 2003,
+            "set_display_name": "2002-03 SPx",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2002-03-spx-61",
+                    "base_number": "61",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2002-03-SPx-61-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2002-03-SPx-61-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-2002-03-spx-97",
+                    "base_number": "97",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2002-03-SPx-97-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2002-03-SPx-97-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "2002-03-stadium-club": {
+            "set_key": "2002-03-stadium-club",
+            "set_name": "Stadium Club",
+            "set_year_label": "2002-03",
+            "set_year_start": 2002,
+            "set_year_end": 2003,
+            "set_display_name": "2002-03 Stadium Club",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2002-03-stadium-club-6",
+                    "base_number": "6",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2002-03-Stadium-Club-6-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2002-03-Stadium-Club-6-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "2002-03-upper-deck-honor-roll": {
+            "set_key": "2002-03-upper-deck-honor-roll",
+            "set_name": "Upper Deck Honor Roll",
+            "set_year_label": "2002-03",
+            "set_year_start": 2002,
+            "set_year_end": 2003,
+            "set_display_name": "2002-03 Upper Deck Honor Roll",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2002-03-upper-deck-honor-roll-58",
+                    "base_number": "58",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2002-03-Upper-Deck-Honor-Roll-58-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2002-03-Upper-Deck-Honor-Roll-58-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                },
+                {
+                    "id": "ml-2002-03-upper-deck-honor-roll-94",
+                    "base_number": "94",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2002-03-Upper-Deck-Honor-Roll-94-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2002-03-Upper-Deck-Honor-Roll-94-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "2002-03-upper-deck-top-shelf": {
+            "set_key": "2002-03-upper-deck-top-shelf",
+            "set_name": "Upper Deck Top Shelf",
+            "set_year_label": "2002-03",
+            "set_year_start": 2002,
+            "set_year_end": 2003,
+            "set_display_name": "2002-03 Upper Deck Top Shelf",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2002-03-upper-deck-top-shelf-71",
+                    "base_number": "71",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2002-03-Upper-Deck-Top-Shelf-71-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2002-03-Upper-Deck-Top-Shelf-71-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "2002-03-upper-deck-victory": {
+            "set_key": "2002-03-upper-deck-victory",
+            "set_name": "Upper Deck Victory",
+            "set_year_label": "2002-03",
+            "set_year_start": 2002,
+            "set_year_end": 2003,
+            "set_display_name": "2002-03 Upper Deck Victory",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2002-03-upper-deck-victory-172",
+                    "base_number": "172",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2002-03-Upper-Deck-Victory-172-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2002-03-Upper-Deck-Victory-172-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
                 }
             ]
         }
