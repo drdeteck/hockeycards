@@ -904,7 +904,7 @@ function DataViewModel() {
                 for (var i = 0; i < yearCards.length; i += 9) {
                     var slots = yearCards.slice(i, i + 9);
                     while (slots.length < 9) { slots.push(null); }
-                    pages.push({ slots: slots, pageNum: pages.length + 1 });
+                    pages.push({ slots: slots, pageNum: Math.floor(i / 9) + 1 });
                 }
 
                 return {
