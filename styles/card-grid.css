@@ -236,18 +236,44 @@ img.card {
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 32px 32px 0;
-    border-color: transparent #27ae60 transparent transparent;
+    border-width: 0 40px 40px 0;
+    border-color: transparent #1a7d3f transparent transparent;
     z-index: 10;
     pointer-events: none;
 }
 
+/* Inner green border — lighter triangle inset 4px from the corner */
+.card-owned-badge::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    right: -4px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 32px 32px 0;
+    border-color: transparent #27ae60 transparent transparent;
+}
+
 .card-owned-badge-check {
     position: absolute;
-    top: 2px;
-    right: -29px;
+    top: 5px;
+    right: -34px;
     width: 14px;
     height: 14px;
+}
+
+/* Green inner border on the card when owned overlay is active */
+.card-grid-item-card--owned::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 3px solid #27ae60;
+    pointer-events: none;
+    z-index: 9;
 }
 
 .card-missing-badge {
