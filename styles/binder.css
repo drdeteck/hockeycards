@@ -1,0 +1,324 @@
+/* ============================================================
+   BINDER VIEW
+   Simulates a physical 9-pocket binder page for Mario Lemieux cards.
+   ============================================================ */
+
+.binder-view {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 2.5%;
+}
+
+/* ── Page header ──────────────────────────────────────────── */
+
+.binder-view-header {
+    padding: 20px 0 22px 0;
+    color: var(--color-white);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 32px;
+}
+
+.binder-view-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 0 5px 0;
+}
+
+.binder-view-subtitle {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.62);
+    margin: 0;
+}
+
+/* ── Year section ─────────────────────────────────────────── */
+
+.binder-year-section {
+    margin-bottom: 52px;
+}
+
+/* Colored tab that acts as a year divider */
+.binder-year-tab {
+    background: linear-gradient(135deg, #1e3a52 0%, #2c4d6e 100%);
+    border-left: 5px solid #4a90d9;
+    color: #fff;
+    padding: 10px 18px;
+    margin-bottom: 14px;
+    border-radius: 0 4px 4px 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.binder-year-tab-label {
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+.binder-year-tab-right {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.binder-year-tab-stats {
+    font-size: 12px;
+    opacity: 0.75;
+    white-space: nowrap;
+}
+
+.binder-year-progress {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.binder-year-progress-track {
+    width: 80px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.binder-year-progress-fill {
+    height: 5px;
+    background: #27ae60;
+    border-radius: 3px;
+    min-width: 0;
+    -webkit-transition: width 0.3s;
+    transition: width 0.3s;
+}
+
+.binder-year-progress-pct {
+    font-size: 12px;
+    opacity: 0.8;
+    white-space: nowrap;
+}
+
+/* ── Year checklist ───────────────────────────────────────── */
+
+.binder-checklist {
+    background: #fff;
+    border: 1px solid #e0e4e8;
+    border-radius: 4px;
+    padding: 8px 14px 10px 14px;
+    margin-bottom: 18px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 3px 14px;
+}
+
+.binder-checklist-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 11.5px;
+    color: #888;
+    padding: 2px 0;
+}
+
+.binder-checklist-item--owned {
+    color: #1a7d3f;
+}
+
+.binder-checklist-check {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 13px;
+    height: 13px;
+    border: 1.5px solid #bbb;
+    border-radius: 2px;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.binder-checklist-item--owned .binder-checklist-check {
+    background: #27ae60;
+    border-color: #1f9751;
+}
+
+.binder-checklist-item-label {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ── Binder page (9-pocket sheet) ────────────────────────── */
+
+.binder-page {
+    background: #f5f6f7;
+    border: 1px solid #d0d6dc;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10), 0 2px 14px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10), 0 2px 14px rgba(0, 0, 0, 0.06);
+    padding: 14px;
+    margin-bottom: 16px;
+}
+
+.binder-page-label {
+    font-size: 10px;
+    color: #aab2bb;
+    text-align: right;
+    margin-bottom: 10px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+
+.binder-page-grid {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: -5px;
+}
+
+.binder-slot {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 33.333%;
+    padding: 5px;
+}
+
+.binder-slot-inner {
+    position: relative;
+    width: 100%;
+    padding-bottom: 139.68%;
+    border-radius: 3px;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.22);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.22);
+    background-image: -webkit-repeating-linear-gradient(145deg, #e4e4e4, #e4e4e4 5px, #d8d8d8 5px, #d8d8d8 10px);
+    background-image: -o-repeating-linear-gradient(145deg, #e4e4e4, #e4e4e4 5px, #d8d8d8 5px, #d8d8d8 10px);
+    background-image: repeating-linear-gradient(-55deg, #e4e4e4, #e4e4e4 5px, #d8d8d8 5px, #d8d8d8 10px);
+}
+
+.binder-slot--empty .binder-slot-inner {
+    border: 1.5px dashed #c4c9cf;
+    background-image: -webkit-repeating-linear-gradient(145deg, #eaecee, #eaecee 5px, #e0e3e6 5px, #e0e3e6 10px);
+    background-image: -o-repeating-linear-gradient(145deg, #eaecee, #eaecee 5px, #e0e3e6 5px, #e0e3e6 10px);
+    background-image: repeating-linear-gradient(-55deg, #eaecee, #eaecee 5px, #e0e3e6 5px, #e0e3e6 10px);
+}
+
+/* The inner content (link) fills the slot */
+.binder-slot-link {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.binder-slot-link:hover,
+.binder-slot-link:focus {
+    outline: 2px solid #4a90d9;
+    outline-offset: -2px;
+    text-decoration: none;
+}
+
+.binder-slot-img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+}
+
+/* Card label strip at the bottom of each slot */
+.binder-slot-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 3px 4px;
+    font-size: 8px;
+    background: rgba(0, 0, 0, 0.60);
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.3;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Green corner triangle for owned cards */
+.binder-slot-owned-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 22px 22px 0;
+    border-color: transparent #1a7d3f transparent transparent;
+    z-index: 5;
+    pointer-events: none;
+}
+
+.binder-slot-owned-badge::before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    right: -3px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 16px 16px 0;
+    border-color: transparent #27ae60 transparent transparent;
+}

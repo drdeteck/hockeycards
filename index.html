@@ -28,6 +28,7 @@
     <link rel='stylesheet' href='styles/main-header.css?ver=0.1.2' type='text/css' media='all' />
     <link rel='stylesheet' href='styles/controls.css?ver=0.1.4' type='text/css' media='all' />
     <link rel='stylesheet' href='styles/card-detail.css?ver=0.1.1' type='text/css' media='all' />
+    <link rel='stylesheet' href='styles/binder.css?ver=0.1.0' type='text/css' media='all' />
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
@@ -114,6 +115,7 @@
                     <span>Export</span>
                 </button>
                 <a href="#home" class="btn btn-outline-light btn-sm">Home</a>
+                <a href="#binder" class="btn btn-outline-light btn-sm">Binder</a>
                 <a href="#about" class="btn btn-outline-light btn-sm">About</a>
                 <a href="/login" class="btn btn-outline-light btn-sm disabled">
                     <span>login</span>
@@ -124,12 +126,12 @@
     <div class="main">
         <!-- Menu Rows -->
         <div class="main-inner"
-            data-bind="template: {name: 'menu-row-template', foreach: Root}, visible: CurrentRoute() !== 'about'">
+            data-bind="template: {name: 'menu-row-template', foreach: Root}, visible: CurrentRoute() !== 'about' && CurrentRoute() !== 'binder'">
         </div>
 
         <!-- HOME VIEW: Cards Grid -->
         <div
-            data-bind="visible: !IsCardView() && CurrentRoute() !== 'about' && ($root.CurrentRoute() === 'home' || $root.CurrentCollection())">
+            data-bind="visible: !IsCardView() && CurrentRoute() !== 'about' && CurrentRoute() !== 'binder' && ($root.CurrentRoute() === 'home' || $root.CurrentCollection())">
             <!-- bind directly to the 'cards' array on the active collection -->
             <div class="collection" data-bind="with: $root.CurrentCollection">
                 <!-- ko if: set_key === 'ML-all' -->
@@ -416,8 +418,101 @@
             <p><a href="#home" style="color: #0066cc;">← Back to Home</a></p>
         </div>
 
+        <!-- BINDER VIEW -->
+        <div class="binder-view" data-bind="visible: CurrentRoute() === 'binder'">
+            <div class="binder-view-header">
+                <h1 class="binder-view-title">Mario Lemieux · Binder View</h1>
+                <p class="binder-view-subtitle">9-pocket pages · one section per year · checklist reflects collection</p>
+            </div>
+
+            <!-- ko foreach: BinderYearGroups -->
+            <div class="binder-year-section">
+
+                <!-- Year tab / divider -->
+                <div class="binder-year-tab">
+                    <span class="binder-year-tab-label" data-bind="text: label"></span>
+                    <div class="binder-year-tab-right">
+                        <span class="binder-year-tab-stats">
+                            <span data-bind="text: owned"></span>/<span data-bind="text: total"></span> owned
+                        </span>
+                        <div class="binder-year-progress">
+                            <div class="binder-year-progress-track">
+                                <div class="binder-year-progress-fill"
+                                    data-bind="style: { width: ownedPct + '%' }"></div>
+                            </div>
+                            <span class="binder-year-progress-pct" data-bind="text: ownedPct + '%'"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Checklist of all cards in this year -->
+                <div class="binder-checklist">
+                    <!-- ko foreach: allCards -->
+                    <div class="binder-checklist-item"
+                        data-bind="css: { 'binder-checklist-item--owned': inCollection }">
+                        <span class="binder-checklist-check" aria-hidden="true">
+                            <!-- ko if: inCollection -->
+                            <svg width="9" height="9" viewBox="0 0 9 9" aria-hidden="true">
+                                <polyline points="1.5,5 3.5,7.5 7.5,1.5"
+                                    stroke="#fff" stroke-width="1.8" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <!-- /ko -->
+                        </span>
+                        <span class="binder-checklist-item-label">
+                            <span data-bind="text: set_display_name + ' #' + base_number"></span><!-- ko if: insert_subset --><span data-bind="text: ' · ' + insert_subset"></span><!-- /ko -->
+                        </span>
+                    </div>
+                    <!-- /ko -->
+                </div>
+
+                <!-- Binder pages of 9 cards -->
+                <!-- ko foreach: pages -->
+                <div class="binder-page">
+                    <div class="binder-page-label">
+                        Page <span data-bind="text: pageNum"></span>
+                    </div>
+                    <div class="binder-page-grid">
+                        <!-- ko foreach: slots -->
+                        <!-- ko if: $data -->
+                        <div class="binder-slot binder-slot--filled">
+                            <div class="binder-slot-inner">
+                                <a class="binder-slot-link"
+                                    data-bind="attr: { href: $root.BuildCardRoute($data, null), title: $data.set_display_name + ' #' + $data.base_number + ($data.insert_subset ? ' · ' + $data.insert_subset : '') }">
+                                    <img class="binder-slot-img"
+                                        data-bind="attr: {
+                                            src: $data.image_front || $data.image_back || '',
+                                            alt: $data.set_display_name + ' #' + $data.base_number }">
+                                    <span class="binder-slot-label"
+                                        data-bind="text: $data.set_display_name + ' #' + $data.base_number"></span>
+                                </a>
+                                <!-- ko if: $data.inCollection -->
+                                <span class="binder-slot-owned-badge" title="In collection" aria-label="In collection"></span>
+                                <!-- /ko -->
+                            </div>
+                        </div>
+                        <!-- /ko -->
+                        <!-- ko ifnot: $data -->
+                        <div class="binder-slot binder-slot--empty">
+                            <div class="binder-slot-inner"></div>
+                        </div>
+                        <!-- /ko -->
+                        <!-- /ko -->
+                    </div>
+                </div>
+                <!-- /ko -->
+
+            </div>
+            <!-- /ko -->
+
+            <!-- Empty state when no ML data is loaded -->
+            <!-- ko if: BinderYearGroups().length === 0 -->
+            <p style="color: rgba(255,255,255,0.65); text-align: center; padding: 60px 0;">No Mario Lemieux cards loaded.</p>
+            <!-- /ko -->
+        </div>
+
         <!-- DEFAULT/404 VIEW -->
-        <div data-bind="visible: !IsCardView() && CurrentRoute() !== 'home' && CurrentRoute() !== 'about' && !$root.CurrentCollection()"
+        <div data-bind="visible: !IsCardView() && CurrentRoute() !== 'home' && CurrentRoute() !== 'about' && CurrentRoute() !== 'binder' && !$root.CurrentCollection()"
             style="padding: 20px;">
             <h1>Page Not Found</h1>
             <p>Route: <span data-bind="text: CurrentRoute()"></span></p>
