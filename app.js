@@ -872,6 +872,53 @@ function DataViewModel() {
         });
     });
 
+    // Binder view: all ML cards grouped by year with pages of 9 cards
+    self.BinderYearGroups = ko.pureComputed(function () {
+        var data = self.Data() || {};
+        var allCollection = data['ML-all'];
+        if (!allCollection) { return []; }
+
+        var cards = (allCollection.cards || []).slice();
+
+        var groupsByYear = {};
+        cards.forEach(function (card) {
+            var label = (card.set_year_label || 'Unknown').toString().trim();
+            if (!groupsByYear[label]) {
+                groupsByYear[label] = [];
+            }
+            groupsByYear[label].push(card);
+        });
+
+        return Object.keys(groupsByYear)
+            .sort(function (a, b) {
+                var aYear = self.GetSeasonStartYear(a) || 0;
+                var bYear = self.GetSeasonStartYear(b) || 0;
+                return aYear - bYear;
+            })
+            .map(function (label) {
+                var yearCards = groupsByYear[label];
+                var owned = yearCards.filter(function (c) { return c.inCollection; }).length;
+                var ownedPct = yearCards.length > 0 ? Math.round(owned / yearCards.length * 100) : 0;
+
+                var pages = [];
+                for (var i = 0; i < yearCards.length; i += 9) {
+                    var slots = yearCards.slice(i, i + 9);
+                    while (slots.length < 9) { slots.push(null); }
+                    pages.push({ slots: slots, pageNum: pages.length + 1 });
+                }
+
+                return {
+                    label: label,
+                    yearKey: 'ML-' + label,
+                    allCards: yearCards,
+                    owned: owned,
+                    total: yearCards.length,
+                    ownedPct: ownedPct,
+                    pages: pages
+                };
+            });
+    });
+
     // helper used by the card template to pick an image URL
     // (template uses $root.ParseImageUri so it must live on the root viewmodel)
     self.ParseImageUri = function (card) {
@@ -1260,10 +1307,10 @@ function DataViewModel() {
         self.CurrentCardContext(null);
         self.CardRouteError('');
         self.ShowAllSetCards(false);
-        self.RouteType(hash === 'about' ? 'about' : (hash === 'home' ? 'home' : 'collection'));
+        self.RouteType(hash === 'about' ? 'about' : (hash === 'home' ? 'home' : (hash === 'binder' ? 'binder' : 'collection')));
 
         // if the hash looks like a collection key, update selection too
-        if (hash !== 'home' && hash !== 'about') {
+        if (hash !== 'home' && hash !== 'about' && hash !== 'binder') {
             self.CurrentCollectionKey(hash);
         }
         self.IsHandlingRoute = false;
