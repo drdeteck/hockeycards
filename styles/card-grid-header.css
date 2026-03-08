@@ -45,3 +45,18 @@
 .card-grid-header-dot {
     color: rgba(95, 79, 102, 0.4);
 }
+
+.card-grid-header-parallel-badge {
+    display: inline-block;
+    margin-left: 0.4em;
+    padding: 1px 5px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #8e44ad;
+    border-radius: 3px;
+    vertical-align: middle;
+    line-height: 1.5;
+}

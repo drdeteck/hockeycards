@@ -1764,6 +1764,7 @@ window.marioLemieuxData = {
                     "set_key": "1995-96-upper-deck-electric-ice-parallel",
                     "set_name": "Electric Ice",
                     "set_display_name": "1995-96 Upper Deck - Electric Ice",
+                    "set_type": "parallel",
                     "set_tcdb_href": "",
                     "cards": [
                         {
@@ -3890,6 +3891,7 @@ window.marioLemieuxData = {
                     "set_key": "1994-95-pinnacle-rink-collection",
                     "set_name": "Rink Collection (Parallel)",
                     "set_display_name": "1994-95 Pinnacle - Rink Collection (Parallel)",
+                    "set_type": "parallel",
                     "set_tcdb_href": "",
                     "cards": [
                         {
@@ -4103,6 +4105,7 @@ window.marioLemieuxData = {
                     "set_key": "2002-03-pacific-quest-for-the-cup-gold-parallel",
                     "set_name": "Gold Parallel",
                     "set_display_name": "2002-03 Pacific Quest for the Cup - Gold Parallel",
+                    "set_type": "parallel",
                     "set_tcdb_href": "",
                     "cards": [
                         {
@@ -5768,6 +5771,7 @@ window.marioLemieuxData = {
                     "set_key": "1996-97-pinnacle-foil",
                     "set_name": "Foil (Parallel)",
                     "set_display_name": "1996-97 Pinnacle - Foil (Parallel)",
+                    "set_type": "parallel",
                     "set_tcdb_href": "",
                     "cards": [
                         {
@@ -5818,7 +5822,8 @@ window.marioLemieuxData = {
                             "image_back": "img/cards/ML66/1996-97-Pinnacle---Team-Pinnacle-2-Mario-Lemieux--Peter-ForsbergBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "last_seen_price": 13.25
                         }
                     ]
                 },
@@ -5826,6 +5831,7 @@ window.marioLemieuxData = {
                     "set_key": "1996-97-pinnacle-premium-stock",
                     "set_name": "Premium Stock (Parallel)",
                     "set_display_name": "1996-97 Pinnacle - Premium Stock (Parallel)",
+                    "set_type": "parallel",
                     "set_tcdb_href": "",
                     "cards": [
                         {
@@ -5870,6 +5876,7 @@ window.marioLemieuxData = {
                     "set_key": "1996-97-pinnacle-summit-ice",
                     "set_name": "Ice (Parallel)",
                     "set_display_name": "1996-97 Pinnacle Summit - Ice (Parallel)",
+                    "set_type": "parallel",
                     "set_tcdb_href": "",
                     "cards": [
                         {
