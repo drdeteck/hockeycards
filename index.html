@@ -197,6 +197,9 @@
                     <span class="card-grid-header-inner">
                         <span class="card-grid-header-content">
                             <span data-bind="text: set_display_name || set_name">Insert</span>
+                            <!-- ko if: set_type === 'parallel' -->
+                            <span class="card-grid-header-parallel-badge">Parallel</span>
+                            <!-- /ko -->
                             <span class="card-grid-header-dot">• </span>
                             <a target="_blank"
                                 data-bind="text: (cards || []).length + ' cards', attr: { href: $data.set_tcdb_href || '#' }">0
@@ -628,6 +631,9 @@
                 </svg>
                 <span class="sr-only">TCDB</span>
             </a>
+            <!-- ko if: $data.last_seen_price -->
+            <span class="card-grid-item-price" data-bind="text: '$' + parseFloat($data.last_seen_price).toFixed(2)" title="Last seen price"></span>
+            <!-- /ko -->
             <!-- /ko -->
         </div>
     </li>
