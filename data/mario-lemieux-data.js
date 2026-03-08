@@ -2457,17 +2457,6 @@ window.marioLemieuxData = {
             "set_display_name": "2000-01 Topps",
             "set_tcdb_href": "",
             "cards": [
-                {
-                    "id": "ml-2000-01-topps-140",
-                    "base_number": "140",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/5338-1608370",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center"
-                }
             ],
             "subsets": [
                 {
@@ -2742,18 +2731,6 @@ window.marioLemieuxData = {
             "set_display_name": "2000-01 Upper Deck",
             "set_tcdb_href": "",
             "cards": [
-                {
-                    "id": "ml-2000-01-upper-deck-224",
-                    "base_number": "224",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center",
-                    "variant_note": "Comeback Year"
-                }
             ]
         },
         "2001-02-topps": {
@@ -3065,8 +3042,8 @@ window.marioLemieuxData = {
                         {
                             "id": "ml-2001-02-pacific-crown-royale-117",
                             "base_number": "117",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/2001-02-Pacific-Crown-Royale-117-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/2001-02-Pacific-Crown-Royale-117-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -4067,36 +4044,6 @@ window.marioLemieuxData = {
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
                             "variant_note": "Brass Coin"
-                        }
-                    ]
-                }
-            ]
-        },
-        "2000-01-topps-chrome": {
-            "set_key": "2000-01-topps-chrome",
-            "set_name": "Topps Chrome",
-            "set_year_label": "2000-01",
-            "set_year_start": 2000,
-            "set_year_end": 2001,
-            "set_display_name": "2000-01 Topps Chrome",
-            "set_tcdb_href": "",
-            "subsets": [
-                {
-                    "set_key": "2000-01-topps-chrome-base-comeback-year",
-                    "set_name": "Base (Comeback Year)",
-                    "set_display_name": "2000-01 Topps Chrome - Base (Comeback Year)",
-                    "set_tcdb_href": "",
-                    "cards": [
-                        {
-                            "id": "ml-2000-01-topps-chrome-140",
-                            "base_number": "140",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
-                            "tcdb_href": "",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center"
                         }
                     ]
                 }
