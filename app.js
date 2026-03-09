@@ -333,6 +333,9 @@ function DataViewModel() {
     self.CardImageFace = ko.observable('front');
     self.ShowExportOverlay = ko.observable(false);
     self.ExportCopied = ko.observable(false);
+    self.BinderPageIndex = ko.observable(0);
+    self.BinderSelectedYearKey = ko.observable('');
+    self.IsSyncingBinderYearSelect = false;
     // 'off' | 'owned' | 'missing'
     self.CollectionOverlayMode = ko.observable('owned');
     self.ShowCollectionOverlay = ko.pureComputed(function () {
@@ -889,14 +892,69 @@ function DataViewModel() {
             groupsByYear[label].push(card);
         });
 
-        return Object.keys(groupsByYear)
+        var orderedLabels = Object.keys(groupsByYear)
             .sort(function (a, b) {
                 var aYear = self.GetSeasonStartYear(a) || 0;
                 var bYear = self.GetSeasonStartYear(b) || 0;
                 return aYear - bYear;
-            })
-            .map(function (label) {
-                var yearCards = groupsByYear[label];
+            });
+
+        var mergedStartYears = ['1985-86', '1986-87', '1987-88', '1988-89'];
+        var mergedYearLabel = '1985-86 to 1988-89';
+        var mergedYearKey = 'ML-1985-86_to_1988-89';
+
+        var groupedEntries = [];
+        var mergedCards = [];
+
+        mergedStartYears.forEach(function (yearLabel) {
+            if (groupsByYear[yearLabel]) {
+                mergedCards = mergedCards.concat(groupsByYear[yearLabel]);
+            }
+        });
+
+        if (mergedCards.length) {
+            mergedCards.sort(function (left, right) {
+                var leftYear = left.set_year_start || 0;
+                var rightYear = right.set_year_start || 0;
+                if (leftYear !== rightYear) {
+                    return leftYear - rightYear;
+                }
+
+                var leftSet = (left.set_display_name || left.set_name || '').toString();
+                var rightSet = (right.set_display_name || right.set_name || '').toString();
+                var setCompare = leftSet.localeCompare(rightSet, undefined, { sensitivity: 'base' });
+                if (setCompare !== 0) {
+                    return setCompare;
+                }
+
+                return (left.base_number || '').toString().localeCompare(
+                    (right.base_number || '').toString(),
+                    undefined,
+                    { numeric: true, sensitivity: 'base' }
+                );
+            });
+
+            groupedEntries.push({
+                label: mergedYearLabel,
+                yearKey: mergedYearKey,
+                cards: mergedCards
+            });
+        }
+
+        orderedLabels.forEach(function (label) {
+            if (mergedStartYears.indexOf(label) !== -1) {
+                return;
+            }
+
+            groupedEntries.push({
+                label: label,
+                yearKey: 'ML-' + label,
+                cards: groupsByYear[label]
+            });
+        });
+
+        return groupedEntries.map(function (entry) {
+                var yearCards = entry.cards;
                 var owned = yearCards.filter(function (c) { return c.inCollection; }).length;
                 var ownedPct = yearCards.length > 0 ? Math.round(owned / yearCards.length * 100) : 0;
 
@@ -908,8 +966,8 @@ function DataViewModel() {
                 }
 
                 return {
-                    label: label,
-                    yearKey: 'ML-' + label,
+                    label: entry.label,
+                    yearKey: entry.yearKey,
                     allCards: yearCards,
                     owned: owned,
                     total: yearCards.length,
@@ -918,6 +976,138 @@ function DataViewModel() {
                 };
             });
     });
+
+    self.BinderPages = ko.pureComputed(function () {
+        var groups = self.BinderYearGroups() || [];
+        var pages = [];
+        var globalPage = 0;
+
+        groups.forEach(function (group) {
+            var groupPages = group.pages || [];
+            var pagesInYear = groupPages.length;
+
+            groupPages.forEach(function (page) {
+                globalPage += 1;
+                pages.push({
+                    label: group.label,
+                    yearKey: group.yearKey,
+                    allCards: group.allCards,
+                    owned: group.owned,
+                    total: group.total,
+                    ownedPct: group.ownedPct,
+                    pageNum: page.pageNum,
+                    pagesInYear: pagesInYear,
+                    slots: page.slots,
+                    globalPage: globalPage
+                });
+            });
+        });
+
+        var globalTotal = pages.length;
+        pages.forEach(function (item) {
+            item.globalTotal = globalTotal;
+        });
+
+        return pages;
+    });
+
+    self.BinderYearJumpOptions = ko.pureComputed(function () {
+        var groups = self.BinderYearGroups() || [];
+        return groups.map(function (group) {
+            var count = (group.pages || []).length;
+            return {
+                value: group.yearKey,
+                label: group.label + ' · ' + count + ' page' + (count === 1 ? '' : 's')
+            };
+        });
+    });
+
+    self.BinderHasPages = ko.pureComputed(function () {
+        return self.BinderPages().length > 0;
+    });
+
+    self.BinderCurrentEntry = ko.pureComputed(function () {
+        var pages = self.BinderPages();
+        if (!pages.length) { return null; }
+
+        var idx = self.BinderPageIndex();
+        if (idx < 0) { idx = 0; }
+        if (idx >= pages.length) { idx = pages.length - 1; }
+        return pages[idx];
+    });
+
+    self.BinderCanPrev = ko.pureComputed(function () {
+        return self.BinderPageIndex() > 0;
+    });
+
+    self.BinderCanNext = ko.pureComputed(function () {
+        return self.BinderPageIndex() < (self.BinderPages().length - 1);
+    });
+
+    self.BinderPrevPage = function () {
+        if (!self.BinderCanPrev()) { return; }
+        self.BinderPageIndex(self.BinderPageIndex() - 1);
+    };
+
+    self.BinderNextPage = function () {
+        if (!self.BinderCanNext()) { return; }
+        self.BinderPageIndex(self.BinderPageIndex() + 1);
+    };
+
+    self.BinderSyncSelectedYearFromEntry = function () {
+        var entry = self.BinderCurrentEntry();
+        var targetYearKey = entry ? entry.yearKey : '';
+        if (self.BinderSelectedYearKey() === targetYearKey) {
+            return;
+        }
+        self.IsSyncingBinderYearSelect = true;
+        self.BinderSelectedYearKey(targetYearKey);
+        self.IsSyncingBinderYearSelect = false;
+    };
+
+    self.BinderCurrentEntry.subscribe(function () {
+        self.BinderSyncSelectedYearFromEntry();
+    });
+
+    self.BinderSelectedYearKey.subscribe(function (yearKey) {
+        if (self.IsSyncingBinderYearSelect || !yearKey) {
+            return;
+        }
+
+        var pages = self.BinderPages();
+        for (var i = 0; i < pages.length; i++) {
+            if (pages[i].yearKey === yearKey) {
+                if (self.BinderPageIndex() !== i) {
+                    self.BinderPageIndex(i);
+                }
+                return;
+            }
+        }
+    });
+
+    self.BinderYearGroups.subscribe(function () {
+        var pageCount = self.BinderPages().length;
+        if (!pageCount) {
+            if (self.BinderPageIndex() !== 0) {
+                self.BinderPageIndex(0);
+            }
+            if (self.BinderSelectedYearKey() !== '') {
+                self.IsSyncingBinderYearSelect = true;
+                self.BinderSelectedYearKey('');
+                self.IsSyncingBinderYearSelect = false;
+            }
+            return;
+        }
+
+        var idx = self.BinderPageIndex();
+        if (idx < 0 || idx >= pageCount) {
+            self.BinderPageIndex(Math.max(0, Math.min(idx, pageCount - 1)));
+        }
+
+        self.BinderSyncSelectedYearFromEntry();
+    });
+
+    self.BinderSyncSelectedYearFromEntry();
 
     // helper used by the card template to pick an image URL
     // (template uses $root.ParseImageUri so it must live on the root viewmodel)
@@ -1308,6 +1498,10 @@ function DataViewModel() {
         self.CardRouteError('');
         self.ShowAllSetCards(false);
         self.RouteType(hash === 'about' ? 'about' : (hash === 'home' ? 'home' : (hash === 'binder' ? 'binder' : 'collection')));
+
+        if (hash === 'binder') {
+            self.BinderPageIndex(0);
+        }
 
         // if the hash looks like a collection key, update selection too
         if (hash !== 'home' && hash !== 'about' && hash !== 'binder') {

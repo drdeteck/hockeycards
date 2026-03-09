@@ -4,10 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Browse Phil's personal hockey card collection — McDonald's Upper Deck All-Stars (1991–99) and a complete Mario Lemieux set spanning 1985 to the late 1990s.">
+    <meta name="description"
+        content="Browse Phil's personal hockey card collection — McDonald's Upper Deck All-Stars (1991–99) and a complete Mario Lemieux set spanning 1985 to the late 1990s.">
     <!-- Open Graph -->
     <meta property="og:title" content="Phil's Hockey Cards Collection">
-    <meta property="og:description" content="Browse Phil's personal hockey card collection — McDonald's Upper Deck All-Stars (1991–99) and a complete Mario Lemieux set spanning 1985 to the late 1990s.">
+    <meta property="og:description"
+        content="Browse Phil's personal hockey card collection — McDonald's Upper Deck All-Stars (1991–99) and a complete Mario Lemieux set spanning 1985 to the late 1990s.">
     <meta property="og:type" content="website">
     <!-- MS APPLICATION -->
     <meta name="msapplication-TileColor" content="#243847" />
@@ -73,7 +75,8 @@
         </symbol>
         <symbol id="logo-tcdb-card" viewBox="0 0 24 28">
             <!-- Card outline -->
-            <rect x="2" y="2" width="20" height="24" rx="2" ry="2" fill="currentColor" fill-opacity="0.1" stroke="currentColor" stroke-width="1.8"/>
+            <rect x="2" y="2" width="20" height="24" rx="2" ry="2" fill="currentColor" fill-opacity="0.1"
+                stroke="currentColor" stroke-width="1.8" />
             <!-- tcdb text -->
             <text x="12" y="17" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="6.2"
                 font-weight="900" fill="currentColor" letter-spacing="-0.2">tcdb</text>
@@ -83,7 +86,7 @@
                 d="m 167.52274,311.80036 -60.47078,-0.68709 9.71171,-12 c 15.39005,-19.01629 29.4246,-35.7474 32.65761,-38.93234 1.63712,-1.61279 7.59188,-8.67058 13.23279,-15.68399 5.64091,-7.0134 14.86423,-17.99385 20.49627,-24.40099 11.38109,-12.9474 42.89565,-49.76524 67.73462,-79.13302 8.92362,-10.55065 18.14278,-21.28299 20.48701,-23.84966 2.34423,-2.56667 13.94308,-16.01153 25.77522,-29.877477 18.27216,-21.412918 21.58287,-24.727114 21.97688,-22 0.25515,1.765944 3.70224,24.210807 7.66022,49.877477 10.48875,68.01735 29.87178,195.83615 29.87399,197 0.002,1.03066 -82.9684,0.89339 -189.13554,-0.31291 z m 67.72887,-52.2822 c 15.72528,-19.17098 28.75893,-34.30476 28.96365,-33.63061 0.47796,1.57388 9.77825,65.55459 9.77825,67.26878 0,0.79257 11.37208,1.29027 29.48172,1.29027 h 29.48173 l -0.82378,-4.39112 c -0.45308,-2.41512 -2.89769,-18.46512 -5.43246,-35.66667 -2.53478,-17.20155 -5.44246,-36.8855 -6.46152,-43.74212 -2.35984,-15.87792 1.299,-14.70806 -46.37953,-14.82914 l -40.87193,-0.1038 -26.58125,31.03309 c -33.89067,39.56671 -56.41303,66.1795 -56.41272,66.65823 1.4e-4,0.20617 12.75014,0.50864 28.33334,0.67214 l 28.33307,0.29728 z m 80.07524,-77.80931 c 0,-2.19464 -8.83429,-59.93347 -10.15959,-66.40064 l -0.77975,-3.80506 -4.197,5.11825 c -2.30835,2.81503 -15.24175,18.02731 -28.74089,33.80505 -13.49914,15.77775 -25.44213,29.73682 -26.53998,31.02015 -1.89396,2.21395 -0.14349,2.33334 34.21056,2.33334 31.84709,0 36.20665,-0.24938 36.20665,-2.07109 z" />
         </symbol>
         <symbol id="icon-export" viewBox="0 0 24 24">
-            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
         </symbol>
     </svg>
 
@@ -93,15 +96,23 @@
                 <span class="logo-title">Phil's Hockey Cards Collection</span>
             </a>
             <div class="header-links">
-                <div class="btn-group btn-group-toggle collection-overlay-toggle-group" data-toggle="buttons" role="group" aria-label="Collection overlay">
-                    <label class="btn btn-outline-light btn-sm" data-bind="css: { active: $root.CollectionOverlayMode() === 'off' }" title="Hide collection overlay">
-                        <input type="radio" name="collection-overlay-mode" value="off" data-bind="checked: $root.CollectionOverlayMode" autocomplete="off">
+                <div class="btn-group btn-group-toggle collection-overlay-toggle-group" data-toggle="buttons"
+                    role="group" aria-label="Collection overlay">
+                    <label class="btn btn-outline-light btn-sm"
+                        data-bind="css: { active: $root.CollectionOverlayMode() === 'off' }"
+                        title="Hide collection overlay">
+                        <input type="radio" name="collection-overlay-mode" value="off"
+                            data-bind="checked: $root.CollectionOverlayMode" autocomplete="off">
                         <span>Off</span>
                     </label>
-                    <label class="btn btn-outline-light btn-sm collection-overlay-owned-btn" data-bind="css: { active: $root.CollectionOverlayMode() === 'owned' }" title="Show overlay for owned cards">
-                        <input type="radio" name="collection-overlay-mode" value="owned" data-bind="checked: $root.CollectionOverlayMode" autocomplete="off">
-                        <svg class="icon-inline icon-collection-check" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
-                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                    <label class="btn btn-outline-light btn-sm collection-overlay-owned-btn"
+                        data-bind="css: { active: $root.CollectionOverlayMode() === 'owned' }"
+                        title="Show overlay for owned cards">
+                        <input type="radio" name="collection-overlay-mode" value="owned"
+                            data-bind="checked: $root.CollectionOverlayMode" autocomplete="off">
+                        <svg class="icon-inline icon-collection-check" aria-hidden="true" focusable="false"
+                            viewBox="0 0 24 24">
+                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
                         </svg>
                         <span>Owned</span>
                     </label>
@@ -126,7 +137,7 @@
     <div class="main">
         <!-- Menu Rows -->
         <div class="main-inner"
-            data-bind="template: {name: 'menu-row-template', foreach: Root}, visible: CurrentRoute() !== 'about' && CurrentRoute() !== 'binder'">
+            data-bind="template: {name: 'menu-row-template', foreach: Root}, visible: CurrentRoute() !== 'about'">
         </div>
 
         <!-- HOME VIEW: Cards Grid -->
@@ -141,13 +152,14 @@
                         <span class="card-grid-header-content">
                             <span data-bind="text: label">Year</span>
                             <span class="card-grid-header-dot">• </span>
-                            <a data-bind="text: (cards || []).length + ' cards', attr: { href: '#' + yearKey, 'aria-label': 'View ' + label + ' cards' }">0 cards</a>
+                            <a
+                                data-bind="text: (cards || []).length + ' cards', attr: { href: '#' + yearKey, 'aria-label': 'View ' + label + ' cards' }">0
+                                cards</a>
                         </span>
                     </span>
                 </h2>
                 <div class="card-grid">
-                    <ul class="card-grid-inner"
-                        data-bind="template: {name: 'card-template', foreach: cards}">
+                    <ul class="card-grid-inner" data-bind="template: {name: 'card-template', foreach: cards}">
                     </ul>
                 </div>
                 <!-- /ko -->
@@ -166,8 +178,7 @@
                     </span>
                 </h2>
                 <div class="card-grid">
-                    <ul class="card-grid-inner"
-                        data-bind="template: {name: 'card-template', foreach: cards}">
+                    <ul class="card-grid-inner" data-bind="template: {name: 'card-template', foreach: cards}">
                     </ul>
                 </div>
                 <!-- /ko -->
@@ -187,8 +198,7 @@
                     </span>
                 </h2>
                 <div class="card-grid">
-                    <ul class="card-grid-inner"
-                        data-bind="template: {name: 'card-template', foreach: cards}">
+                    <ul class="card-grid-inner" data-bind="template: {name: 'card-template', foreach: cards}">
                     </ul>
                 </div>
 
@@ -210,8 +220,7 @@
                     </span>
                 </h2>
                 <div class="card-grid">
-                    <ul class="card-grid-inner"
-                        data-bind="template: {name: 'card-template', foreach: cards}">
+                    <ul class="card-grid-inner" data-bind="template: {name: 'card-template', foreach: cards}">
                     </ul>
                 </div>
                 <!-- /ko -->
@@ -272,7 +281,8 @@
                         <p class="card-profile-type-line card-profile-secondary-line card-profile-set-line">
                             <span><strong>Set:</strong> </span><span data-bind="text: $root.CardSetDisplay()"></span>
                         </p>
-                        <p class="card-profile-type-line card-profile-secondary-line card-profile-insert-line" data-bind="visible: $root.CardHasInsert()">
+                        <p class="card-profile-type-line card-profile-secondary-line card-profile-insert-line"
+                            data-bind="visible: $root.CardHasInsert()">
                             <span><strong>Insert:</strong> </span><span
                                 data-bind="text: $root.CardInsertValue()"></span>
                         </p>
@@ -378,7 +388,8 @@
                 This is a personal collection browser for Phil's hockey cards.
                 It is a static single-page application built with
                 <a href="https://knockoutjs.com" target="_blank" rel="noopener noreferrer">Knockout.js</a>
-                and <a href="https://getbootstrap.com/docs/4.4/" target="_blank" rel="noopener noreferrer">Bootstrap 4</a>
+                and <a href="https://getbootstrap.com/docs/4.4/" target="_blank" rel="noopener noreferrer">Bootstrap
+                    4</a>
                 — no server or build step required.
             </p>
             <h2>Collections</h2>
@@ -404,14 +415,17 @@
             <h2>External links</h2>
             <ul>
                 <li>
-                    <a href="https://www.tcdb.com" target="_blank" rel="noopener noreferrer">Trading Card Database (TCDB)</a>
+                    <a href="https://www.tcdb.com" target="_blank" rel="noopener noreferrer">Trading Card Database
+                        (TCDB)</a>
                     — authoritative reference for card numbers and set information.
                 </li>
                 <li>
-                    <a href="https://github.com/drdeteck/hockeycards" target="_blank" rel="noopener noreferrer">Source code on GitHub</a>
+                    <a href="https://github.com/drdeteck/hockeycards" target="_blank" rel="noopener noreferrer">Source
+                        code on GitHub</a>
                 </li>
                 <li>
-                    <a href="https://github.com/drdeteck/hockeycards/blob/main/data/mario-lemieux-data.js" target="_blank" rel="noopener noreferrer">Mario Lemieux card dataset</a>
+                    <a href="https://github.com/drdeteck/hockeycards/blob/main/data/mario-lemieux-data.js"
+                        target="_blank" rel="noopener noreferrer">Mario Lemieux card dataset</a>
                     — raw data file with all Mario Lemieux card entries.
                 </li>
             </ul>
@@ -420,32 +434,50 @@
 
         <!-- BINDER VIEW -->
         <div class="binder-view" data-bind="visible: CurrentRoute() === 'binder'">
-            <div class="binder-view-header">
-                <h1 class="binder-view-title">Mario Lemieux · Binder View</h1>
-                <p class="binder-view-subtitle">9-pocket pages · one section per year · checklist reflects collection</p>
-            </div>
+            <!-- ko if: BinderHasPages() -->
+            <div class="binder-pager" data-bind="with: BinderCurrentEntry">
+                <div class="binder-pager-nav">
+                    <button type="button" class="binder-pager-btn binder-pager-btn--prev"
+                        data-bind="click: $root.BinderPrevPage, enable: $root.BinderCanPrev"
+                        aria-label="Previous binder page">← Previous</button>
 
-            <!-- ko foreach: BinderYearGroups -->
-            <div class="binder-year-section">
+                    <div class="binder-pager-center">
+                        <div class="binder-pager-meta">
+                            <span class="binder-pager-section" data-bind="text: label"></span>
+                            <span class="binder-pager-page"
+                                data-bind="text: 'Page ' + pageNum + ' of ' + pagesInYear + ' · Overall ' + globalPage + ' / ' + globalTotal"></span>
+                        </div>
 
-                <!-- Year tab / divider -->
-                <div class="binder-year-tab">
-                    <span class="binder-year-tab-label" data-bind="text: label"></span>
-                    <div class="binder-year-tab-right">
-                        <span class="binder-year-tab-stats">
-                            <span data-bind="text: owned"></span>/<span data-bind="text: total"></span> owned
-                        </span>
-                        <div class="binder-year-progress">
-                            <div class="binder-year-progress-track">
-                                <div class="binder-year-progress-fill"
-                                    data-bind="style: { width: ownedPct + '%' }"></div>
+                        <div class="binder-pager-middle">
+                            <label class="binder-year-jump-wrap" aria-label="Jump to section year">
+                                <span class="binder-year-jump-label">Jump to</span>
+                                <select class="binder-year-jump" data-bind="options: $root.BinderYearJumpOptions,
+                                               optionsText: 'label',
+                                               optionsValue: 'value',
+                                               value: $root.BinderSelectedYearKey,
+                                               enable: $root.BinderYearJumpOptions().length > 1"></select>
+                            </label>
+
+                            <div class="binder-pager-progress">
+                                <span class="binder-year-tab-stats">
+                                    <span data-bind="text: owned"></span>/<span data-bind="text: total"></span> owned
+                                </span>
+                                <div class="binder-year-progress">
+                                    <div class="binder-year-progress-track">
+                                        <div class="binder-year-progress-fill"
+                                            data-bind="style: { width: ownedPct + '%' }"></div>
+                                    </div>
+                                    <span class="binder-year-progress-pct" data-bind="text: ownedPct + '%'"></span>
+                                </div>
                             </div>
-                            <span class="binder-year-progress-pct" data-bind="text: ownedPct + '%'"></span>
                         </div>
                     </div>
+
+                    <button type="button" class="binder-pager-btn binder-pager-btn--next"
+                        data-bind="click: $root.BinderNextPage, enable: $root.BinderCanNext"
+                        aria-label="Next binder page">Next →</button>
                 </div>
 
-                <!-- Checklist of all cards in this year -->
                 <div class="binder-checklist">
                     <!-- ko foreach: allCards -->
                     <div class="binder-checklist-item"
@@ -453,61 +485,62 @@
                         <span class="binder-checklist-check" aria-hidden="true">
                             <!-- ko if: inCollection -->
                             <svg width="9" height="9" viewBox="0 0 9 9" aria-hidden="true">
-                                <polyline points="1.5,5 3.5,7.5 7.5,1.5"
-                                    stroke="#fff" stroke-width="1.8" fill="none"
-                                    stroke-linecap="round" stroke-linejoin="round"/>
+                                <polyline points="1.5,5 3.5,7.5 7.5,1.5" stroke="#fff" stroke-width="1.8" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                             <!-- /ko -->
                         </span>
                         <span class="binder-checklist-item-label">
-                            <span data-bind="text: set_display_name + ' #' + base_number"></span><!-- ko if: insert_subset --><span data-bind="text: ' · ' + insert_subset"></span><!-- /ko -->
+                            <span
+                                data-bind="text: set_display_name + ' #' + base_number"></span><!-- ko if: insert_subset --><span
+                                data-bind="text: ' · ' + insert_subset"></span><!-- /ko -->
                         </span>
                     </div>
                     <!-- /ko -->
                 </div>
+            </div>
 
-                <!-- Binder pages of 9 cards -->
-                <!-- ko foreach: pages -->
-                <div class="binder-page">
-                    <div class="binder-page-label">
-                        Page <span data-bind="text: pageNum"></span>
-                    </div>
-                    <div class="binder-page-grid">
-                        <!-- ko foreach: slots -->
-                        <!-- ko if: $data -->
-                        <div class="binder-slot binder-slot--filled">
-                            <div class="binder-slot-inner">
-                                <a class="binder-slot-link"
-                                    data-bind="attr: { href: $root.BuildCardRoute($data, null), title: $data.set_display_name + ' #' + $data.base_number + ($data.insert_subset ? ' · ' + $data.insert_subset : '') }">
-                                    <img class="binder-slot-img"
-                                        data-bind="attr: {
-                                            src: $data.image_front || $data.image_back || '',
-                                            alt: $data.set_display_name + ' #' + $data.base_number }">
-                                    <span class="binder-slot-label"
-                                        data-bind="text: $data.set_display_name + ' #' + $data.base_number"></span>
-                                </a>
-                                <!-- ko if: $data.inCollection -->
-                                <span class="binder-slot-owned-badge" title="In collection" aria-label="In collection"></span>
-                                <!-- /ko -->
-                            </div>
+            <div class="binder-page" data-bind="with: BinderCurrentEntry">
+                <div class="binder-page-grid">
+                    <!-- ko foreach: slots -->
+                    <!-- ko if: $data -->
+                    <div class="binder-slot binder-slot--filled">
+                        <div class="binder-slot-inner"
+                            data-bind="css: { 'binder-slot-inner--owned': $data.inCollection }">
+                            <a class="binder-slot-link"
+                                data-bind="attr: { href: $root.BuildCardRoute($data, null), title: $data.set_display_name + ' #' + $data.base_number + ($data.insert_subset ? ' · ' + $data.insert_subset : '') }">
+                                <img class="binder-slot-img" data-bind="attr: {
+                                        src: $data.image_front || $data.image_back || '',
+                                        alt: $data.set_display_name + ' #' + $data.base_number }">
+                                <span class="binder-slot-label"
+                                    data-bind="text: $data.set_display_name + ' #' + $data.base_number"></span>
+                            </a>
+                            <!-- ko if: $data.inCollection -->
+                            <span class="binder-slot-owned-badge" title="In collection" aria-label="In collection">
+                                <svg class="binder-slot-owned-badge-check" viewBox="0 0 10 10" aria-hidden="true"
+                                    focusable="false">
+                                    <polyline points="2,5.5 4.2,8 8,3" stroke="#fff" stroke-width="1.8" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <!-- /ko -->
                         </div>
-                        <!-- /ko -->
-                        <!-- ko ifnot: $data -->
-                        <div class="binder-slot binder-slot--empty">
-                            <div class="binder-slot-inner"></div>
-                        </div>
-                        <!-- /ko -->
-                        <!-- /ko -->
                     </div>
+                    <!-- /ko -->
+                    <!-- ko ifnot: $data -->
+                    <div class="binder-slot binder-slot--empty">
+                        <div class="binder-slot-inner"></div>
+                    </div>
+                    <!-- /ko -->
+                    <!-- /ko -->
                 </div>
-                <!-- /ko -->
-
             </div>
             <!-- /ko -->
 
             <!-- Empty state when no ML data is loaded -->
-            <!-- ko if: BinderYearGroups().length === 0 -->
-            <p style="color: rgba(255,255,255,0.65); text-align: center; padding: 60px 0;">No Mario Lemieux cards loaded.</p>
+            <!-- ko if: !BinderHasPages() -->
+            <p style="color: rgba(255,255,255,0.65); text-align: center; padding: 60px 0;">No Mario Lemieux cards
+                loaded.</p>
             <!-- /ko -->
         </div>
 
@@ -533,9 +566,11 @@
                                 <span class="footer-stat-label">cards with images</span>
                             </div>
                             <div class="footer-stat-bar-track">
-                                <div class="footer-stat-bar-fill" data-bind="style: { width: pctWithFront + '%' }"></div>
+                                <div class="footer-stat-bar-fill" data-bind="style: { width: pctWithFront + '%' }">
+                                </div>
                             </div>
-                            <span class="footer-stat-detail" data-bind="text: cardsWithFront + ' / ' + totalCards"></span>
+                            <span class="footer-stat-detail"
+                                data-bind="text: cardsWithFront + ' / ' + totalCards"></span>
                         </div>
                     </div>
                     <div class="footer-stat-item">
@@ -546,9 +581,11 @@
                                 <span class="footer-stat-label">collection owned</span>
                             </div>
                             <div class="footer-stat-bar-track">
-                                <div class="footer-stat-bar-fill footer-stat-bar-fill--owned" data-bind="style: { width: pctInCollection + '%' }"></div>
+                                <div class="footer-stat-bar-fill footer-stat-bar-fill--owned"
+                                    data-bind="style: { width: pctInCollection + '%' }"></div>
                             </div>
-                            <span class="footer-stat-detail" data-bind="text: cardsInCollection + ' / ' + totalCards"></span>
+                            <span class="footer-stat-detail"
+                                data-bind="text: cardsInCollection + ' / ' + totalCards"></span>
                         </div>
                     </div>
                 </div>
@@ -563,9 +600,11 @@
                                 <span class="footer-stat-label">cards with images</span>
                             </div>
                             <div class="footer-stat-bar-track">
-                                <div class="footer-stat-bar-fill" data-bind="style: { width: pctWithFront + '%' }"></div>
+                                <div class="footer-stat-bar-fill" data-bind="style: { width: pctWithFront + '%' }">
+                                </div>
                             </div>
-                            <span class="footer-stat-detail" data-bind="text: cardsWithFront + ' / ' + totalCards"></span>
+                            <span class="footer-stat-detail"
+                                data-bind="text: cardsWithFront + ' / ' + totalCards"></span>
                         </div>
                     </div>
                     <div class="footer-stat-item">
@@ -576,9 +615,11 @@
                                 <span class="footer-stat-label">collection owned</span>
                             </div>
                             <div class="footer-stat-bar-track">
-                                <div class="footer-stat-bar-fill footer-stat-bar-fill--owned" data-bind="style: { width: pctInCollection + '%' }"></div>
+                                <div class="footer-stat-bar-fill footer-stat-bar-fill--owned"
+                                    data-bind="style: { width: pctInCollection + '%' }"></div>
                             </div>
-                            <span class="footer-stat-detail" data-bind="text: cardsInCollection + ' / ' + totalCards"></span>
+                            <span class="footer-stat-detail"
+                                data-bind="text: cardsInCollection + ' / ' + totalCards"></span>
                         </div>
                     </div>
                 </div>
@@ -593,9 +634,11 @@
                                 <span class="footer-stat-label">cards with images</span>
                             </div>
                             <div class="footer-stat-bar-track">
-                                <div class="footer-stat-bar-fill" data-bind="style: { width: pctWithFront + '%' }"></div>
+                                <div class="footer-stat-bar-fill" data-bind="style: { width: pctWithFront + '%' }">
+                                </div>
                             </div>
-                            <span class="footer-stat-detail" data-bind="text: cardsWithFront + ' / ' + totalCards"></span>
+                            <span class="footer-stat-detail"
+                                data-bind="text: cardsWithFront + ' / ' + totalCards"></span>
                         </div>
                     </div>
                     <div class="footer-stat-item">
@@ -606,9 +649,11 @@
                                 <span class="footer-stat-label">collection owned</span>
                             </div>
                             <div class="footer-stat-bar-track">
-                                <div class="footer-stat-bar-fill footer-stat-bar-fill--owned" data-bind="style: { width: pctInCollection + '%' }"></div>
+                                <div class="footer-stat-bar-fill footer-stat-bar-fill--owned"
+                                    data-bind="style: { width: pctInCollection + '%' }"></div>
                             </div>
-                            <span class="footer-stat-detail" data-bind="text: cardsInCollection + ' / ' + totalCards"></span>
+                            <span class="footer-stat-detail"
+                                data-bind="text: cardsInCollection + ' / ' + totalCards"></span>
                         </div>
                     </div>
                 </div>
@@ -619,10 +664,10 @@
     <!-- EXPORT OVERLAY -->
     <div class="export-overlay" style="display:none;" data-bind="visible: $root.ShowExportOverlay()">
         <div class="export-overlay-header">
-            <span class="export-overlay-title" data-bind="text: 'Export — ' + $root.ExportCurrentViewCount() + ' cards'"></span>
-            <button type="button" class="export-overlay-close"
-                data-bind="click: $root.CloseExportOverlay"
-                title="Close" aria-label="Close export panel">✕</button>
+            <span class="export-overlay-title"
+                data-bind="text: 'Export — ' + $root.ExportCurrentViewCount() + ' cards'"></span>
+            <button type="button" class="export-overlay-close" data-bind="click: $root.CloseExportOverlay" title="Close"
+                aria-label="Close export panel">✕</button>
         </div>
         <div class="export-overlay-body">
             <p class="export-overlay-hint">eBay search text for each card in the current view, one per line.</p>
@@ -630,8 +675,7 @@
                 data-bind="value: $root.ExportCurrentViewText()"></textarea>
         </div>
         <div class="export-overlay-footer">
-            <button type="button" class="btn btn-sm btn-outline-light export-copy-btn"
-                data-bind="click: $root.CopyExportText,
+            <button type="button" class="btn btn-sm btn-outline-light export-copy-btn" data-bind="click: $root.CopyExportText,
                            enable: !!$root.ExportCurrentViewText(),
                            css: { 'export-copy-btn--copied': $root.ExportCopied() }">
                 <span data-bind="text: $root.ExportCopied() ? '✓ Copied!' : 'Copy to clipboard'"></span>
@@ -695,15 +739,16 @@
             <!-- ko if: $root.CollectionOverlayMode() === 'owned' && $data.inCollection -->
             <span class="card-owned-badge" aria-label="In collection" title="In collection">
                 <svg class="card-owned-badge-check" viewBox="0 0 10 10" aria-hidden="true" focusable="false">
-                    <polyline points="2,5.5 4.2,8 8,3" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                    <polyline points="2,5.5 4.2,8 8,3" stroke="#fff" stroke-width="1.8" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
             </span>
             <!-- /ko -->
             <!-- ko if: $root.CollectionOverlayMode() === 'missing' && !$data.inCollection -->
             <span class="card-missing-badge" aria-label="Not in collection" title="Not in collection">
                 <svg class="card-missing-badge-x" viewBox="0 0 10 10" aria-hidden="true" focusable="false">
-                    <line x1="2.5" y1="2.5" x2="7.5" y2="7.5" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
-                    <line x1="7.5" y1="2.5" x2="2.5" y2="7.5" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+                    <line x1="2.5" y1="2.5" x2="7.5" y2="7.5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" />
+                    <line x1="7.5" y1="2.5" x2="2.5" y2="7.5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" />
                 </svg>
             </span>
             <!-- /ko -->
@@ -727,7 +772,8 @@
                 <span class="sr-only">TCDB</span>
             </a>
             <!-- ko if: $data.last_seen_price -->
-            <span class="card-grid-item-price" data-bind="text: '$' + parseFloat($data.last_seen_price).toFixed(2)" title="Last seen price"></span>
+            <span class="card-grid-item-price" data-bind="text: '$' + parseFloat($data.last_seen_price).toFixed(2)"
+                title="Last seen price"></span>
             <!-- /ko -->
             <!-- /ko -->
         </div>

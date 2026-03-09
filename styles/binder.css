@@ -9,48 +9,24 @@
     padding: 20px 2.5%;
 }
 
-/* ── Page header ──────────────────────────────────────────── */
-
-.binder-view-header {
-    padding: 20px 0 22px 0;
-    color: var(--color-white);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-    margin-bottom: 32px;
-}
-
-.binder-view-title {
-    font-size: 26px;
-    font-weight: 700;
-    margin: 0 0 5px 0;
-}
-
-.binder-view-subtitle {
-    font-size: 13px;
-    color: rgba(255, 255, 255, 0.62);
-    margin: 0;
-}
-
-/* ── Year section ─────────────────────────────────────────── */
-
-.binder-year-section {
-    margin-bottom: 52px;
-}
-
-/* Colored tab that acts as a year divider */
-.binder-year-tab {
-    background: linear-gradient(135deg, #1e3a52 0%, #2c4d6e 100%);
-    border-left: 5px solid #4a90d9;
-    color: #fff;
-    padding: 10px 18px;
+.binder-pager {
+    position: sticky;
+    top: 8px;
+    z-index: 20;
+    background: rgba(20, 32, 43, 0.94);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 6px;
+    padding: 10px;
     margin-bottom: 14px;
-    border-radius: 0 4px 4px 0;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+}
+
+.binder-pager-nav {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -59,16 +35,67 @@
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    gap: 8px;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 
-.binder-year-tab-label {
-    font-size: 17px;
-    font-weight: 700;
-    letter-spacing: 0.2px;
+.binder-pager-btn {
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+    border-radius: 4px;
+    padding: 7px 10px;
+    min-height: 30px;
+    min-width: 96px;
+    white-space: nowrap;
 }
 
-.binder-year-tab-right {
+.binder-pager-btn:disabled {
+    opacity: 0.45;
+    cursor: default;
+}
+
+.binder-pager-meta {
+    min-width: 0;
+    text-align: center;
+    color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.binder-pager-center {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.binder-pager-middle {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -77,7 +104,71 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    gap: 14px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.binder-pager-progress {
+    display: -webkit-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.binder-pager-section {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+.binder-pager-page {
+    font-size: 12px;
+    opacity: 0.78;
+}
+
+.binder-year-jump-wrap {
+    display: -webkit-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 6px;
+    color: #fff;
+    margin: 0;
+}
+
+.binder-year-jump-label {
+    font-size: 11px;
+    opacity: 0.76;
+    white-space: nowrap;
+}
+
+.binder-year-jump {
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    border-radius: 4px;
+    height: 30px;
+    min-width: 150px;
+    padding: 4px 8px;
+    font-size: 12px;
+}
+
+.binder-year-jump option {
+    color: #111;
 }
 
 .binder-year-tab-stats {
@@ -137,6 +228,12 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 3px 14px;
+}
+
+.binder-pager .binder-checklist {
+    max-height: 120px;
+    overflow-y: auto;
+    margin-bottom: 0;
 }
 
 .binder-checklist-item {
@@ -305,20 +402,160 @@
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 22px 22px 0;
-    border-color: transparent #1a7d3f transparent transparent;
-    z-index: 5;
+    border-width: 0 30px 30px 0;
+    border-color: transparent #27ae60 transparent transparent;
+    z-index: 7;
     pointer-events: none;
 }
 
-.binder-slot-owned-badge::before {
-    content: '';
+.binder-slot-owned-badge-check {
     position: absolute;
     top: 3px;
-    right: -3px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 16px 16px 0;
-    border-color: transparent #27ae60 transparent transparent;
+    right: -25px;
+    width: 12px;
+    height: 12px;
+}
+
+.binder-slot-inner--owned::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 4px solid #27ae60;
+    pointer-events: none;
+    z-index: 6;
+}
+
+@media (max-width: 1024px) {
+    .binder-view {
+        padding: 16px 2.2%;
+    }
+
+    .binder-pager {
+        top: 6px;
+    }
+
+    .binder-pager .binder-checklist {
+        max-height: 105px;
+    }
+}
+
+@media (max-width: 768px) {
+    .binder-view {
+        padding: 14px 2%;
+    }
+
+    .binder-pager {
+        top: 4px;
+        padding: 8px;
+    }
+
+    .binder-pager-nav {
+        gap: 8px;
+    }
+
+    .binder-pager-middle {
+        gap: 8px;
+    }
+
+    .binder-pager-section {
+        font-size: 13px;
+    }
+
+    .binder-pager-page {
+        font-size: 11px;
+    }
+
+    .binder-pager-btn {
+        font-size: 11px;
+        padding: 7px 8px;
+        min-height: 28px;
+    }
+
+    .binder-year-jump {
+        min-width: 132px;
+        height: 28px;
+        font-size: 11px;
+    }
+
+    .binder-year-jump-label {
+        font-size: 10px;
+    }
+
+    .binder-pager-progress {
+        gap: 8px;
+    }
+
+    .binder-slot {
+        width: 50%;
+    }
+
+    .binder-pager .binder-checklist {
+        max-height: 96px;
+    }
+}
+
+@media (max-width: 520px) {
+    .binder-pager-nav {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .binder-pager-center {
+        -webkit-box-ordinal-group: 0;
+        -webkit-order: -1;
+        -ms-flex-order: -1;
+        order: -1;
+        width: 100%;
+    }
+
+    .binder-pager-middle {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .binder-year-jump-wrap {
+        width: 100%;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .binder-pager-progress {
+        width: 100%;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .binder-year-jump {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        min-width: 0;
+    }
+
+    .binder-pager-btn {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        max-width: 48%;
+    }
+
+    .binder-slot {
+        width: 100%;
+    }
+
+    .binder-pager .binder-checklist {
+        max-height: 88px;
+    }
 }
