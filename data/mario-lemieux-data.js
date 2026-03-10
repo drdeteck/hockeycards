@@ -315,7 +315,7 @@ window.marioLemieuxData = {
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1990-91-Score-American-2-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
-                    "inCollection": true
+                    "inCollection": false
                 }
             ]
         },
@@ -338,7 +338,8 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1990-91-Score-Canadian-2-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1990-91-Score-Canadian-2-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 }
             ],
             "subsets": [
@@ -4500,7 +4501,8 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1990-91-O-Pee-Chee-Premier-63-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1990-91-O-Pee-Chee-Premier-63-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 }
             ]
         },
