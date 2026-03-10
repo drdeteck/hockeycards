@@ -1,4 +1,4 @@
-window.marioLemieuxData = {
+﻿window.marioLemieuxData = {
     "dataset": "mario-lemieux",
     "version": "0.14.0",
     "player": "Mario Lemieux",
@@ -1150,8 +1150,8 @@ window.marioLemieuxData = {
                             "base_number": "R",
                             "orientation_front": "portrait",
                             "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
+                            "image_front": "img/cards/ML66/1993-94-Donruss---Special-Print-R-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1993-94-Donruss---Special-Print-R-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
@@ -2012,6 +2012,28 @@ window.marioLemieuxData = {
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
                             "inCollection": true
+                        },
+                        {
+                            "id": "ml-1995-96-collectors-choice-ctg-silver-c25b",
+                            "base_number": "C25b",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1995-96-Collector's-Choice---You-Crash-the-Game-Silver-C25b-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1995-96-Collector's-Choice---You-Crash-the-Game-Silver-C25b-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
+                        },
+                        {
+                            "id": "ml-1995-96-collectors-choice-ctg-silver-c25c",
+                            "base_number": "C25c",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1995-96-Collector's-Choice---You-Crash-the-Game-Silver-C25c-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1995-96-Collector's-Choice---You-Crash-the-Game-Silver-C25c-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center"
                         }
                     ]
                 },
@@ -2115,6 +2137,28 @@ window.marioLemieuxData = {
                     "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1995-96-Fleer-Metal-118-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1995-96-Fleer-Metal-118-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center"
+                }
+            ]
+        },
+        "1995-96-finest": {
+            "set_key": "1995-96-finest",
+            "set_name": "Finest",
+            "set_year_label": "1995-96",
+            "set_year_start": 1995,
+            "set_year_end": 1996,
+            "set_display_name": "1995-96 Finest",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1995-96-finest-150",
+                    "base_number": "150",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1995-96-Finest-150-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1995-96-Finest-150-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
@@ -4683,12 +4727,12 @@ window.marioLemieuxData = {
                     "base_number": "NNO",
                     "orientation_front": "portrait",
                     "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
+                    "image_front": "img/cards/ML66/1991-Stadium-Club-Members-Only-NNO-Mario-Lemieux-(Mario-Repeats-as-MVP)Fr.jpg",
+                    "image_back": "img/cards/ML66/1991-Stadium-Club-Members-Only-NNO-Mario-Lemieux-(Mario-Repeats-as-MVP)Bk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
-                    "variant_note": "Art Ross",
+                    "variant_note": "Mario Repeats as MVP",
                     "inCollection": true
                 }
             ]
@@ -5782,7 +5826,8 @@ window.marioLemieuxData = {
                     "image_back": "img/cards/ML66/1996-97-Leaf-Limited-85-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 }
             ]
         },
