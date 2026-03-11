@@ -59,6 +59,20 @@ window.HCHB = window.HCHB || {};
 
             ko.applyBindings(App.ViewModel);
 
+            var scrollToTopButton = document.getElementById('scroll-to-top-btn');
+            if (scrollToTopButton) {
+                var updateScrollToTopVisibility = function () {
+                    var shouldShow = window.pageYOffset > 280;
+                    scrollToTopButton.classList.toggle('is-visible', shouldShow);
+                };
+
+                window.addEventListener('scroll', updateScrollToTopVisibility, { passive: true });
+                scrollToTopButton.addEventListener('click', function () {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+                updateScrollToTopVisibility();
+            }
+
             // Setup routing
             window.addEventListener('hashchange', App.ViewModel.HandleRouteChange);
             App.ViewModel.HandleRouteChange(); // Set initial route

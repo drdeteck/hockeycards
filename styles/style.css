@@ -515,11 +515,49 @@ ul {
     color: var(--color-white) !important;
 }
 
+.scroll-to-top-btn {
+    position: fixed;
+    right: 18px;
+    bottom: 16px;
+    z-index: 1040;
+    border: 1px solid var(--color-border);
+    background-color: rgba(20, 44, 65, 0.82);
+    color: var(--color-white);
+    border-radius: 999px;
+    font-size: 11px;
+    line-height: 1;
+    padding: 7px 10px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+    -webkit-transition: opacity .2s ease, -webkit-transform .2s ease, visibility .2s ease;
+    transition: opacity .2s ease, transform .2s ease, visibility .2s ease;
+}
+
+.scroll-to-top-btn:hover,
+.scroll-to-top-btn:focus {
+    background-color: var(--color-header-bg);
+    outline: none;
+}
+
+.scroll-to-top-btn.is-visible {
+    opacity: .72;
+    visibility: visible;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
 @media screen and (max-width: 480px) {
     .export-overlay {
         right: 0;
         width: 100%;
         max-width: 100%;
         border-radius: 8px 8px 0 0;
+    }
+
+    .scroll-to-top-btn {
+        right: 12px;
+        bottom: 12px;
     }
 }
