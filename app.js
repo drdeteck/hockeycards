@@ -27,14 +27,24 @@ window.HCHB = window.HCHB || {};
                 var setData = mergedData[setKey];
                 if (!setData) { return; }
 
+                function normalizeOrientationValue(value) {
+                    var text = (value || '').toString().trim().toLowerCase();
+                    if (text === 'quare') {
+                        return 'square';
+                    }
+                    if (text === 'portrait' || text === 'landscape' || text === 'square' || text === 'fleerpowerplay') {
+                        return text;
+                    }
+                    return '';
+                }
+
                 function normalizeCardOrientation(card) {
-                    var base = card.orientation || 'portrait';
-                    if (!card.orientation_front) {
-                        card.orientation_front = base;
-                    }
-                    if (!card.orientation_back) {
-                        card.orientation_back = base;
-                    }
+                    var base = normalizeOrientationValue(card.orientation) || 'portrait';
+                    var front = normalizeOrientationValue(card.orientation_front);
+                    var back = normalizeOrientationValue(card.orientation_back);
+                    card.orientation = base;
+                    card.orientation_front = front || base;
+                    card.orientation_back = back || base;
                 }
 
                 if (Array.isArray(setData.cards)) {
@@ -1226,7 +1236,7 @@ function DataViewModel() {
         if (baseNumber) { parts.push(baseNumber); }
         if (name) { parts.push(name); }
         if (!parts.length) { return '#'; }
-        return 'https://www.ebay.com/sch/i.html?_nkw=' + encodeURIComponent(parts.join(' ')) + '&_sacat=212';
+        return 'https://www.ebay.ca/sch/i.html?_nkw=' + encodeURIComponent(parts.join(' ')) + '&_sacat=212';
     };
 
     // Returns the eBay search query string for a card (year+set + subset + number + name)

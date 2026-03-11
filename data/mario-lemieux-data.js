@@ -1173,7 +1173,7 @@
                 {
                     "id": "ml-1993-94-fleer-powerplay-190",
                     "base_number": "190",
-                    "orientation_front": "portrait",
+                    "orientation_front": "fleerpowerplay",
                     "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/1993-94-Fleer-PowerPlay-190-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1993-94-Fleer-PowerPlay-190-Mario-LemieuxBk.jpg",
@@ -1192,7 +1192,7 @@
                         {
                             "id": "ml-1993-94-fleer-powerplay-gamebreakers-5",
                             "base_number": "5",
-                            "orientation_front": "portrait",
+                            "orientation_front": "fleerpowerplay",
                             "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1993-94-Fleer-PowerPlay---Gamebreakers-5-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1993-94-Fleer-PowerPlay---Gamebreakers-5-Mario-LemieuxBk.jpg",
@@ -1211,7 +1211,7 @@
                         {
                             "id": "ml-1993-94-fleer-powerplay-point-leaders-8",
                             "base_number": "8",
-                            "orientation_front": "portrait",
+                            "orientation_front": "fleerpowerplay",
                             "orientation_back": "portrait",
                             "image_front": "img/cards/ML66/1993-94-Fleer-PowerPlay---Point-Leaders-8-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1993-94-Fleer-PowerPlay---Point-Leaders-8-Mario-LemieuxBk.jpg",
@@ -2161,7 +2161,8 @@
                     "image_back": "img/cards/ML66/1995-96-Finest-150-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 }
             ]
         },
@@ -3936,8 +3937,8 @@
                 {
                     "id": "ml-1994-95-pog-canada-games-nhl-185",
                     "base_number": "185",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
+                    "orientation_front": "square",
+                    "orientation_back": "square",
                     "image_front": "img/cards/ML66/1994-95-POG-Canada-Games-NHL-185-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/1994-95-POG-Canada-Games-NHL-185-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
@@ -4155,8 +4156,8 @@
                         {
                             "id": "ml-1996-97-pinnacle-mint-coins-brass-1",
                             "base_number": "1",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "square",
+                            "orientation_back": "square",
                             "image_front": "img/cards/ML66/1996-97-Pinnacle-Mint-Collection---Coins-Brass-1-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/1996-97-Pinnacle-Mint-Collection---Coins-Brass-1-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
@@ -7064,29 +7065,6 @@
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
-                }
-            ]
-        },
-        "1995-96-finest": {
-            "set_key": "1995-96-finest",
-            "set_name": "Finest",
-            "set_year_label": "1995-96",
-            "set_year_start": 1995,
-            "set_year_end": 1996,
-            "set_display_name": "1995-96 Finest",
-            "set_tcdb_href": "",
-            "cards": [
-                {
-                    "id": "ml-1995-96-finest-150",
-                    "base_number": "150",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center",
-                    "inCollection": true
                 }
             ]
         },

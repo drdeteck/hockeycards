@@ -200,6 +200,18 @@
     object-fit: cover;
 }
 
+.card-profile-card-image.card-square {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.card-profile-card-image.card-fleerpowerplay {
+    aspect-ratio: 256 / 475;
+    width: 74.5%;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
 .card-profile-text {
     padding: 10px 14px;
 }

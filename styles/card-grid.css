@@ -167,6 +167,18 @@
     padding-bottom: 71.43%;
 }
 
+.card-grid-item-card.card-square {
+    padding-bottom: 100%;
+}
+
+.card-grid-item.card-fleerpowerplay {
+    width: 179px;
+}
+
+.card-grid-item-card.card-fleerpowerplay {
+    padding-bottom: 185.79%;
+}
+
 .card-grid-item-invisible-label {
     z-index: 1000;
     color: transparent;
