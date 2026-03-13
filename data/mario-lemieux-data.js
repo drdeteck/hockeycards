@@ -3792,7 +3792,8 @@
                             "image_back": "img/cards/ML66/1994-95-Flair---Center-Spotlight-6-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "price": 5.00
                         }
                     ]
                 },
