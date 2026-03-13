@@ -1583,6 +1583,42 @@
             "set_tcdb_href": "",
             "cards": [
                 {
+                    "id": "ml-1993-94-stadium-club-143",
+                    "base_number": "143",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                },
+                {
+                    "id": "ml-1993-94-stadium-club-146",
+                    "base_number": "146",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                },
+                {
+                    "id": "ml-1993-94-stadium-club-148",
+                    "base_number": "148",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                },
+                {
                     "id": "ml-1993-94-stadium-club-310",
                     "base_number": "310",
                     "orientation_front": "portrait",
@@ -3054,6 +3090,29 @@
                 }
             ]
         },
+        "2001-02-upper-deck-honor-roll": {
+            "set_key": "2001-02-upper-deck-honor-roll",
+            "set_name": "Upper Deck Honor Roll",
+            "set_year_label": "2001-02",
+            "set_year_start": 2001,
+            "set_year_end": 2002,
+            "set_display_name": "2001-02 Upper Deck Honor Roll",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2001-02-upper-deck-honor-roll-38",
+                    "base_number": "38",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                }
+            ]
+        },
         "2001-02-sp-authentic": {
             "set_key": "2001-02-sp-authentic",
             "set_name": "SP Authentic",
@@ -4029,6 +4088,28 @@
                     "position": "Center",
                     "inCollection": true
                 }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1994-95-parkhurst-you-crash-the-game-gold",
+                    "set_name": "You Crash The Game Gold",
+                    "set_display_name": "1994-95 Parkhurst - You Crash The Game Gold",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1994-95-parkhurst-you-crash-the-game-gold-g18",
+                            "base_number": "G18",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": true
+                        }
+                    ]
+                }
             ]
         },
         "1994-95-pinnacle": {
@@ -4810,6 +4891,18 @@
             "set_tcdb_href": "",
             "cards": [
                 {
+                    "id": "ml-1991-92-stadium-club-members-only-47",
+                    "base_number": "47",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                },
+                {
                     "id": "ml-1991-92-stadium-club-members-only-art-ross",
                     "base_number": "NNO",
                     "orientation_front": "portrait",
@@ -5359,6 +5452,29 @@
                 }
             ]
         },
+        "1992-93-stadium-club": {
+            "set_key": "1992-93-stadium-club",
+            "set_name": "Stadium Club",
+            "set_year_label": "1992-93",
+            "set_year_start": 1992,
+            "set_year_end": 1993,
+            "set_display_name": "1992-93 Stadium Club",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1992-93-stadium-club-94",
+                    "base_number": "94",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                }
+            ]
+        },
         "2015-16-upper-deck": {
             "set_key": "2015-16-upper-deck",
             "set_name": "Upper Deck",
@@ -5498,6 +5614,26 @@
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "position": "Center"
+                        }
+                    ]
+                },
+                {
+                    "set_key": "1995-96-sp-stars",
+                    "set_name": "Stars",
+                    "set_display_name": "1995-96 SP - Stars",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1995-96-sp-stars-e22",
+                            "base_number": "E22",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": true
                         }
                     ]
                 }
