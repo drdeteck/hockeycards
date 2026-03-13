@@ -320,6 +320,28 @@
                     "position": "Center",
                     "inCollection": false
                 }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1990-91-score-american-sniper",
+                    "set_name": "Sniper",
+                    "set_display_name": "1990-91 Score (American) - Sniper",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1990-91-score-american-sniper-337",
+                            "base_number": "337",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": true
+                        }
+                    ]
+                }
             ]
         },
         "1990-91-score-canadian": {
@@ -388,6 +410,28 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "inCollection": true
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1990-91-topps-team-scoring-leaders",
+                    "set_name": "Team Scoring Leaders",
+                    "set_display_name": "1990-91 Topps - Team Scoring Leaders",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1990-91-topps-team-scoring-leaders-17",
+                            "base_number": "17",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": true
+                        }
+                    ]
                 }
             ]
         },
@@ -1313,7 +1357,8 @@
                     "image_back": "img/cards/ML66/1993-94-O-Pee-Chee-Premier-37-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 },
                 {
                     "id": "ml-1993-94-topps-premier-220",
@@ -3053,7 +3098,8 @@
                     "image_back": "img/cards/ML66/2001-02-SPx-78-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 },
                 {
                     "id": "ml-2001-02-spx-89",
@@ -3064,7 +3110,8 @@
                     "image_back": "img/cards/ML66/2001-02-SPx-89-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 }
             ]
         },
@@ -4056,6 +4103,29 @@
                             "position": "Center"
                         }
                     ]
+                }
+            ]
+        },
+        "1994-95-stadium-club": {
+            "set_key": "1994-95-stadium-club",
+            "set_name": "Stadium Club",
+            "set_year_label": "1994-95",
+            "set_year_start": 1994,
+            "set_year_end": 1995,
+            "set_display_name": "1994-95 Stadium Club",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1994-95-stadium-club-60",
+                    "base_number": "60",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
                 }
             ]
         },
