@@ -338,6 +338,9 @@ function DataViewModel() {
             image_front: row.image_front || '',
             image_back: row.image_back || '',
             tcdb_href: (tcdbHref && tcdbHref.indexOf('http') === 0) ? tcdbHref : '',
+            last_seen_price: row.last_seen_price !== undefined && row.last_seen_price !== null && row.last_seen_price !== ''
+                ? row.last_seen_price
+                : row.price,
             inCollection: !!(row.inCollection),
             _set_key: routingSetKey,
             _parent_key: parentSetKey || null
@@ -1211,12 +1214,52 @@ function DataViewModel() {
     };
 
     // unified dispatcher for the card-template: uses set name for mario, omits it for McD
-    self.GetCardGridMeta = function (card) {
+    self.GetCardGridMetaBase = function (card) {
         var col = self.CurrentCollection();
         if (col && col.source === 'mario') {
             return self.GetGridCardMeta(card);
         }
         return self.GetGridCardMetaMcDo(card);
+    };
+
+    self.GetCardGridPriceCad = function (card) {
+        if (!card) {
+            return '';
+        }
+
+        var rawPrice = card.last_seen_price;
+        if (rawPrice === undefined || rawPrice === null || rawPrice === '') {
+            return '';
+        }
+
+        var numericPrice = parseFloat(rawPrice);
+        if (isNaN(numericPrice)) {
+            return '';
+        }
+
+        return numericPrice.toFixed(2) + '$';
+    };
+
+    self.GetCardGridMeta = function (card) {
+        var baseMeta = self.GetCardGridMetaBase(card);
+        var priceCad = self.GetCardGridPriceCad(card);
+
+        if (!priceCad) {
+            return baseMeta;
+        }
+
+        return (baseMeta + ' · ' + priceCad).trim();
+    };
+
+    self.GetCardGridMetaTooltip = function (card) {
+        var baseMeta = self.GetCardGridMetaBase(card);
+        var priceCad = self.GetCardGridPriceCad(card);
+
+        if (!priceCad) {
+            return baseMeta;
+        }
+
+        return (baseMeta + ' · ' + priceCad).trim();
     };
 
     self.IsCurrentCollectionMario = ko.pureComputed(function () {

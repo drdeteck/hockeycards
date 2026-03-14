@@ -757,7 +757,11 @@
             <!-- /ko -->
         </a>
         <div class="card-grid-item-meta">
-            <span class="card-grid-item-meta-text" data-bind="text: $root.GetCardGridMeta($data)"></span>
+            <span class="card-grid-item-meta-text"
+                data-bind="text: $root.GetCardGridMetaBase($data), attr: { title: $root.GetCardGridMetaTooltip($data) }"></span>
+            <!-- ko if: $root.GetCardGridPriceCad($data) -->
+            <span class="card-grid-item-meta-price" data-bind="text: '· ' + $root.GetCardGridPriceCad($data)"></span>
+            <!-- /ko -->
             <!-- ko if: $root.IsCurrentCollectionMario() -->
             <a class="card-grid-item-ebay-link" target="_blank" rel="noopener noreferrer"
                 data-bind="attr: { href: $root.GetEbaySearchUrl($data), title: 'Search on eBay: ' + ($data.name || '') }">
@@ -774,10 +778,6 @@
                 </svg>
                 <span class="sr-only">TCDB</span>
             </a>
-            <!-- ko if: $data.last_seen_price -->
-            <span class="card-grid-item-price" data-bind="text: '$' + parseFloat($data.last_seen_price).toFixed(2)"
-                title="Last seen price"></span>
-            <!-- /ko -->
             <!-- /ko -->
         </div>
     </li>
