@@ -325,6 +325,28 @@
                     "position": "Center",
                     "inCollection": true
                 }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1990-91-bowman-hat-tricks",
+                    "set_name": "Hat Tricks",
+                    "set_display_name": "1990-91 Bowman - Hat Tricks",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1990-91-bowman-hat-tricks-2",
+                            "base_number": "2",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1990-91-Bowman---Hat-Tricks-2-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1990-91-Bowman---Hat-Tricks-2-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": true
+                        }
+                    ]
+                }
             ]
         },
         "1990-91-score-american": {
@@ -5179,7 +5201,8 @@
                     "image_back": "img/cards/ML66/1992-93-O-Pee-Chee-292-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-O-Pee-Chee-292-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 }
             ],
             "subsets": [
