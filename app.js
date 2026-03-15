@@ -1549,6 +1549,7 @@ function DataViewModel() {
             menuRows.push({
                 name: 'Mario Lemieux',
                 template: 'button-text-template',
+                cssClass: 'main-header--mario',
                 groups: orderedMarioGroups
             });
         }

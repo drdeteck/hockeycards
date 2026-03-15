@@ -4,6 +4,10 @@
     padding: 8px 2% 8px 2%;
 }
 
+.main-header--mario {
+    background-color: var(--color-mario-menu-bg);
+}
+
 .main-header-collections {
     display: flex;
     align-items: center;
