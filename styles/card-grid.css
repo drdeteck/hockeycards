@@ -237,20 +237,23 @@
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.45);
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.45);
+    -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.45), 0 0 6px rgba(255, 255, 255, 0.35);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.45), 0 0 6px rgba(255, 255, 255, 0.35);
     background-color: transparent;
+    border: 0;
+    outline: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
     z-index: 5;
 }
 
 img.card {
+    border: 0;
+    outline: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
-    background-image: -webkit-repeating-linear-gradient(145deg, #DDD, #DDD 5px, #CCC 5px, #CCC 10px);
-    background-image: -o-repeating-linear-gradient(145deg, #DDD, #DDD 5px, #CCC 5px, #CCC 10px);
-    background-image: repeating-linear-gradient(-55deg, #DDD, #DDD 5px, #CCC 5px, #CCC 10px);
+    background-image: none;
+    background-color: transparent;
     color: #000;
     display: block;
     font-size: 14px;

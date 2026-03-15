@@ -64,6 +64,7 @@ window.HCHB = window.HCHB || {};
             });
 
             App.ViewModel.Data(mergedData);
+            App.ViewModel.InitializeTheme();
 
             App.ViewModel.Root = App.ViewModel.MenuRows;
 
@@ -365,6 +366,42 @@ function DataViewModel() {
     self.IsSyncingBinderYearSelect = false;
     // 'off' | 'owned' | 'missing'
     self.CollectionOverlayMode = ko.observable('owned');
+    self.ThemeMode = ko.observable('light');
+    self.IsDarkMode = ko.pureComputed(function () {
+        return self.ThemeMode() === 'dark';
+    });
+    self.ThemeToggleLabel = ko.pureComputed(function () {
+        return self.IsDarkMode() ? 'Light' : 'Dark';
+    });
+    self.ApplyTheme = function (mode) {
+        var theme = mode === 'dark' ? 'dark' : 'light';
+        self.ThemeMode(theme);
+        document.documentElement.setAttribute('data-theme', theme);
+    };
+    self.InitializeTheme = function () {
+        var savedTheme = '';
+        try {
+            savedTheme = window.localStorage.getItem('hockeycards-theme') || '';
+        } catch (error) {
+            savedTheme = '';
+        }
+
+        if (savedTheme !== 'dark' && savedTheme !== 'light') {
+            self.ApplyTheme('light');
+            return;
+        }
+
+        self.ApplyTheme(savedTheme);
+    };
+    self.ToggleTheme = function () {
+        var nextTheme = self.IsDarkMode() ? 'light' : 'dark';
+        self.ApplyTheme(nextTheme);
+        try {
+            window.localStorage.setItem('hockeycards-theme', nextTheme);
+        } catch (error) {
+            // ignore storage errors
+        }
+    };
     self.ShowCollectionOverlay = ko.pureComputed(function () {
         return self.CollectionOverlayMode() !== 'off';
     });

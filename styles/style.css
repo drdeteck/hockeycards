@@ -19,11 +19,36 @@
     --color-black: #000;
 }
 
+[data-theme='dark'] {
+    --color-text: #e3ebf2;
+    --color-main-bg: #121c26;
+    --color-header-bg: #101c29;
+    --color-app-bg: #0b141d;
+    --color-pale-blue: #a4bbce;
+    --color-blue: #6f90a7;
+    --color-dark-blue: #4f6778;
+    --color-border: #5f7687;
+    --color-white: #e8eef3;
+    --color-black: #000;
+}
+
 body {
     color: var(--color-text);
     font-size: 15px;
     font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     background-color: var(--color-app-bg);
+}
+
+body,
+.main,
+.header,
+.main-header,
+.footer,
+.card-profile,
+.card-profile-text,
+.card-profile-prints {
+    -webkit-transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
 ul {
@@ -390,6 +415,141 @@ ul {
 .export-view-toggle.active:focus {
     background-color: var(--color-dark-blue);
     border-color: var(--color-dark-blue);
+    color: var(--color-white);
+}
+
+.theme-toggle.active {
+    background-color: var(--color-blue);
+    border-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+.theme-toggle.active:hover,
+.theme-toggle.active:focus {
+    background-color: var(--color-dark-blue);
+    border-color: var(--color-dark-blue);
+    color: var(--color-white);
+}
+
+[data-theme='dark'] .main {
+    background-color: var(--color-main-bg);
+}
+
+[data-theme='dark'] .card-grid-header-inner:before {
+    background-color: rgba(143, 168, 188, 0.42);
+}
+
+[data-theme='dark'] .card-grid-header-content {
+    background: var(--color-main-bg);
+    color: var(--color-pale-blue);
+}
+
+[data-theme='dark'] .card-grid-header-dot {
+    color: rgba(143, 168, 188, 0.52);
+}
+
+[data-theme='dark'] .card-grid-item-meta,
+[data-theme='dark'] .card-grid-item-ebay-link,
+[data-theme='dark'] .card-grid-item-tcdb-link,
+[data-theme='dark'] .card-grid-item-price {
+    color: var(--color-pale-blue);
+}
+
+[data-theme='dark'] .card-grid-item-meta-price {
+    color: #ff8a65;
+}
+
+[data-theme='dark'] .card {
+    -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.55), 0 0 14px rgba(255, 255, 255, 0.55), 0 0 28px rgba(255, 255, 255, 0.25);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.55), 0 0 14px rgba(255, 255, 255, 0.55), 0 0 28px rgba(255, 255, 255, 0.25);
+}
+
+[data-theme='dark'] .card-profile-card-image {
+    -webkit-box-shadow: 0 2px 12px rgba(0, 0, 0, 0.6), 0 0 16px rgba(255, 255, 255, 0.6), 0 0 32px rgba(255, 255, 255, 0.28);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.6), 0 0 16px rgba(255, 255, 255, 0.6), 0 0 32px rgba(255, 255, 255, 0.28);
+}
+
+[data-theme='dark'] .card-profile {
+    background-color: #111c26;
+    border-bottom-color: #3a4b58;
+    color: var(--color-text);
+}
+
+[data-theme='dark'] .card-action-button {
+    border-color: #596c7c;
+    background: #1b2a37;
+    color: var(--color-pale-blue);
+}
+
+[data-theme='dark'] .card-action-button:hover:not(:disabled) {
+    background: #223445;
+}
+
+[data-theme='dark'] .card-action-button.is-active {
+    border-color: #7a96ac;
+    background: #2a4053;
+}
+
+[data-theme='dark'] .card-profile-text {
+    background-color: #162330;
+    border-color: #4b6172;
+}
+
+[data-theme='dark'] .card-profile-prints {
+    background-color: #121d28;
+}
+
+[data-theme='dark'] .card-text,
+[data-theme='dark'] .card-text-card-name,
+[data-theme='dark'] .card-profile-type-line,
+[data-theme='dark'] .card-profile-text-box p,
+[data-theme='dark'] .card-profile-table td > span,
+[data-theme='dark'] .card-profile-table td > a {
+    color: var(--color-text);
+}
+
+[data-theme='dark'] .card-text {
+    background: #162330;
+    border-color: rgba(172, 192, 209, 0.35);
+}
+
+[data-theme='dark'] .card-profile-title,
+[data-theme='dark'] .card-profile-type-line,
+[data-theme='dark'] .card-profile-text-box p,
+[data-theme='dark'] .card-profile-set-line,
+[data-theme='dark'] .card-profile-divider,
+[data-theme='dark'] .card-profile-actions {
+    border-color: rgba(172, 192, 209, 0.20);
+}
+
+[data-theme='dark'] .card-profile-table {
+    background-color: #162330;
+    border-left-color: rgba(172, 192, 209, 0.25);
+    border-right-color: rgba(172, 192, 209, 0.25);
+    border-top-color: rgba(172, 192, 209, 0.35);
+    border-bottom-color: rgba(172, 192, 209, 0.55);
+}
+
+[data-theme='dark'] .card-profile-table td {
+    background-color: #162330;
+    border-top-color: rgba(172, 192, 209, 0.20);
+}
+
+[data-theme='dark'] .card-profile-table tbody tr {
+    border-bottom-color: rgba(172, 192, 209, 0.20);
+    border-left-color: rgba(172, 192, 209, 0.25);
+}
+
+[data-theme='dark'] .card-profile-table tr.current td {
+    background-color: rgba(111, 144, 167, 0.30);
+}
+
+[data-theme='dark'] .card-profile-soft-toggle {
+    background: #162330;
+    color: var(--color-pale-blue);
+}
+
+[data-theme='dark'] .btn-outline-light {
     color: var(--color-white);
 }
 

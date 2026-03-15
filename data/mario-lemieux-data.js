@@ -518,6 +518,18 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "inCollection": true
+                },
+                {
+                    "id": "ml-1990-91-upper-deck-59",
+                    "base_number": "59",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1990-91-Upper-Deck-59-Lemieux's-Scoring-StreakFr.jpg",
+                    "image_back": "img/cards/ML66/1990-91-Upper-Deck-59-Lemieux's-Scoring-StreakBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
                 }
             ]
         },
@@ -541,6 +553,18 @@
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1990-91-Upper-Deck-French-144-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
+                },
+                {
+                    "id": "ml-1990-91-ud-french-59",
+                    "base_number": "59",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1990-91-Upper-Deck-French-59-Lemieux-103-Points-en-46-PartiesFr.jpg",
+                    "image_back": "img/cards/ML66/1990-91-Upper-Deck-French-59-Lemieux-103-Points-en-46-PartiesBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": false
                 }
             ]
         },
@@ -1949,7 +1973,7 @@
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
-                    "inCollection": true
+                    "inCollection": false
                 }
             ],
             "subsets": [
