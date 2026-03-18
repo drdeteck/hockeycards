@@ -41,9 +41,6 @@ window.HCHB = window.HCHB || {};
 
                 function normalizeOrientationValue(value) {
                     var text = (value || '').toString().trim().toLowerCase();
-                    if (text === 'quare') {
-                        return 'square';
-                    }
                     if (text === 'portrait' || text === 'landscape' || text === 'square' || text === 'fleerpowerplay') {
                         return text;
                     }
@@ -759,10 +756,6 @@ function DataViewModel() {
         self.CardImageFace(self.CardImageFace() === 'front' ? 'back' : 'front');
     };
 
-    self.ToggleCollectionOverlay = function () {
-        self.ShowCollectionOverlay(!self.ShowCollectionOverlay());
-    };
-
     self.ToggleExportOverlay = function () {
         self.ShowExportOverlay(!self.ShowExportOverlay());
     };
@@ -1418,17 +1411,6 @@ function DataViewModel() {
         }
 
         return numericPrice.toFixed(2) + '$';
-    };
-
-    self.GetCardGridMeta = function (card) {
-        var baseMeta = self.GetCardGridMetaBase(card);
-        var priceCad = self.GetCardGridPriceCad(card);
-
-        if (!priceCad) {
-            return baseMeta;
-        }
-
-        return (baseMeta + ' · ' + priceCad).trim();
     };
 
     self.GetCardGridMetaTooltip = function (card) {
