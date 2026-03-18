@@ -184,7 +184,8 @@
                     "image_back": "img/cards/ML66/1988-89-Topps-1-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4867/cid/1175476/1988-89-Topps-1-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "price": 8.09
                 }
             ]
         },
@@ -579,6 +580,18 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "inCollection": true
+                },
+                {
+                    "id": "ml-1990-91-ud-french-305",
+                    "base_number": "305",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1990-91-Upper-Deck-French-305-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1990-91-Upper-Deck-French-305-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": false
                 }
             ]
         },
@@ -601,7 +614,7 @@
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Bowman-87-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
-                    "inCollection": false
+                    "inCollection": true
                 },
                 {
                     "id": "ml-1991-92-bowman-425",
@@ -613,7 +626,7 @@
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Bowman-425-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
-                    "inCollection": false
+                    "inCollection": true
                 }
             ]
         },
@@ -762,7 +775,8 @@
                     "image_back": "img/cards/ML66/1991-92-Score-American-200-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Score-American-200-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 }
             ],
             "subsets": [
@@ -2820,7 +2834,8 @@
                     "image_back": "img/cards/ML66/1996-97-Upper-Deck-321-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 }
             ],
             "subsets": [
