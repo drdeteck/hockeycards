@@ -795,7 +795,8 @@
                             "image_back": "img/cards/ML66/1991-92-Score-American---Hot-Cards-5-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Score-American---Hot-Cards-5-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "inCollection": true
                         }
                     ]
                 }
@@ -1183,7 +1184,8 @@
                             "image_back": "img/cards/ML66/1992-93-Upper-Deck-All-Star-Locker-Series-6-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Upper-Deck-All-Star-Locker-Series-6-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "inCollection": true
                         }
                     ]
                 }
@@ -1792,7 +1794,8 @@
                             "image_back": "img/cards/ML66/1993-94-Upper-Deck---NHL's-Best-HB7-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "price": 15.09
                         }
                     ]
                 },
@@ -1811,7 +1814,8 @@
                             "image_back": "img/cards/ML66/1993-94-Upper-Deck---Program-of-Excellence-E13-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "price": 7.01
                         }
                     ]
                 },
@@ -2492,7 +2496,8 @@
                             "image_back": "img/cards/ML66/1995-96-Collector's-Choice---You-Crash-the-Game-Silver-C25c-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "inCollection": true
                         }
                     ]
                 },
@@ -2607,7 +2612,7 @@
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": true
                         },
                         {
                             "id": "ml-1995-96-donruss-kelloggs-3",
@@ -2619,7 +2624,7 @@
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": true
                         },
                         {
                             "id": "ml-1995-96-donruss-kelloggs-4",
@@ -2992,7 +2997,8 @@
                             "image_back": "img/cards/ML66/1996-97-Upper-Deck---Superstar-Showdown-SS5B-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "inCollection": true
                         }
                     ]
                 }
@@ -4596,7 +4602,9 @@
                             "image_back": "img/cards/ML66/1994-95-Donruss---Elite-6-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "inCollection": false,
+                            "price": 45.01
                         }
                     ]
                 },
@@ -4615,7 +4623,9 @@
                             "image_back": "img/cards/ML66/1994-95-Donruss---Ice-Masters-5-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "inCollection": false,
+                            "price": 9.09
                         }
                     ]
                 }
@@ -4767,7 +4777,8 @@
                     "image_back": "img/cards/ML66/1994-95-Leaf-Limited-1-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 }
             ]
         },
@@ -4942,7 +4953,8 @@
                             "image_back": "img/cards/ML66/1994-95-Pinnacle---Rink-Collection-170-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "price": 15.09
                         }
                     ]
                 }
@@ -4986,7 +4998,8 @@
                             "image_back": "img/cards/ML66/1994-95-Ultra---Scoring-Kings-5-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "inCollection": true
                         }
                     ]
                 }
@@ -5938,7 +5951,7 @@
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
-                    "inCollection": false
+                    "inCollection": true
                 }
             ],
             "subsets": [
@@ -6288,7 +6301,8 @@
                             "image_back": "img/cards/ML66/1992-93-Topps---Gold-265-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Topps---Gold-265-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
-                            "position": "Center"
+                            "position": "Center",
+                            "inCollection": true
                         },
                         {
                             "id": "ml-1992-93-topps-gold-504",
@@ -6772,7 +6786,8 @@
                     "image_back": "img/cards/ML66/1996-97-Donruss-Elite-109-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 }
             ],
             "subsets": [
@@ -6990,8 +7005,8 @@
             "subsets": [
                 {
                     "set_key": "1996-97-pinnacle-foil",
-                    "set_name": "Foil (Parallel)",
-                    "set_display_name": "1996-97 Pinnacle - Foil (Parallel)",
+                    "set_name": "Foil ",
+                    "set_display_name": "1996-97 Pinnacle - Foil",
                     "set_type": "parallel",
                     "set_tcdb_href": "",
                     "cards": [
@@ -7005,7 +7020,8 @@
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "variant_note": "Foil"
+                            "variant_note": "Foil",
+                            "price": 15.09
                         }
                     ]
                 },
@@ -7290,7 +7306,8 @@
                     "image_back": "img/cards/ML66/1996-97-Ultra-143-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
-                    "position": "Center"
+                    "position": "Center",
+                    "inCollection": true
                 }
             ]
         },
@@ -7313,6 +7330,29 @@
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
+                }
+            ]
+        },
+        "1996-97-stadium-club-members-only-50": {
+            "set_key": "1996-97-stadium-club-members-only-50",
+            "set_name": "Stadium Club Members Only 50",
+            "set_year_label": "1996-97",
+            "set_year_start": 1996,
+            "set_year_end": 1997,
+            "set_display_name": "1996-97 Stadium Club Members Only 50",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-1996-97-stadium-club-members-only-50-24",
+                    "base_number": "24",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1996-97-Stadium-Club-Members-Only-50-24-Mario-Lemieux-Fr.jpg",
+                    "image_back": "img/cards/ML66/1996-97-Stadium-Club-Members-Only-50-24-Mario-Lemieux-Bk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
                 }
             ]
         },
@@ -8247,6 +8287,29 @@
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center"
+                }
+            ]
+        },
+        "2011-12-upper-deck-black-diamond": {
+            "set_key": "2011-12-upper-deck-black-diamond",
+            "set_name": "Upper Deck Black Diamond",
+            "set_year_label": "2011-12",
+            "set_year_start": 2011,
+            "set_year_end": 2012,
+            "set_display_name": "2011-12 Upper Deck Black Diamond",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2011-12-upper-deck-black-diamond-49",
+                    "base_number": "49",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/2011-12-Upper-Deck-Black-Diamond-49-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/2011-12-Upper-Deck-Black-Diamond-49-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
                 }
             ]
         },
