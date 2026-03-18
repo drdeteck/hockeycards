@@ -38,7 +38,9 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
     <script src="data/mcdonalds-data.js?ver=0.1.2"></script>
     <script src="data/mario-lemieux-data.js?ver=0.1.5"></script>
-    <script src="app.js?ver=0.1.16"></script>
+    <script src="data/96-97-cc-data.js?ver=0.1.0"></script>
+    <script src="data/other-cards.js?ver=0.1.0"></script>
+    <script src="app.js?ver=0.1.17"></script>
 </head>
 
 <body>
@@ -52,6 +54,10 @@
         </symbol>
         <symbol id="icon-external" viewBox="0 0 24 24">
             <path d="M14 3h7v7h-2V6.41l-8.29 8.3-1.42-1.42 8.3-8.29H14V3Zm5 16V11h2v10H3V3h10v2H5v14h14Z" />
+        </symbol>
+        <symbol id="icon-search" viewBox="0 0 24 24">
+            <path
+                d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79L19 20.49 20.49 19 15.5 14Zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14Z" />
         </symbol>
         <symbol id="logo-upperdeck" viewBox="0 0 192.756 192.756">
             <path fill="none" stroke="currentColor" stroke-width="9.718" stroke-miterlimit="2.613"
@@ -189,6 +195,7 @@
                 <!-- /ko -->
 
                 <!-- ko if: set_key !== 'ML-all' && !$root.IsMLYearView() -->
+                <!-- ko if: (cards || []).length || !($root.CurrentCollection() && $root.CurrentCollection().subsets && $root.CurrentCollection().subsets.length) -->
                 <h2 class="card-grid-header">
                     <span class="card-grid-header-inner">
                         <span class="card-grid-header-content">
@@ -205,6 +212,7 @@
                     <ul class="card-grid-inner" data-bind="template: {name: 'card-template', foreach: cards}">
                     </ul>
                 </div>
+                <!-- /ko -->
 
                 <!-- renders any inner sets / subsets (e.g. Holograms) -->
                 <!-- ko if: $root.CurrentCollection() && $root.CurrentCollection().subsets && $root.CurrentCollection().subsets.length -->
@@ -298,6 +306,11 @@
                                     <use href="#icon-back"></use>
                                 </svg>Back
                                 to set</a>
+                            <a class="btn btn-sm btn-outline-secondary" target="_blank" rel="noopener noreferrer"
+                                data-bind="attr: { href: $root.GetEbaySearchUrl(card), 'aria-label': 'Search eBay for ' + (card.name || 'card'), title: 'Search on eBay: ' + (card.name || '') }"><svg
+                                    class="icon-inline" aria-hidden="true" focusable="false">
+                                    <use href="#icon-search"></use>
+                                </svg>EBAY</a>
                             <a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer"
                                 data-bind="attr: { href: $root.CardExternalHref(), 'aria-label': 'Open TCDB page for ' + (card.name || 'card') }"><svg
                                     class="icon-inline" aria-hidden="true" focusable="false">
@@ -694,7 +707,7 @@
     <!-- ROW -->
     <script type="text/html" id="menu-row-template">
 
-        <div class="main-header" data-bind="css: $data.cssClass">
+        <div class="main-header" data-bind="css: $root.MenuRowCss($data)">
             <div class="inner-flex">
                 <div class="main-header-collections">
                     <span class="collection-control-title" data-bind="text: $data.name"></span>

@@ -21,6 +21,18 @@ window.HCHB = window.HCHB || {};
                 console.warn('Mario dataset not loaded. Expected window.marioLemieuxData from data/mario-lemieux-data.js');
             }
 
+            if (window.cc9697Data) {
+                mergedData = Object.assign(mergedData, window.cc9697Data);
+            } else {
+                console.warn('96-97-CC dataset not loaded. Expected window.cc9697Data from data/96-97-cc-data.js');
+            }
+
+            if (window.otherCardsData) {
+                mergedData = Object.assign(mergedData, window.otherCardsData);
+            } else {
+                console.warn('Other cards dataset not loaded. Expected window.otherCardsData from data/other-cards.js');
+            }
+
             // Add _parent_key to all subsets so BuildCardRoute can emit Set/Subset/number URLs
             // Also normalize orientation_front/orientation_back from orientation for any card missing them
             Object.keys(mergedData).forEach(function (setKey) {
@@ -47,8 +59,54 @@ window.HCHB = window.HCHB || {};
                     card.orientation_back = back || base;
                 }
 
+                function applyCardSetContext(card, parentSet, subset) {
+                    if (!card || !parentSet || (parentSet.source !== '96-97-CC' && parentSet.source !== 'other-cards')) {
+                        return;
+                    }
+
+                    if (!card.set_name) {
+                        card.set_name = parentSet.set_name || '';
+                    }
+
+                    if (card.set_variation === undefined) {
+                        card.set_variation = parentSet.set_variation || null;
+                    }
+
+                    if (!card.set_year_label) {
+                        card.set_year_label = parentSet.set_year_label || '';
+                    }
+
+                    if (card.set_year_start === undefined || card.set_year_start === null || card.set_year_start === '') {
+                        card.set_year_start = parentSet.set_year_start;
+                    }
+
+                    if (card.set_year_end === undefined || card.set_year_end === null || card.set_year_end === '') {
+                        card.set_year_end = parentSet.set_year_end;
+                    }
+
+                    if (!card.set_display_name) {
+                        card.set_display_name = parentSet.set_display_name || '';
+                    }
+
+                    if (!card._set_key) {
+                        card._set_key = subset ? subset.set_key : parentSet.set_key;
+                    }
+
+                    if (subset) {
+                        if (!card.insert_subset) {
+                            card.insert_subset = subset.set_name || '';
+                        }
+                        if (!card._parent_key) {
+                            card._parent_key = parentSet.set_key;
+                        }
+                    }
+                }
+
                 if (Array.isArray(setData.cards)) {
-                    setData.cards.forEach(normalizeCardOrientation);
+                    setData.cards.forEach(function (card) {
+                        normalizeCardOrientation(card);
+                        applyCardSetContext(card, setData, null);
+                    });
                 }
 
                 if (Array.isArray(setData.subsets)) {
@@ -57,7 +115,10 @@ window.HCHB = window.HCHB || {};
                             subset._parent_key = setKey;
                         }
                         if (Array.isArray(subset.cards)) {
-                            subset.cards.forEach(normalizeCardOrientation);
+                            subset.cards.forEach(function (card) {
+                                normalizeCardOrientation(card);
+                                applyCardSetContext(card, setData, subset);
+                            });
                         }
                     });
                 }
@@ -79,10 +140,56 @@ window.HCHB = window.HCHB || {};
 
                 window.addEventListener('scroll', updateScrollToTopVisibility, { passive: true });
                 scrollToTopButton.addEventListener('click', function () {
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                    App.ViewModel.FastScrollToTop();
                 });
                 updateScrollToTopVisibility();
             }
+
+            var stickyTickScheduled = false;
+            var updateStickySubmenuState = function () {
+                stickyTickScheduled = false;
+
+                var isPortraitDesktop = window.matchMedia('(min-width: 900px)').matches && window.innerHeight > window.innerWidth;
+                document.body.classList.toggle('submenu-sticky-enabled', isPortraitDesktop);
+
+                var activeRow = document.querySelector('.main-header.main-header--sticky-active');
+                var shouldStick = !!(isPortraitDesktop && activeRow && window.pageYOffset > 0);
+                document.body.classList.toggle('submenu-sticky-scrolled', shouldStick);
+
+                if (shouldStick) {
+                    document.documentElement.style.setProperty('--submenu-sticky-height', activeRow.offsetHeight + 'px');
+                } else {
+                    document.documentElement.style.setProperty('--submenu-sticky-height', '0px');
+                }
+            };
+
+            var scheduleStickySubmenuUpdate = function () {
+                if (stickyTickScheduled) {
+                    return;
+                }
+                stickyTickScheduled = true;
+                window.requestAnimationFrame(updateStickySubmenuState);
+            };
+
+            window.addEventListener('scroll', scheduleStickySubmenuUpdate, { passive: true });
+            window.addEventListener('resize', scheduleStickySubmenuUpdate);
+            window.addEventListener('hashchange', function () {
+                window.setTimeout(scheduleStickySubmenuUpdate, 0);
+            });
+
+            if (App.ViewModel.CurrentRoute && App.ViewModel.CurrentRoute.subscribe) {
+                App.ViewModel.CurrentRoute.subscribe(function () {
+                    window.setTimeout(scheduleStickySubmenuUpdate, 0);
+                });
+            }
+
+            if (App.ViewModel.CurrentCollectionKey && App.ViewModel.CurrentCollectionKey.subscribe) {
+                App.ViewModel.CurrentCollectionKey.subscribe(function () {
+                    window.setTimeout(scheduleStickySubmenuUpdate, 0);
+                });
+            }
+
+            scheduleStickySubmenuUpdate();
 
             // Setup routing
             window.addEventListener('hashchange', App.ViewModel.HandleRouteChange);
@@ -145,6 +252,10 @@ function DataViewModel() {
         }
 
         return baseName;
+    };
+
+    self.IsMarioSource = function (source) {
+        return source === 'mario' || source === '96-97-CC' || source === 'other-cards';
     };
 
     self.BuildMarioCollections = function (marioData) {
@@ -373,6 +484,36 @@ function DataViewModel() {
     self.ThemeToggleLabel = ko.pureComputed(function () {
         return self.IsDarkMode() ? 'Light' : 'Dark';
     });
+    self.FastScrollToTop = function () {
+        var startY = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        if (startY <= 0) {
+            return;
+        }
+
+        var duration = 140;
+        var startTime = null;
+
+        function easeOutCubic(t) {
+            return 1 - Math.pow(1 - t, 3);
+        }
+
+        function step(timestamp) {
+            if (startTime === null) {
+                startTime = timestamp;
+            }
+
+            var elapsed = timestamp - startTime;
+            var progress = Math.min(elapsed / duration, 1);
+            var nextY = Math.round(startY * (1 - easeOutCubic(progress)));
+            window.scrollTo(0, nextY);
+
+            if (progress < 1) {
+                window.requestAnimationFrame(step);
+            }
+        }
+
+        window.requestAnimationFrame(step);
+    };
     self.ApplyTheme = function (mode) {
         var theme = mode === 'dark' ? 'dark' : 'light';
         self.ThemeMode(theme);
@@ -426,6 +567,8 @@ function DataViewModel() {
             self.CurrentCardContext(null);
             self.CardRouteError('');
             self.ShowAllSetCards(false);
+
+            self.FastScrollToTop();
         }
     });
 
@@ -1253,7 +1396,7 @@ function DataViewModel() {
     // unified dispatcher for the card-template: uses set name for mario, omits it for McD
     self.GetCardGridMetaBase = function (card) {
         var col = self.CurrentCollection();
-        if (col && col.source === 'mario') {
+        if (col && self.IsMarioSource(col.source)) {
             return self.GetGridCardMeta(card);
         }
         return self.GetGridCardMetaMcDo(card);
@@ -1301,7 +1444,7 @@ function DataViewModel() {
 
     self.IsCurrentCollectionMario = ko.pureComputed(function () {
         var col = self.CurrentCollection();
-        return !!(col && col.source === 'mario');
+        return !!(col && self.IsMarioSource(col.source));
     });
 
     self.GetEbaySearchUrl = function (card) {
@@ -1445,14 +1588,13 @@ function DataViewModel() {
             // For Mario virtual collections, only count from ML-all to avoid double-counting
             if (set.source === 'mario' && set.set_key !== 'ML-all') { return; }
 
-            var tally = set.source === 'mario' ? mario : mcd;
+            var tally = self.IsMarioSource(set.source) ? mario : mcd;
             countCards(set.cards, tally);
             countCards(set.cards, overall);
 
-            // For McDonald's, also count subset cards
-            if (set.source !== 'mario' && Array.isArray(set.subsets)) {
+            if (Array.isArray(set.subsets)) {
                 set.subsets.forEach(function (subset) {
-                    countCards(subset.cards, mcd);
+                    countCards(subset.cards, tally);
                     countCards(subset.cards, overall);
                 });
             }
@@ -1464,16 +1606,60 @@ function DataViewModel() {
         return result;
     });
 
+    self.IsStickyMenuRowActive = function (row) {
+        if (!row || !row.name) {
+            return false;
+        }
+
+        var route = (self.CurrentRoute() || '').toString().toLowerCase();
+        if (route === 'about' || route === 'binder') {
+            return false;
+        }
+
+        var currentCollection = self.CurrentCollection();
+        var activeRowName = 'McDonald\'s';
+
+        if (currentCollection && currentCollection.source) {
+            if (currentCollection.source === 'mario') {
+                activeRowName = 'Mario Lemieux';
+            } else if (currentCollection.source === '96-97-CC' || currentCollection.source === 'other-cards') {
+                activeRowName = 'Other Sets';
+            }
+        } else {
+            var currentKey = (self.CurrentCollectionKey() || '').toString().toLowerCase();
+            if (/^ml(-|$)/.test(currentKey)) {
+                activeRowName = 'Mario Lemieux';
+            } else if (currentKey === '96-97-cc' || currentKey.indexOf('other-') === 0) {
+                activeRowName = 'Other Sets';
+            }
+        }
+
+        return row.name === activeRowName;
+    };
+
+    self.MenuRowCss = function (row) {
+        var classes = {};
+        if (row && row.cssClass) {
+            classes[row.cssClass] = true;
+        }
+
+        classes['main-header--sticky-active'] = self.IsStickyMenuRowActive(row);
+        return classes;
+    };
+
     // build menu rows automatically whenever the data changes
     self.MenuRows = ko.computed(function () {
         var d = self.Data() || {};
         var items = Object.values(d);
         if (items.length === 0) return [];
 
-        var mcdItems = items.filter(function (itm) { return itm && itm.source !== 'mario'; });
+        var mcdItems = items.filter(function (itm) { return itm && !self.IsMarioSource(itm.source); });
         // Only show virtual year collections (ML-*) in the menu, not individual proper sets
         var marioItems = items.filter(function (itm) {
             return itm && itm.source === 'mario' && /^ML(-|$)/.test(itm.set_key || '');
+        });
+        var marioProjectItems = items.filter(function (itm) {
+            return itm && (itm.source === '96-97-CC' || itm.source === 'other-cards');
         });
 
         var groups = [];
@@ -1509,29 +1695,32 @@ function DataViewModel() {
                     return leftYear - rightYear;
                 });
 
-            var marioGroupMap = {};
+            var marioDecadeGroupMap = {};
+            var orderedMarioGroups = [];
+
             if (marioAll) {
-                marioGroupMap['All'] = [{
+                orderedMarioGroups.push({
+                    text: 'All',
+                    controls: [{
                     key: marioAll.set_key,
                     displayName: 'All ML Cards'
-                }];
+                    }]
+                });
             }
 
             marioYears.forEach(function (item) {
                 var decade = item.set_category || self.GetDecadeLabel(item.set_year_label);
-                if (!marioGroupMap[decade]) {
-                    marioGroupMap[decade] = [];
+                if (!marioDecadeGroupMap[decade]) {
+                    marioDecadeGroupMap[decade] = [];
                 }
-                marioGroupMap[decade].push({
+                marioDecadeGroupMap[decade].push({
                     key: item.set_key,
                     displayName: item.set_year_label || item.set_name
                 });
             });
 
-            var orderedMarioGroups = Object.keys(marioGroupMap)
+            orderedMarioGroups = orderedMarioGroups.concat(Object.keys(marioDecadeGroupMap)
                 .sort(function (left, right) {
-                    if (left === 'All') return -1;
-                    if (right === 'All') return 1;
                     var leftNum = parseInt(left, 10);
                     var rightNum = parseInt(right, 10);
                     if (!isNaN(leftNum) && !isNaN(rightNum)) {
@@ -1542,15 +1731,60 @@ function DataViewModel() {
                 .map(function (label) {
                     return {
                         text: label,
-                        controls: marioGroupMap[label]
+                        controls: marioDecadeGroupMap[label]
                     };
-                });
+                }));
 
             menuRows.push({
                 name: 'Mario Lemieux',
                 template: 'button-text-template',
                 cssClass: 'main-header--mario',
                 groups: orderedMarioGroups
+            });
+        }
+
+        if (marioProjectItems.length > 0) {
+            var otherSetGroupMap = {};
+            marioProjectItems
+                .sort(function (left, right) {
+                    var leftYear = self.GetSeasonStartYear(left.set_year_label) || 0;
+                    var rightYear = self.GetSeasonStartYear(right.set_year_label) || 0;
+                    if (leftYear !== rightYear) {
+                        return leftYear - rightYear;
+                    }
+
+                    var leftName = (left.menu_display_name || left.set_display_name || left.set_name || '').toString();
+                    var rightName = (right.menu_display_name || right.set_display_name || right.set_name || '').toString();
+                    return leftName.localeCompare(rightName, undefined, { sensitivity: 'base' });
+                })
+                .forEach(function (item) {
+                    var category = item.set_category || 'Complete Sets';
+                    if (!otherSetGroupMap[category]) {
+                        otherSetGroupMap[category] = [];
+                    }
+
+                    otherSetGroupMap[category].push({
+                        key: item.set_key,
+                        displayName: item.menu_display_name || item.set_display_name || item.set_year_label || item.set_name
+                    });
+                });
+
+            var orderedOtherSetGroups = Object.keys(otherSetGroupMap)
+                .sort(function (left, right) {
+                    return left.localeCompare(right, undefined, { sensitivity: 'base' });
+                })
+                .map(function (label) {
+                    return {
+                        text: label,
+                        controls: otherSetGroupMap[label]
+                    };
+                });
+
+            menuRows.push({
+                name: 'Other Sets',
+                template: 'button-text-template',
+                cssClass: 'main-header--other-sets',
+                groups: orderedOtherSetGroups
             });
         }
 

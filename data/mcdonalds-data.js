@@ -3833,7 +3833,7 @@ var rawData = {
                         "image_front": "img/cards/McD98-99/48889-M1Fr.jpg",
                         "image_back": "img/cards/McD98-99/48889-M1Bk.jpg",
                         "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments",
-                        "inCollection": true
+                        "inCollection": false
                     },
                     {
                         "name": "Wayne Gretzky",
@@ -3845,7 +3845,7 @@ var rawData = {
                         "image_front": "img/cards/McD98-99/48889-M2Fr.jpg",
                         "image_back": "img/cards/McD98-99/48889-M2Bk.jpg",
                         "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments",
-                        "inCollection": true
+                        "inCollection": false
                     },
                     {
                         "name": "Wayne Gretzky",
@@ -3857,7 +3857,7 @@ var rawData = {
                         "image_front": "img/cards/McD98-99/48889-M3Fr.jpg",
                         "image_back": "img/cards/McD98-99/48889-M3Bk.jpg",
                         "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments",
-                        "inCollection": true
+                        "inCollection": false
                     },
                     {
                         "name": "Wayne Gretzky",
@@ -3869,7 +3869,7 @@ var rawData = {
                         "image_front": "img/cards/McD98-99/48889-M4Fr.jpg",
                         "image_back": "img/cards/McD98-99/48889-M4Bk.jpg",
                         "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments",
-                        "inCollection": true
+                        "inCollection": false
                     },
                     {
                         "name": "Wayne Gretzky",
@@ -3881,7 +3881,7 @@ var rawData = {
                         "image_front": "img/cards/McD98-99/48889-M5Fr.jpg",
                         "image_back": "img/cards/McD98-99/48889-M5Bk.jpg",
                         "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments",
-                        "inCollection": true
+                        "inCollection": false
                     },
                     {
                         "name": "Wayne Gretzky",
@@ -3893,7 +3893,7 @@ var rawData = {
                         "image_front": "img/cards/McD98-99/48889-M6Fr.jpg",
                         "image_back": "img/cards/McD98-99/48889-M6Bk.jpg",
                         "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments",
-                        "inCollection": true
+                        "inCollection": false
                     },
                     {
                         "name": "Wayne Gretzky",
@@ -3905,7 +3905,7 @@ var rawData = {
                         "image_front": "img/cards/McD98-99/48889-M7Fr.jpg",
                         "image_back": "img/cards/McD98-99/48889-M7Bk.jpg",
                         "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments",
-                        "inCollection": true
+                        "inCollection": false
                     },
                     {
                         "name": "Wayne Gretzky",
@@ -3917,7 +3917,7 @@ var rawData = {
                         "image_front": "img/cards/McD98-99/48889-M8Fr.jpg",
                         "image_back": "img/cards/McD98-99/48889-M8Bk.jpg",
                         "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments",
-                        "inCollection": true
+                        "inCollection": false
                     },
                     {
                         "name": "Wayne Gretzky",
@@ -3929,7 +3929,7 @@ var rawData = {
                         "image_front": "img/cards/McD98-99/48889-M9Fr.jpg",
                         "image_back": "img/cards/McD98-99/48889-M9Bk.jpg",
                         "tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/48889/1998-99-Upper-Deck-Ice-McDonald's---Grand-Moments",
-                        "inCollection": true
+                        "inCollection": false
                     }
                 ]
             },

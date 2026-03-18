@@ -8,6 +8,10 @@
     background-color: var(--color-mario-menu-bg);
 }
 
+.main-header--other-sets {
+    background-color: var(--color-dark-blue);
+}
+
 .main-header-collections {
     display: flex;
     align-items: center;
@@ -26,4 +30,18 @@
 .collection-group-title {
     font-size: 10px;
     text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+    body.submenu-sticky-enabled.submenu-sticky-scrolled .main-header.main-header--sticky-active {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 20;
+    }
+
+    body.submenu-sticky-enabled.submenu-sticky-scrolled .main-inner {
+        padding-top: var(--submenu-sticky-height, 0px);
+    }
 }
