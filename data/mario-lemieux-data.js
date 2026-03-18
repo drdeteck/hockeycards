@@ -1548,6 +1548,68 @@
                     "position": "Center",
                     "inCollection": true
                 }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1993-94-topps-premier-gold",
+                    "set_name": "Gold",
+                    "set_display_name": "1993-94 Topps Premier - Gold",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1993-94-topps-premier-gold-37",
+                            "base_number": "37",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1993-94-Topps-Premier---Gold-37-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1993-94-Topps-Premier---Gold-37-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "variant_note": "Gold",
+                            "inCollection": false
+                        },
+                        {
+                            "id": "ml-1993-94-topps-premier-gold-91",
+                            "base_number": "91",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1993-94-Topps-Premier---Gold-91-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1993-94-Topps-Premier---Gold-91-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "variant_note": "Gold",
+                            "inCollection": true
+                        },
+                        {
+                            "id": "ml-1993-94-topps-premier-gold-185",
+                            "base_number": "185",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1993-94-Topps-Premier---Gold-185-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1993-94-Topps-Premier---Gold-185-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "variant_note": "Gold",
+                            "inCollection": false
+                        },
+                        {
+                            "id": "ml-1993-94-topps-premier-gold-220",
+                            "base_number": "220",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1993-94-Topps-Premier---Gold-220-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1993-94-Topps-Premier---Gold-220-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "variant_note": "Gold",
+                            "inCollection": false
+                        }
+                    ]
+                }
             ]
         },
         "1993-94-upper-deck": {
@@ -4615,6 +4677,28 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "inCollection": true
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1994-95-o-pee-chee-premier-special-effects",
+                    "set_name": "Special Effects",
+                    "set_display_name": "1994-95 O-Pee-Chee Premier - Special Effects",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-1994-95-o-pee-chee-premier-special-effects-250",
+                            "base_number": "250",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/1994-95-O-Pee-Chee-Premier---Special-Effects-250-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/1994-95-O-Pee-Chee-Premier---Special-Effects-250-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": false
+                        }
+                    ]
                 }
             ]
         },
