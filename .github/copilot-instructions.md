@@ -10,7 +10,7 @@ This is a static single-page web application for browsing and tracking a persona
 - **CSS Framework:** Bootstrap 4.4.1 — responsive grid and base styles
 - **Utilities:** jQuery 3.4.1, Underscore.js 1.8.3
 - **Routing:** Hash-based URL routing (e.g. `#McD91-92`, `#McD91-92/Mc-1`)
-- **Data storage:** Plain JavaScript files loaded via `<script>` tags — no database, no API, no fetch calls
+- **Data storage:** Plain JSON files loaded via `fetch()` in `app.js` — no database, no API
 - **Hosting:** GitHub Pages (static files only, Jekyll disabled via `.nojekyll`)
 - **JavaScript style:** ES5, no modules, no transpiler, no bundler
 
@@ -27,9 +27,17 @@ Each dataset is a JSON file loaded at runtime from `app.js`:
 | File | Root Shape | Contents |
 |------|-----------|----------|
 | `data/mcdonalds-data.json` | set map (`{ [set_key]: Set }`) | McDonald's sets 1991–92 through 1998–99 (~325 cards) |
-| `data/mario-lemieux-data.json` | metadata + `sets` object | Mario Lemieux cards 1985–1999 (30+ sets, 437+ cards) |
+| `data/mario-lemieux-data-1985-86-to-1999-00.json` | metadata + `sets` object | Mario Lemieux cards from 1985–86 through 1999–00 |
+| `data/mario-lemieux-data-2000-01-to-present.json` | metadata + `sets` object | Mario Lemieux cards from 2000–01 to present |
 | `data/96-97-cc-data.json` | set map (`{ [set_key]: Set }`) | 1996–97 Upper Deck Collector's Choice (412 cards) |
 | `data/other-cards.json` | set map (`{ [set_key]: Set }`) | Rookies & singles collections |
+
+### JSON Formatting Convention
+
+- Use valid JSON only — no comments, trailing commas, or JavaScript assignments
+- Use **2-space indentation** for all JSON files in `/data/`
+- Use standard spacing with one space after `:`
+- Keep Mario `sets` ordered by `set_year_label`, then `set_name`, then `set_key`
 
 ### Image Files (`/img/cards/`)
 
@@ -59,7 +67,7 @@ Each card has a front image and a back image. Paths are stored directly in the c
 The hierarchy is: **Set → Subset → Card**
 
 ```
-Dataset (global window variable)
+Dataset (JSON root object)
 └── sets: { [set_key]: Set }
     └── Set
         ├── cards: Card[]          ← base/regular cards
@@ -104,7 +112,7 @@ Dataset (global window variable)
 
 For the Mario Lemieux dataset, the root object also includes dataset-level metadata:
 ```js
-window.marioLemieuxData = {
+{
   "dataset":      "mario-lemieux",
   "version":      "0.14.1",
   "player":       "Mario Lemieux",
@@ -169,6 +177,7 @@ Mario Lemieux set keys have **no prefix** (e.g. `"1985-86-o-pee-chee"`), not `"m
 - **`app.js`** contains the entire application: Knockout ViewModel, routing logic (`BuildCardRoute`, `CardRouteParts`), and helper functions (`FindCardInData`)
 - **`window.HCHB`** is the global namespace for all app code
 - Data files are loaded asynchronously via `fetch` in `app.js` during `HCHB.App.Init()`
+- Mario data is loaded from two runtime JSON files (`1985-86 to 1999-00` and `2000-01 to present`) and merged in memory before collections are built
 - All UI is rendered via Knockout `data-bind` attributes and `<script type="text/html">` templates in `index.html`
 - Card front/back flipping is done with CSS 3D transforms (see `styles/card-detail.css`)
 - No local storage, no cookies, no user accounts — collection state is entirely defined in the data JSON files

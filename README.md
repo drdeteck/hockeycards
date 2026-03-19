@@ -50,7 +50,8 @@ hockeycards/
 ├── app.js                  # DataViewModel (Knockout) + routing + data helpers
 ├── data/
 │   ├── mcdonalds-data.json     # McDonald's sets
-│   ├── mario-lemieux-data.json # Mario Lemieux cards
+│   ├── mario-lemieux-data-1985-86-to-1999-00.json # Mario Lemieux cards (1985-86 to 1999-00)
+│   ├── mario-lemieux-data-2000-01-to-present.json # Mario Lemieux cards (2000-01 to present)
 │   ├── 96-97-cc-data.json      # 1996-97 Collector's Choice
 │   └── other-cards.json        # Other cards / singles
 ├── img/
@@ -146,9 +147,9 @@ Stores a JSON object keyed by `set_key`. Set-level attributes live on the set; c
 }
 ```
 
-### Mario Lemieux data (`data/mario-lemieux-data.json`)
+### Mario Lemieux data (`data/mario-lemieux-data-1985-86-to-1999-00.json` and `data/mario-lemieux-data-2000-01-to-present.json`)
 
-Stores dataset metadata plus a `sets` object. Each set carries its own attributes and a `cards` array. Cards with a distinct subset name are grouped under a `subsets` array on their parent set. `app.js` builds per-year virtual collections at runtime via `BuildMarioCollections()`:
+Stores dataset metadata plus a `sets` object across two split JSON files. Each set carries its own attributes and a `cards` array. Cards with a distinct subset name are grouped under a `subsets` array on their parent set. `app.js` loads both files, merges their `sets`, and builds per-year virtual collections at runtime via `BuildMarioCollections()`:
 
 ```js
 {
@@ -158,8 +159,8 @@ Stores dataset metadata plus a `sets` object. Each set carries its own attribute
   "updated_at": "2026-03-03",
   "image_folder": "img/cards/ML66",
   "sets": {
-    "ml-1985-86-o-pee-chee": {
-      "set_key": "ml-1985-86-o-pee-chee",
+    "1985-86-o-pee-chee": {
+      "set_key": "1985-86-o-pee-chee",
       "set_name": "O-Pee-Chee",
       "set_year_label": "1985-86",
       "set_year_start": 1985,

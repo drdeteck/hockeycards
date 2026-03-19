@@ -89,7 +89,7 @@
 @media screen and (max-width: 600px) {
     .main-header-collections {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .collection-control-title {
@@ -101,9 +101,20 @@
         text-transform: uppercase;
         letter-spacing: 0.06em;
         opacity: 0.75;
+        text-align: center;
     }
 
     .collections-inner {
         width: 100%;
+        justify-content: center;
+    }
+
+    .collection-group {
+        align-items: center;
+        margin: 0 6px 6px 6px;
+    }
+
+    .collection-group .btn-group {
+        justify-content: center;
     }
 }

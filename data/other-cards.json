@@ -1,133 +1,133 @@
-﻿{
-    "other-rookies":  {
-                          "set_key":  "other-rookies",
-                          "set_name":  "Rookies",
-                          "set_year_label":  "Singles",
-                          "set_year_start":  1985,
-                          "set_year_end":  1986,
-                          "set_category":  "Singles",
-                          "set_total_cards":  3,
-                          "set_tcdb_href":  "",
-                          "set_display_name":  "Rookies",
-                          "menu_display_name":  "Rookies",
-                          "source":  "other-cards",
-                          "cards":  [
-
-                                    ],
-                          "subsets":  [
-                                          {
-                                              "set_key":  "other-rookies-singles",
-                                              "set_name":  "Rookie",
-                                              "set_display_name":  "Rookie",
-                                              "set_tcdb_href":  "",
-                                              "cards":  [
-                                                            {
-                                                                "id":  "other-1985-86-opc-9-sample",
-                                                                "name":  "Mario Lemieux",
-                                                                "base_number":  "9",
-                                                                "team":  "Pittsburgh Penguins",
-                                                                "position":  "Center",
-                                                                "orientation":  "portrait",
-                                                                "orientation_front":  "portrait",
-                                                                "orientation_back":  "portrait",
-                                                                "variant_note":  "Rookie",
-                                                                "set_name":  "O-Pee-Chee",
-                                                                "set_variation":  null,
-                                                                "set_year_label":  "1985-86",
-                                                                "set_year_start":  1985,
-                                                                "set_year_end":  1986,
-                                                                "set_display_name":  "1985-86 O-Pee-Chee",
-                                                                "insert_subset":  "",
-                                                                "image_front":  "img/cards/ML66/1985-86-O-Pee-Chee-9-Mario-Lemieux-FR.jpg",
-                                                                "image_back":  "img/cards/ML66/1985-86-O-Pee-Chee-9-Mario-Lemieux-BK.jpg",
-                                                                "tcdb_href":  "https://www.tcdb.com/ViewCard.cfm/sid/4860/cid/1185084/1985-86-O-Pee-Chee-9-Mario-Lemieux",
-                                                                "isRookie":  true,
-                                                                "last_seen_price":  null,
-                                                                "inCollection":  false,
-                                                                "_set_key":  "other-rookies-singles",
-                                                                "_parent_key":  "other-rookies"
-                                                            },
-                                                            {
-                                                                "id":  "other-1991-92-upper-deck-64",
-                                                                "name":  "Peter Forsberg",
-                                                                "base_number":  "64",
-                                                                "team":  "Philadelphia Flyers",
-                                                                "position":  "Center",
-                                                                "orientation":  "portrait",
-                                                                "orientation_front":  "portrait",
-                                                                "orientation_back":  "portrait",
-                                                                "variant_note":  "Rookie",
-                                                                "set_name":  "Upper Deck",
-                                                                "set_variation":  null,
-                                                                "set_year_label":  "1991-92",
-                                                                "set_year_start":  1991,
-                                                                "set_year_end":  1992,
-                                                                "set_display_name":  "1991-92 Upper Deck",
-                                                                "insert_subset":  "",
-                                                                "image_front":  "img/cards/Singles/1991-92-Upper-Deck-French-64-Peter-ForsbergFr.jpg",
-                                                                "image_back":  "img/cards/Singles/1991-92-Upper-Deck-French-64-Peter-ForsbergBk.jpg",
-                                                                "tcdb_href":  "",
-                                                                "isRookie":  true,
-                                                                "last_seen_price":  null,
-                                                                "inCollection":  true,
-                                                                "_set_key":  "other-rookies-singles",
-                                                                "_parent_key":  "other-rookies"
-                                                            },
-                                                            {
-                                                                "id":  "other-1991-92-upper-deck-french-21",
-                                                                "name":  "Teemu Selanne",
-                                                                "base_number":  "21",
-                                                                "team":  "Winnipeg Jets",
-                                                                "position":  "Ailier Droit",
-                                                                "orientation":  "portrait",
-                                                                "orientation_front":  "portrait",
-                                                                "orientation_back":  "portrait",
-                                                                "variant_note":  "Rookie",
-                                                                "set_name":  "Upper Deck",
-                                                                "set_variation":  "French",
-                                                                "set_year_label":  "1991-92",
-                                                                "set_year_start":  1991,
-                                                                "set_year_end":  1992,
-                                                                "set_display_name":  "1991-92 Upper Deck (French)",
-                                                                "insert_subset":  "",
-                                                                "image_front":  "img/cards/Singles/1991-92-Upper-Deck-French-21-Teemu-SelanneFr.jpg",
-                                                                "image_back":  "img/cards/Singles/1991-92-Upper-Deck-French-21-Teemu-SelanneBk.jpg",
-                                                                "tcdb_href":  "",
-                                                                "isRookie":  true,
-                                                                "last_seen_price":  null,
-                                                                "inCollection":  true,
-                                                                "_set_key":  "other-rookies-singles",
-                                                                "_parent_key":  "other-rookies"
-                                                            }
-                                                        ]
-                                          }
-                                      ]
-                      },
-    "other-cool-cards":  {
-                             "set_key":  "other-cool-cards",
-                             "set_name":  "Cool cards",
-                             "set_year_label":  "Singles",
-                             "set_year_start":  null,
-                             "set_year_end":  null,
-                             "set_category":  "Singles",
-                             "set_total_cards":  0,
-                             "set_tcdb_href":  "",
-                             "set_display_name":  "Cool cards",
-                             "menu_display_name":  "Cool cards",
-                             "source":  "other-cards",
-                             "cards":  [
-
-                                       ],
-                             "subsets":  [
-                                             {
-                                                 "set_key":  "other-cool-cards-singles",
-                                                 "set_name":  "Singles",
-                                                 "set_display_name":  "Cool cards - Singles",
-                                                 "set_tcdb_href":  "",
-                                                 "cards":  [
-
-                                                           ]
-                                             }
-                                         ]
-                         }
+{
+  "other-rookies": {
+    "set_key": "other-rookies",
+    "set_name": "Rookies",
+    "set_year_label": "Singles",
+    "set_year_start": 1985,
+    "set_year_end": 1986,
+    "set_category": "Singles",
+    "set_total_cards": 3,
+    "set_tcdb_href": "",
+    "set_display_name": "Rookies",
+    "menu_display_name": "Rookies",
+    "source": "other-cards",
+    "cards": [
+      
+    ],
+    "subsets": [
+      {
+        "set_key": "other-rookies-singles",
+        "set_name": "Rookie",
+        "set_display_name": "Rookie",
+        "set_tcdb_href": "",
+        "cards": [
+          {
+            "id": "other-1985-86-opc-9-sample",
+            "name": "Mario Lemieux",
+            "base_number": "9",
+            "team": "Pittsburgh Penguins",
+            "position": "Center",
+            "orientation": "portrait",
+            "orientation_front": "portrait",
+            "orientation_back": "portrait",
+            "variant_note": "Rookie",
+            "set_name": "O-Pee-Chee",
+            "set_variation": null,
+            "set_year_label": "1985-86",
+            "set_year_start": 1985,
+            "set_year_end": 1986,
+            "set_display_name": "1985-86 O-Pee-Chee",
+            "insert_subset": "",
+            "image_front": "img/cards/ML66/1985-86-O-Pee-Chee-9-Mario-Lemieux-FR.jpg",
+            "image_back": "img/cards/ML66/1985-86-O-Pee-Chee-9-Mario-Lemieux-BK.jpg",
+            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4860/cid/1185084/1985-86-O-Pee-Chee-9-Mario-Lemieux",
+            "isRookie": true,
+            "last_seen_price": null,
+            "inCollection": false,
+            "_set_key": "other-rookies-singles",
+            "_parent_key": "other-rookies"
+          },
+          {
+            "id": "other-1991-92-upper-deck-64",
+            "name": "Peter Forsberg",
+            "base_number": "64",
+            "team": "Philadelphia Flyers",
+            "position": "Center",
+            "orientation": "portrait",
+            "orientation_front": "portrait",
+            "orientation_back": "portrait",
+            "variant_note": "Rookie",
+            "set_name": "Upper Deck",
+            "set_variation": null,
+            "set_year_label": "1991-92",
+            "set_year_start": 1991,
+            "set_year_end": 1992,
+            "set_display_name": "1991-92 Upper Deck",
+            "insert_subset": "",
+            "image_front": "img/cards/Singles/1991-92-Upper-Deck-French-64-Peter-ForsbergFr.jpg",
+            "image_back": "img/cards/Singles/1991-92-Upper-Deck-French-64-Peter-ForsbergBk.jpg",
+            "tcdb_href": "",
+            "isRookie": true,
+            "last_seen_price": null,
+            "inCollection": true,
+            "_set_key": "other-rookies-singles",
+            "_parent_key": "other-rookies"
+          },
+          {
+            "id": "other-1991-92-upper-deck-french-21",
+            "name": "Teemu Selanne",
+            "base_number": "21",
+            "team": "Winnipeg Jets",
+            "position": "Ailier Droit",
+            "orientation": "portrait",
+            "orientation_front": "portrait",
+            "orientation_back": "portrait",
+            "variant_note": "Rookie",
+            "set_name": "Upper Deck",
+            "set_variation": "French",
+            "set_year_label": "1991-92",
+            "set_year_start": 1991,
+            "set_year_end": 1992,
+            "set_display_name": "1991-92 Upper Deck (French)",
+            "insert_subset": "",
+            "image_front": "img/cards/Singles/1991-92-Upper-Deck-French-21-Teemu-SelanneFr.jpg",
+            "image_back": "img/cards/Singles/1991-92-Upper-Deck-French-21-Teemu-SelanneBk.jpg",
+            "tcdb_href": "",
+            "isRookie": true,
+            "last_seen_price": null,
+            "inCollection": true,
+            "_set_key": "other-rookies-singles",
+            "_parent_key": "other-rookies"
+          }
+        ]
+      }
+    ]
+  },
+  "other-cool-cards": {
+    "set_key": "other-cool-cards",
+    "set_name": "Cool cards",
+    "set_year_label": "Singles",
+    "set_year_start": null,
+    "set_year_end": null,
+    "set_category": "Singles",
+    "set_total_cards": 0,
+    "set_tcdb_href": "",
+    "set_display_name": "Cool cards",
+    "menu_display_name": "Cool cards",
+    "source": "other-cards",
+    "cards": [
+      
+    ],
+    "subsets": [
+      {
+        "set_key": "other-cool-cards-singles",
+        "set_name": "Singles",
+        "set_display_name": "Cool cards - Singles",
+        "set_tcdb_href": "",
+        "cards": [
+          
+        ]
+      }
+    ]
+  }
 }

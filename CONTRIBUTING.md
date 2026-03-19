@@ -16,7 +16,7 @@ Thank you for your interest in contributing! This document covers everything you
 
 | Type | Where to look |
 |---|---|
-| Add / correct card data | `data/mcdonalds-data.json` or `data/mario-lemieux-data.json` |
+| Add / correct card data | `data/mcdonalds-data.json` or one of the split Mario JSON files |
 | Add card images | `img/cards/<SET_KEY>/` |
 | Fix UI / layout bugs | `styles/` CSS files |
 | Add a new collection or player | See *Adding a New Collection* in the README |
