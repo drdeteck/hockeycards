@@ -737,3 +737,38 @@ ul {
         bottom: 12px;
     }
 }
+
+/* Mobile: rework top header for small screens */
+@media screen and (max-width: 600px) {
+    .header-control-row {
+        height: auto;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: flex-start;
+        align-items: flex-start;
+        padding: 8px 0;
+        gap: 6px;
+        overflow: visible;
+    }
+
+    .header-logo {
+        height: auto;
+        width: 100%;
+    }
+
+    .logo-title {
+        font-size: 17px;
+    }
+
+    .header-links {
+        height: auto;
+        margin-left: 0;
+        width: 100%;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-justify-content: flex-start;
+        justify-content: flex-start;
+    }
+}
