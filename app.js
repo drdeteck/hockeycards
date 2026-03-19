@@ -10,28 +10,64 @@ window.HCHB = window.HCHB || {};
     // Public function
     App.Init = function (args) {
         document.addEventListener('DOMContentLoaded', function () {
+            var loadJsonData = function (url, label) {
+                return fetch(url).then(function (response) {
+                    if (!response.ok) {
+                        throw new Error('Failed to load ' + label + ' (' + response.status + ') from ' + url);
+                    }
+                    return response.json();
+                }).catch(function (error) {
+                    console.warn('Dataset load warning:', error.message);
+                    return null;
+                });
+            };
 
-            // supply the rawData before applying bindings
-            var mergedData = Object.assign({}, rawData || {});
-            if (window.marioLemieuxData) {
-                var marioCollections = App.ViewModel.BuildMarioCollections(window.marioLemieuxData);
-                mergedData = Object.assign(mergedData, marioCollections);
-            } else {
-                // TODO: Implement a robust data strategy (versioned loader + schema validation + fallback sources).
-                console.warn('Mario dataset not loaded. Expected window.marioLemieuxData from data/mario-lemieux-data.js');
-            }
+            var dataVersion = '0.2.4';
+            var mcdonaldsDataUrl = 'data/mcdonalds-data.json?ver=' + dataVersion;
+            var marioDataUrl = 'data/mario-lemieux-data.json?ver=' + dataVersion;
+            var ccDataUrl = 'data/96-97-cc-data.json?ver=' + dataVersion;
+            var otherDataUrl = 'data/other-cards.json?ver=' + dataVersion;
 
-            if (window.cc9697Data) {
-                mergedData = Object.assign(mergedData, window.cc9697Data);
-            } else {
-                console.warn('96-97-CC dataset not loaded. Expected window.cc9697Data from data/96-97-cc-data.js');
-            }
+            Promise.all([
+                loadJsonData(mcdonaldsDataUrl, 'McDonald\'s dataset'),
+                loadJsonData(marioDataUrl, 'Mario dataset'),
+                loadJsonData(ccDataUrl, '96-97-CC dataset'),
+                loadJsonData(otherDataUrl, 'Other cards dataset')
+            ]).then(function (datasets) {
+                var mcdonaldsData = datasets[0] || {};
+                var marioData = datasets[1];
+                var ccData = datasets[2];
+                var otherData = datasets[3];
 
-            if (window.otherCardsData) {
-                mergedData = Object.assign(mergedData, window.otherCardsData);
-            } else {
-                console.warn('Other cards dataset not loaded. Expected window.otherCardsData from data/other-cards.js');
-            }
+                var mergedData = Object.assign({}, mcdonaldsData);
+
+                if (marioData && marioData.sets) {
+                    var marioCollections = App.ViewModel.BuildMarioCollections(marioData);
+                    mergedData = Object.assign(mergedData, marioCollections);
+                } else {
+                    // TODO: Implement a robust data strategy (versioned loader + schema validation + fallback sources).
+                    console.warn('Mario dataset not loaded. Expected JSON from data/mario-lemieux-data.json');
+                }
+
+                if (ccData) {
+                    mergedData = Object.assign(mergedData, ccData);
+                } else {
+                    console.warn('96-97-CC dataset not loaded. Expected JSON from data/96-97-cc-data.json');
+                }
+
+                if (otherData) {
+                    mergedData = Object.assign(mergedData, otherData);
+                } else {
+                    console.warn('Other cards dataset not loaded. Expected JSON from data/other-cards.json');
+                }
+
+                initializeAppWithData(mergedData);
+            }).catch(function (error) {
+                console.error('Fatal dataset loading error:', error);
+                initializeAppWithData({});
+            });
+
+            function initializeAppWithData(mergedData) {
 
             // Add _parent_key to all subsets so BuildCardRoute can emit Set/Subset/number URLs
             // Also normalize orientation_front/orientation_back from orientation for any card missing them
@@ -41,7 +77,10 @@ window.HCHB = window.HCHB || {};
 
                 function normalizeOrientationValue(value) {
                     var text = (value || '').toString().trim().toLowerCase();
-                    if (text === 'portrait' || text === 'landscape' || text === 'square' || text === 'fleerpowerplay') {
+                    if (text === 'fleerpowerplay') {
+                        return 'extra-tall';
+                    }
+                    if (text === 'portrait' || text === 'landscape' || text === 'square' || text === 'extra-tall') {
                         return text;
                     }
                     return '';
@@ -191,6 +230,7 @@ window.HCHB = window.HCHB || {};
             // Setup routing
             window.addEventListener('hashchange', App.ViewModel.HandleRouteChange);
             App.ViewModel.HandleRouteChange(); // Set initial route
+            }
         });
     };
 
@@ -472,7 +512,7 @@ function DataViewModel() {
     self.BinderPageIndex = ko.observable(0);
     self.BinderSelectedYearKey = ko.observable('');
     self.IsSyncingBinderYearSelect = false;
-    // 'off' | 'owned' | 'missing'
+    // 'off' | 'owned' | 'wish'
     self.CollectionOverlayMode = ko.observable('owned');
     self.ThemeMode = ko.observable('light');
     self.IsDarkMode = ko.pureComputed(function () {
@@ -543,6 +583,21 @@ function DataViewModel() {
     self.ShowCollectionOverlay = ko.pureComputed(function () {
         return self.CollectionOverlayMode() !== 'off';
     });
+
+    // Returns true when at least one card in `cards` would be visible in the current mode.
+    // In Wish mode, a section is only shown if it contains at least one non-owned card.
+    self.HasWishableCards = function (cards) {
+        if (self.CollectionOverlayMode() !== 'wish') {
+            return true;
+        }
+        var list = cards || [];
+        for (var i = 0; i < list.length; i++) {
+            if (!list[i].inCollection) {
+                return true;
+            }
+        }
+        return false;
+    };
 
     // when the selected collection key changes (e.g. via menu radio), push it into the route
     self.CurrentCollectionKey.subscribe(function(key) {
@@ -1081,7 +1136,10 @@ function DataViewModel() {
         var allCollection = data['ML-all'];
         if (!allCollection) { return []; }
 
-        var cards = (allCollection.cards || []).slice();
+        var cards = (allCollection.cards || []).filter(function (c) {
+            var frontOrientation = (c.orientation_front || c.orientation || '').toString().toLowerCase();
+            return frontOrientation !== 'extra-tall';
+        });
 
         var groupsByYear = {};
         cards.forEach(function (card) {

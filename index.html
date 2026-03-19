@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
         content="Browse Phil's personal hockey card collection — McDonald's Upper Deck All-Stars (1991–99) and a complete Mario Lemieux set spanning 1985 to the late 1990s.">
@@ -35,11 +37,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-    <script src="data/mcdonalds-data.js?ver=0.1.2"></script>
-    <script src="data/mario-lemieux-data.js?ver=0.1.5"></script>
-    <script src="data/96-97-cc-data.js?ver=0.1.0"></script>
-    <script src="data/other-cards.js?ver=0.1.0"></script>
-    <script src="app.js?ver=0.1.17"></script>
+    <script src="app.js?ver=0.1.22"></script>
 </head>
 
 <body>
@@ -121,6 +119,18 @@
                         </svg>
                         <span>Owned</span>
                     </label>
+                    <label class="btn btn-outline-light btn-sm collection-overlay-wish-btn"
+                        data-bind="css: { active: $root.CollectionOverlayMode() === 'wish' }"
+                        title="Wishlist — hide owned cards, show only cards not yet in collection">
+                        <input type="radio" name="collection-overlay-mode" value="wish"
+                            data-bind="checked: $root.CollectionOverlayMode" autocomplete="off">
+                        <svg class="icon-inline icon-collection-wish" aria-hidden="true" focusable="false"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                        </svg>
+                        <span>Wish</span>
+                    </label>
                 </div>
                 <button type="button" class="btn btn-outline-light btn-sm export-view-toggle"
                     data-bind="click: $root.ToggleExportOverlay, css: { active: $root.ShowExportOverlay() }"
@@ -153,6 +163,7 @@
             <div class="collection" data-bind="with: $root.CurrentCollection">
                 <!-- ko if: set_key === 'ML-all' -->
                 <!-- ko foreach: $root.CurrentCollectionYearGroups -->
+                <!-- ko if: $root.HasWishableCards(cards) -->
                 <h2 class="card-grid-header">
                     <span class="card-grid-header-inner">
                         <span class="card-grid-header-content">
@@ -170,10 +181,12 @@
                 </div>
                 <!-- /ko -->
                 <!-- /ko -->
+                <!-- /ko -->
 
                 <!-- ko if: $root.IsMLYearView() -->
                 <!-- ML year view: one division per Set (main cards + subsets combined) -->
                 <!-- ko foreach: $root.CurrentCollectionYearSetGroups -->
+                <!-- ko if: $root.HasWishableCards(cards) -->
                 <h2 class="card-grid-header">
                     <span class="card-grid-header-inner">
                         <span class="card-grid-header-content">
@@ -189,9 +202,11 @@
                 </div>
                 <!-- /ko -->
                 <!-- /ko -->
+                <!-- /ko -->
 
                 <!-- ko if: set_key !== 'ML-all' && !$root.IsMLYearView() -->
                 <!-- ko if: (cards || []).length || !($root.CurrentCollection() && $root.CurrentCollection().subsets && $root.CurrentCollection().subsets.length) -->
+                <!-- ko if: $root.HasWishableCards(cards) -->
                 <h2 class="card-grid-header">
                     <span class="card-grid-header-inner">
                         <span class="card-grid-header-content">
@@ -209,10 +224,12 @@
                     </ul>
                 </div>
                 <!-- /ko -->
+                <!-- /ko -->
 
                 <!-- renders any inner sets / subsets (e.g. Holograms) -->
                 <!-- ko if: $root.CurrentCollection() && $root.CurrentCollection().subsets && $root.CurrentCollection().subsets.length -->
                 <!-- ko foreach: $root.CurrentCollection().subsets -->
+                <!-- ko if: $root.HasWishableCards(cards) -->
                 <h2 class="card-grid-header">
                     <span class="card-grid-header-inner">
                         <span class="card-grid-header-content">
@@ -231,6 +248,7 @@
                     <ul class="card-grid-inner" data-bind="template: {name: 'card-template', foreach: cards}">
                     </ul>
                 </div>
+                <!-- /ko -->
                 <!-- /ko -->
                 <!-- /ko -->
                 <!-- /ko -->
@@ -437,7 +455,7 @@
                         code on GitHub</a>
                 </li>
                 <li>
-                    <a href="https://github.com/drdeteck/hockeycards/blob/main/data/mario-lemieux-data.js"
+                    <a href="https://github.com/drdeteck/hockeycards/blob/main/data/mario-lemieux-data.json"
                         target="_blank" rel="noopener noreferrer">Mario Lemieux card dataset</a>
                     — raw data file with all Mario Lemieux card entries.
                 </li>
@@ -493,6 +511,7 @@
 
                 <div class="binder-checklist">
                     <!-- ko foreach: allCards -->
+                    <!-- ko if: $data.orientation_front !== 'extra-tall' -->
                     <div class="binder-checklist-item"
                         data-bind="css: { 'binder-checklist-item--owned': inCollection }">
                         <span class="binder-checklist-check" aria-hidden="true">
@@ -510,13 +529,14 @@
                         </span>
                     </div>
                     <!-- /ko -->
+                    <!-- /ko -->
                 </div>
             </div>
 
             <div class="binder-page" data-bind="with: BinderCurrentEntry">
                 <div class="binder-page-grid">
                     <!-- ko foreach: slots -->
-                    <!-- ko if: $data -->
+                    <!-- ko if: $data && $data.orientation_front !== 'extra-tall' -->
                     <div class="binder-slot binder-slot--filled">
                         <div class="binder-slot-inner"
                             data-bind="css: { 'binder-slot-inner--owned': $data.inCollection }">
@@ -739,7 +759,7 @@
 
         <!-- expects a single card object in $data -->
     <li class="card-grid-item"
-        data-bind="css: { 'card-landscape': $data.orientation_front === 'landscape', 'card-square': $data.orientation_front === 'square', 'card-fleerpowerplay': $data.orientation_front === 'fleerpowerplay' }">
+        data-bind="visible: !($root.CollectionOverlayMode() === 'wish' && $data.inCollection), css: { 'card-landscape': $data.orientation_front === 'landscape', 'card-square': $data.orientation_front === 'square', 'card-fleerpowerplay': $data.orientation_front === 'fleerpowerplay' }">
         <a class="card-grid-item-card"
             data-bind="css: { 'card-landscape': $data.orientation_front === 'landscape', 'card-square': $data.orientation_front === 'square', 'card-fleerpowerplay': $data.orientation_front === 'fleerpowerplay', 'card-grid-item-card--owned': $root.CollectionOverlayMode() === 'owned' && $data.inCollection },
             attr: { href: $root.BuildCardRoute($data, $parent), 'aria-label': 'Open card details for ' + (($data.name || 'Unknown') + ' ' + ($data.base_number || $data.number || 'NNO')) }">

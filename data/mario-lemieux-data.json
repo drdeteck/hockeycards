@@ -1,4 +1,4 @@
-﻿window.marioLemieuxData = {
+﻿{
     "dataset": "mario-lemieux",
     "version": "0.14.1",
     "player": "Mario Lemieux",
@@ -5319,7 +5319,6 @@
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "position": "Center"
-
                         }
                     ]
                 }
@@ -5739,7 +5738,7 @@
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Parkhurst-467-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
-                    "price": 25.01,
+                    "price": 25.01
                 }
             ],
             "subsets": [
@@ -8567,4 +8566,4 @@
             ]
         }
     }
-};
+}

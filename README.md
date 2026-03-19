@@ -49,8 +49,10 @@ hockeycards/
 ├── index.html              # Single HTML shell — markup, Knockout templates, SVG icons
 ├── app.js                  # DataViewModel (Knockout) + routing + data helpers
 ├── data/
-│   ├── mcdonalds-data.js   # McDonald's sets (exposes window.rawData)
-│   └── mario-lemieux-data.js  # Mario Lemieux cards (exposes window.marioLemieuxData)
+│   ├── mcdonalds-data.json     # McDonald's sets
+│   ├── mario-lemieux-data.json # Mario Lemieux cards
+│   ├── 96-97-cc-data.json      # 1996-97 Collector's Choice
+│   └── other-cards.json        # Other cards / singles
 ├── img/
 │   └── cards/
 │       ├── McD91-92/       # Card images for each McDonald's set
@@ -86,7 +88,7 @@ npx serve .
 
 Then open **http://localhost:8080** in your browser.
 
-> **Note:** Opening `index.html` via `file://` works in most browsers but may have cross-origin restrictions for card images depending on your browser settings. A local server is recommended.
+> **Note:** Opening `index.html` via `file://` is not supported now that datasets are loaded via `fetch` from `data/*.json`. Use a local server.
 
 ---
 
@@ -108,12 +110,12 @@ The app uses hash-based routing. All routes are bookmarkable.
 
 ## Data Format
 
-### McDonald's data (`data/mcdonalds-data.js`)
+### McDonald's data (`data/mcdonalds-data.json`)
 
-Exports a global `window.rawData` object keyed by `set_key`. Set-level attributes live on the set; cards carry only card-level data. Nested subsets (inserts/holograms) are in the `subsets` array:
+Stores a JSON object keyed by `set_key`. Set-level attributes live on the set; cards carry only card-level data. Nested subsets (inserts/holograms) are in the `subsets` array:
 
 ```js
-var rawData = {
+{
   "McD91-92": {
     "set_key": "McD91-92",
     "set_name": "Upper Deck McDonald's All-Stars",
@@ -141,15 +143,15 @@ var rawData = {
       // optional: nested insert/hologram sets (same schema as top-level sets)
     ]
   }
-};
+}
 ```
 
-### Mario Lemieux data (`data/mario-lemieux-data.js`)
+### Mario Lemieux data (`data/mario-lemieux-data.json`)
 
-Exports `window.marioLemieuxData` with a `sets` object. Each set carries its own attributes and a `cards` array. Cards with a distinct subset name are grouped under a `subsets` array on their parent set. `app.js` builds per-year virtual collections at runtime via `BuildMarioCollections()`:
+Stores dataset metadata plus a `sets` object. Each set carries its own attributes and a `cards` array. Cards with a distinct subset name are grouped under a `subsets` array on their parent set. `app.js` builds per-year virtual collections at runtime via `BuildMarioCollections()`:
 
 ```js
-window.marioLemieuxData = {
+{
   "dataset": "mario-lemieux",
   "version": "0.4.0",
   "player": "Mario Lemieux",
@@ -181,7 +183,7 @@ window.marioLemieuxData = {
     }
     // …
   }
-};
+}
 ```
 
 ---
@@ -191,15 +193,15 @@ window.marioLemieuxData = {
 ### Adding a McDonald's-style set
 
 1. Add card images under `img/cards/<SET_KEY>/`.
-2. Add a new entry to `window.rawData` in `data/mcdonalds-data.js` following the schema above.
+2. Add a new entry to `data/mcdonalds-data.json` following the schema above.
 3. The navigation menu and grid update automatically — no changes to `app.js` or `index.html` are needed.
 
 ### Adding a new player (Mario Lemieux-style)
 
 1. Add card images under `img/cards/<PLAYER_FOLDER>/`.
-2. Create a new data file `data/<player>-data.js` that exports a `window.<player>Data` object with the `marioLemieuxData` schema (a `sets` object keyed by set_key).
-3. Load the script in `index.html` (before `app.js`).
-4. In `app.js`, add a `Build<Player>Collections()` function modelled on `BuildMarioCollections()` and merge the result into `mergedData` inside `App.Init`.
+2. Create a new data file `data/<player>-data.json` with the `marioLemieuxData` schema (a `sets` object keyed by set_key).
+3. In `app.js`, load that JSON dataset in `App.Init()` and merge it into `mergedData`.
+4. Add a `Build<Player>Collections()` function modelled on `BuildMarioCollections()` if you need per-year virtual collections.
 
 ---
 

@@ -16,7 +16,7 @@ Thank you for your interest in contributing! This document covers everything you
 
 | Type | Where to look |
 |---|---|
-| Add / correct card data | `data/mcdonalds-data.js` or `data/mario-lemieux-data.js` |
+| Add / correct card data | `data/mcdonalds-data.json` or `data/mario-lemieux-data.json` |
 | Add card images | `img/cards/<SET_KEY>/` |
 | Fix UI / layout bugs | `styles/` CSS files |
 | Add a new collection or player | See *Adding a New Collection* in the README |
@@ -28,7 +28,7 @@ Thank you for your interest in contributing! This document covers everything you
 ## Adding or correcting card data
 
 1. **Card images** must be placed in the appropriate subfolder under `img/cards/`. Use JPEG and follow the existing naming convention: `<setId>-<number>Fr.jpg` (front) and `<setId>-<number>Bk.jpg` (back).
-2. **Data files** are plain JavaScript files loaded as `<script>` tags — no bundler required.
+2. **Data files** are plain JSON files loaded at runtime via `fetch` in `app.js` — no bundler required.
 3. Use the schemas in the README as your reference. Keep field names consistent with existing entries.
 4. Prefer [TCDB (Trading Card Database)](https://www.tcdb.com) as the authoritative source for card numbers, set names, and years.
 
@@ -48,11 +48,11 @@ Thank you for your interest in contributing! This document covers everything you
 The following facts help you navigate the codebase efficiently:
 
 - **No build step.** Changes to `.js`, `.css`, or `.html` files are immediately reflected when you reload the page.
-- **Global namespace.** All app code lives under `window.HCHB`. Data files expose `window.rawData` and `window.marioLemieuxData`.
+- **Global namespace.** All app code lives under `window.HCHB`.
 - **Knockout.js MVVM.** The single `DataViewModel` in `app.js` holds all observables. Templates in `index.html` use `data-bind` attributes.
 - **Hash routing.** Navigation is entirely driven by `window.location.hash`. The `HandleRouteChange` function is the single entry point for all routing logic.
 - **Static hosting.** The app is deployed to GitHub Pages from the repository root. No server-side code exists.
-- **Data is loaded synchronously** via `<script src="data/…">` tags before `app.js` runs.
+- **Data is loaded asynchronously** from `data/*.json` via `fetch` during `HCHB.App.Init()`.
 - When adding a new collection, the navigation menu (`MenuRows` computed) regenerates automatically from `self.Data`.
 
 ---

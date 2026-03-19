@@ -22,14 +22,14 @@ All dependencies are loaded from CDN. There is no `package.json` or `node_module
 
 ### Data Files (`/data/`)
 
-Each dataset is a JS file that assigns a global variable on `window`:
+Each dataset is a JSON file loaded at runtime from `app.js`:
 
-| File | Global Variable | Contents |
-|------|----------------|----------|
-| `data/mcdonalds-data.js` | `window.rawData` | McDonald's sets 1991–92 through 1998–99 (~325 cards) |
-| `data/mario-lemieux-data.js` | `window.marioLemieuxData` | Mario Lemieux cards 1985–1999 (30+ sets, 437+ cards) |
-| `data/96-97-cc-data.js` | `window.cc9697Data` | 1996–97 Upper Deck Collector's Choice (412 cards) |
-| `data/other-cards.js` | `window.otherCardsData` | Rookies & singles collections |
+| File | Root Shape | Contents |
+|------|-----------|----------|
+| `data/mcdonalds-data.json` | set map (`{ [set_key]: Set }`) | McDonald's sets 1991–92 through 1998–99 (~325 cards) |
+| `data/mario-lemieux-data.json` | metadata + `sets` object | Mario Lemieux cards 1985–1999 (30+ sets, 437+ cards) |
+| `data/96-97-cc-data.json` | set map (`{ [set_key]: Set }`) | 1996–97 Upper Deck Collector's Choice (412 cards) |
+| `data/other-cards.json` | set map (`{ [set_key]: Set }`) | Rookies & singles collections |
 
 ### Image Files (`/img/cards/`)
 
@@ -168,7 +168,7 @@ Mario Lemieux set keys have **no prefix** (e.g. `"1985-86-o-pee-chee"`), not `"m
 
 - **`app.js`** contains the entire application: Knockout ViewModel, routing logic (`BuildCardRoute`, `CardRouteParts`), and helper functions (`FindCardInData`)
 - **`window.HCHB`** is the global namespace for all app code
-- Data files are loaded as `<script>` tags in `index.html` **before** `app.js`, making the global data variables available synchronously at startup
+- Data files are loaded asynchronously via `fetch` in `app.js` during `HCHB.App.Init()`
 - All UI is rendered via Knockout `data-bind` attributes and `<script type="text/html">` templates in `index.html`
 - Card front/back flipping is done with CSS 3D transforms (see `styles/card-detail.css`)
-- No local storage, no cookies, no user accounts — collection state is entirely defined in the data JS files
+- No local storage, no cookies, no user accounts — collection state is entirely defined in the data JSON files

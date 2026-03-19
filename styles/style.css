@@ -187,8 +187,22 @@ ul {
     color: var(--color-white);
 }
 
+.collection-overlay-wish-btn.active {
+    background-color: #8e44ad;
+    border-color: #8e44ad;
+    color: var(--color-white);
+}
+
+.collection-overlay-wish-btn.active:hover,
+.collection-overlay-wish-btn.active:focus {
+    background-color: #7d3c98;
+    border-color: #7d3c98;
+    color: var(--color-white);
+}
+
 .icon-collection-check,
-.icon-collection-x {
+.icon-collection-x,
+.icon-collection-wish {
     width: 14px;
     height: 14px;
     fill: currentColor;
