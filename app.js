@@ -22,31 +22,44 @@ window.HCHB = window.HCHB || {};
                 });
             };
 
-            var dataVersion = '0.2.4';
+            var dataVersion = '0.2.5';
             var mcdonaldsDataUrl = 'data/mcdonalds-data.json?ver=' + dataVersion;
-            var marioDataUrl = 'data/mario-lemieux-data.json?ver=' + dataVersion;
+            var marioEarlyDataUrl = 'data/mario-lemieux-data-1985-86-to-1999-00.json?ver=' + dataVersion;
+            var marioLateDataUrl = 'data/mario-lemieux-data-2000-01-to-present.json?ver=' + dataVersion;
             var ccDataUrl = 'data/96-97-cc-data.json?ver=' + dataVersion;
             var otherDataUrl = 'data/other-cards.json?ver=' + dataVersion;
 
             Promise.all([
                 loadJsonData(mcdonaldsDataUrl, 'McDonald\'s dataset'),
-                loadJsonData(marioDataUrl, 'Mario dataset'),
+                loadJsonData(marioEarlyDataUrl, 'Mario dataset (1985-86 to 1999-00)'),
+                loadJsonData(marioLateDataUrl, 'Mario dataset (2000-01 to present)'),
                 loadJsonData(ccDataUrl, '96-97-CC dataset'),
                 loadJsonData(otherDataUrl, 'Other cards dataset')
             ]).then(function (datasets) {
                 var mcdonaldsData = datasets[0] || {};
-                var marioData = datasets[1];
-                var ccData = datasets[2];
-                var otherData = datasets[3];
+                var marioEarlyData = datasets[1];
+                var marioLateData = datasets[2];
+                var ccData = datasets[3];
+                var otherData = datasets[4];
 
                 var mergedData = Object.assign({}, mcdonaldsData);
 
-                if (marioData && marioData.sets) {
+                var marioSets = {};
+                if (marioEarlyData && marioEarlyData.sets) {
+                    marioSets = Object.assign(marioSets, marioEarlyData.sets);
+                }
+                if (marioLateData && marioLateData.sets) {
+                    marioSets = Object.assign(marioSets, marioLateData.sets);
+                }
+
+                if (Object.keys(marioSets).length > 0) {
+                    var marioData = marioEarlyData || marioLateData || {};
+                    marioData.sets = marioSets;
                     var marioCollections = App.ViewModel.BuildMarioCollections(marioData);
                     mergedData = Object.assign(mergedData, marioCollections);
                 } else {
                     // TODO: Implement a robust data strategy (versioned loader + schema validation + fallback sources).
-                    console.warn('Mario dataset not loaded. Expected JSON from data/mario-lemieux-data.json');
+                    console.warn('Mario datasets not loaded. Expected JSON from split Mario data files.');
                 }
 
                 if (ccData) {
