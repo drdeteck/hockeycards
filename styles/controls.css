@@ -84,3 +84,26 @@
     color: var(--color-white);
     background-color: var(--color-blue);
 }
+
+/* Mobile: stack collection title above the set buttons */
+@media screen and (max-width: 600px) {
+    .main-header-collections {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .collection-control-title {
+        width: 100%;
+        flex: 0 0 auto;
+        padding-right: 0;
+        padding-bottom: 4px;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        opacity: 0.75;
+    }
+
+    .collections-inner {
+        width: 100%;
+    }
+}
