@@ -264,11 +264,11 @@
                             data-bind="css: { 'flip-backside': $root.CardImageFace() === 'back' }">
                             <div class="card-profile-image-front card-image-front">
                                 <img class="card-profile-card-image"
-                                    data-bind="css: { 'card-landscape': card.orientation_front === 'landscape', 'card-square': card.orientation_front === 'square', 'card-fleerpowerplay': card.orientation_front === 'fleerpowerplay' }, attr: { src: card.image_front || card.image_back || '', alt: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')', title: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')' }">
+                                    data-bind="css: { 'card-landscape': card.orientation_front === 'landscape', 'card-square': card.orientation_front === 'square', 'card-extra-tall': card.orientation_front === 'extra-tall' }, attr: { src: card.image_front || card.image_back || '', alt: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')', title: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')' }">
                             </div>
                             <div class="card-profile-image-back card-image-back">
                                 <img class="card-profile-card-image"
-                                    data-bind="css: { 'card-landscape': card.orientation_back === 'landscape', 'card-square': card.orientation_back === 'square', 'card-fleerpowerplay': card.orientation_back === 'fleerpowerplay' }, attr: { src: card.image_back || card.image_front || '', alt: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')', title: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')' }">
+                                    data-bind="css: { 'card-landscape': card.orientation_back === 'landscape', 'card-square': card.orientation_back === 'square', 'card-extra-tall': card.orientation_back === 'extra-tall' }, attr: { src: card.image_back || card.image_front || '', alt: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')', title: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')' }">
                             </div>
                         </section>
 
@@ -759,9 +759,9 @@
 
         <!-- expects a single card object in $data -->
     <li class="card-grid-item"
-        data-bind="visible: !($root.CollectionOverlayMode() === 'wish' && $data.inCollection), css: { 'card-landscape': $data.orientation_front === 'landscape', 'card-square': $data.orientation_front === 'square', 'card-fleerpowerplay': $data.orientation_front === 'fleerpowerplay' }">
+        data-bind="visible: !($root.CollectionOverlayMode() === 'wish' && $data.inCollection), css: { 'card-landscape': $data.orientation_front === 'landscape', 'card-square': $data.orientation_front === 'square', 'card-extra-tall': $data.orientation_front === 'extra-tall' }">
         <a class="card-grid-item-card"
-            data-bind="css: { 'card-landscape': $data.orientation_front === 'landscape', 'card-square': $data.orientation_front === 'square', 'card-fleerpowerplay': $data.orientation_front === 'fleerpowerplay', 'card-grid-item-card--owned': $root.CollectionOverlayMode() === 'owned' && $data.inCollection },
+            data-bind="css: { 'card-landscape': $data.orientation_front === 'landscape', 'card-square': $data.orientation_front === 'square', 'card-extra-tall': $data.orientation_front === 'extra-tall', 'card-grid-item-card--owned': $root.CollectionOverlayMode() === 'owned' && $data.inCollection },
             attr: { href: $root.BuildCardRoute($data, $parent), 'aria-label': 'Open card details for ' + (($data.name || 'Unknown') + ' ' + ($data.base_number || $data.number || 'NNO')) }">
             <span class="card-grid-item-invisible-label" aria-hidden="true" data-bind="text: name"></span>
             <div class="card-grid-item-card-faces">
