@@ -24,7 +24,8 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4860/cid/1185084/1985-86-O-Pee-Chee-9-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "variant_note": "Rookie"
+          "variant_note": "Rookie",
+          "price": 230.20
         }
       ]
     },
@@ -3119,7 +3120,9 @@
               "image_back": "img/cards/ML66/1994-95-Leaf---Fire-On-Ice-9-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": false,
+              "price": 5.00
             }
           ]
         },
@@ -3206,7 +3209,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": false,
+              "price": 10.59
             }
           ]
         }
@@ -3449,7 +3453,9 @@
               "image_back": "img/cards/ML66/1994-95-Topps-Premier---Special-Effects-250-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": false,
+              "price": 10.59
             }
           ]
         }
@@ -3550,7 +3556,9 @@
               "image_back": "img/cards/ML66/1994-95-Upper-Deck---Electric-Ice-22-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": false,
+              "price": 20.09
             }
           ]
         },
@@ -3592,7 +3600,8 @@
               "image_back": "img/cards/ML66/1994-95-Upper-Deck---SP-Die-Cut-SP-61-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             }
           ]
         },
@@ -3702,7 +3711,8 @@
               "image_back": "img/cards/ML66/1995-96-Collector\u0027s-Choice---Platinum-Player\u0027s-Club-256-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "price": 7.50
             }
           ]
         },
@@ -3950,7 +3960,8 @@
               "image_back": "img/cards/ML66/1995-96-Donruss-Elite---Die-Cuts-66-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": false
             }
           ]
         },
@@ -5189,7 +5200,8 @@
               "image_back": "img/cards/ML66/1996-97-Flair---Hot-Numbers-7-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "price": 7.59
             }
           ]
         }
