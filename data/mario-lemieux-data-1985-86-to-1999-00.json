@@ -1052,7 +1052,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true
         }
       ]
     },
@@ -1147,7 +1147,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true
         },
         {
           "id": "ml-1991-92-topps-523",
@@ -1159,7 +1159,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true
         }
       ]
     },
@@ -1554,7 +1554,7 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Parkhurst---Emerald-Ice-498-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
+              "inCollection": true,
               "price": 13.09
             }
           ]
@@ -1806,6 +1806,18 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-1992-93-stadium-club-251",
+          "base_number": "251",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1992-93-Stadium-Club-251-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1992-93-Stadium-Club-251-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
         }
       ]
     },
@@ -1895,7 +1907,8 @@
               "image_back": "img/cards/ML66/1992-93-Topps---Gold-504-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Topps---Gold-504-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             }
           ]
         }
@@ -3524,7 +3537,8 @@
           "image_back": "img/cards/ML66/1994-95-Upper-Deck-22-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         },
         {
           "id": "ml-1994-95-upper-deck-200b",
@@ -3772,7 +3786,8 @@
               "image_back": "img/cards/ML66/1995-96-Collector\u0027s-Choice---You-Crash-the-Game-Gold-Exchange-C25-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             }
           ]
         },
@@ -3791,7 +3806,8 @@
               "image_back": "img/cards/ML66/1995-96-Collector\u0027s-Choice---You-Crash-the-Game-Silver-C25a-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             },
             {
               "id": "ml-1995-96-collectors-choice-ctg-silver-c25b",
@@ -3874,13 +3890,13 @@
               "id": "ml-1995-96-donruss-kelloggs-1",
               "base_number": "1",
               "orientation_front": "landscape",
-              "orientation_back": "landscape",
+              "orientation_back": "portrait",
               "image_front": "img/cards/ML66/1995-96-Donruss-Kellogg\u0027s-1-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/1995-96-Donruss-Kellogg\u0027s-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             },
             {
               "id": "ml-1995-96-donruss-kelloggs-2",
@@ -3974,8 +3990,8 @@
             {
               "id": "ml-1995-96-donruss-elite-cool-trade-limited-edition-4",
               "base_number": "4",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/1995-96-Donruss-Elite---Cool-Trade-Limited-Edition-4-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/1995-96-Donruss-Elite---Cool-Trade-Limited-Edition-4-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -3995,8 +4011,8 @@
               "id": "ml-1995-96-donruss-elite-cool-trade-redemption-nno",
               "base_number": "NNO",
               "name": "Lemieux / Lindros",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/1995-96-Donruss-Elite---Cool-Trade-Redemption-NNO-Cool-Trade-RedemptionFr.jpg",
               "image_back": "img/cards/ML66/1995-96-Donruss-Elite---Cool-Trade-Redemption-NNO-Cool-Trade-RedemptionBk.jpg",
               "tcdb_href": "",
@@ -4344,7 +4360,8 @@
               "image_back": "img/cards/ML66/1995-96-Pinnacle---FANtasy-8-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             }
           ]
         },
@@ -4737,7 +4754,8 @@
               "image_back": "img/cards/ML66/1995-96-Upper-Deck---Electric-Ice-231-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             }
           ]
         },
@@ -4825,7 +4843,8 @@
               "image_back": "img/cards/ML66/1995-96-Upper-Deck-Be-a-Player---Lethal-Lines-LL11-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             }
           ]
         }
