@@ -1606,14 +1606,14 @@ function DataViewModel() {
         var data = self.Data() || {};
 
         function makeTally() {
-            return { totalCards: 0, cardsWithFront: 0, cardsInCollection: 0, ownedPrice: 0, unownedPrice: 0 };
+            return { totalCards: 0, cardsWithImages: 0, cardsInCollection: 0, ownedPrice: 0, unownedPrice: 0 };
         }
 
         function countCards(cards, tally) {
             if (!Array.isArray(cards)) { return; }
             cards.forEach(function (card) {
                 tally.totalCards++;
-                if (card.image_front) { tally.cardsWithFront++; }
+                if (card.image_front || card.image_back) { tally.cardsWithImages++; }
                 var price = parseFloat(card.last_seen_price);
                 if (card.inCollection) {
                     tally.cardsInCollection++;
@@ -1635,10 +1635,10 @@ function DataViewModel() {
         function toStats(tally) {
             return {
                 totalCards: tally.totalCards,
-                cardsWithFront: tally.cardsWithFront,
+                cardsWithImages: tally.cardsWithImages,
                 cardsInCollection: tally.cardsInCollection,
                 cardsNotInCollection: tally.totalCards - tally.cardsInCollection,
-                pctWithFront: pct(tally.cardsWithFront, tally.totalCards),
+                pctWithImages: pct(tally.cardsWithImages, tally.totalCards),
                 pctInCollection: pct(tally.cardsInCollection, tally.totalCards),
                 ownedPrice: formatPrice(tally.ownedPrice),
                 unownedPrice: formatPrice(tally.unownedPrice)

@@ -746,6 +746,46 @@ ul {
     }
 }
 
+/* Mobile: footer stats — 2-column layout for stat groups */
+@media screen and (max-width: 600px) {
+    .footer-stats {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 12px 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+
+    .footer-stat-group {
+        min-width: 0;
+    }
+
+    .footer-stat-group:last-child:nth-child(odd) {
+        grid-column: 1 / -1;
+    }
+
+    .footer-stat-item {
+        padding: 8px 10px;
+        gap: 6px;
+    }
+
+    .footer-stat-icon {
+        font-size: 17px;
+    }
+
+    .footer-stat-value {
+        font-size: 18px;
+    }
+
+    .footer-stat-label {
+        font-size: 11px;
+    }
+
+    .footer-stat-detail {
+        font-size: 11px;
+    }
+}
+
 /* Mobile: rework top header for small screens */
 @media screen and (max-width: 600px) {
     .header-control-row {
