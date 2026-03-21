@@ -618,9 +618,31 @@
                                     data-bind="style: { width: pctInCollection + '%' }"></div>
                             </div>
                             <span class="footer-stat-detail"
-                                data-bind="text: cardsInCollection + ' / ' + totalCards"></span>
+                                data-bind="text: cardsInCollection + ' owned · ' + cardsNotInCollection + ' missing'"></span>
                         </div>
                     </div>
+                    <!-- ko if: ownedPrice -->
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-icon">💰</span>
+                        <div class="footer-stat-body">
+                            <div class="footer-stat-top">
+                                <span class="footer-stat-value footer-stat-value--price" data-bind="text: ownedPrice"></span>
+                                <span class="footer-stat-label">owned value</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /ko -->
+                    <!-- ko if: unownedPrice -->
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-icon">🏷️</span>
+                        <div class="footer-stat-body">
+                            <div class="footer-stat-top">
+                                <span class="footer-stat-value footer-stat-value--unowned" data-bind="text: unownedPrice"></span>
+                                <span class="footer-stat-label">unowned value</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /ko -->
                 </div>
                 <!-- McDonald's -->
                 <div class="footer-stat-group" data-bind="with: mcd">
@@ -652,9 +674,31 @@
                                     data-bind="style: { width: pctInCollection + '%' }"></div>
                             </div>
                             <span class="footer-stat-detail"
-                                data-bind="text: cardsInCollection + ' / ' + totalCards"></span>
+                                data-bind="text: cardsInCollection + ' owned · ' + cardsNotInCollection + ' missing'"></span>
                         </div>
                     </div>
+                    <!-- ko if: ownedPrice -->
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-icon">💰</span>
+                        <div class="footer-stat-body">
+                            <div class="footer-stat-top">
+                                <span class="footer-stat-value footer-stat-value--price" data-bind="text: ownedPrice"></span>
+                                <span class="footer-stat-label">owned value</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /ko -->
+                    <!-- ko if: unownedPrice -->
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-icon">🏷️</span>
+                        <div class="footer-stat-body">
+                            <div class="footer-stat-top">
+                                <span class="footer-stat-value footer-stat-value--unowned" data-bind="text: unownedPrice"></span>
+                                <span class="footer-stat-label">unowned value</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /ko -->
                 </div>
                 <!-- Mario Lemieux -->
                 <div class="footer-stat-group" data-bind="with: mario">
@@ -686,9 +730,31 @@
                                     data-bind="style: { width: pctInCollection + '%' }"></div>
                             </div>
                             <span class="footer-stat-detail"
-                                data-bind="text: cardsInCollection + ' / ' + totalCards"></span>
+                                data-bind="text: cardsInCollection + ' owned · ' + cardsNotInCollection + ' missing'"></span>
                         </div>
                     </div>
+                    <!-- ko if: ownedPrice -->
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-icon">💰</span>
+                        <div class="footer-stat-body">
+                            <div class="footer-stat-top">
+                                <span class="footer-stat-value footer-stat-value--price" data-bind="text: ownedPrice"></span>
+                                <span class="footer-stat-label">owned value</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /ko -->
+                    <!-- ko if: unownedPrice -->
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-icon">🏷️</span>
+                        <div class="footer-stat-body">
+                            <div class="footer-stat-top">
+                                <span class="footer-stat-value footer-stat-value--unowned" data-bind="text: unownedPrice"></span>
+                                <span class="footer-stat-label">unowned value</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /ko -->
                 </div>
             </div>
             <p class="footer-credit">Card data and images are presented for personal collection reference.</p>

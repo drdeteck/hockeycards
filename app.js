@@ -1606,7 +1606,7 @@ function DataViewModel() {
         var data = self.Data() || {};
 
         function makeTally() {
-            return { totalCards: 0, cardsWithFront: 0, cardsInCollection: 0 };
+            return { totalCards: 0, cardsWithFront: 0, cardsInCollection: 0, ownedPrice: 0, unownedPrice: 0 };
         }
 
         function countCards(cards, tally) {
@@ -1614,7 +1614,13 @@ function DataViewModel() {
             cards.forEach(function (card) {
                 tally.totalCards++;
                 if (card.image_front) { tally.cardsWithFront++; }
-                if (card.inCollection) { tally.cardsInCollection++; }
+                var price = parseFloat(card.last_seen_price);
+                if (card.inCollection) {
+                    tally.cardsInCollection++;
+                    if (!isNaN(price)) { tally.ownedPrice += price; }
+                } else {
+                    if (!isNaN(price)) { tally.unownedPrice += price; }
+                }
             });
         }
 
@@ -1622,13 +1628,20 @@ function DataViewModel() {
             return total > 0 ? Math.round(n / total * 100) : 0;
         }
 
+        function formatPrice(value) {
+            return value > 0 ? value.toFixed(2) + '$' : null;
+        }
+
         function toStats(tally) {
             return {
                 totalCards: tally.totalCards,
                 cardsWithFront: tally.cardsWithFront,
                 cardsInCollection: tally.cardsInCollection,
+                cardsNotInCollection: tally.totalCards - tally.cardsInCollection,
                 pctWithFront: pct(tally.cardsWithFront, tally.totalCards),
-                pctInCollection: pct(tally.cardsInCollection, tally.totalCards)
+                pctInCollection: pct(tally.cardsInCollection, tally.totalCards),
+                ownedPrice: formatPrice(tally.ownedPrice),
+                unownedPrice: formatPrice(tally.unownedPrice)
             };
         }
 

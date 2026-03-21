@@ -381,6 +381,14 @@ ul {
     min-width: 3ch;
 }
 
+.footer-stat-value--price {
+    color: #4caf82;
+}
+
+.footer-stat-value--unowned {
+    color: #e8a838;
+}
+
 .footer-stat-label {
     font-size: 13px;
     color: var(--color-pale-blue);
