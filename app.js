@@ -1484,6 +1484,24 @@ function DataViewModel() {
         return numericPrice.toFixed(2) + '$';
     };
 
+    self.GetCardGridPaidPriceCad = function (card) {
+        if (!card) {
+            return '';
+        }
+
+        var rawPrice = card.paid_price;
+        if (rawPrice === undefined || rawPrice === null || rawPrice === '') {
+            return '';
+        }
+
+        var numericPrice = parseFloat(rawPrice);
+        if (isNaN(numericPrice)) {
+            return '';
+        }
+
+        return numericPrice.toFixed(2) + '$';
+    };
+
     self.GetCardGridMetaTooltip = function (card) {
         var baseMeta = self.GetCardGridMetaBase(card);
         var priceCad = self.GetCardGridPriceCad(card);
