@@ -80,6 +80,15 @@
     flex-shrink: 0;
 }
 
+.card-grid-item-meta-paid-price {
+    color: #27ae60;
+    font-weight: 600;
+    white-space: nowrap;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
 .card-grid-item-ebay-link {
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
