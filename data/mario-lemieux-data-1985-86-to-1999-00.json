@@ -5380,7 +5380,7 @@
       "subsets": [
         {
           "set_key": "1996-97-pinnacle-foil",
-          "set_name": "Foil ",
+          "set_name": "Foil",
           "set_display_name": "1996-97 Pinnacle - Foil",
           "set_type": "parallel",
           "set_tcdb_href": "",
@@ -5395,7 +5395,27 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "variant_note": "Foil",
+              "variant_note": "Foil"
+            }
+          ]
+        }, {
+          "set_key": "1996-97-pinnacle-rink-collection",
+          "set_name": "Rink Collection",
+          "set_display_name": "1996-97 Pinnacle - Rink Collection",
+          "set_type": "parallel",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-pinnacle-rink-collection-86",
+              "base_number": "86",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Pinnacle---Foil-86-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Pinnacle---Foil-86-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "Rink Collection",
               "price": 15.09
             }
           ]
