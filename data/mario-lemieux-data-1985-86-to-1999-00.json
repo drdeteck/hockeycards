@@ -2,7 +2,7 @@
   "dataset": "mario-lemieux",
   "version": "0.14.1",
   "player": "Mario Lemieux",
-  "updated_at": "2026-03-13",
+  "updated_at": "2026-03-26",
   "image_folder": "img/cards/ML66",
   "sets": {
     "1985-86-o-pee-chee": {
@@ -26,6 +26,20 @@
           "position": "Center",
           "variant_note": "Rookie",
           "price": 230.20
+        },
+        {
+          "id": "ml-1985-86-opc-262",
+          "base_number": "262",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1985-86-O-Pee-Chee-262-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1985-86-O-Pee-Chee-262-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "variant_note": "Rookie Scoring Leaders",
+          "inCollection": true,
+          "paid_price": 22.69
         }
       ]
     },
@@ -71,7 +85,9 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4862/cid/1185547/1986-87-O-Pee-Chee-122-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "price": 32.09
+          "price": 32.09,
+          "inCollection": true,
+          "paid_price": 19.50
         }
       ]
     },
