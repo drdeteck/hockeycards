@@ -2789,6 +2789,68 @@
           "position": "Center",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "1993-94-ultra-award-winners",
+          "set_name": "Award Winners",
+          "set_display_name": "1993-94 Ultra - Award Winners",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1993-94-ultra-award-winners-4",
+              "base_number": "4",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1993-94-Ultra---Award-Winners-4-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1993-94-Ultra---Award-Winners-4-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "1993-94-ultra-premier-pivots",
+          "set_name": "Premier Pivots",
+          "set_display_name": "1993-94 Ultra - Premier Pivots",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1993-94-ultra-premier-pivots-4",
+              "base_number": "4",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1993-94-Ultra---Premier-Pivots-4-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1993-94-Ultra---Premier-Pivots-4-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "1993-94-ultra-red-light-specials",
+          "set_name": "Red Light Specials",
+          "set_display_name": "1993-94 Ultra - Red Light Specials",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1993-94-ultra-red-light-specials-6",
+              "base_number": "6",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1993-94-Ultra---Red-Light-Specials-6-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1993-94-Ultra---Red-Light-Specials-6-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
       ]
     },
     "1993-94-upper-deck": {
