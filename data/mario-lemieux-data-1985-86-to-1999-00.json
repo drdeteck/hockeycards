@@ -5416,7 +5416,9 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "variant_note": "Rink Collection",
-              "price": 15.09
+              "price": 15.09,
+              "paid_price": 9.48,
+              "inCollection": true
             }
           ]
         },
