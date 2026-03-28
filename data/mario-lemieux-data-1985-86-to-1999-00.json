@@ -4289,17 +4289,17 @@
         }
       ]
     },
-    "1995-96-emotion": {
-      "set_key": "1995-96-emotion",
-      "set_name": "Emotion",
+    "1995-96-skybox-e-motion": {
+      "set_key": "1995-96-skybox-e-motion",
+      "set_name": "SkyBox E-Motion",
       "set_year_label": "1995-96",
       "set_year_start": 1995,
       "set_year_end": 1996,
-      "set_display_name": "1995-96 Emotion",
+      "set_display_name": "1995-96 SkyBox E-Motion",
       "set_tcdb_href": "",
       "cards": [
         {
-          "id": "ml-1995-96-emotion-138",
+          "id": "ml-1995-96-skybox-e-motion-138",
           "base_number": "138",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
@@ -4313,12 +4313,12 @@
       ],
       "subsets": [
         {
-          "set_key": "1995-96-emotion-xcited",
+          "set_key": "1995-96-skybox-e-motion-xcited",
           "set_name": "Xcited",
           "set_display_name": "Xcited",
           "cards": [
             {
-              "id": "ml-1995-96-emotion-xcited-10",
+              "id": "ml-1995-96-skybox-e-motion-xcited-10",
               "base_number": "10",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
