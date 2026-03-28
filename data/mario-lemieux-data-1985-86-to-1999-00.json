@@ -4869,6 +4869,84 @@
           "position": "Center",
           "inCollection": true
         }
+      ]
+    },
+    "1995-96-select-certified": {
+      "set_key": "1995-96-select-certified",
+      "set_name": "Select Certified",
+      "set_year_label": "1995-96",
+      "set_year_start": 1995,
+      "set_year_end": 1996,
+      "set_display_name": "1995-96 Select Certified",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-1995-96-select-certified-1",
+          "base_number": "1",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1995-96-Select-Certified-1-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1995-96-Select-Certified-1-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        }
+      ]
+    },
+    "1995-96-skybox-impact": {
+      "set_key": "1995-96-skybox-impact",
+      "set_name": "SkyBox Impact",
+      "set_year_label": "1995-96",
+      "set_year_start": 1995,
+      "set_year_end": 1996,
+      "set_display_name": "1995-96 SkyBox Impact",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "1995-96-skybox-impact-icequake",
+          "set_name": "Icequake",
+          "set_display_name": "1995-96 SkyBox Impact - Icequake",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1995-96-skybox-impact-icequake-7",
+              "base_number": "7",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-SkyBox-Impact---Ice-Quake-7-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-SkyBox-Impact---Ice-Quake-7-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        }
+      ]
+    },
+    "1995-96-sp": {
+      "set_key": "1995-96-sp",
+      "set_name": "SP",
+      "set_year_label": "1995-96",
+      "set_year_start": 1995,
+      "set_year_end": 1996,
+      "set_display_name": "1995-96 SP",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-1995-96-sp-113",
+          "base_number": "113",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1995-96-SP-113-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1995-96-SP-113-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        }
       ],
       "subsets": [
         {
