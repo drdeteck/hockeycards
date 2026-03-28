@@ -1,8 +1,8 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.14.1",
+  "version": "0.14.2",
   "player": "Mario Lemieux",
-  "updated_at": "2026-03-26",
+  "updated_at": "2026-03-28",
   "image_folder": "img/cards/ML66",
   "sets": {
     "1985-86-o-pee-chee": {
@@ -844,7 +844,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Pinnacle---Team-Pinnacle-B5-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "price": 31.01
+              "inCollection": true,
+              "price": 15
             }
           ]
         }
@@ -3649,8 +3650,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 20.09
+              "inCollection": true,
+              "price": 12.50
             }
           ]
         },
@@ -4186,7 +4187,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         }
@@ -4354,7 +4355,8 @@
           "image_back": "img/cards/ML66/1995-96-Leaf-Limited-1-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         }
       ]
     },
