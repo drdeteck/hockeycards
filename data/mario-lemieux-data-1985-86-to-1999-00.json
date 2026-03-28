@@ -4168,6 +4168,28 @@
           "team": "Pittsburgh Penguins",
           "position": "Center"
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "1995-96-fleer-metal-international-steel",
+          "set_name": "International Steel",
+          "set_display_name": "1995-96 Fleer Metal - International Steel",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1995-96-fleer-metal-international-steel-14",
+              "base_number": "14",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Fleer-Metal---International-Steel-14-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Fleer-Metal---International-Steel-14-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
       ]
     },
     "1995-96-leaf": {
