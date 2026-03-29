@@ -172,7 +172,8 @@
               "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-4-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             },
             {
               "id": "ml-2000-01-topps-mario-lemieux-reprints-5",
@@ -736,6 +737,18 @@
       "set_display_name": "2001-02 O-Pee-Chee",
       "set_tcdb_href": "",
       "cards": [
+        {
+          "id": "ml-2001-02-opc-1",
+          "base_number": "1",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2001-02-O-Pee-Chee-1-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2001-02-O-Pee-Chee-1-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        },
         {
           "id": "ml-2001-02-opc-326",
           "base_number": "326",
@@ -2030,6 +2043,29 @@
           "orientation_back": "portrait",
           "image_front": "img/cards/ML66/2003-04-Upper-Deck-Honor-Roll-68-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/2003-04-Upper-Deck-Honor-Roll-68-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        }
+      ]
+    },
+    "2003-04-spx": {
+      "set_key": "2003-04-spx",
+      "set_name": "SPx",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 SPx",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-spx-78",
+          "base_number": "78",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-SPx-78-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-SPx-78-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
