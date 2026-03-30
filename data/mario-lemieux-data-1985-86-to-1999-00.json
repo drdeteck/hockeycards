@@ -2697,6 +2697,29 @@
           "position": "Center",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "1993-94-stadium-club-finest",
+          "set_name": "Finest",
+          "set_display_name": "1993-94 Stadium Club - Finest",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1993-94-stadium-club-finest-10",
+              "base_number": "10",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1993-94-Stadium-Club---Finest-10-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1993-94-Stadium-Club---Finest-10-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 10.09
+            }
+          ]
+        }
       ]
     },
     "1993-94-topps-premier": {
