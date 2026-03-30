@@ -2722,6 +2722,87 @@
         }
       ]
     },
+    "1993-94-stadium-club-members-only": {
+      "set_key": "1993-94-stadium-club-members-only",
+      "set_name": "Stadium Club Members Only",
+      "set_year_label": "1993-94",
+      "set_year_start": 1993,
+      "set_year_end": 1994,
+      "set_display_name": "1993-94 Stadium Club Members Only",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-1993-94-stadium-club-members-only-143",
+          "base_number": "143",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1993-94-Stadium-Club---Members-Only-143-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1993-94-Stadium-Club---Members-Only-143-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-1993-94-stadium-club-members-only-146",
+          "base_number": "146",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1993-94-Stadium-Club---Members-Only-146-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1993-94-Stadium-Club---Members-Only-146-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-1993-94-stadium-club-members-only-148",
+          "base_number": "148",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1993-94-Stadium-Club---Members-Only-148-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1993-94-Stadium-Club---Members-Only-148-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-1993-94-stadium-club-members-only-310",
+          "base_number": "310",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1993-94-Stadium-Club---Members-Only-310-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1993-94-Stadium-Club---Members-Only-310-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "1993-94-stadium-club-members-only-finest",
+          "set_name": "Finest",
+          "set_display_name": "1993-94 Stadium Club Members Only - Finest",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1993-94-stadium-club-members-only-finest-10",
+              "base_number": "10",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1993-94-Stadium-Club---Finest-Members-Only-10-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1993-94-Stadium-Club---Finest-Members-Only-10-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "1993-94-topps-premier": {
       "set_key": "1993-94-topps-premier",
       "set_name": "Topps Premier",
