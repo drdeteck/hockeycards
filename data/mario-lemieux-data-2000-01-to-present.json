@@ -1,8 +1,8 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.14.1",
+  "version": "0.14.2",
   "player": "Mario Lemieux",
-  "updated_at": "2026-03-13",
+  "updated_at": "2026-04-01",
   "image_folder": "img/cards/ML66",
   "sets": {
     "2000-01-pacific-crown-royale": {
@@ -353,7 +353,9 @@
               "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-20-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "price": 3.75,
+              "inCollection": true
             },
             {
               "id": "ml-2000-01-topps-mario-lemieux-reprints-21",
@@ -702,7 +704,9 @@
               "image_back": "img/cards/ML66/2000-01-Upper-Deck-Rookie-Update---2000-01-Upper-Deck-Black-Diamond-Update-107-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "price": 2.75,
+              "inCollection": true
             }
           ]
         },
@@ -1118,7 +1122,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 3.50
             },
             {
               "id": "ml-2001-02-topps-mlr-4",
@@ -1130,7 +1135,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             },
             {
               "id": "ml-2001-02-topps-mlr-5",

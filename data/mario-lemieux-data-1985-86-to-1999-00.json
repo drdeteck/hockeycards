@@ -1,8 +1,8 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.15.0",
+  "version": "0.15.1",
   "player": "Mario Lemieux",
-  "updated_at": "2026-03-28",
+  "updated_at": "2026-04-01",
   "image_folder": "img/cards/ML66",
   "sets": {
     "1985-86-o-pee-chee": {
@@ -1236,6 +1236,31 @@
           ]
         }
       ]
+    },
+    "1992-cartwrights-players-choice-gold": {
+      "set_key": "1992-cartwrights-players-choice-gold",
+      "set_name": "Cartwrights Players' Choice Gold",
+      "set_year_label": "1992",
+      "set_year_start": 1992,
+      "set_year_end": 1992,
+      "set_display_name": "1992 Cartwrights Players' Choice Gold",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-1992-cartwrights-players-choice-gold-2",
+          "base_number": "2",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "price": 2.25,
+          "inCollection": true
+        }
+      ],
+      "subsets": []
     },
     "1992-93-bowman": {
       "set_key": "1992-93-bowman",
@@ -3362,7 +3387,9 @@
               "image_back": "img/cards/ML66/1994-95-Flair---Hot-Numbers-5-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "price": 5.85,
+              "inCollection": true
             }
           ]
         }
@@ -5792,7 +5819,10 @@
               "image_back": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-4-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "variant_note": "1541/1996",
+              "price": 8.65,
+              "inCollection": true
             },
             {
               "id": "ml-1996-97-donruss-elite-hart-to-hart-5",
