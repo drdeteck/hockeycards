@@ -5438,7 +5438,9 @@
               "image_back": "img/cards/ML66/1995-96-Upper-Deck---Special-Edition-SE152-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "variant_note": "Silver",
+              "inCollection": true
             }
           ]
         },
@@ -6343,6 +6345,26 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "1996-97-pinnacle-summit-metal",
+          "set_name": "Metal",
+          "set_display_name": "1996-97 Pinnacle Summit - Metal",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-pinnacle-summit-metal-32",
+              "base_number": "32",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Pinnacle-Summit---Metal-32-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Pinnacle-Summit---Metal-32-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
