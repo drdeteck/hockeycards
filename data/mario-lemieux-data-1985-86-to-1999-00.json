@@ -4370,7 +4370,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         }
@@ -5615,13 +5615,37 @@
           "set_tcdb_href": "",
           "cards": [
             {
-              "id": "ml-1996-97-collectors-choice-ctg-c5",
-              "base_number": "C5",
+              "id": "ml-1996-97-collectors-choice-ctg-c5a",
+              "base_number": "C5a",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/1996-97-Collector's-Choice---You-Crash-the-Game-Silver-C5-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/1996-97-Collector's-Choice---You-Crash-the-Game-Silver-C5-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1996-97-Collector's-Choice---You-Crash-the-Game-Silver-C5-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            },
+            {
+              "id": "ml-1996-97-collectors-choice-ctg-c5b",
+              "base_number": "C5b",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Collector's-Choice---You-Crash-the-Game-Silver-C5b-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Collector's-Choice---You-Crash-the-Game-Silver-C5b-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            },
+            {
+              "id": "ml-1996-97-collectors-choice-ctg-c5c",
+              "base_number": "C5c",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Collector's-Choice---You-Crash-the-Game-Silver-C5c-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Collector's-Choice---You-Crash-the-Game-Silver-C5c-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
@@ -6386,7 +6410,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         }
