@@ -2051,6 +2051,7 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Upper-Deck---World-Junior-Grads-WG11-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
+              "inCollection": true,
               "price": 6.69
             }
           ]
@@ -2390,6 +2391,27 @@
           ]
         },
         {
+          "set_key": "1993-94-leaf-gold-leaf-all-stars",
+          "set_name": "Gold Leaf All Stars",
+          "set_display_name": "1993-94 Leaf - Gold Leaf All Stars",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1993-94-leaf-gold-leaf-all-stars-1",
+              "base_number": "1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1993-94-Leaf---Gold-Leaf-All-Stars-1-Pat-LaFontaine--Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1993-94-Leaf---Gold-Leaf-All-Stars-1-Pat-LaFontaine--Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "Pat LaFontaine / Mario Lemieux",
+              "inCollection": true
+            }
+          ]
+        },
+        {
           "set_key": "1993-94-leaf-hat-trick-artists",
           "set_name": "Hat Trick Artists",
           "set_display_name": "1993-94 Leaf - Hat Trick Artists",
@@ -2658,7 +2680,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
+              "inCollection": true,
               "price": 10.05
             }
           ]
