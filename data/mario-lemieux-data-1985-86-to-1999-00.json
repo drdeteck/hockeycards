@@ -1128,7 +1128,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "variant_note": "Mario Repeats as MVP",
-          "inCollection": true
+          "inCollection": false
         },
         {
           "id": "ml-1991-92-stadium-club-members-only-ross-trophy",
