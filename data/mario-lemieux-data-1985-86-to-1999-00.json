@@ -5438,7 +5438,9 @@
               "image_back": "img/cards/ML66/1995-96-Upper-Deck---Special-Edition-SE152-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "variant_note": "Silver",
+              "inCollection": true
             }
           ]
         },
