@@ -503,6 +503,7 @@ function DataViewModel() {
             last_seen_price: row.last_seen_price !== undefined && row.last_seen_price !== null && row.last_seen_price !== ''
                 ? row.last_seen_price
                 : row.price,
+            excludeFromBinder: !!(row.excludeFromBinder),
             inCollection: !!(row.inCollection),
             _set_key: routingSetKey,
             _parent_key: parentSetKey || null
@@ -1151,7 +1152,7 @@ function DataViewModel() {
 
         var cards = (allCollection.cards || []).filter(function (c) {
             var frontOrientation = (c.orientation_front || c.orientation || '').toString().toLowerCase();
-            return frontOrientation !== 'extra-tall';
+            return frontOrientation !== 'extra-tall' && !c.excludeFromBinder;
         });
 
         var groupsByYear = {};

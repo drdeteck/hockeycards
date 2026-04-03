@@ -375,6 +375,21 @@
     display: block;
 }
 
+/* Landscape cards are rotated 90° to fit the portrait slot */
+.binder-slot-img--landscape {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 139.68%;
+    height: 71.6%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+    -webkit-transform: translate(-50%, -50%) rotate(90deg);
+    -ms-transform: translate(-50%, -50%) rotate(90deg);
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
 /* Card label strip at the bottom of each slot */
 .binder-slot-label {
     position: absolute;

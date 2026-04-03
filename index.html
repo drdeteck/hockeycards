@@ -511,7 +511,7 @@
 
                 <div class="binder-checklist">
                     <!-- ko foreach: allCards -->
-                    <!-- ko if: $data.orientation_front !== 'extra-tall' -->
+                    <!-- ko if: $data.orientation_front !== 'extra-tall' && !$data.excludeFromBinder -->
                     <div class="binder-checklist-item"
                         data-bind="css: { 'binder-checklist-item--owned': inCollection }">
                         <span class="binder-checklist-check" aria-hidden="true">
@@ -536,13 +536,13 @@
             <div class="binder-page" data-bind="with: BinderCurrentEntry">
                 <div class="binder-page-grid">
                     <!-- ko foreach: slots -->
-                    <!-- ko if: $data && $data.orientation_front !== 'extra-tall' -->
+                    <!-- ko if: $data && $data.orientation_front !== 'extra-tall' && !$data.excludeFromBinder -->
                     <div class="binder-slot binder-slot--filled">
                         <div class="binder-slot-inner"
                             data-bind="css: { 'binder-slot-inner--owned': $data.inCollection }">
                             <a class="binder-slot-link"
                                 data-bind="attr: { href: $root.BuildCardRoute($data, null), title: $data.set_display_name + ' #' + $data.base_number + ($data.insert_subset ? ' · ' + $data.insert_subset : '') }">
-                                <img class="binder-slot-img" data-bind="attr: {
+                                <img class="binder-slot-img" data-bind="css: { 'binder-slot-img--landscape': $data.orientation_front === 'landscape' }, attr: {
                                         src: $data.image_front || $data.image_back || '',
                                         alt: $data.set_display_name + ' #' + $data.base_number }">
                                 <span class="binder-slot-label"
