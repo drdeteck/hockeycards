@@ -1128,7 +1128,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "variant_note": "Mario Repeats as MVP",
-          "inCollection": false
+          "inCollection": true
         },
         {
           "id": "ml-1991-92-stadium-club-members-only-ross-trophy",
@@ -1404,7 +1404,7 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-O-Pee-Chee-138-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true
+          "inCollection": false
         },
         {
           "id": "ml-1992-93-opc-240",
@@ -1428,7 +1428,7 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-O-Pee-Chee-292-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true
+          "inCollection": false
         }
       ],
       "subsets": [
@@ -3524,7 +3524,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true
+          "inCollection": false
         }
       ],
       "subsets": [
@@ -4068,7 +4068,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true
+          "inCollection": false
         }
       ],
       "subsets": [
