@@ -1807,7 +1807,8 @@
           "image_back": "img/cards/ML66/2002-03-SPx-97-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         }
       ]
     },
@@ -1873,7 +1874,8 @@
           "image_back": "img/cards/ML66/2002-03-Upper-Deck-141-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         },
         {
           "id": "ml-2002-03-upper-deck-191",
@@ -1918,7 +1920,8 @@
           "image_back": "img/cards/ML66/2002-03-Upper-Deck-Honor-Roll-94-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         }
       ]
     },
