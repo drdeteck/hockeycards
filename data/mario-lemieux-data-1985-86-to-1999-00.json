@@ -2193,7 +2193,8 @@
           "image_back": "img/cards/ML66/1993-94-Fleer-PowerPlay-190-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         }
       ],
       "subsets": [
@@ -4839,7 +4840,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         }
@@ -5762,6 +5763,18 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center"
+            },
+            {
+              "id": "ml-1996-97-donruss-canadian-ice-scrapbook-14",
+              "base_number": "14",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
             },
             {
               "id": "ml-1996-97-donruss-canadian-ice-scrapbook-25",
