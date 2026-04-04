@@ -2031,6 +2031,7 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Upper-Deck---Gordie-Howe-Selects-G9-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
+              "inCollection": true,
               "price": 8.01
             }
           ]
@@ -3206,6 +3207,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
+              "inCollection": true,
               "price": 7.01
             }
           ]
