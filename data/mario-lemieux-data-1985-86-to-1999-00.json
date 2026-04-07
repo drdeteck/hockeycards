@@ -6072,6 +6072,53 @@
         }
       ]
     },
+    "1996-97-metal-universe": {
+      "set_key": "1996-97-metal-universe",
+      "set_name": "Metal Universe",
+      "set_year_label": "1996-97",
+      "set_year_start": 1996,
+      "set_year_end": 1997,
+      "set_display_name": "1996-97 Metal Universe",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-1996-97-metal-universe-128",
+          "base_number": "128",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1996-97-Metal-Universe-128-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1996-97-Metal-Universe-128-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "name": "Mario Lemieux",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "1996-97-metal-universe-lethal-weapons",
+          "set_name": "Lethal Weapons",
+          "set_display_name": "1996-97 Metal Universe - Lethal Weapons",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-metal-universe-lethal-weapons-11",
+              "base_number": "11",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Metal-Universe---Lethal-Weapons-11-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Metal-Universe---Lethal-Weapons-11-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "name": "Mario Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "1996-97-pinnacle": {
       "set_key": "1996-97-pinnacle",
       "set_name": "Pinnacle",
