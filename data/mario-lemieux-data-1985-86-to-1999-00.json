@@ -2613,7 +2613,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         }
@@ -4701,7 +4701,8 @@
               "image_back": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-7-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             },
             {
               "id": "ml-1995-96-leaf-lemieuxs-best-8",
@@ -4924,7 +4925,8 @@
               "image_back": "img/cards/ML66/1995-96-Pinnacle---First-Strike-13-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             }
           ]
         },
