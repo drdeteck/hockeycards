@@ -1251,13 +1251,14 @@
           "base_number": "2",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
-          "image_front": "",
-          "image_back": "",
+          "image_front": "img/cards/ML66/1992-Cartwrights-Players-Choice-2-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1992-Cartwrights-Players-Choice-2-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "price": 2.25,
-          "inCollection": true
+          "inCollection": true,
+          "excludeFromBinder": true
         }
       ],
       "subsets": []
