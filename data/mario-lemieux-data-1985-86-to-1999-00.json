@@ -5568,6 +5568,30 @@
         }
       ]
     },
+    "1996-semic-collections-wien-96": {
+      "set_key": "1996-semic-collections-wien-96",
+      "set_name": "Semic Collections Wien 96",
+      "set_year_label": "1996",
+      "set_year_start": 1996,
+      "set_year_end": 1996,
+      "set_display_name": "1996 Semic Collections Wien 96",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-1996-semic-collections-wien-96-85",
+          "base_number": "85",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1996-Semic-Collections-Wien-96-85-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1996-Semic-Collections-Wien-96-85-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "excludeFromBinder": true
+        }
+      ]
+    },
     "1996-97-collectors-choice": {
       "set_key": "1996-97-collectors-choice",
       "set_name": "Collector's Choice",

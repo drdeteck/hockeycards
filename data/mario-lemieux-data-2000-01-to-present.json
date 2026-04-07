@@ -2082,6 +2082,29 @@
         }
       ]
     },
+    "2003-04-upper-deck-ice": {
+      "set_key": "2003-04-upper-deck-ice",
+      "set_name": "Upper Deck Ice",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Upper Deck Ice",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-upper-deck-ice-69",
+          "base_number": "69",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-Upper-Deck-Ice-69-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Upper-Deck-Ice-69-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        }
+      ]
+    },
     "2003-04-spx": {
       "set_key": "2003-04-spx",
       "set_name": "SPx",
@@ -2627,6 +2650,38 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ]
+    },
+    "2021-22-fleer-ultra": {
+      "set_key": "2021-22-fleer-ultra",
+      "set_name": "Fleer Ultra",
+      "set_year_label": "2021-22",
+      "set_year_start": 2021,
+      "set_year_end": 2022,
+      "set_display_name": "2021-22 Fleer Ultra",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2021-22-fleer-ultra-fabulous-50s",
+          "set_name": "Fabulous 50s",
+          "set_display_name": "2021-22 Fleer Ultra - Fabulous 50s",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2021-22-fleer-ultra-fabulous-50s-ff-50",
+              "base_number": "FF-50",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2021-22-Fleer-Ultra---Fabulous-50s-FF-50-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2021-22-Fleer-Ultra---Fabulous-50s-FF-50-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
         }
       ]
     },
