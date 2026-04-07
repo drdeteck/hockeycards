@@ -1667,6 +1667,29 @@
         }
       ]
     },
+    "2002-03-pacific-prism-platinum-mcdonalds": {
+      "set_key": "2002-03-pacific-prism-platinum-mcdonalds",
+      "set_name": "Pacific Prism Platinum McDonald's",
+      "set_year_label": "2002-03",
+      "set_year_start": 2002,
+      "set_year_end": 2003,
+      "set_display_name": "2002-03 Pacific Prism Platinum McDonald's",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2002-03-pacific-prism-platinum-mcdonalds-32",
+          "base_number": "32",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-Pacific-Prism-Platinum-McDonald's-32-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Pacific-Prism-Platinum-McDonald's-32-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        }
+      ]
+    },
     "2002-03-pacific-quest-for-the-cup": {
       "set_key": "2002-03-pacific-quest-for-the-cup",
       "set_name": "Pacific Quest for the Cup",
