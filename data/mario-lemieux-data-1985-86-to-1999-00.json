@@ -767,7 +767,8 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Parkhurst-467-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "price": 25.01
+          "price": 25.01,
+          "inCollection": true
         }
       ],
       "subsets": [
@@ -4755,7 +4756,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         }
@@ -6527,7 +6528,8 @@
           "image_back": "img/cards/ML66/1996-97-SP-125-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         }
       ],
       "subsets": [
