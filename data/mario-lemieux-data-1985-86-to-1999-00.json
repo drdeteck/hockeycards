@@ -3573,8 +3573,8 @@
           "orientation_front": "square",
           "orientation_back": "square",
           "excludeFromBinder": true,
-          "image_front": "img/cards/ML66/1994-95-POG-Canada-Games-NHL-185-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/1994-95-POG-Canada-Games-NHL-185-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/1994-95-POG-Canada-Games-NHL-185-Mario-LemieuxFr.png",
+          "image_back": "img/cards/ML66/1994-95-POG-Canada-Games-NHL-185-Mario-LemieuxBk.png",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center"
@@ -5087,8 +5087,8 @@
               "base_number": "E22",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/1995-96-SP---Stars--Etoiles-E22-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/1995-96-SP---Stars--Etoiles-E22-Mario-LemieuxBk.jpg",
+              "image_front": "img/cards/ML66/1995-96-SP---Stars--Etoiles-E22-Mario-LemieuxFr.png",
+              "image_back": "img/cards/ML66/1995-96-SP---Stars--Etoiles-E22-Mario-LemieuxBk.png",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -6013,6 +6013,46 @@
           "position": "Center",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "1996-97-fleer-nhl-picks-fabulous-50",
+          "set_name": "NHL Picks - Fabulous 50",
+          "set_display_name": "1996-97 Fleer - NHL Picks - Fabulous 50",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-fleer-nhl-picks-fabulous-50-26",
+              "base_number": "26",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Fleer-NHL-Picks---Fabulous-50-26-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Fleer-NHL-Picks---Fabulous-50-26-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center"
+            }
+          ]
+        },
+        {
+          "set_key": "1996-97-fleer-pearson-award",
+          "set_name": "Pearson Award",
+          "set_display_name": "1996-97 Fleer - Pearson Award",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-fleer-pearson-award-7",
+              "base_number": "7",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Fleer---Pearson-Award-7-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Fleer---Pearson-Award-7-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center"
+            }
+          ]
+        }
       ]
     },
     "1996-97-leaf": {
@@ -6035,6 +6075,46 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "1996-97-leaf-fire-on-ice",
+          "set_name": "Fire on Ice",
+          "set_display_name": "1996-97 Leaf - Fire on Ice",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-leaf-fire-on-ice-1",
+              "base_number": "1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Leaf---Fire-on-Ice-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Leaf---Fire-on-Ice-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center"
+            }
+          ]
+        },
+        {
+          "set_key": "1996-97-leaf-sweaters-away",
+          "set_name": "Sweaters (Away)",
+          "set_display_name": "1996-97 Leaf - Sweaters (Away)",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-leaf-sweaters-away-1",
+              "base_number": "1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Leaf---Sweaters-(Away)-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Leaf---Sweaters-(Away)-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center"
+            }
+          ]
         }
       ]
     },
@@ -6285,6 +6365,36 @@
         }
       ]
     },
+    "1996-97-pinnacle-be-a-player": {
+      "set_key": "1996-97-pinnacle-be-a-player",
+      "set_name": "Pinnacle Be a Player",
+      "set_year_label": "1996-97",
+      "set_year_start": 1996,
+      "set_year_end": 1997,
+      "set_display_name": "1996-97 Pinnacle Be a Player",
+      "set_tcdb_href": "",
+      "subsets": [
+        {
+          "set_key": "1996-97-pinnacle-be-a-player-biscuit-in-the-basket",
+          "set_name": "Biscuit in the Basket",
+          "set_display_name": "1996-97 Pinnacle Be a Player - Biscuit in the Basket",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-pinnacle-be-a-player-biscuit-in-the-basket-2",
+              "base_number": "2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Pinnacle-Be-a-Player---Biscuit-in-the-Basket-2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Pinnacle-Be-a-Player---Biscuit-in-the-Basket-2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center"
+            }
+          ]
+        }
+      ]
+    },
     "1996-97-pinnacle-mcdonalds-3d-ice-breakers": {
       "set_key": "1996-97-pinnacle-mcdonalds-3d-ice-breakers",
       "set_name": "Pinnacle McDonald's 3D Ice Breakers",
@@ -6417,8 +6527,8 @@
               "orientation_front": "square",
               "orientation_back": "square",
               "excludeFromBinder": true,
-              "image_front": "img/cards/ML66/1996-97-Pinnacle-Mint-Collection---Coins-Brass-1-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/1996-97-Pinnacle-Mint-Collection---Coins-Brass-1-Mario-LemieuxBk.jpg",
+              "image_front": "img/cards/ML66/1996-97-Pinnacle-Mint-Collection---Coins-Brass-1-Mario-LemieuxFr.png",
+              "image_back": "img/cards/ML66/1996-97-Pinnacle-Mint-Collection---Coins-Brass-1-Mario-LemieuxBk.png",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
