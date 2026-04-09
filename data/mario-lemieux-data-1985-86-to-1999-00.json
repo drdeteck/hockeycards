@@ -6129,8 +6129,8 @@
             {
               "id": "ml-1996-97-leaf-fire-on-ice-1",
               "base_number": "1",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/1996-97-Leaf---Fire-on-Ice-1-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/1996-97-Leaf---Fire-on-Ice-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
