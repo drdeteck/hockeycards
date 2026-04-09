@@ -6074,6 +6074,26 @@
               "position": "Center"
             }
           ]
+        },
+        {
+          "set_key": "1996-97-fleer-art-ross-trophy",
+          "set_name": "Art Ross Trophy",
+          "set_display_name": "1996-97 Fleer - Art Ross Trophy",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-fleer-art-ross-trophy-13",
+              "base_number": "13",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Fleer---Art-Ross-Trophy-13-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Fleer---Art-Ross-Trophy-13-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
