@@ -5094,7 +5094,8 @@
               "image_back": "img/cards/ML66/1995-96-SP---Holoview-FX17-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             }
           ]
         },
