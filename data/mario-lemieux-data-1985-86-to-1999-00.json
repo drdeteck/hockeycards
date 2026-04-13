@@ -3483,7 +3483,8 @@
               "image_back": "img/cards/ML66/1994-95-Leaf---Leaf-Limited-18-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             }
           ]
         }
