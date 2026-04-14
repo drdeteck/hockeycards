@@ -3464,7 +3464,8 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "price": 5.0
+              "price": 5.0,
+              "inCollection": true
             }
           ]
         },
