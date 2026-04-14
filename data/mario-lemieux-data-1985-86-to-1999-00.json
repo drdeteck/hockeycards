@@ -3579,7 +3579,8 @@
           "image_back": "img/cards/ML66/1994-95-POG-Canada-Games-NHL-185-Mario-LemieuxBk.png",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         }
       ]
     },
@@ -4099,7 +4100,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true
         }
       ],
       "subsets": [
@@ -4580,7 +4581,8 @@
           "image_back": "img/cards/ML66/1995-96-Fleer-Metal-118-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         }
       ],
       "subsets": [
@@ -6056,7 +6058,8 @@
               "image_back": "img/cards/ML66/1996-97-Fleer-NHL-Picks---Fabulous-50-26-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             }
           ]
         },
