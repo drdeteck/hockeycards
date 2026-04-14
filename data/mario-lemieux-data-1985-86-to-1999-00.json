@@ -1,8 +1,8 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.15.1",
+  "version": "0.15.2",
   "player": "Mario Lemieux",
-  "updated_at": "2026-04-01",
+  "updated_at": "2026-04-14",
   "image_folder": "img/cards/ML66",
   "sets": {
     "1985-86-o-pee-chee": {
@@ -4419,6 +4419,19 @@
       "set_display_name": "1995-96 Donruss Elite",
       "set_tcdb_href": "",
       "cards": [
+        {
+          "id": "ml-1995-96-donruss-elite-51",
+          "base_number": "51",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "variant_note": "Checklist",
+          "inCollection": true
+        },
         {
           "id": "ml-1995-96-donruss-elite-66",
           "base_number": "66",
