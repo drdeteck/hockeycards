@@ -3232,7 +3232,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         },
@@ -4138,7 +4138,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "price": 7.5
+              "price": 7.5,
+              "inCollection": true
             }
           ]
         },
