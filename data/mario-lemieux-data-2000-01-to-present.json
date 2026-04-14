@@ -1,8 +1,8 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.14.2",
+  "version": "0.14.3",
   "player": "Mario Lemieux",
-  "updated_at": "2026-04-01",
+  "updated_at": "2026-04-14",
   "image_folder": "img/cards/ML66",
   "sets": {
     "2000-01-pacific-crown-royale": {
@@ -2056,6 +2056,28 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center"
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2003-04-upper-deck-all-star-lineup",
+          "set_name": "All-Star Lineup",
+          "set_display_name": "2003-04 Upper Deck - All-Star Lineup",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-upper-deck-all-star-lineup-as4",
+              "base_number": "AS4",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
         }
       ]
     },
