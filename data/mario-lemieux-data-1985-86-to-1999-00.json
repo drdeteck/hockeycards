@@ -6326,7 +6326,7 @@
           "name": "Mario Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true
         }
       ],
       "subsets": [
