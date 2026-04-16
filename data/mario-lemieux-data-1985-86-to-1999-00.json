@@ -1,8 +1,8 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.15.2",
+  "version": "0.15.3",
   "player": "Mario Lemieux",
-  "updated_at": "2026-04-14",
+  "updated_at": "2026-04-16",
   "image_folder": "img/cards/ML66",
   "sets": {
     "1985-86-o-pee-chee": {
@@ -271,6 +271,29 @@
           "image_front": "img/cards/ML66/1989-90-Topps-1-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/1989-90-Topps-1-Mario-LemieuxBk.jpg",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4869/cid/1175776/1989-90-Topps-1-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        }
+      ]
+    },
+    "1989-90-topps-sticker-inserts": {
+      "set_key": "1989-90-topps-sticker-inserts",
+      "set_name": "Topps Sticker Inserts",
+      "set_year_label": "1989-90",
+      "set_year_start": 1989,
+      "set_year_end": 1990,
+      "set_display_name": "1989-90 Topps Sticker Inserts",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-1989-90-topps-sticker-inserts-3",
+          "base_number": "3",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
@@ -3463,9 +3486,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 5.0,
-              "inCollection": true
+              "inCollection": true,
+              "price": 5.0
             }
           ]
         },
@@ -4171,7 +4193,8 @@
               "image_back": "img/cards/ML66/1995-96-Collector's-Choice---You-Crash-the-Game-Gold-C25b-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             },
             {
               "id": "ml-1995-96-collectors-choice-ctg-gold-c25c",
@@ -4822,6 +4845,29 @@
           "orientation_back": "portrait",
           "image_front": "img/cards/ML66/1995-96-Leaf-Limited-1-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/1995-96-Leaf-Limited-1-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        }
+      ]
+    },
+    "1995-96-nhl-aces-playing-cards": {
+      "set_key": "1995-96-nhl-aces-playing-cards",
+      "set_name": "NHL Aces Playing Cards",
+      "set_year_label": "1995-96",
+      "set_year_start": 1995,
+      "set_year_end": 1996,
+      "set_display_name": "1995-96 NHL Aces Playing Cards",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-1995-96-nhl-aces-playing-cards-12h",
+          "base_number": "12H",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
@@ -7216,6 +7262,29 @@
         }
       ]
     },
+    "1999-00-ud-century-legends": {
+      "set_key": "1999-00-ud-century-legends",
+      "set_name": "UD Century Legends",
+      "set_year_label": "1999-00",
+      "set_year_start": 1999,
+      "set_year_end": 2000,
+      "set_display_name": "1999-00 UD Century Legends",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-1999-00-ud-century-legends-4",
+          "base_number": "4",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        }
+      ]
+    },
     "1999-00-upper-deck-retro": {
       "set_key": "1999-00-upper-deck-retro",
       "set_name": "Upper Deck Retro",
@@ -7234,7 +7303,8 @@
           "image_back": "img/cards/ML66/1999-00-Upper-Deck-Retro-83-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         }
       ],
       "subsets": [
