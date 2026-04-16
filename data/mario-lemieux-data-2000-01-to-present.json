@@ -1,8 +1,8 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.14.3",
+  "version": "0.14.4",
   "player": "Mario Lemieux",
-  "updated_at": "2026-04-14",
+  "updated_at": "2026-04-16",
   "image_folder": "img/cards/ML66",
   "sets": {
     "2000-01-be-a-player-memorabilia": {
@@ -691,7 +691,8 @@
               "image_back": "img/cards/ML66/2000-01-Upper-Deck-Legends---Supreme-Milestones-SM11-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             }
           ]
         }
@@ -715,7 +716,8 @@
           "image_back": "img/cards/ML66/2000-01-Upper-Deck-Pros-&-Prospects-69-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         },
         {
           "id": "ml-2000-01-upper-deck-pros-and-prospects-gs2",
@@ -1816,7 +1818,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true
         }
       ]
     },
@@ -2314,6 +2316,30 @@
         }
       ]
     },
+    "2002-03-bap-first-edition": {
+      "set_key": "2002-03-bap-first-edition",
+      "set_name": "BAP First Edition",
+      "set_year_label": "2002-03",
+      "set_year_start": 2002,
+      "set_year_end": 2003,
+      "set_display_name": "2002-03 BAP First Edition",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2002-03-bap-first-edition-323",
+          "base_number": "323",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "variant_note": "UC",
+          "inCollection": true
+        }
+      ]
+    },
     "2002-03-o-pee-chee": {
       "set_key": "2002-03-o-pee-chee",
       "set_name": "O-Pee-Chee",
@@ -2533,7 +2559,8 @@
           "image_back": "img/cards/ML66/2002-03-SP-Authentic-73-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         }
       ]
     },
@@ -2670,6 +2697,28 @@
           "position": "Center",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-upper-deck-shooting-stars",
+          "set_name": "Shooting Stars",
+          "set_display_name": "2002-03 Upper Deck - Shooting Stars",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-upper-deck-shooting-stars-ss12",
+              "base_number": "SS12",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        }
       ]
     },
     "2002-03-upper-deck-honor-roll": {
@@ -2727,6 +2776,28 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-upper-deck-mvp-vital-forces",
+          "set_name": "Vital Forces",
+          "set_display_name": "2002-03 Upper Deck MVP - Vital Forces",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-upper-deck-mvp-vital-forces-vf12",
+              "base_number": "VF12",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
         }
       ]
     },
@@ -2794,6 +2865,30 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center"
+        }
+      ]
+    },
+    "2002-03-upper-deck-vintage": {
+      "set_key": "2002-03-upper-deck-vintage",
+      "set_name": "Upper Deck Vintage",
+      "set_year_label": "2002-03",
+      "set_year_start": 2002,
+      "set_year_end": 2003,
+      "set_display_name": "2002-03 Upper Deck Vintage",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2002-03-upper-deck-vintage-303",
+          "base_number": "303",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "variant_note": "AA",
+          "inCollection": true
         }
       ]
     },
@@ -2906,6 +3001,26 @@
               "inCollection": true
             }
           ]
+        },
+        {
+          "set_key": "2003-04-upper-deck-all-star-class",
+          "set_name": "All-Star Class",
+          "set_display_name": "2003-04 Upper Deck - All-Star Class",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-upper-deck-all-star-class-as23",
+              "base_number": "AS23",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
         }
       ]
     },
@@ -2951,6 +3066,76 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
+          "inCollection": true
+        }
+      ]
+    },
+    "2003-04-upper-deck-rookie-update": {
+      "set_key": "2003-04-upper-deck-rookie-update",
+      "set_name": "Upper Deck Rookie Update",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Upper Deck Rookie Update",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-upper-deck-rookie-update-69",
+          "base_number": "69",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        }
+      ]
+    },
+    "2003-04-upper-deck-victory": {
+      "set_key": "2003-04-upper-deck-victory",
+      "set_name": "Upper Deck Victory",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Upper Deck Victory",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-upper-deck-victory-149",
+          "base_number": "149",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        }
+      ]
+    },
+    "2004-05-sp-authentic": {
+      "set_key": "2004-05-sp-authentic",
+      "set_name": "SP Authentic",
+      "set_year_label": "2004-05",
+      "set_year_start": 2004,
+      "set_year_end": 2005,
+      "set_display_name": "2004-05 SP Authentic",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2004-05-sp-authentic-138",
+          "base_number": "138",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "variant_note": "AW",
           "inCollection": true
         }
       ]
