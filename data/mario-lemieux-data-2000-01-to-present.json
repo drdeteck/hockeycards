@@ -2707,6 +2707,52 @@
         }
       ]
     },
+    "2002-03-upper-deck-mvp": {
+      "set_key": "2002-03-upper-deck-mvp",
+      "set_name": "Upper Deck MVP",
+      "set_year_label": "2002-03",
+      "set_year_start": 2002,
+      "set_year_end": 2003,
+      "set_display_name": "2002-03 Upper Deck MVP",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2002-03-upper-deck-mvp-148",
+          "base_number": "148",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-Upper-Deck-MVP-148-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Upper-Deck-MVP-148-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        }
+      ]
+    },
+    "2002-03-upper-deck-piece-of-history": {
+      "set_key": "2002-03-upper-deck-piece-of-history",
+      "set_name": "Upper Deck Piece of History",
+      "set_year_label": "2002-03",
+      "set_year_start": 2002,
+      "set_year_end": 2003,
+      "set_display_name": "2002-03 Upper Deck Piece of History",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2002-03-upper-deck-piece-of-history-72",
+          "base_number": "72",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-Upper-Deck-Piece-of-History-72-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Upper-Deck-Piece-of-History-72-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        }
+      ]
+    },
     "2002-03-upper-deck-top-shelf": {
       "set_key": "2002-03-upper-deck-top-shelf",
       "set_name": "Upper Deck Top Shelf",
