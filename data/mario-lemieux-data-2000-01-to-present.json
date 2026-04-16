@@ -2690,7 +2690,8 @@
           "image_back": "img/cards/ML66/2002-03-Upper-Deck-Honor-Roll-58-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         },
         {
           "id": "ml-2002-03-upper-deck-honor-roll-94",
