@@ -2710,8 +2710,28 @@
               "base_number": "SS12",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2002-03-Upper-Deck---Shooting-Stars-SS12-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Upper-Deck---Shooting-Stars-SS12-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-upper-deck-gifted-greats",
+          "set_name": "Gifted Greats",
+          "set_display_name": "2002-03 Upper Deck - Gifted Greats",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-upper-deck-gifted-greats-gg13",
+              "base_number": "GG13",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Upper-Deck---Gifted-Greats-GG13-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Upper-Deck---Gifted-Greats-GG13-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -2790,8 +2810,28 @@
               "base_number": "VF12",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2002-03-Upper-Deck-MVP---Vital-Forces-VF12-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Upper-Deck-MVP---Vital-Forces-VF12-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-upper-deck-mvp-highlight-nights",
+          "set_name": "Highlight Nights",
+          "set_display_name": "2002-03 Upper Deck MVP - Highlight Nights",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-upper-deck-mvp-highlight-nights-hn6",
+              "base_number": "HN6",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Upper-Deck-MVP---Highlitght-Nights-HN6-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Upper-Deck-MVP---Highlitght-Nights-HN6-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -2993,8 +3033,8 @@
               "base_number": "AS4",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2003-04-Upper-Deck---All---Star-Lineup-AS4-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Upper-Deck---All---Star-Lineup-AS4-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
