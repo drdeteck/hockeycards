@@ -291,8 +291,8 @@
           "base_number": "3",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
-          "image_front": "",
-          "image_back": "",
+          "image_front": "img/cards/ML66/1989-90-Topps---Stickers-3-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1989-90-Topps---Stickers-3-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
@@ -4872,6 +4872,18 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-1995-96-nhl-aces-playing-cards-qh",
+          "base_number": "Q♥",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1995-96-Bicycle-NHL-Hockey-Aces-Q♥-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1995-96-Bicycle-NHL-Hockey-Aces-Q♥-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
         }
       ]
     },
@@ -7000,6 +7012,18 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-1996-97-topps-nhl-picks-fc5",
+          "base_number": "FC5",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1996-97-Topps-NHL-Picks-FC5-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1996-97-Topps-NHL-Picks-FC5-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
         }
       ]
     },
@@ -7276,8 +7300,8 @@
           "base_number": "4",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
-          "image_front": "",
-          "image_back": "",
+          "image_front": "img/cards/ML66/1999-Upper-Deck-Century-Legends-4-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1999-Upper-Deck-Century-Legends-4-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
