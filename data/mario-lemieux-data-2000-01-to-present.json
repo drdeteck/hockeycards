@@ -1,8 +1,8 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.14.4",
+  "version": "0.14.5",
   "player": "Mario Lemieux",
-  "updated_at": "2026-04-16",
+  "updated_at": "2026-04-17",
   "image_folder": "img/cards/ML66",
   "sets": {
     "2000-01-be-a-player-memorabilia": {
@@ -243,7 +243,9 @@
               "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-5-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "price": 3.29,
+              "inCollection": true
             },
             {
               "id": "ml-2000-01-topps-mario-lemieux-reprints-6",
@@ -266,7 +268,9 @@
               "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-7-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "price": 4.89,
+              "inCollection": true
             },
             {
               "id": "ml-2000-01-topps-mario-lemieux-reprints-8",
@@ -310,7 +314,9 @@
               "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-11-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "price": 2.79,
+              "inCollection": true
             },
             {
               "id": "ml-2000-01-topps-mario-lemieux-reprints-12",
@@ -368,7 +374,9 @@
               "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-16-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "price": 2.99,
+              "inCollection": true
             },
             {
               "id": "ml-2000-01-topps-mario-lemieux-reprints-17",
@@ -391,7 +399,9 @@
               "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-18-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "price": 4.89,
+              "inCollection": true
             },
             {
               "id": "ml-2000-01-topps-mario-lemieux-reprints-19",
@@ -437,7 +447,9 @@
               "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-22-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "price": 2.79,
+              "inCollection": true
             },
             {
               "id": "ml-2000-01-topps-mario-lemieux-reprints-23",
@@ -551,6 +563,65 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center"
+        }
+      ]
+    },
+    "2000-01-topps-o-pee-chee": {
+      "set_key": "2000-01-topps-o-pee-chee",
+      "set_name": "Topps O-Pee-Chee",
+      "set_year_label": "2000-01",
+      "set_year_start": 2000,
+      "set_year_end": 2001,
+      "set_display_name": "2000-01 Topps O-Pee-Chee",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2000-01-topps-o-pee-chee-mario-lemieux-reprints",
+          "set_name": "Mario Lemieux Reprints",
+          "set_display_name": "2000-01 Topps O-Pee-Chee - Mario Lemieux Reprints",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-topps-opc-mario-lemieux-reprints-8",
+              "base_number": "8",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "price": 3.89,
+              "inCollection": true
+            },
+            {
+              "id": "ml-2000-01-topps-opc-mario-lemieux-reprints-13",
+              "base_number": "13",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "price": 3.99,
+              "inCollection": true
+            },
+            {
+              "id": "ml-2000-01-topps-opc-mario-lemieux-reprints-15",
+              "base_number": "15",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "price": 4.59,
+              "inCollection": true
+            }
+          ]
         }
       ]
     },
@@ -730,7 +801,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "price": 4.39,
+          "inCollection": true
         },
         {
           "id": "ml-2000-01-upper-deck-pros-and-prospects-np8",
