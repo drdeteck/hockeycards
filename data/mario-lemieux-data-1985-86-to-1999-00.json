@@ -3688,7 +3688,45 @@
               "inCollection": true
             }
           ]
-        },
+        },{
+          "set_key": "1994-95-parkhurst-you-crash-the-game-blue-us",
+          "set_name": "You Crash The Game Blue (US)",
+          "set_display_name": "1994-95 Parkhurst - You Crash The Game Blue (US)",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1994-95-parkhurst-you-crash-the-game-blue-us-r18",
+              "base_number": "C18",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1994-95-Parkhurst-R18-Mario-LemieuxBk.jpg",
+              "image_back": "img/cards/ML66/1994-95-Parkhurst-R18-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        },{
+          "set_key": "1994-95-parkhurst-you-crash-the-game-blue-ca",
+          "set_name": "You Crash The Game Blue (CA)",
+          "set_display_name": "1994-95 Parkhurst - You Crash The Game Blue (CA)",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1994-95-parkhurst-you-crash-the-game-blue-ca-c18",
+              "base_number": "C18",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1994-95-Parkhurst-C18-Mario-LemieuxBk.jpg",
+              "image_back": "img/cards/ML66/1994-95-Parkhurst-C18-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        }
         {
           "set_key": "1994-95-parkhurst-parkie-gold",
           "set_name": "Parkie Gold",
