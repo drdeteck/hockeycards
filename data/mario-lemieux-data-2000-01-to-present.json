@@ -568,65 +568,6 @@
         }
       ]
     },
-    "2000-01-topps-o-pee-chee": {
-      "set_key": "2000-01-topps-o-pee-chee",
-      "set_name": "Topps O-Pee-Chee",
-      "set_year_label": "2000-01",
-      "set_year_start": 2000,
-      "set_year_end": 2001,
-      "set_display_name": "2000-01 Topps O-Pee-Chee",
-      "set_tcdb_href": "",
-      "cards": [],
-      "subsets": [
-        {
-          "set_key": "2000-01-topps-o-pee-chee-mario-lemieux-reprints",
-          "set_name": "Mario Lemieux Reprints",
-          "set_display_name": "2000-01 Topps O-Pee-Chee - Mario Lemieux Reprints",
-          "set_tcdb_href": "",
-          "cards": [
-            {
-              "id": "ml-2000-01-topps-opc-mario-lemieux-reprints-8",
-              "base_number": "8",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
-              "tcdb_href": "",
-              "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "price": 3.89,
-              "inCollection": true
-            },
-            {
-              "id": "ml-2000-01-topps-opc-mario-lemieux-reprints-13",
-              "base_number": "13",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
-              "tcdb_href": "",
-              "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "price": 3.99,
-              "inCollection": true
-            },
-            {
-              "id": "ml-2000-01-topps-opc-mario-lemieux-reprints-15",
-              "base_number": "15",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
-              "tcdb_href": "",
-              "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "price": 4.59,
-              "inCollection": true
-            }
-          ]
-        }
-      ]
-    },
     "2000-01-topps-premier-plus": {
       "set_key": "2000-01-topps-premier-plus",
       "set_name": "Topps Premier Plus",
