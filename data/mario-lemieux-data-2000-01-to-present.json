@@ -344,7 +344,8 @@
               "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-14-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             },
             {
               "id": "ml-2000-01-topps-mario-lemieux-reprints-15",
@@ -356,7 +357,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true
+              "inCollection": false
             },
             {
               "id": "ml-2000-01-topps-mario-lemieux-reprints-16",
