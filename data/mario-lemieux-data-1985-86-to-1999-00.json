@@ -3650,22 +3650,42 @@
           ]
         },
         {
+          "set_key": "1994-95-parkhurst-you-crash-the-game",
+          "set_name": "You Crash The Game",
+          "set_display_name": "1994-95 Parkhurst - You Crash The Game",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1994-95-parkhurst-you-crash-the-game-c18",
+              "base_number": "C18",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1994-95-Parkhurst-C18-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1994-95-Parkhurst-C18-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        },
+        {
           "set_key": "1994-95-parkhurst-you-crash-the-game-red",
           "set_name": "You Crash The Game Red",
           "set_display_name": "1994-95 Parkhurst - You Crash The Game Red",
           "set_tcdb_href": "",
           "cards": [
             {
-              "id": "ml-1994-95-parkhurst-you-crash-the-game-red-c18",
-              "base_number": "C18",
+              "id": "ml-1994-95-parkhurst-you-crash-the-game-red-r18",
+              "base_number": "R18",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/1994-95-Parkhurst---You-Crash-the-Game-Red-C18-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/1994-95-Parkhurst---You-Crash-the-Game-Red-C18-Mario-LemieuxBk.jpg",
+              "image_front": "img/cards/ML66/1994-95-Parkhurst-R18-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1994-95-Parkhurst-R18-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true
+              "inCollection": false
             }
           ]
         },
@@ -3686,6 +3706,26 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "1994-95-parkhurst-parkie-gold",
+          "set_name": "Parkie Gold",
+          "set_display_name": "1994-95 Parkhurst - Parkie Gold",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1994-95-parkhurst-parkie-gold-296",
+              "base_number": "296",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1994-95-Parkhurst---Parkie-Gold-296-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1994-95-Parkhurst---Parkie-Gold-296-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
