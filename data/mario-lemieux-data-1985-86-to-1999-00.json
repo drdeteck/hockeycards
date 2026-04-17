@@ -3688,6 +3688,26 @@
               "inCollection": true
             }
           ]
+        },
+        {
+          "set_key": "1994-95-parkhurst-parkie-gold",
+          "set_name": "Parkie Gold",
+          "set_display_name": "1994-95 Parkhurst - Parkie Gold",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1994-95-parkhurst-parkie-gold-296",
+              "base_number": "296",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1994-95-Parkhurst---Parkie-Gold-296-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1994-95-Parkhurst---Parkie-Gold-296-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
