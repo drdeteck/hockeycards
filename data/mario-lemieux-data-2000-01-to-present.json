@@ -910,8 +910,8 @@
         {
           "id": "ml-2001-02-fleer-legacy-25",
           "base_number": "25",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
           "image_front": "img/cards/ML66/2001-02-Fleer-Legacy-25-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/2001-02-Fleer-Legacy-25-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
@@ -1202,8 +1202,8 @@
             {
               "id": "ml-2001-02-pacific-atomic-statosphere-18",
               "base_number": "18",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2001-02-Pacific-Atomic---Statosphere-18-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2001-02-Pacific-Atomic---Statosphere-18-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -1247,8 +1247,8 @@
             {
               "id": "ml-2001-02-pacific-heads-up-stat-masters-14",
               "base_number": "14",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2001-02-Pacific-Heads-Up---Stat Masters-14-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2001-02-Pacific-Heads-Up---Stat Masters-14-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
