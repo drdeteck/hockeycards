@@ -7110,7 +7110,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "variant_note": "Silver"
+              "variant_note": "Silver",
+              "inCollection": true
             }
           ]
         },
