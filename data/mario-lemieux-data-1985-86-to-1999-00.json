@@ -1309,6 +1309,19 @@
           "inCollection": true
         },
         {
+          "id": "ml-1992-93-bowman-foil-233",
+          "base_number": "233",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1992-93-Bowman-233-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1992-93-Bowman-233-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "variant_note": "Foil",
+          "inCollection": true
+        },
+        {
           "id": "ml-1992-93-bowman-440",
           "base_number": "440",
           "orientation_front": "portrait",
@@ -1319,29 +1332,6 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
-        }
-      ],
-      "subsets": [
-        {
-          "set_key": "1992-93-bowman-foil",
-          "set_name": "Foil",
-          "set_display_name": "1992-93 Bowman - Foil",
-          "set_tcdb_href": "",
-          "cards": [
-            {
-              "id": "ml-1992-93-bowman-foil-233",
-              "base_number": "233",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/1992-93-Bowman-233-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/1992-93-Bowman-233-Mario-LemieuxBk.jpg",
-              "tcdb_href": "",
-              "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "variant_note": "Foil",
-              "inCollection": true
-            }
-          ]
         }
       ]
     },
