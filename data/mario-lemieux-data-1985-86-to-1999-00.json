@@ -3620,6 +3620,25 @@
         }
       ],
       "subsets": [
+     {
+          "set_key": "1994-95-parkhurst-vintage",
+          "set_name": "Vintage",
+          "set_display_name": "1994-95 Parkhurst - Vintage",
+          "cards": [
+            {
+              "id": "ml-1994-95-parkhurst-vintage-v6",
+              "base_number": "V6",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1994-95-Parkhurst---Vintage-V6-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1994-95-Parkhurst---Vintage-V6-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        },  
         {
           "set_key": "1994-95-parkhurst-you-crash-the-game-gold-exchange",
           "set_name": "You Crash The Game Gold Exchange",
