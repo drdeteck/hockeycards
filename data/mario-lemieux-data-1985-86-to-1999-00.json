@@ -1,8 +1,8 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.15.3",
+  "version": "0.15.4",
   "player": "Mario Lemieux",
-  "updated_at": "2026-04-16",
+  "updated_at": "2026-04-18",
   "image_folder": "img/cards/ML66",
   "sets": {
     "1985-86-o-pee-chee": {
@@ -2145,6 +2145,18 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-1993-94-donruss-ec",
+          "base_number": "EC",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1993-94-Donruss-EC-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1993-94-Donruss-EC-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ],
       "subsets": [
@@ -2185,6 +2197,26 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "1993-94-donruss-elite",
+          "set_name": "Elite",
+          "set_display_name": "1993-94 Donruss - Elite",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1993-94-donruss-elite-1",
+              "base_number": "1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1993-94-Donruss---Elite-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1993-94-Donruss---Elite-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
@@ -2512,6 +2544,66 @@
               "price": 4.02
             }
           ]
+        },
+        {
+          "set_key": "1993-94-parkhurst-cherrys-playoff-heroes",
+          "set_name": "Cherry's Playoff Heroes",
+          "set_display_name": "1993-94 Parkhurst - Cherry's Playoff Heroes",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1993-94-parkhurst-cherrys-playoff-heroes-d2",
+              "base_number": "D2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1993-94-Parkhurst---Cherry's-Playoff-Heroes-D2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1993-94-Parkhurst---Cherry's-Playoff-Heroes-D2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "1993-94-parkhurst-east-stars",
+          "set_name": "East Stars",
+          "set_display_name": "1993-94 Parkhurst - East Stars",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1993-94-parkhurst-east-stars-e2",
+              "base_number": "E2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1993-94-Parkhurst---East-Stars-E2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1993-94-Parkhurst---East-Stars-E2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "1993-94-parkhurst-usa-canada-gold",
+          "set_name": "USA/Canada Gold",
+          "set_display_name": "1993-94 Parkhurst - USA/Canada Gold",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1993-94-parkhurst-usa-canada-gold-g2",
+              "base_number": "G2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1993-94-Parkhurst---USA-Canada-Gold-G2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1993-94-Parkhurst---USA-Canada-Gold-G2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -2700,6 +2792,26 @@
               "position": "Center",
               "inCollection": true,
               "price": 10.05
+            }
+          ]
+        },
+        {
+          "set_key": "1993-94-score-the-franchise",
+          "set_name": "The Franchise",
+          "set_display_name": "1993-94 Score - The Franchise",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1993-94-score-the-franchise-16",
+              "base_number": "16",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1993-94-Score---The-Franchise-16-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1993-94-Score---The-Franchise-16-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
@@ -3004,6 +3116,38 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "1993-94-topps-premier-black-gold",
+          "set_name": "Black Gold",
+          "set_display_name": "1993-94 O-Pee-Chee Premier / Topps Premier - Black Gold",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1993-94-topps-premier-black-gold-9",
+              "base_number": "9",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1993-94-Topps-Premier---Black-Gold-9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1993-94-Topps-Premier---Black-Gold-9-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-1993-94-topps-premier-black-gold-18",
+              "base_number": "18",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1993-94-O-Pee-Chee-Premier---Black-Gold-18-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1993-94-O-Pee-Chee-Premier---Black-Gold-18-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
@@ -3620,7 +3764,7 @@
         }
       ],
       "subsets": [
-     {
+        {
           "set_key": "1994-95-parkhurst-vintage",
           "set_name": "Vintage",
           "set_display_name": "1994-95 Parkhurst - Vintage",
@@ -3638,7 +3782,7 @@
               "inCollection": true
             }
           ]
-        },  
+        },
         {
           "set_key": "1994-95-parkhurst-you-crash-the-game-gold-exchange",
           "set_name": "You Crash The Game Gold Exchange",
@@ -3698,7 +3842,8 @@
               "inCollection": true
             }
           ]
-        },{
+        },
+        {
           "set_key": "1994-95-parkhurst-you-crash-the-game-blue-us",
           "set_name": "You Crash The Game Blue (US)",
           "set_display_name": "1994-95 Parkhurst - You Crash The Game Blue (US)",
@@ -3717,7 +3862,8 @@
               "inCollection": true
             }
           ]
-        },{
+        },
+        {
           "set_key": "1994-95-parkhurst-you-crash-the-game-blue-ca",
           "set_name": "You Crash The Game Blue (CA)",
           "set_display_name": "1994-95 Parkhurst - You Crash The Game Blue (CA)",
@@ -3759,7 +3905,7 @@
         }
       ]
     },
-   "1994-95-pinnacle": {
+    "1994-95-pinnacle": {
       "set_key": "1994-95-pinnacle",
       "set_name": "Pinnacle",
       "set_year_label": "1994-95",
