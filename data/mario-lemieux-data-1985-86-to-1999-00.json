@@ -1335,17 +1335,17 @@
         }
       ]
     },
-    "1992-93-fleer-ultra": {
-      "set_key": "1992-93-fleer-ultra",
-      "set_name": "Fleer Ultra",
+    "1992-93-ultra": {
+      "set_key": "1992-93-ultra",
+      "set_name": "Ultra",
       "set_year_label": "1992-93",
       "set_year_start": 1992,
       "set_year_end": 1993,
-      "set_display_name": "1992-93 Fleer Ultra",
+      "set_display_name": "1992-93 Ultra",
       "set_tcdb_href": "",
       "cards": [
         {
-          "id": "ml-1992-93-fleer-ultra-165",
+          "id": "ml-1992-93-ultra-165",
           "base_number": "165",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
@@ -1359,13 +1359,13 @@
       ],
       "subsets": [
         {
-          "set_key": "1992-93-fleer-ultra-nhl-all-stars",
+          "set_key": "1992-93-ultra-nhl-all-stars",
           "set_name": "NHL All-Stars",
           "set_display_name": "1992-93 Fleer Ultra - NHL All-Stars",
           "set_tcdb_href": "",
           "cards": [
             {
-              "id": "ml-1992-93-fleer-ultra-nhl-all-stars-4",
+              "id": "ml-1992-93-ultra-nhl-all-stars-4",
               "base_number": "4",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
@@ -1379,13 +1379,13 @@
           ]
         },
         {
-          "set_key": "1992-93-fleer-ultra-award-winners",
+          "set_key": "1992-93-ultra-award-winners",
           "set_name": "Award Winners",
           "set_display_name": "1992-93 Fleer Ultra - Award Winners",
           "set_tcdb_href": "",
           "cards": [
             {
-              "id": "ml-1992-93-fleer-ultra-award-winners-5",
+              "id": "ml-1992-93-ultra-award-winners-5",
               "base_number": "5",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
