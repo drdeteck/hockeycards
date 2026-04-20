@@ -299,6 +299,10 @@
                             <span><strong>Position:</strong> </span><span
                                 data-bind="text: $root.CardPositionValue()"></span>
                         </p>
+                        <p class="card-profile-type-line card-profile-secondary-line"
+                            data-bind="visible: card.card_type && card.card_type !== 'card'">
+                            <span><strong>Type:</strong> </span><span data-bind="text: card.card_type"></span>
+                        </p>
                         <div class="card-profile-divider" aria-hidden="true"></div>
                         <p class="card-profile-type-line card-profile-secondary-line card-profile-year-line">
                             <span><strong>Year:</strong> </span><span
