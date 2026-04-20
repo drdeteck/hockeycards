@@ -1,8 +1,8 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.15.4",
+  "version": "0.15.5",
   "player": "Mario Lemieux",
-  "updated_at": "2026-04-18",
+  "updated_at": "2026-04-20",
   "image_folder": "img/cards/ML66",
   "sets": {
     "1985-86-o-pee-chee": {
@@ -156,7 +156,8 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4865/cid/1175190/1987-88-Topps-15-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "price": 8.5
+          "price": 8.5,
+          "inCollection": true
         }
       ]
     },
@@ -2561,7 +2562,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         },
@@ -2581,7 +2582,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         },
@@ -2811,7 +2812,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         }
@@ -2974,7 +2975,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         }
@@ -5066,11 +5067,11 @@
         },
         {
           "id": "ml-1995-96-nhl-aces-playing-cards-qh",
-          "base_number": "Q♥",
+          "base_number": "Q\u2665",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/1995-96-Bicycle-NHL-Hockey-Aces-Q♥-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/1995-96-Bicycle-NHL-Hockey-Aces-Q♥-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/1995-96-Bicycle-NHL-Hockey-Aces-Q\u2665-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1995-96-Bicycle-NHL-Hockey-Aces-Q\u2665-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
@@ -7558,7 +7559,8 @@
               "image_back": "img/cards/ML66/1999-00-Upper-Deck-Retro---Generations-G5B-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             }
           ]
         }

@@ -1,8 +1,8 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.14.5",
+  "version": "0.14.6",
   "player": "Mario Lemieux",
-  "updated_at": "2026-04-17",
+  "updated_at": "2026-04-20",
   "image_folder": "img/cards/ML66",
   "sets": {
     "2000-01-be-a-player-memorabilia": {
@@ -1319,6 +1319,28 @@
           "team": "Pittsburgh Penguins",
           "position": "Center"
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2001-02-parkhurst-he-shoots-he-scores",
+          "set_name": "He Shoots-He Scores",
+          "set_display_name": "2001-02 Parkhurst - He Shoots-He Scores",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-parkhurst-he-shoots-he-scores-1",
+              "base_number": "1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        }
       ]
     },
     "2001-02-sp-authentic": {
@@ -1822,7 +1844,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true
         },
         {
           "id": "ml-2001-02-topps-heritage-120",
@@ -2948,6 +2970,61 @@
         }
       ]
     },
+    "2003-04-bowman-draft-picks-and-prospects": {
+      "set_key": "2003-04-bowman-draft-picks-and-prospects",
+      "set_name": "Bowman Draft Picks and Prospects",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Bowman Draft Picks and Prospects",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-bowman-draft-picks-and-prospects-66",
+          "base_number": "66",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        }
+      ]
+    },
+    "2003-04-pacific": {
+      "set_key": "2003-04-pacific",
+      "set_name": "Pacific",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Pacific",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2003-04-pacific-main-attractions",
+          "set_name": "Main Attractions",
+          "set_display_name": "2003-04 Pacific - Main Attractions",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-main-attractions-12",
+              "base_number": "12",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        }
+      ]
+    },
     "2003-04-pacific-calder": {
       "set_key": "2003-04-pacific-calder",
       "set_name": "Pacific Calder",
@@ -2964,6 +3041,29 @@
           "orientation_back": "portrait",
           "image_front": "img/cards/ML66/2003-04-Pacific-Calder-81-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/2003-04-Pacific-Calder-81-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        }
+      ]
+    },
+    "2003-04-pacific-supreme": {
+      "set_key": "2003-04-pacific-supreme",
+      "set_name": "Pacific Supreme",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Pacific Supreme",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-pacific-supreme-6",
+          "base_number": "6",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
