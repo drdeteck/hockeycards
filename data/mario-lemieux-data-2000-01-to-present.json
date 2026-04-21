@@ -2084,7 +2084,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true
         }
       ]
     },
@@ -2236,7 +2236,8 @@
           "image_back": "img/cards/ML66/2001-02-Upper-Deck-Playmakers-79-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         }
       ]
     },
