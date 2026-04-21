@@ -2514,6 +2514,51 @@
         }
       ]
     },
+    "2002-03-pacific-heads-up": {
+      "set_key": "2002-03-pacific-heads-up",
+      "set_name": "Pacific Heads Up",
+      "set_year_label": "2002-03",
+      "set_year_start": 2002,
+      "set_year_end": 2003,
+      "set_display_name": "2002-03 Pacific Heads Up",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2002-03-pacific-heads-up-100",
+          "base_number": "100",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-Pacific-Heads-Up-100-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Pacific-Heads-Up-100-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-pacific-heads-up-inside-the-numbers",
+          "set_name": "Inside the Numbers",
+          "set_display_name": "2002-03 Pacific Heads Up - Inside the Numbers",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-heads-up-inside-the-numbers-17",
+              "base_number": "17",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Pacific-Heads-Up---Inside-the-Numbers-17-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Pacific-Heads-Up---Inside-the-Numbers-17-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2002-03-pacific-prism-platinum-mcdonalds": {
       "set_key": "2002-03-pacific-prism-platinum-mcdonalds",
       "set_name": "Pacific Prism Platinum McDonald's",
@@ -3128,6 +3173,29 @@
         }
       ]
     },
+    "2003-04-pacific-crown-royale": {
+      "set_key": "2003-04-pacific-crown-royale",
+      "set_name": "Pacific Crown Royale",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Pacific Crown Royale",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-pacific-crown-royale-80",
+          "base_number": "80",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-Pacific-Crown-Royale-80-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Pacific-Crown-Royale-80-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2003-04-pacific-supreme": {
       "set_key": "2003-04-pacific-supreme",
       "set_name": "Pacific Supreme",
@@ -3734,6 +3802,29 @@
               "inCollection": true
             }
           ]
+        }
+      ]
+    },
+    "2006-07-spx": {
+      "set_key": "2006-07-spx",
+      "set_name": "SPx",
+      "set_year_label": "2006-07",
+      "set_year_start": 2006,
+      "set_year_end": 2007,
+      "set_display_name": "2006-07 SPx",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2006-07-spx-83",
+          "base_number": "83",
+          "orientation_front": "landscape",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2006-07-SPx-83-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2006-07-SPx-83-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
