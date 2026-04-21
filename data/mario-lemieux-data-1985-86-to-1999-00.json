@@ -290,6 +290,7 @@
         {
           "id": "ml-1989-90-topps-sticker-inserts-3",
           "base_number": "3",
+          "card_type": "sticker",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
           "image_front": "img/cards/ML66/1989-90-Topps---Stickers-3-Mario-LemieuxFr.jpg",
@@ -6836,6 +6837,7 @@
             {
               "id": "ml-1996-97-pinnacle-mint-coins-brass-1",
               "base_number": "1",
+              "card_type": "coin",
               "orientation_front": "square",
               "orientation_back": "square",
               "excludeFromBinder": true,

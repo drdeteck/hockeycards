@@ -503,6 +503,7 @@ function DataViewModel() {
             last_seen_price: row.last_seen_price !== undefined && row.last_seen_price !== null && row.last_seen_price !== ''
                 ? row.last_seen_price
                 : row.price,
+            card_type: row.card_type || 'card',
             excludeFromBinder: !!(row.excludeFromBinder),
             inCollection: !!(row.inCollection),
             _set_key: routingSetKey,
