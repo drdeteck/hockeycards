@@ -1231,6 +1231,29 @@
         }
       ]
     },
+    "2001-02-pacific-atomic": {
+      "set_key": "2001-02-pacific-atomic",
+      "set_name": "Pacific Atomic",
+      "set_year_label": "2001-02",
+      "set_year_start": 2001,
+      "set_year_end": 2002,
+      "set_display_name": "2001-02 Pacific Atomic",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2001-02-pacific-atomic-79",
+          "base_number": "79",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
+          "image_front": "img/cards/ML66/2001-02-Pacific-Atomic-79-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2001-02-Pacific-Atomic-79-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2001-02-pacific-heads-up": {
       "set_key": "2001-02-pacific-heads-up",
       "set_name": "Pacific Heads Up",
@@ -2984,12 +3007,54 @@
           "base_number": "66",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
-          "image_front": "",
-          "image_back": "",
+          "image_front": "img/cards/ML66/2003-04-Bowman-Draft-Picks-and-Prospects-66-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Bowman-Draft-Picks-and-Prospects-66-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2003-04-bowman-draft-picks-and-prospects-chrome",
+          "set_name": "Chrome",
+          "set_display_name": "2003-04 Bowman Draft Picks and Prospects - Chrome",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-bowman-draft-picks-and-prospects-chrome-66",
+              "base_number": "66",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Bowman-Draft-Picks-and-Prospects---Chrome-66-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Bowman-Draft-Picks-and-Prospects---Chrome-66-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-bowman-draft-picks-and-prospects-gold",
+          "set_name": "Gold",
+          "set_display_name": "2003-04 Bowman Draft Picks and Prospects - Gold",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-bowman-draft-picks-and-prospects-gold-66",
+              "base_number": "66",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Bowman-Draft-Picks-and-Prospects---Gold-66-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Bowman-Draft-Picks-and-Prospects---Gold-66-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -3001,7 +3066,20 @@
       "set_year_end": 2004,
       "set_display_name": "2003-04 Pacific",
       "set_tcdb_href": "",
-      "cards": [],
+      "cards": [
+        {
+          "id": "ml-2003-04-pacific-274",
+          "base_number": "274",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-Pacific-274-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Pacific-274-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
       "subsets": [
         {
           "set_key": "2003-04-pacific-main-attractions",
@@ -3014,8 +3092,8 @@
               "base_number": "12",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2003-04-Pacific---Main-Attractions-12-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific---Main-Attractions-12-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -3068,6 +3146,18 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-2003-04-pacific-supreme-79",
+          "base_number": "79",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-Pacific-Supreme-79-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Pacific-Supreme-79-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
@@ -3721,6 +3811,71 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ]
+    },
+    "2009-10-o-pee-chee": {
+      "set_key": "2009-10-o-pee-chee",
+      "set_name": "O-Pee-Chee",
+      "set_year_label": "2009-10",
+      "set_year_start": 2009,
+      "set_year_end": 2010,
+      "set_display_name": "2009-10 O-Pee-Chee",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2009-10-o-pee-chee-597",
+          "base_number": "597",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2009-10-O-Pee-Chee-597-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2009-10-O-Pee-Chee-597-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2009-10-o-pee-chee-rainbow",
+          "set_name": "Rainbow",
+          "set_display_name": "2009-10 O-Pee-Chee - Rainbow",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2009-10-o-pee-chee-rainbow-597",
+              "base_number": "597",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2009-10-O-Pee-Chee---Rainbow-597-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2009-10-O-Pee-Chee---Rainbow-597-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2009-10-o-pee-chee-retro",
+          "set_name": "Retro",
+          "set_display_name": "2009-10 O-Pee-Chee - Retro",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2009-10-o-pee-chee-retro-597",
+              "base_number": "597",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2009-10-O-Pee-Chee---Retro-597-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2009-10-O-Pee-Chee---Retro-597-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
