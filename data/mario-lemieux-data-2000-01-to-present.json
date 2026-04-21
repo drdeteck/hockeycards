@@ -1332,9 +1332,9 @@
               "base_number": "1",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
-              "tcdb_href": "",
+              "image_front": "img/cards/ML66/2001-02-Parkhurst---He-Shoots---He-Scores-NNO-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Parkhurst---He-Shoots---He-Scores-NNO-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50139/cid/1709463/2001-02-Parkhurst---He-Shoots---He-Scores-NNO-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
