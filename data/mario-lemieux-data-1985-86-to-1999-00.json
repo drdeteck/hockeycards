@@ -6093,6 +6093,19 @@
               "position": "Center"
             },
             {
+              "id": "ml-1996-97-donruss-canadian-ice-scrapbook-7",
+              "base_number": "7",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-7-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-7-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 5.0
+            },
+            {
               "id": "ml-1996-97-donruss-canadian-ice-scrapbook-14",
               "base_number": "14",
               "orientation_front": "portrait",
@@ -6105,6 +6118,82 @@
               "inCollection": true
             },
             {
+              "id": "ml-1996-97-donruss-canadian-ice-scrapbook-16",
+              "base_number": "16",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-16-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-16-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 5.0
+            },
+            {
+              "id": "ml-1996-97-donruss-canadian-ice-scrapbook-20",
+              "base_number": "20",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-20-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-20-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 5.0
+            },
+            {
+              "id": "ml-1996-97-donruss-canadian-ice-scrapbook-21",
+              "base_number": "21",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-21-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-21-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center"
+            },
+            {
+              "id": "ml-1996-97-donruss-canadian-ice-scrapbook-22",
+              "base_number": "22",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-22-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-22-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 5.0
+            },
+            {
+              "id": "ml-1996-97-donruss-canadian-ice-scrapbook-23",
+              "base_number": "23",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-23-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-23-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 5.0
+            },
+            {
+              "id": "ml-1996-97-donruss-canadian-ice-scrapbook-24",
+              "base_number": "24",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-24-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-24-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 5.0
+            },
+            {
               "id": "ml-1996-97-donruss-canadian-ice-scrapbook-25",
               "base_number": "25",
               "orientation_front": "portrait",
@@ -6113,7 +6202,9 @@
               "image_back": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-25-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": false,
+              "price": 0.0
             }
           ]
         },
