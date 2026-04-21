@@ -304,7 +304,8 @@
               "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-10-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             },
             {
               "id": "ml-2000-01-topps-mario-lemieux-reprints-11",
@@ -3161,8 +3162,8 @@
         {
           "id": "ml-2003-04-spx-78",
           "base_number": "78",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
           "image_front": "img/cards/ML66/2003-04-SPx-78-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/2003-04-SPx-78-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
@@ -3821,7 +3822,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true
         }
       ],
       "subsets": [
