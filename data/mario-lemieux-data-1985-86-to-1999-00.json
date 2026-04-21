@@ -3137,7 +3137,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.95
             },
             {
               "id": "ml-1993-94-topps-premier-black-gold-18",
@@ -5714,7 +5715,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.95
             },
             {
               "id": "ml-1995-96-upper-deck-electric-ice-231",
@@ -6362,7 +6364,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 6.95
             }
           ]
         }
