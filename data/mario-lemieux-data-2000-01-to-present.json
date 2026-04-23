@@ -1079,45 +1079,6 @@
           ]
         },
         {
-          "set_key": "2001-02-pacific-adrenaline",
-          "set_name": "Adrenaline",
-          "set_display_name": "2001-02 Pacific - Adrenaline",
-          "set_tcdb_href": "",
-          "cards": [
-            {
-              "id": "ml-2001-02-pacific-adrenaline-155",
-              "base_number": "155",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/2001-02-Pacific-Adrenaline-155-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2001-02-Pacific-Adrenaline-155-Mario-LemieuxBk.jpg",
-              "tcdb_href": "",
-              "team": "Pittsburgh Penguins",
-              "position": "Center"
-            }
-          ]
-        },
-        {
-          "set_key": "2001-02-pacific-atomic",
-          "set_name": "Atomic",
-          "set_display_name": "2001-02 Pacific - Atomic",
-          "set_tcdb_href": "",
-          "cards": [
-            {
-              "id": "ml-2001-02-pacific-atomic-79",
-              "base_number": "79",
-              "orientation_front": "landscape",
-              "orientation_back": "landscape",
-              "image_front": "img/cards/ML66/2001-02-Pacific-Atomic-79-Mario-LemieuxFr.png",
-              "image_back": "img/cards/ML66/2001-02-Pacific-Atomic-79-Mario-LemieuxBk.png",
-              "tcdb_href": "",
-              "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": true
-            }
-          ]
-        },
-        {
           "set_key": "2001-02-pacific-crown-royale",
           "set_name": "Crown Royale",
           "set_display_name": "2001-02 Pacific - Crown Royale",
@@ -1169,26 +1130,6 @@
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2001-02-Pacific---Top-Draft-Picks-10-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2001-02-Pacific---Top-Draft-Picks-10-Mario-LemieuxBk.jpg",
-              "tcdb_href": "",
-              "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": false
-            }
-          ]
-        },
-        {
-          "set_key": "2001-02-pacific-adrenaline-world-beaters",
-          "set_name": "Adrenaline - World Beaters",
-          "set_display_name": "2001-02 Pacific - Adrenaline - World Beaters",
-          "set_tcdb_href": "",
-          "cards": [
-            {
-              "id": "ml-2001-02-pacific-adrenaline-world-beaters-16",
-              "base_number": "16",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/2001-02-Pacific-Adrenaline---World-Beaters-16-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2001-02-Pacific-Adrenaline---World-Beaters-16-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -1261,6 +1202,28 @@
           "team": "Pittsburgh Penguins",
           "variant_note": "Gold"
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2001-02-pacific-adrenaline-world-beaters",
+          "set_name": "Adrenaline - World Beaters",
+          "set_display_name": "2001-02 Pacific - Adrenaline - World Beaters",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-adrenaline-world-beaters-16",
+              "base_number": "16",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Adrenaline---World-Beaters-16-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Adrenaline---World-Beaters-16-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
       ]
     },
     "2001-02-pacific-atomic": {
@@ -1282,7 +1245,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true
         }
       ]
     },
