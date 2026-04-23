@@ -3774,6 +3774,83 @@
         }
       ]
     },
+    "2004-05-upper-deck": {
+      "set_key": "2004-05-upper-deck",
+      "set_name": "Upper Deck",
+      "set_year_label": "2004-05",
+      "set_year_start": 2004,
+      "set_year_end": 2005,
+      "set_display_name": "2004-05 Upper Deck",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2004-05-upper-deck-138",
+          "base_number": "138",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2004-05-Upper-Deck-138-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2004-05-Upper-Deck-138-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2004-05-upper-deck-189",
+          "base_number": "189",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2004-05-Upper-Deck-189-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2004-05-Upper-Deck-189-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2004-05-upper-deck-clutch-performers",
+          "set_name": "Clutch Performers",
+          "set_display_name": "2004-05 Upper Deck - Clutch Performers",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2004-05-upper-deck-clutch-performers-cp7",
+              "base_number": "CP7",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2004-05-Upper-Deck---Clutch-Performers-CP7-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2004-05-Upper-Deck---Clutch-Performers-CP7-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2004-05-upper-deck-three-stars",
+          "set_name": "Three Stars",
+          "set_display_name": "2004-05 Upper Deck - Three Stars",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2004-05-upper-deck-three-stars-as11",
+              "base_number": "AS11",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2004-05-Upper-Deck---Three-Stars-AS11-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2004-05-Upper-Deck---Three-Stars-AS11-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2004-05-upper-deck-worlds-best": {
       "set_key": "2004-05-upper-deck-worlds-best",
       "set_name": "Upper Deck World's Best",
@@ -3786,8 +3863,8 @@
         {
           "base_number": "WB5",
           "id": "ml-2004-05-upper-deck-worlds-best-wb5",
-          "image_back": "",
-          "image_front": "",
+          "image_back": "img/cards/ML66/2004-05-Upper-Deck---Worlds-Best-WB5-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2004-05-Upper-Deck---Worlds-Best-WB5-Mario-LemieuxFr.jpg",
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
@@ -3810,8 +3887,8 @@
         {
           "base_number": "72",
           "id": "ml-2005-06-be-a-player-72",
-          "image_back": "",
-          "image_front": "",
+          "image_back": "img/cards/ML66/2005-06-Upper-Deck-Be-a-Player-72-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2005-06-Upper-Deck-Be-a-Player-72-Mario-LemieuxFr.jpg",
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
@@ -4019,6 +4096,118 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "2005-06-upper-deck-all-time-greatest-finalist",
+          "set_name": "All-Time Greatest Finalist",
+          "set_display_name": "2005-06 Upper Deck - All-Time Greatest Finalist",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2005-06-upper-deck-all-time-greatest-finalist-47",
+              "base_number": "47",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2005-06-Upper-Deck---All-Time-Greatest-Finalist-47-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2005-06-Upper-Deck---All-Time-Greatest-Finalist-47-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2005-06-upper-deck-all-time-greatest-finalist-85",
+              "base_number": "85",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2005-06-Upper-Deck---All-Time-Greatest-Finalist-85-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2005-06-Upper-Deck---All-Time-Greatest-Finalist-85-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2005-06-upper-deck-destined-for-the-hall",
+          "set_name": "Destined for the Hall",
+          "set_display_name": "2005-06 Upper Deck - Destined for the Hall",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2005-06-upper-deck-destined-for-the-hall-dh6",
+              "base_number": "DH6",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2005-06-Upper-Deck---Destined-for-the-Hall-DH6-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2005-06-Upper-Deck---Destined-for-the-Hall-DH6-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2005-06-upper-deck-gold-rush",
+          "set_name": "Gold Rush",
+          "set_display_name": "2005-06 Upper Deck - Gold Rush",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2005-06-upper-deck-gold-rush-gr7",
+              "base_number": "GR7",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2005-06-Upper-Deck---Gold-Rush-GR7-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2005-06-Upper-Deck---Gold-Rush-GR7-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2005-06-upper-deck-hometown-heroes",
+          "set_name": "Hometown Heroes",
+          "set_display_name": "2005-06 Upper Deck - Hometown Heroes",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2005-06-upper-deck-hometown-heroes-hh13",
+              "base_number": "HH13",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2005-06-Upper-Deck---Hometown-Heroes-HH13-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2005-06-Upper-Deck---Hometown-Heroes-HH13-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2005-06-upper-deck-playoff-performers",
+          "set_name": "Playoff Performers",
+          "set_display_name": "2005-06 Upper Deck - Playoff Performers",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2005-06-upper-deck-playoff-performers-pp7",
+              "base_number": "PP7",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2005-06-Upper-Deck---Playoff-Performers-PP7-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2005-06-Upper-Deck---Playoff-Performers-PP7-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
@@ -4249,8 +4438,8 @@
             {
               "base_number": "HH8",
               "id": "ml-2006-07-upper-deck-mvp-gotta-have-hart-hh8",
-              "image_back": "",
-              "image_front": "",
+              "image_back": "img/cards/ML66/2006-07-Upper-Deck-MVP---Gotta-Have-Hart-HH8-Mario-LemieuxBk.jpg",
+              "image_front": "img/cards/ML66/2006-07-Upper-Deck-MVP---Gotta-Have-Hart-HH8-Mario-LemieuxFr.jpg",
               "inCollection": true,
               "orientation_back": "portrait",
               "orientation_front": "portrait",
@@ -4258,6 +4447,26 @@
               "price": 1.36,
               "tcdb_href": "",
               "team": "Pittsburgh Penguins"
+            }
+          ]
+        },
+        {
+          "set_key": "2006-07-upper-deck-mvp-clutch-performers",
+          "set_name": "Clutch Performers",
+          "set_display_name": "2006-07 Upper Deck MVP - Clutch Performers",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2006-07-upper-deck-mvp-clutch-performers-cp25",
+              "base_number": "CP25",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2006-07-Upper-Deck-MVP---Clutch-Performers-CP25-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2006-07-Upper-Deck-MVP---Clutch-Performers-CP25-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
@@ -4275,8 +4484,8 @@
         {
           "base_number": "20",
           "id": "ml-2008-09-artifacts-20",
-          "image_back": "",
-          "image_front": "",
+          "image_back": "img/cards/ML66/2008-09-Upper-Deck-Artifacts-20-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2008-09-Upper-Deck-Artifacts-20-Mario-LemieuxFr.jpg",
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
