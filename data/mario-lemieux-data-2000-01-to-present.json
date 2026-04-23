@@ -2397,8 +2397,8 @@
         {
           "base_number": "51",
           "id": "ml-2002-03-bap-all-star-edition-51",
-          "image_back": "",
-          "image_front": "",
+          "image_back": "img/cards/ML66/2002-03-Be-a-Player-All-Star-Edition-51-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2002-03-Be-a-Player-All-Star-Edition-51-Mario-LemieuxFr.jpg",
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
@@ -2406,6 +2406,52 @@
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
+        },
+        {
+          "id": "ml-2002-03-bap-all-star-edition-52",
+          "base_number": "52",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-Be-a-Player-All-Star-Edition-52-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Be-a-Player-All-Star-Edition-52-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2002-03-bap-all-star-edition-53",
+          "base_number": "53",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-Be-a-Player-All-Star-Edition-53-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Be-a-Player-All-Star-Edition-53-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-bap-all-star-edition-he-shoots-he-scores",
+          "set_name": "He Shoots He Scores",
+          "set_display_name": "2002-03 BAP All-Star Edition - He Shoots He Scores",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-bap-all-star-edition-he-shoots-he-scores-nno",
+              "base_number": "NNO",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Be-a-Player-All-Star-Edition---He-Shoots-He-Scores-NNO-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Be-a-Player-All-Star-Edition---He-Shoots-He-Scores-NNO-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -2421,8 +2467,8 @@
         {
           "base_number": "1",
           "id": "ml-2002-03-bap-first-edition-1",
-          "image_back": "",
-          "image_front": "",
+          "image_back": "img/cards/ML66/2002-03-Be-a-Player-First-Edition-001-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2002-03-Be-a-Player-First-Edition-001-Mario-LemieuxFr.jpg",
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
@@ -2430,6 +2476,18 @@
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
+        },
+        {
+          "id": "ml-2002-03-bap-first-edition-160",
+          "base_number": "160",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-Be-a-Player-First-Edition-160-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Be-a-Player-First-Edition-160-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         },
         {
           "id": "ml-2002-03-bap-first-edition-323",
@@ -2443,6 +2501,30 @@
           "position": "Center",
           "variant_note": "UC",
           "inCollection": true
+        },
+        {
+          "id": "ml-2002-03-bap-first-edition-364",
+          "base_number": "364",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-Be-a-Player-First-Edition-364-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Be-a-Player-First-Edition-364-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2002-03-bap-first-edition-426",
+          "base_number": "426",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-Be-a-Player-First-Edition-426-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Be-a-Player-First-Edition-426-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
@@ -2454,7 +2536,32 @@
       "set_year_end": 2003,
       "set_display_name": "2002-03 BAP Memorabilia",
       "set_tcdb_href": "",
-      "cards": [],
+      "cards": [
+        {
+          "id": "ml-2002-03-bap-memorabilia-157",
+          "base_number": "157",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia-157-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia-157-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2002-03-bap-memorabilia-224",
+          "base_number": "224",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia-224-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia-224-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
       "subsets": [
         {
           "set_key": "2002-03-bap-memorabilia-he-shoots-he-scores",
@@ -2475,6 +2582,38 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "variant_note": "3 pts."
+            },
+            {
+              "id": "ml-2002-03-bap-memorabilia-he-shoots-he-scores-nno",
+              "base_number": "NNO",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia---He-Shoots-He-Scores-NNO-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia---He-Shoots-He-Scores-NNO-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-bap-memorabilia-all-star-emblems",
+          "set_name": "All-Star Emblems",
+          "set_display_name": "2002-03 BAP Memorabilia - All-Star Emblems",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-bap-memorabilia-all-star-emblems-12",
+              "base_number": "12",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia---All-Star-Emblems-12-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia---All-Star-Emblems-12-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
@@ -2833,18 +2972,18 @@
     },
     "2002-03-titanium": {
       "set_key": "2002-03-titanium",
-      "set_name": "Titanium",
+      "set_name": "Pacific Private Stock Titanium",
       "set_year_label": "2002-03",
       "set_year_start": 2002,
       "set_year_end": 2003,
-      "set_display_name": "2002-03 Titanium",
+      "set_display_name": "2002-03 Pacific Private Stock Titanium",
       "set_tcdb_href": "",
       "cards": [
         {
           "base_number": "82",
           "id": "ml-2002-03-titanium-82",
-          "image_back": "",
-          "image_front": "",
+          "image_back": "img/cards/ML66/2002-03-Pacific-Private-Stock-Titanium-82-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2002-03-Pacific-Private-Stock-Titanium-82-Mario-LemieuxFr.jpg",
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
@@ -2853,6 +2992,28 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "variant_note": "Gold"
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-titanium-saturday-knights",
+          "set_name": "Saturday Knights",
+          "set_display_name": "2002-03 Pacific Private Stock Titanium - Saturday Knights",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-titanium-saturday-knights-7",
+              "base_number": "7",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Pacific-Private-Stock-Titanium---Saturday-Knights-7-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Pacific-Private-Stock-Titanium---Saturday-Knights-7-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -3090,8 +3251,8 @@
         {
           "base_number": "79",
           "id": "ml-2002-03-upper-deck-rookie-update-79",
-          "image_back": "",
-          "image_front": "",
+          "image_back": "img/cards/ML66/2002-03-Upper-Deck-Rookie-Update-79-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2002-03-Upper-Deck-Rookie-Update-79-Mario-LemieuxFr.jpg",
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
@@ -3099,6 +3260,18 @@
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
+        },
+        {
+          "id": "ml-2002-03-upper-deck-rookie-update-105",
+          "base_number": "105",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-Upper-Deck-Rookie-Update-105-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Upper-Deck-Rookie-Update-105-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
@@ -3473,8 +3646,8 @@
         {
           "base_number": "77",
           "id": "ml-2003-04-upper-deck-classic-portraits-77",
-          "image_back": "",
-          "image_front": "",
+          "image_back": "img/cards/ML66/2003-04-Upper-Deck-Classic-Portraits-77-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2003-04-Upper-Deck-Classic-Portraits-77-Mario-LemieuxFr.jpg",
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
