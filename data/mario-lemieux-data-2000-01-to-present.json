@@ -495,7 +495,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             },
             {
               "id": "ml-2000-01-topps-chrome-mlr-9",
@@ -507,7 +507,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             },
             {
               "id": "ml-2000-01-topps-chrome-mlr-11",
