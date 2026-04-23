@@ -1098,25 +1098,7 @@
             }
           ]
         },
-        {
-          "set_key": "2001-02-pacific-vanguard",
-          "set_name": "Vanguard",
-          "set_display_name": "2001-02 Pacific - Vanguard",
-          "set_tcdb_href": "",
-          "cards": [
-            {
-              "id": "ml-2001-02-pacific-vanguard-80",
-              "base_number": "80",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/2001-02-Pacific-Vanguard-80-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2001-02-Pacific-Vanguard-80-Mario-LemieuxBk.jpg",
-              "tcdb_href": "",
-              "team": "Pittsburgh Penguins",
-              "position": "Center"
-            }
-          ]
-        },
+
         {
           "set_key": "2001-02-pacific-top-draft-picks",
           "set_name": "Top Draft Picks",
@@ -1329,8 +1311,8 @@
         {
           "base_number": "80",
           "id": "ml-2001-02-pacific-vanguard-80",
-          "image_back": "",
-          "image_front": "",
+          "image_front": "img/cards/ML66/2001-02-Pacific-Vanguard-80-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2001-02-Pacific-Vanguard-80-Mario-LemieuxBk.jpg",
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
