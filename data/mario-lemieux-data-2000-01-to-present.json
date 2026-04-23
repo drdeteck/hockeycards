@@ -1079,27 +1079,6 @@
           ]
         },
         {
-          "set_key": "2001-02-pacific-crown-royale",
-          "set_name": "Crown Royale",
-          "set_display_name": "2001-02 Pacific - Crown Royale",
-          "set_tcdb_href": "",
-          "cards": [
-            {
-              "id": "ml-2001-02-pacific-crown-royale-117",
-              "base_number": "117",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/2001-02-Pacific-Crown-Royale-117-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2001-02-Pacific-Crown-Royale-117-Mario-LemieuxBk.jpg",
-              "tcdb_href": "",
-              "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": true
-            }
-          ]
-        },
-
-        {
           "set_key": "2001-02-pacific-top-draft-picks",
           "set_name": "Top Draft Picks",
           "set_display_name": "2001-02 Pacific - Top Draft Picks",
@@ -1112,46 +1091,6 @@
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2001-02-Pacific---Top-Draft-Picks-10-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2001-02-Pacific---Top-Draft-Picks-10-Mario-LemieuxBk.jpg",
-              "tcdb_href": "",
-              "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": false
-            }
-          ]
-        },
-        {
-          "set_key": "2001-02-pacific-atomic-power-play",
-          "set_name": "Atomic - Power Play",
-          "set_display_name": "2001-02 Pacific - Atomic - Power Play",
-          "set_tcdb_href": "",
-          "cards": [
-            {
-              "id": "ml-2001-02-pacific-atomic-power-play-27",
-              "base_number": "27",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/2001-02-Pacific-Atomic---Power-Play-27-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2001-02-Pacific-Atomic---Power-Play-27-Mario-LemieuxBk.jpg",
-              "tcdb_href": "",
-              "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": false
-            }
-          ]
-        },
-        {
-          "set_key": "2001-02-pacific-atomic-statosphere",
-          "set_name": "Atomic - Statosphere",
-          "set_display_name": "2001-02 Pacific - Atomic - Statosphere",
-          "set_tcdb_href": "",
-          "cards": [
-            {
-              "id": "ml-2001-02-pacific-atomic-statosphere-18",
-              "base_number": "18",
-              "orientation_front": "landscape",
-              "orientation_back": "landscape",
-              "image_front": "img/cards/ML66/2001-02-Pacific-Atomic---Statosphere-18-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2001-02-Pacific-Atomic---Statosphere-18-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -1173,8 +1112,8 @@
         {
           "base_number": "155",
           "id": "ml-2001-02-pacific-adrenaline-155",
-          "image_back": "",
-          "image_front": "",
+          "image_back": "img/cards/ML66/2001-02-Pacific-Adrenaline-155-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2001-02-Pacific-Adrenaline-155-Mario-LemieuxFr.jpg",
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
@@ -1224,6 +1163,71 @@
           "orientation_back": "landscape",
           "image_front": "img/cards/ML66/2001-02-Pacific-Atomic-79-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/2001-02-Pacific-Atomic-79-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2001-02-pacific-atomic-power-play",
+          "set_name": "Power Play",
+          "set_display_name": "2001-02 Pacific Atomic - Power Play",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-atomic-power-play-27",
+              "base_number": "27",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Atomic---Power-Play-27-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Atomic---Power-Play-27-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2001-02-pacific-atomic-statosphere",
+          "set_name": "Statosphere",
+          "set_display_name": "2001-02 Pacific Atomic - Statosphere",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-atomic-statosphere-18",
+              "base_number": "18",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Atomic---Statosphere-18-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Atomic---Statosphere-18-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2001-02-pacific-crown-royale": {
+      "set_key": "2001-02-pacific-crown-royale",
+      "set_name": "Pacific Crown Royale",
+      "set_year_label": "2001-02",
+      "set_year_start": 2001,
+      "set_year_end": 2002,
+      "set_display_name": "2001-02 Pacific Crown Royale",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2001-02-pacific-crown-royale-117",
+          "base_number": "117",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2001-02-Pacific-Crown-Royale-117-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2001-02-Pacific-Crown-Royale-117-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
