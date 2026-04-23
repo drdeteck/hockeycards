@@ -2552,8 +2552,8 @@
         {
           "id": "ml-2002-03-bap-memorabilia-224",
           "base_number": "224",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
           "image_front": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia-224-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia-224-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
@@ -3004,8 +3004,8 @@
             {
               "id": "ml-2002-03-titanium-saturday-knights-7",
               "base_number": "7",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2002-03-Pacific-Private-Stock-Titanium---Saturday-Knights-7-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2002-03-Pacific-Private-Stock-Titanium---Saturday-Knights-7-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -3264,8 +3264,8 @@
         {
           "id": "ml-2002-03-upper-deck-rookie-update-105",
           "base_number": "105",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
           "image_front": "img/cards/ML66/2002-03-Upper-Deck-Rookie-Update-105-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/2002-03-Upper-Deck-Rookie-Update-105-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
@@ -4180,8 +4180,8 @@
             {
               "id": "ml-2005-06-upper-deck-hometown-heroes-hh13",
               "base_number": "HH13",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2005-06-Upper-Deck---Hometown-Heroes-HH13-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2005-06-Upper-Deck---Hometown-Heroes-HH13-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
