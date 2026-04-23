@@ -1436,8 +1436,8 @@
         {
           "id": "ml-2001-02-spx-78",
           "base_number": "78",
-          "orientation_front": "landscape",
-          "orientation_back": "landscape",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
           "image_front": "img/cards/ML66/2001-02-SPx-78-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/2001-02-SPx-78-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
@@ -1553,7 +1553,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             },
             {
               "id": "ml-2001-02-topps-mlr-3",
@@ -1650,7 +1650,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         },
