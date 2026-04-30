@@ -145,7 +145,7 @@
                     <span data-bind="text: $root.ThemeToggleLabel">Dark</span>
                 </button>
                 <a href="#home" class="btn btn-outline-light btn-sm">Home</a>
-                <a href="#binder" class="btn btn-outline-light btn-sm">Binder</a>
+                <a href="#binder-ml" class="btn btn-outline-light btn-sm">Binder</a>
                 <a href="#about" class="btn btn-outline-light btn-sm">About</a>
             </div>
         </div>
@@ -158,10 +158,10 @@
 
         <!-- HOME VIEW: Cards Grid -->
         <div
-            data-bind="visible: !IsCardView() && CurrentRoute() !== 'about' && CurrentRoute() !== 'binder' && ($root.CurrentRoute() === 'home' || $root.CurrentCollection())">
+            data-bind="visible: !IsCardView() && CurrentRoute() !== 'about' && RouteType() !== 'binder' && ($root.CurrentRoute() === 'home' || $root.CurrentCollection())">
             <!-- bind directly to the 'cards' array on the active collection -->
             <div class="collection" data-bind="with: $root.CurrentCollection">
-                <!-- ko if: set_key === 'ML-all' -->
+                <!-- ko if: set_key === 'ML-all' || set_key === 'ML-stickers-all' -->
                 <!-- ko foreach: $root.CurrentCollectionYearGroups -->
                 <!-- ko if: $root.HasWishableCards(cards) -->
                 <h2 class="card-grid-header">
@@ -468,7 +468,15 @@
         </div>
 
         <!-- BINDER VIEW -->
-        <div class="binder-view" data-bind="visible: CurrentRoute() === 'binder'">
+        <div class="binder-view" data-bind="visible: RouteType() === 'binder'">
+            <div class="binder-dataset-nav">
+                <a href="#binder-ml" data-bind="css: { active: BinderActiveRoute() === 'binder-ml' }">ML 1985–1999</a>
+                <a href="#binder-ml-2000" data-bind="css: { active: BinderActiveRoute() === 'binder-ml-2000' }">ML
+                    2000s+</a>
+                <a href="#binder-stickers"
+                    data-bind="css: { active: BinderActiveRoute() === 'binder-stickers' }">Stickers</a>
+                <a href="#binder-mcd" data-bind="css: { active: BinderActiveRoute() === 'binder-mcd' }">McDonald's</a>
+            </div>
             <!-- ko if: BinderHasPages() -->
             <div class="binder-pager" data-bind="with: BinderCurrentEntry">
                 <div class="binder-pager-nav">
@@ -513,28 +521,6 @@
                         aria-label="Next binder page">Next →</button>
                 </div>
 
-                <div class="binder-checklist">
-                    <!-- ko foreach: allCards -->
-                    <!-- ko if: $data.orientation_front !== 'extra-tall' && !$data.excludeFromBinder -->
-                    <div class="binder-checklist-item"
-                        data-bind="css: { 'binder-checklist-item--owned': inCollection }">
-                        <span class="binder-checklist-check" aria-hidden="true">
-                            <!-- ko if: inCollection -->
-                            <svg width="9" height="9" viewBox="0 0 9 9" aria-hidden="true">
-                                <polyline points="1.5,5 3.5,7.5 7.5,1.5" stroke="#fff" stroke-width="1.8" fill="none"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                            <!-- /ko -->
-                        </span>
-                        <span class="binder-checklist-item-label">
-                            <span
-                                data-bind="text: set_display_name + ' #' + base_number"></span><!-- ko if: insert_subset --><span
-                                data-bind="text: ' · ' + insert_subset"></span><!-- /ko -->
-                        </span>
-                    </div>
-                    <!-- /ko -->
-                    <!-- /ko -->
-                </div>
             </div>
 
             <div class="binder-page" data-bind="with: BinderCurrentEntry">
@@ -574,15 +560,15 @@
             </div>
             <!-- /ko -->
 
-            <!-- Empty state when no ML data is loaded -->
+            <!-- Empty state when no cards are loaded for this binder -->
             <!-- ko if: !BinderHasPages() -->
-            <p style="color: rgba(255,255,255,0.65); text-align: center; padding: 60px 0;">No Mario Lemieux cards
-                loaded.</p>
+            <p style="color: rgba(255,255,255,0.65); text-align: center; padding: 60px 0;">No cards loaded for this
+                binder.</p>
             <!-- /ko -->
         </div>
 
         <!-- DEFAULT/404 VIEW -->
-        <div data-bind="visible: !IsCardView() && CurrentRoute() !== 'home' && CurrentRoute() !== 'about' && CurrentRoute() !== 'binder' && !$root.CurrentCollection()"
+        <div data-bind="visible: !IsCardView() && CurrentRoute() !== 'home' && CurrentRoute() !== 'about' && RouteType() !== 'binder' && !$root.CurrentCollection()"
             style="padding: 20px;">
             <h1>Page Not Found</h1>
             <p>Route: <span data-bind="text: CurrentRoute()"></span></p>
@@ -630,7 +616,8 @@
                         <span class="footer-stat-icon">💰</span>
                         <div class="footer-stat-body">
                             <div class="footer-stat-top">
-                                <span class="footer-stat-value footer-stat-value--price" data-bind="text: ownedPrice"></span>
+                                <span class="footer-stat-value footer-stat-value--price"
+                                    data-bind="text: ownedPrice"></span>
                                 <span class="footer-stat-label">owned value</span>
                             </div>
                         </div>
@@ -641,7 +628,8 @@
                         <span class="footer-stat-icon">🏷️</span>
                         <div class="footer-stat-body">
                             <div class="footer-stat-top">
-                                <span class="footer-stat-value footer-stat-value--unowned" data-bind="text: unownedPrice"></span>
+                                <span class="footer-stat-value footer-stat-value--unowned"
+                                    data-bind="text: unownedPrice"></span>
                                 <span class="footer-stat-label">unowned value</span>
                             </div>
                         </div>
@@ -686,7 +674,8 @@
                         <span class="footer-stat-icon">💰</span>
                         <div class="footer-stat-body">
                             <div class="footer-stat-top">
-                                <span class="footer-stat-value footer-stat-value--price" data-bind="text: ownedPrice"></span>
+                                <span class="footer-stat-value footer-stat-value--price"
+                                    data-bind="text: ownedPrice"></span>
                                 <span class="footer-stat-label">owned value</span>
                             </div>
                         </div>
@@ -697,7 +686,8 @@
                         <span class="footer-stat-icon">🏷️</span>
                         <div class="footer-stat-body">
                             <div class="footer-stat-top">
-                                <span class="footer-stat-value footer-stat-value--unowned" data-bind="text: unownedPrice"></span>
+                                <span class="footer-stat-value footer-stat-value--unowned"
+                                    data-bind="text: unownedPrice"></span>
                                 <span class="footer-stat-label">unowned value</span>
                             </div>
                         </div>
@@ -742,7 +732,8 @@
                         <span class="footer-stat-icon">💰</span>
                         <div class="footer-stat-body">
                             <div class="footer-stat-top">
-                                <span class="footer-stat-value footer-stat-value--price" data-bind="text: ownedPrice"></span>
+                                <span class="footer-stat-value footer-stat-value--price"
+                                    data-bind="text: ownedPrice"></span>
                                 <span class="footer-stat-label">owned value</span>
                             </div>
                         </div>
@@ -753,7 +744,67 @@
                         <span class="footer-stat-icon">🏷️</span>
                         <div class="footer-stat-body">
                             <div class="footer-stat-top">
-                                <span class="footer-stat-value footer-stat-value--unowned" data-bind="text: unownedPrice"></span>
+                                <span class="footer-stat-value footer-stat-value--unowned"
+                                    data-bind="text: unownedPrice"></span>
+                                <span class="footer-stat-label">unowned value</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /ko -->
+                </div>
+
+                <!-- Stickers -->
+                <div class="footer-stat-group" data-bind="with: stickers">
+                    <span class="footer-stat-group-label">🏷️ Stickers</span>
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-icon">🖼️</span>
+                        <div class="footer-stat-body">
+                            <div class="footer-stat-top">
+                                <span class="footer-stat-value" data-bind="text: pctWithImages + '%'"></span>
+                                <span class="footer-stat-label">cards with images</span>
+                            </div>
+                            <div class="footer-stat-bar-track">
+                                <div class="footer-stat-bar-fill" data-bind="style: { width: pctWithImages + '%' }">
+                                </div>
+                            </div>
+                            <span class="footer-stat-detail"
+                                data-bind="text: cardsWithImages + ' / ' + totalCards"></span>
+                        </div>
+                    </div>
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-icon">✅</span>
+                        <div class="footer-stat-body">
+                            <div class="footer-stat-top">
+                                <span class="footer-stat-value" data-bind="text: pctInCollection + '%'"></span>
+                                <span class="footer-stat-label">collection owned</span>
+                            </div>
+                            <div class="footer-stat-bar-track">
+                                <div class="footer-stat-bar-fill footer-stat-bar-fill--owned"
+                                    data-bind="style: { width: pctInCollection + '%' }"></div>
+                            </div>
+                            <span class="footer-stat-detail"
+                                data-bind="text: cardsInCollection + ' owned · ' + cardsNotInCollection + ' missing'"></span>
+                        </div>
+                    </div>
+                    <!-- ko if: ownedPrice -->
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-icon">💰</span>
+                        <div class="footer-stat-body">
+                            <div class="footer-stat-top">
+                                <span class="footer-stat-value footer-stat-value--price"
+                                    data-bind="text: ownedPrice"></span>
+                                <span class="footer-stat-label">owned value</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /ko -->
+                    <!-- ko if: unownedPrice -->
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-icon">🏷️</span>
+                        <div class="footer-stat-body">
+                            <div class="footer-stat-top">
+                                <span class="footer-stat-value footer-stat-value--unowned"
+                                    data-bind="text: unownedPrice"></span>
                                 <span class="footer-stat-label">unowned value</span>
                             </div>
                         </div>
@@ -866,7 +917,8 @@
             <span class="card-grid-item-meta-price" data-bind="text: '· ' + $root.GetCardGridPriceCad($data)"></span>
             <!-- /ko -->
             <!-- ko if: $root.GetCardGridPaidPriceCad($data) -->
-            <span class="card-grid-item-meta-paid-price" data-bind="text: '· ' + $root.GetCardGridPaidPriceCad($data)"></span>
+            <span class="card-grid-item-meta-paid-price"
+                data-bind="text: '· ' + $root.GetCardGridPaidPriceCad($data)"></span>
             <!-- /ko -->
             <!-- ko if: $root.IsCurrentCollectionMario() -->
             <a class="card-grid-item-ebay-link" target="_blank" rel="noopener noreferrer"

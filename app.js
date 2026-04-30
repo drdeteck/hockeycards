@@ -28,19 +28,22 @@ window.HCHB = window.HCHB || {};
             var marioLateDataUrl = 'data/mario-lemieux-data-2000-01-to-present.json?ver=' + dataVersion;
             var ccDataUrl = 'data/96-97-cc-data.json?ver=' + dataVersion;
             var otherDataUrl = 'data/other-cards.json?ver=' + dataVersion;
+            var stickerDataUrl = 'data/mario-lemieux-data-stickers.json?ver=' + dataVersion;
 
             Promise.all([
                 loadJsonData(mcdonaldsDataUrl, 'McDonald\'s dataset'),
                 loadJsonData(marioEarlyDataUrl, 'Mario dataset (1985-86 to 1999-00)'),
                 loadJsonData(marioLateDataUrl, 'Mario dataset (2000-01 to present)'),
                 loadJsonData(ccDataUrl, '96-97-CC dataset'),
-                loadJsonData(otherDataUrl, 'Other cards dataset')
+                loadJsonData(otherDataUrl, 'Other cards dataset'),
+                loadJsonData(stickerDataUrl, 'Mario Lemieux stickers dataset')
             ]).then(function (datasets) {
                 var mcdonaldsData = datasets[0] || {};
                 var marioEarlyData = datasets[1];
                 var marioLateData = datasets[2];
                 var ccData = datasets[3];
                 var otherData = datasets[4];
+                var stickerData = datasets[5];
 
                 var mergedData = Object.assign({}, mcdonaldsData);
 
@@ -72,6 +75,13 @@ window.HCHB = window.HCHB || {};
                     mergedData = Object.assign(mergedData, otherData);
                 } else {
                     console.warn('Other cards dataset not loaded. Expected JSON from data/other-cards.json');
+                }
+
+                if (stickerData) {
+                    var stickerCollections = App.ViewModel.BuildStickerCollections(stickerData);
+                    mergedData = Object.assign(mergedData, stickerCollections);
+                } else {
+                    console.warn('Sticker dataset not loaded. Expected JSON from data/mario-lemieux-data-stickers.json');
                 }
 
                 initializeAppWithData(mergedData);
@@ -305,7 +315,116 @@ function DataViewModel() {
     };
 
     self.IsMarioSource = function (source) {
-        return source === 'mario' || source === '96-97-CC' || source === 'other-cards';
+        return source === 'mario' || source === 'mario-stickers' || source === '96-97-CC' || source === 'other-cards';
+    };
+
+    self.BuildStickerCollections = function (stickerData) {
+        var sets = (stickerData && stickerData.sets) || {};
+        var setKeys = Object.keys(sets);
+        if (setKeys.length === 0) {
+            return {};
+        }
+
+        var allCards = [];
+        var result = {};
+
+        setKeys.forEach(function (setKey) {
+            var setData = sets[setKey];
+            var yearLabel = setData.set_year_label || 'Unknown';
+            var parsedYearStart = parseInt(setData.set_year_start, 10);
+            var seasonStart = !isNaN(parsedYearStart) ? parsedYearStart : (self.GetSeasonStartYear(yearLabel) || 0);
+            var parsedYearEnd = parseInt(setData.set_year_end, 10);
+            var seasonEnd = !isNaN(parsedYearEnd) ? parsedYearEnd : (self.GetSeasonEndYear(yearLabel) || null);
+            var setName = setData.set_name || 'Unknown';
+            var setDisplayName = setData.set_display_name || self.ComposeSetDisplayName(yearLabel, setName, '');
+
+            var setCards = [];
+            (setData.cards || []).forEach(function (row) {
+                var baseNumber = row.base_number || 'NNO';
+                var tcdbHref = row.tcdb_href || '';
+                var cardItem = {
+                    id: row.id || '',
+                    name: 'Mario Lemieux',
+                    base_number: baseNumber,
+                    team: row.team || 'Pittsburgh Penguins',
+                    position: row.position || 'Center',
+                    orientation: row.orientation || 'portrait',
+                    orientation_front: row.orientation_front || 'portrait',
+                    orientation_back: row.orientation_back || 'portrait',
+                    variant_note: row.variant_note || null,
+                    set_name: setName,
+                    set_variation: null,
+                    set_year_label: yearLabel,
+                    set_year_start: seasonStart,
+                    set_year_end: seasonEnd,
+                    set_display_name: setDisplayName,
+                    insert_subset: '',
+                    image_front: row.image_front || '',
+                    image_back: row.image_back || '',
+                    tcdb_href: (tcdbHref && tcdbHref.indexOf('http') === 0) ? tcdbHref : '',
+                    last_seen_price: row.last_seen_price !== undefined && row.last_seen_price !== null && row.last_seen_price !== ''
+                        ? row.last_seen_price
+                        : row.price,
+                    card_type: row.card_type || 'sticker',
+                    excludeFromBinder: !!(row.excludeFromBinder),
+                    inCollection: !!(row.inCollection),
+                    _set_key: setKey,
+                    _parent_key: null
+                };
+                setCards.push(cardItem);
+                allCards.push(cardItem);
+            });
+
+            result[setKey] = {
+                set_key: setKey,
+                set_name: setName,
+                set_variation: null,
+                set_year_label: yearLabel,
+                set_year_start: seasonStart,
+                set_year_end: seasonEnd,
+                set_category: self.GetDecadeLabel(yearLabel),
+                set_total_cards: setCards.length,
+                set_tcdb_href: setData.set_tcdb_href || '',
+                set_display_name: setDisplayName,
+                source: 'mario-stickers',
+                cards: setCards,
+                subsets: []
+            };
+        });
+
+        allCards.sort(function (left, right) {
+            var leftYearStart = parseInt(left.set_year_start, 10) || 0;
+            var rightYearStart = parseInt(right.set_year_start, 10) || 0;
+            if (leftYearStart !== rightYearStart) {
+                return leftYearStart - rightYearStart;
+            }
+            var leftSet = (left.set_name || '').toString();
+            var rightSet = (right.set_name || '').toString();
+            var setCompare = leftSet.localeCompare(rightSet, undefined, { sensitivity: 'base' });
+            if (setCompare !== 0) { return setCompare; }
+            return (left.base_number || '').toString().localeCompare(
+                (right.base_number || '').toString(),
+                undefined,
+                { numeric: true, sensitivity: 'base' }
+            );
+        });
+
+        result['ML-stickers-all'] = {
+            set_key: 'ML-stickers-all',
+            set_name: 'All Mario Lemieux Stickers',
+            set_year_label: 'All Stickers',
+            set_year_start: null,
+            set_year_end: null,
+            set_category: 'All',
+            set_total_cards: allCards.length,
+            set_tcdb_href: '',
+            set_display_name: 'All Mario Lemieux Stickers',
+            source: 'mario-stickers',
+            cards: allCards,
+            subsets: []
+        };
+
+        return result;
     };
 
     self.BuildMarioCollections = function (marioData) {
@@ -526,6 +645,7 @@ function DataViewModel() {
     self.ExportCopied = ko.observable(false);
     self.BinderPageIndex = ko.observable(0);
     self.BinderSelectedYearKey = ko.observable('');
+    self.BinderActiveRoute = ko.observable('binder-ml');
     self.IsSyncingBinderYearSelect = false;
     // 'off' | 'owned' | 'wish'
     self.CollectionOverlayMode = ko.observable('owned');
@@ -1029,7 +1149,7 @@ function DataViewModel() {
 
     self.CurrentCollectionYearGroups = ko.pureComputed(function () {
         var collection = self.CurrentCollection();
-        if (!collection || collection.set_key !== 'ML-all') {
+        if (!collection || (collection.set_key !== 'ML-all' && collection.set_key !== 'ML-stickers-all')) {
             return [];
         }
 
@@ -1093,14 +1213,14 @@ function DataViewModel() {
         var collection = self.CurrentCollection();
         if (!collection) { return false; }
         var key = collection.set_key || '';
-        return key !== 'ML-all' && key.indexOf('ML-') === 0;
+        return key !== 'ML-all' && key !== 'ML-stickers-all' && key.indexOf('ML-') === 0;
     });
 
     self.CurrentCollectionYearSetGroups = ko.pureComputed(function () {
         var collection = self.CurrentCollection();
         if (!collection) { return []; }
         var key = collection.set_key || '';
-        if (key === 'ML-all' || key.indexOf('ML-') !== 0) { return []; }
+        if (key === 'ML-all' || key === 'ML-stickers-all' || key.indexOf('ML-') !== 0) { return []; }
 
         var allCards = [];
         (collection.cards || []).forEach(function (card) { allCards.push(card); });
@@ -1145,99 +1265,107 @@ function DataViewModel() {
         });
     });
 
-    // Binder view: all ML cards grouped by year with pages of 9 cards
+    // Binder view: cards grouped by year with pages of 9 cards, driven by BinderActiveRoute
     self.BinderYearGroups = ko.pureComputed(function () {
         var data = self.Data() || {};
-        var allCollection = data['ML-all'];
-        if (!allCollection) { return []; }
+        var activeRoute = self.BinderActiveRoute();
 
-        var cards = (allCollection.cards || []).filter(function (c) {
-            var frontOrientation = (c.orientation_front || c.orientation || '').toString().toLowerCase();
-            return frontOrientation !== 'extra-tall' && !c.excludeFromBinder;
-        });
-
-        var groupsByYear = {};
-        cards.forEach(function (card) {
-            var label = (card.set_year_label || 'Unknown').toString().trim();
-            if (!groupsByYear[label]) {
-                groupsByYear[label] = [];
-            }
-            groupsByYear[label].push(card);
-        });
-
-        var orderedLabels = Object.keys(groupsByYear)
-            .sort(function (a, b) {
-                var aYear = self.GetSeasonStartYear(a) || 0;
-                var bYear = self.GetSeasonStartYear(b) || 0;
-                return aYear - bYear;
+        function buildGroupEntries(cards, useMLMerge, denseMode) {
+            var filtered = cards.filter(function (c) {
+                var frontOrientation = (c.orientation_front || c.orientation || '').toString().toLowerCase();
+                return frontOrientation !== 'extra-tall' && !c.excludeFromBinder;
             });
 
-        var mergedStartYears = ['1985-86', '1986-87', '1987-88', '1988-89'];
-        var mergedYearLabel = '1985-86 to 1988-89';
-        var mergedYearKey = 'ML-1985-86_to_1988-89';
-
-        var groupedEntries = [];
-        var mergedCards = [];
-
-        mergedStartYears.forEach(function (yearLabel) {
-            if (groupsByYear[yearLabel]) {
-                mergedCards = mergedCards.concat(groupsByYear[yearLabel]);
-            }
-        });
-
-        if (mergedCards.length) {
-            mergedCards.sort(function (left, right) {
-                var leftYear = left.set_year_start || 0;
-                var rightYear = right.set_year_start || 0;
-                if (leftYear !== rightYear) {
-                    return leftYear - rightYear;
+            if (denseMode) {
+                filtered.sort(function (a, b) {
+                    var ay = self.GetSeasonStartYear(a.set_year_label) || 0;
+                    var by = self.GetSeasonStartYear(b.set_year_label) || 0;
+                    if (ay !== by) { return ay - by; }
+                    var aset = (a.set_display_name || a.set_name || '').toString();
+                    var bset = (b.set_display_name || b.set_name || '').toString();
+                    return aset.localeCompare(bset, undefined, { sensitivity: 'base' });
+                });
+                var denseGroups = [];
+                for (var pi = 0; pi < filtered.length; pi += 9) {
+                    var chunk = filtered.slice(pi, pi + 9);
+                    var firstLabel = (chunk[0].set_year_label || 'Unknown').toString().trim();
+                    var lastLabel = (chunk[chunk.length - 1].set_year_label || 'Unknown').toString().trim();
+                    var pageLabel = firstLabel === lastLabel ? firstLabel : firstLabel + '\u2013' + lastLabel;
+                    var pageKey = activeRoute + '-page-' + (Math.floor(pi / 9) + 1);
+                    var pageOwned = chunk.filter(function (c) { return c.inCollection; }).length;
+                    var pageOwnedPct = chunk.length > 0 ? Math.round(pageOwned / chunk.length * 100) : 0;
+                    while (chunk.length < 9) { chunk.push(null); }
+                    denseGroups.push({
+                        label: pageLabel,
+                        yearKey: pageKey,
+                        allCards: chunk.filter(function (c) { return c; }),
+                        owned: pageOwned,
+                        total: chunk.filter(function (c) { return c; }).length,
+                        ownedPct: pageOwnedPct,
+                        pages: [{ slots: chunk, pageNum: 1 }]
+                    });
                 }
-
-                var leftSet = (left.set_display_name || left.set_name || '').toString();
-                var rightSet = (right.set_display_name || right.set_name || '').toString();
-                var setCompare = leftSet.localeCompare(rightSet, undefined, { sensitivity: 'base' });
-                if (setCompare !== 0) {
-                    return setCompare;
-                }
-
-                return (left.base_number || '').toString().localeCompare(
-                    (right.base_number || '').toString(),
-                    undefined,
-                    { numeric: true, sensitivity: 'base' }
-                );
-            });
-
-            groupedEntries.push({
-                label: mergedYearLabel,
-                yearKey: mergedYearKey,
-                cards: mergedCards
-            });
-        }
-
-        orderedLabels.forEach(function (label) {
-            if (mergedStartYears.indexOf(label) !== -1) {
-                return;
+                return denseGroups;
             }
 
-            groupedEntries.push({
-                label: label,
-                yearKey: 'ML-' + label,
-                cards: groupsByYear[label]
+            var groupsByYear = {};
+            filtered.forEach(function (card) {
+                var label = (card.set_year_label || 'Unknown').toString().trim();
+                if (!groupsByYear[label]) { groupsByYear[label] = []; }
+                groupsByYear[label].push(card);
             });
-        });
 
-        return groupedEntries.map(function (entry) {
+            var orderedLabels = Object.keys(groupsByYear)
+                .sort(function (a, b) {
+                    return (self.GetSeasonStartYear(a) || 0) - (self.GetSeasonStartYear(b) || 0);
+                });
+
+            var groupedEntries = [];
+
+            if (useMLMerge) {
+                var mergedStartYears = ['1985-86', '1986-87', '1987-88', '1988-89'];
+                var mergedYearLabel = '1985-86 to 1988-89';
+                var mergedYearKey = 'ML-1985-86_to_1988-89';
+                var mergedCards = [];
+                mergedStartYears.forEach(function (yearLabel) {
+                    if (groupsByYear[yearLabel]) {
+                        mergedCards = mergedCards.concat(groupsByYear[yearLabel]);
+                    }
+                });
+                if (mergedCards.length) {
+                    mergedCards.sort(function (left, right) {
+                        var lyear = left.set_year_start || 0;
+                        var ryear = right.set_year_start || 0;
+                        if (lyear !== ryear) { return lyear - ryear; }
+                        var lset = (left.set_display_name || left.set_name || '').toString();
+                        var rset = (right.set_display_name || right.set_name || '').toString();
+                        var sc = lset.localeCompare(rset, undefined, { sensitivity: 'base' });
+                        if (sc !== 0) { return sc; }
+                        return (left.base_number || '').toString().localeCompare(
+                            (right.base_number || '').toString(), undefined, { numeric: true, sensitivity: 'base' });
+                    });
+                    groupedEntries.push({ label: mergedYearLabel, yearKey: mergedYearKey, cards: mergedCards });
+                }
+                orderedLabels.forEach(function (label) {
+                    if (mergedStartYears.indexOf(label) !== -1) { return; }
+                    groupedEntries.push({ label: label, yearKey: 'ML-' + label, cards: groupsByYear[label] });
+                });
+            } else {
+                orderedLabels.forEach(function (label) {
+                    groupedEntries.push({ label: label, yearKey: activeRoute + '-' + label, cards: groupsByYear[label] });
+                });
+            }
+
+            return groupedEntries.map(function (entry) {
                 var yearCards = entry.cards;
                 var owned = yearCards.filter(function (c) { return c.inCollection; }).length;
                 var ownedPct = yearCards.length > 0 ? Math.round(owned / yearCards.length * 100) : 0;
-
                 var pages = [];
                 for (var i = 0; i < yearCards.length; i += 9) {
                     var slots = yearCards.slice(i, i + 9);
                     while (slots.length < 9) { slots.push(null); }
                     pages.push({ slots: slots, pageNum: Math.floor(i / 9) + 1 });
                 }
-
                 return {
                     label: entry.label,
                     yearKey: entry.yearKey,
@@ -1248,6 +1376,45 @@ function DataViewModel() {
                     pages: pages
                 };
             });
+        }
+
+        if (activeRoute === 'binder-ml') {
+            var allCollection = data['ML-all'];
+            if (!allCollection) { return []; }
+            var mlCards = (allCollection.cards || []).filter(function (c) {
+                return parseInt(c.set_year_start, 10) < 2000;
+            });
+            return buildGroupEntries(mlCards, true);
+        }
+
+        if (activeRoute === 'binder-ml-2000') {
+            var allCollection2 = data['ML-all'];
+            if (!allCollection2) { return []; }
+            var mlCards2 = (allCollection2.cards || []).filter(function (c) {
+                return parseInt(c.set_year_start, 10) >= 2000;
+            });
+            return buildGroupEntries(mlCards2, false);
+        }
+
+        if (activeRoute === 'binder-stickers') {
+            var stickerCollection = data['ML-stickers-all'];
+            if (!stickerCollection) { return []; }
+            return buildGroupEntries(stickerCollection.cards || [], false, true);
+        }
+
+        if (activeRoute === 'binder-mcd') {
+            var mcdCards = [];
+            Object.values(data).forEach(function (set) {
+                if (!set || self.IsMarioSource(set.source)) { return; }
+                (set.cards || []).forEach(function (card) { mcdCards.push(card); });
+                (set.subsets || []).forEach(function (subset) {
+                    (subset.cards || []).forEach(function (card) { mcdCards.push(card); });
+                });
+            });
+            return buildGroupEntries(mcdCards, false);
+        }
+
+        return [];
     });
 
     self.BinderPages = ko.pureComputed(function () {
@@ -1668,13 +1835,23 @@ function DataViewModel() {
         var overall = makeTally();
         var mcd = makeTally();
         var mario = makeTally();
+        var stickers = makeTally();
 
         Object.values(data).forEach(function (set) {
             if (!set) { return; }
             // For Mario virtual collections, only count from ML-all to avoid double-counting
             if (set.source === 'mario' && set.set_key !== 'ML-all') { return; }
+            // For sticker virtual collections, only count from ML-stickers-all
+            if (set.source === 'mario-stickers' && set.set_key !== 'ML-stickers-all') { return; }
 
-            var tally = self.IsMarioSource(set.source) ? mario : mcd;
+            var tally;
+            if (set.source === 'mario-stickers') {
+                tally = stickers;
+            } else if (self.IsMarioSource(set.source)) {
+                tally = mario;
+            } else {
+                tally = mcd;
+            }
             countCards(set.cards, tally);
             countCards(set.cards, overall);
 
@@ -1689,6 +1866,7 @@ function DataViewModel() {
         var result = toStats(overall);
         result.mcd = toStats(mcd);
         result.mario = toStats(mario);
+        result.stickers = toStats(stickers);
         return result;
     });
 
@@ -1698,7 +1876,7 @@ function DataViewModel() {
         }
 
         var route = (self.CurrentRoute() || '').toString().toLowerCase();
-        if (route === 'about' || route === 'binder') {
+        if (route === 'about' || route === 'binder-ml' || route === 'binder-ml-2000' || route === 'binder-stickers' || route === 'binder-mcd') {
             return false;
         }
 
@@ -1706,7 +1884,7 @@ function DataViewModel() {
         var activeRowName = 'McDonald\'s';
 
         if (currentCollection && currentCollection.source) {
-            if (currentCollection.source === 'mario') {
+            if (currentCollection.source === 'mario' || currentCollection.source === 'mario-stickers') {
                 activeRowName = 'Mario Lemieux';
             } else if (currentCollection.source === '96-97-CC' || currentCollection.source === 'other-cards') {
                 activeRowName = 'Other Sets';
@@ -1743,6 +1921,10 @@ function DataViewModel() {
         // Only show virtual year collections (ML-*) in the menu, not individual proper sets
         var marioItems = items.filter(function (itm) {
             return itm && itm.source === 'mario' && /^ML(-|$)/.test(itm.set_key || '');
+        });
+        // Stickers virtual collection
+        var stickerAllItem = items.find(function (itm) {
+            return itm && itm.source === 'mario-stickers' && itm.set_key === 'ML-stickers-all';
         });
         var marioProjectItems = items.filter(function (itm) {
             return itm && (itm.source === '96-97-CC' || itm.source === 'other-cards');
@@ -1785,12 +1967,19 @@ function DataViewModel() {
             var orderedMarioGroups = [];
 
             if (marioAll) {
-                orderedMarioGroups.push({
-                    text: 'All',
-                    controls: [{
+                var allGroupControls = [{
                     key: marioAll.set_key,
                     displayName: 'All ML Cards'
-                    }]
+                }];
+                if (stickerAllItem) {
+                    allGroupControls.push({
+                        key: stickerAllItem.set_key,
+                        displayName: 'Stickers'
+                    });
+                }
+                orderedMarioGroups.push({
+                    text: 'All',
+                    controls: allGroupControls
                 });
             }
 
@@ -1922,14 +2111,17 @@ function DataViewModel() {
         self.CurrentCardContext(null);
         self.CardRouteError('');
         self.ShowAllSetCards(false);
-        self.RouteType(hash === 'about' ? 'about' : (hash === 'home' ? 'home' : (hash === 'binder' ? 'binder' : 'collection')));
 
-        if (hash === 'binder') {
+        var isBinderRoute = hash === 'binder-ml' || hash === 'binder-ml-2000' || hash === 'binder-stickers' || hash === 'binder-mcd';
+        self.RouteType(hash === 'about' ? 'about' : (hash === 'home' ? 'home' : (isBinderRoute ? 'binder' : 'collection')));
+
+        if (isBinderRoute) {
+            self.BinderActiveRoute(hash);
             self.BinderPageIndex(0);
         }
 
         // if the hash looks like a collection key, update selection too
-        if (hash !== 'home' && hash !== 'about' && hash !== 'binder') {
+        if (hash !== 'home' && hash !== 'about' && !isBinderRoute) {
             self.CurrentCollectionKey(hash);
         }
         self.IsHandlingRoute = false;

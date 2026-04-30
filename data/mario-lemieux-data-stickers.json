@@ -1,0 +1,547 @@
+{
+    "dataset": "mario-lemieux-stickers",
+    "version": "0.1.0",
+    "player": "Mario Lemieux",
+    "updated_at": "2026-04-30",
+    "image_folder": "img/cards/ML66/Stickers",
+    "sets": {
+        "1985-86-opc-stickers": {
+            "set_key": "1985-86-opc-stickers",
+            "set_name": "O-Pee-Chee Stickers",
+            "set_year_label": "1985-86",
+            "set_year_start": 1985,
+            "set_year_end": 1986,
+            "set_display_name": "1985-86 O-Pee-Chee Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1985-86-opc-stickers-72-199",
+                    "base_number": "72++199",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
+                    "image_front": "img/cards/ML66/Stickers/1985-86-O-Pee-Chee-Stickers-72++199-Duane-Sutter--Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1985-86-O-Pee-Chee-Stickers-72++199-Duane-Sutter--Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "variant_note": "with Duane Sutter",
+                    "card_type": "sticker",
+                    "inCollection": false
+                },
+                {
+                    "id": "ml-sticker-1985-86-opc-stickers-97",
+                    "base_number": "97",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1985-86-O-Pee-Chee-Stickers-97-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1985-86-O-Pee-Chee-Stickers-97-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1986-87-opc-stickers": {
+            "set_key": "1986-87-opc-stickers",
+            "set_name": "O-Pee-Chee Stickers",
+            "set_year_label": "1986-87",
+            "set_year_start": 1986,
+            "set_year_end": 1987,
+            "set_display_name": "1986-87 O-Pee-Chee Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1986-87-opc-stickers-233",
+                    "base_number": "233",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1986-87-O-Pee-Chee-Stickers-233-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1986-87-O-Pee-Chee-Stickers-233-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1986-87-topps-stickers": {
+            "set_key": "1986-87-topps-stickers",
+            "set_name": "Topps Stickers",
+            "set_year_label": "1986-87",
+            "set_year_start": 1986,
+            "set_year_end": 1987,
+            "set_display_name": "1986-87 Topps Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1986-87-topps-stickers-9",
+                    "base_number": "9",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1986-87-Topps---Stickers-9-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1986-87-Topps---Stickers-9-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1987-88-opc-minis": {
+            "set_key": "1987-88-opc-minis",
+            "set_name": "O-Pee-Chee Minis",
+            "set_year_label": "1987-88",
+            "set_year_start": 1987,
+            "set_year_end": 1988,
+            "set_display_name": "1987-88 O-Pee-Chee Minis",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1987-88-opc-minis-23",
+                    "base_number": "23",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1987-88-O-Pee-Chee-Minis-23-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1987-88-O-Pee-Chee-Minis-23-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1987-88-opc-stickers": {
+            "set_key": "1987-88-opc-stickers",
+            "set_name": "O-Pee-Chee Stickers",
+            "set_year_label": "1987-88",
+            "set_year_start": 1987,
+            "set_year_end": 1988,
+            "set_display_name": "1987-88 O-Pee-Chee Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1987-88-opc-stickers-120-132",
+                    "base_number": "120++132",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
+                    "image_front": "img/cards/ML66/Stickers/1987-88-O-Pee-Chee-Stickers-120++132-Mario-Lemieux--Allen-PedersenFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1987-88-O-Pee-Chee-Stickers-120++132-Mario-Lemieux--Allen-PedersenBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "variant_note": "with Allen Pedersen",
+                    "card_type": "sticker",
+                    "inCollection": false
+                },
+                {
+                    "id": "ml-sticker-1987-88-opc-stickers-170",
+                    "base_number": "170",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1987-88-O-Pee-Chee-Stickers-170-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1987-88-O-Pee-Chee-Stickers-170-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1987-88-panini-stickers": {
+            "set_key": "1987-88-panini-stickers",
+            "set_name": "Panini Stickers",
+            "set_year_label": "1987-88",
+            "set_year_start": 1987,
+            "set_year_end": 1988,
+            "set_display_name": "1987-88 Panini Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1987-88-panini-stickers-146",
+                    "base_number": "146",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1987-88-Panini-Stickers-146-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1987-88-Panini-Stickers-146-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1987-88-topps-stickers": {
+            "set_key": "1987-88-topps-stickers",
+            "set_name": "Topps Stickers",
+            "set_year_label": "1987-88",
+            "set_year_start": 1987,
+            "set_year_end": 1988,
+            "set_display_name": "1987-88 Topps Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1987-88-topps-stickers-11",
+                    "base_number": "11",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1987-88-Topps---Stickers-11-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1987-88-Topps---Stickers-11-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1988-89-esso-all-star": {
+            "set_key": "1988-89-esso-all-star",
+            "set_name": "Esso NHL All-Star Collection",
+            "set_year_label": "1988-89",
+            "set_year_start": 1988,
+            "set_year_end": 1989,
+            "set_display_name": "1988-89 Esso NHL All-Star Collection",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1988-89-esso-all-star-nno",
+                    "base_number": "NNO",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1988-89-Esso-NHL-All-Star-Collection-NNO-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1988-89-Esso-NHL-All-Star-Collection-NNO-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1988-89-opc-minis": {
+            "set_key": "1988-89-opc-minis",
+            "set_name": "O-Pee-Chee Minis",
+            "set_year_label": "1988-89",
+            "set_year_start": 1988,
+            "set_year_end": 1989,
+            "set_display_name": "1988-89 O-Pee-Chee Minis",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1988-89-opc-minis-19",
+                    "base_number": "19",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1988-89-O-Pee-Chee-Minis-19-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1988-89-O-Pee-Chee-Minis-19-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1988-89-opc-stickers": {
+            "set_key": "1988-89-opc-stickers",
+            "set_name": "O-Pee-Chee Stickers",
+            "set_year_label": "1988-89",
+            "set_year_start": 1988,
+            "set_year_end": 1989,
+            "set_display_name": "1988-89 O-Pee-Chee Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1988-89-opc-stickers-73-204",
+                    "base_number": "73++204",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
+                    "image_front": "img/cards/ML66/Stickers/1988-89-O-Pee-Chee-Stickers-73++204-Dale-Hunter--Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1988-89-O-Pee-Chee-Stickers-73++204-Dale-Hunter--Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "variant_note": "with Dale Hunter",
+                    "card_type": "sticker",
+                    "inCollection": false
+                },
+                {
+                    "id": "ml-sticker-1988-89-opc-stickers-81-210",
+                    "base_number": "81++210",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
+                    "image_front": "img/cards/ML66/Stickers/1988-89-O-Pee-Chee-Stickers-81++210-Pat-Verbeek--Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1988-89-O-Pee-Chee-Stickers-81++210-Pat-Verbeek--Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "variant_note": "with Pat Verbeek",
+                    "card_type": "sticker",
+                    "inCollection": false
+                },
+                {
+                    "id": "ml-sticker-1988-89-opc-stickers-82-211",
+                    "base_number": "82++211",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
+                    "image_front": "img/cards/ML66/Stickers/1988-89-O-Pee-Chee-Stickers-82++211-Sean-Burke--Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1988-89-O-Pee-Chee-Stickers-82++211-Sean-Burke--Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "variant_note": "with Sean Burke",
+                    "card_type": "sticker",
+                    "inCollection": false
+                },
+                {
+                    "id": "ml-sticker-1988-89-opc-stickers-116-246",
+                    "base_number": "116++246",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
+                    "image_front": "img/cards/ML66/Stickers/1988-89-O-Pee-Chee-Stickers-116++246-Mario-Lemieux--James-PatrickFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1988-89-O-Pee-Chee-Stickers-116++246-Mario-Lemieux--James-PatrickBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "variant_note": "with James Patrick",
+                    "card_type": "sticker",
+                    "inCollection": false
+                },
+                {
+                    "id": "ml-sticker-1988-89-opc-stickers-232",
+                    "base_number": "232",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1988-89-O-Pee-Chee-Stickers-232-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1988-89-O-Pee-Chee-Stickers-232-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1988-89-panini-stickers": {
+            "set_key": "1988-89-panini-stickers",
+            "set_name": "Panini Stickers",
+            "set_year_label": "1988-89",
+            "set_year_start": 1988,
+            "set_year_end": 1989,
+            "set_display_name": "1988-89 Panini Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1988-89-panini-stickers-340",
+                    "base_number": "340",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
+                    "image_front": "img/cards/ML66/Stickers/1988-89-Panini-Stickers-340-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1988-89-Panini-Stickers-340-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                },
+                {
+                    "id": "ml-sticker-1988-89-panini-stickers-400",
+                    "base_number": "400",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
+                    "image_front": "img/cards/ML66/Stickers/1988-89-Panini-Stickers-400-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1988-89-Panini-Stickers-400-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                },
+                {
+                    "id": "ml-sticker-1988-89-panini-stickers-401",
+                    "base_number": "401",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
+                    "image_front": "img/cards/ML66/Stickers/1988-89-Panini-Stickers-401-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1988-89-Panini-Stickers-401-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1988-89-topps-stickers": {
+            "set_key": "1988-89-topps-stickers",
+            "set_name": "Topps Stickers",
+            "set_year_label": "1988-89",
+            "set_year_start": 1988,
+            "set_year_end": 1989,
+            "set_display_name": "1988-89 Topps Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1988-89-topps-stickers-2",
+                    "base_number": "2",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1988-89-Topps---Stickers-2-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1988-89-Topps---Stickers-2-Mario-Lemieuxk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1989-90-opc-stickers": {
+            "set_key": "1989-90-opc-stickers",
+            "set_name": "O-Pee-Chee Stickers",
+            "set_year_label": "1989-90",
+            "set_year_start": 1989,
+            "set_year_end": 1990,
+            "set_display_name": "1989-90 O-Pee-Chee Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1989-90-opc-stickers-18-158",
+                    "base_number": "18++158",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
+                    "image_front": "img/cards/ML66/Stickers/1989-90-O-Pee-Chee-Stickers-18++158-Paul-MacLean--Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1989-90-O-Pee-Chee-Stickers-18++158-Paul-MacLean--Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "variant_note": "with Paul MacLean",
+                    "card_type": "sticker",
+                    "inCollection": false
+                },
+                {
+                    "id": "ml-sticker-1989-90-opc-stickers-55-199",
+                    "base_number": "55++199",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
+                    "image_front": "img/cards/ML66/Stickers/1989-90-O-Pee-Chee-Stickers-55++199-Larry-Robinson--Larry-MurphyFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1989-90-O-Pee-Chee-Stickers-55++199-Larry-Robinson--Larry-MurphyBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "variant_note": "Larry Robinson / Larry Murphy panel",
+                    "card_type": "sticker",
+                    "inCollection": false
+                },
+                {
+                    "id": "ml-sticker-1989-90-opc-stickers-68-208",
+                    "base_number": "68++208",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
+                    "image_front": "img/cards/ML66/Stickers/1989-90-O-Pee-Chee-Stickers-68++208-Stan-Smyl--Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1989-90-O-Pee-Chee-Stickers-68++208-Stan-Smyl--Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "variant_note": "with Stan Smyl",
+                    "card_type": "sticker",
+                    "inCollection": false
+                },
+                {
+                    "id": "ml-sticker-1989-90-opc-stickers-238",
+                    "base_number": "238",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1989-90-O-Pee-Chee-Stickers-238-Mario-Lemieux-Fr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1989-90-O-Pee-Chee-Stickers-238-Mario-Lemieux-Bk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1989-90-panini-stickers": {
+            "set_key": "1989-90-panini-stickers",
+            "set_name": "Panini Stickers",
+            "set_year_label": "1989-90",
+            "set_year_start": 1989,
+            "set_year_end": 1990,
+            "set_display_name": "1989-90 Panini Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1989-90-panini-stickers-184",
+                    "base_number": "184",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1989-90-Panini-Stickers-184-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1989-90-Panini-Stickers-184-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                },
+                {
+                    "id": "ml-sticker-1989-90-panini-stickers-309",
+                    "base_number": "309",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1989-90-Panini-Stickers-309-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1989-90-Panini-Stickers-309-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                },
+                {
+                    "id": "ml-sticker-1989-90-panini-stickers-375",
+                    "base_number": "375",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1989-90-Panini-Stickers-375-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1989-90-Panini-Stickers-375-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1989-90-topps-stickers": {
+            "set_key": "1989-90-topps-stickers",
+            "set_name": "Topps Stickers",
+            "set_year_label": "1989-90",
+            "set_year_start": 1989,
+            "set_year_end": 1990,
+            "set_display_name": "1989-90 Topps Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1989-90-topps-stickers-3",
+                    "base_number": "3",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1989-90-Topps---Stickers-3-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1989-90-Topps---Stickers-3-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        }
+    }
+}

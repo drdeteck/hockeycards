@@ -9,6 +9,46 @@
     padding: 20px 2.5%;
 }
 
+/* Dataset tab navigation inside binder view */
+.binder-dataset-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 14px;
+}
+
+.binder-dataset-nav a {
+    display: inline-block;
+    padding: 5px 14px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    color: rgba(255, 255, 255, 0.72);
+    background: rgba(255, 255, 255, 0.06);
+    font-size: 0.82rem;
+    font-weight: 500;
+    text-decoration: none;
+    -webkit-transition: background 0.15s, color 0.15s, border-color 0.15s;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.binder-dataset-nav a:hover {
+    background: rgba(255, 255, 255, 0.13);
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+}
+
+.binder-dataset-nav a.active {
+    background: rgba(70, 140, 220, 0.35);
+    color: #fff;
+    border-color: rgba(70, 140, 220, 0.7);
+}
+
 .binder-pager {
     position: sticky;
     top: 8px;
@@ -212,83 +252,6 @@
     white-space: nowrap;
 }
 
-/* ── Year checklist ───────────────────────────────────────── */
-
-.binder-checklist {
-    background: #fff;
-    border: 1px solid #e0e4e8;
-    border-radius: 4px;
-    padding: 8px 14px 10px 14px;
-    margin-bottom: 18px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    gap: 3px 14px;
-}
-
-.binder-pager .binder-checklist {
-    max-height: 120px;
-    overflow-y: auto;
-    margin-bottom: 0;
-}
-
-.binder-checklist-item {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    gap: 5px;
-    font-size: 11.5px;
-    color: #888;
-    padding: 2px 0;
-}
-
-.binder-checklist-item--owned {
-    color: #1a7d3f;
-}
-
-.binder-checklist-check {
-    -webkit-flex-shrink: 0;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    width: 13px;
-    height: 13px;
-    border: 1.5px solid #bbb;
-    border-radius: 2px;
-    display: -webkit-inline-box;
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    background: #fff;
-}
-
-.binder-checklist-item--owned .binder-checklist-check {
-    background: #27ae60;
-    border-color: #1f9751;
-}
-
-.binder-checklist-item-label {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
 /* ── Binder page (9-pocket sheet) ────────────────────────── */
 
 .binder-page {
@@ -385,9 +348,9 @@
     -o-object-fit: cover;
     object-fit: cover;
     display: block;
-    -webkit-transform: translate(-50%, -50%) rotate(90deg);
-    -ms-transform: translate(-50%, -50%) rotate(90deg);
-    transform: translate(-50%, -50%) rotate(90deg);
+    -webkit-transform: translate(-50%, -50%) rotate(-90deg);
+    -ms-transform: translate(-50%, -50%) rotate(-90deg);
+    transform: translate(-50%, -50%) rotate(-90deg);
 }
 
 /* Card label strip at the bottom of each slot */
@@ -451,10 +414,6 @@
     .binder-pager {
         top: 6px;
     }
-
-    .binder-pager .binder-checklist {
-        max-height: 105px;
-    }
 }
 
 @media (max-width: 768px) {
@@ -505,10 +464,6 @@
 
     .binder-slot {
         width: 50%;
-    }
-
-    .binder-pager .binder-checklist {
-        max-height: 96px;
     }
 }
 
@@ -569,8 +524,31 @@
     .binder-slot {
         width: 100%;
     }
+}
 
-    .binder-pager .binder-checklist {
-        max-height: 88px;
-    }
+/* ── Light mode overrides ─────────────────────────────────── */
+
+body:not([data-theme='dark']) .binder-dataset-nav a {
+    color: var(--color-dark-blue);
+    border-color: rgba(58, 82, 102, 0.35);
+    background: rgba(58, 82, 102, 0.07);
+}
+
+body:not([data-theme='dark']) .binder-dataset-nav a:hover {
+    background: rgba(58, 82, 102, 0.16);
+    color: var(--color-app-bg);
+    border-color: rgba(58, 82, 102, 0.55);
+}
+
+body:not([data-theme='dark']) .binder-dataset-nav a.active {
+    background: rgba(70, 140, 220, 0.18);
+    color: var(--color-app-bg);
+    border-color: rgba(70, 140, 220, 0.55);
+}
+
+/* ── Dark mode overrides ──────────────────────────────────── */
+
+[data-theme='dark'] .binder-page {
+    background: #0a1118;
+    border-color: rgba(255, 255, 255, 0.09);
 }
