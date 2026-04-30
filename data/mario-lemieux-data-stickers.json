@@ -1,6 +1,6 @@
 {
     "dataset": "mario-lemieux-stickers",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "player": "Mario Lemieux",
     "updated_at": "2026-04-30",
     "image_folder": "img/cards/ML66/Stickers",
@@ -535,6 +535,334 @@
                     "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/Stickers/1989-90-Topps---Stickers-3-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/Stickers/1989-90-Topps---Stickers-3-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1990-91-panini-stickers": {
+            "set_key": "1990-91-panini-stickers",
+            "set_name": "Panini Stickers",
+            "set_year_label": "1990-91",
+            "set_year_start": 1990,
+            "set_year_end": 1991,
+            "set_display_name": "1990-91 Panini Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1990-91-panini-stickers-136",
+                    "base_number": "136",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1990-91-Panini-Stickers-136-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1990-91-Panini-Stickers-136-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                },
+                {
+                    "id": "ml-sticker-1990-91-panini-stickers-326",
+                    "base_number": "326",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1990-91-Panini-Stickers-326-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1990-91-Panini-Stickers-326-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1991-legends-sports-memorabilia": {
+            "set_key": "1991-legends-sports-memorabilia",
+            "set_name": "Legends Sports Memorabilia",
+            "set_year_label": "1991",
+            "set_year_start": 1991,
+            "set_year_end": 1991,
+            "set_display_name": "1991 Legends Sports Memorabilia",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1991-legends-sports-memorabilia-46",
+                    "base_number": "46",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1991-Legends-Sports-Memorabilia-46-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1991-Legends-Sports-Memorabilia-46-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1991-92-panini-stickers": {
+            "set_key": "1991-92-panini-stickers",
+            "set_name": "Panini Stickers",
+            "set_year_label": "1991-92",
+            "set_year_start": 1991,
+            "set_year_end": 1992,
+            "set_display_name": "1991-92 Panini Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1991-92-panini-stickers-268",
+                    "base_number": "268",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1991-92-Panini-Stickers-268-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1991-92-Panini-Stickers-268-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1992-cartwrights-players-choice": {
+            "set_key": "1992-cartwrights-players-choice",
+            "set_name": "Cartwrights Players Choice",
+            "set_year_label": "1992",
+            "set_year_start": 1992,
+            "set_year_end": 1992,
+            "set_display_name": "1992 Cartwrights Players Choice",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1992-cartwrights-players-choice-2",
+                    "base_number": "2",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1992-Cartwrights-Players-Choice-2-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1992-Cartwrights-Players-Choice-2-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1992-93-kraft-singles-all-stars": {
+            "set_key": "1992-93-kraft-singles-all-stars",
+            "set_name": "Kraft Singles All-Stars",
+            "set_year_label": "1992-93",
+            "set_year_start": 1992,
+            "set_year_end": 1993,
+            "set_display_name": "1992-93 Kraft Singles All-Stars",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1992-93-kraft-singles-all-stars-nno",
+                    "base_number": "NNO",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1992-93-Kraft---Kraft-Singles-All-Stars-NNO-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1992-93-Kraft---Kraft-Singles-All-Stars-NNO-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1992-93-panini-stickers": {
+            "set_key": "1992-93-panini-stickers",
+            "set_name": "Panini Stickers",
+            "set_year_label": "1992-93",
+            "set_year_start": 1992,
+            "set_year_end": 1993,
+            "set_display_name": "1992-93 Panini Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1992-93-panini-stickers-220",
+                    "base_number": "220",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1992-93-Panini-Stickers-220-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1992-93-Panini-Stickers-220-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                },
+                {
+                    "id": "ml-sticker-1992-93-panini-stickers-280",
+                    "base_number": "280",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1992-93-Panini-Stickers-280-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1992-93-Panini-Stickers-280-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1993-94-panini-stickers": {
+            "set_key": "1993-94-panini-stickers",
+            "set_name": "Panini Stickers",
+            "set_year_label": "1993-94",
+            "set_year_start": 1993,
+            "set_year_end": 1994,
+            "set_display_name": "1993-94 Panini Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1993-94-panini-stickers-136",
+                    "base_number": "136",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1993-94-Panini-Stickers-136-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1993-94-Panini-Stickers-136-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                },
+                {
+                    "id": "ml-sticker-1993-94-panini-stickers-h",
+                    "base_number": "H",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1993-94-Panini-Stickers-H-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1993-94-Panini-Stickers-H-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1994-95-panini-stickers": {
+            "set_key": "1994-95-panini-stickers",
+            "set_name": "Panini Stickers",
+            "set_year_label": "1994-95",
+            "set_year_start": 1994,
+            "set_year_end": 1995,
+            "set_display_name": "1994-95 Panini Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1994-95-panini-stickers-74",
+                    "base_number": "74",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1994-95-Panini-Stickers-74-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1994-95-Panini-Stickers-74-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1995-panini-world-championship-stickers": {
+            "set_key": "1995-panini-world-championship-stickers",
+            "set_name": "Panini Hockey '95 World Championship Stickers",
+            "set_year_label": "1995",
+            "set_year_start": 1995,
+            "set_year_end": 1995,
+            "set_display_name": "1995 Panini Hockey '95 World Championship Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1995-panini-world-championship-stickers-277",
+                    "base_number": "277",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1995-Panini-Hockey-'95-World-Championship-Stickers-277-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1995-Panini-Hockey-'95-World-Championship-Stickers-277-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1995-96-bashan-super-stickers": {
+            "set_key": "1995-96-bashan-super-stickers",
+            "set_name": "Bashan Imperial Super Stickers",
+            "set_year_label": "1995-96",
+            "set_year_start": 1995,
+            "set_year_end": 1996,
+            "set_display_name": "1995-96 Bashan Imperial Super Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1995-96-bashan-super-stickers-97",
+                    "base_number": "97",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1995-96-Bashan-Imperial-Super-Stickers-97-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1995-96-Bashan-Imperial-Super-Stickers-97-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1995-96-bashan-super-stickers-die-cut": {
+            "set_key": "1995-96-bashan-super-stickers-die-cut",
+            "set_name": "Bashan Imperial Super Stickers Die-Cut",
+            "set_year_label": "1995-96",
+            "set_year_start": 1995,
+            "set_year_end": 1996,
+            "set_display_name": "1995-96 Bashan Imperial Super Stickers Die-Cut",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1995-96-bashan-super-stickers-die-cut-24",
+                    "base_number": "24",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1995-96-Bashan-Imperial-Super-Stickers---Die-Cut-24-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1995-96-Bashan-Imperial-Super-Stickers---Die-Cut-24-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "variant_note": "Die-Cut",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1995-96-panini-stickers": {
+            "set_key": "1995-96-panini-stickers",
+            "set_name": "Panini Stickers",
+            "set_year_label": "1995-96",
+            "set_year_start": 1995,
+            "set_year_end": 1996,
+            "set_display_name": "1995-96 Panini Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1995-96-panini-stickers-59",
+                    "base_number": "59",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1995-96-Panini-Stickers-59-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1995-96-Panini-Stickers-59-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
