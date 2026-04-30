@@ -1971,12 +1971,6 @@ function DataViewModel() {
                     key: marioAll.set_key,
                     displayName: 'All ML Cards'
                 }];
-                if (stickerAllItem) {
-                    allGroupControls.push({
-                        key: stickerAllItem.set_key,
-                        displayName: 'Stickers'
-                    });
-                }
                 orderedMarioGroups.push({
                     text: 'All',
                     controls: allGroupControls
