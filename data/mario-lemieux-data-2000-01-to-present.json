@@ -197,7 +197,8 @@
               "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             },
             {
               "id": "ml-2000-01-topps-mario-lemieux-reprints-2",
@@ -4894,6 +4895,29 @@
               "inCollection": true
             }
           ]
+        }
+      ]
+    },
+    "2015-16-upper-deck-team-canada-master-collection": {
+      "set_key": "2015-16-upper-deck-team-canada-master-collection",
+      "set_name": "Upper Deck Team Canada Master Collection",
+      "set_year_label": "2015-16",
+      "set_year_start": 2015,
+      "set_year_end": 2016,
+      "set_display_name": "2015-16 Upper Deck Team Canada Master Collection",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2015-16-upper-deck-team-canada-master-collection-41",
+          "base_number": "41",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2015-16-Upper-Deck-Team-Canada-Master-Collection-41-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2015-16-Upper-Deck-Team-Canada-Master-Collection-41-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
         }
       ]
     },

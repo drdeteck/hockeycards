@@ -3975,6 +3975,26 @@
               "inCollection": false
             }
           ]
+        },
+        {
+          "set_key": "1994-95-pinnacle-team-pinnacle",
+          "set_name": "Team Pinnacle",
+          "set_display_name": "1994-95 Pinnacle - Team Pinnacle",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1994-95-pinnacle-team-pinnacle-tp10",
+              "base_number": "TP10",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1994-95-Pinnacle---Team-Pinnacle-TP10-Doug-Gilmour--Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1994-95-Pinnacle---Team-Pinnacle-TP10-Doug-Gilmour--Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
         }
       ]
     },
@@ -5048,6 +5068,28 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "1995-96-leaf-limited-stars-of-the-game",
+          "set_name": "Stars of the Game",
+          "set_display_name": "1995-96 Leaf Limited - Stars of the Game",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1995-96-leaf-limited-stars-of-the-game-1",
+              "base_number": "1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Leaf-Limited---Stars-of-the-Game-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Leaf-Limited---Stars-of-the-Game-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
         }
       ]
     },
