@@ -26,6 +26,28 @@
           "position": "Center",
           "inCollection": false
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2000-01-be-a-player-memorabilia-parkhurst-2000-50th-anniversary",
+          "set_name": "Parkhurst 2000 (50th Anniversary)",
+          "set_display_name": "2000-01 Be a Player Memorabilia - Parkhurst 2000 (50th Anniversary)",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-be-a-player-memorabilia-parkhurst-2000-p166",
+              "base_number": "P-166",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Memorabilia---Parkhurst-2000-(50th-Anniversary)-P-166-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Memorabilia---Parkhurst-2000-(50th-Anniversary)-P-166-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        }
       ]
     },
     "2000-01-be-a-player-signature-series": {
@@ -91,6 +113,52 @@
               "position": "Center"
             }
           ]
+        }
+      ]
+    },
+    "2000-01-pacific-private-stock": {
+      "set_key": "2000-01-pacific-private-stock",
+      "set_name": "Pacific Private Stock",
+      "set_year_label": "2000-01",
+      "set_year_start": 2000,
+      "set_year_end": 2001,
+      "set_display_name": "2000-01 Pacific Private Stock",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2000-01-pacific-private-stock-152",
+          "base_number": "152",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2000-01-Pacific-Private-Stock-152-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2000-01-Pacific-Private-Stock-152-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        }
+      ]
+    },
+    "2000-01-pacific-private-stock-titanium": {
+      "set_key": "2000-01-pacific-private-stock-titanium",
+      "set_name": "Pacific Private Stock Titanium",
+      "set_year_label": "2000-01",
+      "set_year_start": 2000,
+      "set_year_end": 2001,
+      "set_display_name": "2000-01 Pacific Private Stock Titanium",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2000-01-pacific-private-stock-titanium-77",
+          "base_number": "77",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2000-01-Pacific-Private-Stock-Titanium-77-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2000-01-Pacific-Private-Stock-Titanium-77-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
         }
       ]
     },
@@ -169,6 +237,29 @@
               "position": "Center"
             }
           ]
+        }
+      ]
+    },
+    "2000-01-sp-game-used": {
+      "set_key": "2000-01-sp-game-used",
+      "set_name": "SP Game Used",
+      "set_year_label": "2000-01",
+      "set_year_start": 2000,
+      "set_year_end": 2001,
+      "set_display_name": "2000-01 SP Game Used",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2000-01-sp-game-used-49",
+          "base_number": "49",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2000-01-SP-Game-Used-49-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2000-01-SP-Game-Used-49-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
         }
       ]
     },
