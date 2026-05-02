@@ -221,7 +221,7 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 }
             ]
         },
@@ -298,7 +298,7 @@
                     "position": "Center",
                     "variant_note": "with Sean Burke",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 },
                 {
                     "id": "ml-sticker-1988-89-opc-stickers-116-246",
@@ -424,7 +424,7 @@
                     "position": "Center",
                     "variant_note": "with Paul MacLean",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 },
                 {
                     "id": "ml-sticker-1989-90-opc-stickers-55-199",
@@ -452,7 +452,7 @@
                     "position": "Center",
                     "variant_note": "with Stan Smyl",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 },
                 {
                     "id": "ml-sticker-1989-90-opc-stickers-238",
@@ -539,7 +539,7 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 }
             ]
         },
@@ -576,7 +576,7 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 }
             ]
         },
@@ -624,7 +624,7 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 }
             ]
         },
@@ -648,7 +648,7 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 }
             ]
         },
@@ -696,7 +696,7 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 },
                 {
                     "id": "ml-sticker-1992-93-panini-stickers-280",
@@ -709,7 +709,7 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 }
             ]
         },
@@ -733,7 +733,7 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 },
                 {
                     "id": "ml-sticker-1993-94-panini-stickers-h",
@@ -770,7 +770,7 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 }
             ]
         },
