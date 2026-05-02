@@ -625,6 +625,7 @@ function DataViewModel() {
             card_type: row.card_type || 'card',
             excludeFromBinder: !!(row.excludeFromBinder),
             inCollection: !!(row.inCollection),
+            default_face: row.default_face || 'front',
             _set_key: routingSetKey,
             _parent_key: parentSetKey || null
         };
@@ -1553,6 +1554,7 @@ function DataViewModel() {
     // (template uses $root.ParseImageUri so it must live on the root viewmodel)
     self.ParseImageUri = function (card) {
         if (!card) return '';
+        if (card.default_face === 'back') return card.image_back || card.image_front || '';
         return card.image_front || card.image_back || '';
     };
 
@@ -2085,7 +2087,7 @@ function DataViewModel() {
                 self.CurrentCardContext(result);
                 self.CardRouteError('');
                 self.ShowAllSetCards(false);
-                self.CardImageFace('front');
+                self.CardImageFace(result.card && result.card.default_face === 'back' ? 'back' : 'front');
                 if (result.collection) {
                     var menuKey = result.collection.menu_key || result.collection.set_key;
                     if (menuKey) {

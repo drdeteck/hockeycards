@@ -1162,8 +1162,8 @@
           "base_number": "79",
           "orientation_front": "landscape",
           "orientation_back": "landscape",
-          "image_front": "img/cards/ML66/2001-02-Pacific-Atomic-79-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/2001-02-Pacific-Atomic-79-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2001-02-Pacific-Atomic-79-Mario-LemieuxFr.png",
+          "image_back": "img/cards/ML66/2001-02-Pacific-Atomic-79-Mario-LemieuxBk.png",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
@@ -5028,6 +5028,39 @@
               "price": 1.36,
               "tcdb_href": "",
               "team": "Pittsburgh Penguins"
+            }
+          ]
+        }
+      ]
+    },
+    "2022-23-upper-deck-ultimate-collection": {
+      "set_key": "2022-23-upper-deck-ultimate-collection",
+      "set_name": "Upper Deck Ultimate Collection",
+      "set_year_label": "2022-23",
+      "set_year_start": 2022,
+      "set_year_end": 2023,
+      "set_display_name": "2022-23 Upper Deck Ultimate Collection",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2022-23-upper-deck-ultimate-collection-blue",
+          "set_name": "Blue",
+          "set_display_name": "2022-23 Upper Deck Ultimate Collection - Blue",
+          "set_type": "parallel",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2022-23-upper-deck-ultimate-collection-blue-100",
+              "base_number": "100",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
             }
           ]
         }
