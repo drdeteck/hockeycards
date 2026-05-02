@@ -6193,7 +6193,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true,
+              "inCollection": false,
               "price": 5.0
             },
             {

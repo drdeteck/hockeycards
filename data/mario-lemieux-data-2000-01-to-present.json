@@ -44,7 +44,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true
+              "inCollection": false
             }
           ]
         }
@@ -135,7 +135,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true
+          "inCollection": false
         }
       ]
     },
@@ -158,7 +158,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true
+          "inCollection": false
         }
       ]
     },
@@ -259,7 +259,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true
+          "inCollection": false
         }
       ]
     },
@@ -3991,20 +3991,20 @@
         }
       ]
     },
-    "2005-06-hot-prospects": {
-      "set_key": "2005-06-hot-prospects",
-      "set_name": "Hot Prospects",
+    "2005-06-fleer-hot-prospects": {
+      "set_key": "2005-06-fleer-hot-prospects",
+      "set_name": "Fleer Hot Prospects",
       "set_year_label": "2005-06",
       "set_year_start": 2005,
       "set_year_end": 2006,
-      "set_display_name": "2005-06 Hot Prospects",
+      "set_display_name": "2005-06 Fleer Hot Prospects",
       "set_tcdb_href": "",
       "cards": [
         {
           "base_number": "78",
-          "id": "ml-2005-06-hot-prospects-78",
-          "image_back": "",
-          "image_front": "",
+          "id": "ml-2005-06-fleer-hot-prospects-78",
+          "image_back": "img/cards/ML66/2005-06-Fleer-Hot-Prospects-78-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2005-06-Fleer-Hot-Prospects-78-Mario-LemieuxFr.jpg",
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
