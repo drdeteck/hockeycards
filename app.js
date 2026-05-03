@@ -367,6 +367,7 @@ function DataViewModel() {
                         : row.price,
                     card_type: row.card_type || 'sticker',
                     excludeFromBinder: !!(row.excludeFromBinder),
+                    default_face: row.default_face || 'front',
                     inCollection: !!(row.inCollection),
                     _set_key: setKey,
                     _parent_key: null

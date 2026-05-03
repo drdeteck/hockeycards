@@ -430,7 +430,7 @@
                     "id": "ml-sticker-1989-90-opc-stickers-55-199",
                     "base_number": "55++199",
                     "orientation_front": "landscape",
-                    "orientation_back": "landscape",
+                    "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/Stickers/1989-90-O-Pee-Chee-Stickers-55++199-Larry-Robinson--Larry-MurphyFr.jpg",
                     "image_back": "img/cards/ML66/Stickers/1989-90-O-Pee-Chee-Stickers-55++199-Larry-Robinson--Larry-MurphyBk.jpg",
                     "tcdb_href": "",
@@ -438,6 +438,7 @@
                     "position": "Center",
                     "variant_note": "Larry Robinson / Larry Murphy panel",
                     "card_type": "sticker",
+                    "default_face": "back",
                     "inCollection": false
                 },
                 {

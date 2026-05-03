@@ -880,9 +880,9 @@
 
         <!-- expects a single card object in $data -->
     <li class="card-grid-item"
-        data-bind="visible: !($root.CollectionOverlayMode() === 'wish' && $data.inCollection), css: { 'card-landscape': $data.orientation_front === 'landscape', 'card-square': $data.orientation_front === 'square', 'card-extra-tall': $data.orientation_front === 'extra-tall' }">
+        data-bind="visible: !($root.CollectionOverlayMode() === 'wish' && $data.inCollection), css: { 'card-landscape': ($data.default_face === 'back' ? $data.orientation_back : $data.orientation_front) === 'landscape', 'card-square': ($data.default_face === 'back' ? $data.orientation_back : $data.orientation_front) === 'square', 'card-extra-tall': ($data.default_face === 'back' ? $data.orientation_back : $data.orientation_front) === 'extra-tall' }">
         <a class="card-grid-item-card"
-            data-bind="css: { 'card-landscape': $data.orientation_front === 'landscape', 'card-square': $data.orientation_front === 'square', 'card-extra-tall': $data.orientation_front === 'extra-tall', 'card-grid-item-card--owned': $root.CollectionOverlayMode() === 'owned' && $data.inCollection },
+            data-bind="css: { 'card-landscape': ($data.default_face === 'back' ? $data.orientation_back : $data.orientation_front) === 'landscape', 'card-square': ($data.default_face === 'back' ? $data.orientation_back : $data.orientation_front) === 'square', 'card-extra-tall': ($data.default_face === 'back' ? $data.orientation_back : $data.orientation_front) === 'extra-tall', 'card-grid-item-card--owned': $root.CollectionOverlayMode() === 'owned' && $data.inCollection },
             attr: { href: $root.BuildCardRoute($data, $parent), 'aria-label': 'Open card details for ' + (($data.name || 'Unknown') + ' ' + ($data.base_number || $data.number || 'NNO')) }">
             <span class="card-grid-item-invisible-label" aria-hidden="true" data-bind="text: name"></span>
             <div class="card-grid-item-card-faces">
