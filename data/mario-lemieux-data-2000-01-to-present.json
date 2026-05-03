@@ -2680,8 +2680,8 @@
               "base_number": "NNO",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia---He-Shoots-He-Scores-NNO-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia---He-Shoots-He-Scores-NNO-Mario-LemieuxBk.jpg",
+              "image_front": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia---He-Shots-He-Scores-NNO-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia---He-Shots-He-Scores-NNO-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -4434,6 +4434,29 @@
         }
       ]
     },
+    "2005-06-upper-deck-mcdonalds": {
+      "set_key": "2005-06-upper-deck-mcdonalds",
+      "set_name": "Upper Deck McDonald's",
+      "set_year_label": "2005-06",
+      "set_year_start": 2005,
+      "set_year_end": 2006,
+      "set_display_name": "2005-06 Upper Deck McDonald's",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2005-06-upper-deck-mcdonalds-28",
+          "base_number": "28",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2005-06-Upper-Deck-McDonald's-28-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2005-06-Upper-Deck-McDonald's-28-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        }
+      ]
+    },
     "2006-07-parkhurst": {
       "set_key": "2006-07-parkhurst",
       "set_name": "Parkhurst",
@@ -4561,6 +4584,29 @@
               "inCollection": false
             }
           ]
+        }
+      ]
+    },
+    "2007-08-spx": {
+      "set_key": "2007-08-spx",
+      "set_name": "SPx",
+      "set_year_label": "2007-08",
+      "set_year_start": 2007,
+      "set_year_end": 2008,
+      "set_display_name": "2007-08 SPx",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2007-08-spx-100",
+          "base_number": "100",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2007-08-SPx-100-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2007-08-SPx-100-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
         }
       ]
     },
@@ -4734,8 +4780,8 @@
         {
           "base_number": "NHCD12",
           "id": "ml-2010-11-upper-deck-national-hockey-card-day-nhcd12",
-          "image_back": "",
-          "image_front": "",
+          "image_back": "img/cards/ML66/2011-Upper-Deck-National-Hockey-Card-Day-HCD12-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2011-Upper-Deck-National-Hockey-Card-Day-HCD12-Mario-LemieuxFr.jpg",
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
@@ -4746,20 +4792,20 @@
         }
       ]
     },
-    "2010-11-zenith": {
-      "set_key": "2010-11-zenith",
-      "set_name": "Zenith",
+    "2010-11-panini-zenith": {
+      "set_key": "2010-11-panini-zenith",
+      "set_name": "Panini Zenith",
       "set_year_label": "2010-11",
       "set_year_start": 2010,
       "set_year_end": 2011,
-      "set_display_name": "2010-11 Zenith",
+      "set_display_name": "2010-11 Panini Zenith",
       "set_tcdb_href": "",
       "cards": [
         {
           "base_number": "125",
-          "id": "ml-2010-11-zenith-125",
-          "image_back": "",
-          "image_front": "",
+          "id": "ml-2010-11-panini-zenith-125",
+          "image_back": "img/cards/ML66/2010-11-Panini-Zenith-125-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2010-11-Panini-Zenith-125-Mario-LemieuxFr.jpg",
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
@@ -4767,6 +4813,18 @@
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
+        },
+        {
+          "id": "ml-2010-11-panini-zenith-238",
+          "base_number": "238",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2010-11-Panini-Zenith-238-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2010-11-Panini-Zenith-238-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
         }
       ]
     },
@@ -4793,20 +4851,43 @@
         }
       ]
     },
-    "2012-13-artifacts": {
-      "set_key": "2012-13-artifacts",
-      "set_name": "Artifacts",
+    "2011-12-upper-deck-national-hockey-card-day-canada": {
+      "set_key": "2011-12-upper-deck-national-hockey-card-day-canada",
+      "set_name": "Upper Deck National Hockey Card Day Canada",
+      "set_year_label": "2011-12",
+      "set_year_start": 2011,
+      "set_year_end": 2012,
+      "set_display_name": "2011-12 Upper Deck National Hockey Card Day Canada",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2011-12-upper-deck-national-hockey-card-day-canada-13",
+          "base_number": "13",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2012-Upper-Deck-National-Hockey-Card-Day-Canada-13-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2012-Upper-Deck-National-Hockey-Card-Day-Canada-13-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        }
+      ]
+    },
+    "2012-13-upper-deck-artifacts": {
+      "set_key": "2012-13-upper-deck-artifacts",
+      "set_name": "Upper Deck Artifacts",
       "set_year_label": "2012-13",
       "set_year_start": 2012,
       "set_year_end": 2013,
-      "set_display_name": "2012-13 Artifacts",
+      "set_display_name": "2012-13 Upper Deck Artifacts",
       "set_tcdb_href": "",
       "cards": [
         {
           "base_number": "56",
-          "id": "ml-2012-13-artifacts-56",
-          "image_back": "",
-          "image_front": "",
+          "id": "ml-2012-13-upper-deck-artifacts-56",
+          "image_back": "img/cards/ML66/2012-13-Upper-Deck-Artifacts-56-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2012-13-Upper-Deck-Artifacts-56-Mario-LemieuxFr.jpg",
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
@@ -4829,8 +4910,8 @@
         {
           "base_number": "NHCD14",
           "id": "ml-2012-13-upper-deck-national-hockey-card-day-canada-nhcd14",
-          "image_back": "",
-          "image_front": "",
+          "image_back": "img/cards/ML66/2013-Upper-Deck-National-Hockey-Card-Day-Canada-NHCD14-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2013-Upper-Deck-National-Hockey-Card-Day-Canada-NHCD14-Mario-LemieuxFr.jpg",
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
@@ -4854,8 +4935,8 @@
         {
           "base_number": "76",
           "id": "ml-2013-14-fleer-showcase-76",
-          "image_back": "",
-          "image_front": "",
+          "image_back": "img/cards/ML66/2013-14-Fleer-Showcase-76-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2013-14-Fleer-Showcase-76-Mario-LemieuxFr.jpg",
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
@@ -4864,22 +4945,44 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2013-14-fleer-showcase-skybox-premium",
+          "set_name": "SkyBox Premium",
+          "set_display_name": "2013-14 Fleer Showcase - SkyBox Premium",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2013-14-fleer-showcase-skybox-premium-3",
+              "base_number": "3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2013-14-Fleer-Showcase---SkyBox-Premium-3-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2013-14-Fleer-Showcase---SkyBox-Premium-3-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        }
       ]
     },
-    "2013-14-select": {
-      "set_key": "2013-14-select",
-      "set_name": "Select",
+    "2013-14-panini-select": {
+      "set_key": "2013-14-panini-select",
+      "set_name": "Panini Select",
       "set_year_label": "2013-14",
       "set_year_start": 2013,
       "set_year_end": 2014,
-      "set_display_name": "2013-14 Select",
+      "set_display_name": "2013-14 Panini Select",
       "set_tcdb_href": "",
       "cards": [
         {
           "base_number": "151",
-          "id": "ml-2013-14-select-151",
-          "image_back": "",
-          "image_front": "",
+          "id": "ml-2013-14-panini-select-151",
+          "image_back": "img/cards/ML66/2013-14-Panini-Select-151-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2013-14-Panini-Select-151-Mario-LemieuxFr.jpg",
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
@@ -4902,8 +5005,8 @@
         {
           "base_number": "34",
           "id": "ml-2014-15-sp-authentic-34",
-          "image_back": "",
-          "image_front": "",
+          "image_back": "img/cards/ML66/2014-15-SP-Authentic-34-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2014-15-SP-Authentic-34-Mario-LemieuxFr.jpg",
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
@@ -4911,6 +5014,28 @@
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2014-15-sp-authentic-sp-retro-94",
+          "set_name": "SP Retro '94",
+          "set_display_name": "2014-15 SP Authentic - SP Retro '94",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2014-15-sp-authentic-sp-retro-94-38",
+              "base_number": "38",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2014-15-SP-Authentic---SP-Retro-94---38-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2014-15-SP-Authentic---SP-Retro-94---38-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
         }
       ]
     },
@@ -4926,8 +5051,8 @@
         {
           "base_number": "97",
           "id": "ml-2014-15-upper-deck-trilogy-97",
-          "image_back": "",
-          "image_front": "",
+          "image_back": "img/cards/ML66/2014-15-Upper-Deck-Trilogy-97-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2014-15-Upper-Deck-Trilogy-97-Mario-LemieuxFr.jpg",
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
@@ -5024,8 +5149,8 @@
         {
           "base_number": "W5",
           "id": "ml-2016-upper-deck-winter-w5",
-          "image_back": "",
-          "image_front": "",
+          "image_back": "img/cards/ML66/2016-Upper-Deck-Winter-W5-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2016-Upper-Deck-Winter-W5-Mario-LemieuxFr.jpg",
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
@@ -5099,8 +5224,61 @@
       "set_year_end": 2023,
       "set_display_name": "2022-23 Upper Deck Tim Hortons Legends",
       "set_tcdb_href": "",
-      "cards": [],
+      "cards": [
+        {
+          "id": "ml-2022-23-upper-deck-tim-hortons-legends-52",
+          "base_number": "52",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends-52-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends-52-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        }
+      ],
       "subsets": [
+        {
+          "set_key": "2022-23-upper-deck-tim-hortons-legends-canvas-legends",
+          "set_name": "Canvas Legends",
+          "set_display_name": "2022-23 Upper Deck Tim Hortons Legends - Canvas Legends",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2022-23-upper-deck-tim-hortons-legends-canvas-legends-cl10",
+              "base_number": "CL-10",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Canvas-Legends-CL-10-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Canvas-Legends-CL-10-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "2022-23-upper-deck-tim-hortons-legends-championship-resume",
+          "set_name": "Championship Resume",
+          "set_display_name": "2022-23 Upper Deck Tim Hortons Legends - Championship Resume",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2022-23-upper-deck-tim-hortons-legends-championship-resume-cr12",
+              "base_number": "CR-12",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Championship-Resume-CR-12-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Championship-Resume-CR-12-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        },
         {
           "set_key": "2022-23-upper-deck-tim-hortons-legends-record-books",
           "set_name": "Record Books",
@@ -5110,8 +5288,8 @@
             {
               "base_number": "RB5",
               "id": "ml-2022-23-upper-deck-tim-hortons-legends-record-books-rb5",
-              "image_back": "",
-              "image_front": "",
+              "image_back": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Record-Books-RB-5-Mario-LemieuxBk.jpg",
+              "image_front": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Record-Books-RB-5-Mario-LemieuxFr.jpg",
               "inCollection": true,
               "orientation_back": "portrait",
               "orientation_front": "portrait",
