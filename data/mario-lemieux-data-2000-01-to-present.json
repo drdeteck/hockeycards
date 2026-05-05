@@ -496,7 +496,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "price": 4.89,
-              "inCollection": true
+              "inCollection": false
             },
             {
               "id": "ml-2000-01-topps-mario-lemieux-reprints-19",
@@ -507,7 +507,8 @@
               "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-19-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             },
             {
               "id": "ml-2000-01-topps-mario-lemieux-reprints-20",
@@ -2541,7 +2542,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         }
@@ -3615,6 +3616,28 @@
           "position": "Center",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2003-04-pacific-supreme-retail",
+          "set_name": "Retail",
+          "set_display_name": "2003-04 Pacific Supreme - Retail",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-supreme-retail-79",
+              "base_number": "79",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Supreme---Retail-79-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Supreme---Retail-79-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        }
       ]
     },
     "2003-04-spx": {
@@ -3681,6 +3704,18 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center"
+        },
+        {
+          "id": "ml-2003-04-upper-deck-444",
+          "base_number": "444",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-Upper-Deck-444-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Upper-Deck-444-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
         }
       ],
       "subsets": [
@@ -5158,6 +5193,29 @@
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
+        }
+      ]
+    },
+    "2017-18-o-pee-chee-platinum": {
+      "set_key": "2017-18-o-pee-chee-platinum",
+      "set_name": "O-Pee-Chee Platinum",
+      "set_year_label": "2017-18",
+      "set_year_start": 2017,
+      "set_year_end": 2018,
+      "set_display_name": "2017-18 O-Pee-Chee Platinum",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2017-18-o-pee-chee-platinum-141",
+          "base_number": "141",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2017-18-O-Pee-Chee-Platinum-141-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2017-18-O-Pee-Chee-Platinum-141-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
         }
       ]
     },
