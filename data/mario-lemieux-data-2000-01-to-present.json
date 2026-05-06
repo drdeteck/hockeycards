@@ -2715,6 +2715,29 @@
         }
       ]
     },
+    "2002-03-bowman-youngstars": {
+      "set_key": "2002-03-bowman-youngstars",
+      "set_name": "Bowman YoungStars",
+      "set_year_label": "2002-03",
+      "set_year_start": 2002,
+      "set_year_end": 2003,
+      "set_display_name": "2002-03 Bowman YoungStars",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2002-03-bowman-youngstars-26",
+          "base_number": "26",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-Bowman-YoungStars-26-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Bowman-YoungStars-26-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2002-03-o-pee-chee": {
       "set_key": "2002-03-o-pee-chee",
       "set_name": "O-Pee-Chee",
@@ -2937,6 +2960,51 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center"
+            }
+          ]
+        }
+      ]
+    },
+    "2002-03-pacific-vanguard": {
+      "set_key": "2002-03-pacific-vanguard",
+      "set_name": "Pacific Vanguard",
+      "set_year_label": "2002-03",
+      "set_year_start": 2002,
+      "set_year_end": 2003,
+      "set_display_name": "2002-03 Pacific Vanguard",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2002-03-pacific-vanguard-81",
+          "base_number": "81",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-Pacific-Vanguard-81-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Pacific-Vanguard-81-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-pacific-vanguard-in-focus",
+          "set_name": "In Focus",
+          "set_display_name": "2002-03 Pacific Vanguard - In Focus",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-vanguard-in-focus-9",
+              "base_number": "9",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Pacific-Vanguard---In-Focus-9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Pacific-Vanguard---In-Focus-9-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
@@ -3443,6 +3511,29 @@
         }
       ]
     },
+    "2003-04-be-a-player-memorabilia": {
+      "set_key": "2003-04-be-a-player-memorabilia",
+      "set_name": "Be a Player Memorabilia",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Be a Player Memorabilia",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-be-a-player-memorabilia-48",
+          "base_number": "48",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-Be-a-Player-Memorabilia-48-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Be-a-Player-Memorabilia-48-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2003-04-bowman-draft-picks-and-prospects": {
       "set_key": "2003-04-bowman-draft-picks-and-prospects",
       "set_name": "Bowman Draft Picks and Prospects",
@@ -3553,6 +3644,51 @@
         }
       ]
     },
+    "2003-04-pacific-atomic-mcdonalds": {
+      "set_key": "2003-04-pacific-atomic-mcdonalds",
+      "set_name": "Pacific Atomic McDonald's",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Pacific Atomic McDonald's",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-pacific-atomic-mcdonalds-41",
+          "base_number": "41",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-Pacific-Atomic-McDonald's-41-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Pacific-Atomic-McDonald's-41-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2003-04-pacific-atomic-mcdonalds-etched-in-time",
+          "set_name": "Etched in Time",
+          "set_display_name": "2003-04 Pacific Atomic McDonald's - Etched in Time",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-atomic-mcdonalds-etched-in-time-5",
+              "base_number": "5",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Atomic-McDonald's---Etched-in-Time-5-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Atomic-McDonald's---Etched-in-Time-5-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2003-04-pacific-calder": {
       "set_key": "2003-04-pacific-calder",
       "set_name": "Pacific Calder",
@@ -3597,6 +3733,51 @@
           "position": "Center",
           "inCollection": true,
           "price": 3.95
+        }
+      ]
+    },
+    "2003-04-pacific-heads-up": {
+      "set_key": "2003-04-pacific-heads-up",
+      "set_name": "Pacific Heads Up",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Pacific Heads Up",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-pacific-heads-up-79",
+          "base_number": "79",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-Pacific-Heads-Up-79-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Pacific-Heads-Up-79-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2003-04-pacific-heads-up-rink-immortals",
+          "set_name": "Rink Immortals",
+          "set_display_name": "2003-04 Pacific Heads Up - Rink Immortals",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-heads-up-rink-immortals-9",
+              "base_number": "9",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Heads-Up---Rink-Immortals-9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Heads-Up---Rink-Immortals-9-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -3645,6 +3826,29 @@
         }
       ]
     },
+    "2003-04-sp-authentic": {
+      "set_key": "2003-04-sp-authentic",
+      "set_name": "SP Authentic",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 SP Authentic",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-sp-authentic-69",
+          "base_number": "69",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-SP-Authentic-69-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-SP-Authentic-69-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2003-04-spx": {
       "set_key": "2003-04-spx",
       "set_name": "SPx",
@@ -3687,6 +3891,58 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center"
+        }
+      ]
+    },
+    "2003-04-topps-c55": {
+      "set_key": "2003-04-topps-c55",
+      "set_name": "Topps C55",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Topps C55",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2003-04-topps-c55-full",
+          "set_name": "Full",
+          "set_display_name": "2003-04 Topps C55 - Full",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-topps-c55-full-66",
+              "base_number": "66",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Topps-C55-66-Full-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Topps-C55-66-Full-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-topps-c55-head",
+          "set_name": "Head",
+          "set_display_name": "2003-04 Topps C55 - Head",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-topps-c55-head-66",
+              "base_number": "66",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Topps-C55-66-Head-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Topps-C55-66-Head-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -3837,6 +4093,71 @@
         }
       ]
     },
+    "2003-04-upper-deck-mvp": {
+      "set_key": "2003-04-upper-deck-mvp",
+      "set_name": "Upper Deck MVP",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Upper Deck MVP",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-upper-deck-mvp-333",
+          "base_number": "333",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-Upper-Deck-MVP-333-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Upper-Deck-MVP-333-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2003-04-upper-deck-mvp-mvp-talent",
+          "set_name": "MVP Talent",
+          "set_display_name": "2003-04 Upper Deck MVP - MVP Talent",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-upper-deck-mvp-mvp-talent-mt1",
+              "base_number": "MT1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Upper-Deck-MVP---MVP-Talent-MT1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Upper-Deck-MVP---MVP-Talent-MT1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-upper-deck-mvp-sportsnut",
+          "set_name": "SportsNut",
+          "set_display_name": "2003-04 Upper Deck MVP - SportsNut",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-upper-deck-mvp-sportsnut-sn71",
+              "base_number": "SN71",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Upper-Deck-MVP---SportsNut-SN71-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Upper-Deck-MVP---SportsNut-SN71-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2003-04-upper-deck-rookie-update": {
       "set_key": "2003-04-upper-deck-rookie-update",
       "set_name": "Upper Deck Rookie Update",
@@ -3904,6 +4225,18 @@
           "position": "Center",
           "variant_note": "AW",
           "inCollection": true
+        },
+        {
+          "id": "ml-2004-05-sp-authentic-72",
+          "base_number": "72",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2004-05-SP-Authentic-72-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2004-05-SP-Authentic-72-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
@@ -4076,6 +4409,18 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-2005-06-parkhurst-590",
+          "base_number": "590",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2005-06-Parkhurst-590-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2005-06-Parkhurst-590-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
@@ -4399,6 +4744,63 @@
           "position": "Center",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2005-06-upper-deck-mvp-rising-to-the-occasion",
+          "set_name": "Rising to the Occasion",
+          "set_display_name": "2005-06 Upper Deck MVP - Rising to the Occasion",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2005-06-upper-deck-mvp-rising-to-the-occasion-ro2",
+              "base_number": "RO2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2005-06-Upper-Deck-MVP---Rising-to-the-Occasion-RO2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2005-06-Upper-Deck-MVP---Rising-to-the-Occasion-RO2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2005-06-upper-deck-power-play": {
+      "set_key": "2005-06-upper-deck-power-play",
+      "set_name": "Upper Deck Power Play",
+      "set_year_label": "2005-06",
+      "set_year_start": 2005,
+      "set_year_end": 2006,
+      "set_display_name": "2005-06 Upper Deck Power Play",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2005-06-upper-deck-power-play-71",
+          "base_number": "71",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2005-06-Upper-Deck-Power-Play-71-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2005-06-Upper-Deck-Power-Play-71-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2005-06-upper-deck-power-play-100",
+          "base_number": "100",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2005-06-Upper-Deck-Power-Play-100-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2005-06-Upper-Deck-Power-Play-100-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
       ]
     },
     "2005-06-upper-deck-rookie-update": {
@@ -4519,6 +4921,18 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-2006-07-parkhurst-204",
+          "base_number": "204",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2006-07-Parkhurst-204-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2006-07-Parkhurst-204-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
@@ -4870,6 +5284,51 @@
         }
       ]
     },
+    "2011-12-score": {
+      "set_key": "2011-12-score",
+      "set_name": "Score",
+      "set_year_label": "2011-12",
+      "set_year_start": 2011,
+      "set_year_end": 2012,
+      "set_display_name": "2011-12 Score",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2011-12-score-10",
+          "base_number": "10",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2011-12-Score-10-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2011-12-Score-10-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2011-12-score-glossy",
+          "set_name": "Glossy",
+          "set_display_name": "2011-12 Score - Glossy",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2011-12-score-glossy-10",
+              "base_number": "10",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2011-12-Score---Glossy-10-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2011-12-Score---Glossy-10-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2011-12-upper-deck-black-diamond": {
       "set_key": "2011-12-upper-deck-black-diamond",
       "set_name": "Upper Deck Black Diamond",
@@ -5035,6 +5494,198 @@
         }
       ]
     },
+    "2013-14-sp-authentic": {
+      "set_key": "2013-14-sp-authentic",
+      "set_name": "SP Authentic",
+      "set_year_label": "2013-14",
+      "set_year_start": 2013,
+      "set_year_end": 2014,
+      "set_display_name": "2013-14 SP Authentic",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2013-14-sp-authentic-49",
+          "base_number": "49",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2013-14-SP-Authentic-49-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2013-14-SP-Authentic-49-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2013-14-sp-authentic-185",
+          "base_number": "185",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2013-14-SP-Authentic-185-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2013-14-SP-Authentic-185-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2013-14-sp-authentic-sp-retro-93",
+          "set_name": "SP Retro '93",
+          "set_display_name": "2013-14 SP Authentic - SP Retro '93",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2013-14-sp-authentic-sp-retro-93-40",
+              "base_number": "40",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2013-14-SP-Authentic---SP-Retro-93-40-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2013-14-SP-Authentic---SP-Retro-93-40-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2013-14-sp-authentic-sp-retro-silver-skates",
+          "set_name": "SP Retro Silver Skates",
+          "set_display_name": "2013-14 SP Authentic - SP Retro Silver Skates",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2013-14-sp-authentic-sp-retro-silver-skates-r2",
+              "base_number": "R2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2013-14-SP-Authentic---SP-Retro-Silver-Skates-R2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2013-14-SP-Authentic---SP-Retro-Silver-Skates-R2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2013-14-sp-game-used": {
+      "set_key": "2013-14-sp-game-used",
+      "set_name": "SP Game Used",
+      "set_year_label": "2013-14",
+      "set_year_start": 2013,
+      "set_year_end": 2014,
+      "set_display_name": "2013-14 SP Game Used",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2013-14-sp-game-used-28",
+          "base_number": "28",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2013-14-SP-Game-Used-28-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2013-14-SP-Game-Used-28-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2013-14-upper-deck": {
+      "set_key": "2013-14-upper-deck",
+      "set_name": "Upper Deck",
+      "set_year_label": "2013-14",
+      "set_year_start": 2013,
+      "set_year_end": 2014,
+      "set_display_name": "2013-14 Upper Deck",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2013-14-upper-deck-hockey-heroes-80s",
+          "set_name": "Hockey Heroes 80s",
+          "set_display_name": "2013-14 Upper Deck - Hockey Heroes 80s",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2013-14-upper-deck-hockey-heroes-80s-hh50",
+              "base_number": "HH50",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2013-14-Upper-Deck---Hockey-Heroes-80s-HH50-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2013-14-Upper-Deck---Hockey-Heroes-80s-HH50-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2013-14-upper-deck-hockey-heroes-90s",
+          "set_name": "Hockey Heroes 90s",
+          "set_display_name": "2013-14 Upper Deck - Hockey Heroes 90s",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2013-14-upper-deck-hockey-heroes-90s-hh63",
+              "base_number": "HH63",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2013-14-Upper-Deck---Hockey-Heroes-90s-HH63-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2013-14-Upper-Deck---Hockey-Heroes-90s-HH63-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2013-14-upper-deck-ud-canvas",
+          "set_name": "UD Canvas",
+          "set_display_name": "2013-14 Upper Deck - UD Canvas",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2013-14-upper-deck-ud-canvas-c243",
+              "base_number": "C243",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2013-14-Upper-Deck---UD-Canvas-C243-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2013-14-Upper-Deck---UD-Canvas-C243-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2013-14-upper-deck-ud-mvp",
+          "set_name": "UD MVP",
+          "set_display_name": "2013-14 Upper Deck - UD MVP",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2013-14-upper-deck-ud-mvp-35",
+              "base_number": "35",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2013-14-Upper-Deck---UD-MVP-35-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2013-14-Upper-Deck---UD-MVP-35-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2014-15-sp-authentic": {
       "set_key": "2014-15-sp-authentic",
       "set_name": "SP Authentic",
@@ -5179,6 +5830,29 @@
         }
       ]
     },
+    "2016-upper-deck-team-canada-juniors": {
+      "set_key": "2016-upper-deck-team-canada-juniors",
+      "set_name": "Upper Deck Team Canada Juniors",
+      "set_year_label": "2016",
+      "set_year_start": 2016,
+      "set_year_end": 2016,
+      "set_display_name": "2016 Upper Deck Team Canada Juniors",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2016-upper-deck-team-canada-juniors-99",
+          "base_number": "99",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2016-Upper-Deck-Team-Canada-Juniors-99-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2016-Upper-Deck-Team-Canada-Juniors-99-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Team Canada",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2016-upper-deck-winter": {
       "set_key": "2016-upper-deck-winter",
       "set_name": "Upper Deck Winter",
@@ -5223,6 +5897,38 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ]
+    },
+    "2017-18-upper-deck-synergy": {
+      "set_key": "2017-18-upper-deck-synergy",
+      "set_name": "Upper Deck Synergy",
+      "set_year_label": "2017-18",
+      "set_year_start": 2017,
+      "set_year_end": 2018,
+      "set_display_name": "2017-18 Upper Deck Synergy",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2017-18-upper-deck-synergy-impact-players",
+          "set_name": "Impact Players",
+          "set_display_name": "2017-18 Upper Deck Synergy - Impact Players",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-upper-deck-synergy-impact-players-ip37",
+              "base_number": "IP-37",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2017-18-Upper-Deck-Synergy---Impact-Players-IP-37-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-Upper-Deck-Synergy---Impact-Players-IP-37-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -5278,6 +5984,52 @@
               "inCollection": true
             }
           ]
+        }
+      ]
+    },
+    "2021-22-upper-deck-tim-hortons-team-canada": {
+      "set_key": "2021-22-upper-deck-tim-hortons-team-canada",
+      "set_name": "Upper Deck Tim Hortons Team Canada",
+      "set_year_label": "2021-22",
+      "set_year_start": 2021,
+      "set_year_end": 2022,
+      "set_display_name": "2021-22 Upper Deck Tim Hortons Team Canada",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2021-22-upper-deck-tim-hortons-team-canada-99",
+          "base_number": "99",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2021-22-Upper-Deck-Tim-Hortons-Team-Canada-99-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2021-22-Upper-Deck-Tim-Hortons-Team-Canada-99-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Team Canada",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2021-upper-deck-national-hockey-card-day-canada": {
+      "set_key": "2021-upper-deck-national-hockey-card-day-canada",
+      "set_name": "Upper Deck National Hockey Card Day Canada",
+      "set_year_label": "2021",
+      "set_year_start": 2021,
+      "set_year_end": 2021,
+      "set_display_name": "2021 Upper Deck National Hockey Card Day Canada",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2021-upper-deck-national-hockey-card-day-canada-can11",
+          "base_number": "CAN-11",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2021-Upper-Deck-National-Hockey-Card-Day-Canada-CAN-11-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2021-Upper-Deck-National-Hockey-Card-Day-Canada-CAN-11-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
@@ -5375,7 +6127,20 @@
       "set_year_end": 2023,
       "set_display_name": "2022-23 Upper Deck Ultimate Collection",
       "set_tcdb_href": "",
-      "cards": [],
+      "cards": [
+        {
+          "id": "ml-2022-23-upper-deck-ultimate-collection-100",
+          "base_number": "100",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2022-23-Upper-Deck-Ultimate-Collection-100-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2022-23-Upper-Deck-Ultimate-Collection-100-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
       "subsets": [
         {
           "set_key": "2022-23-upper-deck-ultimate-collection-blue",
@@ -5397,6 +6162,76 @@
               "inCollection": true
             }
           ]
+        }
+      ]
+    },
+    "2023-24-upper-deck-tim-hortons-greatest-duos": {
+      "set_key": "2023-24-upper-deck-tim-hortons-greatest-duos",
+      "set_name": "Upper Deck Tim Hortons Greatest Duos",
+      "set_year_label": "2023-24",
+      "set_year_start": 2023,
+      "set_year_end": 2024,
+      "set_display_name": "2023-24 Upper Deck Tim Hortons Greatest Duos",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2023-24-upper-deck-tim-hortons-greatest-duos-38",
+          "base_number": "38",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2023-24-Upper-Deck-Tim-Hortons-Greatest-Duos-38-Mario-Lemieux--Paul-CoffeyFr.jpg",
+          "image_back": "img/cards/ML66/2023-24-Upper-Deck-Tim-Hortons-Greatest-Duos-38-Mario-Lemieux--Paul-CoffeyBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "variant_note": "w/ Paul Coffey",
+          "inCollection": false
+        }
+      ]
+    },
+    "2024-25-upper-deck-tim-hortons-retrospective-rookies": {
+      "set_key": "2024-25-upper-deck-tim-hortons-retrospective-rookies",
+      "set_name": "Upper Deck Tim Hortons Retrospective Rookies",
+      "set_year_label": "2024-25",
+      "set_year_start": 2024,
+      "set_year_end": 2025,
+      "set_display_name": "2024-25 Upper Deck Tim Hortons Retrospective Rookies",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2024-25-upper-deck-tim-hortons-retrospective-rookies-92",
+          "base_number": "92",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2024-25-Upper-Deck-Tim-Hortons-Retrospective-Rookies-92-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2024-25-Upper-Deck-Tim-Hortons-Retrospective-Rookies-92-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2024-upper-deck-national-hockey-card-day": {
+      "set_key": "2024-upper-deck-national-hockey-card-day",
+      "set_name": "Upper Deck National Hockey Card Day",
+      "set_year_label": "2024",
+      "set_year_start": 2024,
+      "set_year_end": 2024,
+      "set_display_name": "2024 Upper Deck National Hockey Card Day",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2024-upper-deck-national-hockey-card-day-nhcd21",
+          "base_number": "NHCD-21",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2024-Upper-Deck-National-Hockey-Card-Day-NHCD-21-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2024-Upper-Deck-National-Hockey-Card-Day-NHCD-21-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
@@ -5442,6 +6277,52 @@
               "inCollection": true
             }
           ]
+        }
+      ]
+    },
+    "2025-upper-deck-national-hockey-card-day": {
+      "set_key": "2025-upper-deck-national-hockey-card-day",
+      "set_name": "Upper Deck National Hockey Card Day",
+      "set_year_label": "2025",
+      "set_year_start": 2025,
+      "set_year_end": 2025,
+      "set_display_name": "2025 Upper Deck National Hockey Card Day",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2025-upper-deck-national-hockey-card-day-nhcd22",
+          "base_number": "NHCD-22",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2025-Upper-Deck-National-Hockey-Card-Day-NHCD-22-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2025-Upper-Deck-National-Hockey-Card-Day-NHCD-22-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2026-upper-deck-national-hockey-card-day": {
+      "set_key": "2026-upper-deck-national-hockey-card-day",
+      "set_name": "Upper Deck National Hockey Card Day",
+      "set_year_label": "2026",
+      "set_year_start": 2026,
+      "set_year_end": 2026,
+      "set_display_name": "2026 Upper Deck National Hockey Card Day",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2026-upper-deck-national-hockey-card-day-nhcd22",
+          "base_number": "NHCD-22",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2026-Upper-Deck-National-Hockey-Card-Day-NHCD-22-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2026-Upper-Deck-National-Hockey-Card-Day-NHCD-22-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     }
