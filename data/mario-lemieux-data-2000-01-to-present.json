@@ -110,7 +110,7 @@
               "image_back": "img/cards/ML66/2000-01-Pacific-Crown-Royale---Jewels-of-the-Crown-22-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
             }
           ]
         }
@@ -658,7 +658,8 @@
           "image_back": "img/cards/ML66/2000-01-Topps-Heritage-73-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         }
       ]
     },
@@ -951,7 +952,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true
         }
       ]
     },
@@ -1279,7 +1280,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         },
@@ -1438,7 +1439,8 @@
           "image_back": "img/cards/ML66/2001-02-Parkhurst-24-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         }
       ],
       "subsets": [
@@ -1574,7 +1576,8 @@
           "image_back": "img/cards/ML66/2001-02-Stadium-Club-18-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         }
       ],
       "subsets": [
@@ -2146,7 +2149,7 @@
           "image_back": "img/cards/ML66/2001-02-Upper-Deck-Challenge-for-the-Cup-68-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
         }
       ]
     },
@@ -2474,7 +2477,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true
         }
       ]
     },
@@ -2510,7 +2513,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true
         },
         {
           "id": "ml-2002-03-bap-all-star-edition-53",
@@ -2522,7 +2525,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true
         }
       ],
       "subsets": [
@@ -2580,7 +2583,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true
         },
         {
           "id": "ml-2002-03-bap-first-edition-323",
@@ -2652,7 +2655,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true
         }
       ],
       "subsets": [
@@ -2730,7 +2733,8 @@
           "image_back": "img/cards/ML66/2002-03-O-Pee-Chee-2-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         }
       ]
     },
@@ -2911,7 +2915,8 @@
           "image_back": "img/cards/ML66/2002-03-Pacific-Quest-for-the-Cup-80-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         }
       ],
       "subsets": [
@@ -3703,7 +3708,8 @@
           "image_back": "img/cards/ML66/2003-04-Upper-Deck-151-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         },
         {
           "id": "ml-2003-04-upper-deck-444",
@@ -3952,7 +3958,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         },
@@ -4178,7 +4184,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         }
@@ -4202,7 +4208,8 @@
           "image_back": "img/cards/ML66/2005-06-Upper-Deck-150-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         }
       ],
       "subsets": [
@@ -4242,7 +4249,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             },
             {
               "id": "ml-2005-06-upper-deck-all-time-greatest-finalist-85",

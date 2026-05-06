@@ -2603,7 +2603,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 11.55
             }
           ]
         }
@@ -4425,7 +4426,8 @@
               "image_back": "img/cards/ML66/1995-96-Collector's-Choice---You-Crash-the-Game-Gold-C25c-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true
             }
           ]
         },
@@ -6039,7 +6041,9 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1996-97-Collector's-Choice---You-Crash-the-Game-Silver-Exchange-CR5-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "variant_note": "Exchange"
+              "variant_note": "Exchange",
+              "inCollection": true,
+              "price": 6.02
             }
           ]
         },
