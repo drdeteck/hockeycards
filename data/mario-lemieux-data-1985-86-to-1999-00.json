@@ -2,7 +2,7 @@
   "dataset": "mario-lemieux",
   "version": "0.15.5",
   "player": "Mario Lemieux",
-  "updated_at": "2026-04-20",
+  "updated_at": "2026-05-06",
   "image_folder": "img/cards/ML66",
   "sets": {
     "1985-86-o-pee-chee": {
@@ -1262,32 +1262,6 @@
           ]
         }
       ]
-    },
-    "1992-cartwrights-players-choice-gold": {
-      "set_key": "1992-cartwrights-players-choice-gold",
-      "set_name": "Cartwrights Players' Choice Gold",
-      "set_year_label": "1992",
-      "set_year_start": 1992,
-      "set_year_end": 1992,
-      "set_display_name": "1992 Cartwrights Players' Choice Gold",
-      "set_tcdb_href": "",
-      "cards": [
-        {
-          "id": "ml-1992-cartwrights-players-choice-gold-2",
-          "base_number": "2",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/1992-Cartwrights-Players-Choice-2-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/1992-Cartwrights-Players-Choice-2-Mario-LemieuxBk.jpg",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "price": 2.25,
-          "inCollection": true,
-          "excludeFromBinder": true
-        }
-      ],
-      "subsets": []
     },
     "1992-93-bowman": {
       "set_key": "1992-93-bowman",
@@ -3726,30 +3700,6 @@
         }
       ]
     },
-    "1994-95-pog-canada-games-nhl": {
-      "set_key": "1994-95-pog-canada-games-nhl",
-      "set_name": "POG Canada Games NHL",
-      "set_year_label": "1994-95",
-      "set_year_start": 1994,
-      "set_year_end": 1995,
-      "set_display_name": "1994-95 POG Canada Games NHL",
-      "set_tcdb_href": "",
-      "cards": [
-        {
-          "id": "ml-1994-95-pog-canada-games-nhl-185",
-          "base_number": "185",
-          "orientation_front": "square",
-          "orientation_back": "square",
-          "excludeFromBinder": true,
-          "image_front": "img/cards/ML66/1994-95-POG-Canada-Games-NHL-185-Mario-LemieuxFr.png",
-          "image_back": "img/cards/ML66/1994-95-POG-Canada-Games-NHL-185-Mario-LemieuxBk.png",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": true
-        }
-      ]
-    },
     "1994-95-parkhurst": {
       "set_key": "1994-95-parkhurst",
       "set_name": "Parkhurst",
@@ -5096,41 +5046,6 @@
         }
       ]
     },
-    "1995-96-nhl-aces-playing-cards": {
-      "set_key": "1995-96-nhl-aces-playing-cards",
-      "set_name": "NHL Aces Playing Cards",
-      "set_year_label": "1995-96",
-      "set_year_start": 1995,
-      "set_year_end": 1996,
-      "set_display_name": "1995-96 NHL Aces Playing Cards",
-      "set_tcdb_href": "",
-      "cards": [
-        {
-          "id": "ml-1995-96-nhl-aces-playing-cards-12h",
-          "base_number": "12H",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "",
-          "image_back": "",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": true
-        },
-        {
-          "id": "ml-1995-96-nhl-aces-playing-cards-qh",
-          "base_number": "Q♥",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/1995-96-Bicycle-NHL-Hockey-Aces-Q♥-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/1995-96-Bicycle-NHL-Hockey-Aces-Q♥-Mario-LemieuxBk.jpg",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": true
-        }
-      ]
-    },
     "1995-96-parkhurst-international": {
       "set_key": "1995-96-parkhurst-international",
       "set_name": "Parkhurst International",
@@ -5915,30 +5830,6 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
-        }
-      ]
-    },
-    "1996-semic-collections-wien-96": {
-      "set_key": "1996-semic-collections-wien-96",
-      "set_name": "Semic Collections Wien 96",
-      "set_year_label": "1996",
-      "set_year_start": 1996,
-      "set_year_end": 1996,
-      "set_display_name": "1996 Semic Collections Wien 96",
-      "set_tcdb_href": "",
-      "cards": [
-        {
-          "id": "ml-1996-semic-collections-wien-96-85",
-          "base_number": "85",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/1996-Semic-Collections-Wien-96-85-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/1996-Semic-Collections-Wien-96-85-Mario-LemieuxBk.jpg",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": true,
-          "excludeFromBinder": true
         }
       ]
     },

@@ -2666,20 +2666,6 @@
           "set_tcdb_href": "",
           "cards": [
             {
-              "base_number": "19",
-              "id": "ml-2002-03-bap-memorabilia-he-shoots-he-scores-19",
-              "image_back": "",
-              "image_front": "",
-              "inCollection": true,
-              "orientation_back": "portrait",
-              "orientation_front": "portrait",
-              "position": "Center",
-              "price": 1.36,
-              "tcdb_href": "",
-              "team": "Pittsburgh Penguins",
-              "variant_note": "3 pts."
-            },
-            {
               "id": "ml-2002-03-bap-memorabilia-he-shoots-he-scores-nno",
               "base_number": "NNO",
               "orientation_front": "portrait",
@@ -2689,27 +2675,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
-            }
-          ]
-        },
-        {
-          "set_key": "2002-03-bap-memorabilia-all-star-emblems",
-          "set_name": "All-Star Emblems",
-          "set_display_name": "2002-03 BAP Memorabilia - All-Star Emblems",
-          "set_tcdb_href": "",
-          "cards": [
-            {
-              "id": "ml-2002-03-bap-memorabilia-all-star-emblems-12",
-              "base_number": "12",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia---All-Star-Emblems-12-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia---All-Star-Emblems-12-Mario-LemieuxBk.jpg",
-              "tcdb_href": "",
-              "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         }
@@ -3656,8 +3622,8 @@
         {
           "id": "ml-2003-04-pacific-atomic-mcdonalds-41",
           "base_number": "41",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
           "image_front": "img/cards/ML66/2003-04-Pacific-Atomic-McDonald's-41-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/2003-04-Pacific-Atomic-McDonald's-41-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
@@ -3676,8 +3642,8 @@
             {
               "id": "ml-2003-04-pacific-atomic-mcdonalds-etched-in-time-5",
               "base_number": "5",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2003-04-Pacific-Atomic-McDonald's---Etched-in-Time-5-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2003-04-Pacific-Atomic-McDonald's---Etched-in-Time-5-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -4413,8 +4379,8 @@
         {
           "id": "ml-2005-06-parkhurst-590",
           "base_number": "590",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
           "image_front": "img/cards/ML66/2005-06-Parkhurst-590-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/2005-06-Parkhurst-590-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
@@ -4780,8 +4746,8 @@
         {
           "id": "ml-2005-06-upper-deck-power-play-71",
           "base_number": "71",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
           "image_front": "img/cards/ML66/2005-06-Upper-Deck-Power-Play-71-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/2005-06-Upper-Deck-Power-Play-71-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
@@ -4792,8 +4758,8 @@
         {
           "id": "ml-2005-06-upper-deck-power-play-100",
           "base_number": "100",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
           "image_front": "img/cards/ML66/2005-06-Upper-Deck-Power-Play-100-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/2005-06-Upper-Deck-Power-Play-100-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
@@ -5055,8 +5021,8 @@
         {
           "id": "ml-2007-08-spx-100",
           "base_number": "100",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
           "image_front": "img/cards/ML66/2007-08-SPx-100-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/2007-08-SPx-100-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
@@ -5919,8 +5885,8 @@
             {
               "id": "ml-2017-18-upper-deck-synergy-impact-players-ip37",
               "base_number": "IP-37",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2017-18-Upper-Deck-Synergy---Impact-Players-IP-37-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2017-18-Upper-Deck-Synergy---Impact-Players-IP-37-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -6085,8 +6051,8 @@
             {
               "id": "ml-2022-23-upper-deck-tim-hortons-legends-championship-resume-cr12",
               "base_number": "CR-12",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Championship-Resume-CR-12-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Championship-Resume-CR-12-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -6127,20 +6093,7 @@
       "set_year_end": 2023,
       "set_display_name": "2022-23 Upper Deck Ultimate Collection",
       "set_tcdb_href": "",
-      "cards": [
-        {
-          "id": "ml-2022-23-upper-deck-ultimate-collection-100",
-          "base_number": "100",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/2022-23-Upper-Deck-Ultimate-Collection-100-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/2022-23-Upper-Deck-Ultimate-Collection-100-Mario-LemieuxBk.jpg",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": false
-        }
-      ],
+      "cards": [],
       "subsets": [
         {
           "set_key": "2022-23-upper-deck-ultimate-collection-blue",
@@ -6154,8 +6107,8 @@
               "base_number": "100",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2022-23-Upper-Deck-Ultimate-Collection-100-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2022-23-Upper-Deck-Ultimate-Collection-100-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",

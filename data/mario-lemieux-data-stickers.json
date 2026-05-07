@@ -2,7 +2,7 @@
     "dataset": "mario-lemieux-stickers",
     "version": "0.2.0",
     "player": "Mario Lemieux",
-    "updated_at": "2026-04-30",
+    "updated_at": "2026-05-06",
     "image_folder": "img/cards/ML66/Stickers",
     "sets": {
         "1985-86-opc-stickers": {
@@ -775,6 +775,30 @@
                 }
             ]
         },
+        "1994-95-pog-canada-games-nhl": {
+            "set_key": "1994-95-pog-canada-games-nhl",
+            "set_name": "POG Canada Games NHL",
+            "set_year_label": "1994-95",
+            "set_year_start": 1994,
+            "set_year_end": 1995,
+            "set_display_name": "1994-95 POG Canada Games NHL",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1994-95-pog-canada-games-nhl-185",
+                    "base_number": "185",
+                    "orientation_front": "square",
+                    "orientation_back": "square",
+                    "image_front": "img/cards/ML66/Stickers/1994-95-POG-Canada-Games-NHL-185-Mario-LemieuxFr.png",
+                    "image_back": "img/cards/ML66/Stickers/1994-95-POG-Canada-Games-NHL-185-Mario-LemieuxBk.png",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": true
+                }
+            ]
+        },
         "1995-panini-world-championship-stickers": {
             "set_key": "1995-panini-world-championship-stickers",
             "set_name": "Panini Hockey '95 World Championship Stickers",
@@ -869,6 +893,54 @@
                     "position": "Center",
                     "card_type": "sticker",
                     "inCollection": false
+                }
+            ]
+        },
+        "1995-96-nhl-aces-playing-cards": {
+            "set_key": "1995-96-nhl-aces-playing-cards",
+            "set_name": "NHL Aces Playing Cards",
+            "set_year_label": "1995-96",
+            "set_year_start": 1995,
+            "set_year_end": 1996,
+            "set_display_name": "1995-96 NHL Aces Playing Cards",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1995-96-nhl-aces-playing-cards-qh",
+                    "base_number": "Q\u2665",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1995-96-Bicycle-NHL-Hockey-Aces-Q\u2665-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1995-96-Bicycle-NHL-Hockey-Aces-Q\u2665-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": true
+                }
+            ]
+        },
+        "1996-semic-collections-wien-96": {
+            "set_key": "1996-semic-collections-wien-96",
+            "set_name": "Semic Collections Wien 96",
+            "set_year_label": "1996",
+            "set_year_start": 1996,
+            "set_year_end": 1996,
+            "set_display_name": "1996 Semic Collections Wien 96",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1996-semic-collections-wien-96-85",
+                    "base_number": "85",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1996-Semic-Collections-Wien-96-85-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1996-Semic-Collections-Wien-96-85-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": true
                 }
             ]
         }
