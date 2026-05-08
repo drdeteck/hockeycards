@@ -261,6 +261,30 @@
           "position": "Center",
           "inCollection": false
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2000-01-sp-game-used-tools-of-the-game",
+          "set_name": "Tools of the Game",
+          "set_display_name": "2000-01 SP Game Used - Tools of the Game",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-sp-game-used-tools-of-the-game-ml",
+              "base_number": "ML",
+              "card_type": "memorabilia",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "excludeFromBinder": true,
+              "image_front": "img/cards/ML66/2000-01-SP-Game-Used---Tools-of-the-Game-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-SP-Game-Used---Tools-of-the-Game-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        }
       ]
     },
     "2000-01-topps": {
@@ -1035,6 +1059,30 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2001-02-fleer-legacy-tailor-made-jerseys",
+          "set_name": "Tailor Made Jerseys",
+          "set_display_name": "2001-02 Fleer Legacy - Tailor Made Jerseys",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-fleer-legacy-tailor-made-jerseys-nno",
+              "base_number": "NNO",
+              "card_type": "memorabilia",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "excludeFromBinder": true,
+              "image_front": "img/cards/ML66/2001-02-Fleer-Legacy---Tailor-Made-Jerseys-NNO-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Fleer-Legacy---Tailor-Made-Jerseys-NNO-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
         }
       ]
     },
@@ -4953,6 +5001,40 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ]
+    },
+    "2006-07-upper-deck": {
+      "set_key": "2006-07-upper-deck",
+      "set_name": "Upper Deck",
+      "set_year_label": "2006-07",
+      "set_year_start": 2006,
+      "set_year_end": 2007,
+      "set_display_name": "2006-07 Upper Deck",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2006-07-upper-deck-ud-game-jerseys",
+          "set_name": "UD Game Jerseys",
+          "set_display_name": "2006-07 Upper Deck - UD Game Jerseys",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2006-07-upper-deck-ud-game-jerseys-j-lx",
+              "base_number": "J-LX",
+              "card_type": "memorabilia",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "excludeFromBinder": true,
+              "image_front": "img/cards/ML66/2006-07-Upper-Deck---UD-Game-Jerseys-J-LX-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2006-07-Upper-Deck---UD-Game-Jerseys-J-LX-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
         }
       ]
     },
