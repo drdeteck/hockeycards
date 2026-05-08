@@ -2890,6 +2890,28 @@
       ],
       "subsets": [
         {
+          "set_key": "2002-03-pacific-heads-up-blue",
+          "set_name": "Blue",
+          "set_display_name": "2002-03 Pacific Heads Up - Blue",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-heads-up-blue-100",
+              "base_number": "100",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Pacific-Heads-Up---Blue-100-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Pacific-Heads-Up---Blue-100-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "150/240",
+              "inCollection": true,
+              "price": 6.50
+            }
+          ]
+        },
+        {
           "set_key": "2002-03-pacific-heads-up-inside-the-numbers",
           "set_name": "Inside the Numbers",
           "set_display_name": "2002-03 Pacific Heads Up - Inside the Numbers",
@@ -3884,6 +3906,30 @@
           "position": "Center",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2003-04-spx-xcitement",
+          "set_name": "SPxCitement",
+          "set_display_name": "2003-04 SPx - SPxCitement",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-spx-xcitement-144",
+              "base_number": "144",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2003-04-SPx-144-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-SPx-144-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "028/750",
+              "inCollection": true,
+              "price": 6.44
+            }
+          ]
+        }
       ]
     },
     "2003-04-topps": {
@@ -3905,6 +3951,30 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center"
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2003-04-topps-blue-line",
+          "set_name": "Blue Line",
+          "set_display_name": "2003-04 Topps - Blue Line",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-topps-blue-line-100",
+              "base_number": "100",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Topps---Blue-Line-100-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Topps---Blue-Line-100-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "293/500",
+              "inCollection": true,
+              "price": 6.44
+            }
+          ]
         }
       ]
     },
