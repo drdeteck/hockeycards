@@ -6045,7 +6045,9 @@
               "image_back": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-3-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 6.44
             },
             {
               "id": "ml-1996-97-donruss-canadian-ice-scrapbook-4",
@@ -6067,7 +6069,9 @@
               "image_back": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-5-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 6.44
             },
             {
               "id": "ml-1996-97-donruss-canadian-ice-scrapbook-6",
@@ -7711,7 +7715,9 @@
               "image_back": "img/cards/ML66/1999-00-Topps---Stanley-Cup-Heroes-SC1-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 6.44
             }
           ]
         }
