@@ -71,6 +71,250 @@
           "position": "Center",
           "inCollection": false
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2000-01-be-a-player-signature-series-mario-lemieux-retrospective",
+          "set_name": "Mario Lemieux Retrospective",
+          "set_display_name": "2000-01 Be a Player Signature Series - Mario Lemieux Retrospective",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-bap-signature-series-retrospective-r01",
+              "base_number": "R-01",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-01-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-01-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            },
+            {
+              "id": "ml-2000-01-bap-signature-series-retrospective-r02",
+              "base_number": "R-02",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-02-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-02-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center"
+            },
+            {
+              "id": "ml-2000-01-bap-signature-series-retrospective-r03",
+              "base_number": "R-03",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-03-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-03-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            },
+            {
+              "id": "ml-2000-01-bap-signature-series-retrospective-r04",
+              "base_number": "R-04",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-04-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-04-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center"
+            },
+            {
+              "id": "ml-2000-01-bap-signature-series-retrospective-r05",
+              "base_number": "R-05",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-05-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-05-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center"
+            },
+            {
+              "id": "ml-2000-01-bap-signature-series-retrospective-r06",
+              "base_number": "R-06",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-06-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-06-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            },
+            {
+              "id": "ml-2000-01-bap-signature-series-retrospective-r07",
+              "base_number": "R-07",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-07-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-07-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            },
+            {
+              "id": "ml-2000-01-bap-signature-series-retrospective-r08",
+              "base_number": "R-08",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-08-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-08-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            },
+            {
+              "id": "ml-2000-01-bap-signature-series-retrospective-r09",
+              "base_number": "R-09",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-09-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-09-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            },
+            {
+              "id": "ml-2000-01-bap-signature-series-retrospective-r10",
+              "base_number": "R-10",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-10-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-10-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            },
+            {
+              "id": "ml-2000-01-bap-signature-series-retrospective-r11",
+              "base_number": "R-11",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-11-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-11-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center"
+            },
+            {
+              "id": "ml-2000-01-bap-signature-series-retrospective-r12",
+              "base_number": "R-12",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-12-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-12-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center"
+            },
+            {
+              "id": "ml-2000-01-bap-signature-series-retrospective-r13",
+              "base_number": "R-13",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-13-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-13-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            },
+            {
+              "id": "ml-2000-01-bap-signature-series-retrospective-r14",
+              "base_number": "R-14",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-14-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-14-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            },
+            {
+              "id": "ml-2000-01-bap-signature-series-retrospective-r15",
+              "base_number": "R-15",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-15-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-15-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center"
+            },
+            {
+              "id": "ml-2000-01-bap-signature-series-retrospective-r16",
+              "base_number": "R-16",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-16-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-16-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            },
+            {
+              "id": "ml-2000-01-bap-signature-series-retrospective-r17",
+              "base_number": "R-17",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-17-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-17-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            },
+            {
+              "id": "ml-2000-01-bap-signature-series-retrospective-r18",
+              "base_number": "R-18",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-18-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-18-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            },
+            {
+              "id": "ml-2000-01-bap-signature-series-retrospective-r19",
+              "base_number": "R-19",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-19-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-19-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            },
+            {
+              "id": "ml-2000-01-bap-signature-series-retrospective-r20",
+              "base_number": "R-20",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-20-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-20-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        }
       ]
     },
     "2000-01-pacific-crown-royale": {
