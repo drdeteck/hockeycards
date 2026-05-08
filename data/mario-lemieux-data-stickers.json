@@ -270,7 +270,7 @@
                     "position": "Center",
                     "variant_note": "with Dale Hunter",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 },
                 {
                     "id": "ml-sticker-1988-89-opc-stickers-81-210",
@@ -312,7 +312,7 @@
                     "position": "Center",
                     "variant_note": "with James Patrick",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 },
                 {
                     "id": "ml-sticker-1988-89-opc-stickers-232",
@@ -325,7 +325,7 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 }
             ]
         },
@@ -349,7 +349,7 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 },
                 {
                     "id": "ml-sticker-1988-89-panini-stickers-400",
@@ -362,7 +362,7 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 },
                 {
                     "id": "ml-sticker-1988-89-panini-stickers-401",
