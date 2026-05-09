@@ -111,7 +111,7 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 }
             ]
         },
@@ -245,7 +245,7 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 }
             ]
         },
@@ -399,7 +399,7 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 }
             ]
         },
