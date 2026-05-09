@@ -203,7 +203,8 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4867/cid/1175476/1988-89-Topps-1-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "price": 8.09
+          "inCollection": true,
+          "price": 9.80
         }
       ]
     },
@@ -2444,6 +2445,19 @@
           "set_tcdb_href": "",
           "cards": [
             {
+              "id": "ml-1993-94-leaf-hat-trick-artists-1",
+              "base_number": "1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1993-94-Leaf---Hat-Trick-Artists-1-Title-Card-featuring-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1993-94-Leaf---Hat-Trick-Artists-1-Title-Card-featuring-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "Title Card",
+              "inCollection": true
+            },
+            {
               "id": "ml-1993-94-leaf-hat-trick-artists-4",
               "base_number": "4",
               "orientation_front": "portrait",
@@ -3313,7 +3327,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "price": 9.01
+              "inCollection": true,
+              "price": 7.37
             }
           ]
         },
@@ -3333,7 +3348,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "price": 15.09
+              "inCollection": true,
+              "price": 5.15
             }
           ]
         },
