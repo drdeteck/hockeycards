@@ -7475,6 +7475,48 @@
           "position": "Center",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "1996-97-topps-nhl-picks-fantasy-team",
+          "set_name": "Fantasy Team",
+          "set_display_name": "Fantasy Team",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-topps-nhl-picks-fantasy-team-ft15",
+              "base_number": "FT15",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Topps-NHL-Picks---Fantasy-Team-FT15-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Topps-NHL-Picks---Fantasy-Team-FT15-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "1996-97-topps-nhl-picks-o-pee-chee",
+          "set_name": "O-Pee-Chee",
+          "set_display_name": "O-Pee-Chee",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-topps-nhl-picks-o-pee-chee-3",
+              "base_number": "3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Topps-NHL-Picks---O-Pee-Chee-3-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Topps-NHL-Picks---O-Pee-Chee-3-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
       ]
     },
     "1996-97-ultra": {
