@@ -6110,7 +6110,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
+              "inCollection": true,
               "price": 5.0
             },
             {
@@ -6857,8 +6857,8 @@
               "base_number": "86",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/1996-97-Pinnacle---Foil-86-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/1996-97-Pinnacle---Foil-86-Mario-LemieuxBk.jpg",
+              "image_front": "img/cards/ML66/1996-97-Pinnacle---Rink-Collection-86-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Pinnacle---Rink-Collection-86-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
