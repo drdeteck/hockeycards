@@ -2442,7 +2442,8 @@
           "image_back": "img/cards/ML66/2001-02-Upper-Deck-Challenge-for-the-Cup-68-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true
         }
       ]
     },
@@ -5644,6 +5645,38 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ]
+    },
+    "2011-12-panini-pinnacle": {
+      "set_key": "2011-12-panini-pinnacle",
+      "set_name": "Panini Pinnacle",
+      "set_year_label": "2011-12",
+      "set_year_start": 2011,
+      "set_year_end": 2012,
+      "set_display_name": "2011-12 Panini Pinnacle",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2011-12-panini-pinnacle-all-star-game",
+          "set_name": "All-Star Game",
+          "set_display_name": "All-Star Game",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2011-12-panini-pinnacle-all-star-game-ml",
+              "base_number": "ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2011-12-Panini-Pinnacle---All-Star-Game-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2011-12-Panini-Pinnacle---All-Star-Game-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
         }
       ]
     },
