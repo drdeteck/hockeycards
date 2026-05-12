@@ -4497,7 +4497,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         }
@@ -5757,6 +5757,26 @@
           ]
         },
         {
+          "set_key": "1995-96-upper-deck-predictors-hobby",
+          "set_name": "Predictors Hobby",
+          "set_display_name": "Predictors Hobby",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1995-96-upper-deck-predictors-hobby-h4",
+              "base_number": "H4",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Upper-Deck---Predictors-Hobby-H4-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Upper-Deck---Predictors-Hobby-H4-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
           "set_key": "1995-96-upper-deck-predictors-hobby-exchange",
           "set_name": "Predictors Hobby Exchange",
           "set_display_name": "1995-96 Upper Deck - Predictors Hobby Exchange",
@@ -5780,7 +5800,20 @@
           "set_key": "1995-96-upper-deck-predictors-retail",
           "set_name": "Predictors Retail",
           "set_display_name": "Predictors Retail",
+          "set_tcdb_href": "",
           "cards": [
+            {
+              "id": "ml-1995-96-upper-deck-predictors-retail-r32",
+              "base_number": "R32",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Upper-Deck---Predictors-Retail-R32-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Upper-Deck---Predictors-Retail-R32-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
             {
               "id": "ml-1995-96-upper-deck-predictors-retail-R42",
               "base_number": "R42",
@@ -5792,6 +5825,18 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            },
+            {
+              "id": "ml-1995-96-upper-deck-predictors-retail-r53",
+              "base_number": "R53",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Upper-Deck---Predictors-Retail-R53-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Upper-Deck---Predictors-Retail-R53-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }

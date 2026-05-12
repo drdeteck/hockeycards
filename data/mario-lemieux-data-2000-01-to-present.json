@@ -3043,6 +3043,28 @@
           "inCollection": true,
           "price": 1.36
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-pacific-impact-zone",
+          "set_name": "Impact Zone",
+          "set_display_name": "Impact Zone",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-impact-zone-9",
+              "base_number": "9",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Pacific---Impact-Zone-9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Pacific---Impact-Zone-9-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
       ]
     },
     "2002-03-pacific-atomic": {
