@@ -5124,6 +5124,38 @@
               "inCollection": true
             }
           ]
+        },
+        {
+          "set_key": "1995-96-parkhurst-international-parkie-picks",
+          "set_name": "Parkie Picks",
+          "set_display_name": "1995-96 Parkhurst International - Parkie Picks",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1995-96-parkhurst-international-parkie-picks-pp2",
+              "base_number": "PP-2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Parkhurst-International---Parkie-Picks-PP-2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Parkhurst-International---Parkie-Picks-PP-2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-1995-96-parkhurst-international-parkie-picks-pp11",
+              "base_number": "PP-11",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Parkhurst-International---Parkie-Picks-PP-11-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Parkhurst-International---Parkie-Picks-PP-11-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },

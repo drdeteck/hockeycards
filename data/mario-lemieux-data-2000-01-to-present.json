@@ -6426,6 +6426,48 @@
           "position": "Center",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2021-22-upper-deck-tim-hortons-team-canada-canadas-captains",
+          "set_name": "Canada's Captains",
+          "set_display_name": "2021-22 Upper Deck Tim Hortons Team Canada - Canada's Captains",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2021-22-upper-deck-tim-hortons-team-canada-canadas-captains-cc9",
+              "base_number": "CC-9",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2021-22-Upper-Deck-Tim-Hortons-Team-Canada---Canadas-Capitains-CC-9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2021-22-Upper-Deck-Tim-Hortons-Team-Canada---Canadas-Capitains-CC-9-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Team Canada",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2021-22-upper-deck-tim-hortons-team-canada-ud-canvas-moments",
+          "set_name": "UD Canvas Moments",
+          "set_display_name": "2021-22 Upper Deck Tim Hortons Team Canada - UD Canvas Moments",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2021-22-upper-deck-tim-hortons-team-canada-ud-canvas-moments-cm12",
+              "base_number": "CM-12",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2021-22-Upper-Deck-Tim-Hortons-Team-Canada---UD-Canvas-Moments-CM-12-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2021-22-Upper-Deck-Tim-Hortons-Team-Canada---UD-Canvas-Moments-CM-12-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Team Canada",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
       ]
     },
     "2021-upper-deck-national-hockey-card-day-canada": {
@@ -6591,6 +6633,38 @@
           "position": "Center",
           "variant_note": "w/ Paul Coffey",
           "inCollection": true
+        }
+      ]
+    },
+    "2024-25-upper-deck-synergy": {
+      "set_key": "2024-25-upper-deck-synergy",
+      "set_name": "Upper Deck Synergy",
+      "set_year_label": "2024-25",
+      "set_year_start": 2024,
+      "set_year_end": 2025,
+      "set_display_name": "2024-25 Upper Deck Synergy",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2024-25-upper-deck-synergy-nhl-monuments",
+          "set_name": "NHL Monuments",
+          "set_display_name": "2024-25 Upper Deck Synergy - NHL Monuments",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2024-25-upper-deck-synergy-nhl-monuments-m12",
+              "base_number": "M-12",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2024-25-Upper-Deck-Synergy---NHL-Monuments-M-12-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2024-25-Upper-Deck-Synergy---NHL-Monuments-M-12-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
