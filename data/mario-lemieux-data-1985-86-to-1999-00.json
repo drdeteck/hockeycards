@@ -7514,6 +7514,28 @@
           "position": "Center",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "1996-97-skybox-impact-countdown-to-impact",
+          "set_name": "Countdown to Impact",
+          "set_display_name": "1996-97 SkyBox Impact - Countdown to Impact",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-skybox-impact-countdown-to-impact-7",
+              "base_number": "7",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-SkyBox-Impact---Countdown-to-Impact-7-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-SkyBox-Impact---Countdown-to-Impact-7-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
       ]
     },
     "1996-97-stadium-club-members-only-50": {
@@ -7637,6 +7659,48 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "1996-97-ultra-gold-medallion",
+          "set_name": "Gold Medallion",
+          "set_display_name": "1996-97 Ultra - Gold Medallion",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-ultra-gold-medallion-g143",
+              "base_number": "G-143",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Ultra---Gold-Medallion-G-143-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Ultra---Gold-Medallion-G-143-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "1996-97-ultra-ultra-power",
+          "set_name": "Ultra Power",
+          "set_display_name": "1996-97 Ultra - Ultra Power",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-ultra-ultra-power-11",
+              "base_number": "11",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Ultra---Ultra-Power-11-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Ultra---Ultra-Power-11-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -7899,6 +7963,28 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "1999-00-ud-century-legends-all-century-team",
+          "set_name": "All Century Team",
+          "set_display_name": "1999-00 UD Century Legends - All Century Team",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1999-00-ud-century-legends-all-century-team-ac7",
+              "base_number": "AC-7",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1999-00-Upper-Deck-Century-Legends---All-Century-Team-AC7-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1999-00-Upper-Deck-Century-Legends---All-Century-Team-AC7-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
