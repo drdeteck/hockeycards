@@ -2681,7 +2681,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 13.69
             }
           ]
         }
@@ -2784,6 +2785,27 @@
               "position": "Center",
               "inCollection": true,
               "price": 10.05
+            }
+          ]
+        },
+        {
+          "set_key": "1993-94-score-dynamic-duos",
+          "set_name": "Dynamic Duos",
+          "set_display_name": "1993-94 Score - Dynamic Duos",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1993-94-score-dynamic-duos-DD8",
+              "base_number": "DD8",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/1993-94-Score-Canadian---Dynamic-Duos-DD+8-Mario-Lemieux--Kevin-StevensFr.jpg",
+              "image_back": "img/cards/ML66/1993-94-Score-Canadian---Dynamic-Duos-DD+8-Mario-Lemieux--Kevin-StevensBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "w/ Kevin Stevens",
+              "inCollection": true
             }
           ]
         },
@@ -3144,7 +3166,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true,
+              "inCollection": false,
               "price": 2.99
             }
           ]
@@ -3623,6 +3645,27 @@
               "position": "Center",
               "inCollection": true,
               "price": 5.0
+            }
+          ]
+        },
+        {
+          "set_key": "1994-95-leaf-gold-leaf-stars",
+          "set_name": "Gold Leaf Stars",
+          "set_display_name": "1994-95 Leaf - Gold Leaf Stars",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1994-95-leaf-gold-leaf-stars-11",
+              "base_number": "11",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1994-95-Leaf---Gold-Leaf-Stars-11-Eric-Lindros--Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1994-95-Leaf---Gold-Leaf-Stars-11-Eric-Lindros--Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "w/ Eric Lindros",
+              "inCollection": true
             }
           ]
         },
@@ -4597,7 +4640,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 11
             }
           ]
         },
@@ -4674,7 +4718,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 27.40
             }
           ]
         },
@@ -5535,6 +5580,38 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "1995-96-stadium-club-members-only": {
+      "set_key": "1995-96-stadium-club-members-only",
+      "set_name": "Stadium Club Members Only",
+      "set_year_label": "1995-96",
+      "set_year_start": 1995,
+      "set_year_end": 1996,
+      "set_display_name": "1995-96 Stadium Club Members Only",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "1995-96-stadium-club-members-only-metalists",
+          "set_name": "Metalists",
+          "set_display_name": "1995-96 Stadium Club Members Only - Metalists",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1995-96-stadium-club-members-only-metalists-M2",
+              "base_number": "M2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Stadium-Club---Metalists-Members-Only-M2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Stadium-Club---Metalists-Members-Only-M2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
             }
           ]
         }
@@ -7096,7 +7173,9 @@
               "image_back": "img/cards/ML66/1996-97-Pinnacle-Mint-Collection-1-Mario-LemieuxBk.png",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 4.79
             }
           ]
         },
@@ -7157,7 +7236,9 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "variant_note": "Gold"
+              "variant_note": "Gold",
+              "inCollection": true,
+              "price": 9.58
             }
           ]
         },
