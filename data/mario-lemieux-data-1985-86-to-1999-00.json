@@ -2797,8 +2797,8 @@
             {
               "id": "ml-1993-94-score-dynamic-duos-DD8",
               "base_number": "DD8",
-              "orientation_front": "landscape",
-              "orientation_back": "landscape",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
               "image_front": "img/cards/ML66/1993-94-Score-Canadian---Dynamic-Duos-DD+8-Mario-Lemieux--Kevin-StevensFr.jpg",
               "image_back": "img/cards/ML66/1993-94-Score-Canadian---Dynamic-Duos-DD+8-Mario-Lemieux--Kevin-StevensBk.jpg",
               "tcdb_href": "",
@@ -3662,6 +3662,7 @@
               "image_front": "img/cards/ML66/1994-95-Leaf---Gold-Leaf-Stars-11-Eric-Lindros--Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/1994-95-Leaf---Gold-Leaf-Stars-11-Eric-Lindros--Mario-LemieuxBk.jpg",
               "tcdb_href": "",
+              "default_face": "back",
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "variant_note": "w/ Eric Lindros",
@@ -5593,7 +5594,20 @@
       "set_year_end": 1996,
       "set_display_name": "1995-96 Stadium Club Members Only",
       "set_tcdb_href": "",
-      "cards": [],
+      "cards": [
+        {
+          "id": "ml-1995-96-stadium-club-members-only-EC180",
+          "base_number": "EC180",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1995-96-Stadium-Club---Members-Only-EC180-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1995-96-Stadium-Club---Members-Only-EC180-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
       "subsets": [
         {
           "set_key": "1995-96-stadium-club-members-only-metalists",
@@ -7779,7 +7793,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 27.40
             }
           ]
         }
