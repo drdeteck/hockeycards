@@ -6175,6 +6175,39 @@
         }
       ]
     },
+    "2014-15-upper-deck": {
+      "set_key": "2014-15-upper-deck",
+      "set_name": "Upper Deck",
+      "set_year_label": "2014-15",
+      "set_year_start": 2014,
+      "set_year_end": 2015,
+      "set_display_name": "2014-15 Upper Deck",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2014-15-upper-deck-shining-stars",
+          "set_name": "Shining Stars",
+          "set_display_name": "2014-15 Upper Deck - Shining Stars",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2014-15-upper-deck-shining-stars-SS50",
+              "base_number": "SS-50",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2014-15-Upper-Deck---Shining-Stars-SS-50-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2014-15-Upper-Deck---Shining-Stars-SS-50-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 2.00
+            }
+          ]
+        }
+      ]
+    },
     "2015-16-upper-deck": {
       "set_key": "2015-16-upper-deck",
       "set_name": "Upper Deck",
@@ -6403,6 +6436,30 @@
               "inCollection": true
             }
           ]
+        }
+      ]
+    },
+    "2021-22-upper-deck-stature": {
+      "set_key": "2021-22-upper-deck-stature",
+      "set_name": "Upper Deck Stature",
+      "set_year_label": "2021-22",
+      "set_year_start": 2021,
+      "set_year_end": 2022,
+      "set_display_name": "2021-22 Upper Deck Stature",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2021-22-upper-deck-stature-71",
+          "base_number": "71",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2021-22-Upper-Deck-Stature-71-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2021-22-Upper-Deck-Stature-71-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 2.00
         }
       ]
     },
