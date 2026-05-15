@@ -6013,6 +6013,38 @@
         }
       ]
     },
+    "2013-14-spx": {
+      "set_key": "2013-14-spx",
+      "set_name": "SPx",
+      "set_year_label": "2013-14",
+      "set_year_start": 2013,
+      "set_year_end": 2014,
+      "set_display_name": "2013-14 SPx",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2013-14-spx-spx-retro",
+          "set_name": "SPx Retro",
+          "set_display_name": "2013-14 SPx - SPx Retro",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2013-14-spx-spx-retro-18",
+              "base_number": "18",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2013-14-SPx---SPx-Retro-18-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2013-14-SPx---SPx-Retro-18-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2013-14-upper-deck": {
       "set_key": "2013-14-upper-deck",
       "set_name": "Upper Deck",

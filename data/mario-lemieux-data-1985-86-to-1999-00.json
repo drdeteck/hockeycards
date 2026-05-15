@@ -2910,6 +2910,27 @@
               "price": 10.09
             }
           ]
+        },
+        {
+          "set_key": "1993-94-stadium-club-all-stars",
+          "set_name": "All Stars",
+          "set_display_name": "1993-94 Stadium Club - All Stars",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1993-94-stadium-club-all-stars-NNO",
+              "base_number": "NNO",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/1993-94-Stadium-Club---All-Stars-NNO-Mario-Lemieux--Wayne-GretzkyFr.jpg",
+              "image_back": "img/cards/ML66/1993-94-Stadium-Club---All-Stars-NNO-Mario-Lemieux--Wayne-GretzkyBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "w/ Wayne Gretzky",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -4726,6 +4747,46 @@
           ]
         },
         {
+          "set_key": "1995-96-donruss-elite-die-cuts-uncut",
+          "set_name": "Die Cuts Uncut",
+          "set_display_name": "1995-96 Donruss Elite - Die Cuts Uncut",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1995-96-donruss-elite-die-cuts-uncut-66",
+              "base_number": "66",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Donruss-Elite---Die-Cuts-Uncut-66-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Donruss-Elite---Die-Cuts-Uncut-66-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "1995-96-donruss-elite-cool-trade",
+          "set_name": "Cool Trade",
+          "set_display_name": "1995-96 Donruss Elite - Cool Trade",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1995-96-donruss-elite-cool-trade-4",
+              "base_number": "4",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/1995-96-Donruss-Elite---Cool-Trade-4-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Donruss-Elite---Cool-Trade-4-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
           "set_key": "1995-96-donruss-elite-cool-trade-limited-edition",
           "set_name": "Cool Trade Limited Edition",
           "set_display_name": "1995-96 Donruss Elite - Cool Trade Limited Edition",
@@ -5060,6 +5121,26 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "1995-96-leaf-freeze-frame",
+          "set_name": "Freeze Frame",
+          "set_display_name": "1995-96 Leaf - Freeze Frame",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1995-96-leaf-freeze-frame-7",
+              "base_number": "7",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Leaf---Freeze-Frame-7-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Leaf---Freeze-Frame-7-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
