@@ -2920,8 +2920,8 @@
             {
               "id": "ml-1993-94-stadium-club-all-stars-NNO",
               "base_number": "NNO",
-              "orientation_front": "landscape",
-              "orientation_back": "landscape",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
               "image_front": "img/cards/ML66/1993-94-Stadium-Club---All-Stars-NNO-Mario-Lemieux--Wayne-GretzkyFr.jpg",
               "image_back": "img/cards/ML66/1993-94-Stadium-Club---All-Stars-NNO-Mario-Lemieux--Wayne-GretzkyBk.jpg",
               "tcdb_href": "",
@@ -4782,7 +4782,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         },
@@ -4802,7 +4802,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true
+              "inCollection": false
             }
           ]
         },
