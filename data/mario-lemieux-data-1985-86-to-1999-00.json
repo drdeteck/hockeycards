@@ -6750,12 +6750,12 @@
           "set_tcdb_href": "",
           "cards": [
             {
-              "id": "ml-1996-97-donruss-elite-perspective-die-cut-109",
-              "base_number": "109",
+              "id": "ml-1996-97-donruss-elite-perspective-die-cut-4",
+              "base_number": "4",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/1996-97-Donruss-Elite---Perspective-4-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Donruss-Elite---Perspective-4-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -7989,7 +7989,8 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "variant_note": "Silver",
-              "inCollection": true
+              "inCollection": true,
+              "price": 33.55
             }
           ]
         },
