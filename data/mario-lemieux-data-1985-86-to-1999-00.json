@@ -6743,6 +6743,28 @@
           ]
         },
         {
+          "set_key": "1996-97-donruss-elite-perspective-die-cut",
+          "set_name": "Perspective Die Cut",
+          "set_display_name": "1996-97 Donruss Elite - Perspective Die Cut",
+          "set_type": "parallel",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-donruss-elite-perspective-die-cut-109",
+              "base_number": "109",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "price": 36.77,
+              "inCollection": true
+            }
+          ]
+        },
+        {
           "set_key": "1996-97-donruss-elite-die-cut",
           "set_name": "Die Cut",
           "set_display_name": "1996-97 Donruss Elite - Die Cut",
