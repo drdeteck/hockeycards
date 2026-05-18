@@ -5813,6 +5813,26 @@
               "price": 5.56
             }
           ]
+        },
+        {
+          "set_key": "1995-96-topps-o-pee-chee",
+          "set_name": "O-Pee-Chee",
+          "set_display_name": "1995-96 Topps - O-Pee-Chee",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1995-96-topps-o-pee-chee-100",
+              "base_number": "100",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Topps---O-Pee-Chee-100-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Topps---O-Pee-Chee-100-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
