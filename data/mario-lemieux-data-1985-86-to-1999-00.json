@@ -2662,7 +2662,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "price": 32.01
+              "price": 15,
+              "inCollection": true
             }
           ]
         },
@@ -6287,7 +6288,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 16.66
             }
           ]
         }
@@ -7622,8 +7624,8 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "variant_note": "Gold",
-              "inCollection": true,
-              "price": 10
+              "inCollection": false,
+              "price": 0
             }
           ]
         },
