@@ -1,6 +1,6 @@
 {
     "dataset": "mario-lemieux-gems",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "player": "Mario Lemieux",
     "updated_at": "2026-05-20",
     "image_folder": "img/cards/ML66/Gems",
@@ -70,6 +70,55 @@
                     "orientation_back": "landscape",
                     "image_front": "img/cards/ML66/Gems/2006-07-Upper-Deck---UD-Game-Jerseys-J-LX-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/Gems/2006-07-Upper-Deck---UD-Game-Jerseys-J-LX-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                }
+            ]
+        },
+        "2008-09-spx-winning-combos": {
+            "set_key": "2008-09-spx-winning-combos",
+            "set_name": "SPx - Winning Combos",
+            "set_year_label": "2008-09",
+            "set_year_start": 2008,
+            "set_year_end": 2009,
+            "set_display_name": "2008-09 SPx - Winning Combos",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2008-09-spx-winning-combos-wc-ml",
+                    "base_number": "WC-ML",
+                    "card_type": "memorabilia",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Gems/2008-09-SPx---Winning-Combos-WC-ML-Mark-Messier--Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Gems/2008-09-SPx---Winning-Combos-WC-ML-Mark-Messier--Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "variant_note": "with Mark Messier",
+                    "inCollection": true
+                }
+            ]
+        },
+        "2013-14-spx-winning-materials": {
+            "set_key": "2013-14-spx-winning-materials",
+            "set_name": "SPx - Winning Materials",
+            "set_year_label": "2013-14",
+            "set_year_start": 2013,
+            "set_year_end": 2014,
+            "set_display_name": "2013-14 SPx - Winning Materials",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2013-14-spx-winning-materials-wm-ml",
+                    "base_number": "WM-ML",
+                    "card_type": "memorabilia",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Gems/2013-14-SPx---Winning-Materials-WM-ML-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Gems/2013-14-SPx---Winning-Materials-WM-ML-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
