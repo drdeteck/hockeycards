@@ -1,0 +1,132 @@
+{
+    "dataset": "mario-lemieux-gems",
+    "version": "0.2.0",
+    "player": "Mario Lemieux",
+    "updated_at": "2026-05-20",
+    "image_folder": "img/cards/ML66/Gems",
+    "sets": {
+        "2000-01-sp-game-used-tools-of-the-game": {
+            "set_key": "2000-01-sp-game-used-tools-of-the-game",
+            "set_name": "SP Game Used - Tools of the Game",
+            "set_year_label": "2000-01",
+            "set_year_start": 2000,
+            "set_year_end": 2001,
+            "set_display_name": "2000-01 SP Game Used - Tools of the Game",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2000-01-sp-game-used-tools-of-the-game-ml",
+                    "base_number": "ML",
+                    "card_type": "memorabilia",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Gems/2000-01-SP-Game-Used---Tools-of-the-Game-ML-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Gems/2000-01-SP-Game-Used---Tools-of-the-Game-ML-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                }
+            ]
+        },
+        "2001-02-fleer-legacy-tailor-made-jerseys": {
+            "set_key": "2001-02-fleer-legacy-tailor-made-jerseys",
+            "set_name": "Fleer Legacy - Tailor Made Jerseys",
+            "set_year_label": "2001-02",
+            "set_year_start": 2001,
+            "set_year_end": 2002,
+            "set_display_name": "2001-02 Fleer Legacy - Tailor Made Jerseys",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2001-02-fleer-legacy-tailor-made-jerseys-nno",
+                    "base_number": "NNO",
+                    "card_type": "memorabilia",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
+                    "image_front": "img/cards/ML66/Gems/2001-02-Fleer-Legacy---Tailor-Made-Jerseys-NNO-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Gems/2001-02-Fleer-Legacy---Tailor-Made-Jerseys-NNO-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                }
+            ]
+        },
+        "2006-07-upper-deck-ud-game-jerseys": {
+            "set_key": "2006-07-upper-deck-ud-game-jerseys",
+            "set_name": "Upper Deck - UD Game Jerseys",
+            "set_year_label": "2006-07",
+            "set_year_start": 2006,
+            "set_year_end": 2007,
+            "set_display_name": "2006-07 Upper Deck - UD Game Jerseys",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2006-07-upper-deck-ud-game-jerseys-j-lx",
+                    "base_number": "J-LX",
+                    "card_type": "memorabilia",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
+                    "image_front": "img/cards/ML66/Gems/2006-07-Upper-Deck---UD-Game-Jerseys-J-LX-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Gems/2006-07-Upper-Deck---UD-Game-Jerseys-J-LX-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                }
+            ]
+        },
+        "2015-16-upper-deck-team-canada-master-collection": {
+            "set_key": "2015-16-upper-deck-team-canada-master-collection",
+            "set_name": "Upper Deck Team Canada Master Collection",
+            "set_year_label": "2015-16",
+            "set_year_start": 2015,
+            "set_year_end": 2016,
+            "set_display_name": "2015-16 Upper Deck Team Canada Master Collection",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2015-16-upper-deck-team-canada-master-collection-41",
+                    "base_number": "41",
+                    "card_type": "numbered",
+                    "print_run": 499,
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Gems/2015-16-Upper-Deck-Team-Canada-Master-Collection-41-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Gems/2015-16-Upper-Deck-Team-Canada-Master-Collection-41-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "variant_note": "marked 2014",
+                    "inCollection": true
+                }
+            ]
+        },
+        "2022-23-upper-deck-ultimate-collection-blue": {
+            "set_key": "2022-23-upper-deck-ultimate-collection-blue",
+            "set_name": "Upper Deck Ultimate Collection - Blue",
+            "set_year_label": "2022-23",
+            "set_year_start": 2022,
+            "set_year_end": 2023,
+            "set_display_name": "2022-23 Upper Deck Ultimate Collection - Blue",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2022-23-upper-deck-ultimate-collection-blue-100",
+                    "base_number": "100",
+                    "card_type": "numbered",
+                    "print_run": 99,
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Gems/2022-23-Upper-Deck-Ultimate-Collection-100-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Gems/2022-23-Upper-Deck-Ultimate-Collection-100-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "inCollection": true
+                }
+            ]
+        }
+    }
+}

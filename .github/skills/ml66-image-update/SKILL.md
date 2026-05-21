@@ -24,10 +24,12 @@ Use this skill for repeat updates where new Mario Lemieux card images are added 
 - Derive: year, set/subset name, and card number (`base_number`).
 
 3. Locate target Mario dataset file.
-- Search both files:
+- Search all three regular files:
   - `data/mario-lemieux-data-1985-86-to-1999-00.json`
   - `data/mario-lemieux-data-2000-01-to-present.json`
-- Choose the file matching the card year.
+  - `data/mario-lemieux-data-gems.json` (for rare/numbered, memorabilia, autograph cards — images in `img/cards/ML66/Gems/`)
+- Also check `data/mario-lemieux-data-stickers.json` for sticker cards (images in `img/cards/ML66/Stickers/`).
+- Choose the file whose card type and year match the new image.
 
 4. Find or create the record.
 - If card already exists: update `image_front`, `image_back`, and `inCollection` if requested.

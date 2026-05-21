@@ -161,7 +161,7 @@
             data-bind="visible: !IsCardView() && CurrentRoute() !== 'about' && RouteType() !== 'binder' && ($root.CurrentRoute() === 'home' || $root.CurrentCollection())">
             <!-- bind directly to the 'cards' array on the active collection -->
             <div class="collection" data-bind="with: $root.CurrentCollection">
-                <!-- ko if: set_key === 'ML-all' || set_key === 'ML-stickers-all' -->
+                <!-- ko if: set_key === 'ML-all' || set_key === 'ML-stickers-all' || set_key === 'ML-gems-all' -->
                 <!-- ko foreach: $root.CurrentCollectionYearGroups -->
                 <!-- ko if: $root.HasWishableCards(cards) -->
                 <h2 class="card-grid-header">
@@ -756,6 +756,65 @@
                 <!-- Stickers -->
                 <div class="footer-stat-group" data-bind="with: stickers">
                     <span class="footer-stat-group-label">🏷️ Stickers</span>
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-icon">🖼️</span>
+                        <div class="footer-stat-body">
+                            <div class="footer-stat-top">
+                                <span class="footer-stat-value" data-bind="text: pctWithImages + '%'"></span>
+                                <span class="footer-stat-label">cards with images</span>
+                            </div>
+                            <div class="footer-stat-bar-track">
+                                <div class="footer-stat-bar-fill" data-bind="style: { width: pctWithImages + '%' }">
+                                </div>
+                            </div>
+                            <span class="footer-stat-detail"
+                                data-bind="text: cardsWithImages + ' / ' + totalCards"></span>
+                        </div>
+                    </div>
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-icon">✅</span>
+                        <div class="footer-stat-body">
+                            <div class="footer-stat-top">
+                                <span class="footer-stat-value" data-bind="text: pctInCollection + '%'"></span>
+                                <span class="footer-stat-label">collection owned</span>
+                            </div>
+                            <div class="footer-stat-bar-track">
+                                <div class="footer-stat-bar-fill footer-stat-bar-fill--owned"
+                                    data-bind="style: { width: pctInCollection + '%' }"></div>
+                            </div>
+                            <span class="footer-stat-detail"
+                                data-bind="text: cardsInCollection + ' owned · ' + cardsNotInCollection + ' missing'"></span>
+                        </div>
+                    </div>
+                    <!-- ko if: ownedPrice -->
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-icon">💰</span>
+                        <div class="footer-stat-body">
+                            <div class="footer-stat-top">
+                                <span class="footer-stat-value footer-stat-value--price"
+                                    data-bind="text: ownedPrice"></span>
+                                <span class="footer-stat-label">owned value</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /ko -->
+                    <!-- ko if: unownedPrice -->
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-icon">🏷️</span>
+                        <div class="footer-stat-body">
+                            <div class="footer-stat-top">
+                                <span class="footer-stat-value footer-stat-value--unowned"
+                                    data-bind="text: unownedPrice"></span>
+                                <span class="footer-stat-label">unowned value</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /ko -->
+                </div>
+
+                <!-- Gems -->
+                <div class="footer-stat-group" data-bind="with: gems">
+                    <span class="footer-stat-group-label">💎 Gems</span>
                     <div class="footer-stat-item">
                         <span class="footer-stat-icon">🖼️</span>
                         <div class="footer-stat-body">

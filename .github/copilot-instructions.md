@@ -29,6 +29,8 @@ Each dataset is a JSON file loaded at runtime from `app.js`:
 | `data/mcdonalds-data.json` | set map (`{ [set_key]: Set }`) | McDonald's sets 1991–92 through 1998–99 (~325 cards) |
 | `data/mario-lemieux-data-1985-86-to-1999-00.json` | metadata + `sets` object | Mario Lemieux cards from 1985–86 through 1999–00 |
 | `data/mario-lemieux-data-2000-01-to-present.json` | metadata + `sets` object | Mario Lemieux cards from 2000–01 to present |
+| `data/mario-lemieux-data-stickers.json` | metadata + `sets` object | Mario Lemieux sticker cards (all years) |
+| `data/mario-lemieux-data-gems.json` | metadata + `sets` object | Mario Lemieux rare/numbered, memorabilia & autograph cards |
 | `data/96-97-cc-data.json` | set map (`{ [set_key]: Set }`) | 1996–97 Upper Deck Collector's Choice (412 cards) |
 | `data/other-cards.json` | set map (`{ [set_key]: Set }`) | Rookies & singles collections |
 
@@ -54,6 +56,8 @@ img/cards/
 ├── McD97-98/      ← McDonald's 1997-98
 ├── McD98-99/      ← McDonald's 1998-99
 ├── ML66/          ← All Mario Lemieux cards (multi-year, multi-brand)
+│   ├── Stickers/  ← Mario Lemieux sticker images (source: mario-stickers)
+│   └── Gems/      ← Mario Lemieux rare/numbered/memo/auto images (source: mario-gems)
 ├── CC96-97/       ← 1996-97 Collector's Choice (partial)
 └── Singles/       ← Rookie & other individual cards
 ```
