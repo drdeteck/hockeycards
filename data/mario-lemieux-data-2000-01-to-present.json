@@ -6234,8 +6234,27 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true,
-              "price": 2.00
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2014-15-upper-deck-shining-stars-royale-blue",
+          "set_name": "Shining Stars Royale Blue",
+          "set_display_name": "2014-15 Upper Deck - Shining Stars Royale Blue",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2014-15-upper-deck-shining-stars-royale-blue-SS50",
+              "base_number": "SS-50",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2014-15-Upper-Deck---Shining-Stars-Royale-Blue-SS-50-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2014-15-Upper-Deck---Shining-Stars-Royale-Blue-SS-50-Mario-Lemieux.Bkjpg.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
