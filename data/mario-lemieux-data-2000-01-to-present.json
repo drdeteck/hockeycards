@@ -6250,11 +6250,12 @@
               "orientation_front": "portrait",
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2014-15-Upper-Deck---Shining-Stars-Royale-Blue-SS-50-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2014-15-Upper-Deck---Shining-Stars-Royale-Blue-SS-50-Mario-Lemieux.Bkjpg.jpg",
+              "image_back": "img/cards/ML66/2014-15-Upper-Deck---Shining-Stars-Royale-Blue-SS-50-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.00
             }
           ]
         }
@@ -6567,8 +6568,8 @@
             {
               "id": "ml-2021-22-upper-deck-tim-hortons-team-canada-ud-canvas-moments-cm12",
               "base_number": "CM-12",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2021-22-Upper-Deck-Tim-Hortons-Team-Canada---UD-Canvas-Moments-CM-12-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2021-22-Upper-Deck-Tim-Hortons-Team-Canada---UD-Canvas-Moments-CM-12-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
