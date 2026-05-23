@@ -6752,7 +6752,9 @@
               "image_back": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-5-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 10
             },
             {
               "id": "ml-1996-97-donruss-elite-hart-to-hart-6",
