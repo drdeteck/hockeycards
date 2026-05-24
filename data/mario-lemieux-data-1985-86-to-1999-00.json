@@ -4074,7 +4074,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 6.14
             }
           ]
         }
@@ -5387,7 +5388,9 @@
               "image_back": "img/cards/ML66/1995-96-Pinnacle---Rink-Collection-192-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 9.67
             }
           ]
         }
@@ -5832,7 +5835,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 6.91
             }
           ]
         }
@@ -6638,7 +6642,9 @@
               "image_back": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---O-Canada-13-Mario-LemieuxBk.png",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 16.66
             }
           ]
         },
