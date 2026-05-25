@@ -100,7 +100,9 @@
               "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-02-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 2.04
             },
             {
               "id": "ml-2000-01-bap-signature-series-retrospective-r03",
@@ -134,7 +136,9 @@
               "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-05-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 2.04
             },
             {
               "id": "ml-2000-01-bap-signature-series-retrospective-r06",
@@ -216,7 +220,9 @@
               "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-12-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 2.04
             },
             {
               "id": "ml-2000-01-bap-signature-series-retrospective-r13",
@@ -3461,6 +3467,29 @@
           "team": "Pittsburgh Penguins",
           "position": "Center"
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-topps-coast-to-coast",
+          "set_name": "Coast to Coast",
+          "set_display_name": "2002-03 Topps - Coast to Coast",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-topps-coast-to-coast-cc1",
+              "base_number": "CC1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Topps---Coast-to-Coast-CC1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Topps---Coast-to-Coast-CC1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 2.00
+            }
+          ]
+        }
       ]
     },
     "2002-03-upper-deck": {
@@ -3537,6 +3566,30 @@
               "inCollection": true
             }
           ]
+        }
+      ]
+    },
+    "2002-03-upper-deck-artistic-impressions": {
+      "set_key": "2002-03-upper-deck-artistic-impressions",
+      "set_name": "Upper Deck Artistic Impressions",
+      "set_year_label": "2002-03",
+      "set_year_start": 2002,
+      "set_year_end": 2003,
+      "set_display_name": "2002-03 Upper Deck Artistic Impressions",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2002-03-upper-deck-artistic-impressions-72",
+          "base_number": "72",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-Upper-Deck-Artistic-Impressions-72-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Upper-Deck-Artistic-Impressions-72-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 2.00
         }
       ]
     },
