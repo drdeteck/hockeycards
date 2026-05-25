@@ -572,6 +572,7 @@ function DataViewModel() {
             var setDisplayName = setData.set_display_name || self.ComposeSetDisplayName(yearLabel, setName, '');
 
             var setCards = [];
+            var setSubsets = [];
             (setData.cards || []).forEach(function (row) {
                 var baseNumber = row.base_number || 'NNO';
                 var tcdbHref = row.tcdb_href || '';
@@ -610,6 +611,59 @@ function DataViewModel() {
                 allCards.push(cardItem);
             });
 
+            (setData.subsets || []).forEach(function (subset) {
+                var subCards = [];
+                (subset.cards || []).forEach(function (row) {
+                    var baseNumber = row.base_number || 'NNO';
+                    var tcdbHref = row.tcdb_href || '';
+                    var cardItem = {
+                        id: row.id || '',
+                        name: 'Mario Lemieux',
+                        base_number: baseNumber,
+                        team: row.team || 'Pittsburgh Penguins',
+                        position: row.position || 'Center',
+                        orientation: row.orientation || 'portrait',
+                        orientation_front: row.orientation_front || 'portrait',
+                        orientation_back: row.orientation_back || 'portrait',
+                        variant_note: row.variant_note || null,
+                        set_name: setName,
+                        set_variation: null,
+                        set_year_label: yearLabel,
+                        set_year_start: seasonStart,
+                        set_year_end: seasonEnd,
+                        set_display_name: setDisplayName,
+                        insert_subset: subset.set_name,
+                        image_front: row.image_front || '',
+                        image_back: row.image_back || '',
+                        tcdb_href: (tcdbHref && tcdbHref.indexOf('http') === 0) ? tcdbHref : '',
+                        last_seen_price: row.last_seen_price !== undefined && row.last_seen_price !== null && row.last_seen_price !== ''
+                            ? row.last_seen_price
+                            : row.price,
+                        card_type: row.card_type || 'card',
+                        print_run: row.print_run || null,
+                        excludeFromBinder: !!(row.excludeFromBinder),
+                        default_face: row.default_face || 'front',
+                        inCollection: !!(row.inCollection),
+                        _set_key: subset.set_key,
+                        _parent_key: setKey
+                    };
+                    subCards.push(cardItem);
+                    allCards.push(cardItem);
+                });
+                setSubsets.push({
+                    _parent_key: setKey,
+                    set_key: subset.set_key,
+                    set_name: subset.set_name,
+                    set_display_name: subset.set_display_name || (setDisplayName + ' - ' + subset.set_name),
+                    set_tcdb_href: subset.set_tcdb_href || '',
+                    set_year_label: yearLabel,
+                    set_year_start: seasonStart,
+                    set_year_end: seasonEnd,
+                    source: 'mario-chase',
+                    cards: subCards
+                });
+            });
+
             result[setKey] = {
                 set_key: setKey,
                 set_name: setName,
@@ -623,7 +677,7 @@ function DataViewModel() {
                 set_display_name: setDisplayName,
                 source: 'mario-chase',
                 cards: setCards,
-                subsets: []
+                subsets: setSubsets
             };
         });
 
@@ -637,6 +691,12 @@ function DataViewModel() {
             var rightSet = (right.set_name || '').toString();
             var setCompare = leftSet.localeCompare(rightSet, undefined, { sensitivity: 'base' });
             if (setCompare !== 0) { return setCompare; }
+
+            var leftSubset = (left.insert_subset || '').toString();
+            var rightSubset = (right.insert_subset || '').toString();
+            var subsetCompare = leftSubset.localeCompare(rightSubset, undefined, { sensitivity: 'base' });
+            if (subsetCompare !== 0) { return subsetCompare; }
+
             return (left.base_number || '').toString().localeCompare(
                 (right.base_number || '').toString(),
                 undefined,
