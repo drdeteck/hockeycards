@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Inverted triangle: gold fill, thick black outer border, white inner border -->
+  <polygon points="100,188 13,44 187,44"
+           fill="#FCB514" stroke="#111111" stroke-width="12" stroke-linejoin="miter"/>
+  <polygon points="100,188 13,44 187,44"
+           fill="none" stroke="white" stroke-width="5" stroke-linejoin="miter"/>
+  <!-- "66": white outline behind, black fill on top -->
+  <text x="100" y="112" text-anchor="middle" dominant-baseline="central"
+        font-family="Impact, 'Arial Black', sans-serif" font-size="118"
+        fill="white" stroke="white" stroke-width="12" stroke-linejoin="round">66</text>
+  <text x="100" y="112" text-anchor="middle" dominant-baseline="central"
+        font-family="Impact, 'Arial Black', sans-serif" font-size="118"
+        fill="#111111">66</text>
+</svg>

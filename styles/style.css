@@ -63,6 +63,14 @@ ul {
     width: 100%;
 }
 
+.header-logo-icon {
+    height: 40px;
+    width: auto;
+    flex-shrink: 0;
+    margin-right: 10px;
+    display: block;
+}
+
 .logo-title {
     color: var(--color-white);
     font-size: 22px;

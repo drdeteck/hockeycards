@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="1024" height="1024" fill="white"/>
+
+  <!-- Reverse triangle -->
+  <polygon 
+    points="120,180 904,180 512,860" 
+    fill="#f2b632" 
+    stroke="black" 
+    stroke-width="18"
+    stroke-linejoin="round"/>
+
+  <!-- Inner white border -->
+  <polygon 
+    points="150,205 874,205 512,820" 
+    fill="none" 
+    stroke="white" 
+    stroke-width="10"
+    stroke-linejoin="round"/>
+
+  <!-- Left 6 outline -->
+  <path d="
+    M 300 320
+    L 470 320
+    L 510 360
+    L 510 460
+    L 440 460
+    L 440 410
+    L 370 410
+    L 370 520
+    L 510 520
+    L 510 710
+    L 470 750
+    L 300 750
+    L 260 710
+    L 260 360
+    Z
+
+    M 370 610
+    L 370 680
+    L 440 680
+    L 440 610
+    Z
+  "
+  fill="black"
+  stroke="white"
+  stroke-width="10"
+  stroke-linejoin="round"
+  fill-rule="evenodd"/>
+
+  <!-- Right 6 outline -->
+  <path d="
+    M 540 320
+    L 710 320
+    L 750 360
+    L 750 460
+    L 680 460
+    L 680 410
+    L 610 410
+    L 610 520
+    L 750 520
+    L 750 710
+    L 710 750
+    L 540 750
+    L 500 710
+    L 500 360
+    Z
+
+    M 610 610
+    L 610 680
+    L 680 680
+    L 680 610
+    Z
+  "
+  fill="black"
+  stroke="white"
+  stroke-width="10"
+  stroke-linejoin="round"
+  fill-rule="evenodd"/>
+
+</svg>
