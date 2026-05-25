@@ -2,9 +2,274 @@
     "dataset": "mario-lemieux-chase",
     "version": "0.1.0",
     "player": "Mario Lemieux",
-    "updated_at": "2026-05-24",
+    "updated_at": "2026-05-26",
     "image_folder": "img/cards/ML66/Chase",
     "sets": {
+        "1993-94-leaf": {
+            "set_key": "1993-94-leaf",
+            "set_name": "Leaf",
+            "set_year_label": "1993-94",
+            "set_year_start": 1993,
+            "set_year_end": 1994,
+            "set_display_name": "1993-94 Leaf",
+            "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/4954/1993-94-leaf",
+            "cards": [],
+            "subsets": [
+                {
+                    "set_key": "1993-94-leaf-authentic-autograph",
+                    "set_name": "Authentic Autograph",
+                    "set_display_name": "1993-94 Leaf - Authentic Autograph",
+                    "cards": [
+                        {
+                            "id": "ml-1993-94-leaf-authentic-autograph-nno",
+                            "base_number": "NNO",
+                            "name": "Mario Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/Chase/1993-94-Leaf---Authentic-Autograph-NNO-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/Chase/1993-94-Leaf---Authentic-Autograph-NNO-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/430048/cid/24653587/1993-94-Leaf-NNO-Mario-Lemieux",
+                            "inCollection": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "1993-94-pinnacle": {
+            "set_key": "1993-94-pinnacle",
+            "set_name": "Pinnacle",
+            "set_year_label": "1993-94",
+            "set_year_start": 1993,
+            "set_year_end": 1994,
+            "set_display_name": "1993-94 Pinnacle",
+            "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/4970/1993-94-pinnacle",
+            "cards": [],
+            "subsets": [
+                {
+                    "set_key": "1993-94-pinnacle-team-pinnacle",
+                    "set_name": "Team Pinnacle",
+                    "set_display_name": "1993-94 Pinnacle - Team Pinnacle",
+                    "cards": [
+                        {
+                            "id": "ml-1993-94-pinnacle-team-pinnacle-5",
+                            "base_number": "5",
+                            "name": "Mario Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/Chase/1993-94-Pinnacle---Team-Pinnacle-5-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/Chase/1993-94-Pinnacle---Team-Pinnacle-5-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4977/cid/1586504/1993-94-Pinnacle-5-Mario-Lemieux",
+                            "inCollection": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "1993-94-pinnacle-canadian": {
+            "set_key": "1993-94-pinnacle-canadian",
+            "set_name": "Pinnacle Canadian",
+            "set_year_label": "1993-94",
+            "set_year_start": 1993,
+            "set_year_end": 1994,
+            "set_display_name": "1993-94 Pinnacle Canadian",
+            "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/48470/1993-94-pinnacle-canadian",
+            "cards": [],
+            "subsets": [
+                {
+                    "set_key": "1993-94-pinnacle-canadian-team-pinnacle",
+                    "set_name": "Team Pinnacle",
+                    "set_display_name": "1993-94 Pinnacle Canadian - Team Pinnacle",
+                    "cards": [
+                        {
+                            "id": "ml-1993-94-pinnacle-canadian-team-pinnacle-5",
+                            "base_number": "5",
+                            "name": "Mario Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/Chase/1993-94-Pinnacle-Canadian---Team-Pinnacle-5-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/Chase/1993-94-Pinnacle-Canadian---Team-Pinnacle-5-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48475/cid/1587151/1993-94-Pinnacle-Canadian-5-Mario-Lemieux",
+                            "inCollection": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "1993-94-stadium-club": {
+            "set_key": "1993-94-stadium-club",
+            "set_name": "Stadium Club",
+            "set_year_label": "1993-94",
+            "set_year_start": 1993,
+            "set_year_end": 1994,
+            "set_display_name": "1993-94 Stadium Club",
+            "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/4984/1993-94-stadium-club",
+            "cards": [],
+            "subsets": [
+                {
+                    "set_key": "1993-94-stadium-club-all-stars-members-only",
+                    "set_name": "All-Stars Members Only",
+                    "set_display_name": "1993-94 Stadium Club - All-Stars Members Only",
+                    "cards": [
+                        {
+                            "id": "ml-1993-94-stadium-club-all-stars-members-only-nno",
+                            "base_number": "NNO",
+                            "name": "Mario Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/Chase/1993-94-Stadium-Club---All-Stars-Members-Only-NNO-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/Chase/1993-94-Stadium-Club---All-Stars-Members-Only-NNO-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/67718/cid/5248147/1993-94-Stadium-Club-NNO-Mario-Lemieux",
+                            "inCollection": false
+                        }
+                    ]
+                },
+                {
+                    "set_key": "1993-94-stadium-club-finest-refractors-test",
+                    "set_name": "Finest Refractors Test",
+                    "set_display_name": "1993-94 Stadium Club - Finest Refractors Test",
+                    "cards": [
+                        {
+                            "id": "ml-1993-94-stadium-club-finest-refractors-test-10",
+                            "base_number": "10",
+                            "name": "Mario Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/552864/cid/31462172/1993-94-Stadium-Club-10-Mario-Lemieux",
+                            "inCollection": false
+                        }
+                    ]
+                },
+                {
+                    "set_key": "1993-94-stadium-club-first-day-issue",
+                    "set_name": "First Day Issue",
+                    "set_display_name": "1993-94 Stadium Club - First Day Issue",
+                    "cards": [
+                        {
+                            "id": "ml-1993-94-stadium-club-first-day-issue-143",
+                            "base_number": "143",
+                            "name": "Mario Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/Chase/1993-94-Stadium-Club---First-Day-Issue-143-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/Chase/1993-94-Stadium-Club---First-Day-Issue-143-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48480/cid/1587802/1993-94-Stadium-Club-143-Mario-Lemieux",
+                            "inCollection": false
+                        },
+                        {
+                            "id": "ml-1993-94-stadium-club-first-day-issue-146",
+                            "base_number": "146",
+                            "name": "Mario Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/Chase/1993-94-Stadium-Club---First-Day-Issue-146-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/Chase/1993-94-Stadium-Club---First-Day-Issue-146-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48480/cid/1587805/1993-94-Stadium-Club-146-Mario-Lemieux",
+                            "inCollection": false
+                        },
+                        {
+                            "id": "ml-1993-94-stadium-club-first-day-issue-148",
+                            "base_number": "148",
+                            "name": "Mario Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48480/cid/1587807/1993-94-Stadium-Club-148-Mario-Lemieux",
+                            "inCollection": false
+                        },
+                        {
+                            "id": "ml-1993-94-stadium-club-first-day-issue-310",
+                            "base_number": "310",
+                            "name": "Mario Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48480/cid/1587969/1993-94-Stadium-Club-310-Mario-Lemieux",
+                            "inCollection": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "1993-94-stadium-club-o-pee-chee": {
+            "set_key": "1993-94-stadium-club-o-pee-chee",
+            "set_name": "Stadium Club O-Pee-Chee",
+            "set_year_label": "1993-94",
+            "set_year_start": 1993,
+            "set_year_end": 1994,
+            "set_display_name": "1993-94 Stadium Club O-Pee-Chee",
+            "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/48483/1993-94-stadium-club-o-pee-chee",
+            "cards": [],
+            "subsets": [
+                {
+                    "set_key": "1993-94-stadium-club-o-pee-chee-first-day-issue",
+                    "set_name": "First Day Issue",
+                    "set_display_name": "1993-94 Stadium Club O-Pee-Chee - First Day Issue",
+                    "cards": [
+                        {
+                            "id": "ml-1993-94-stadium-club-o-pee-chee-first-day-issue-143",
+                            "base_number": "143",
+                            "name": "Mario Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/67719/cid/5272886/1993-94-Stadium-Club-O-Pee-Chee-143-Mario-Lemieux",
+                            "inCollection": false
+                        },
+                        {
+                            "id": "ml-1993-94-stadium-club-o-pee-chee-first-day-issue-146",
+                            "base_number": "146",
+                            "name": "Mario Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/Chase/1993-94-Stadium-Club-O-Pee-Chee---First-Day-Issue-146-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/Chase/1993-94-Stadium-Club-O-Pee-Chee---First-Day-Issue-146-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/67719/cid/5272889/1993-94-Stadium-Club-O-Pee-Chee-146-Mario-Lemieux",
+                            "inCollection": false
+                        },
+                        {
+                            "id": "ml-1993-94-stadium-club-o-pee-chee-first-day-issue-148",
+                            "base_number": "148",
+                            "name": "Mario Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/67719/cid/5272891/1993-94-Stadium-Club-O-Pee-Chee-148-Mario-Lemieux",
+                            "inCollection": false
+                        }
+                    ]
+                }
+            ]
+        },
         "1994-95-stadium-club": {
             "set_key": "1994-95-stadium-club",
             "set_name": "Stadium Club",
@@ -1323,8 +1588,7 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5342/cid/1609240/1996-97-Pinnacle-Summit-1-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false,
-                            "price": 27.5
+                            "inCollection": false
                         }
                     ]
                 }
@@ -1356,8 +1620,7 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48597/cid/1606226/1996-97-Score-6-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false,
-                            "price": 16.0
+                            "inCollection": false
                         }
                     ]
                 },
@@ -1377,8 +1640,7 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48598/cid/1606517/1996-97-Score-6-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false,
-                            "price": 60.0
+                            "inCollection": false
                         }
                     ]
                 },
@@ -1398,8 +1660,7 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48599/cid/1606804/1996-97-Score-6-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false,
-                            "price": 6.0
+                            "inCollection": false
                         }
                     ]
                 }
@@ -1451,8 +1712,7 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48604/cid/1607524/1996-97-Select-Certified-10-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false,
-                            "price": 20.0
+                            "inCollection": false
                         }
                     ]
                 },
@@ -1472,8 +1732,7 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48608/cid/1608034/1996-97-Select-Certified-10-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false,
-                            "price": 8.0
+                            "inCollection": false
                         }
                     ]
                 },
@@ -1565,8 +1824,7 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5329/cid/1608206/1996-97-SkyBox-Impact-7-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false,
-                            "price": 25.0
+                            "inCollection": false
                         }
                     ]
                 }
@@ -1598,8 +1856,7 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5354/cid/1609653/1996-97-Ultra-4-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false,
-                            "price": 9.5
+                            "inCollection": false
                         }
                     ]
                 }
@@ -1651,8 +1908,7 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5363/cid/1610082/1996-97-Upper-Deck-Ice-S7-Mario-Lemieux-/-Jaromir-Jagr",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false,
-                            "price": 18.0
+                            "inCollection": false
                         }
                     ]
                 },
@@ -1897,9 +2153,9 @@
         "1999-upper-deck-century-legends": {
             "set_key": "1999-upper-deck-century-legends",
             "set_name": "1999 Upper Deck Century Legends",
-            "set_year_label": "",
-            "set_year_start": 0,
-            "set_year_end": 0,
+            "set_year_label": "1999-00",
+            "set_year_start": 1999,
+            "set_year_end": 2000,
             "set_display_name": "1999 Upper Deck Century Legends",
             "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5534/1999-upper-deck-century-legends",
             "cards": [],
@@ -2000,8 +2256,7 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49429/cid/1666563/1999-Upper-Deck-Century-Legends-E3-Mario-Lemieux-/-Jaromir-Jagr",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false,
-                            "price": 3.38
+                            "inCollection": false
                         }
                     ]
                 }
@@ -2026,15 +2281,14 @@
                         {
                             "id": "ml-1995-96-skybox-impact-countdown-to-impact-3",
                             "base_number": "3",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/Chase/1995-96-SkyBox-Impact---Countdown-to-Impact-3-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/Chase/1995-96-SkyBox-Impact---Countdown-to-Impact-3-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5182/cid/1599373/1995-96-SkyBox-Impact-3-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false,
-                            "price": 10.0
+                            "inCollection": false
                         }
                     ]
                 }
@@ -2066,8 +2320,7 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5161/cid/1598416/1995-96-Parkhurst-International-3-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false,
-                            "price": 8.94
+                            "inCollection": false
                         }
                     ]
                 },
@@ -2087,8 +2340,7 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5164/cid/1598490/1995-96-Parkhurst-International-1-Mario-Lemieux-/-Wayne-Gretzky",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false,
-                            "price": 3.0
+                            "inCollection": false
                         }
                     ]
                 }
@@ -2113,8 +2365,7 @@
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5140/cid/1219215/1995-96-Finest-190-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
-                    "inCollection": false,
-                    "price": 22.5
+                    "inCollection": false
                 }
             ],
             "subsets": [
@@ -2134,8 +2385,7 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5141/cid/1219415/1995-96-Finest-150-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false,
-                            "price": 20.0
+                            "inCollection": false
                         },
                         {
                             "id": "ml-1995-96-finest-refractors-190",
@@ -2192,8 +2442,7 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5122/cid/1597575/1995-96-Donruss-Elite-2-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false,
-                            "price": 8.0
+                            "inCollection": false
                         }
                     ]
                 },
@@ -2225,8 +2474,7 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5124/cid/1597590/1995-96-Donruss-Elite-2-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false,
-                            "price": 42.0
+                            "inCollection": false
                         },
                         {
                             "id": "ml-1995-96-donruss-elite-mario-lemieux-series-3",
@@ -2250,8 +2498,7 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5124/cid/1597592/1995-96-Donruss-Elite-4-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false,
-                            "price": 16.0
+                            "inCollection": false
                         },
                         {
                             "id": "ml-1995-96-donruss-elite-mario-lemieux-series-5",
@@ -2319,8 +2566,7 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48519/cid/1597365/1995-96-Collector's-Choice-C25-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false,
-                            "price": 12.0
+                            "inCollection": false
                         }
                     ]
                 }
@@ -2352,8 +2598,7 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5107/cid/1597025/1995-96-Bowman-BB10-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false,
-                            "price": 26.0
+                            "inCollection": false
                         }
                     ]
                 }
@@ -2385,8 +2630,7 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5047/cid/1556185/1994-95-Pinnacle-170-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false,
-                            "price": 30.0
+                            "inCollection": false
                         }
                     ]
                 }
@@ -2419,7 +2663,7 @@
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
                             "inCollection": false,
-                            "price": 44.22
+                            "price": 72.99
                         }
                     ]
                 }
