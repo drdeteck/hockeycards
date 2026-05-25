@@ -279,11 +279,11 @@
                             data-bind="css: { 'flip-backside': $root.CardImageFace() === 'back' }">
                             <div class="card-profile-image-front card-image-front">
                                 <img class="card-profile-card-image"
-                                    data-bind="css: { 'card-landscape': card.orientation_front === 'landscape', 'card-square': card.orientation_front === 'square', 'card-extra-tall': card.orientation_front === 'extra-tall' }, attr: { src: card.image_front || card.image_back || '', alt: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')', title: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')' }">
+                                    data-bind="css: { 'card-landscape': card.orientation_front === 'landscape', 'card-square': card.orientation_front === 'square', 'card-extra-tall': card.orientation_front === 'extra-tall' }, attr: { src: card.image_front || card.image_back || 'img/cards/placeholder.svg', alt: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')', title: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')' }">
                             </div>
                             <div class="card-profile-image-back card-image-back">
                                 <img class="card-profile-card-image"
-                                    data-bind="css: { 'card-landscape': card.orientation_back === 'landscape', 'card-square': card.orientation_back === 'square', 'card-extra-tall': card.orientation_back === 'extra-tall' }, attr: { src: card.image_back || card.image_front || '', alt: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')', title: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')' }">
+                                    data-bind="css: { 'card-landscape': card.orientation_back === 'landscape', 'card-square': card.orientation_back === 'square', 'card-extra-tall': card.orientation_back === 'extra-tall' }, attr: { src: card.image_back || card.image_front || 'img/cards/placeholder.svg', alt: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')', title: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')' }">
                             </div>
                         </section>
 
@@ -548,7 +548,7 @@
                             <a class="binder-slot-link"
                                 data-bind="attr: { href: $root.BuildCardRoute($data, null), title: $data.set_display_name + ' #' + $data.base_number + ($data.insert_subset ? ' · ' + $data.insert_subset : '') }">
                                 <img class="binder-slot-img" data-bind="css: { 'binder-slot-img--landscape': $data.orientation_front === 'landscape' }, attr: {
-                                        src: $data.image_front || $data.image_back || '',
+                                        src: $data.image_front || $data.image_back || 'img/cards/placeholder.svg',
                                         alt: $data.set_display_name + ' #' + $data.base_number }">
                                 <span class="binder-slot-label"
                                     data-bind="text: $data.set_display_name + ' #' + $data.base_number"></span>

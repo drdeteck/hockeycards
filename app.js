@@ -1848,9 +1848,10 @@ function DataViewModel() {
     // helper used by the card template to pick an image URL
     // (template uses $root.ParseImageUri so it must live on the root viewmodel)
     self.ParseImageUri = function (card) {
-        if (!card) return '';
-        if (card.default_face === 'back') return card.image_back || card.image_front || '';
-        return card.image_front || card.image_back || '';
+        var placeholder = 'img/cards/placeholder.svg';
+        if (!card) return placeholder;
+        if (card.default_face === 'back') return card.image_back || card.image_front || placeholder;
+        return card.image_front || card.image_back || placeholder;
     };
 
     self.GetGridCardSetName = function (card) {
