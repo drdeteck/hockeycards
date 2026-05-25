@@ -2340,7 +2340,8 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5164/cid/1598490/1995-96-Parkhurst-International-1-Mario-Lemieux-/-Wayne-Gretzky",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 44.99
                         }
                     ]
                 }
@@ -2442,7 +2443,8 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5122/cid/1597575/1995-96-Donruss-Elite-2-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 40
                         }
                     ]
                 },
@@ -2598,7 +2600,8 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5107/cid/1597025/1995-96-Bowman-BB10-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 48.35
                         }
                     ]
                 }
