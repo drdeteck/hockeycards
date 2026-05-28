@@ -6005,8 +6005,8 @@
             {
               "id": "ml-2013-14-spx-spx-retro-18",
               "base_number": "18",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2013-14-SPx---SPx-Retro-18-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2013-14-SPx---SPx-Retro-18-Mario-LemieuxBk.jpg",
               "tcdb_href": "",

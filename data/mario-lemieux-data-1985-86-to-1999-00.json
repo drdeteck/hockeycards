@@ -5106,7 +5106,9 @@
               "image_back": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-10-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 8
             }
           ]
         },
