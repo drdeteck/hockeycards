@@ -2929,7 +2929,8 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "variant_note": "w/ Wayne Gretzky",
-              "inCollection": false
+              "inCollection": true,
+              "price": 23.00
             }
           ]
         }
@@ -2995,6 +2996,19 @@
           "position": "Center",
           "inCollection": true,
           "price": 8.00
+        },
+        {
+          "id": "ml-1993-94-stadium-club-members-only-nno",
+          "base_number": "NNO",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1993-94-Stadium-Club-Members-Only-NNO-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1993-94-Stadium-Club-Members-Only-NNO-Mario-LemieuxBk.jpg",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/61415/cid/6863925/1993-Stadium-Club-Members-Only-NNO-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 2.76
         }
       ],
       "subsets": [
@@ -4008,7 +4022,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 13.80
             }
           ]
         },
@@ -7173,7 +7188,9 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "variant_note": "Foil"
+              "variant_note": "Foil",
+              "inCollection": true,
+              "price": 12.65
             }
           ]
         },

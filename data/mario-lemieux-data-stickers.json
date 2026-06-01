@@ -920,6 +920,31 @@
                 }
             ]
         },
+        "1996-97-bicycle-nhl-hockey-aces": {
+            "set_key": "1996-97-bicycle-nhl-hockey-aces",
+            "set_name": "Bicycle NHL Hockey Aces",
+            "set_year_label": "1996-97",
+            "set_year_start": 1996,
+            "set_year_end": 1997,
+            "set_display_name": "1996-97 Bicycle NHL Hockey Aces",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1996-97-bicycle-nhl-hockey-aces-as",
+                    "base_number": "A♠",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1996-97-Bicycle-NHL-Hockey-Aces-A♠-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1996-97-Bicycle-NHL-Hockey-Aces-A♠-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/25534/cid/1562927/1996-97-Bicycle-NHL-Hockey-Aces-A%E2%99%A0-Mario-Lemieux",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": true,
+                    "price": 2.76
+                }
+            ]
+        },
         "1996-semic-collections-wien-96": {
             "set_key": "1996-semic-collections-wien-96",
             "set_name": "Semic Collections Wien 96",
