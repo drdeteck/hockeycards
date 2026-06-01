@@ -1,8 +1,8 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.15.5",
+  "version": "0.15.6",
   "player": "Mario Lemieux",
-  "updated_at": "2026-05-06",
+  "updated_at": "2026-06-01",
   "image_folder": "img/cards/ML66",
   "sets": {
     "1985-86-o-pee-chee": {
@@ -204,7 +204,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 9.80
+          "price": 9.8
         }
       ]
     },
@@ -1855,6 +1855,30 @@
         }
       ]
     },
+    "1993-stadium-club-members-only": {
+      "set_key": "1993-stadium-club-members-only",
+      "set_name": "Stadium Club Members Only",
+      "set_year_label": "1993",
+      "set_year_start": 1993,
+      "set_year_end": 1993,
+      "set_display_name": "1993 Stadium Club Members Only",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-1993-stadium-club-members-only-1",
+          "base_number": "1",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 2.4
+        }
+      ]
+    },
     "1992-93-topps": {
       "set_key": "1992-93-topps",
       "set_name": "Topps",
@@ -2194,7 +2218,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 23.00
+              "price": 23.0
             }
           ]
         }
@@ -2930,6 +2954,20 @@
               "position": "Center",
               "variant_note": "w/ Wayne Gretzky",
               "inCollection": false
+            },
+            {
+              "id": "ml-1993-94-stadium-club-all-stars-opc-23",
+              "base_number": "23",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "w/ Wayne Gretzky, OPC",
+              "inCollection": true,
+              "price": 20.0
             }
           ]
         }
@@ -2955,7 +2993,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 4.00
+          "price": 4.0
         },
         {
           "id": "ml-1993-94-stadium-club-members-only-146",
@@ -2968,7 +3006,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 4.00
+          "price": 4.0
         },
         {
           "id": "ml-1993-94-stadium-club-members-only-148",
@@ -2981,7 +3019,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 4.00
+          "price": 4.0
         },
         {
           "id": "ml-1993-94-stadium-club-members-only-310",
@@ -2994,7 +3032,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 8.00
+          "price": 8.0
         }
       ],
       "subsets": [
@@ -4008,7 +4046,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 12.0
             }
           ]
         },
@@ -4745,7 +4784,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 27.40
+              "price": 27.4
             }
           ]
         },
@@ -7260,7 +7299,8 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "variant_note": "Premium Stock",
-              "inCollection": true
+              "inCollection": true,
+              "price": 8.0
             }
           ]
         }
@@ -7961,7 +8001,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 27.40
+              "price": 27.4
             }
           ]
         }
