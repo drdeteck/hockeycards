@@ -2305,26 +2305,6 @@
             "cards": [],
             "subsets": [
                 {
-                    "set_key": "1995-96-parkhurst-international-crown-collection-gold-series-one",
-                    "set_name": "Crown Collection Gold (Series One)",
-                    "set_display_name": "1995-96 Parkhurst International - Crown Collection Gold (Series One)",
-                    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5161/1995-96-parkhurst-international-crown-collection-gold-series-one",
-                    "cards": [
-                        {
-                            "id": "ml-1995-96-parkhurst-international-crown-collection-gold-series-one-3",
-                            "base_number": "3",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1995-96-Parkhurst-International---Crown-Collection-Gold-(Series-One)-3-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1995-96-Parkhurst-International---Crown-Collection-Gold-(Series-One)-3-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5161/cid/1598416/1995-96-Parkhurst-International-3-Mario-Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": false
-                        }
-                    ]
-                },
-                {
                     "set_key": "1995-96-parkhurst-international-nhl-all-stars",
                     "set_name": "NHL All-Stars",
                     "set_display_name": "1995-96 Parkhurst International - NHL All-Stars",
