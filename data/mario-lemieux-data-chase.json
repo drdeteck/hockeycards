@@ -31,7 +31,8 @@
                             "image_front": "img/cards/ML66/Chase/1993-94-Leaf---Authentic-Autograph-NNO-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/Chase/1993-94-Leaf---Authentic-Autograph-NNO-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/430048/cid/24653587/1993-94-Leaf-NNO-Mario-Lemieux",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 666.66
                         }
                     ]
                 }
@@ -63,7 +64,9 @@
                             "image_front": "img/cards/ML66/Chase/1993-94-Pinnacle---Team-Pinnacle-5-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/Chase/1993-94-Pinnacle---Team-Pinnacle-5-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4977/cid/1586504/1993-94-Pinnacle-5-Mario-Lemieux",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 34.53,
+                            "location": "US"
                         }
                     ]
                 }
@@ -127,7 +130,9 @@
                             "image_front": "img/cards/ML66/Chase/1993-94-Stadium-Club---All-Stars-Members-Only-NNO-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/Chase/1993-94-Stadium-Club---All-Stars-Members-Only-NNO-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/67718/cid/5248147/1993-94-Stadium-Club-NNO-Mario-Lemieux",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 27.67,
+                            "location": "US"
                         }
                     ]
                 },
@@ -167,7 +172,9 @@
                             "image_front": "img/cards/ML66/Chase/1993-94-Stadium-Club---First-Day-Issue-143-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/Chase/1993-94-Stadium-Club---First-Day-Issue-143-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48480/cid/1587802/1993-94-Stadium-Club-143-Mario-Lemieux",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 38.74,
+                            "location": "US"
                         },
                         {
                             "id": "ml-1993-94-stadium-club-first-day-issue-146",
@@ -193,7 +200,8 @@
                             "image_front": "",
                             "image_back": "",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48480/cid/1587807/1993-94-Stadium-Club-148-Mario-Lemieux",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 39.95
                         },
                         {
                             "id": "ml-1993-94-stadium-club-first-day-issue-310",
@@ -700,7 +708,8 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5221/cid/1601122/1995-96-Ultra-6-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 30.00
                         }
                     ]
                 },
@@ -720,7 +729,8 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48547/cid/1601112/1995-96-Ultra-6-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 30.00
                         }
                     ]
                 }
@@ -752,7 +762,8 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5227/cid/1601294/1995-96-Upper-Deck-AS5-Mario-Lemieux-/-Wayne-Gretzky",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 22.00
                         }
                     ]
                 },
@@ -964,7 +975,8 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5250/cid/1602413/1996-97-Collector's-Choice-C5-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 81.56
                         },
                         {
                             "id": "ml-1996-97-collectors-choice-you-crash-the-game-gold-c5-2",
@@ -996,7 +1008,9 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48558/cid/1602494/1996-97-Collector's-Choice-CR5-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 24.22,
+                            "location": "US"
                         }
                     ]
                 }
@@ -1021,14 +1035,15 @@
                         {
                             "id": "ml-1996-97-donruss-go-top-shelf-1",
                             "base_number": "1",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/Chase/1996-97-Donruss---Go-Top-Shelf-1-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/Chase/1996-97-Donruss---Go-Top-Shelf-1-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5261/cid/1602703/1996-97-Donruss-1-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 41.51
                         }
                     ]
                 },
@@ -1139,7 +1154,7 @@
             ]
         },
         "1996-97-flair": {
-            "set_key": "1996-97-flair",
+            "set_key": "1996-97-flair-chase",
             "set_name": "Flair",
             "set_year_label": "1996-97",
             "set_year_start": 1996,
@@ -2613,7 +2628,9 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5047/cid/1556185/1994-95-Pinnacle-170-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 69.20,
+                            "location": "US"
                         }
                     ]
                 }
