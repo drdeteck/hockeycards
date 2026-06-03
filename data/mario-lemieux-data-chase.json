@@ -1211,7 +1211,9 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48571/cid/1604024/1996-97-Leaf-84-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 55.36,
+                            "location": "US"
                         }
                     ]
                 },
@@ -1263,7 +1265,9 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5290/cid/1604339/1996-97-Leaf-Limited-85-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 55.35,
+                            "location": "US"
                         }
                     ]
                 },
@@ -1328,8 +1332,8 @@
                         {
                             "id": "ml-1996-97-leaf-preferred-vanity-plates-gold-6",
                             "base_number": "6",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/Chase/1996-97-Leaf-Preferred---Vanity-Plates-Gold-6-Mario-LemieuxFr.jpg",
                             "image_back": "",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48576/cid/1604705/1996-97-Leaf-Preferred-6-Mario-Lemieux",
@@ -1348,8 +1352,8 @@
                         {
                             "id": "ml-1996-97-leaf-preferred-vanity-plates-6",
                             "base_number": "6",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/Chase/1996-97-Leaf-Preferred---Vanity-Plates-6-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/Chase/1996-97-Leaf-Preferred---Vanity-Plates-6-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5297/cid/1604691/1996-97-Leaf-Preferred-6-Mario-Lemieux",
@@ -1387,7 +1391,9 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5304/cid/1604771/1996-97-Metal-Universe-10-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 41.52,
+                            "location": "US"
                         }
                     ]
                 },
@@ -1459,7 +1465,9 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48581/cid/1604911/1996-97-Pinnacle-86-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 69.20,
+                            "location": "US"
                         }
                     ]
                 },
@@ -1472,8 +1480,8 @@
                         {
                             "id": "ml-1996-97-pinnacle-trophies-1",
                             "base_number": "1",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/Chase/1996-97-Pinnacle---Trophies-1-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/Chase/1996-97-Pinnacle---Trophies-1-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5318/cid/1605912/1996-97-Pinnacle-1-Hart-Memorial-Trophy-/-Art-Ross-Trophy-/-Lester-B.-Pearson-Award-(Mario-Lemieux)",
@@ -1576,14 +1584,15 @@
                         {
                             "id": "ml-1996-97-pinnacle-summit-high-voltage-mirage-8",
                             "base_number": "8",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/Chase/1996-97-Pinnacle-Summit---High-Voltage-Mirage-8-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/Chase/1996-97-Pinnacle-Summit---High-Voltage-Mirage-8-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48613/cid/1608599/1996-97-Pinnacle-Summit-8-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 150.00,
                         }
                     ]
                 },
@@ -1603,7 +1612,9 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5342/cid/1609240/1996-97-Pinnacle-Summit-1-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 83.04,
+                            "location": "US"
                         }
                     ]
                 }
@@ -1832,8 +1843,8 @@
                         {
                             "id": "ml-1996-97-skybox-impact-versateam-7",
                             "base_number": "7",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/Chase/1996-97-SkyBox-Impact---VersaTeam-7-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/Chase/1996-97-SkyBox-Impact---VersaTeam-7-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5329/cid/1608206/1996-97-SkyBox-Impact-7-Mario-Lemieux",
@@ -1916,8 +1927,8 @@
                         {
                             "id": "ml-1996-97-upper-deck-ice-stanley-cup-foundation-s7",
                             "base_number": "S7",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/Chase/1996-97-Upper-Deck-Ice---Stanley-Cup-Foundation-S7-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/Chase/1996-97-Upper-Deck-Ice---Stanley-Cup-Foundation-S7-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5363/cid/1610082/1996-97-Upper-Deck-Ice-S7-Mario-Lemieux-/-Jaromir-Jagr",
@@ -1936,8 +1947,8 @@
                         {
                             "id": "ml-1996-97-upper-deck-ice-stanley-cup-foundation-dynasty-s7",
                             "base_number": "S7",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
                             "image_front": "img/cards/ML66/Chase/1996-97-Upper-Deck-Ice---Stanley-Cup-Foundation-Dynasty-S7-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/Chase/1996-97-Upper-Deck-Ice---Stanley-Cup-Foundation-Dynasty-S7-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48627/cid/1610092/1996-97-Upper-Deck-Ice-S7-Mario-Lemieux-/-Jaromir-Jagr",
