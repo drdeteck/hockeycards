@@ -1948,7 +1948,14 @@ function DataViewModel() {
             return '';
         }
 
-        return numericPrice.toFixed(2) + '$';
+        var formattedPrice = numericPrice.toFixed(2) + '$';
+        
+        // If card has location "US", wrap price in italics with asterisk
+        if (card.location === 'US') {
+            return '<i>*' + formattedPrice + '</i>';
+        }
+        
+        return formattedPrice;
     };
 
     self.GetCardGridPaidPriceCad = function (card) {
