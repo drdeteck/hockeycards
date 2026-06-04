@@ -2083,26 +2083,6 @@
                     ]
                 },
                 {
-                    "set_key": "1996-97-upper-deck-lord-stanleys-heroes-quarterfinals",
-                    "set_name": "Lord Stanley's Heroes Quarterfinals",
-                    "set_display_name": "1996-97 Upper Deck - Lord Stanley's Heroes Quarterfinals",
-                    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5364/1996-97-upper-deck-lord-stanleys-heroes-quarterfinals",
-                    "cards": [
-                        {
-                            "id": "ml-1996-97-upper-deck-lord-stanleys-heroes-quarterfinals-ls3",
-                            "base_number": "LS3",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1996-97-Upper-Deck---Lord-Stanley's-Heroes-Quarterfinals-LS3-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1996-97-Upper-Deck---Lord-Stanley's-Heroes-Quarterfinals-LS3-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5364/cid/1609813/1996-97-Upper-Deck-LS3-Mario-Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": false
-                        }
-                    ]
-                },
-                {
                     "set_key": "1996-97-upper-deck-lord-stanleys-heroes-semifinals",
                     "set_name": "Lord Stanley's Heroes Semifinals",
                     "set_display_name": "1996-97 Upper Deck - Lord Stanley's Heroes Semifinals",
