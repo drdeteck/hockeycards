@@ -3581,8 +3581,8 @@
             {
               "id": "ml-1994-95-donruss-dominators-1",
               "base_number": "1",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/1994-95-Donruss---Dominators-1-Eric-Lindros--Mario-Lemieux--Mark-MessierFr.jpg",
               "image_back": "img/cards/ML66/1994-95-Donruss---Dominators-1-Eric-Lindros--Mario-Lemieux--Mark-MessierBk.jpg",
               "tcdb_href": "",
