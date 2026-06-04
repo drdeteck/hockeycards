@@ -2133,7 +2133,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2.75
         }
       ],
       "subsets": [
@@ -3568,6 +3569,26 @@
               "position": "Center",
               "inCollection": true,
               "price": 4.95
+            }
+          ]
+        },
+        {
+          "set_key": "1994-95-donruss-dominators",
+          "set_name": "Dominators",
+          "set_display_name": "1994-95 Donruss - Dominators",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1994-95-donruss-dominators-1",
+              "base_number": "1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1994-95-Donruss---Dominators-1-Eric-Lindros--Mario-Lemieux--Mark-MessierFr.jpg",
+              "image_back": "img/cards/ML66/1994-95-Donruss---Dominators-1-Eric-Lindros--Mario-Lemieux--Mark-MessierBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
@@ -8093,6 +8114,27 @@
               "inCollection": true
             }
           ]
+        },
+        {
+          "set_key": "1996-97-upper-deck-lord-stanleys-heroes-quarterfinals",
+          "set_name": "Lord Stanley's Heroes Quarterfinals",
+          "set_display_name": "1996-97 Upper Deck - Lord Stanley's Heroes Quarterfinals",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5364/1996-97-upper-deck-lord-stanleys-heroes-quarterfinals",
+          "cards": [
+            {
+              "id": "ml-1996-97-upper-deck-lord-stanleys-heroes-quarterfinals-ls3",
+              "base_number": "LS3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Upper-Deck---Lord-Stanley's-Heroes-Quarterfinals-LS3-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Upper-Deck---Lord-Stanley's-Heroes-Quarterfinals-LS3-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5364/cid/1609813/1996-97-Upper-Deck-LS3-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 16.52
+            }
+          ]
         }
       ]
     },
@@ -8287,7 +8329,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.75
             }
           ]
         }
