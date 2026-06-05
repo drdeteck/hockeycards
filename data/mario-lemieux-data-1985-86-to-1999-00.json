@@ -4476,7 +4476,9 @@
               "image_back": "img/cards/ML66/1995-96-Collector's-Choice---You-Crash-the-Game-Gold-C25a-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 3.99
             },
             {
               "id": "ml-1995-96-collectors-choice-ctg-gold-c25b",
