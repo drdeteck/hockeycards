@@ -6435,6 +6435,29 @@
         }
       ]
     },
+    "2018-19-upper-deck-national-hockey-card-day-canada": {
+      "set_key": "2018-19-upper-deck-national-hockey-card-day-canada",
+      "set_name": "Upper Deck National Hockey Card Day Canada",
+      "set_year_label": "2018-19",
+      "set_year_start": 2018,
+      "set_year_end": 2019,
+      "set_display_name": "2018-19 Upper Deck National Hockey Card Day Canada",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2018-19-upper-deck-nhcd-can15",
+          "base_number": "CAN-15",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2018-19-Upper-Deck-National-Hockey-Card-Day-Canada-CAN-15-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2018-19-Upper-Deck-National-Hockey-Card-Day-Canada-CAN-15-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2021-22-fleer-ultra": {
       "set_key": "2021-22-fleer-ultra",
       "set_name": "Fleer Ultra",
