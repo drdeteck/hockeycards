@@ -485,7 +485,9 @@
               "image_back": "img/cards/ML66/2000-01-SP-Authentic---Honor-SP6-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 5.10
             }
           ]
         }
@@ -1059,6 +1061,27 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "2000-01-upper-deck-legends-enshrined-stars",
+          "set_name": "Enshrined Stars",
+          "set_display_name": "2000-01 Upper Deck Legends - Enshrined Stars",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-upper-deck-legends-enshrined-stars-es3",
+              "base_number": "ES3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Upper-Deck-Legends---Enshrined-Stars-ES3-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Upper-Deck-Legends---Enshrined-Stars-ES3-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 7.67
             }
           ]
         }
@@ -2298,7 +2321,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 7.70
             }
           ]
         },
@@ -3268,7 +3292,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 6.38
             }
           ]
         }
