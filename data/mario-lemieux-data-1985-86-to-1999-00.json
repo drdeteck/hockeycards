@@ -5276,7 +5276,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5161/cid/1598416/1995-96-Parkhurst-International-3-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 7.50
             }
           ]
         },
