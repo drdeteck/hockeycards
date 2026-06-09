@@ -3649,7 +3649,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true
+          "inCollection": false
         }
       ]
     },
@@ -4805,6 +4805,52 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ]
+    },
+    "2005-06-upper-deck-artifacts": {
+      "set_key": "2005-06-upper-deck-artifacts",
+      "set_name": "Upper Deck Artifacts",
+      "set_year_label": "2005-06",
+      "set_year_start": 2005,
+      "set_year_end": 2006,
+      "set_display_name": "2005-06 Upper Deck Artifacts",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2005-06-upper-deck-artifacts-81",
+          "base_number": "81",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2005-06-Upper-Deck-Artifacts-81-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2005-06-Upper-Deck-Artifacts-81-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2005-06-upper-deck-trilogy": {
+      "set_key": "2005-06-upper-deck-trilogy",
+      "set_name": "Upper Deck Trilogy",
+      "set_year_label": "2005-06",
+      "set_year_start": 2005,
+      "set_year_end": 2006,
+      "set_display_name": "2005-06 Upper Deck Trilogy",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2005-06-upper-deck-trilogy-72",
+          "base_number": "72",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2005-06-Upper-Deck-Trilogy-72-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2005-06-Upper-Deck-Trilogy-72-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
