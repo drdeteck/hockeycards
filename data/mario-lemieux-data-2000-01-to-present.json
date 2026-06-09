@@ -5024,7 +5024,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true
+              "inCollection": false
             },
             {
               "id": "ml-2005-06-upper-deck-all-time-greatest-finalist-85",
@@ -5162,6 +5162,18 @@
       "set_display_name": "2005-06 Upper Deck MVP",
       "set_tcdb_href": "",
       "cards": [
+        {
+          "id": "ml-2005-06-upper-deck-mvp-306",
+          "base_number": "306",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2005-06-Upper-Deck-MVP-306-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2005-06-Upper-Deck-MVP-306-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
         {
           "id": "ml-2005-06-upper-deck-mvp-444",
           "base_number": "444",
