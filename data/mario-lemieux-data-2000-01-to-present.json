@@ -6739,17 +6739,17 @@
         }
       ]
     },
-    "2016-upper-deck-team-canada-juniors": {
-      "set_key": "2016-upper-deck-team-canada-juniors",
+    "2016-17-upper-deck-team-canada-juniors": {
+      "set_key": "2016-17-upper-deck-team-canada-juniors",
       "set_name": "Upper Deck Team Canada Juniors",
-      "set_year_label": "2016",
+      "set_year_label": "2016-17",
       "set_year_start": 2016,
-      "set_year_end": 2016,
-      "set_display_name": "2016 Upper Deck Team Canada Juniors",
+      "set_year_end": 2017,
+      "set_display_name": "2016-17 Upper Deck Team Canada Juniors",
       "set_tcdb_href": "",
       "cards": [
         {
-          "id": "ml-2016-upper-deck-team-canada-juniors-99",
+          "id": "ml-2016-17-upper-deck-team-canada-juniors-99",
           "base_number": "99",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
@@ -6762,18 +6762,18 @@
         }
       ]
     },
-    "2016-upper-deck-winter": {
-      "set_key": "2016-upper-deck-winter",
+    "2016-17-upper-deck-winter": {
+      "set_key": "2016-17-upper-deck-winter",
       "set_name": "Upper Deck Winter",
-      "set_year_label": "2016",
+      "set_year_label": "2016-17",
       "set_year_start": 2016,
-      "set_year_end": 2016,
-      "set_display_name": "2016 Upper Deck Winter",
+      "set_year_end": 2017,
+      "set_display_name": "2016-17 Upper Deck Winter",
       "set_tcdb_href": "",
       "cards": [
         {
           "base_number": "W5",
-          "id": "ml-2016-upper-deck-winter-w5",
+          "id": "ml-2016-17-upper-deck-winter-w5",
           "image_back": "img/cards/ML66/2016-Upper-Deck-Winter-W5-Mario-LemieuxBk.jpg",
           "image_front": "img/cards/ML66/2016-Upper-Deck-Winter-W5-Mario-LemieuxFr.jpg",
           "inCollection": true,
@@ -7055,17 +7055,17 @@
         }
       ]
     },
-    "2021-upper-deck-national-hockey-card-day-canada": {
-      "set_key": "2021-upper-deck-national-hockey-card-day-canada",
+    "2021-22-upper-deck-national-hockey-card-day-canada": {
+      "set_key": "2021-22-upper-deck-national-hockey-card-day-canada",
       "set_name": "Upper Deck National Hockey Card Day Canada",
-      "set_year_label": "2021",
+      "set_year_label": "2021-22",
       "set_year_start": 2021,
-      "set_year_end": 2021,
-      "set_display_name": "2021 Upper Deck National Hockey Card Day Canada",
+      "set_year_end": 2022,
+      "set_display_name": "2021-22 Upper Deck National Hockey Card Day Canada",
       "set_tcdb_href": "",
       "cards": [
         {
-          "id": "ml-2021-upper-deck-national-hockey-card-day-canada-can11",
+          "id": "ml-2021-22-upper-deck-national-hockey-card-day-canada-can11",
           "base_number": "CAN-11",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
@@ -7207,8 +7207,8 @@
             {
               "id": "ml-2024-25-upper-deck-synergy-nhl-monuments-m12",
               "base_number": "M-12",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2024-25-Upper-Deck-Synergy---NHL-Monuments-M-12-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2024-25-Upper-Deck-Synergy---NHL-Monuments-M-12-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -7266,17 +7266,17 @@
         }
       ]
     },
-    "2024-upper-deck-national-hockey-card-day": {
-      "set_key": "2024-upper-deck-national-hockey-card-day",
+    "2024-25-upper-deck-national-hockey-card-day": {
+      "set_key": "2024-25-upper-deck-national-hockey-card-day",
       "set_name": "Upper Deck National Hockey Card Day",
-      "set_year_label": "2024",
+      "set_year_label": "2024-25",
       "set_year_start": 2024,
-      "set_year_end": 2024,
-      "set_display_name": "2024 Upper Deck National Hockey Card Day",
+      "set_year_end": 2025,
+      "set_display_name": "2024-25 Upper Deck National Hockey Card Day",
       "set_tcdb_href": "",
       "cards": [
         {
-          "id": "ml-2024-upper-deck-national-hockey-card-day-nhcd21",
+          "id": "ml-2024-25-upper-deck-national-hockey-card-day-nhcd21",
           "base_number": "NHCD-21",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
@@ -7334,13 +7334,13 @@
         }
       ]
     },
-    "2025-upper-deck-national-hockey-card-day": {
-      "set_key": "2025-upper-deck-national-hockey-card-day",
+    "2025-26-upper-deck-national-hockey-card-day": {
+      "set_key": "2025-26-upper-deck-national-hockey-card-day",
       "set_name": "Upper Deck National Hockey Card Day",
-      "set_year_label": "2025",
+      "set_year_label": "2025-26",
       "set_year_start": 2025,
-      "set_year_end": 2025,
-      "set_display_name": "2025 Upper Deck National Hockey Card Day",
+      "set_year_end": 2026,
+      "set_display_name": "2025-26 Upper Deck National Hockey Card Day",
       "set_tcdb_href": "",
       "cards": [
         {
