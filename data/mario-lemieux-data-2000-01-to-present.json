@@ -1265,18 +1265,6 @@
       "set_tcdb_href": "",
       "cards": [
         {
-          "id": "ml-2001-02-fleer-greats-of-the-game-12",
-          "base_number": "12",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/2001-02-Fleer-Greats-of-the-Game-12-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/2001-02-Fleer-Greats-of-the-Game-12-Mario-LemieuxBk.jpg",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": false
-        },
-        {
           "id": "ml-2001-02-fleer-greats-of-the-game-81",
           "base_number": "81",
           "orientation_front": "portrait",
@@ -1287,6 +1275,29 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2001-02-fleer-greats-of-the-game-retrospection",
+          "set_name": "Retrospection",
+          "set_display_name": "2001-02 Fleer Greats of the Game - Retrospection",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-fleer-greats-of-the-game-retrospection-12",
+              "base_number": "12",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Fleer-Greats-of-the-Game-12-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Fleer-Greats-of-the-Game-12-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 3.00
+            }
+          ]
         }
       ]
     },
@@ -3649,7 +3660,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.50
         }
       ]
     },
