@@ -1908,7 +1908,9 @@
           "image_back": "img/cards/ML66/2001-02-Topps-1-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true,
+          "price": 1.5
         }
       ],
       "subsets": [
@@ -2604,7 +2606,9 @@
           "image_back": "img/cards/ML66/2001-02-Upper-Deck-Mask-Collection-79-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true,
+          "price": 1.50
         }
       ]
     },
@@ -3102,7 +3106,9 @@
           "image_back": "img/cards/ML66/2002-03-Pacific-Calder-27-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true,
+          "price": 1.50
         }
       ]
     },
@@ -3434,6 +3440,49 @@
           "team": "Pittsburgh Penguins",
           "position": "Center"
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-stadium-club-beam-team",
+          "set_name": "Beam Team",
+          "set_display_name": "2002-03 Stadium Club - Beam Team",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-stadium-club-beam-team-bt2",
+              "base_number": "BT2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Stadium-Club---Beam-Team-BT2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Stadium-Club---Beam-Team-BT2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-stadium-club-silver-decoy",
+          "set_name": "Silver Decoy",
+          "set_display_name": "2002-03 Stadium Club - Silver Decoy",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-stadium-club-silver-decoy-6",
+              "base_number": "6",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Stadium-Club---Silver-Decoy-6-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Stadium-Club---Silver-Decoy-6-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 1.50
+            }
+          ]
+        }
       ]
     },
     "2002-03-titanium": {
@@ -3626,6 +3675,29 @@
           "position": "Center",
           "inCollection": true,
           "price": 2.00
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-upper-deck-artistic-impressions-flashbacks",
+          "set_name": "Flashbacks",
+          "set_display_name": "2002-03 Upper Deck Artistic Impressions - Flashbacks",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-upper-deck-artistic-impressions-flashbacks-ud3",
+              "base_number": "UD3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Upper-Deck-Artistic-Impressions---Flashbacks-UD3-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Upper-Deck-Artistic-Impressions---Flashbacks-UD3-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 1.50
+            }
+          ]
         }
       ]
     },
@@ -4839,7 +4911,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.50
         }
       ]
     },
@@ -4862,7 +4935,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2.00
         }
       ]
     },
@@ -4972,6 +5046,27 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "2005-06-ultra-super-six",
+          "set_name": "Super Six",
+          "set_display_name": "2005-06 Ultra - Super Six",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2005-06-ultra-super-six-ss1",
+              "base_number": "SS1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2005-06-Ultra---Super-Six-SS1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2005-06-Ultra---Super-Six-SS1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 1.50
             }
           ]
         }
@@ -5088,7 +5183,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.50
             }
           ]
         },
@@ -5184,7 +5280,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.50
         },
         {
           "id": "ml-2005-06-upper-deck-mvp-444",
@@ -5254,6 +5351,30 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false
+        }
+      ]
+    },
+    "2004-05-in-the-game-franchises-us-west": {
+      "set_key": "2004-05-in-the-game-franchises-us-west",
+      "set_name": "In The Game Franchises - US West",
+      "set_year_label": "2004-05",
+      "set_year_start": 2004,
+      "set_year_end": 2005,
+      "set_display_name": "2004-05 In The Game Franchises - US West",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2004-05-in-the-game-franchises-us-west-267",
+          "base_number": "267",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2004-05-In-The-Game-Franchises-US-West-267-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2004-05-In-The-Game-Franchises-US-West-267-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 1.50
         }
       ]
     },
@@ -5355,6 +5476,30 @@
         }
       ]
     },
+    "2006-07-fleer-hockey-headliners": {
+      "set_key": "2006-07-fleer-hockey-headliners",
+      "set_name": "Fleer Hockey Headliners",
+      "set_year_label": "2006-07",
+      "set_year_start": 2006,
+      "set_year_end": 2007,
+      "set_display_name": "2006-07 Fleer Hockey Headliners",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2006-07-fleer-hockey-headliners-hl6",
+          "base_number": "HL6",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2006-07-Fleer---Hockey-Headliners-HL6-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2006-07-Fleer---Hockey-Headliners-HL6-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 1.50
+        }
+      ]
+    },
     "2006-07-parkhurst": {
       "set_key": "2006-07-parkhurst",
       "set_name": "Parkhurst",
@@ -5441,6 +5586,42 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ]
+    },
+    "2006-07-upper-deck-all-time-greatest": {
+      "set_key": "2006-07-upper-deck-all-time-greatest",
+      "set_name": "Upper Deck All-Time Greatest",
+      "set_year_label": "2006-07",
+      "set_year_start": 2006,
+      "set_year_end": 2007,
+      "set_display_name": "2006-07 Upper Deck All-Time Greatest",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2006-07-upper-deck-all-time-greatest-atg18",
+          "base_number": "ATG18",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2006-07-Upper-Deck---All-Time-Greatest-ATG18-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2006-07-Upper-Deck---All-Time-Greatest-ATG18-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 1.50
+        },
+        {
+          "id": "ml-2006-07-upper-deck-all-time-greatest-atg24",
+          "base_number": "ATG24",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2006-07-Upper-Deck---All-Time-Greatest-ATG24-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2006-07-Upper-Deck---All-Time-Greatest-ATG24-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
@@ -6380,6 +6561,184 @@
         }
       ]
     },
+    "2015-16-upper-deck-portfolio": {
+      "set_key": "2015-16-upper-deck-portfolio",
+      "set_name": "Upper Deck Portfolio",
+      "set_year_label": "2015-16",
+      "set_year_start": 2015,
+      "set_year_end": 2016,
+      "set_display_name": "2015-16 Upper Deck Portfolio",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2015-16-upper-deck-portfolio-197",
+          "base_number": "197",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2015-16-Upper-Deck-Portfolio-197-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2015-16-Upper-Deck-Portfolio-197-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 1.50
+        },
+        {
+          "id": "ml-2015-16-upper-deck-portfolio-262",
+          "base_number": "262",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2015-16-Upper-Deck-Portfolio-262-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2015-16-Upper-Deck-Portfolio-262-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2015-16-upper-deck-portfolio-291",
+          "base_number": "291",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2015-16-Upper-Deck-Portfolio-291-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2015-16-Upper-Deck-Portfolio-291-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2011-12-upper-deck-artifacts": {
+      "set_key": "2011-12-upper-deck-artifacts",
+      "set_name": "Upper Deck Artifacts",
+      "set_year_label": "2011-12",
+      "set_year_start": 2011,
+      "set_year_end": 2012,
+      "set_display_name": "2011-12 Upper Deck Artifacts",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2011-12-upper-deck-artifacts-66",
+          "base_number": "66",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2011-12-Upper-Deck-Artifacts-66-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2011-12-Upper-Deck-Artifacts-66-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 1.50
+        }
+      ]
+    },
+    "2012-13-fleer-retro": {
+      "set_key": "2012-13-fleer-retro",
+      "set_name": "Fleer Retro",
+      "set_year_label": "2012-13",
+      "set_year_start": 2012,
+      "set_year_end": 2013,
+      "set_display_name": "2012-13 Fleer Retro",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2012-13-fleer-retro-27",
+          "base_number": "27",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2012-13-Fleer-Retro-27-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2012-13-Fleer-Retro-27-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 1.50
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2012-13-fleer-retro-ex-2001",
+          "set_name": "EX 2001",
+          "set_display_name": "2012-13 Fleer Retro - EX 2001",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2012-13-fleer-retro-ex-2001-6",
+              "base_number": "6",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2012-13-Fleer-Retro---EX-2001-6-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2012-13-Fleer-Retro---EX-2001-6-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2012-13-fleer-retro-flair-showcase-row2",
+          "set_name": "Flair Showcase Row 2",
+          "set_display_name": "2012-13 Fleer Retro - Flair Showcase Row 2",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2012-13-fleer-retro-flair-showcase-row2-11",
+              "base_number": "11",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2012-13-Fleer-Retro---Flair-Showcase-Row2-11-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2012-13-Fleer-Retro---Flair-Showcase-Row2-11-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2012-13-fleer-retro-metal-universe",
+          "set_name": "Metal Universe",
+          "set_display_name": "2012-13 Fleer Retro - Metal Universe",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2012-13-fleer-retro-metal-universe-50",
+              "base_number": "50",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2012-13-Fleer-Retro---Metal-Universe-50-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2012-13-Fleer-Retro---Metal-Universe-50-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2012-13-fleer-retro-tradition-electrifying",
+          "set_name": "Tradition Electrifying",
+          "set_display_name": "2012-13 Fleer Retro - Tradition Electrifying",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2012-13-fleer-retro-tradition-electrifying-11",
+              "base_number": "11",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2012-13-Fleer-Retro---Tradition-Electrifying-11-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2012-13-Fleer-Retro---Tradition-Electrifying-11-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2016-upper-deck-team-canada-juniors": {
       "set_key": "2016-upper-deck-team-canada-juniors",
       "set_name": "Upper Deck Team Canada Juniors",
@@ -6424,6 +6783,52 @@
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
+        }
+      ]
+    },
+    "2017-18-sp-authentic": {
+      "set_key": "2017-18-sp-authentic",
+      "set_name": "SP Authentic",
+      "set_year_label": "2017-18",
+      "set_year_start": 2017,
+      "set_year_end": 2018,
+      "set_display_name": "2017-18 SP Authentic",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2017-18-sp-authentic-97",
+          "base_number": "97",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2017-18-SP-Authentic-97-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2017-18-SP-Authentic-97-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 1.50
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2017-18-sp-authentic-rookie-year-milestones",
+          "set_name": "Rookie Year Milestones",
+          "set_display_name": "2017-18 SP Authentic - Rookie Year Milestones",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-sp-authentic-rym-ml",
+              "base_number": "RYM-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2017-18-SP-Authentic---Rookie-Year-Milestones-RYM-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-SP-Authentic---Rookie-Year-Milestones-RYM-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -6835,6 +7240,29 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ]
+    },
+    "2024-25-sp-authentic-pageantry-red": {
+      "set_key": "2024-25-sp-authentic-pageantry-red",
+      "set_name": "SP Authentic Pageantry Red",
+      "set_year_label": "2024-25",
+      "set_year_start": 2024,
+      "set_year_end": 2025,
+      "set_display_name": "2024-25 SP Authentic Pageantry Red",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2024-25-sp-authentic-pageantry-red-p73",
+          "base_number": "P-73",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2024-25-SP-Authentic---Pageantry-Red-P-73-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2024-25-SP-Authentic---Pageantry-Red-P-73-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
