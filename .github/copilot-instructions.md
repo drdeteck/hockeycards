@@ -64,6 +64,12 @@ img/cards/
 
 Each card has a front image and a back image. Paths are stored directly in the card object (e.g. `"image_front": "img/cards/McD91-92/56699-Mc-1Fr.jpg"`). Empty string means no image yet.
 
+### Placeholder Chase Images
+
+- Any image filename that ends with `-placeholder` (before `Fr/Bk` and extension) is a temporary, non-official Chase image.
+- `-placeholder` images are intended to stay in `data/mario-lemieux-data-chase.json` entries.
+- If a card is moved from Chase into a regular existing dataset (`1985-86-to-1999-00` or `2000-01-to-present`), refresh/replace placeholder images with official images and update `image_front`/`image_back` paths accordingly.
+
 ---
 
 ## Information Architecture

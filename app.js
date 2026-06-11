@@ -939,6 +939,7 @@ function DataViewModel() {
     self.CardImageFace = ko.observable('front');
     self.ShowExportOverlay = ko.observable(false);
     self.ExportCopied = ko.observable(false);
+    self.CardFilenamePrefixCopied = ko.observable(false);
     self.BinderPageIndex = ko.observable(0);
     self.BinderSelectedYearKey = ko.observable('');
     self.BinderActiveRoute = ko.observable('binder-ml');
@@ -1191,6 +1192,56 @@ function DataViewModel() {
             return '#';
         }
         return (ctx.card.tcdb_href) || ctx.collection.set_tcdb_href || '#';
+    });
+
+    self.SanitizeFilenamePart = function (value) {
+        var text = (value || '').toString().trim();
+        if (!text) {
+            return '';
+        }
+
+        if (text.normalize) {
+            text = text.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        }
+
+        text = text.replace(/&/g, ' and ');
+        text = text.replace(/['"]/g, '');
+        text = text.replace(/[^A-Za-z0-9]+/g, '-');
+        text = text.replace(/-+/g, '-').replace(/^-|-$/g, '');
+        return text;
+    };
+
+    self.CardImageFilenamePrefix = ko.pureComputed(function () {
+        var ctx = self.CurrentCardContext();
+        if (!ctx || !ctx.card || !ctx.collection) {
+            return '';
+        }
+
+        // Filename format: YYYY-YY-SETNAME---SUBSETNAME-COLLECTOR-Mario-Lemieux
+        // The subset delimiter (---) is only added when the card has an insert/subset.
+        var yearLabel = self.SanitizeFilenamePart(ctx.card.set_year_label || ctx.collection.set_year_label || 'YYYY-YY');
+        var setNameParts = [ctx.card.set_name || ctx.collection.set_name || 'Unknown Set'];
+        var setVariation = (ctx.card.set_variation || ctx.collection.set_variation || '').toString().trim();
+        if (setVariation) {
+            setNameParts.push(setVariation);
+        }
+
+        var setName = self.SanitizeFilenamePart(setNameParts.join(' - '));
+        var subsetName = self.SanitizeFilenamePart(ctx.card.insert_subset || (ctx.insert && ctx.insert.set_name) || '');
+        var collector = self.SanitizeFilenamePart(ctx.card.base_number || ctx.card.number || 'NNO');
+        var prefix = yearLabel + '-' + setName;
+
+        if (subsetName) {
+            prefix += '---' + subsetName;
+        }
+
+        return prefix + '-' + collector + '-Mario-Lemieux';
+    });
+
+    self.CardFilenameCopyTitle = ko.pureComputed(function () {
+        return self.CardFilenamePrefixCopied()
+            ? 'Filename prefix copied'
+            : 'Copy image filename prefix';
     });
 
     self.CardBackHref = ko.pureComputed(function () {
@@ -2084,6 +2135,40 @@ function DataViewModel() {
                 textarea.select();
                 try { document.execCommand('copy'); onCopied(); } catch (e) { }
             }
+        };
+
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(onCopied, fallbackCopy);
+        } else {
+            fallbackCopy();
+        }
+    };
+
+    self.CopyCardImageFilenamePrefix = function () {
+        var text = self.CardImageFilenamePrefix();
+        if (!text) {
+            return;
+        }
+
+        var onCopied = function () {
+            self.CardFilenamePrefixCopied(true);
+            setTimeout(function () { self.CardFilenamePrefixCopied(false); }, 2000);
+        };
+
+        var fallbackCopy = function () {
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            textarea.setAttribute('readonly', 'readonly');
+            textarea.style.position = 'absolute';
+            textarea.style.left = '-9999px';
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+                document.execCommand('copy');
+                onCopied();
+            } catch (e) {
+            }
+            document.body.removeChild(textarea);
         };
 
         if (navigator.clipboard && navigator.clipboard.writeText) {

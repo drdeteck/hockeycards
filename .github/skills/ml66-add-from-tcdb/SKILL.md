@@ -182,6 +182,8 @@ Hardcoded / defaulted values:
 - Only write to Mario Lemieux dataset files (`data/mario-lemieux-data-*.json`).
 - Do not modify unrelated sets or cards.
 - Do not overwrite an existing card `id` — warn and stop.
+- Treat filenames ending in `-placeholder` as temporary, non-official Chase images.
+- Keep `-placeholder` images in Chase entries; when moving a card from Chase to a regular dataset, replace placeholder images with refreshed official images and update `image_front`/`image_back`.
 - If the player on the TCDB page is not Mario Lemieux, warn the user before proceeding.
 - If slugification of the set name is ambiguous (e.g. unusual punctuation), show the derived keys to the user and ask for confirmation before writing.
 
@@ -241,7 +243,8 @@ Use this procedure when the user says "move this card from Chase to Regular", "p
 **Step M5 — Write card to destination**
 - Copy the full card object to the correct `cards` array in the destination file.
 - If the user specified an `inCollection` override, apply it; otherwise preserve the original value.
-- Preserve all other fields exactly (including `image_front`, `image_back`, `tcdb_href`, `price`, etc.).
+- Preserve all other fields exactly (including `tcdb_href`, `price`, etc.).
+- Exception: if `image_front` or `image_back` uses a filename ending in `-placeholder`, refresh to official non-placeholder images before writing to the regular dataset and update both image path fields.
 - Validate JSON; write the destination file.
 
 **Step M6 — Remove card from Chase**

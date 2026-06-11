@@ -52,6 +52,8 @@ Use this skill for repeat updates where new Mario Lemieux card images are added 
 ## Guardrails
 - Do not modify unrelated sets/cards.
 - Do not change existing IDs unless they are clearly wrong.
+- Treat filenames ending in `-placeholder` as temporary, non-official Chase images.
+- Keep `-placeholder` images in the Chase dataset; if a card is promoted/moved to a regular dataset, refresh images to official non-placeholder files and update image paths.
 - If filename parsing is ambiguous, ask one concise clarifying question before editing.
 
 ## Expected Output To User
