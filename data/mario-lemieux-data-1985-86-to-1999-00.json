@@ -3203,8 +3203,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 2.99
+              "inCollection": true,
+              "price": 1.99
             }
           ]
         }
@@ -5187,7 +5187,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 7
             }
           ]
         }
@@ -5337,7 +5338,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true
+              "inCollection": false
             },
             {
               "id": "ml-1995-96-parkhurst-international-parkie-picks-pp11",
