@@ -5942,6 +5942,29 @@
           "position": "Center",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "1995-96-ultra-ultraview",
+          "set_name": "Ultraview",
+          "set_display_name": "1995-96 Ultra - Ultraview",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1995-96-ultra-ultraview-6",
+              "base_number": "6",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Ultra---Ultraview-6-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Ultra---Ultraview-6-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5221/cid/1601122/1995-96-Ultra-6-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 22.50
+            }
+          ]
+        }
       ]
     },
     "1995-96-upper-deck": {

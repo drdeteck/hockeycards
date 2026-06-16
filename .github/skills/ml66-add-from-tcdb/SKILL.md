@@ -233,18 +233,29 @@ Use this procedure when the user says "move this card from Chase to Regular", "p
 - If the parent set does not exist in the destination: create it (same shape as Step 4 of the Add procedure).
 - If the card belongs to a subset and the subset does not exist: create it (same shape as Step 5 of the Add procedure).
 
-**Step M4b — Check for TCDB-named images in Chase folder**
+**Step M4b — Normalize image filenames in Chase folder (if TCDB-named)**
 - Using the `tcdb_href` stored on the card, extract `{sid}` and `{cid}`.
 - Check if `img/cards/ML66/Chase/{sid}-{cid}Fr.jpg` or `{sid}-{cid}Bk.jpg` exist.
 - If found: rename them using the standard ML66 filename convention (same rules as Step 7 of the Add procedure — replace ` - ` with `---`, spaces with `-`, append `-{CardNumber}-Mario-Lemieux{Fr|Bk}.jpg`).
 - Use `Rename-Item` in PowerShell to perform the rename.
-- Update the card object's `image_front` / `image_back` fields to the new Chase paths before writing to the destination.
+- Update the card object's `image_front` / `image_back` fields to the normalized Chase paths.
+
+**Step M4c — Move images from Chase folder to ML66 folder**
+- For each existing image path on the card object:
+  - If `image_front` starts with `img/cards/ML66/Chase/`, move that file to `img/cards/ML66/`.
+  - If `image_back` starts with `img/cards/ML66/Chase/`, move that file to `img/cards/ML66/`.
+- Use PowerShell `Move-Item`:
+  - `Move-Item -Path "img/cards/ML66/Chase/{filename}" -Destination "img/cards/ML66/{filename}"`
+- After moving, update `image_front` / `image_back` to `img/cards/ML66/{filename}`.
+- If one side is missing (empty string or file not found), move/update only the side that exists.
+- If destination file already exists, warn and stop to avoid accidental overwrite unless user explicitly requests replacement.
 
 **Step M5 — Write card to destination**
 - Copy the full card object to the correct `cards` array in the destination file.
 - If the user specified an `inCollection` override, apply it; otherwise preserve the original value.
 - Preserve all other fields exactly (including `tcdb_href`, `price`, etc.).
 - Exception: if `image_front` or `image_back` uses a filename ending in `-placeholder`, refresh to official non-placeholder images before writing to the regular dataset and update both image path fields.
+- Ensure destination card image paths do not reference `img/cards/ML66/Chase/` after a successful move.
 - Validate JSON; write the destination file.
 
 **Step M6 — Remove card from Chase**
