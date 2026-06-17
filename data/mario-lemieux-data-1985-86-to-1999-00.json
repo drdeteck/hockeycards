@@ -279,30 +279,6 @@
         }
       ]
     },
-    "1989-90-topps-sticker-inserts": {
-      "set_key": "1989-90-topps-sticker-inserts",
-      "set_name": "Topps Sticker Inserts",
-      "set_year_label": "1989-90",
-      "set_year_start": 1989,
-      "set_year_end": 1990,
-      "set_display_name": "1989-90 Topps Sticker Inserts",
-      "set_tcdb_href": "",
-      "cards": [
-        {
-          "id": "ml-1989-90-topps-sticker-inserts-3",
-          "base_number": "3",
-          "card_type": "sticker",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/1989-90-Topps---Stickers-3-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/1989-90-Topps---Stickers-3-Mario-LemieuxBk.jpg",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": true
-        }
-      ]
-    },
     "1990-91-bowman": {
       "set_key": "1990-91-bowman",
       "set_name": "Bowman",
@@ -4998,7 +4974,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": false,
+              "price": 10.00
             }
           ]
         }

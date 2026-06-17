@@ -491,6 +491,10 @@ ul {
     color: #ff8a65;
 }
 
+[data-theme='dark'] .card-grid-item-meta-price.card-grid-item-meta-price--owned {
+    color: #8ec5ff;
+}
+
 [data-theme='dark'] .card-grid-item-meta-paid-price {
     color: #2ecc71;
 }

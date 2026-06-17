@@ -1059,7 +1059,8 @@
             <span class="card-grid-item-meta-text"
                 data-bind="text: $root.GetCardGridMetaBase($data), attr: { title: $root.GetCardGridMetaTooltip($data) }"></span>
             <!-- ko if: $root.GetCardGridPriceCad($data) -->
-            <span class="card-grid-item-meta-price" data-bind="html: '· ' + $root.GetCardGridPriceCad($data)"></span>
+            <span class="card-grid-item-meta-price"
+                data-bind="html: '· ' + $root.GetCardGridPriceCad($data), css: { 'card-grid-item-meta-price--owned': $data.inCollection }"></span>
             <!-- /ko -->
             <!-- ko if: $root.GetCardGridPaidPriceCad($data) -->
             <span class="card-grid-item-meta-paid-price"

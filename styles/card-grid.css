@@ -80,6 +80,10 @@
     flex-shrink: 0;
 }
 
+.card-grid-item-meta-price--owned {
+    color: #6eaee6;
+}
+
 .card-grid-item-meta-paid-price {
     color: #27ae60;
     font-weight: 600;
