@@ -2650,6 +2650,151 @@
                     ]
                 }
             ]
+        },
+        "2000-01-pacific-crown-royale": {
+            "set_key": "2000-01-pacific-crown-royale",
+            "set_name": "Pacific Crown Royale",
+            "set_year_label": "2000-01",
+            "set_year_start": 2000,
+            "set_year_end": 2001,
+            "set_display_name": "2000-01 Pacific Crown Royale",
+            "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5550/2000-01-Pacific-Crown-Royale",
+            "cards": [],
+            "subsets": [
+                {
+                    "set_key": "2000-01-pacific-crown-royale-ice-blue",
+                    "set_name": "Ice Blue",
+                    "set_display_name": "2000-01 Pacific Crown Royale - Ice Blue",
+                    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49637/2000-01-Pacific-Crown-Royale---Ice-Blue",
+                    "cards": [
+                        {
+                            "id": "ml-2000-01-pacific-crown-royale-ice-blue-87",
+                            "base_number": "87",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/Chase/2000-01-Pacific-Crown-Royale---Ice-Blue-87-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/Chase/2000-01-Pacific-Crown-Royale---Ice-Blue-87-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49637/cid/1681552/2000-01-Pacific-Crown-Royale-87-Mario-Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": false
+                        }
+                    ]
+                },
+                {
+                    "set_key": "2000-01-pacific-crown-royale-now-playing",
+                    "set_name": "Now Playing",
+                    "set_display_name": "2000-01 Pacific Crown Royale - Now Playing",
+                    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49641/2000-01-Pacific-Crown-Royale---Now-Playing",
+                    "cards": [
+                        {
+                            "id": "ml-2000-01-pacific-crown-royale-now-playing-15",
+                            "base_number": "15",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/Chase/2000-01-Pacific-Crown-Royale---Now-Playing-15-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/Chase/2000-01-Pacific-Crown-Royale---Now-Playing-15-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49641/cid/1681731/2000-01-Pacific-Crown-Royale-15-Mario-Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": false
+                        }
+                    ]
+                },
+                {
+                    "set_key": "2000-01-pacific-crown-royale-landmarks",
+                    "set_name": "Landmarks",
+                    "set_display_name": "2000-01 Pacific Crown Royale - Landmarks",
+                    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49639/2000-01-Pacific-Crown-Royale---Landmarks",
+                    "cards": [
+                        {
+                            "id": "ml-2000-01-pacific-crown-royale-landmarks-9",
+                            "base_number": "9",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49639/cid/1681607/2000-01-Pacific-Crown-Royale-9-Mario-Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": false
+                        }
+                    ]
+                },
+                {
+                    "set_key": "2000-01-pacific-crown-royale-limited-series",
+                    "set_name": "Limited Series",
+                    "set_display_name": "2000-01 Pacific Crown Royale - Limited Series",
+                    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49640/2000-01-Pacific-Crown-Royale---Limited-Series",
+                    "cards": [
+                        {
+                            "id": "ml-2000-01-pacific-crown-royale-limited-series-87",
+                            "base_number": "87",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49640/cid/1681695/2000-01-Pacific-Crown-Royale-87-Mario-Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": false
+                        }
+                    ]
+                },
+                {
+                    "set_key": "2000-01-pacific-crown-royale-premiere-date",
+                    "set_name": "Premiere Date",
+                    "set_display_name": "2000-01 Pacific Crown Royale - Premiere Date",
+                    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49642/2000-01-Pacific-Crown-Royale---Premiere-Date",
+                    "cards": [
+                        {
+                            "id": "ml-2000-01-pacific-crown-royale-premiere-date-87",
+                            "base_number": "87",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49642/cid/1681823/2000-01-Pacific-Crown-Royale-87-Mario-Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "2000-01-be-a-player-signature-series": {
+            "set_key": "2000-01-be-a-player-signature-series",
+            "set_name": "Be a Player Signature Series",
+            "set_year_label": "2000-01",
+            "set_year_start": 2000,
+            "set_year_end": 2001,
+            "set_display_name": "2000-01 Be a Player Signature Series",
+            "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5546/2000-01-Be-a-Player-Signature-Series",
+            "cards": [],
+            "subsets": [
+                {
+                    "set_key": "2000-01-be-a-player-signature-series-he-shoots-he-scores-points",
+                    "set_name": "He Shoots-He Scores Points",
+                    "set_display_name": "2000-01 Be a Player Signature Series - He Shoots-He Scores Points",
+                    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49556/2000-01-Be-a-Player-Signature-Series---He-Shoots-He-Scores-Points",
+                    "cards": [
+                        {
+                            "id": "ml-2000-01-be-a-player-signature-series-he-shoots-he-scores-points-nno",
+                            "base_number": "NNO",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/Chase/2000-01-Be-a-Player-Signature-Series---He-Shoots-He-Scores-Points-NNO-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/Chase/2000-01-Be-a-Player-Signature-Series---He-Shoots-He-Scores-Points-NNO-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49556/cid/1677125/2000-01-Be-a-Player-Signature-Series-NNO-Mario-Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "variant_note": "3PT",
+                            "inCollection": false
+                        }
+                    ]
+                }
+            ]
         }
     }
 }
