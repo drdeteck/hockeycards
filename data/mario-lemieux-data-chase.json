@@ -726,27 +726,6 @@
             "cards": [],
             "subsets": [
                 {
-                    "set_key": "1995-96-upper-deck-all-stars",
-                    "set_name": "All-Stars",
-                    "set_display_name": "1995-96 Upper Deck - All-Stars",
-                    "set_tcdb_href": "",
-                    "cards": [
-                        {
-                            "id": "ml-1995-96-upper-deck-all-stars-as5",
-                            "base_number": "AS5",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1995-96-Upper-Deck---All-Stars-AS5-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1995-96-Upper-Deck---All-Stars-AS5-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5227/cid/1601294/1995-96-Upper-Deck-AS5-Mario-Lemieux-/-Wayne-Gretzky",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": false,
-                            "price": 22.00
-                        }
-                    ]
-                },
-                {
                     "set_key": "1995-96-upper-deck-electric-ice-gold",
                     "set_name": "Electric Ice Gold",
                     "set_display_name": "1995-96 Upper Deck - Electric Ice Gold",

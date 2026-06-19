@@ -3551,7 +3551,9 @@
           "image_back": "img/cards/ML66/2002-03-Topps-2-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true,
+          "price": 2.45
         }
       ],
       "subsets": [
@@ -4358,6 +4360,20 @@
               "variant_note": "028/750",
               "inCollection": true,
               "price": 6.44
+            },
+            {
+              "id": "ml-2003-04-spx-xcitement-114",
+              "base_number": "114",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2003-04-SPx-114-Mario-LemieuxFr.jpg",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "/750",
+              "inCollection": true,
+              "price": 9.30
             }
           ]
         }
@@ -5745,6 +5761,40 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ]
+    },
+    "2007-08-upper-deck-trilogy": {
+      "set_key": "2007-08-upper-deck-trilogy",
+      "set_name": "Upper Deck Trilogy",
+      "set_year_label": "2007-08",
+      "set_year_start": 2007,
+      "set_year_end": 2008,
+      "set_display_name": "2007-08 Upper Deck Trilogy",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2007-08-upper-deck-trilogy-future-icons-frozen-in-time",
+          "set_name": "Future Icons Frozen in Time",
+          "set_display_name": "2007-08 Upper Deck Trilogy - Future Icons Frozen in Time",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2007-08-upper-deck-trilogy-future-icons-frozen-in-time-111",
+              "base_number": "111",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2007-08-Upper-Deck-Trilogy-111-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2007-08-Upper-Deck-Trilogy-111-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "/799",
+              "inCollection": true,
+              "price": 23.50
+            }
+          ]
         }
       ]
     },
