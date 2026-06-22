@@ -7393,7 +7393,9 @@
               "image_back": "img/cards/ML66/1996-97-Pinnacle-Be-a-Player---Biscuit-in-the-Basket-2-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": false,
+              "price": 15
             }
           ]
         }
@@ -7769,7 +7771,9 @@
               "image_back": "img/cards/ML66/5338-1608370Bk.png",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5338/cid/1608370/1996-97-SPx-Holoview-Heroes-HH6-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 8
             }
           ]
         }
