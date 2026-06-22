@@ -3527,7 +3527,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.25
             }
           ]
         }
@@ -4000,6 +4001,28 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2003-04-be-a-player-memorabilia-brush-with-greatness",
+          "set_name": "Brush with Greatness",
+          "set_display_name": "2003-04 Be a Player Memorabilia - Brush with Greatness",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-be-a-player-memorabilia-brush-with-greatness-1",
+              "base_number": "1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Be-a-Player-Memorabilia---Brush-with-Greatness-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Be-a-Player-Memorabilia---Brush-with-Greatness-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -6438,7 +6461,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.83
             }
           ]
         },
@@ -6833,6 +6857,29 @@
               "inCollection": false
             }
           ]
+        }
+      ]
+    },
+    "2012-13-in-the-game-heroes-and-prospects": {
+      "set_key": "2012-13-in-the-game-heroes-and-prospects",
+      "set_name": "In The Game Heroes and Prospects",
+      "set_year_label": "2012-13",
+      "set_year_start": 2012,
+      "set_year_end": 2013,
+      "set_display_name": "2012-13 In The Game Heroes and Prospects",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2012-13-in-the-game-heroes-and-prospects-17",
+          "base_number": "17",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2012-13-In-The-Game-Heroes-and-Prospects-17-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2012-13-In-The-Game-Heroes-and-Prospects-17-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
