@@ -5317,7 +5317,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": false,
+              "price": 13.00
             },
             {
               "id": "ml-1995-96-parkhurst-international-parkie-picks-pp11",
@@ -5329,7 +5330,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": false,
+              "price": 50.01
             }
           ]
         }
@@ -5712,7 +5714,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": false,
+              "price": 50.01
             }
           ]
         }
@@ -5737,7 +5740,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": false,
+          "price": 70.01
         }
       ],
       "subsets": [
@@ -5801,7 +5805,9 @@
               "image_back": "img/cards/ML66/1995-96-Topps---Mystery-Finest-M2-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": false,
+              "price": 200.01
             }
           ]
         },
@@ -6861,7 +6867,9 @@
               "image_back": "img/cards/ML66/1996-97-Donruss-Elite---Hart-to-Hart-Mario-Lemieux-6-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": false,
+              "price": 36
             }
           ]
         },
@@ -7014,7 +7022,9 @@
               "image_back": "img/cards/ML66/1996-97-Fleer---Pearson-Award-7-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": false,
+              "price": 50.01
             }
           ]
         },
@@ -7079,7 +7089,9 @@
               "image_back": "img/cards/ML66/1996-97-Leaf---Fire-on-Ice-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": false,
+              "price": 200.01
             }
           ]
         },
@@ -7098,7 +7110,9 @@
               "image_back": "img/cards/ML66/1996-97-Leaf---Sweaters-(Away)-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": false,
+              "price": 50.01
             }
           ]
         }
@@ -7213,7 +7227,8 @@
               "name": "Mario Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": false,
+              "price": 75.01
             }
           ]
         }
