@@ -1143,6 +1143,38 @@
                 }
             ]
         },
+        "1996-97-fleer-nhl-picks": {
+            "set_key": "1996-97-fleer-nhl-picks",
+            "set_name": "Fleer NHL Picks",
+            "set_year_label": "1996-97",
+            "set_year_start": 1996,
+            "set_year_end": 1997,
+            "set_display_name": "1996-97 Fleer NHL Picks",
+            "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5274/1996-97-Fleer-NHL-Picks",
+            "cards": [],
+            "subsets": [
+                {
+                    "set_key": "1996-97-fleer-nhl-picks-captains-choice",
+                    "set_name": "Captain's Choice",
+                    "set_display_name": "1996-97 Fleer NHL Picks - Captain's Choice",
+                    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5275/1996-97-Fleer-NHL-Picks---Captain's-Choice",
+                    "cards": [
+                        {
+                            "id": "ml-1996-97-fleer-nhl-picks-captains-choice-3",
+                            "base_number": "3",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/Chase/1996-97-Fleer-NHL-Picks---Captain's-Choice-3-Mario-LemieuxFr.jpg",
+                            "image_back": "",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5275/cid/1603798/1996-97-Fleer-NHL-Picks-3-Mario-Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": false
+                        }
+                    ]
+                }
+            ]
+        },
         "1996-97-leaf": {
             "set_key": "1996-97-leaf",
             "set_name": "Leaf",
@@ -1865,9 +1897,9 @@
                         {
                             "id": "ml-1996-97-upper-deck-ice-acetate-114",
                             "base_number": "114",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
+                            "image_front": "img/cards/ML66/1996-97-Upper-Deck-Ice---Acetate-114-Mario-LemieuxFr.jpg",
                             "image_back": "",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5362/cid/1610074/1996-97-Upper-Deck-Ice-114-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
