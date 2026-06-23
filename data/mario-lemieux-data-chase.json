@@ -1788,7 +1788,8 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48606/cid/1607794/1996-97-Select-Certified-10-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 108.00
                         }
                     ]
                 },
