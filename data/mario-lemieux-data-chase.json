@@ -1100,7 +1100,7 @@
                             "base_number": "4",
                             "orientation_front": "portrait",
                             "orientation_back": "portrait",
-                            "image_front": "",
+                            "image_front": "img/cards/ML66/Chase/1996-97-Donruss-Elite---Perspective-Executive-Proofs-4-Mario-LemieuxFr.jpg",
                             "image_back": "",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/481539/cid/27342177/1996-97-Donruss-Elite-4-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
@@ -2631,7 +2631,7 @@
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
                             "inCollection": false,
-                            "price": 10.50
+                            "price": 0
                         }
                     ]
                 }
