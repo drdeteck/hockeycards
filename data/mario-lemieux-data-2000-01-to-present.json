@@ -987,6 +987,27 @@
           "position": "Center",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2000-01-ud-reserve-gold-strike",
+          "set_name": "Gold Strike",
+          "set_display_name": "2000-01 UD Reserve - Gold Strike",
+          "cards": [
+            {
+              "id": "ml-2000-01-ud-reserve-gold-strike-gs8",
+              "base_number": "GS8",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-UD-Reserve---Gold-Strike-GS8-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-UD-Reserve---Gold-Strike-GS8-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
       ]
     },
     "2000-01-upper-deck": {
