@@ -2613,6 +2613,27 @@
                             "price": 28.06
                         }
                     ]
+                },
+                {
+                    "set_key": "1994-95-score-dream-team",
+                    "set_name": "Dream Team",
+                    "set_display_name": "1994-95 Score - Dream Team",
+                    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5062/1994-95-Score---Dream-Team",
+                    "cards": [
+                        {
+                            "id": "ml-1994-95-score-dream-team-dt15",
+                            "base_number": "DT15",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/Chase/1994-95-Score---Dream-Team-DT15-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/Chase/1994-95-Score---Dream-Team-DT15-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5062/cid/1592607/1994-95-Score-Dream-Team-DT15-Mario-Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": false,
+                            "price": 10.50
+                        }
+                    ]
                 }
             ]
         },
