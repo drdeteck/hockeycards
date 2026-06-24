@@ -917,7 +917,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Pro-Set---Player-of-the-Month-P3-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "price": 70.01
+              "inCollection": true,
+              "price": 40
             }
           ]
         }
@@ -5806,8 +5807,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 200.01
+              "inCollection": true,
+              "price": "35.07"
             }
           ]
         },

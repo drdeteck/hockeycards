@@ -439,7 +439,8 @@
                     "variant_note": "Larry Robinson / Larry Murphy panel",
                     "card_type": "sticker",
                     "default_face": "back",
-                    "inCollection": false
+                    "inCollection": true,
+                    "price": 2.5
                 },
                 {
                     "id": "ml-sticker-1989-90-opc-stickers-68-208",
