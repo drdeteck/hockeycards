@@ -24,7 +24,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2
         }
       ],
       "subsets": [
@@ -69,7 +70,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 4.5
         }
       ],
       "subsets": [
@@ -515,7 +517,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 6
         }
       ],
       "subsets": []
@@ -1275,8 +1278,30 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true,
-          "price": 3.54
+          "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2001-02-bowman-youngstars-ice-cubed",
+          "set_name": "Ice Cubed",
+          "set_display_name": "2001-02 Bowman YoungStars - Ice Cubed",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-bowman-youngstars-ice-cubed-3",
+              "base_number": "3",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2001-02-Bowman-YoungStars-Ice-Cubed-3-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Bowman-YoungStars-Ice-Cubed-3-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 3
+            }
+          ]
         }
       ]
     },
@@ -1486,8 +1511,8 @@
             {
               "id": "ml-2001-02-pacific-419",
               "base_number": "419",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2001-02-Pacific-419-Mario-Lemieux--Krzysztof-OliwaFr.jpg",
               "image_back": "img/cards/ML66/2001-02-Pacific-419-Mario-Lemieux--Krzysztof-OliwaBk.jpg",
               "tcdb_href": "",
@@ -1499,8 +1524,8 @@
             {
               "id": "ml-2001-02-pacific-439",
               "base_number": "439",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2001-02-Pacific-439-Jaromir-Jagr--Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2001-02-Pacific-439-Jaromir-Jagr--Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -1574,7 +1599,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.8
             }
           ]
         }
@@ -1936,7 +1962,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.8
             }
           ]
         }
@@ -2213,7 +2240,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 3.5
             },
             {
               "id": "ml-2001-02-topps-chrome-mlr-5",
@@ -2225,7 +2253,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 3.5
             },
             {
               "id": "ml-2001-02-topps-chrome-mlr-6",
@@ -2408,7 +2437,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.8
             }
           ]
         },
@@ -2428,7 +2458,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.5
             }
           ]
         },
@@ -2992,7 +3023,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 9.22
+          "price": 1.5
         },
         {
           "id": "ml-2002-03-bap-memorabilia-224",
@@ -3025,6 +3056,28 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-bap-memorabilia-ruby",
+          "set_name": "Ruby",
+          "set_display_name": "2002-03 BAP Memorabilia - Ruby",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-bap-memorabilia-ruby-nno",
+              "base_number": "NNO",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia---Ruby-157-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia---Ruby-157-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "note": "/200",
+              "position": "Center",
+              "inCollection": true,
+              "price": 7.5
             }
           ]
         }
@@ -3129,8 +3182,8 @@
             {
               "id": "ml-2002-03-pacific-maximum-impact-15",
               "base_number": "15",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2002-03-Pacific---Maximum-Impact-15-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2002-03-Pacific---Maximum-Impact-15-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -3150,8 +3203,8 @@
             {
               "id": "ml-2002-03-pacific-lamplighters-11",
               "base_number": "11",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2002-03-Pacific---Lamplighters-11-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2002-03-Pacific---Lamplighters-11-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -3159,6 +3212,27 @@
               "position": "Center",
               "inCollection": true,
               "price": 7
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-pacific-main-attractions",
+          "set_name": "Main Attractions",
+          "set_display_name": "2002-03 Pacific - Main Attractions",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-main-attractions-16",
+              "base_number": "16",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Pacific---Main-Attractions-16-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Pacific---Main-Attractions-16-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 3
             }
           ]
         }
@@ -3230,6 +3304,68 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-pacific-crown-royale-complete",
+          "set_name": "Complete",
+          "set_display_name": "2002-03 Pacific Crown Royale - Complete",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-crown-royale-complete-303",
+              "base_number": "303",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Complete-303-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Complete-303-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-pacific-crown-royale-lords-of-the-rink",
+          "set_name": "Lords of the Rink",
+          "set_display_name": "2002-03 Pacific Crown Royale - Lords of the Rink",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-crown-royale-lords-of-the-rink-16",
+              "base_number": "16",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Lords-of-the-Rink-16-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Lords-of-the-Rink-16-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-pacific-crown-royale-royal-portraits",
+          "set_name": "Royal Portraits",
+          "set_display_name": "2002-03 Pacific Crown Royale - Royal Portraits",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-crown-royale-royal-portraits-9",
+              "base_number": "9",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Royal-Portraits-9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Royal-Portraits-9-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -3770,7 +3906,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 1.41
+          "price": 2
         }
       ]
     },
