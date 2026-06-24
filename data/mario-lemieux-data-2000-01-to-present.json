@@ -1291,8 +1291,8 @@
             {
               "id": "ml-2001-02-bowman-youngstars-ice-cubed-3",
               "base_number": "3",
-              "orientation_front": "landscape",
-              "orientation_back": "landscape",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2001-02-Bowman-YoungStars-Ice-Cubed-3-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2001-02-Bowman-YoungStars-Ice-Cubed-3-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -3336,8 +3336,8 @@
             {
               "id": "ml-2002-03-pacific-crown-royale-lords-of-the-rink-16",
               "base_number": "16",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Lords-of-the-Rink-16-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Lords-of-the-Rink-16-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -3828,8 +3828,8 @@
         {
           "id": "ml-2002-03-topps-heritage-7",
           "base_number": "7",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
           "image_front": "img/cards/ML66/2002-03-Topps-Heritage-7-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/2002-03-Topps-Heritage-7-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
