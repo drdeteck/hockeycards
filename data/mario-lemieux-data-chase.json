@@ -177,33 +177,6 @@
                             "location": "US"
                         },
                         {
-                            "id": "ml-1993-94-stadium-club-first-day-issue-146",
-                            "base_number": "146",
-                            "name": "Mario Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1993-94-Stadium-Club---First-Day-Issue-146-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1993-94-Stadium-Club---First-Day-Issue-146-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48480/cid/1587805/1993-94-Stadium-Club-146-Mario-Lemieux",
-                            "inCollection": false
-                        },
-                        {
-                            "id": "ml-1993-94-stadium-club-first-day-issue-148",
-                            "base_number": "148",
-                            "name": "Mario Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1993-94-Stadium-Club---First-Day-Issue-148-Mario-LemieuxFr-placeholder.jpg",
-                            "image_back": "",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48480/cid/1587807/1993-94-Stadium-Club-148-Mario-Lemieux",
-                            "inCollection": false,
-                            "price": 39.95
-                        },
-                        {
                             "id": "ml-1993-94-stadium-club-first-day-issue-310",
                             "base_number": "310",
                             "name": "Mario Lemieux",
@@ -433,26 +406,6 @@
                     ]
                 },
                 {
-                    "set_key": "1995-96-score-summit-general-managers-choice",
-                    "set_name": "General Manager's Choice",
-                    "set_display_name": "1995-96 Score Summit - General Manager's Choice",
-                    "set_tcdb_href": "",
-                    "cards": [
-                        {
-                            "id": "ml-1995-96-score-summit-general-managers-choice-10",
-                            "base_number": "10",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1995-96-Score-Summit---General-Managers-Choice-10-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1995-96-Score-Summit---General-Managers-Choice-10-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5200/cid/1599792/1995-96-Score-Summit-10-Mario-Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": false
-                        }
-                    ]
-                },
-                {
                     "set_key": "1995-96-score-summit-ice",
                     "set_name": "Ice",
                     "set_display_name": "1995-96 Score Summit - Ice",
@@ -498,58 +451,6 @@
                             "image_front": "img/cards/ML66/Chase/5111-1599363Fr.jpg",
                             "image_back": "img/cards/ML66/Chase/5111-1599363Bk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5111/cid/1599363/1995-96-Select-Certified-3-Mario-Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": false
-                        }
-                    ]
-                },
-                {
-                    "set_key": "1995-96-select-certified-mirror-gold",
-                    "set_name": "Mirror Gold",
-                    "set_display_name": "1995-96 Select Certified - Mirror Gold",
-                    "set_tcdb_href": "",
-                    "cards": [
-                        {
-                            "id": "ml-1995-96-select-certified-mirror-gold-1",
-                            "base_number": "1",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1995-96-Select-Certified---Mirror-Gold-1-Mario-LemieuxFr-placeholder.jpg",
-                            "image_back": "",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5112/cid/1536626/1995-96-Select-Certified-1-Mario-Lemieux-",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": false
-                        }
-                    ]
-                }
-            ]
-        },
-        "1995-96-skybox-e-motion": {
-            "set_key": "1995-96-skybox-e-motion",
-            "set_name": "SkyBox E-Motion",
-            "set_year_label": "1995-96",
-            "set_year_start": 1995,
-            "set_year_end": 1996,
-            "set_display_name": "1995-96 SkyBox E-Motion",
-            "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5135/1995-96-skybox-e-motion-xcel",
-            "cards": [],
-            "subsets": [
-                {
-                    "set_key": "1995-96-skybox-e-motion-xcel",
-                    "set_name": "Xcel",
-                    "set_display_name": "1995-96 SkyBox E-Motion - Xcel",
-                    "set_tcdb_href": "",
-                    "cards": [
-                        {
-                            "id": "ml-1995-96-skybox-e-motion-xcel-8",
-                            "base_number": "8",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1995-96-SkyBox-E-Motion---Xcel-8-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1995-96-SkyBox-E-Motion---Xcel-8-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5138/cid/1597923/1995-96-SkyBox-E-Motion-8-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
                             "inCollection": false
@@ -662,59 +563,6 @@
                 }
             ]
         },
-        "1995-96-ultra": {
-            "set_key": "1995-96-ultra",
-            "set_name": "Ultra",
-            "set_year_label": "1995-96",
-            "set_year_start": 1995,
-            "set_year_end": 1996,
-            "set_display_name": "1995-96 Ultra",
-            "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5216/1995-96-ultra-extra-attacker",
-            "cards": [],
-            "subsets": [
-                {
-                    "set_key": "1995-96-ultra-extra-attacker",
-                    "set_name": "Extra Attacker",
-                    "set_display_name": "1995-96 Ultra - Extra Attacker",
-                    "set_tcdb_href": "",
-                    "cards": [
-                        {
-                            "id": "ml-1995-96-ultra-extra-attacker-13",
-                            "base_number": "13",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1995-96-Ultra---Extra-Attacker-13-Mario-LemieuxFr-placeholder.jpg",
-                            "image_back": "",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5219/cid/1600795/1995-96-Ultra-13-Mario-Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": false
-                        }
-                    ]
-                },
-                {
-                    "set_key": "1995-96-ultra-ultraview-hot-packs",
-                    "set_name": "Ultraview Hot Packs",
-                    "set_display_name": "1995-96 Ultra - Ultraview Hot Packs",
-                    "set_tcdb_href": "",
-                    "cards": [
-                        {
-                            "id": "ml-1995-96-ultra-ultraview-hot-packs-6",
-                            "base_number": "6",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1995-96-Ultra---Ultraview-Hot-Packs-6-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1995-96-Ultra---Ultraview-Hot-Packs-6-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48547/cid/1601112/1995-96-Ultra-6-Mario-Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": false,
-                            "price": 30.00
-                        }
-                    ]
-                }
-            ]
-        },
         "1995-96-upper-deck": {
             "set_key": "1995-96-upper-deck",
             "set_name": "Upper Deck",
@@ -791,50 +639,6 @@
                             "image_front": "img/cards/ML66/Chase/1995-96-Upper-Deck---Predictors-All-Star-MVP-Exchange-MVP-R16-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/Chase/1995-96-Upper-Deck---Predictors-All-Star-MVP-Exchange-MVP-R16-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48549/cid/1601172/1995-96-Upper-Deck-MVP-R16-Mario-Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": false
-                        }
-                    ]
-                },
-                {
-                    "set_key": "1995-96-upper-deck-predictors-retail-exchange",
-                    "set_name": "Predictors Retail Exchange",
-                    "set_display_name": "1995-96 Upper Deck - Predictors Retail Exchange",
-                    "set_tcdb_href": "",
-                    "cards": [
-                        {
-                            "id": "ml-1995-96-upper-deck-predictors-retail-exchange-rr32",
-                            "base_number": "RR32",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1995-96-Upper-Deck---Predictors-Retail-Exchange-RR32-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1995-96-Upper-Deck---Predictors-Retail-Exchange-RR32-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48554/cid/1601481/1995-96-Upper-Deck-RR32-Mario-Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": false
-                        },
-                        {
-                            "id": "ml-1995-96-upper-deck-predictors-retail-exchange-rr42",
-                            "base_number": "RR42",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1995-96-Upper-Deck---Predictors-Retail-Exchange-RR42-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1995-96-Upper-Deck---Predictors-Retail-Exchange-RR42-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48554/cid/1601491/1995-96-Upper-Deck-RR42-Mario-Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": false
-                        },
-                        {
-                            "id": "ml-1995-96-upper-deck-predictors-retail-exchange-rr53",
-                            "base_number": "RR53",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1995-96-Upper-Deck---Predictors-Retail-Exchange-RR53-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1995-96-Upper-Deck---Predictors-Retail-Exchange-RR53-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48554/cid/1601502/1995-96-Upper-Deck-RR53-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
                             "inCollection": false
@@ -2444,18 +2248,6 @@
                             "inCollection": false
                         },
                         {
-                            "id": "ml-1995-96-donruss-elite-mario-lemieux-series-2",
-                            "base_number": "2",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1995-96-Donruss-Elite---Mario-Lemieux-Series-2-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1995-96-Donruss-Elite---Mario-Lemieux-Series-2-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5124/cid/1597590/1995-96-Donruss-Elite-2-Mario-Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": false
-                        },
-                        {
                             "id": "ml-1995-96-donruss-elite-mario-lemieux-series-3",
                             "base_number": "3",
                             "orientation_front": "portrait",
@@ -2468,18 +2260,6 @@
                             "inCollection": false
                         },
                         {
-                            "id": "ml-1995-96-donruss-elite-mario-lemieux-series-4",
-                            "base_number": "4",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1995-96-Donruss-Elite---Mario-Lemieux-Series-4-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1995-96-Donruss-Elite---Mario-Lemieux-Series-4-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5124/cid/1597592/1995-96-Donruss-Elite-4-Mario-Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": false
-                        },
-                        {
                             "id": "ml-1995-96-donruss-elite-mario-lemieux-series-5",
                             "base_number": "5",
                             "orientation_front": "portrait",
@@ -2487,18 +2267,6 @@
                             "image_front": "img/cards/ML66/Chase/1995-96-Donruss-Elite---Mario-Lemieux-Series-5-Mario-LemieuxFr.jpg",
                             "image_back": "img/cards/ML66/Chase/1995-96-Donruss-Elite---Mario-Lemieux-Series-5-Mario-LemieuxBk.jpg",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5124/cid/1597593/1995-96-Donruss-Elite-5-Mario-Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": false
-                        },
-                        {
-                            "id": "ml-1995-96-donruss-elite-mario-lemieux-series-6",
-                            "base_number": "6",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1995-96-Donruss-Elite---Mario-Lemieux-Series-6-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1995-96-Donruss-Elite---Mario-Lemieux-Series-6-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5124/cid/1597594/1995-96-Donruss-Elite-6-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
                             "inCollection": false
@@ -2594,27 +2362,6 @@
             "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5058/1994-95-Score",
             "cards": [],
             "subsets": [
-                {
-                    "set_key": "1994-95-score-the-franchise",
-                    "set_name": "The Franchise",
-                    "set_display_name": "1994-95 Score - The Franchise",
-                    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5063/1994-95-Score---The-Franchise",
-                    "cards": [
-                        {
-                            "id": "ml-1994-95-score-the-franchise-tf18",
-                            "base_number": "TF18",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1994-95-Score---The-Franchise-TF18-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1994-95-Score---The-Franchise-TF18-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5063/cid/1592634/1994-95-Score-TF18-Mario-Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": false,
-                            "price": 28.06
-                        }
-                    ]
-                },
                 {
                     "set_key": "1994-95-score-dream-team",
                     "set_name": "Dream Team",
