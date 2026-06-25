@@ -115,28 +115,6 @@
             "cards": [],
             "subsets": [
                 {
-                    "set_key": "1993-94-stadium-club-all-stars-members-only",
-                    "set_name": "All-Stars Members Only",
-                    "set_display_name": "1993-94 Stadium Club - All-Stars Members Only",
-                    "cards": [
-                        {
-                            "id": "ml-1993-94-stadium-club-all-stars-members-only-nno",
-                            "base_number": "NNO",
-                            "name": "Mario Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1993-94-Stadium-Club---All-Stars-Members-Only-NNO-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1993-94-Stadium-Club---All-Stars-Members-Only-NNO-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/67718/cid/5248147/1993-94-Stadium-Club-NNO-Mario-Lemieux",
-                            "inCollection": false,
-                            "price": 27.67,
-                            "location": "US"
-                        }
-                    ]
-                },
-                {
                     "set_key": "1993-94-stadium-club-finest-refractors-test",
                     "set_name": "Finest Refractors Test",
                     "set_display_name": "1993-94 Stadium Club - Finest Refractors Test",
@@ -152,42 +130,8 @@
                             "image_front": "img/cards/ML66/Chase/1993-94-Stadium-Club---Finest-Refractors-Test-10-Mario-LemieuxFr-placeholder.jpg",
                             "image_back": "",
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/552864/cid/31462172/1993-94-Stadium-Club-10-Mario-Lemieux",
-                            "inCollection": false
-                        }
-                    ]
-                },
-                {
-                    "set_key": "1993-94-stadium-club-first-day-issue",
-                    "set_name": "First Day Issue",
-                    "set_display_name": "1993-94 Stadium Club - First Day Issue",
-                    "cards": [
-                        {
-                            "id": "ml-1993-94-stadium-club-first-day-issue-143",
-                            "base_number": "143",
-                            "name": "Mario Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1993-94-Stadium-Club---First-Day-Issue-143-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1993-94-Stadium-Club---First-Day-Issue-143-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48480/cid/1587802/1993-94-Stadium-Club-143-Mario-Lemieux",
                             "inCollection": false,
-                            "price": 38.74,
-                            "location": "US"
-                        },
-                        {
-                            "id": "ml-1993-94-stadium-club-first-day-issue-310",
-                            "base_number": "310",
-                            "name": "Mario Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1993-94-Stadium-Club---First-Day-Issue-310-Mario-LemieuxFr-placeholder.jpg",
-                            "image_back": "",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48480/cid/1587969/1993-94-Stadium-Club-310-Mario-Lemieux",
-                            "inCollection": false
+                            "price": 1000
                         }
                     ]
                 }
@@ -2347,39 +2291,6 @@
                             "position": "Center",
                             "inCollection": false,
                             "price": 48.35
-                        }
-                    ]
-                }
-            ]
-        },
-        "1994-95-score": {
-            "set_key": "1994-95-score",
-            "set_name": "Score",
-            "set_year_label": "1994-95",
-            "set_year_start": 1994,
-            "set_year_end": 1995,
-            "set_display_name": "1994-95 Score",
-            "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5058/1994-95-Score",
-            "cards": [],
-            "subsets": [
-                {
-                    "set_key": "1994-95-score-dream-team",
-                    "set_name": "Dream Team",
-                    "set_display_name": "1994-95 Score - Dream Team",
-                    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5062/1994-95-Score---Dream-Team",
-                    "cards": [
-                        {
-                            "id": "ml-1994-95-score-dream-team-dt15",
-                            "base_number": "DT15",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1994-95-Score---Dream-Team-DT15-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1994-95-Score---Dream-Team-DT15-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5062/cid/1592607/1994-95-Score-Dream-Team-DT15-Mario-Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": false,
-                            "price": 0
                         }
                     ]
                 }
