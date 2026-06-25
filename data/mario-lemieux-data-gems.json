@@ -77,6 +77,32 @@
                 }
             ]
         },
+        "2007-08-upper-deck-trilogy-future-icons-frozen-in-time": {
+            "set_key": "2007-08-upper-deck-trilogy-future-icons-frozen-in-time",
+            "set_name": "Upper Deck Trilogy - Future Icons Frozen in Time",
+            "set_year_label": "2007-08",
+            "set_year_start": 2007,
+            "set_year_end": 2008,
+            "set_display_name": "2007-08 Upper Deck Trilogy - Future Icons Frozen in Time",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-2007-08-upper-deck-trilogy-future-icons-frozen-in-time-111",
+                    "base_number": "111",
+                    "card_type": "numbered",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Gems/2007-08-Upper-Deck-Trilogy-111-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Gems/2007-08-Upper-Deck-Trilogy-111-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "variant_note": "/799",
+                    "inCollection": true,
+                    "price": 23.5
+                }
+            ]
+        },
         "2008-09-spx-winning-combos": {
             "set_key": "2008-09-spx-winning-combos",
             "set_name": "SPx - Winning Combos",
@@ -115,8 +141,8 @@
                     "id": "ml-2013-14-spx-winning-materials-wm-ml",
                     "base_number": "WM-ML",
                     "card_type": "memorabilia",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
                     "image_front": "img/cards/ML66/Gems/2013-14-SPx---Winning-Materials-WM-ML-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/Gems/2013-14-SPx---Winning-Materials-WM-ML-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
