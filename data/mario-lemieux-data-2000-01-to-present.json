@@ -840,6 +840,78 @@
           "set_tcdb_href": "",
           "cards": [
             {
+              "id": "ml-2000-01-topps-chrome-mlr-1",
+              "base_number": "1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-1-Mario-Lemieux-placeholder.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-1-Mario-Lemieux-placeholder.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2000-01-topps-chrome-mlr-2",
+              "base_number": "2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-2-Mario-Lemieux-placeholder.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-2-Mario-Lemieux-placeholder.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2000-01-topps-chrome-mlr-3",
+              "base_number": "3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-3-Mario-Lemieux-placeholder.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-3-Mario-Lemieux-placeholder.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2000-01-topps-chrome-mlr-4",
+              "base_number": "4",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-4-Mario-Lemieux-placeholder.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-4-Mario-Lemieux-placeholder.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2000-01-topps-chrome-mlr-5",
+              "base_number": "5",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-5-Mario-Lemieux-placeholder.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-5-Mario-Lemieux-placeholder.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2000-01-topps-chrome-mlr-6",
+              "base_number": "6",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-6-Mario-Lemieux-placeholder.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-6-Mario-Lemieux-placeholder.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
               "id": "ml-2000-01-topps-chrome-mlr-7",
               "base_number": "7",
               "orientation_front": "portrait",
@@ -850,6 +922,18 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            },
+            {
+              "id": "ml-2000-01-topps-chrome-mlr-8",
+              "base_number": "8",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-8-Mario-Lemieux-placeholder.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-8-Mario-Lemieux-placeholder.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             },
             {
               "id": "ml-2000-01-topps-chrome-mlr-9",
@@ -864,12 +948,168 @@
               "inCollection": true
             },
             {
+              "id": "ml-2000-01-topps-chrome-mlr-10",
+              "base_number": "10",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-10-Mario-Lemieux-placeholder.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-10-Mario-Lemieux-placeholder.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
               "id": "ml-2000-01-topps-chrome-mlr-11",
               "base_number": "11",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-11-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-11-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2000-01-topps-chrome-mlr-12",
+              "base_number": "12",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-12-Mario-Lemieux-placeholder.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-12-Mario-Lemieux-placeholder.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2000-01-topps-chrome-mlr-13",
+              "base_number": "13",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-13-Mario-Lemieux-placeholder.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-13-Mario-Lemieux-placeholder.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2000-01-topps-chrome-mlr-14",
+              "base_number": "14",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-14-Mario-Lemieux-placeholder.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-14-Mario-Lemieux-placeholder.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2000-01-topps-chrome-mlr-15",
+              "base_number": "15",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-15-Mario-Lemieux-placeholder.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-15-Mario-Lemieux-placeholder.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2000-01-topps-chrome-mlr-16",
+              "base_number": "16",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-16-Mario-Lemieux-placeholder.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-16-Mario-Lemieux-placeholder.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2000-01-topps-chrome-mlr-17",
+              "base_number": "17",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-17-Mario-Lemieux-placeholder.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-17-Mario-Lemieux-placeholder.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2000-01-topps-chrome-mlr-18",
+              "base_number": "18",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-18-Mario-Lemieux-placeholder.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-18-Mario-Lemieux-placeholder.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2000-01-topps-chrome-mlr-19",
+              "base_number": "19",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-19-Mario-Lemieux-placeholder.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-19-Mario-Lemieux-placeholder.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2000-01-topps-chrome-mlr-20",
+              "base_number": "20",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-20-Mario-Lemieux-placeholder.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-20-Mario-Lemieux-placeholder.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2000-01-topps-chrome-mlr-21",
+              "base_number": "21",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-21-Mario-Lemieux-placeholder.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-21-Mario-Lemieux-placeholder.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2000-01-topps-chrome-mlr-22",
+              "base_number": "22",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-22-Mario-Lemieux-placeholder.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-22-Mario-Lemieux-placeholder.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2000-01-topps-chrome-mlr-23",
+              "base_number": "23",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-23-Mario-Lemieux-placeholder.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-23-Mario-Lemieux-placeholder.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -3766,6 +4006,28 @@
               "price": 4.25
             }
           ]
+        },
+        {
+          "set_key": "2002-03-titanium-blue",
+          "set_name": "Blue",
+          "set_display_name": "2002-03 Pacific Private Stock Titanium - Blue",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-titanium-blue-82",
+              "base_number": "82",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Pacific-Private-Stock-Titanium---Blue-82-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Pacific-Private-Stock-Titanium---Blue-82-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "/450",
+              "inCollection": true,
+              "price": 4.50
+            }
+          ]
         }
       ]
     },
@@ -5596,7 +5858,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.25
             }
           ]
         }
