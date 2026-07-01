@@ -3335,8 +3335,10 @@
               "image_back": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia---Ruby-157-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
+              "note": "/200",
               "position": "Center",
-              "inCollection": true
+              "inCollection": true,
+              "price": 7.5
             }
           ]
         }
@@ -3566,6 +3568,25 @@
         }
       ],
       "subsets": [
+        {
+          "set_key": "2002-03-pacific-crown-royale-retail",
+          "set_name": "Retail",
+          "set_display_name": "2002-03 Pacific Crown Royale - Retail",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-crown-royale-retail-78",
+              "base_number": "78",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Retail-78-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Retail-78-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
         {
           "set_key": "2002-03-pacific-crown-royale-complete",
           "set_name": "Complete",
