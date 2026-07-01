@@ -8205,6 +8205,27 @@
               "position": "Center"
             }
           ]
+        },
+        {
+          "set_key": "1996-97-score-sudden-death",
+          "set_name": "Sudden Death",
+          "set_display_name": "1996-97 Score - Sudden Death",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-score-sudden-death-7",
+              "base_number": "7",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Score---Sudden-Death-7-John-Vanbiesbrouck--Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Score---Sudden-Death-7-John-Vanbiesbrouck--Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "with John Vanbiesbrouck",
+              "inCollection": true
+            }
+          ]
         }
       ]
     },
