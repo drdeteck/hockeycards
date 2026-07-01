@@ -1930,7 +1930,28 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2001-02-pacific-crown-royale-retail",
+          "set_name": "Retail",
+          "set_display_name": "2001-02 Pacific Crown Royale - Retail",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-crown-royale-retail-117",
+              "base_number": "117",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Crown-Royale---Retail-117-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Crown-Royale---Retail-117-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
         }
       ]
     },
