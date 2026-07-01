@@ -3327,18 +3327,16 @@
           "set_tcdb_href": "",
           "cards": [
             {
-              "id": "ml-2002-03-bap-memorabilia-ruby-nno",
-              "base_number": "NNO",
+              "id": "ml-2002-03-bap-memorabilia-ruby-157",
+              "base_number": "157",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia---Ruby-157-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2002-03-Be-a-Player-Memorabilia---Ruby-157-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "note": "/200",
               "position": "Center",
-              "inCollection": true,
-              "price": 7.5
+              "inCollection": true
             }
           ]
         }
