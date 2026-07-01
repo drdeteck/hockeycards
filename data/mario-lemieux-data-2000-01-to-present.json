@@ -4639,6 +4639,50 @@
         }
       ]
     },
+    "2003-04-o-pee-chee": {
+      "set_key": "2003-04-o-pee-chee",
+      "set_name": "O-Pee-Chee",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 O-Pee-Chee",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-o-pee-chee-100",
+          "base_number": "100",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-O-Pee-Chee-100-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-O-Pee-Chee-100-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2003-04-o-pee-chee-topps-canadian-idols",
+          "set_name": "Topps Canadian Idols",
+          "set_display_name": "2003-04 O-Pee-Chee - Topps Canadian Idols",
+          "cards": [
+            {
+              "id": "ml-2003-04-o-pee-chee-topps-canadian-idols-ci4",
+              "base_number": "CI-4",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-O-Pee-Chee---Topps-Canadian-Idols-CI-4-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-O-Pee-Chee---Topps-Canadian-Idols-CI-4-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2003-04-pacific": {
       "set_key": "2003-04-pacific",
       "set_name": "Pacific",
@@ -6313,6 +6357,29 @@
         }
       ]
     },
+    "2007-08-sp-authentic": {
+      "set_key": "2007-08-sp-authentic",
+      "set_name": "SP Authentic",
+      "set_year_label": "2007-08",
+      "set_year_start": 2007,
+      "set_year_end": 2008,
+      "set_display_name": "2007-08 SP Authentic",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2007-08-sp-authentic-114",
+          "base_number": "114",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2007-08-SP-Authentic-114-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2007-08-SP-Authentic-114-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2007-08-spx": {
       "set_key": "2007-08-spx",
       "set_name": "SPx",
@@ -6562,6 +6629,74 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ]
+    },
+    "2011-12-parkhurst-champions": {
+      "set_key": "2011-12-parkhurst-champions",
+      "set_name": "Parkhurst Champions",
+      "set_year_label": "2011-12",
+      "set_year_start": 2011,
+      "set_year_end": 2012,
+      "set_display_name": "2011-12 Parkhurst Champions",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2011-12-parkhurst-champions-4",
+          "base_number": "4",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2011-12-Parkhurst-Champions-4-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2011-12-Parkhurst-Champions-4-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2011-12-parkhurst-champions-134",
+          "base_number": "134",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2011-12-Parkhurst-Champions-134-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2011-12-Parkhurst-Champions-134-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2011-12-parkhurst-champions-159",
+          "base_number": "159",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2011-12-Parkhurst-Champions-159-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2011-12-Parkhurst-Champions-159-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2011-12-parkhurst-champions-champs-mini",
+          "set_name": "Champs Mini",
+          "set_display_name": "2011-12 Parkhurst Champions - Champs Mini",
+          "cards": [
+            {
+              "id": "ml-2011-12-parkhurst-champions-champs-mini-53",
+              "base_number": "53",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2011-12-Parkhurst-Champions---Champs-Mini-53-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2011-12-Parkhurst-Champions---Champs-Mini-53-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
