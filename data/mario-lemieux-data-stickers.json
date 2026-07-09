@@ -1,8 +1,8 @@
 {
     "dataset": "mario-lemieux-stickers",
-    "version": "0.2.0",
+    "version": "0.4.0",
     "player": "Mario Lemieux",
-    "updated_at": "2026-05-06",
+    "updated_at": "2026-07-09",
     "image_folder": "img/cards/ML66/Stickers",
     "sets": {
         "1985-86-opc-stickers": {
@@ -53,6 +53,20 @@
             "set_tcdb_href": "",
             "cards": [
                 {
+                    "id": "ml-sticker-1986-87-opc-stickers-120-134",
+                    "base_number": "120/134",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
+                    "image_front": "",
+                    "image_back": "",
+                    "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48403/cid/3989609/1986-87-O-Pee-Chee-Stickers-120+/+134-Mario-Lemieux-/-Gary-Suter",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "variant_note": "with Gary Suter",
+                    "card_type": "sticker",
+                    "inCollection": true
+                },
+                {
                     "id": "ml-sticker-1986-87-opc-stickers-233",
                     "base_number": "233",
                     "orientation_front": "portrait",
@@ -63,7 +77,7 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 }
             ]
         },
@@ -468,6 +482,29 @@
                     "position": "Center",
                     "card_type": "sticker",
                     "inCollection": false
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1989-90-opc-stickers-future-star-all-star-backs",
+                    "set_name": "Future Star/All-Star Backs",
+                    "set_display_name": "1989-90 O-Pee-Chee Stickers - Future Star/All-Star Backs",
+                    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/48407/1989-90-O-Pee-Chee-Stickers---Future-Star/All-Star-Backs",
+                    "cards": [
+                        {
+                            "id": "ml-sticker-1989-90-opc-stickers-future-star-all-star-backs-24",
+                            "base_number": "24",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/Stickers/1989-90-O-Pee-Chee-Stickers---Future-Star-All-Star-Backs-24-Mario-LemieuxFr.jpg",
+                            "image_back": "",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48407/cid/4514572/1989-90-O-Pee-Chee-Stickers-24-Mario-Lemieux-",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "card_type": "sticker",
+                            "inCollection": true
+                        }
+                    ]
                 }
             ]
         },
