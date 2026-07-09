@@ -1,8 +1,8 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.14.7",
+  "version": "0.14.9",
   "player": "Mario Lemieux",
-  "updated_at": "2026-06-17",
+  "updated_at": "2026-07-10",
   "image_folder": "img/cards/ML66",
   "sets": {
     "2000-01-be-a-player-memorabilia": {
@@ -3047,7 +3047,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true
         },
         {
           "id": "ml-2001-02-upper-deck-victory-391",
@@ -3853,6 +3853,52 @@
         }
       ]
     },
+    "2002-03-parkhurst-retro": {
+      "set_key": "2002-03-parkhurst-retro",
+      "set_name": "Parkhurst Retro",
+      "set_year_label": "2002-03",
+      "set_year_start": 2002,
+      "set_year_end": 2003,
+      "set_display_name": "2002-03 Parkhurst Retro",
+      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5652/2002-03-Parkhurst-Retro",
+      "cards": [
+        {
+          "id": "ml-2002-03-parkhurst-retro-1",
+          "base_number": "1",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-Parkhurst-Retro-1-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Parkhurst-Retro-1-Mario-LemieuxBk.jpg",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5652/cid/1277370/2002-03-Parkhurst-Retro-1-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "price": 1.95
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-parkhurst-retro-he-shoots-he-scores-points",
+          "set_name": "He Shoots-He Scores Points",
+          "set_display_name": "He Shoots-He Scores Points",
+          "cards": [
+            {
+              "id": "ml-2002-03-parkhurst-retro-he-shoots-he-scores-points-nno",
+              "base_number": "NNO",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Parkhurst-Retro---He-Shoots-He-Scores-Points-NNO-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Parkhurst-Retro---He-Shoots-He-Scores-Points-NNO-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50630/cid/1732113/2002-03-Parkhurst-Retro---He-Shoots-He-Scores-Points-NNO-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 0.27
+            }
+          ]
+        }
+      ]
+    },
     "2002-03-sp-authentic": {
       "set_key": "2002-03-sp-authentic",
       "set_name": "SP Authentic",
@@ -4183,6 +4229,74 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2002-03-topps-total": {
+      "set_key": "2002-03-topps-total",
+      "set_name": "Topps Total",
+      "set_year_label": "2002-03",
+      "set_year_start": 2002,
+      "set_year_end": 2003,
+      "set_display_name": "2002-03 Topps Total",
+      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5661/2002-03-Topps-Total",
+      "cards": [
+        {
+          "id": "ml-2002-03-topps-total-96",
+          "base_number": "96",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-Topps-Total-96-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Topps-Total-96-Mario-LemieuxBk.jpg",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5661/cid/1279489/2002-03-Topps-Total-96-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "price": 0.50
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-topps-total-team-checklists",
+          "set_name": "Team Checklists",
+          "set_display_name": "2002-03 Topps Total - Team Checklists",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/10433/2002-03-Topps-Total---Team-Checklists",
+          "cards": [
+            {
+              "id": "ml-2002-03-topps-total-team-checklists-ttc24",
+              "base_number": "TTC24",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Topps-Total---Team-Checklists-TTC24-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Topps-Total---Team-Checklists-TTC24-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/10433/cid/1538339/2002-03-Topps-Total-TTC24-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 0.20
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-topps-total-total-topps",
+          "set_name": "Total Topps",
+          "set_display_name": "2002-03 Topps Total - Total Topps",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/10434/2002-03-Topps-Total---Total-Topps",
+          "cards": [
+            {
+              "id": "ml-2002-03-topps-total-total-topps-tt18",
+              "base_number": "TT18",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Topps-Total---Total-Topps-TT18-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Topps-Total---Total-Topps-TT18-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/10434/cid/1537483/2002-03-Topps-Total-TT18-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 0.25
             }
           ]
         }
@@ -4698,7 +4812,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2
         }
       ],
       "subsets": [
@@ -6416,7 +6531,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2
         }
       ]
     },
@@ -6691,7 +6807,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2.5
         },
         {
           "id": "ml-2011-12-parkhurst-champions-134",
