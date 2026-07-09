@@ -1,8 +1,8 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.15.5",
+  "version": "0.15.6",
   "player": "Mario Lemieux",
-  "updated_at": "2026-05-06",
+  "updated_at": "2026-07-10",
   "image_folder": "img/cards/ML66",
   "sets": {
     "1985-86-o-pee-chee": {
@@ -5958,6 +5958,27 @@
       ],
       "subsets": [
         {
+          "set_key": "1995-96-stadium-club-nemeses",
+          "set_name": "Nemeses",
+          "set_display_name": "Nemeses",
+          "cards": [
+            {
+              "id": "ml-1995-96-stadium-club-nemeses-n2",
+              "base_number": "N2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Stadium-Club---Nemeses-N2-Wayne-Gretzky--Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Stadium-Club---Nemeses-N2-Wayne-Gretzky--Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "Wayne Gretzky vs Mario Lemieux",
+              "inCollection": true,
+              "price": 15
+            }
+          ]
+        },
+        {
           "set_key": "1995-96-stadium-club-metalists",
           "set_name": "Metalists",
           "set_display_name": "Metalists",
@@ -6003,6 +6024,26 @@
         }
       ],
       "subsets": [
+        {
+          "set_key": "1995-96-stadium-club-members-only-nemeses",
+          "set_name": "Nemeses",
+          "set_display_name": "Nemeses",
+          "cards": [
+            {
+              "id": "ml-1995-96-stadium-club-members-only-nemeses-n2",
+              "base_number": "N2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Stadium-Club---Nemeses-Members-Only-N2-Wayne-Gretzky--Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Stadium-Club---Nemeses-Members-Only-N2-Wayne-Gretzky--Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "Wayne Gretzky vs Mario Lemieux",
+              "inCollection": false
+            }
+          ]
+        },
         {
           "set_key": "1995-96-stadium-club-members-only-metalists",
           "set_name": "Metalists",
