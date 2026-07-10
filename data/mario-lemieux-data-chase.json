@@ -586,7 +586,8 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48549/cid/1601172/1995-96-Upper-Deck-MVP-R16-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 354
                         }
                     ]
                 }
@@ -2206,7 +2207,8 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5124/cid/1597595/1995-96-Donruss-Elite-7-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "price": 339.76
                         }
                     ]
                 }
