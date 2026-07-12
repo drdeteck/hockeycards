@@ -1,6 +1,6 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.15.1",
+  "version": "0.15.2",
   "player": "Mario Lemieux",
   "updated_at": "2026-07-10",
   "image_folder": "img/cards/ML66",
@@ -5780,9 +5780,161 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-2003-04-upper-deck-158",
+          "base_number": "158",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-Upper-Deck-158-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Upper-Deck-158-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ],
       "subsets": [
+        {
+          "set_key": "2003-04-upper-deck-bee-hive",
+          "set_name": "Bee-Hive",
+          "set_display_name": "2003-04 Upper Deck - Bee-Hive",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-upper-deck-bee-hive-158b",
+              "base_number": "158b",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Upper-Deck-Bee-Hive-158b-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Upper-Deck-Bee-Hive-158b-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-upper-deck-power-zone",
+          "set_name": "Power Zone",
+          "set_display_name": "2003-04 Upper Deck - Power Zone",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-upper-deck-power-zone-pz9",
+              "base_number": "PZ-9",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Upper-Deck---Power-Zone-PZ-9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Upper-Deck---Power-Zone-PZ-9-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-upper-deck-postseason-performers",
+          "set_name": "Postseason Performers",
+          "set_display_name": "2003-04 Upper Deck - Postseason Performers",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-upper-deck-postseason-performers-ps13",
+              "base_number": "PS13",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Upper-Deck---Postseason-Performers-PS13-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Upper-Deck---Postseason-Performers-PS13-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-upper-deck-ice-icons",
+          "set_name": "Ice Icons",
+          "set_display_name": "2003-04 Upper Deck - Ice Icons",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-upper-deck-ice-icons-i-ml",
+              "base_number": "I-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Upper-Deck---Ice-Icons-I-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Upper-Deck---Ice-Icons-I-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-upper-deck-gifted-greats",
+          "set_name": "Gifted Greats",
+          "set_display_name": "2003-04 Upper Deck - Gifted Greats",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-upper-deck-gifted-greats-gg4",
+              "base_number": "GG4",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Upper-Deck---Gifted-Greats-GG4-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Upper-Deck---Gifted-Greats-GG4-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-upper-deck-fan-favorites",
+          "set_name": "Fan Favorites",
+          "set_display_name": "2003-04 Upper Deck - Fan Favorites",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-upper-deck-fan-favorites-ff9",
+              "base_number": "FF9",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Upper-Deck---Fan-Favorites-FF9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Upper-Deck---Fan-Favorites-FF9-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-upper-deck-three-stars",
+          "set_name": "Three Stars",
+          "set_display_name": "2003-04 Upper Deck - Three Stars",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-upper-deck-three-stars-ts12",
+              "base_number": "TS12",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Upper-Deck---Three-Stars-TS12-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Upper-Deck---Three-Stars-TS12-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
         {
           "set_key": "2003-04-upper-deck-all-star-lineup",
           "set_name": "All-Star Lineup",
