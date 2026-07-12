@@ -1,6 +1,6 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.15.4",
+  "version": "0.15.5",
   "player": "Mario Lemieux",
   "updated_at": "2026-07-10",
   "image_folder": "img/cards/ML66",
@@ -6249,6 +6249,91 @@
         }
       ]
     },
+    "2004-05-pacific": {
+      "set_key": "2004-05-pacific",
+      "set_name": "Pacific",
+      "set_year_label": "2004-05",
+      "set_year_start": 2004,
+      "set_year_end": 2005,
+      "set_display_name": "2004-05 Pacific",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2004-05-pacific-213",
+          "base_number": "213",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2004-05-Pacific-213-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2004-05-Pacific-213-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2004-05-pacific-red",
+          "set_name": "Red",
+          "set_display_name": "2004-05 Pacific - Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2004-05-pacific-red-213",
+              "base_number": "213",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2004-05-Pacific---Red-213-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2004-05-Pacific---Red-213-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2004-05-pacific-philadelphia",
+          "set_name": "Philadelphia",
+          "set_display_name": "2004-05 Pacific - Philadelphia",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2004-05-pacific-philadelphia-13",
+              "base_number": "13",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2004-05-Pacific---Philadelphia-13-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2004-05-Pacific---Philadelphia-13-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2004-05-pacific-milestones",
+          "set_name": "Milestones",
+          "set_display_name": "2004-05 Pacific - Milestones",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2004-05-pacific-milestones-5",
+              "base_number": "5",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2004-05-Pacific---Milestones-5-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2004-05-Pacific---Milestones-5-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2004-05-sp-authentic": {
       "set_key": "2004-05-sp-authentic",
       "set_name": "SP Authentic",
@@ -6925,6 +7010,29 @@
           "orientation_back": "landscape",
           "image_front": "img/cards/ML66/2005-06-Upper-Deck-Power-Play-100-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/2005-06-Upper-Deck-Power-Play-100-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2004-05-in-the-game-heroes-and-prospects": {
+      "set_key": "2004-05-in-the-game-heroes-and-prospects",
+      "set_name": "In The Game Heroes and Prospects",
+      "set_year_label": "2004-05",
+      "set_year_start": 2004,
+      "set_year_end": 2005,
+      "set_display_name": "2004-05 In The Game Heroes and Prospects",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2004-05-in-the-game-heroes-and-prospects-172",
+          "base_number": "172",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2004-05-In-The-Game-Heroes-and-Prospects-172-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2004-05-In-The-Game-Heroes-and-Prospects-172-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
