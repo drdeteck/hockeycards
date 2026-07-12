@@ -1,6 +1,6 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.15.3",
+  "version": "0.15.4",
   "player": "Mario Lemieux",
   "updated_at": "2026-07-10",
   "image_folder": "img/cards/ML66",
@@ -5965,6 +5965,18 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false
+        },
+        {
+          "id": "ml-2003-04-upper-deck-bee-hive-158b",
+          "base_number": "158b",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-Upper-Deck-Bee-Hive-158b-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Upper-Deck-Bee-Hive-158b-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
@@ -6146,6 +6158,94 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2003-04-upper-deck-victory-game-breakers",
+          "set_name": "Game-Breakers",
+          "set_display_name": "2003-04 Upper Deck Victory - Game-Breakers",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-upper-deck-victory-game-breakers-gb30",
+              "base_number": "GB30",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Upper-Deck-Victory---Game-Breakers-GB30-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Upper-Deck-Victory---Game-Breakers-GB30-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-upper-deck-victory-freshman-flashback",
+          "set_name": "Freshman Flashback",
+          "set_display_name": "2003-04 Upper Deck Victory - Freshman Flashback",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-upper-deck-victory-freshman-flashback-ff36",
+              "base_number": "FF36",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Upper-Deck-Victory---Freshman-Flashback-FF36-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Upper-Deck-Victory---Freshman-Flashback-FF36-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2003-04-upper-deck-trilogy": {
+      "set_key": "2003-04-upper-deck-trilogy",
+      "set_name": "Upper Deck Trilogy",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Upper Deck Trilogy",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-upper-deck-trilogy-77",
+          "base_number": "77",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-Upper-Deck-Trilogy-77-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Upper-Deck-Trilogy-77-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2003-04-upper-deck-black-diamond": {
+      "set_key": "2003-04-upper-deck-black-diamond",
+      "set_name": "Upper Deck Black Diamond",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Upper Deck Black Diamond",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-upper-deck-black-diamond-135",
+          "base_number": "135",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-Upper-Deck-Black-Diamond-135-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Upper-Deck-Black-Diamond-135-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
