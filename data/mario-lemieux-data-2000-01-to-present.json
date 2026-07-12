@@ -1,6 +1,6 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.14.9",
+  "version": "0.15.0",
   "player": "Mario Lemieux",
   "updated_at": "2026-07-10",
   "image_folder": "img/cards/ML66",
@@ -3892,7 +3892,7 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50630/cid/1732113/2002-03-Parkhurst-Retro---He-Shoots-He-Scores-Points-NNO-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
+              "inCollection": true,
               "price": 0.27
             }
           ]
@@ -4793,6 +4793,94 @@
         }
       ]
     },
+    "2003-04-in-the-game-action": {
+      "set_key": "2003-04-in-the-game-action",
+      "set_name": "In The Game Action",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 In The Game Action",
+      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5684/",
+      "cards": [
+        {
+          "id": "ml-2003-04-in-the-game-action-445",
+          "base_number": "445",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-In-The-Game-Action-445-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-In-The-Game-Action-445-Mario-LemieuxBk.jpg",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5684/cid/1285357/2003-04-In-The-Game-Action-445-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "price": 0.1
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2003-04-in-the-game-action-center-of-attention",
+          "set_name": "Center of Attention",
+          "set_display_name": "2003-04 In The Game Action - Center of Attention",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-in-the-game-action-center-of-attention-ca-1",
+              "base_number": "CA-1",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2003-04-In-The-Game-Action---Center-of-Attention-CA-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-In-The-Game-Action---Center-of-Attention-CA-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/51019/cid/1745249/2003-04-In-The-Game-Action-CA-1-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-in-the-game-action-highlight-reel",
+          "set_name": "Highlight Reel",
+          "set_display_name": "2003-04 In The Game Action - Highlight Reel",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-in-the-game-action-highlight-reel-hr-4",
+              "base_number": "HR-4",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2003-04-In-The-Game-Action---Highlight-Reel-HR-4-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-In-The-Game-Action---Highlight-Reel-HR-4-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/51025/cid/1746492/2003-04-In-The-Game-Action-HR-4-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 4
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-in-the-game-action-oh-canada",
+          "set_name": "Oh Canada",
+          "set_display_name": "2003-04 In The Game Action - Oh Canada",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-in-the-game-action-oh-canada-oc-1",
+              "base_number": "OC-1",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2003-04-In-The-Game-Action---Oh-Canada-OC-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-In-The-Game-Action---Oh-Canada-OC-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/51032/cid/1746831/2003-04-In-The-Game-Action-OC-1-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 1.5
+            }
+          ]
+        }
+      ]
+    },
     "2003-04-o-pee-chee": {
       "set_key": "2003-04-o-pee-chee",
       "set_name": "O-Pee-Chee",
@@ -4975,6 +5063,53 @@
         }
       ]
     },
+    "2003-04-pacific-exhibit": {
+      "set_key": "2003-04-pacific-exhibit",
+      "set_name": "Pacific Exhibit",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Pacific Exhibit",
+      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/9026/",
+      "cards": [
+        {
+          "id": "ml-2003-04-pacific-exhibit-188",
+          "base_number": "188",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-Pacific-Exhibit-188-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Pacific-Exhibit-188-Mario-LemieuxBk.jpg",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/9026/cid/1287297/2003-04-Pacific-Exhibit-188-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "price": 2.37
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2003-04-pacific-exhibit-history-makers",
+          "set_name": "History Makers",
+          "set_display_name": "2003-04 Pacific Exhibit - History Makers",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-exhibit-history-makers-6",
+              "base_number": "6",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Exhibit---History-Makers-6-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Exhibit---History-Makers-6-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/51118/cid/1750313/2003-04-Pacific-Exhibit-6-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 2.75
+            }
+          ]
+        }
+      ]
+    },
     "2003-04-pacific-heads-up": {
       "set_key": "2003-04-pacific-heads-up",
       "set_name": "Pacific Heads Up",
@@ -4999,6 +5134,26 @@
       ],
       "subsets": [
         {
+          "set_key": "2003-04-pacific-heads-up-retail-ltd",
+          "set_name": "Retail LTD",
+          "set_display_name": "2003-04 Pacific Heads Up - Retail LTD",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-heads-up-retail-ltd-79",
+              "base_number": "79",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Heads-Up---Retail-LTD-79-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Heads-Up---Retail-LTD-79-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/51131/cid/1750814/2003-04-Pacific-Heads-Up-79-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
           "set_key": "2003-04-pacific-heads-up-rink-immortals",
           "set_name": "Rink Immortals",
           "set_display_name": "2003-04 Pacific Heads Up - Rink Immortals",
@@ -5015,6 +5170,280 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2003-04-pacific-invincible": {
+      "set_key": "2003-04-pacific-invincible",
+      "set_name": "Pacific Invincible",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Pacific Invincible",
+      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5690/",
+      "cards": [
+        {
+          "id": "ml-2003-04-pacific-invincible-78",
+          "base_number": "78",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-Pacific-Invincible-78-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Pacific-Invincible-78-Mario-LemieuxBk.jpg",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5690/cid/1287658/2003-04-Pacific-Invincible-78-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "price": 2
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2003-04-pacific-invincible-featured-performers",
+          "set_name": "Featured Performers",
+          "set_display_name": "2003-04 Pacific Invincible - Featured Performers",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-invincible-featured-performers-24",
+              "base_number": "24",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Invincible---Featured-Performers-24-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Invincible---Featured-Performers-24-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/51138/cid/1751074/2003-04-Pacific-Invincible-24-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 5
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-pacific-invincible-retail",
+          "set_name": "Retail",
+          "set_display_name": "2003-04 Pacific Invincible - Retail",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-invincible-retail-78",
+              "base_number": "78",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Invincible---Retail-78-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Invincible---Retail-78-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/51143/cid/1751359/2003-04-Pacific-Invincible-78-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 1.5
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-pacific-invincible-top-line",
+          "set_name": "Top Line",
+          "set_display_name": "2003-04 Pacific Invincible - Top Line",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-invincible-top-line-8",
+              "base_number": "8",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Invincible---Top-Line-8-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Invincible---Top-Line-8-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/51144/cid/1751414/2003-04-Pacific-Invincible-8-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2003-04-pacific-prism": {
+      "set_key": "2003-04-pacific-prism",
+      "set_name": "Pacific Prism",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Pacific Prism",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2003-04-pacific-prism-stat-masters",
+          "set_name": "Stat Masters",
+          "set_display_name": "2003-04 Pacific Prism - Stat Masters",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-prism-stat-masters-7",
+              "base_number": "7",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Prism---Stat-Masters-7-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Prism---Stat-Masters-7-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 2.75
+            }
+          ]
+        }
+      ]
+    },
+    "2003-04-pacific-private-stock-reserve": {
+      "set_key": "2003-04-pacific-private-stock-reserve",
+      "set_name": "Pacific Private Stock Reserve",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Pacific Private Stock Reserve",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2003-04-pacific-private-stock-reserve-moments-in-time",
+          "set_name": "Moments in Time",
+          "set_display_name": "2003-04 Pacific Private Stock Reserve - Moments in Time",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-private-stock-reserve-moments-in-time-9",
+              "base_number": "9",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Quest-for-the-Cup---Moments-in-Time-9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Quest-for-the-Cup---Moments-in-Time-9-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        }
+      ]
+    },
+    "2003-04-pacific-private-stock-titanium": {
+      "set_key": "2003-04-pacific-private-stock-titanium",
+      "set_name": "Pacific Private Stock Titanium",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Pacific Private Stock Titanium",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2003-04-pacific-private-stock-titanium-highlight-reels",
+          "set_name": "Highlight Reels",
+          "set_display_name": "2003-04 Pacific Private Stock Titanium - Highlight Reels",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-private-stock-titanium-highlight-reels-8",
+              "base_number": "8",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Private-Stock-Titanium---Highlight-Reels-8-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Private-Stock-Titanium---Highlight-Reels-8-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-pacific-private-stock-titanium-stat-masters",
+          "set_name": "Stat Masters",
+          "set_display_name": "2003-04 Pacific Private Stock Titanium - Stat Masters",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-private-stock-titanium-stat-masters-8",
+              "base_number": "8",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Private-Stock-Titanium---Stat-Masters-8-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Private-Stock-Titanium---Stat-Masters-8-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    "2003-04-pacific-quest-for-the-cup": {
+      "set_key": "2003-04-pacific-quest-for-the-cup",
+      "set_name": "Pacific Quest for the Cup",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Pacific Quest for the Cup",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-pacific-quest-for-the-cup-84",
+          "base_number": "84",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-Pacific-Quest-for-the-Cup-84-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Pacific-Quest-for-the-Cup-84-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 0.18
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2003-04-pacific-quest-for-the-cup-connquest",
+          "set_name": "ConnQuest",
+          "set_display_name": "2003-04 Pacific Quest for the Cup - ConnQuest",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-quest-for-the-cup-connquest-6",
+              "base_number": "6",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Quest-for-the-Cup---ConnQuest-6-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Quest-for-the-Cup---ConnQuest-6-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 3.73
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-pacific-quest-for-the-cup-raising-the-cup",
+          "set_name": "Raising the Cup",
+          "set_display_name": "2003-04 Pacific Quest for the Cup - Raising the Cup",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-quest-for-the-cup-raising-the-cup-15",
+              "base_number": "15",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Quest-for-the-Cup---Raising-the-Cup-15-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Quest-for-the-Cup---Raising-the-Cup-15-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 3.49
             }
           ]
         }
@@ -5062,6 +5491,31 @@
               "inCollection": true
             }
           ]
+        }
+      ]
+    },
+    "2003-04-parkhurst-rookie": {
+      "set_key": "2003-04-parkhurst-rookie",
+      "set_name": "Parkhurst Rookie",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Parkhurst Rookie",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-parkhurst-rookie-11",
+          "base_number": "11",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-Parkhurst-Rookie-11-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Parkhurst-Rookie-11-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "variant_note": "Rookie",
+          "inCollection": true,
+          "price": 1.99
         }
       ]
     },
