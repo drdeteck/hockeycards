@@ -5282,14 +5282,14 @@
             {
               "id": "ml-2003-04-pacific-prism-stat-masters-7",
               "base_number": "7",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2003-04-Pacific-Prism---Stat-Masters-7-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2003-04-Pacific-Prism---Stat-Masters-7-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true,
+              "inCollection": false,
               "price": 2.75
             }
           ]
@@ -5322,7 +5322,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true
+              "inCollection": false
             }
           ]
         }
@@ -5347,14 +5347,14 @@
             {
               "id": "ml-2003-04-pacific-private-stock-titanium-highlight-reels-8",
               "base_number": "8",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2003-04-Pacific-Private-Stock-Titanium---Highlight-Reels-8-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2003-04-Pacific-Private-Stock-Titanium---Highlight-Reels-8-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true
+              "inCollection": false
             }
           ]
         },
@@ -5367,14 +5367,14 @@
             {
               "id": "ml-2003-04-pacific-private-stock-titanium-stat-masters-8",
               "base_number": "8",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2003-04-Pacific-Private-Stock-Titanium---Stat-Masters-8-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2003-04-Pacific-Private-Stock-Titanium---Stat-Masters-8-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true,
+              "inCollection": false,
               "price": 4.0
             }
           ]
@@ -5400,7 +5400,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true,
+          "inCollection": false,
           "price": 0.18
         }
       ],
@@ -5421,7 +5421,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true,
+              "inCollection": false,
               "price": 3.73
             }
           ]
@@ -5442,7 +5442,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true,
+              "inCollection": false,
               "price": 3.49
             }
           ]
@@ -5514,7 +5514,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "variant_note": "Rookie",
-          "inCollection": true,
+          "inCollection": false,
           "price": 1.99
         }
       ]
