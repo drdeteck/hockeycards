@@ -1,6 +1,6 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.15.0",
+  "version": "0.15.1",
   "player": "Mario Lemieux",
   "updated_at": "2026-07-10",
   "image_folder": "img/cards/ML66",
@@ -5393,8 +5393,8 @@
         {
           "id": "ml-2003-04-pacific-quest-for-the-cup-84",
           "base_number": "84",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
           "image_front": "img/cards/ML66/2003-04-Pacific-Quest-for-the-Cup-84-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/2003-04-Pacific-Quest-for-the-Cup-84-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
@@ -5603,6 +5603,29 @@
         }
       ]
     },
+    "2003-04-sp-game-used": {
+      "set_key": "2003-04-sp-game-used",
+      "set_name": "SP Game Used",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 SP Game Used",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-sp-game-used-37",
+          "base_number": "37",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-SP-Game-Used-37-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-SP-Game-Used-37-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2003-04-topps": {
       "set_key": "2003-04-topps",
       "set_name": "Topps",
@@ -5698,6 +5721,30 @@
               "inCollection": true
             }
           ]
+        }
+      ]
+    },
+    "2003-04-topps-lost-rookie-cards": {
+      "set_key": "2003-04-topps-lost-rookie-cards",
+      "set_name": "Topps Lost Rookie Cards",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Topps Lost Rookie Cards",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-topps-lost-rookie-cards-lrc",
+          "base_number": "LRC",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-Topps---Lost-Rookie-Cards-LRC-ML-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Topps---Lost-Rookie-Cards-LRC-ML-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "variant_note": "Rookie",
+          "inCollection": false
         }
       ]
     },
