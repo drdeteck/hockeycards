@@ -6515,45 +6515,68 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2005-06-upper-deck-bee-hive-beige",
+          "set_name": "Beige",
+          "set_display_name": "2005-06 Upper Deck Bee-Hive - Beige",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2005-06-upper-deck-bee-hive-beige-71",
+              "base_number": "71",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive---Beige-71-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive---Beige-71-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         },
         {
-          "id": "ml-2005-06-upper-deck-bee-hive-71b",
-          "base_number": "71b",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive---Beige-71-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive---Beige-71-Mario-LemieuxBk.jpg",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": false,
-          "variant_note": "Beige"
+          "set_key": "2005-06-upper-deck-bee-hive-blue",
+          "set_name": "Blue",
+          "set_display_name": "2005-06 Upper Deck Bee-Hive - Blue",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2005-06-upper-deck-bee-hive-blue-71",
+              "base_number": "71",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive---Blue-71-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive---Blue-71-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         },
         {
-          "id": "ml-2005-06-upper-deck-bee-hive-71c",
-          "base_number": "71c",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive---Blue-71-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive---Blue-71-Mario-LemieuxBk.jpg",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": false,
-          "variant_note": "Blue"
-        },
-        {
-          "id": "ml-2005-06-upper-deck-bee-hive-71d",
-          "base_number": "71d",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive---Red-71-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive---Red-71-Mario-LemieuxBk.jpg",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": false,
-          "variant_note": "Red"
+          "set_key": "2005-06-upper-deck-bee-hive-red",
+          "set_name": "Red",
+          "set_display_name": "2005-06 Upper Deck Bee-Hive - Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2005-06-upper-deck-bee-hive-red-71",
+              "base_number": "71",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive---Red-71-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive---Red-71-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
