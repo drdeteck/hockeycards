@@ -7829,6 +7829,201 @@
         }
       ]
     },
+    "2008-09-upper-deck-black-diamond": {
+      "set_key": "2008-09-upper-deck-black-diamond",
+      "set_name": "Upper Deck Black Diamond",
+      "set_year_label": "2008-09",
+      "set_year_start": 2008,
+      "set_year_end": 2009,
+      "set_display_name": "2008-09 Upper Deck Black Diamond",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2008-09-upper-deck-black-diamond-181",
+          "base_number": "181",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2008-09-Upper-Deck-Black-Diamond-181-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2008-09-Upper-Deck-Black-Diamond-181-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2008-09-upper-deck-champ-s": {
+      "set_key": "2008-09-upper-deck-champ-s",
+      "set_name": "Upper Deck Champ's",
+      "set_year_label": "2008-09",
+      "set_year_start": 2008,
+      "set_year_end": 2009,
+      "set_display_name": "2008-09 Upper Deck Champ's",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2008-09-upper-deck-champ-s-53",
+          "base_number": "53",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2008-09-Upper-Deck-Champ's-53-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2008-09-Upper-Deck-Champ's-53-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2008-09-upper-deck-masterpieces": {
+      "set_key": "2008-09-upper-deck-masterpieces",
+      "set_name": "Upper Deck Masterpieces",
+      "set_year_label": "2008-09",
+      "set_year_start": 2008,
+      "set_year_end": 2009,
+      "set_display_name": "2008-09 Upper Deck Masterpieces",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2008-09-upper-deck-masterpieces-11",
+          "base_number": "11",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2008-09-Upper-Deck-Masterpieces-11-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2008-09-Upper-Deck-Masterpieces-11-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2008-09-upper-deck-masterpieces-12",
+          "base_number": "12",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2008-09-Upper-Deck-Masterpieces-12-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2008-09-Upper-Deck-Masterpieces-12-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2008-09-upper-deck-masterpieces-81",
+          "base_number": "81",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2008-09-Upper-Deck-Masterpieces-81-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2008-09-Upper-Deck-Masterpieces-81-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2008-09-upper-deck-masterpieces-86",
+          "base_number": "86",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2008-09-Upper-Deck-Masterpieces-86-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2008-09-Upper-Deck-Masterpieces-86-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2008-09-upper-deck-masterpieces-brown",
+          "set_name": "Brown",
+          "set_display_name": "2008-09 Upper Deck Masterpieces - Brown",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2008-09-upper-deck-masterpieces-brown-11",
+              "base_number": "11",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2008-09-Upper-Deck-Masterpieces---Brown-11-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2008-09-Upper-Deck-Masterpieces---Brown-11-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2008-09-upper-deck-masterpieces-brown-12",
+              "base_number": "12",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2008-09-Upper-Deck-Masterpieces---Brown-12-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2008-09-Upper-Deck-Masterpieces---Brown-12-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2008-09-upper-deck-masterpieces-brown-81",
+              "base_number": "81",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2008-09-Upper-Deck-Masterpieces---Brown-81-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2008-09-Upper-Deck-Masterpieces---Brown-81-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2008-09-upper-deck-masterpieces-brown-86",
+              "base_number": "86",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2008-09-Upper-Deck-Masterpieces---Brown-86-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2008-09-Upper-Deck-Masterpieces---Brown-86-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2008-09-upper-deck-trilogy": {
+      "set_key": "2008-09-upper-deck-trilogy",
+      "set_name": "Upper Deck Trilogy",
+      "set_year_label": "2008-09",
+      "set_year_start": 2008,
+      "set_year_end": 2009,
+      "set_display_name": "2008-09 Upper Deck Trilogy",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2008-09-upper-deck-trilogy-frozen-in-time",
+          "set_name": "Frozen in Time",
+          "set_display_name": "2008-09 Upper Deck Trilogy - Frozen in Time",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2008-09-upper-deck-trilogy-frozen-in-time-115",
+              "base_number": "115",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2008-09-Upper-Deck-Trilogy---Frozen-in-Time-115-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2008-09-Upper-Deck-Trilogy---Frozen-in-Time-115-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2009-10-o-pee-chee": {
       "set_key": "2009-10-o-pee-chee",
       "set_name": "O-Pee-Chee",
