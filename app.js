@@ -1975,6 +1975,40 @@ function DataViewModel() {
         return (subset + ' · ' + collectorNumber).trim();
     };
 
+    // Returns the set-subset portion (with ellipsis support) for Mario cards
+    self.GetCardGridMetaSetSubset = function (card) {
+        if (!card) {
+            return '';
+        }
+
+        var col = self.CurrentCollection();
+        if (!col || !self.IsMarioSource(col.source)) {
+            // For McDonald's cards, return subset only (or empty if no subset)
+            var subset = (card.insert_subset || '').toString().trim();
+            return subset;
+        }
+
+        // For Mario cards, return set name with optional subset
+        var setName = self.GetGridCardSetName(card);
+        var subset = (card.insert_subset || '').toString().trim();
+        var setWithSubset = setName;
+
+        if (subset) {
+            setWithSubset = (setName ? (setName + ' · ' + subset) : subset);
+        }
+
+        return setWithSubset;
+    };
+
+    // Returns the collector number portion for the card
+    self.GetCardGridMetaNumber = function (card) {
+        if (!card) {
+            return '';
+        }
+
+        return (card.base_number || card.number || 'NNO').toString().trim();
+    };
+
     // unified dispatcher for the card-template: uses set name for mario, omits it for McD
     self.GetCardGridMetaBase = function (card) {
         var col = self.CurrentCollection();

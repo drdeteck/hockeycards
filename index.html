@@ -1061,7 +1061,10 @@
         </a>
         <div class="card-grid-item-meta">
             <span class="card-grid-item-meta-text"
-                data-bind="text: $root.GetCardGridMetaBase($data), attr: { title: $root.GetCardGridMetaTooltip($data) }"></span>
+                data-bind="text: $root.GetCardGridMetaSetSubset($data), attr: { title: $root.GetCardGridMetaSetSubset($data) }"></span>
+            <!-- ko if: $root.GetCardGridMetaNumber($data) -->
+            <span class="card-grid-item-meta-number" data-bind="text: '· ' + $root.GetCardGridMetaNumber($data)"></span>
+            <!-- /ko -->
             <!-- ko if: $root.GetCardGridPriceCad($data) -->
             <span class="card-grid-item-meta-price"
                 data-bind="html: '· ' + $root.GetCardGridPriceCad($data), css: { 'card-grid-item-meta-price--owned': $data.inCollection }"></span>

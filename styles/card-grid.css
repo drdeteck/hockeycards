@@ -71,6 +71,14 @@
     min-width: 0;
 }
 
+.card-grid-item-meta-number {
+    white-space: nowrap;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    color: var(--color-dark-blue);
+}
+
 .card-grid-item-meta-price {
     color: #c0392b;
     font-weight: 600;
