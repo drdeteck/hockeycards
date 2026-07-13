@@ -6623,7 +6623,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true
         },
         {
           "id": "ml-2005-06-in-the-game-heroes-and-prospects-196",
@@ -8146,6 +8146,28 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2010-11-panini-zenith-red-hot",
+          "set_name": "Red Hot",
+          "set_display_name": "2010-11 Panini Zenith - Red Hot",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2010-11-panini-zenith-red-hot-125",
+              "base_number": "125",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2010-11-Panini-Zenith---Red-Hot-125-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2010-11-Panini-Zenith---Red-Hot-125-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -9919,6 +9941,818 @@
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2008-09-SPx---SPxcitement-X38-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2008-09-SPx---SPxcitement-X38-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2009-10-upper-deck-trilogy": {
+      "set_key": "2009-10-upper-deck-trilogy",
+      "set_name": "Upper Deck Trilogy",
+      "set_year_label": "2009-10",
+      "set_year_start": 2009,
+      "set_year_end": 2010,
+      "set_display_name": "2009-10 Upper Deck Trilogy",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2009-10-upper-deck-trilogy-109",
+          "base_number": "109",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2009-10-Upper-Deck-Trilogy-109-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2009-10-Upper-Deck-Trilogy-109-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2009-10-upper-deck-trilogy-66",
+          "base_number": "66",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2009-10-Upper-Deck-Trilogy-66-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2009-10-Upper-Deck-Trilogy-66-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2009-10-upper-deck-mvp": {
+      "set_key": "2009-10-upper-deck-mvp",
+      "set_name": "Upper Deck MVP",
+      "set_year_label": "2009-10",
+      "set_year_start": 2009,
+      "set_year_end": 2010,
+      "set_display_name": "2009-10 Upper Deck MVP",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2009-10-upper-deck-mvp-hart-winners",
+          "set_name": "Hart Winners",
+          "set_display_name": "2009-10 Upper Deck MVP - Hart Winners",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2009-10-upper-deck-mvp-hart-winners-hw8",
+              "base_number": "HW8",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2009-10-Upper-Deck-MVP---Hart-Winners-HW8-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2009-10-Upper-Deck-MVP---Hart-Winners-HW8-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2009-10-upper-deck-champs": {
+      "set_key": "2009-10-upper-deck-champs",
+      "set_name": "Upper Deck Champ's",
+      "set_year_label": "2009-10",
+      "set_year_start": 2009,
+      "set_year_end": 2010,
+      "set_display_name": "2009-10 Upper Deck Champ's",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2009-10-upper-deck-champs-276",
+          "base_number": "276",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2009-10-Upper-Deck-Champ's-276-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2009-10-Upper-Deck-Champ's-276-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2009-10-upper-deck-champs-80",
+          "base_number": "80",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2009-10-Upper-Deck-Champ's-80-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2009-10-Upper-Deck-Champ's-80-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2009-10-upper-deck-champs-yellow",
+          "set_name": "Yellow",
+          "set_display_name": "2009-10 Upper Deck Champ's - Yellow",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2009-10-upper-deck-champs-yellow-80",
+              "base_number": "80",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2009-10-Upper-Deck-Champ's---Yellow-80-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2009-10-Upper-Deck-Champ's---Yellow-80-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2009-10-upper-deck-champs-green",
+          "set_name": "Green",
+          "set_display_name": "2009-10 Upper Deck Champ's - Green",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2009-10-upper-deck-champs-green-80",
+              "base_number": "80",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2009-10-Upper-Deck-Champ's---Green-80-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2009-10-Upper-Deck-Champ's---Green-80-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2009-10-upper-deck-black-diamond": {
+      "set_key": "2009-10-upper-deck-black-diamond",
+      "set_name": "Upper Deck Black Diamond",
+      "set_year_label": "2009-10",
+      "set_year_start": 2009,
+      "set_year_end": 2010,
+      "set_display_name": "2009-10 Upper Deck Black Diamond",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2009-10-upper-deck-black-diamond-199",
+          "base_number": "199",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2009-10-Upper-Deck-Black-Diamond-199-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2009-10-Upper-Deck-Black-Diamond-199-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2009-10-upper-deck-artifacts": {
+      "set_key": "2009-10-upper-deck-artifacts",
+      "set_name": "Upper Deck Artifacts",
+      "set_year_label": "2009-10",
+      "set_year_start": 2009,
+      "set_year_end": 2010,
+      "set_display_name": "2009-10 Upper Deck Artifacts",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2009-10-upper-deck-artifacts-105",
+          "base_number": "105",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2009-10-Upper-Deck-Artifacts-105-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2009-10-Upper-Deck-Artifacts-105-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2009-10-upper-deck": {
+      "set_key": "2009-10-upper-deck",
+      "set_name": "Upper Deck",
+      "set_year_label": "2009-10",
+      "set_year_start": 2009,
+      "set_year_end": 2010,
+      "set_display_name": "2009-10 Upper Deck",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2009-10-upper-deck-ambassadors-of-the-game",
+          "set_name": "Ambassadors of the Game",
+          "set_display_name": "2009-10 Upper Deck - Ambassadors of the Game",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2009-10-upper-deck-ambassadors-of-the-game-ag23",
+              "base_number": "AG23",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2009-10-Upper-Deck---Ambassadors-of-the-Game-AG23-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2009-10-Upper-Deck---Ambassadors-of-the-Game-AG23-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2009-10-spx": {
+      "set_key": "2009-10-spx",
+      "set_name": "SPx",
+      "set_year_label": "2009-10",
+      "set_year_start": 2009,
+      "set_year_end": 2010,
+      "set_display_name": "2009-10 SPx",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2009-10-spx-42",
+          "base_number": "42",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
+          "image_front": "img/cards/ML66/2009-10-SPx-42-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2009-10-SPx-42-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2009-10-spx-spxcitement",
+          "set_name": "SPxcitement",
+          "set_display_name": "2009-10 SPx - SPxcitement",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2009-10-spx-spxcitement-x66",
+              "base_number": "X66",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2009-10-SPx---SPxcitement-X66-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2009-10-SPx---SPxcitement-X66-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2009-10-sp-authentic": {
+      "set_key": "2009-10-sp-authentic",
+      "set_name": "SP Authentic",
+      "set_year_label": "2009-10",
+      "set_year_start": 2009,
+      "set_year_end": 2010,
+      "set_display_name": "2009-10 SP Authentic",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2009-10-sp-authentic-128",
+          "base_number": "128",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2009-10-SP-Authentic-128-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2009-10-SP-Authentic-128-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2009-10-sp-authentic-holo-fx",
+          "set_name": "Holo FX",
+          "set_display_name": "2009-10 SP Authentic - Holo FX",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2009-10-sp-authentic-holo-fx-fx19",
+              "base_number": "FX19",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2009-10-SP-Authentic---Holo-FX-FX19-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2009-10-SP-Authentic---Holo-FX-FX19-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2010-11-upper-deck-ultimate-collection": {
+      "set_key": "2010-11-upper-deck-ultimate-collection",
+      "set_name": "Upper Deck Ultimate Collection",
+      "set_year_label": "2010-11",
+      "set_year_start": 2010,
+      "set_year_end": 2011,
+      "set_display_name": "2010-11 Upper Deck Ultimate Collection",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2010-11-upper-deck-ultimate-collection-43",
+          "base_number": "43",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2010-11-Upper-Deck-Ultimate-Collection-43-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2010-11-Upper-Deck-Ultimate-Collection-43-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2010-11-upper-deck-black-diamond": {
+      "set_key": "2010-11-upper-deck-black-diamond",
+      "set_name": "Upper Deck Black Diamond",
+      "set_year_label": "2010-11",
+      "set_year_start": 2010,
+      "set_year_end": 2011,
+      "set_display_name": "2010-11 Upper Deck Black Diamond",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2010-11-upper-deck-black-diamond-185",
+          "base_number": "185",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2010-11-Upper-Deck-Black-Diamond-185-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2010-11-Upper-Deck-Black-Diamond-185-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2010-11-upper-deck-artifacts": {
+      "set_key": "2010-11-upper-deck-artifacts",
+      "set_name": "Upper Deck Artifacts",
+      "set_year_label": "2010-11",
+      "set_year_start": 2010,
+      "set_year_end": 2011,
+      "set_display_name": "2010-11 Upper Deck Artifacts",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2010-11-upper-deck-artifacts-196",
+          "base_number": "196",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2010-11-Upper-Deck-Artifacts-196-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2010-11-Upper-Deck-Artifacts-196-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2010-11-upper-deck": {
+      "set_key": "2010-11-upper-deck",
+      "set_name": "Upper Deck",
+      "set_year_label": "2010-11",
+      "set_year_start": 2010,
+      "set_year_end": 2011,
+      "set_display_name": "2010-11 Upper Deck",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2010-11-upper-deck-ambassadors-of-the-game",
+          "set_name": "Ambassadors of the Game",
+          "set_display_name": "2010-11 Upper Deck - Ambassadors of the Game",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2010-11-upper-deck-ambassadors-of-the-game-ag27",
+              "base_number": "AG27",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2010-11-Upper-Deck---Ambassadors-of-the-Game-AG27-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2010-11-Upper-Deck---Ambassadors-of-the-Game-AG27-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2010-11-upper-deck-20th-anniversary-variation",
+          "set_name": "20th Anniversary Variation",
+          "set_display_name": "2010-11 Upper Deck - 20th Anniversary Variation",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2010-11-upper-deck-20th-anniversary-variation-504",
+              "base_number": "504",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2010-11-Upper-Deck---20th-Anniversary-Variation-504-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2010-11-Upper-Deck---20th-Anniversary-Variation-504-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2010-11-spx": {
+      "set_key": "2010-11-spx",
+      "set_name": "SPx",
+      "set_year_label": "2010-11",
+      "set_year_start": 2010,
+      "set_year_end": 2011,
+      "set_display_name": "2010-11 SPx",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2010-11-spx-113",
+          "base_number": "113",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2010-11-SPx-113-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2010-11-SPx-113-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2010-11-sp-authentic": {
+      "set_key": "2010-11-sp-authentic",
+      "set_name": "SP Authentic",
+      "set_year_label": "2010-11",
+      "set_year_start": 2010,
+      "set_year_end": 2011,
+      "set_display_name": "2010-11 SP Authentic",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2010-11-sp-authentic-166",
+          "base_number": "166",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2010-11-SP-Authentic-166-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2010-11-SP-Authentic-166-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2010-11-sp-authentic-59",
+          "base_number": "59",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2010-11-SP-Authentic-59-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2010-11-SP-Authentic-59-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2010-11-sp-authentic-holo-fx",
+          "set_name": "Holo FX",
+          "set_display_name": "2010-11 SP Authentic - Holo FX",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2010-11-sp-authentic-holo-fx-fx23",
+              "base_number": "FX23",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2010-11-SP-Authentic---Holo-FX-FX23-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2010-11-SP-Authentic---Holo-FX-FX23-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2010-11-score": {
+      "set_key": "2010-11-score",
+      "set_name": "Score",
+      "set_year_label": "2010-11",
+      "set_year_start": 2010,
+      "set_year_end": 2011,
+      "set_display_name": "2010-11 Score",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2010-11-score-canada-greats",
+          "set_name": "Canada Greats",
+          "set_display_name": "2010-11 Score - Canada Greats",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2010-11-score-canada-greats-17",
+              "base_number": "17",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2010-11-Score---Canada-Greats-17-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2010-11-Score---Canada-Greats-17-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2010-11-playoff-contenders": {
+      "set_key": "2010-11-playoff-contenders",
+      "set_name": "Playoff Contenders",
+      "set_year_label": "2010-11",
+      "set_year_start": 2010,
+      "set_year_end": 2011,
+      "set_display_name": "2010-11 Playoff Contenders",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2010-11-playoff-contenders-108",
+          "base_number": "108",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2010-11-Playoff-Contenders-108-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2010-11-Playoff-Contenders-108-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2010-11-playoff-contenders-legendary-contenders",
+          "set_name": "Legendary Contenders",
+          "set_display_name": "2010-11 Playoff Contenders - Legendary Contenders",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2010-11-playoff-contenders-legendary-contenders-6",
+              "base_number": "6",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2010-11-Playoff-Contenders---Legendary-Contenders-6-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2010-11-Playoff-Contenders---Legendary-Contenders-6-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2010-11-playoff-contenders-the-great-outdoors",
+          "set_name": "The Great Outdoors",
+          "set_display_name": "2010-11 Playoff Contenders - The Great Outdoors",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2010-11-playoff-contenders-the-great-outdoors-18",
+              "base_number": "18",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2010-11-Playoff-Contenders---The-Great-Outdoors-18-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2010-11-Playoff-Contenders---The-Great-Outdoors-18-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2010-11-panini-crown-royale": {
+      "set_key": "2010-11-panini-crown-royale",
+      "set_name": "Panini Crown Royale",
+      "set_year_label": "2010-11",
+      "set_year_start": 2010,
+      "set_year_end": 2011,
+      "set_display_name": "2010-11 Panini Crown Royale",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2010-11-panini-crown-royale-111",
+          "base_number": "111",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2010-11-Panini-Crown-Royale-111-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2010-11-Panini-Crown-Royale-111-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2010-11-panini-crown-royale-legends",
+          "set_name": "Legends",
+          "set_display_name": "2010-11 Panini Crown Royale - Legends",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2010-11-panini-crown-royale-legends-4",
+              "base_number": "4",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2010-11-Panini-Crown-Royale---Legends-4-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2010-11-Panini-Crown-Royale---Legends-4-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2010-11-o-pee-chee": {
+      "set_key": "2010-11-o-pee-chee",
+      "set_name": "O-Pee-Chee",
+      "set_year_label": "2010-11",
+      "set_year_start": 2010,
+      "set_year_end": 2011,
+      "set_display_name": "2010-11 O-Pee-Chee",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2010-11-o-pee-chee-596",
+          "base_number": "596",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2010-11-O-Pee-Chee-596-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2010-11-O-Pee-Chee-596-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2010-11-o-pee-chee-retro",
+          "set_name": "Retro",
+          "set_display_name": "2010-11 O-Pee-Chee - Retro",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2010-11-o-pee-chee-retro-596",
+              "base_number": "596",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2010-11-O-Pee-Chee---Retro-596-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2010-11-O-Pee-Chee---Retro-596-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2010-11-in-the-game-enshrined": {
+      "set_key": "2010-11-in-the-game-enshrined",
+      "set_name": "In The Game Enshrined",
+      "set_year_label": "2010-11",
+      "set_year_start": 2010,
+      "set_year_end": 2011,
+      "set_display_name": "2010-11 In The Game Enshrined",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2010-11-in-the-game-enshrined-nno",
+          "base_number": "NNO",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2010-11-In-The-Game-Enshrined-NNO-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2010-11-In-The-Game-Enshrined-NNO-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2010-11-donruss": {
+      "set_key": "2010-11-donruss",
+      "set_name": "Donruss",
+      "set_year_label": "2010-11",
+      "set_year_start": 2010,
+      "set_year_end": 2011,
+      "set_display_name": "2010-11 Donruss",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2010-11-donruss-ice-kings",
+          "set_name": "Ice Kings",
+          "set_display_name": "2010-11 Donruss - Ice Kings",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2010-11-donruss-ice-kings-ml",
+              "base_number": "ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2010-11-Donruss---Ice-Kings-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2010-11-Donruss---Ice-Kings-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2010-11-donruss-ice-kings-12",
+              "base_number": "12",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2010-11-Donruss---Ice-Kings-12-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2010-11-Donruss---Ice-Kings-12-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2003-04-in-the-game-toronto-star": {
+      "set_key": "2003-04-in-the-game-toronto-star",
+      "set_name": "In The Game Toronto Star",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 In The Game Toronto Star",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-in-the-game-toronto-star-74",
+          "base_number": "74",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-In-The-Game-Toronto-Star-74-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-In-The-Game-Toronto-Star-74-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2003-04-in-the-game-toronto-star-foil",
+          "set_name": "Foil",
+          "set_display_name": "2003-04 In The Game Toronto Star - Foil",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-in-the-game-toronto-star-foil-f-1",
+              "base_number": "F-1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-In-The-Game-Toronto-Star---Foil-F-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-In-The-Game-Toronto-Star---Foil-F-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
