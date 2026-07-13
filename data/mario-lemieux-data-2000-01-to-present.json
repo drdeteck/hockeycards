@@ -6471,18 +6471,18 @@
         }
       ]
     },
-    "2005-06-be-a-player": {
-      "set_key": "2005-06-be-a-player",
-      "set_name": "Be a Player",
+    "2005-06-upper-deck-be-a-player": {
+      "set_key": "2005-06-upper-deck-be-a-player",
+      "set_name": "Upper Deck Be a Player",
       "set_year_label": "2005-06",
       "set_year_start": 2005,
       "set_year_end": 2006,
-      "set_display_name": "2005-06 Be a Player",
+      "set_display_name": "2005-06 Upper Deck Be a Player",
       "set_tcdb_href": "",
       "cards": [
         {
           "base_number": "72",
-          "id": "ml-2005-06-be-a-player-72",
+          "id": "ml-2005-06-upper-deck-be-a-player-72",
           "image_back": "img/cards/ML66/2005-06-Upper-Deck-Be-a-Player-72-Mario-LemieuxBk.jpg",
           "image_front": "img/cards/ML66/2005-06-Upper-Deck-Be-a-Player-72-Mario-LemieuxFr.jpg",
           "inCollection": true,
@@ -6492,6 +6492,68 @@
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
+        }
+      ]
+    },
+    "2005-06-upper-deck-bee-hive": {
+      "set_key": "2005-06-upper-deck-bee-hive",
+      "set_name": "Upper Deck Bee-Hive",
+      "set_year_label": "2005-06",
+      "set_year_start": 2005,
+      "set_year_end": 2006,
+      "set_display_name": "2005-06 Upper Deck Bee-Hive",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2005-06-upper-deck-bee-hive-71",
+          "base_number": "71",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive-71-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive-71-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2005-06-upper-deck-bee-hive-71b",
+          "base_number": "71b",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive---Beige-71-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive---Beige-71-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "variant_note": "Beige"
+        },
+        {
+          "id": "ml-2005-06-upper-deck-bee-hive-71c",
+          "base_number": "71c",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive---Blue-71-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive---Blue-71-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "variant_note": "Blue"
+        },
+        {
+          "id": "ml-2005-06-upper-deck-bee-hive-71d",
+          "base_number": "71d",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive---Red-71-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive---Red-71-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "variant_note": "Red"
         }
       ]
     },
@@ -6516,6 +6578,53 @@
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
+        }
+      ]
+    },
+    "2005-06-in-the-game-heroes-and-prospects": {
+      "set_key": "2005-06-in-the-game-heroes-and-prospects",
+      "set_name": "In The Game Heroes and Prospects",
+      "set_year_label": "2005-06",
+      "set_year_start": 2005,
+      "set_year_end": 2006,
+      "set_display_name": "2005-06 In The Game Heroes and Prospects",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2005-06-in-the-game-heroes-and-prospects-40",
+          "base_number": "40",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2005-06-In-The-Game-Heroes-and-Prospects-40-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2005-06-In-The-Game-Heroes-and-Prospects-40-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2005-06-in-the-game-heroes-and-prospects-196",
+          "base_number": "196",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2005-06-In-The-Game-Heroes-and-Prospects-196-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2005-06-In-The-Game-Heroes-and-Prospects-196-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2005-06-in-the-game-heroes-and-prospects-338",
+          "base_number": "338",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2005-06-In-The-Game-Heroes-and-Prospects-338-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2005-06-In-The-Game-Heroes-and-Prospects-338-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
@@ -6622,6 +6731,29 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ]
+    },
+    "2005-06-sp-game-used": {
+      "set_key": "2005-06-sp-game-used",
+      "set_name": "SP Game Used",
+      "set_year_label": "2005-06",
+      "set_year_start": 2005,
+      "set_year_end": 2006,
+      "set_display_name": "2005-06 SP Game Used",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2005-06-sp-game-used-79",
+          "base_number": "79",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2005-06-SP-Game-Used-79-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2005-06-SP-Game-Used-79-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
@@ -6961,6 +7093,26 @@
       ],
       "subsets": [
         {
+          "set_key": "2005-06-upper-deck-mvp-monumental-moments",
+          "set_name": "Monumental Moments",
+          "set_display_name": "2005-06 Upper Deck MVP - Monumental Moments",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2005-06-upper-deck-mvp-monumental-moments-mm5",
+              "base_number": "MM5",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2005-06-Upper-Deck-MVP---Monumental-Moments-MM5-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2005-06-Upper-Deck-MVP---Monumental-Moments-MM5-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
           "set_key": "2005-06-upper-deck-mvp-rising-to-the-occasion",
           "set_name": "Rising to the Occasion",
           "set_display_name": "2005-06 Upper Deck MVP - Rising to the Occasion",
@@ -7136,6 +7288,26 @@
               "inCollection": true
             }
           ]
+        },
+        {
+          "set_key": "2005-06-upper-deck-victory-stars-on-ice",
+          "set_name": "Stars on Ice",
+          "set_display_name": "2005-06 Upper Deck Victory - Stars on Ice",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2005-06-upper-deck-victory-stars-on-ice-si35",
+              "base_number": "SI35",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2005-06-Upper-Deck-Victory---Stars-on-Ice-SI35-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2005-06-Upper-Deck-Victory---Stars-on-Ice-SI35-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -7183,6 +7355,29 @@
           "position": "Center",
           "inCollection": true,
           "price": 1.5
+        }
+      ]
+    },
+    "2006-07-in-the-game-heroes-and-prospects": {
+      "set_key": "2006-07-in-the-game-heroes-and-prospects",
+      "set_name": "In The Game Heroes and Prospects",
+      "set_year_label": "2006-07",
+      "set_year_start": 2006,
+      "set_year_end": 2007,
+      "set_display_name": "2006-07 In The Game Heroes and Prospects",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2006-07-in-the-game-heroes-and-prospects-9",
+          "base_number": "9",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2006-07-In-The-Game-Heroes-and-Prospects-9-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2006-07-In-The-Game-Heroes-and-Prospects-9-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
@@ -7247,6 +7442,18 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            },
+            {
+              "id": "ml-2006-07-sp-authentic-131",
+              "base_number": "131",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2006-07-SP-Authentic-131-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2006-07-SP-Authentic-131-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
@@ -7275,39 +7482,47 @@
         }
       ]
     },
-    "2006-07-upper-deck-all-time-greatest": {
-      "set_key": "2006-07-upper-deck-all-time-greatest",
-      "set_name": "Upper Deck All-Time Greatest",
+    "2006-07-upper-deck": {
+      "set_key": "2006-07-upper-deck",
+      "set_name": "Upper Deck",
       "set_year_label": "2006-07",
       "set_year_start": 2006,
       "set_year_end": 2007,
-      "set_display_name": "2006-07 Upper Deck All-Time Greatest",
+      "set_display_name": "2006-07 Upper Deck",
       "set_tcdb_href": "",
-      "cards": [
+      "cards": [],
+      "subsets": [
         {
-          "id": "ml-2006-07-upper-deck-all-time-greatest-atg18",
-          "base_number": "ATG18",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/2006-07-Upper-Deck---All-Time-Greatest-ATG18-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/2006-07-Upper-Deck---All-Time-Greatest-ATG18-Mario-LemieuxBk.jpg",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": true,
-          "price": 1.5
-        },
-        {
-          "id": "ml-2006-07-upper-deck-all-time-greatest-atg24",
-          "base_number": "ATG24",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/2006-07-Upper-Deck---All-Time-Greatest-ATG24-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/2006-07-Upper-Deck---All-Time-Greatest-ATG24-Mario-LemieuxBk.jpg",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": false
+          "set_key": "2006-07-upper-deck-all-time-greatest",
+          "set_name": "All-Time Greatest",
+          "set_display_name": "2006-07 Upper Deck - All-Time Greatest",
+          "cards": [
+            {
+              "id": "ml-2006-07-upper-deck-all-time-greatest-atg18",
+              "base_number": "ATG18",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2006-07-Upper-Deck---All-Time-Greatest-ATG18-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2006-07-Upper-Deck---All-Time-Greatest-ATG18-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 1.5
+            },
+            {
+              "id": "ml-2006-07-upper-deck-all-time-greatest-atg24",
+              "base_number": "ATG24",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2006-07-Upper-Deck---All-Time-Greatest-ATG24-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2006-07-Upper-Deck---All-Time-Greatest-ATG24-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
