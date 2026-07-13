@@ -1,8 +1,8 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.15.5",
+  "version": "0.15.6",
   "player": "Mario Lemieux",
-  "updated_at": "2026-07-10",
+  "updated_at": "2026-07-13",
   "image_folder": "img/cards/ML66",
   "sets": {
     "2000-01-be-a-player-memorabilia": {
@@ -4111,7 +4111,7 @@
               "position": "Center",
               "variant_note": "/450",
               "inCollection": true,
-              "price": 4.50
+              "price": 4.5
             }
           ]
         }
@@ -4254,7 +4254,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false,
-          "price": 0.50
+          "price": 0.5
         }
       ],
       "subsets": [
@@ -4275,7 +4275,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 0.20
+              "price": 0.2
             }
           ]
         },
@@ -7647,6 +7647,28 @@
           "position": "Center",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2007-08-spx-spxtreme",
+          "set_name": "SPXtreme",
+          "set_display_name": "2007-08 spx - SPXtreme",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2007-08-spx-spxtreme-x2",
+              "base_number": "X2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2007-08-SPx---SPXtreme-X2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2007-08-SPx---SPXtreme-X2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
       ]
     },
     "2007-08-upper-deck-trilogy": {
@@ -7681,6 +7703,18 @@
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
+        },
+        {
+          "id": "ml-2008-09-artifacts-109",
+          "base_number": "109",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2008-09-Upper-Deck-Artifacts-109-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2008-09-Upper-Deck-Artifacts-109-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
@@ -7705,6 +7739,48 @@
           "position": "Center",
           "inCollection": true,
           "price": 1.36
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2008-09-o-pee-chee-retro",
+          "set_name": "Retro",
+          "set_display_name": "2008-09 o - Retro",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2008-09-o-pee-chee-retro-570",
+              "base_number": "570",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2008-09-O-Pee-Chee---Retro-570-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2008-09-O-Pee-Chee---Retro-570-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2008-09-o-pee-chee-metal",
+          "set_name": "Metal",
+          "set_display_name": "2008-09 o - Metal",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2008-09-o-pee-chee-metal-570",
+              "base_number": "570",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2008-09-O-Pee-Chee---Metal-570-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2008-09-O-Pee-Chee---Metal-570-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -9430,6 +9506,230 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ]
+    },
+    "2006-07-upper-deck-black-diamond": {
+      "set_key": "2006-07-upper-deck-black-diamond",
+      "set_name": "Upper Deck Black Diamond",
+      "set_year_label": "2006-07",
+      "set_year_start": 2006,
+      "set_year_end": 2007,
+      "set_display_name": "2006-07 Upper Deck Black Diamond",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2006-07-upper-deck-black-diamond-165b",
+          "base_number": "165b",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2006-07-Upper-Deck-Black-Diamond-165b-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2006-07-Upper-Deck-Black-Diamond-165b-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": []
+    },
+    "2006-07-upper-deck-power-play-cup-celebrations": {
+      "set_key": "2006-07-upper-deck-power-play-cup-celebrations",
+      "set_name": "Upper Deck Power Play   Cup Celebrations",
+      "set_year_label": "2006-07",
+      "set_year_start": 2006,
+      "set_year_end": 2007,
+      "set_display_name": "2006-07 Upper Deck Power Play   Cup Celebrations",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2006-07-upper-deck-power-play-cup-celebrations-cc6",
+          "base_number": "CC6",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2006-07-Upper-Deck-Power-Play---Cup-Celebrations-CC6-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2006-07-Upper-Deck-Power-Play---Cup-Celebrations-CC6-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": []
+    },
+    "2006-07-upper-deck-sweet-shot": {
+      "set_key": "2006-07-upper-deck-sweet-shot",
+      "set_name": "Upper Deck Sweet Shot",
+      "set_year_label": "2006-07",
+      "set_year_start": 2006,
+      "set_year_end": 2007,
+      "set_display_name": "2006-07 Upper Deck Sweet Shot",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2006-07-upper-deck-sweet-shot-84",
+          "base_number": "84",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2006-07-Upper-Deck-Sweet-Shot-84-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2006-07-Upper-Deck-Sweet-Shot-84-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": []
+    },
+    "2007-08-fleer-hot-prospects": {
+      "set_key": "2007-08-fleer-hot-prospects",
+      "set_name": "Fleer Hot Prospects",
+      "set_year_label": "2007-08",
+      "set_year_start": 2007,
+      "set_year_end": 2008,
+      "set_display_name": "2007-08 Fleer Hot Prospects",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2007-08-fleer-hot-prospects-129",
+          "base_number": "129",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2007-08-Fleer-Hot-Prospects-129-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2007-08-Fleer-Hot-Prospects-129-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": []
+    },
+    "2007-08-upper-deck-artifacts": {
+      "set_key": "2007-08-upper-deck-artifacts",
+      "set_name": "Upper Deck Artifacts",
+      "set_year_label": "2007-08",
+      "set_year_start": 2007,
+      "set_year_end": 2008,
+      "set_display_name": "2007-08 Upper Deck Artifacts",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2007-08-upper-deck-artifacts-102",
+          "base_number": "102",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2007-08-Upper-Deck-Artifacts-102-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2007-08-Upper-Deck-Artifacts-102-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": []
+    },
+    "2007-08-upper-deck-black-diamond": {
+      "set_key": "2007-08-upper-deck-black-diamond",
+      "set_name": "Upper Deck Black Diamond",
+      "set_year_label": "2007-08",
+      "set_year_start": 2007,
+      "set_year_end": 2008,
+      "set_display_name": "2007-08 Upper Deck Black Diamond",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2007-08-upper-deck-black-diamond-184",
+          "base_number": "184",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2007-08-Upper-Deck-Black-Diamond-184-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2007-08-Upper-Deck-Black-Diamond-184-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": []
+    },
+    "2007-08-upper-deck-sweet-shot": {
+      "set_key": "2007-08-upper-deck-sweet-shot",
+      "set_name": "Upper Deck Sweet Shot",
+      "set_year_label": "2007-08",
+      "set_year_start": 2007,
+      "set_year_end": 2008,
+      "set_display_name": "2007-08 Upper Deck Sweet Shot",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2007-08-upper-deck-sweet-shot-66",
+          "base_number": "66",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2007-08-Upper-Deck-Sweet-Shot-66-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2007-08-Upper-Deck-Sweet-Shot-66-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": []
+    },
+    "2008-09-sp-authentic": {
+      "set_key": "2008-09-sp-authentic",
+      "set_name": "SP Authentic",
+      "set_year_label": "2008-09",
+      "set_year_start": 2008,
+      "set_year_end": 2009,
+      "set_display_name": "2008-09 SP Authentic",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2008-09-sp-authentic-128",
+          "base_number": "128",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2008-09-SP-Authentic-128-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2008-09-SP-Authentic-128-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": []
+    },
+    "2008-09-spx": {
+      "set_key": "2008-09-spx",
+      "set_name": "SPx",
+      "set_year_label": "2008-09",
+      "set_year_start": 2008,
+      "set_year_end": 2009,
+      "set_display_name": "2008-09 SPx",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2008-09-spx-spxcitement",
+          "set_name": "SPxcitement",
+          "set_display_name": "2008-09 SPx - SPxcitement",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2008-09-spx-spxcitement-x38",
+              "base_number": "X38",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2008-09-SPx---SPxcitement-X38-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2008-09-SPx---SPxcitement-X38-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     }
