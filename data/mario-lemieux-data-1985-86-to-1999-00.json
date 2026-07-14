@@ -5228,7 +5228,9 @@
               "image_back": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 4.75
             },
             {
               "id": "ml-1995-96-leaf-lemieuxs-best-2",
@@ -5239,7 +5241,9 @@
               "image_back": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-2-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 4.75
             },
             {
               "id": "ml-1995-96-leaf-lemieuxs-best-3",
@@ -5262,7 +5266,9 @@
               "image_back": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-4-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 4.75
             },
             {
               "id": "ml-1995-96-leaf-lemieuxs-best-5",
@@ -5286,7 +5292,9 @@
               "image_back": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-6-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 4.75
             },
             {
               "id": "ml-1995-96-leaf-lemieuxs-best-7",
@@ -5309,7 +5317,9 @@
               "image_back": "img/cards/ML66/1995-96-Leaf---Lemieux's-Best-8-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 4.75
             },
             {
               "id": "ml-1995-96-leaf-lemieuxs-best-9",
