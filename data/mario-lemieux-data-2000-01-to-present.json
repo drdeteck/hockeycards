@@ -1974,7 +1974,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 0.99
         }
       ],
       "subsets": [
@@ -1995,6 +1996,53 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2001-02-pacific-prism-gold-mcdonalds": {
+      "set_key": "2001-02-pacific-prism-gold-mcdonalds",
+      "set_name": "Pacific Prism Gold - McDonald's",
+      "set_year_label": "2001-02",
+      "set_year_start": 2001,
+      "set_year_end": 2002,
+      "set_display_name": "2001-02 Pacific Prism Gold - McDonald's",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2001-02-pacific-prism-gold-mcdonalds-31",
+          "base_number": "31",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2001-02-Pacific-Prism-Gold-McDonald's-31-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2001-02-Pacific-Prism-Gold-McDonald's-31-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 0.99
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2001-02-pacific-prism-gold-mcdonalds-cosmic-force",
+          "set_name": "Cosmic Force",
+          "set_display_name": "2001-02 Pacific Prism Gold - McDonald's - Cosmic Force",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-prism-gold-mcdonalds-cosmic-force-2",
+              "base_number": "2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Prism-Gold-McDonald's---Cosmic-Force-2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Prism-Gold-McDonald's---Cosmic-Force-2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 2.49
             }
           ]
         }
@@ -4484,6 +4532,49 @@
           "position": "Center",
           "inCollection": true,
           "price": 1.5
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-upper-deck-honor-roll-team-warriors",
+          "set_name": "Team Warriors",
+          "set_display_name": "2002-03 Upper Deck Honor Roll - Team Warriors",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-upper-deck-honor-roll-team-warriors-tw12",
+              "base_number": "TW12",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Upper-Deck-Honor-Roll---Team-Warriors-TW12-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Upper-Deck-Honor-Roll---Team-Warriors-TW12-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 0.99
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-upper-deck-honor-roll-students-of-the-game",
+          "set_name": "Students of the Game",
+          "set_display_name": "2002-03 Upper Deck Honor Roll - Students of the Game",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-upper-deck-honor-roll-students-of-the-game-sg25",
+              "base_number": "SG25",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Upper-Deck-Honor-Roll---Students-of-the-Game-SG25-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Upper-Deck-Honor-Roll---Students-of-the-Game-SG25-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -8953,6 +9044,20 @@
           "position": "Center",
           "inCollection": true,
           "price": 1.5
+        },
+        {
+          "id": "ml-2011-12-upper-deck-artifacts-106",
+          "base_number": "106",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2011-12-Upper-Deck-Artifacts-106-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2011-12-Upper-Deck-Artifacts-106-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 4.99,
+          "note": "SN999"
         }
       ]
     },
@@ -10419,8 +10524,8 @@
         {
           "id": "ml-2010-11-sp-authentic-166",
           "base_number": "166",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
           "image_front": "img/cards/ML66/2010-11-SP-Authentic-166-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/2010-11-SP-Authentic-166-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
@@ -10515,7 +10620,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 4.99
         }
       ],
       "subsets": [
@@ -10535,7 +10641,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.99
             }
           ]
         },
@@ -10548,8 +10655,8 @@
             {
               "id": "ml-2010-11-playoff-contenders-the-great-outdoors-18",
               "base_number": "18",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2010-11-Playoff-Contenders---The-Great-Outdoors-18-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2010-11-Playoff-Contenders---The-Great-Outdoors-18-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
