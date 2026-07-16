@@ -10513,6 +10513,109 @@
         }
       ]
     },
+    "2014-15-upper-deck-ice": {
+      "set_key": "2014-15-upper-deck-ice",
+      "set_name": "Upper Deck Ice",
+      "set_year_label": "2014-15",
+      "set_year_start": 2014,
+      "set_year_end": 2015,
+      "set_display_name": "2014-15 Upper Deck Ice",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2014-15-upper-deck-ice-80",
+          "base_number": "80",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2014-15-Upper-Deck-Ice-80-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2014-15-Upper-Deck-Ice-80-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2014-15-upper-deck-masterpieces": {
+      "set_key": "2014-15-upper-deck-masterpieces",
+      "set_name": "Upper Deck Masterpieces",
+      "set_year_label": "2014-15",
+      "set_year_start": 2014,
+      "set_year_end": 2015,
+      "set_display_name": "2014-15 Upper Deck Masterpieces",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2014-15-upper-deck-masterpieces-120",
+          "base_number": "120",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2014-15-Upper-Deck-Masterpieces-120-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2014-15-Upper-Deck-Masterpieces-120-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2014-15-upper-deck-masterpieces-153",
+          "base_number": "153",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2014-15-Upper-Deck-Masterpieces-153-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2014-15-Upper-Deck-Masterpieces-153-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2014-15-upper-deck-mvp": {
+      "set_key": "2014-15-upper-deck-mvp",
+      "set_name": "Upper Deck MVP",
+      "set_year_label": "2014-15",
+      "set_year_start": 2014,
+      "set_year_end": 2015,
+      "set_display_name": "2014-15 Upper Deck MVP",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2014-15-upper-deck-mvp-294",
+          "base_number": "294",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2014-15-Upper-Deck-MVP-294-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2014-15-Upper-Deck-MVP-294-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2014-15-upper-deck-mvp-silver-script",
+          "set_name": "Silver Script",
+          "set_display_name": "2014-15 Upper Deck MVP - Silver Script",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2014-15-upper-deck-mvp-silver-script-294",
+              "base_number": "294",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2014-15-Upper-Deck-MVP---Silver-Script-294-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2014-15-Upper-Deck-MVP---Silver-Script-294-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2015-16-upper-deck": {
       "set_key": "2015-16-upper-deck",
       "set_name": "Upper Deck",
