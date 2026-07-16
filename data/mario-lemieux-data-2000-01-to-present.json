@@ -8626,6 +8626,103 @@
         }
       ]
     },
+    "2011-12-in-the-game": {
+      "set_key": "2011-12-in-the-game",
+      "set_name": "In The Game",
+      "set_year_label": "2011-12",
+      "set_year_start": 2011,
+      "set_year_end": 2012,
+      "set_display_name": "2011-12 In The Game",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2011-12-in-the-game-captain",
+          "set_name": "Captain",
+          "set_display_name": "2011-12 In The Game - Captain",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2011-12-in-the-game-captain-c-50",
+              "base_number": "C-50",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2011-12-In-The-Game---Captain-C-50-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2011-12-In-The-Game---Captain-C-50-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2011-12-o-pee-chee": {
+      "set_key": "2011-12-o-pee-chee",
+      "set_name": "O-Pee-Chee",
+      "set_year_label": "2011-12",
+      "set_year_start": 2011,
+      "set_year_end": 2012,
+      "set_display_name": "2011-12 O-Pee-Chee",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2011-12-o-pee-chee-507",
+          "base_number": "507",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2011-12-O-Pee-Chee-507-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2011-12-O-Pee-Chee-507-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2011-12-o-pee-chee-marquee-legends",
+          "set_name": "Marquee Legends",
+          "set_display_name": "2011-12 O-Pee-Chee - Marquee Legends",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2011-12-o-pee-chee-marquee-legends-l6",
+              "base_number": "L6",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2011-12-O-Pee-Chee---Marquee-Legends-L6-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2011-12-O-Pee-Chee---Marquee-Legends-L6-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2011-12-o-pee-chee-retro",
+          "set_name": "Retro",
+          "set_display_name": "2011-12 O-Pee-Chee - Retro",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2011-12-o-pee-chee-retro-507",
+              "base_number": "507",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2011-12-O-Pee-Chee---Retro-507-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2011-12-O-Pee-Chee---Retro-507-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2011-12-parkhurst-champions": {
       "set_key": "2011-12-parkhurst-champions",
       "set_name": "Parkhurst Champions",
@@ -8686,6 +8783,84 @@
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2011-12-Parkhurst-Champions---Champs-Mini-53-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2011-12-Parkhurst-Champions---Champs-Mini-53-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2011-12-panini-certified": {
+      "set_key": "2011-12-panini-certified",
+      "set_name": "Panini Certified",
+      "set_year_label": "2011-12",
+      "set_year_start": 2011,
+      "set_year_end": 2012,
+      "set_display_name": "2011-12 Panini Certified",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2011-12-panini-certified-162",
+          "base_number": "162",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2011-12-Panini-Certified-162-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2011-12-Panini-Certified-162-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2011-12-panini-contenders": {
+      "set_key": "2011-12-panini-contenders",
+      "set_name": "Panini Contenders",
+      "set_year_label": "2011-12",
+      "set_year_start": 2011,
+      "set_year_end": 2012,
+      "set_display_name": "2011-12 Panini Contenders",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2011-12-panini-contenders-159",
+          "base_number": "159",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2011-12-Panini-Contenders-159-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2011-12-Panini-Contenders-159-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2011-12-panini-crown-royale": {
+      "set_key": "2011-12-panini-crown-royale",
+      "set_name": "Panini Crown Royale",
+      "set_year_label": "2011-12",
+      "set_year_start": 2011,
+      "set_year_end": 2012,
+      "set_display_name": "2011-12 Panini Crown Royale",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2011-12-panini-crown-royale-ice-kings",
+          "set_name": "Ice Kings",
+          "set_display_name": "2011-12 Panini Crown Royale - Ice Kings",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2011-12-panini-crown-royale-ice-kings-13",
+              "base_number": "13",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2011-12-Panini-Crown-Royale---Ice-Kings-13-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2011-12-Panini-Crown-Royale---Ice-Kings-13-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -8772,6 +8947,52 @@
         }
       ]
     },
+    "2011-12-sp-game-used": {
+      "set_key": "2011-12-sp-game-used",
+      "set_name": "SP Game Used",
+      "set_year_label": "2011-12",
+      "set_year_start": 2011,
+      "set_year_end": 2012,
+      "set_display_name": "2011-12 SP Game Used",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2011-12-sp-game-used-74",
+          "base_number": "74",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2011-12-SP-Game-Used-74-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2011-12-SP-Game-Used-74-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2011-12-spx": {
+      "set_key": "2011-12-spx",
+      "set_name": "SPx",
+      "set_year_label": "2011-12",
+      "set_year_start": 2011,
+      "set_year_end": 2012,
+      "set_display_name": "2011-12 SPx",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2011-12-spx-119",
+          "base_number": "119",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2011-12-SPx-119-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2011-12-SPx-119-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2011-12-upper-deck-black-diamond": {
       "set_key": "2011-12-upper-deck-black-diamond",
       "set_name": "Upper Deck Black Diamond",
@@ -8792,6 +9013,18 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-2011-12-upper-deck-black-diamond-222",
+          "base_number": "222",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2011-12-Upper-Deck-Black-Diamond-222-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2011-12-Upper-Deck-Black-Diamond-222-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
@@ -8818,6 +9051,364 @@
         }
       ]
     },
+    "2011-12-upper-deck": {
+      "set_key": "2011-12-upper-deck",
+      "set_name": "Upper Deck",
+      "set_year_label": "2011-12",
+      "set_year_start": 2011,
+      "set_year_end": 2012,
+      "set_display_name": "2011-12 Upper Deck",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2011-12-upper-deck-ud-canvas",
+          "set_name": "UD Canvas",
+          "set_display_name": "2011-12 Upper Deck - UD Canvas",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2011-12-upper-deck-ud-canvas-c242",
+              "base_number": "C242",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2011-12-Upper-Deck---UD-Canvas-C242-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2011-12-Upper-Deck---UD-Canvas-C242-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2011-12-upper-deck-ultimate-collection": {
+      "set_key": "2011-12-upper-deck-ultimate-collection",
+      "set_name": "Upper Deck Ultimate Collection",
+      "set_year_label": "2011-12",
+      "set_year_start": 2011,
+      "set_year_end": 2012,
+      "set_display_name": "2011-12 Upper Deck Ultimate Collection",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2011-12-upper-deck-ultimate-collection-46",
+          "base_number": "46",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2011-12-Upper-Deck-Ultimate-Collection-46-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2011-12-Upper-Deck-Ultimate-Collection-46-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2012-13-in-the-game-draft-prospects": {
+      "set_key": "2012-13-in-the-game-draft-prospects",
+      "set_name": "In The Game Draft Prospects",
+      "set_year_label": "2012-13",
+      "set_year_start": 2012,
+      "set_year_end": 2013,
+      "set_display_name": "2012-13 In The Game Draft Prospects",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2012-13-in-the-game-draft-prospects-122",
+          "base_number": "122",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2012-13-In-The-Game-Draft-Prospects-122-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2012-13-In-The-Game-Draft-Prospects-122-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2012-13-o-pee-chee": {
+      "set_key": "2012-13-o-pee-chee",
+      "set_name": "O-Pee-Chee",
+      "set_year_label": "2012-13",
+      "set_year_start": 2012,
+      "set_year_end": 2013,
+      "set_display_name": "2012-13 O-Pee-Chee",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2012-13-o-pee-chee-597",
+          "base_number": "597",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2012-13-O-Pee-Chee-597-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2012-13-O-Pee-Chee-597-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2012-13-o-pee-chee-all-stars",
+          "set_name": "All-Stars",
+          "set_display_name": "2012-13 O-Pee-Chee - All-Stars",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2012-13-o-pee-chee-all-stars-as-26",
+              "base_number": "AS-26",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2012-13-O-Pee-Chee---All-Stars-AS-26-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2012-13-O-Pee-Chee---All-Stars-AS-26-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2012-13-o-pee-chee-marquee-legends-gold",
+          "set_name": "Marquee Legends Gold",
+          "set_display_name": "2012-13 O-Pee-Chee - Marquee Legends Gold",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2012-13-o-pee-chee-marquee-legends-gold-g9",
+              "base_number": "G9",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2012-13-O-Pee-Chee---Marquee-Legends-Gold-G9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2012-13-O-Pee-Chee---Marquee-Legends-Gold-G9-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2012-13-o-pee-chee-pop-ups",
+          "set_name": "Pop-Ups",
+          "set_display_name": "2012-13 O-Pee-Chee - Pop-Ups",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2012-13-o-pee-chee-pop-ups-pu-41",
+              "base_number": "PU-41",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2012-13-O-Pee-Chee---Pop-Ups-PU-41-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2012-13-O-Pee-Chee---Pop-Ups-PU-41-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2012-13-o-pee-chee-rainbow",
+          "set_name": "Rainbow",
+          "set_display_name": "2012-13 O-Pee-Chee - Rainbow",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2012-13-o-pee-chee-rainbow-597",
+              "base_number": "597",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2012-13-O-Pee-Chee---Rainbow-597-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2012-13-O-Pee-Chee---Rainbow-597-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2012-13-o-pee-chee-retro",
+          "set_name": "Retro",
+          "set_display_name": "2012-13 O-Pee-Chee - Retro",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2012-13-o-pee-chee-retro-597",
+              "base_number": "597",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2012-13-O-Pee-Chee---Retro-597-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2012-13-O-Pee-Chee---Retro-597-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2012-13-o-pee-chee-stickers",
+          "set_name": "Stickers",
+          "set_display_name": "2012-13 O-Pee-Chee - Stickers",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2012-13-o-pee-chee-stickers-s-76",
+              "base_number": "S-76",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2012-13-O-Pee-Chee---Stickers-S-76-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2012-13-O-Pee-Chee---Stickers-S-76-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2012-13-panini-certified": {
+      "set_key": "2012-13-panini-certified",
+      "set_name": "Panini Certified",
+      "set_year_label": "2012-13",
+      "set_year_start": 2012,
+      "set_year_end": 2013,
+      "set_display_name": "2012-13 Panini Certified",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2012-13-panini-certified-131",
+          "base_number": "131",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2012-13-Panini-Certified-131-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2012-13-Panini-Certified-131-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2012-13-panini-classics-signatures": {
+      "set_key": "2012-13-panini-classics-signatures",
+      "set_name": "Panini Classics Signatures",
+      "set_year_label": "2012-13",
+      "set_year_start": 2012,
+      "set_year_end": 2013,
+      "set_display_name": "2012-13 Panini Classics Signatures",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2012-13-panini-classics-signatures-68",
+          "base_number": "68",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2012-13-Panini-Classics-Signatures-68-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2012-13-Panini-Classics-Signatures-68-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2012-13-panini-classics-signatures-banner-numbers",
+          "set_name": "Banner Numbers",
+          "set_display_name": "2012-13 Panini Classics Signatures - Banner Numbers",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2012-13-panini-classics-signatures-banner-numbers-en9",
+              "base_number": "EN9",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2012-13-Panini-Classics-Signatures---Banner-Numbers-EN9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2012-13-Panini-Classics-Signatures---Banner-Numbers-EN9-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2012-13-panini-rookie-anthology": {
+      "set_key": "2012-13-panini-rookie-anthology",
+      "set_name": "Panini Rookie Anthology",
+      "set_year_label": "2012-13",
+      "set_year_start": 2012,
+      "set_year_end": 2013,
+      "set_display_name": "2012-13 Panini Rookie Anthology",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2012-13-panini-rookie-anthology-contenders-legacies",
+          "set_name": "Contenders Legacies",
+          "set_display_name": "2012-13 Panini Rookie Anthology - Contenders Legacies",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2012-13-panini-rookie-anthology-contenders-legacies-l6",
+              "base_number": "L6",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2012-13-Panini-Rookie-Anthology---Contenders-Legacies-L6-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2012-13-Panini-Rookie-Anthology---Contenders-Legacies-L6-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2012-13-sp-authentic": {
+      "set_key": "2012-13-sp-authentic",
+      "set_name": "SP Authentic",
+      "set_year_label": "2012-13",
+      "set_year_start": 2012,
+      "set_year_end": 2013,
+      "set_display_name": "2012-13 SP Authentic",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2012-13-sp-authentic-42",
+          "base_number": "42",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2012-13-SP-Authentic-42-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2012-13-SP-Authentic-42-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2012-13-sp-authentic-177",
+          "base_number": "177",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2012-13-SP-Authentic-177-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2012-13-SP-Authentic-177-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2012-13-upper-deck-artifacts": {
       "set_key": "2012-13-upper-deck-artifacts",
       "set_name": "Upper Deck Artifacts",
@@ -8839,6 +9430,53 @@
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
+        }
+      ]
+    },
+    "2012-13-upper-deck-black-diamond": {
+      "set_key": "2012-13-upper-deck-black-diamond",
+      "set_name": "Upper Deck Black Diamond",
+      "set_year_label": "2012-13",
+      "set_year_start": 2012,
+      "set_year_end": 2013,
+      "set_display_name": "2012-13 Upper Deck Black Diamond",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2012-13-upper-deck-black-diamond-49",
+          "base_number": "49",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2012-13-Upper-Deck-Black-Diamond-49-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2012-13-Upper-Deck-Black-Diamond-49-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        },
+        {
+          "id": "ml-2012-13-upper-deck-black-diamond-70",
+          "base_number": "70",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2012-13-Upper-Deck-Black-Diamond-70-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2012-13-Upper-Deck-Black-Diamond-70-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2012-13-upper-deck-black-diamond-217",
+          "base_number": "217",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2012-13-Upper-Deck-Black-Diamond-217-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2012-13-Upper-Deck-Black-Diamond-217-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
@@ -8910,6 +9548,165 @@
               "inCollection": true
             }
           ]
+        },
+        {
+          "set_key": "2013-14-fleer-showcase-ultra",
+          "set_name": "Ultra",
+          "set_display_name": "2013-14 Fleer Showcase - Ultra",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2013-14-fleer-showcase-ultra-3",
+              "base_number": "3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2013-14-Fleer-Showcase---Ultra-3-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2013-14-Fleer-Showcase---Ultra-3-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2013-14-in-the-game-decades-1990s": {
+      "set_key": "2013-14-in-the-game-decades-1990s",
+      "set_name": "In The Game Decades 1990s",
+      "set_year_label": "2013-14",
+      "set_year_start": 2013,
+      "set_year_end": 2014,
+      "set_display_name": "2013-14 In The Game Decades 1990s",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2013-14-in-the-game-decades-1990s-98",
+          "base_number": "98",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2013-14-In-The-Game-Decades-1990s-98-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2013-14-In-The-Game-Decades-1990s-98-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2013-14-in-the-game-decades-1990s-162",
+          "base_number": "162",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2013-14-In-The-Game-Decades-1990s-162-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2013-14-In-The-Game-Decades-1990s-162-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2013-14-o-pee-chee": {
+      "set_key": "2013-14-o-pee-chee",
+      "set_name": "O-Pee-Chee",
+      "set_year_label": "2013-14",
+      "set_year_start": 2013,
+      "set_year_end": 2014,
+      "set_display_name": "2013-14 O-Pee-Chee",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2013-14-o-pee-chee-rings",
+          "set_name": "Rings",
+          "set_display_name": "2013-14 O-Pee-Chee - Rings",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2013-14-o-pee-chee-rings-r-33",
+              "base_number": "R-33",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2013-14-O-Pee-Chee---Rings-R-33-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2013-14-O-Pee-Chee---Rings-R-33-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2013-14-o-pee-chee-stamps",
+          "set_name": "Stamps",
+          "set_display_name": "2013-14 O-Pee-Chee - Stamps",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2013-14-o-pee-chee-stamps-st-ml",
+              "base_number": "ST-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2013-14-O-Pee-Chee---Stamps-ST-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2013-14-O-Pee-Chee---Stamps-ST-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2013-14-o-pee-chee-stickers",
+          "set_name": "Stickers",
+          "set_display_name": "2013-14 O-Pee-Chee - Stickers",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2013-14-o-pee-chee-stickers-s-ml",
+              "base_number": "S-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2013-14-O-Pee-Chee---Stickers-S-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2013-14-O-Pee-Chee---Stickers-S-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2013-14-panini-prizm": {
+      "set_key": "2013-14-panini-prizm",
+      "set_name": "Panini Prizm",
+      "set_year_label": "2013-14",
+      "set_year_start": 2013,
+      "set_year_end": 2014,
+      "set_display_name": "2013-14 Panini Prizm",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2013-14-panini-prizm-endless-impressions",
+          "set_name": "Endless Impressions",
+          "set_display_name": "2013-14 Panini Prizm - Endless Impressions",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2013-14-panini-prizm-endless-impressions-ei-5",
+              "base_number": "EI-5",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2013-14-Panini-Prizm---Endless-Impressions-EI-5-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2013-14-Panini-Prizm---Endless-Impressions-EI-5-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -8934,6 +9731,28 @@
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2013-14-panini-select-honored-selections",
+          "set_name": "Honored Selections",
+          "set_display_name": "2013-14 Panini Select - Honored Selections",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2013-14-panini-select-honored-selections-hs-17",
+              "base_number": "HS-17",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2013-14-Panini-Select---Honored-Selections-HS-17-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2013-14-Panini-Select---Honored-Selections-HS-17-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -9155,6 +9974,186 @@
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2013-14-Upper-Deck---UD-MVP-35-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2013-14-Upper-Deck---UD-MVP-35-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2013-14-upper-deck-artifacts": {
+      "set_key": "2013-14-upper-deck-artifacts",
+      "set_name": "Upper Deck Artifacts",
+      "set_year_label": "2013-14",
+      "set_year_start": 2013,
+      "set_year_end": 2014,
+      "set_display_name": "2013-14 Upper Deck Artifacts",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2013-14-upper-deck-artifacts-54",
+          "base_number": "54",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2013-14-Upper-Deck-Artifacts-54-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2013-14-Upper-Deck-Artifacts-54-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2013-14-upper-deck-black-diamond": {
+      "set_key": "2013-14-upper-deck-black-diamond",
+      "set_name": "Upper Deck Black Diamond",
+      "set_year_label": "2013-14",
+      "set_year_start": 2013,
+      "set_year_end": 2014,
+      "set_display_name": "2013-14 Upper Deck Black Diamond",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2013-14-upper-deck-black-diamond-212",
+          "base_number": "212",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2013-14-Upper-Deck-Black-Diamond-212-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2013-14-Upper-Deck-Black-Diamond-212-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2013-14-upper-deck-the-cup": {
+      "set_key": "2013-14-upper-deck-the-cup",
+      "set_name": "Upper Deck The Cup",
+      "set_year_label": "2013-14",
+      "set_year_start": 2013,
+      "set_year_end": 2014,
+      "set_display_name": "2013-14 Upper Deck The Cup",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2013-14-upper-deck-the-cup-66",
+          "base_number": "66",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2013-14-Upper-Deck-The-Cup-66-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2013-14-Upper-Deck-The-Cup-66-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2013-14-upper-deck-trilogy": {
+      "set_key": "2013-14-upper-deck-trilogy",
+      "set_name": "Upper Deck Trilogy",
+      "set_year_label": "2013-14",
+      "set_year_start": 2013,
+      "set_year_end": 2014,
+      "set_display_name": "2013-14 Upper Deck Trilogy",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2013-14-upper-deck-trilogy-79",
+          "base_number": "79",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2013-14-Upper-Deck-Trilogy-79-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2013-14-Upper-Deck-Trilogy-79-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2013-14-upper-deck-ultimate-collection": {
+      "set_key": "2013-14-upper-deck-ultimate-collection",
+      "set_name": "Upper Deck Ultimate Collection",
+      "set_year_label": "2013-14",
+      "set_year_start": 2013,
+      "set_year_end": 2014,
+      "set_display_name": "2013-14 Upper Deck Ultimate Collection",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2013-14-upper-deck-ultimate-collection-54",
+          "base_number": "54",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2013-14-Upper-Deck-Ultimate-Collection-54-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2013-14-Upper-Deck-Ultimate-Collection-54-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2013-upper-deck-team-canada": {
+      "set_key": "2013-upper-deck-team-canada",
+      "set_name": "Upper Deck Team Canada",
+      "set_year_label": "2013",
+      "set_year_start": 2013,
+      "set_year_end": 2013,
+      "set_display_name": "2013 Upper Deck Team Canada",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2013-upper-deck-team-canada-155",
+          "base_number": "155",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2013-Upper-Deck-Team-Canada-155-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2013-Upper-Deck-Team-Canada-155-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2013-upper-deck-team-canada-special-edition",
+          "set_name": "Special Edition",
+          "set_display_name": "2013 Upper Deck Team Canada - Special Edition",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2013-upper-deck-team-canada-special-edition-se29",
+              "base_number": "SE29",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2013-Upper-Deck-Team-Canada---Special-Edition-SE29-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2013-Upper-Deck-Team-Canada---Special-Edition-SE29-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2013-upper-deck-team-canada-captains",
+          "set_name": "Captains",
+          "set_display_name": "2013 Upper Deck Team Canada - Captains",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2013-upper-deck-team-canada-captains-c9",
+              "base_number": "C9",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2013-Upper-Deck-Team-Canada---Captains-C9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2013-Upper-Deck-Team-Canada---Captains-C9-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
