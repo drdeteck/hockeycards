@@ -10664,6 +10664,86 @@
               "inCollection": true
             }
           ]
+        },
+        {
+          "set_key": "2015-16-upper-deck-ud-portraits-red",
+          "set_name": "UD Portraits Red",
+          "set_display_name": "2015-16 Upper Deck - UD Portraits Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2015-16-upper-deck-ud-portraits-red-p53",
+              "base_number": "P-53",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2015-16-Upper-Deck---UD-Portraits-Red-P-53-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-Upper-Deck---UD-Portraits-Red-P-53-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2015-16-upper-deck-shining-stars",
+          "set_name": "Shining Stars",
+          "set_display_name": "2015-16 Upper Deck - Shining Stars",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2015-16-upper-deck-shining-stars-ss45",
+              "base_number": "SS-45",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2015-16-Upper-Deck---Shining-Stars-SS-45-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-Upper-Deck---Shining-Stars-SS-45-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2015-16-upper-deck-code-to-greatness",
+          "set_name": "Code to Greatness",
+          "set_display_name": "2015-16 Upper Deck - Code to Greatness",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2015-16-upper-deck-code-to-greatness-ctg24",
+              "base_number": "CTG-24",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2015-16-Upper-Deck---Code-to-Greatness-CTG-24-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-Upper-Deck---Code-to-Greatness-CTG-24-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2015-16-upper-deck-clear-cut-superstars",
+          "set_name": "Clear Cut Superstars",
+          "set_display_name": "2015-16 Upper Deck - Clear Cut Superstars",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2015-16-upper-deck-clear-cut-superstars-ccs62",
+              "base_number": "CCS-62",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2015-16-Upper-Deck---Clear-Cut-Superstars-CCS-62-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-Upper-Deck---Clear-Cut-Superstars-CCS-62-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -10712,6 +10792,164 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false
+        }
+      ]
+    },
+    "2015-16-upper-deck-artifacts": {
+      "set_key": "2015-16-upper-deck-artifacts",
+      "set_name": "Upper Deck Artifacts",
+      "set_year_label": "2015-16",
+      "set_year_start": 2015,
+      "set_year_end": 2016,
+      "set_display_name": "2015-16 Upper Deck Artifacts",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2015-16-upper-deck-artifacts-137",
+          "base_number": "137",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2015-16-Upper-Deck-Artifacts-137-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2015-16-Upper-Deck-Artifacts-137-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2015-16-spx": {
+      "set_key": "2015-16-spx",
+      "set_name": "SPx",
+      "set_year_label": "2015-16",
+      "set_year_start": 2015,
+      "set_year_end": 2016,
+      "set_display_name": "2015-16 SPx",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2015-16-spx-95",
+          "base_number": "95",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2015-16-SPx-95-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2015-16-SPx-95-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2015-16-sp-authentic": {
+      "set_key": "2015-16-sp-authentic",
+      "set_name": "SP Authentic",
+      "set_year_label": "2015-16",
+      "set_year_start": 2015,
+      "set_year_end": 2016,
+      "set_display_name": "2015-16 SP Authentic",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2015-16-sp-authentic-124",
+          "base_number": "124",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2015-16-SP-Authentic-124-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2015-16-SP-Authentic-124-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2015-16-o-pee-chee": {
+      "set_key": "2015-16-o-pee-chee",
+      "set_name": "O-Pee-Chee",
+      "set_year_label": "2015-16",
+      "set_year_start": 2015,
+      "set_year_end": 2016,
+      "set_display_name": "2015-16 O-Pee-Chee",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2015-16-o-pee-chee-559",
+          "base_number": "559",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2015-16-O-Pee-Chee-559-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2015-16-O-Pee-Chee-559-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2015-16-o-pee-chee-retro",
+          "set_name": "Retro",
+          "set_display_name": "2015-16 O-Pee-Chee - Retro",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2015-16-o-pee-chee-retro-559",
+              "base_number": "559",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2015-16-O-Pee-Chee---Retro-559-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-O-Pee-Chee---Retro-559-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2015-16-o-pee-chee-retro-614",
+              "base_number": "614",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2015-16-O-Pee-Chee---Retro-614-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-O-Pee-Chee---Retro-614-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2015-16-o-pee-chee-platinum": {
+      "set_key": "2015-16-o-pee-chee-platinum",
+      "set_name": "O-Pee-Chee Platinum",
+      "set_year_label": "2015-16",
+      "set_year_start": 2015,
+      "set_year_end": 2016,
+      "set_display_name": "2015-16 O-Pee-Chee Platinum",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2015-16-o-pee-chee-platinum-retro",
+          "set_name": "Retro",
+          "set_display_name": "2015-16 O-Pee-Chee Platinum - Retro",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2015-16-o-pee-chee-platinum-retro-r12",
+              "base_number": "R12",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2015-16-O-Pee-Chee-Platinum---Retro-R12-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-O-Pee-Chee-Platinum---Retro-R12-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
