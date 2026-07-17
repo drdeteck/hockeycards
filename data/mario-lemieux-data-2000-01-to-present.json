@@ -13651,6 +13651,38 @@
         }
       ]
     },
+    "2023-24-spx": {
+      "set_key": "2023-24-spx",
+      "set_name": "SPx",
+      "set_year_label": "2023-24",
+      "set_year_start": 2023,
+      "set_year_end": 2024,
+      "set_display_name": "2023-24 SPx",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2023-24-spx-radiance-fx",
+          "set_name": "Radiance FX",
+          "set_display_name": "2023-24 SPx - Radiance FX",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-spx-radiance-fx-rfx1",
+              "base_number": "RFX-1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/446857/cid/25531516/2023-24-SPx-RFX-1-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2023-24-upper-deck": {
       "set_key": "2023-24-upper-deck",
       "set_name": "Upper Deck",
@@ -13755,6 +13787,38 @@
         }
       ]
     },
+    "2023-24-upper-deck-ice": {
+      "set_key": "2023-24-upper-deck-ice",
+      "set_name": "Upper Deck Ice",
+      "set_year_label": "2023-24",
+      "set_year_start": 2023,
+      "set_year_end": 2024,
+      "set_display_name": "2023-24 Upper Deck Ice",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2023-24-upper-deck-ice-snow-men",
+          "set_name": "Snow Men",
+          "set_display_name": "2023-24 Upper Deck Ice - Snow Men",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-ice-snow-men-sm43",
+              "base_number": "SM-43",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/451308/cid/25754023/2023-24-Upper-Deck-Ice-SM-43-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2023-24-upper-deck-synergy": {
       "set_key": "2023-24-upper-deck-synergy",
       "set_name": "Upper Deck Synergy",
@@ -13839,6 +13903,66 @@
               "image_front": "img/cards/ML66/2023-24-Upper-Deck-Synergy---Barnburners!-BARN-4-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2023-24-Upper-Deck-Synergy---Barnburners!-BARN-4-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2023-24-upper-deck-synergy-cast-for-greatness",
+          "set_name": "Cast for Greatness",
+          "set_display_name": "2023-24 Upper Deck Synergy - Cast for Greatness",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-synergy-cast-for-greatness-cg27",
+              "base_number": "CG-27",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/435615/cid/24992040/2023-24-Upper-Deck-Synergy-CG-27-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2023-24-upper-deck-synergy-cast-for-greatness-purple",
+          "set_name": "Cast for Greatness Purple",
+          "set_display_name": "2023-24 Upper Deck Synergy - Cast for Greatness Purple",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-synergy-cast-for-greatness-purple-cg27",
+              "base_number": "CG-27",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/435616/cid/24992080/2023-24-Upper-Deck-Synergy-CG-27-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2023-24-upper-deck-synergy-red",
+          "set_name": "Red",
+          "set_display_name": "2023-24 Upper Deck Synergy - Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-synergy-red-64",
+              "base_number": "64",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/435801/cid/24997332/2023-24-Upper-Deck-Synergy-64-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false
