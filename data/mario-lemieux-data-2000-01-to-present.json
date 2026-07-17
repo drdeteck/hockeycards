@@ -11043,6 +11043,246 @@
         }
       ]
     },
+    "2015-16-upper-deck-premier": {
+      "set_key": "2015-16-upper-deck-premier",
+      "set_name": "Upper Deck Premier",
+      "set_year_label": "2015-16",
+      "set_year_start": 2015,
+      "set_year_end": 2016,
+      "set_display_name": "2015-16 Upper Deck Premier",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2015-16-upper-deck-premier-44",
+          "base_number": "44",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2015-16-Upper-Deck-Premier-44-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2015-16-Upper-Deck-Premier-44-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2015-16-upper-deck-mvp": {
+      "set_key": "2015-16-upper-deck-mvp",
+      "set_name": "Upper Deck MVP",
+      "set_year_label": "2015-16",
+      "set_year_start": 2015,
+      "set_year_end": 2016,
+      "set_display_name": "2015-16 Upper Deck MVP",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2015-16-upper-deck-mvp-172",
+          "base_number": "172",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2015-16-Upper-Deck-MVP-172-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2015-16-Upper-Deck-MVP-172-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2015-16-upper-deck-mvp-silver-script",
+          "set_name": "Silver Script",
+          "set_display_name": "2015-16 Upper Deck MVP - Silver Script",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2015-16-upper-deck-mvp-silver-script-172",
+              "base_number": "172",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2015-16-Upper-Deck-MVP---Silver-Script-172-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-Upper-Deck-MVP---Silver-Script-172-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2015-16-upper-deck-mvp-green",
+          "set_name": "Green",
+          "set_display_name": "2015-16 Upper Deck MVP - Green",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2015-16-upper-deck-mvp-green-172",
+              "base_number": "172",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2015-16-Upper-Deck-MVP---Green-172-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-Upper-Deck-MVP---Green-172-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2015-16-upper-deck-mvp-colours-and-contours",
+          "set_name": "Colours and Contours",
+          "set_display_name": "2015-16 Upper Deck MVP - Colours and Contours",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2015-16-upper-deck-mvp-colours-and-contours-172",
+              "base_number": "172",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2015-16-Upper-Deck-MVP---Colours-and-Contours-172-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-Upper-Deck-MVP---Colours-and-Contours-172-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2015-16-upper-deck-ice": {
+      "set_key": "2015-16-upper-deck-ice",
+      "set_name": "Upper Deck Ice",
+      "set_year_label": "2015-16",
+      "set_year_start": 2015,
+      "set_year_end": 2016,
+      "set_display_name": "2015-16 Upper Deck Ice",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2015-16-upper-deck-ice-exquisite-collection",
+          "set_name": "Exquisite Collection",
+          "set_display_name": "2015-16 Upper Deck Ice - Exquisite Collection",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2015-16-upper-deck-ice-exquisite-collection-33",
+              "base_number": "33",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2015-16-Upper-Deck-Ice---Exquisite-Collection-33-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-Upper-Deck-Ice---Exquisite-Collection-33-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2015-16-upper-deck-full-force": {
+      "set_key": "2015-16-upper-deck-full-force",
+      "set_name": "Upper Deck Full Force",
+      "set_year_label": "2015-16",
+      "set_year_start": 2015,
+      "set_year_end": 2016,
+      "set_display_name": "2015-16 Upper Deck Full Force",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2015-16-upper-deck-full-force-draft-board",
+          "set_name": "Draft Board",
+          "set_display_name": "2015-16 Upper Deck Full Force - Draft Board",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2015-16-upper-deck-full-force-draft-board-db-ml",
+              "base_number": "DB-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2015-16-Upper-Deck-Full-Force---Draft-Board-DB-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-Upper-Deck-Full-Force---Draft-Board-DB-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2015-16-upper-deck-champs": {
+      "set_key": "2015-16-upper-deck-champs",
+      "set_name": "Upper Deck Champ's",
+      "set_year_label": "2015-16",
+      "set_year_start": 2015,
+      "set_year_end": 2016,
+      "set_display_name": "2015-16 Upper Deck Champ's",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2015-16-upper-deck-champs-326",
+          "base_number": "326",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2015-16-Upper-Deck-Champ's-326-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2015-16-Upper-Deck-Champ's-326-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2015-16-upper-deck-champs-no1-picks",
+          "set_name": "No.1 Picks",
+          "set_display_name": "2015-16 Upper Deck Champ's - No.1 Picks",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2015-16-upper-deck-champs-no1-picks-ml",
+              "base_number": "ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2015-16-Upper-Deck-Champ's-No1-Picks-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-Upper-Deck-Champ's-No1-Picks-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2015-16-upper-deck-black": {
+      "set_key": "2015-16-upper-deck-black",
+      "set_name": "Upper Deck Black",
+      "set_year_label": "2015-16",
+      "set_year_start": 2015,
+      "set_year_end": 2016,
+      "set_display_name": "2015-16 Upper Deck Black",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2015-16-upper-deck-black-33",
+          "base_number": "33",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2015-16-Upper-Deck-Black-33-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2015-16-Upper-Deck-Black-33-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2011-12-upper-deck-artifacts": {
       "set_key": "2011-12-upper-deck-artifacts",
       "set_name": "Upper Deck Artifacts",
