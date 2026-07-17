@@ -28,7 +28,8 @@ Each dataset is a JSON file loaded at runtime from `app.js`:
 |------|-----------|----------|
 | `data/mcdonalds-data.json` | set map (`{ [set_key]: Set }`) | McDonald's sets 1991–92 through 1998–99 (~325 cards) |
 | `data/mario-lemieux-data-1985-86-to-1999-00.json` | metadata + `sets` object | Mario Lemieux cards from 1985–86 through 1999–00 |
-| `data/mario-lemieux-data-2000-01-to-present.json` | metadata + `sets` object | Mario Lemieux cards from 2000–01 to present |
+| `data/mario-lemieux-data-2000-01-to-2009-10.json` | metadata + `sets` object | Mario Lemieux cards from 2000–01 through 2009–10 |
+| `data/mario-lemieux-data-2010-11-to-present.json` | metadata + `sets` object | Mario Lemieux cards from 2010–11 to present |
 | `data/mario-lemieux-data-stickers.json` | metadata + `sets` object | Mario Lemieux sticker cards (all years) |
 | `data/mario-lemieux-data-gems.json` | metadata + `sets` object | Mario Lemieux rare/numbered, memorabilia & autograph cards |
 | `data/96-97-cc-data.json` | set map (`{ [set_key]: Set }`) | 1996–97 Upper Deck Collector's Choice (412 cards) |
@@ -187,7 +188,7 @@ Mario Lemieux set keys have **no prefix** (e.g. `"1985-86-o-pee-chee"`), not `"m
 - **`app.js`** contains the entire application: Knockout ViewModel, routing logic (`BuildCardRoute`, `CardRouteParts`), and helper functions (`FindCardInData`)
 - **`window.HCHB`** is the global namespace for all app code
 - Data files are loaded asynchronously via `fetch` in `app.js` during `HCHB.App.Init()`
-- Mario data is loaded from two runtime JSON files (`1985-86 to 1999-00` and `2000-01 to present`) and merged in memory before collections are built
+- Mario data is loaded from three runtime JSON files (`1985-86 to 1999-00`, `2000-01 to 2009-10`, and `2010-11 to present`) and merged in memory before collections are built
 - All UI is rendered via Knockout `data-bind` attributes and `<script type="text/html">` templates in `index.html`
 - Card front/back flipping is done with CSS 3D transforms (see `styles/card-detail.css`)
 - No local storage, no cookies, no user accounts — collection state is entirely defined in the data JSON files

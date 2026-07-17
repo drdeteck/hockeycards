@@ -22,7 +22,8 @@ Use this skill to fetch card metadata from a `tcdb.com/ViewCard.cfm/...` URL and
 | User says `gems` | `data/mario-lemieux-data-gems.json` |
 | User says `stickers` | `data/mario-lemieux-data-stickers.json` |
 | User says `regular`, year < 2000 | `data/mario-lemieux-data-1985-86-to-1999-00.json` |
-| User says `regular`, year ≥ 2000 | `data/mario-lemieux-data-2000-01-to-present.json` |
+| User says `regular`, 2000 ≤ year < 2010 | `data/mario-lemieux-data-2000-01-to-2009-10.json` |
+| User says `regular`, year ≥ 2010 | `data/mario-lemieux-data-2010-11-to-present.json` |
 
 ## Procedure
 
@@ -77,7 +78,7 @@ Use this skill to fetch card metadata from a `tcdb.com/ViewCard.cfm/...` URL and
 - If no hint is given, **default to `data/mario-lemieux-data-chase.json`**.
 - If user says `gems` → `mario-lemieux-data-gems.json`.
 - If user says `stickers` → `mario-lemieux-data-stickers.json`.
-- If user says `regular` → route by year: year < 2000 → `1985-86-to-1999-00.json`; year ≥ 2000 → `2000-01-to-present.json`.
+- If user says `regular` → route by year: year < 2000 → `1985-86-to-1999-00.json`; 2000 ≤ year < 2010 → `2000-01-to-2009-10.json`; year ≥ 2010 → `2010-11-to-present.json`.
 - Never ask about the dataset unless the user explicitly requests an unknown target.
 
 ### Step 4 — Locate or create parent set entry
@@ -221,7 +222,8 @@ Use this procedure when the user says "move this card from Chase to Regular", "p
 **Step M2 — Determine destination Regular file**
 - Read `set_year_start` from the card (or parse from `set_year_label` if missing).
 - If `set_year_start < 2000` → destination is `data/mario-lemieux-data-1985-86-to-1999-00.json`.
-- If `set_year_start ≥ 2000` → destination is `data/mario-lemieux-data-2000-01-to-present.json`.
+- If `2000 ≤ set_year_start < 2010` → destination is `data/mario-lemieux-data-2000-01-to-2009-10.json`.
+- If `set_year_start ≥ 2010` → destination is `data/mario-lemieux-data-2010-11-to-present.json`.
 
 **Step M3 — Check for duplicate in destination**
 - Open the destination Regular file.

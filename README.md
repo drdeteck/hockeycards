@@ -53,7 +53,8 @@ hockeycards/
 ├── data/
 │   ├── mcdonalds-data.json     # McDonald's sets
 │   ├── mario-lemieux-data-1985-86-to-1999-00.json # Mario Lemieux cards (1985-86 to 1999-00)
-│   ├── mario-lemieux-data-2000-01-to-present.json # Mario Lemieux cards (2000-01 to present)
+│   ├── mario-lemieux-data-2000-01-to-2009-10.json # Mario Lemieux cards (2000-01 to 2009-10)
+│   ├── mario-lemieux-data-2010-11-to-present.json # Mario Lemieux cards (2010-11 to present)
 │   ├── 96-97-cc-data.json      # 1996-97 Collector's Choice
 │   └── other-cards.json        # Other cards / singles
 ├── img/
@@ -149,9 +150,9 @@ Stores a JSON object keyed by `set_key`. Set-level attributes live on the set; c
 }
 ```
 
-### Mario Lemieux data (`data/mario-lemieux-data-1985-86-to-1999-00.json` and `data/mario-lemieux-data-2000-01-to-present.json`)
+### Mario Lemieux data (`data/mario-lemieux-data-1985-86-to-1999-00.json`, `data/mario-lemieux-data-2000-01-to-2009-10.json`, and `data/mario-lemieux-data-2010-11-to-present.json`)
 
-Stores dataset metadata plus a `sets` object across two split JSON files. Each set carries its own attributes and a `cards` array. Cards with a distinct subset name are grouped under a `subsets` array on their parent set. `app.js` loads both files, merges their `sets`, and builds per-year virtual collections at runtime via `BuildMarioCollections()`:
+Stores dataset metadata plus a `sets` object across three split JSON files. Each set carries its own attributes and a `cards` array. Cards with a distinct subset name are grouped under a `subsets` array on their parent set. `app.js` loads all three files, merges their `sets`, and builds per-year virtual collections at runtime via `BuildMarioCollections()`:
 
 ```js
 {

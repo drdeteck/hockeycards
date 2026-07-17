@@ -22,10 +22,11 @@ window.HCHB = window.HCHB || {};
                 });
             };
 
-            var dataVersion = '0.2.5';
+            var dataVersion = '0.2.6';
             var mcdonaldsDataUrl = 'data/mcdonalds-data.json?ver=' + dataVersion;
             var marioEarlyDataUrl = 'data/mario-lemieux-data-1985-86-to-1999-00.json?ver=' + dataVersion;
-            var marioLateDataUrl = 'data/mario-lemieux-data-2000-01-to-present.json?ver=' + dataVersion;
+            var marioMidDataUrl = 'data/mario-lemieux-data-2000-01-to-2009-10.json?ver=' + dataVersion;
+            var marioLateDataUrl = 'data/mario-lemieux-data-2010-11-to-present.json?ver=' + dataVersion;
             var ccDataUrl = 'data/96-97-cc-data.json?ver=' + dataVersion;
             var otherDataUrl = 'data/other-cards.json?ver=' + dataVersion;
             var stickerDataUrl = 'data/mario-lemieux-data-stickers.json?ver=' + dataVersion;
@@ -35,7 +36,8 @@ window.HCHB = window.HCHB || {};
             Promise.all([
                 loadJsonData(mcdonaldsDataUrl, 'McDonald\'s dataset'),
                 loadJsonData(marioEarlyDataUrl, 'Mario dataset (1985-86 to 1999-00)'),
-                loadJsonData(marioLateDataUrl, 'Mario dataset (2000-01 to present)'),
+                loadJsonData(marioMidDataUrl, 'Mario dataset (2000-01 to 2009-10)'),
+                loadJsonData(marioLateDataUrl, 'Mario dataset (2010-11 to present)'),
                 loadJsonData(ccDataUrl, '96-97-CC dataset'),
                 loadJsonData(otherDataUrl, 'Other cards dataset'),
                 loadJsonData(stickerDataUrl, 'Mario Lemieux stickers dataset'),
@@ -44,12 +46,13 @@ window.HCHB = window.HCHB || {};
             ]).then(function (datasets) {
                 var mcdonaldsData = datasets[0] || {};
                 var marioEarlyData = datasets[1];
-                var marioLateData = datasets[2];
-                var ccData = datasets[3];
-                var otherData = datasets[4];
-                var stickerData = datasets[5];
-                var gemsData = datasets[6];
-                var chaseData = datasets[7];
+                var marioMidData = datasets[2];
+                var marioLateData = datasets[3];
+                var ccData = datasets[4];
+                var otherData = datasets[5];
+                var stickerData = datasets[6];
+                var gemsData = datasets[7];
+                var chaseData = datasets[8];
 
                 var mergedData = Object.assign({}, mcdonaldsData);
 
@@ -57,12 +60,15 @@ window.HCHB = window.HCHB || {};
                 if (marioEarlyData && marioEarlyData.sets) {
                     marioSets = Object.assign(marioSets, marioEarlyData.sets);
                 }
+                if (marioMidData && marioMidData.sets) {
+                    marioSets = Object.assign(marioSets, marioMidData.sets);
+                }
                 if (marioLateData && marioLateData.sets) {
                     marioSets = Object.assign(marioSets, marioLateData.sets);
                 }
 
                 if (Object.keys(marioSets).length > 0) {
-                    var marioData = marioEarlyData || marioLateData || {};
+                    var marioData = marioEarlyData || marioMidData || marioLateData || {};
                     marioData.sets = marioSets;
                     var marioCollections = App.ViewModel.BuildMarioCollections(marioData);
                     mergedData = Object.assign(mergedData, marioCollections);
