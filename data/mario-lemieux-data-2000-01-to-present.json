@@ -10212,17 +10212,17 @@
         }
       ]
     },
-    "2013-upper-deck-team-canada": {
-      "set_key": "2013-upper-deck-team-canada",
+    "2013-14-upper-deck-team-canada": {
+      "set_key": "2013-14-upper-deck-team-canada",
       "set_name": "Upper Deck Team Canada",
-      "set_year_label": "2013",
+      "set_year_label": "2013-14",
       "set_year_start": 2013,
-      "set_year_end": 2013,
-      "set_display_name": "2013 Upper Deck Team Canada",
+      "set_year_end": 2014,
+      "set_display_name": "2013-14 Upper Deck Team Canada",
       "set_tcdb_href": "",
       "cards": [
         {
-          "id": "ml-2013-upper-deck-team-canada-155",
+          "id": "ml-2013-14-upper-deck-team-canada-155",
           "base_number": "155",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
@@ -10236,13 +10236,13 @@
       ],
       "subsets": [
         {
-          "set_key": "2013-upper-deck-team-canada-special-edition",
+          "set_key": "2013-14-upper-deck-team-canada-special-edition",
           "set_name": "Special Edition",
-          "set_display_name": "2013 Upper Deck Team Canada - Special Edition",
+          "set_display_name": "2013-14 Upper Deck Team Canada - Special Edition",
           "set_tcdb_href": "",
           "cards": [
             {
-              "id": "ml-2013-upper-deck-team-canada-special-edition-se29",
+              "id": "ml-2013-14-upper-deck-team-canada-special-edition-se29",
               "base_number": "SE29",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
@@ -10256,13 +10256,13 @@
           ]
         },
         {
-          "set_key": "2013-upper-deck-team-canada-captains",
+          "set_key": "2013-14-upper-deck-team-canada-captains",
           "set_name": "Captains",
-          "set_display_name": "2013 Upper Deck Team Canada - Captains",
+          "set_display_name": "2013-14 Upper Deck Team Canada - Captains",
           "set_tcdb_href": "",
           "cards": [
             {
-              "id": "ml-2013-upper-deck-team-canada-captains-c9",
+              "id": "ml-2013-14-upper-deck-team-canada-captains-c9",
               "base_number": "C9",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
