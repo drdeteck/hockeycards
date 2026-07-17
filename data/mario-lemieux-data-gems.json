@@ -131,6 +131,42 @@
                 }
             ]
         },
+        "2011-12-in-the-game-canada-vs-the-world": {
+            "set_key": "2011-12-in-the-game-canada-vs-the-world",
+            "set_name": "In The Game Canada vs. The World",
+            "set_year_label": "2011-12",
+            "set_year_start": 2011,
+            "set_year_end": 2012,
+            "set_display_name": "2011-12 In The Game Canada vs. The World",
+            "set_tcdb_href": "",
+            "cards": [],
+            "subsets": [
+                {
+                    "set_key": "2011-12-in-the-game-canada-vs-the-world-international-showdown-teammates-silver",
+                    "set_name": "International Showdown Teammates Silver",
+                    "set_display_name": "2011-12 In The Game Canada vs. The World - International Showdown Teammates Silver",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2011-12-in-the-game-canada-vs-the-world-international-showdown-teammates-silver-ist-06",
+                            "base_number": "IST-06",
+                            "card_type": "memorabilia",
+                            "print_run": 50,
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/68611/cid/5026475/2011-12-In-The-Game-Canada-vs.-The-World-IST-06-Mario-Lemieux-/-Grant-Fuhr-/-Dale-Hawerchuk-/-Wayne-Gretzky",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "variant_note": "with Grant Fuhr, Dale Hawerchuk, Wayne Gretzky",
+                            "inCollection": true,
+                            "price": 50
+                        }
+                    ]
+                }
+            ]
+        },
         "2013-14-spx-winning-materials": {
             "set_key": "2013-14-spx-winning-materials",
             "set_name": "SPx - Winning Materials",

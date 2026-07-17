@@ -25,7 +25,8 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "variant_note": "Rookie",
-          "price": 230.2
+          "inCollection": true,
+          "price": 120
         },
         {
           "id": "ml-1985-86-opc-262",

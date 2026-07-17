@@ -1905,7 +1905,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 6.85
             }
           ]
         }
@@ -2067,8 +2068,31 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true,
+          "inCollection": false,
           "price": 2.72
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2001-02-pacific-private-stock-retail",
+          "set_name": "Retail",
+          "set_display_name": "2001-02 Pacific Private Stock - Retail",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-private-stock-retail-78",
+              "base_number": "78",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Private-Stock---Retail-78-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Private-Stock---Retail-78-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 2.81
+            }
+          ]
         }
       ]
     },
@@ -2115,8 +2139,8 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5597/cid/1265749/2001-02-Pacific-Private-Stock-Titanium-114-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false,
-          "price": 2.0
+          "inCollection": true,
+          "price": 1.35
         }
       ],
       "subsets": [
@@ -3706,7 +3730,9 @@
           "image_back": "img/cards/ML66/2002-03-Pacific-Atomic-80-Mario-LemieuxBk.png",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true,
+          "price": 1.76
         }
       ]
     },
@@ -3763,8 +3789,8 @@
             {
               "id": "ml-2002-03-pacific-calder-chasing-glory-8",
               "base_number": "8",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2002-03-Pacific-Calder---Chasing-Glory-8-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2002-03-Pacific-Calder---Chasing-Glory-8-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -6778,7 +6804,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2.11
         },
         {
           "id": "ml-2004-05-upper-deck-189",
@@ -6927,7 +6954,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.76
         }
       ],
       "subsets": [
@@ -7704,7 +7732,9 @@
           "image_back": "img/cards/ML66/2005-06-Upper-Deck-Victory-155-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true,
+          "price": 2.75
         }
       ],
       "subsets": [
@@ -10730,6 +10760,30 @@
         }
       ]
     },
+    "2014-15-upper-deck-national-hockey-card-day-canada": {
+      "set_key": "2014-15-upper-deck-national-hockey-card-day-canada",
+      "set_name": "Upper Deck National Hockey Card Day Canada",
+      "set_year_label": "2014-15",
+      "set_year_start": 2014,
+      "set_year_end": 2015,
+      "set_display_name": "2014-15 Upper Deck National Hockey Card Day Canada",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2014-15-upper-deck-national-hockey-card-day-canada-nhcd17",
+          "base_number": "NHCD+17",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2014-15-Upper-Deck-National-Hockey-Card-Day-Canada-NHCD+17-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2014-15-Upper-Deck-National-Hockey-Card-Day-Canada-NHCD+17-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 1.40
+        }
+      ]
+    },
     "2015-16-upper-deck": {
       "set_key": "2015-16-upper-deck",
       "set_name": "Upper Deck",
@@ -12938,6 +12992,27 @@
               "team": "Team Canada",
               "position": "Center",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "2025-26-upper-deck-tim-hortons-team-canada-maple-leaf-immortals",
+          "set_name": "Maple Leaf Immortals",
+          "set_display_name": "2025-26 Upper Deck Tim Hortons Team Canada - Maple Leaf Immortals",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2025-26-upper-deck-tim-hortons-team-canada-maple-leaf-immortals-ml-3",
+              "base_number": "ML-3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2025-26-Upper-Deck-Tim-Hortons-Team-Canada---Maple-Leaf-Immortals-ML-3-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2025-26-Upper-Deck-Tim-Hortons-Team-Canada---Maple-Leaf-Immortals-ML-3-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Team Canada",
+              "position": "Center",
+              "inCollection": true,
+              "price": 37.76
             }
           ]
         }
