@@ -12487,6 +12487,61 @@
         }
       ]
     },
+    "2019-20-upper-deck-artifacts": {
+      "set_key": "2019-20-upper-deck-artifacts",
+      "set_name": "Upper Deck Artifacts",
+      "set_year_label": "2019-20",
+      "set_year_start": 2019,
+      "set_year_end": 2020,
+      "set_display_name": "2019-20 Upper Deck Artifacts",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2019-20-upper-deck-artifacts-156",
+          "base_number": "156",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2019-20-Upper-Deck-Artifacts-156-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2019-20-Upper-Deck-Artifacts-156-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2019-20-upper-deck-stature": {
+      "set_key": "2019-20-upper-deck-stature",
+      "set_name": "Upper Deck Stature",
+      "set_year_label": "2019-20",
+      "set_year_start": 2019,
+      "set_year_end": 2020,
+      "set_display_name": "2019-20 Upper Deck Stature",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2019-20-upper-deck-stature-century-momentous",
+          "set_name": "Century Momentous",
+          "set_display_name": "2019-20 Upper Deck Stature - Century Momentous",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2019-20-upper-deck-stature-century-momentous-cm16",
+              "base_number": "CM-16",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2019-20-Upper-Deck-Stature---Century-Momentous-CM-16-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2019-20-Upper-Deck-Stature---Century-Momentous-CM-16-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2021-22-fleer-ultra": {
       "set_key": "2021-22-fleer-ultra",
       "set_name": "Fleer Ultra",
