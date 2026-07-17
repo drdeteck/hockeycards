@@ -2367,6 +2367,27 @@
               "price": 4.8
             }
           ]
+        },
+        {
+          "set_key": "2001-02-stadium-club-nhl-passport",
+          "set_name": "NHL Passport",
+          "set_display_name": "2001-02 Stadium Club - NHL Passport",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-stadium-club-nhl-passport-nhlp18",
+              "base_number": "NHLP18",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50182/cid/1711804/2001-02-Stadium-Club-NHLP18-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 3.5
+            }
+          ]
         }
       ]
     },
@@ -13215,11 +13236,43 @@
             {
               "id": "ml-2022-23-sp-game-used-purity-p74",
               "base_number": "P-74",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2022-23-SP-Game-Used---Purity-P-74-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2022-23-SP-Game-Used---Purity-P-74-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2022-23-spx": {
+      "set_key": "2022-23-spx",
+      "set_name": "SPx",
+      "set_year_label": "2022-23",
+      "set_year_start": 2022,
+      "set_year_end": 2023,
+      "set_display_name": "2022-23 SPx",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2022-23-spx-radiance-fx",
+          "set_name": "Radiance FX",
+          "set_display_name": "2022-23 SPx - Radiance FX",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2022-23-spx-radiance-fx-rfx3",
+              "base_number": "RFX-3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/386929/cid/22617810/2022-23-SPx-RFX-3-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false
@@ -13280,6 +13333,28 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2022-23-upper-deck-stature-dignified",
+          "set_name": "Dignified",
+          "set_display_name": "2022-23 Upper Deck Stature - Dignified",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2022-23-upper-deck-stature-dignified-d2",
+              "base_number": "D-2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/395734/cid/23066039/2022-23-Upper-Deck-Stature-D-2-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -13378,6 +13453,391 @@
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2022-23-Upper-Deck-Trilogy---Frozen-in-Time-FT-ML-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2022-23-Upper-Deck-Trilogy---Frozen-in-Time-FT-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2023-24-parkhurst-champions": {
+      "set_key": "2023-24-parkhurst-champions",
+      "set_name": "Parkhurst Champions",
+      "set_year_label": "2023-24",
+      "set_year_start": 2023,
+      "set_year_end": 2024,
+      "set_display_name": "2023-24 Parkhurst Champions",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2023-24-parkhurst-champions-268",
+          "base_number": "268",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2023-24-Parkhurst-Champions-268-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2023-24-Parkhurst-Champions-268-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2023-24-parkhurst-champions-speckled",
+          "set_name": "Speckled",
+          "set_display_name": "2023-24 Parkhurst Champions - Speckled",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-parkhurst-champions-speckled-268",
+              "base_number": "268",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Parkhurst-Champions---Speckled-268-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Parkhurst-Champions---Speckled-268-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2023-24-parkhurst-champions-silver",
+          "set_name": "Silver",
+          "set_display_name": "2023-24 Parkhurst Champions - Silver",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-parkhurst-champions-silver-268",
+              "base_number": "268",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Parkhurst-Champions---Silver-268-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Parkhurst-Champions---Silver-268-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2023-24-parkhurst-champions-rainbow",
+          "set_name": "Rainbow",
+          "set_display_name": "2023-24 Parkhurst Champions - Rainbow",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-parkhurst-champions-rainbow-268",
+              "base_number": "268",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Parkhurst-Champions---Rainbow-268-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Parkhurst-Champions---Rainbow-268-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2023-24-parkhurst-champions-color-variation",
+          "set_name": "Color Variation",
+          "set_display_name": "2023-24 Parkhurst Champions - Color Variation",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-parkhurst-champions-color-variation-268",
+              "base_number": "268",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Parkhurst-Champions---Color-Variation-268-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Parkhurst-Champions---Color-Variation-268-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2023-24-skybox-metal-universe": {
+      "set_key": "2023-24-skybox-metal-universe",
+      "set_name": "SkyBox Metal Universe",
+      "set_year_label": "2023-24",
+      "set_year_start": 2023,
+      "set_year_end": 2024,
+      "set_display_name": "2023-24 SkyBox Metal Universe",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2023-24-skybox-metal-universe-soul-of-the-game",
+          "set_name": "Soul of the Game",
+          "set_display_name": "2023-24 SkyBox Metal Universe - Soul of the Game",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-skybox-metal-universe-soul-of-the-game-34",
+              "base_number": "34",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-SkyBox-Metal-Universe---Soul-of-the-Game-34-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-SkyBox-Metal-Universe---Soul-of-the-Game-34-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2023-24-sp-game-used": {
+      "set_key": "2023-24-sp-game-used",
+      "set_name": "SP Game Used",
+      "set_year_label": "2023-24",
+      "set_year_start": 2023,
+      "set_year_end": 2024,
+      "set_display_name": "2023-24 SP Game Used",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2023-24-sp-game-used-gold",
+          "set_name": "Gold",
+          "set_display_name": "2023-24 SP Game Used - Gold",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-sp-game-used-gold-197",
+              "base_number": "197",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-SP-Game-Used---Gold-197-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-SP-Game-Used---Gold-197-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2023-24-sp-game-used-red",
+          "set_name": "Red",
+          "set_display_name": "2023-24 SP Game Used - Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-sp-game-used-red-197",
+              "base_number": "197",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-SP-Game-Used---Red-197-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-SP-Game-Used---Red-197-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2023-24-upper-deck": {
+      "set_key": "2023-24-upper-deck",
+      "set_name": "Upper Deck",
+      "set_year_label": "2023-24",
+      "set_year_start": 2023,
+      "set_year_end": 2024,
+      "set_display_name": "2023-24 Upper Deck",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2023-24-upper-deck-seeing-red-silver-spectrum",
+          "set_name": "Seeing Red Silver Spectrum",
+          "set_display_name": "2023-24 Upper Deck - Seeing Red Silver Spectrum",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-seeing-red-silver-spectrum-sr3",
+              "base_number": "SR-3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Upper-Deck---Seeing-Red-Silver-Spectrum-SR-3-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Upper-Deck---Seeing-Red-Silver-Spectrum-SR-3-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2023-24-upper-deck-seeing-red",
+          "set_name": "Seeing Red",
+          "set_display_name": "2023-24 Upper Deck - Seeing Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-seeing-red-sr3",
+              "base_number": "SR-3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Upper-Deck---Seeing-Red-SR-3-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Upper-Deck---Seeing-Red-SR-3-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2023-24-upper-deck-mastery-achievements",
+          "set_name": "Mastery Achievements",
+          "set_display_name": "2023-24 Upper Deck - Mastery Achievements",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-mastery-achievements-mh",
+              "base_number": "M-H",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Upper-Deck---Mastery-Achievements-M-H-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Upper-Deck---Mastery-Achievements-M-H-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2023-24-upper-deck-credentials": {
+      "set_key": "2023-24-upper-deck-credentials",
+      "set_name": "Upper Deck Credentials",
+      "set_year_label": "2023-24",
+      "set_year_start": 2023,
+      "set_year_end": 2024,
+      "set_display_name": "2023-24 Upper Deck Credentials",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2023-24-upper-deck-credentials-live-tonight",
+          "set_name": "Live Tonight",
+          "set_display_name": "2023-24 Upper Deck Credentials - Live Tonight",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-credentials-live-tonight-lt9",
+              "base_number": "LT-9",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Upper-Deck-Credentials---Live-Tonight-LT-9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Upper-Deck-Credentials---Live-Tonight-LT-9-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2023-24-upper-deck-synergy": {
+      "set_key": "2023-24-upper-deck-synergy",
+      "set_name": "Upper Deck Synergy",
+      "set_year_label": "2023-24",
+      "set_year_start": 2023,
+      "set_year_end": 2024,
+      "set_display_name": "2023-24 Upper Deck Synergy",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2023-24-upper-deck-synergy-cranked-up",
+          "set_name": "Cranked Up",
+          "set_display_name": "2023-24 Upper Deck Synergy - Cranked Up",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-synergy-cranked-up-crml",
+              "base_number": "CR-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Upper-Deck-Synergy---Cranked-Up-CR-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Upper-Deck-Synergy---Cranked-Up-CR-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2023-24-upper-deck-synergy-flammable",
+          "set_name": "Flammable!",
+          "set_display_name": "2023-24 Upper Deck Synergy - Flammable!",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-synergy-flammable-fl9",
+              "base_number": "FL-9",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Upper-Deck-Synergy---Flammable!-FL-9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Upper-Deck-Synergy---Flammable!-FL-9-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2023-24-upper-deck-synergy-cranked-up-red",
+          "set_name": "Cranked Up Red",
+          "set_display_name": "2023-24 Upper Deck Synergy - Cranked Up Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-synergy-cranked-up-red-crml",
+              "base_number": "CR-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Upper-Deck-Synergy---Cranked-Up-Red-CR-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Upper-Deck-Synergy---Cranked-Up-Red-CR-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2023-24-upper-deck-synergy-barnburners",
+          "set_name": "Barnburners!",
+          "set_display_name": "2023-24 Upper Deck Synergy - Barnburners!",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-synergy-barnburners-barn4",
+              "base_number": "BARN-4",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Upper-Deck-Synergy---Barnburners!-BARN-4-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Upper-Deck-Synergy---Barnburners!-BARN-4-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -13492,6 +13952,58 @@
               "price": 1.36,
               "tcdb_href": "",
               "team": "Pittsburgh Penguins"
+            }
+          ]
+        }
+      ]
+    },
+    "2023-24-upper-deck-trilogy": {
+      "set_key": "2023-24-upper-deck-trilogy",
+      "set_name": "Upper Deck Trilogy",
+      "set_year_label": "2023-24",
+      "set_year_start": 2023,
+      "set_year_end": 2024,
+      "set_display_name": "2023-24 Upper Deck Trilogy",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2023-24-upper-deck-trilogy-generations-red",
+          "set_name": "Generations Red",
+          "set_display_name": "2023-24 Upper Deck Trilogy - Generations Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-trilogy-generations-red-tg20a",
+              "base_number": "TG-20A",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Upper-Deck-Trilogy---Generations-Red-TG-20A-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Upper-Deck-Trilogy---Generations-Red-TG-20A-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2023-24-upper-deck-trilogy-generations",
+          "set_name": "Generations",
+          "set_display_name": "2023-24 Upper Deck Trilogy - Generations",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-trilogy-generations-tg20a",
+              "base_number": "TG-20A",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Upper-Deck-Trilogy---Generations-TG-20A-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Upper-Deck-Trilogy---Generations-TG-20A-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
