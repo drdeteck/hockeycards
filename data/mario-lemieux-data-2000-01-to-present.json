@@ -2067,7 +2067,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2.72
         }
       ]
     },
@@ -2135,7 +2136,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50121/cid/1708258/2001-02-Pacific-Private-Stock-Titanium-18-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 10.88
             }
           ]
         },
@@ -3003,7 +3005,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.04
             }
           ]
         },
@@ -3023,7 +3026,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.04
             }
           ]
         },
@@ -3043,7 +3047,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.04
             }
           ]
         }
@@ -3659,6 +3664,30 @@
         }
       ]
     },
+    "2002-03-pacific-complete": {
+      "set_key": "2002-03-pacific-complete",
+      "set_name": "Pacific Complete",
+      "set_year_label": "2002-03",
+      "set_year_start": 2002,
+      "set_year_end": 2003,
+      "set_display_name": "2002-03 Pacific Complete",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2002-03-pacific-complete-303",
+          "base_number": "303",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 1.36
+        }
+      ]
+    },
     "2002-03-pacific-atomic": {
       "set_key": "2002-03-pacific-atomic",
       "set_name": "Pacific Atomic",
@@ -3741,7 +3770,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 3.40
             }
           ]
         }
@@ -4045,7 +4075,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5.44
             }
           ]
         },
@@ -4875,7 +4906,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.04
             }
           ]
         }
@@ -5275,7 +5307,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2.75
         }
       ],
       "subsets": [
@@ -5772,8 +5805,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 3.49
+              "inCollection": true,
+              "price": 4.08
             }
           ]
         }
@@ -6423,7 +6456,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.70
         }
       ],
       "subsets": [
@@ -6622,7 +6656,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.36
         }
       ],
       "subsets": [
@@ -7013,7 +7048,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2.04
         },
         {
           "id": "ml-2005-06-in-the-game-heroes-and-prospects-338",
@@ -7025,7 +7061,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.35
         }
       ]
     },
@@ -7589,7 +7626,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2.04
         }
       ]
     },
@@ -7712,6 +7750,30 @@
         }
       ]
     },
+    "2005-06-upper-deck-beehive": {
+      "set_key": "2005-06-upper-deck-beehive",
+      "set_name": "Upper Deck Beehive",
+      "set_year_label": "2005-06",
+      "set_year_start": 2005,
+      "set_year_end": 2006,
+      "set_display_name": "2005-06 Upper Deck Beehive",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2005-06-upper-deck-beehive-71",
+          "base_number": "71",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 1.70
+        }
+      ]
+    },
     "2005-06-upper-deck-mcdonalds": {
       "set_key": "2005-06-upper-deck-mcdonalds",
       "set_name": "Upper Deck McDonald's",
@@ -7778,7 +7840,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2.04
         }
       ]
     },
@@ -8326,7 +8389,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.35
         }
       ]
     },
@@ -8349,7 +8413,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2.72
         },
         {
           "id": "ml-2008-09-upper-deck-masterpieces-12",
@@ -10052,6 +10117,30 @@
         }
       ]
     },
+    "2013-14-upper-deck-national-hockey-card-day-canada": {
+      "set_key": "2013-14-upper-deck-national-hockey-card-day-canada",
+      "set_name": "Upper Deck National Hockey Card Day Canada",
+      "set_year_label": "2013-14",
+      "set_year_start": 2013,
+      "set_year_end": 2014,
+      "set_display_name": "2013-14 Upper Deck National Hockey Card Day Canada",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2013-14-upper-deck-national-hockey-card-day-canada-na",
+          "base_number": "N/A",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 1.36
+        }
+      ]
+    },
     "2013-14-upper-deck-trilogy": {
       "set_key": "2013-14-upper-deck-trilogy",
       "set_name": "Upper Deck Trilogy",
@@ -10071,7 +10160,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.36
         }
       ]
     },
@@ -11667,7 +11757,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2.72
         }
       ]
     },
@@ -12662,7 +12753,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.35
         }
       ],
       "subsets": [
@@ -12794,7 +12886,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.36
             }
           ]
         }
