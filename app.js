@@ -1494,6 +1494,51 @@ function DataViewModel() {
         return d[self.CurrentCollectionKey()];
     });
 
+    // Flattens a collection's own cards plus every subset's cards into a single array.
+    self.GetAllCardsForCollection = function (collection) {
+        var allCards = [];
+        if (!collection) { return allCards; }
+        (collection.cards || []).forEach(function (card) { allCards.push(card); });
+        (collection.subsets || []).forEach(function (subset) {
+            (subset.cards || []).forEach(function (card) { allCards.push(card); });
+        });
+        return allCards;
+    };
+
+    var MARIO_ALL_SET_KEYS = ['ML-all', 'ML-stickers-all', 'ML-gems-all', 'ML-chase-all'];
+
+    // Computes the page-level header stats for the currently viewed collection:
+    // title, total card count, wish (not-in-collection) count and completion %.
+    // Always computed on the fly from the in-memory data — nothing is persisted.
+    self.CurrentPageStats = ko.pureComputed(function () {
+        var collection = self.CurrentCollection();
+        if (!collection) {
+            return { title: '', total: 0, wish: 0, owned: 0, completionPct: 0 };
+        }
+
+        var isAllPage = MARIO_ALL_SET_KEYS.indexOf(collection.set_key) !== -1;
+        var title = isAllPage
+            ? (collection.set_year_label || collection.set_display_name || collection.set_name || '')
+            : (self.IsMLYearView() ? (collection.set_year_label || collection.set_display_name) : (collection.set_display_name || collection.set_name || ''));
+
+        var allCards = self.GetAllCardsForCollection(collection);
+        var total = allCards.length;
+        var owned = 0;
+        allCards.forEach(function (card) {
+            if (card.inCollection) { owned++; }
+        });
+        var wish = total - owned;
+        var completionPct = total > 0 ? Math.round((owned / total) * 100) : 0;
+
+        return {
+            title: title,
+            total: total,
+            wish: wish,
+            owned: owned,
+            completionPct: completionPct
+        };
+    });
+
     self.CurrentCollectionYearGroups = ko.pureComputed(function () {
         var collection = self.CurrentCollection();
         if (!collection || (collection.set_key !== 'ML-all' && collection.set_key !== 'ML-stickers-all' && collection.set_key !== 'ML-gems-all' && collection.set_key !== 'ML-chase-all')) {

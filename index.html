@@ -28,7 +28,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel='stylesheet' href='styles/style.css?ver=0.1.5' type='text/css' media='all' />
     <link rel='stylesheet' href='styles/card-grid.css?ver=0.1.10' type='text/css' media='all' />
-    <link rel='stylesheet' href='styles/card-grid-header.css?ver=0.1.2' type='text/css' />
+    <link rel='stylesheet' href='styles/card-grid-header.css?ver=0.1.3' type='text/css' />
     <link rel='stylesheet' href='styles/main-header.css?ver=0.1.3' type='text/css' media='all' />
     <link rel='stylesheet' href='styles/controls.css?ver=0.1.5' type='text/css' media='all' />
     <link rel='stylesheet' href='styles/card-detail.css?ver=0.1.6' type='text/css' media='all' />
@@ -38,7 +38,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-    <script src="app.js?ver=0.1.22"></script>
+    <script src="app.js?ver=0.1.23"></script>
 </head>
 
 <body>
@@ -180,6 +180,22 @@
             data-bind="visible: !IsCardView() && CurrentRoute() !== 'about' && RouteType() !== 'binder' && ($root.CurrentRoute() === 'home' || $root.CurrentCollection())">
             <!-- bind directly to the 'cards' array on the active collection -->
             <div class="collection" data-bind="with: $root.CurrentCollection">
+                <!-- PAGE STATS HEADER: title, total cards, wish count and completion %, computed on the fly -->
+                <div class="page-stats-header">
+                    <div class="page-stats-header-inner">
+                        <span class="page-stats-title" data-bind="text: $root.CurrentPageStats().title">Title</span>
+                        <span class="page-stats-metrics">
+                            <span class="page-stats-metric"
+                                data-bind="text: $root.CurrentPageStats().total + ' cards'">0 cards</span>
+                            <span class="page-stats-metric page-stats-metric-wish"
+                                data-bind="text: $root.CurrentPageStats().wish + ' wish'">0 wish</span>
+                            <span class="page-stats-metric page-stats-metric-completion"
+                                data-bind="text: $root.CurrentPageStats().completionPct + '% complete'">0%
+                                complete</span>
+                        </span>
+                    </div>
+                </div>
+
                 <!-- ko if: set_key === 'ML-all' || set_key === 'ML-stickers-all' || set_key === 'ML-gems-all' || set_key === 'ML-chase-all' -->
                 <!-- ko foreach: $root.CurrentCollectionYearGroups -->
                 <!-- ko if: $root.HasWishableCards(cards) -->
@@ -223,7 +239,7 @@
                 <!-- /ko -->
                 <!-- /ko -->
 
-                <!-- ko if: set_key !== 'ML-all' && !$root.IsMLYearView() -->
+                <!-- ko if: set_key !== 'ML-all' && set_key !== 'ML-stickers-all' && set_key !== 'ML-gems-all' && set_key !== 'ML-chase-all' && !$root.IsMLYearView() -->
                 <!-- ko if: (cards || []).length || !($root.CurrentCollection() && $root.CurrentCollection().subsets && $root.CurrentCollection().subsets.length) -->
                 <!-- ko if: $root.HasWishableCards(cards) -->
                 <h2 class="card-grid-header">
