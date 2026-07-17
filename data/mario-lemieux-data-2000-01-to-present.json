@@ -14175,6 +14175,26 @@
               "inCollection": false
             }
           ]
+        },
+        {
+          "set_key": "2024-25-parkhurst-champions-rainbow-foil-board",
+          "set_name": "Rainbow Foil Board",
+          "set_display_name": "2024-25 Parkhurst Champions - Rainbow Foil Board",
+          "set_tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/528558/cid/29807341/2024-25-Parkhurst-Champions-294-Mario-Lemieux",
+          "cards": [
+            {
+              "id": "ml-2024-25-parkhurst-champions-rainbow-foil-board-294",
+              "base_number": "294",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/528558/cid/29807341/2024-25-Parkhurst-Champions-294-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -14262,6 +14282,166 @@
         }
       ]
     },
+    "2024-25-sp-authentic": {
+      "set_key": "2024-25-sp-authentic",
+      "set_name": "SP Authentic",
+      "set_year_label": "2024-25",
+      "set_year_start": 2024,
+      "set_year_end": 2025,
+      "set_display_name": "2024-25 SP Authentic",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2024-25-sp-authentic-holofoil-legends",
+          "set_name": "Holofoil Legends",
+          "set_display_name": "2024-25 SP Authentic - Holofoil Legends",
+          "set_tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/545768/cid/30954648/2024-25-SP-Authentic-HFL-26-Mario-Lemieux",
+          "cards": [
+            {
+              "id": "ml-2024-25-sp-authentic-holofoil-legends-hfl26",
+              "base_number": "HFL-26",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/545768/cid/30954648/2024-25-SP-Authentic-HFL-26-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2024-25-sp-authentic-pageantry",
+          "set_name": "Pageantry",
+          "set_display_name": "2024-25 SP Authentic - Pageantry",
+          "set_tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/545773/cid/30954858/2024-25-SP-Authentic-P-73-Mario-Lemieux",
+          "cards": [
+            {
+              "id": "ml-2024-25-sp-authentic-pageantry-p73",
+              "base_number": "P-73",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/545773/cid/30954858/2024-25-SP-Authentic-P-73-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2024-25-sp-authentic-spectrum-fx",
+          "set_name": "Spectrum FX",
+          "set_display_name": "2024-25 SP Authentic - Spectrum FX",
+          "set_tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/545787/cid/30955502/2024-25-SP-Authentic-S-96-Mario-Lemieux",
+          "cards": [
+            {
+              "id": "ml-2024-25-sp-authentic-spectrum-fx-s96",
+              "base_number": "S-96",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/545787/cid/30955502/2024-25-SP-Authentic-S-96-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2024-25-upper-deck-engrained-icons": {
+      "set_key": "2024-25-upper-deck-engrained-icons",
+      "set_name": "Upper Deck Engrained Icons",
+      "set_year_label": "2024-25",
+      "set_year_start": 2024,
+      "set_year_end": 2025,
+      "set_display_name": "2024-25 Upper Deck Engrained Icons",
+      "set_tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/486506/cid/32660559/2024-25-Upper-Deck-Engrained-Icons-51-Mario-Lemieux",
+      "cards": [
+        {
+          "id": "ml-2024-25-upper-deck-engrained-icons-51",
+          "base_number": "51",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/486506/cid/32660559/2024-25-Upper-Deck-Engrained-Icons-51-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2024-25-upper-deck-stature": {
+      "set_key": "2024-25-upper-deck-stature",
+      "set_name": "Upper Deck Stature",
+      "set_year_label": "2024-25",
+      "set_year_start": 2024,
+      "set_year_end": 2025,
+      "set_display_name": "2024-25 Upper Deck Stature",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2024-25-upper-deck-stature-30",
+          "base_number": "30",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2024-25-Upper-Deck-Stature-30-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2024-25-Upper-Deck-Stature-30-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2024-25-upper-deck-stature-green",
+          "set_name": "Green",
+          "set_display_name": "2024-25 Upper Deck Stature - Green",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2024-25-upper-deck-stature-green-30",
+              "base_number": "30",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2024-25-Upper-Deck-Stature---Green-30-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2024-25-Upper-Deck-Stature---Green-30-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2024-25-upper-deck-stature-red",
+          "set_name": "Red",
+          "set_display_name": "2024-25 Upper Deck Stature - Red",
+          "set_tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/555140/cid/31613348/2024-25-Upper-Deck-Stature-30-Mario-Lemieux",
+          "cards": [
+            {
+              "id": "ml-2024-25-upper-deck-stature-red-30",
+              "base_number": "30",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/555140/cid/31613348/2024-25-Upper-Deck-Stature-30-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2024-25-upper-deck-synergy": {
       "set_key": "2024-25-upper-deck-synergy",
       "set_name": "Upper Deck Synergy",
@@ -14286,6 +14466,47 @@
               "image_front": "img/cards/ML66/2024-25-Upper-Deck-Synergy---NHL-Monuments-M-12-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2024-25-Upper-Deck-Synergy---NHL-Monuments-M-12-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2024-25-upper-deck-synergy-synergistic-duos-stars-and-legends",
+          "set_name": "Synergistic Duos Stars and Legends",
+          "set_display_name": "2024-25 Upper Deck Synergy - Synergistic Duos Stars and Legends",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2024-25-upper-deck-synergy-synergistic-duos-stars-and-legends-sd3",
+              "base_number": "SD-3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2024-25-Upper-Deck-Synergy---Synergistic-Duos-Stars-and-Legends-SD-3-Evgeni-Malkin--Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2024-25-Upper-Deck-Synergy---Synergistic-Duos-Stars-and-Legends-SD-3-Evgeni-Malkin--Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "w/ Evgeni Malkin",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2024-25-upper-deck-synergy-red",
+          "set_name": "Red",
+          "set_display_name": "2024-25 Upper Deck Synergy - Red",
+          "set_tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/479350/cid/27228108/2024-25-Upper-Deck-Synergy-74-Mario-Lemieux",
+          "cards": [
+            {
+              "id": "ml-2024-25-upper-deck-synergy-red-74",
+              "base_number": "74",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/479350/cid/27228108/2024-25-Upper-Deck-Synergy-74-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false
@@ -14472,6 +14693,29 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ]
+    },
+    "2025-26-upper-deck-x-ovo-x-hockey-canada": {
+      "set_key": "2025-26-upper-deck-x-ovo-x-hockey-canada",
+      "set_name": "Upper Deck X-OVO X Hockey Canada",
+      "set_year_label": "2025-26",
+      "set_year_start": 2025,
+      "set_year_end": 2026,
+      "set_display_name": "2025-26 Upper Deck X-OVO X Hockey Canada",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2025-26-upper-deck-x-ovo-x-hockey-canada-02",
+          "base_number": "02",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2025-26-Upper-Deck-X-OVO-X-Hockey-Canada-02-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2025-26-Upper-Deck-X-OVO-X-Hockey-Canada-02-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
