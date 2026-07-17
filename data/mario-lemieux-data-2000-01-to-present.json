@@ -12344,6 +12344,123 @@
           "position": "Center",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2018-19-o-pee-chee-platinum-rainbow",
+          "set_name": "Rainbow",
+          "set_display_name": "2018-19 O-Pee-Chee Platinum - Rainbow",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2018-19-o-pee-chee-platinum-rainbow-144",
+              "base_number": "144",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2018-19-O-Pee-Chee-Platinum---Rainbow-144-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Platinum---Rainbow-144-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2018-19-o-pee-chee-platinum-rainbow-color-wheel",
+          "set_name": "Rainbow Color Wheel",
+          "set_display_name": "2018-19 O-Pee-Chee Platinum - Rainbow Color Wheel",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2018-19-o-pee-chee-platinum-rainbow-color-wheel-144",
+              "base_number": "144",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2018-19-O-Pee-Chee-Platinum---Rainbow-Color-Wheel-144-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Platinum---Rainbow-Color-Wheel-144-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2018-19-o-pee-chee-platinum-violet-pixel",
+          "set_name": "Violet Pixel",
+          "set_display_name": "2018-19 O-Pee-Chee Platinum - Violet Pixel",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2018-19-o-pee-chee-platinum-violet-pixel-144",
+              "base_number": "144",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2018-19-O-Pee-Chee-Platinum---Violet-Pixel-144-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Platinum---Violet-Pixel-144-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2018-19-upper-deck-artifacts": {
+      "set_key": "2018-19-upper-deck-artifacts",
+      "set_name": "Upper Deck Artifacts",
+      "set_year_label": "2018-19",
+      "set_year_start": 2018,
+      "set_year_end": 2019,
+      "set_display_name": "2018-19 Upper Deck Artifacts",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2018-19-upper-deck-artifacts-134",
+          "base_number": "134",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2018-19-Upper-Deck-Artifacts-134-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2018-19-Upper-Deck-Artifacts-134-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2018-19-upper-deck-synergy": {
+      "set_key": "2018-19-upper-deck-synergy",
+      "set_name": "Upper Deck Synergy",
+      "set_year_label": "2018-19",
+      "set_year_start": 2018,
+      "set_year_end": 2019,
+      "set_display_name": "2018-19 Upper Deck Synergy",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2018-19-upper-deck-synergy-postseason-perfection",
+          "set_name": "Postseason Perfection",
+          "set_display_name": "2018-19 Upper Deck Synergy - Postseason Perfection",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2018-19-upper-deck-synergy-postseason-perfection-ps2",
+              "base_number": "PS-2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2018-19-Upper-Deck-Synergy---Postseason-Perfection-PS-2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2018-19-Upper-Deck-Synergy---Postseason-Perfection-PS-2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
       ]
     },
     "2018-19-upper-deck-national-hockey-card-day-canada": {
