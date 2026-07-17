@@ -138,7 +138,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 3.86
         }
       ],
       "subsets": [
@@ -382,7 +383,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.35
         }
       ],
       "subsets": [
@@ -777,7 +779,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 3.59
         }
       ],
       "subsets": [
@@ -854,7 +857,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.48
         },
         {
           "id": "ml-2012-13-sp-authentic-177",
@@ -949,7 +953,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.35
         },
         {
           "id": "ml-2012-13-upper-deck-black-diamond-217",
@@ -1292,7 +1297,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 8.62
             }
           ]
         },
@@ -1462,7 +1468,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 8.15
             }
           ]
         }
@@ -1487,7 +1494,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.89
         }
       ]
     },
@@ -1627,7 +1635,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 3.93
         }
       ],
       "subsets": [
@@ -1647,7 +1656,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 8.69
             }
           ]
         },
@@ -2673,8 +2683,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/120859/cid/8222081/2015-16-Upper-Deck-Full-Force-BP-ML-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 1.49
+              "inCollection": true,
+              "price": 3.39
             }
           ]
         }
@@ -3318,7 +3328,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.71
             }
           ]
         },
@@ -4468,7 +4479,8 @@
               "tcdb_href": "",
               "team": "Team Canada",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.30
             }
           ]
         },
@@ -4488,7 +4500,8 @@
               "tcdb_href": "",
               "team": "Team Canada",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.57
             }
           ]
         }
@@ -6262,7 +6275,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.75
         }
       ],
       "subsets": [

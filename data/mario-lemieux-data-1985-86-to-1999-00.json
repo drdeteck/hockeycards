@@ -6518,7 +6518,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5.29
             },
             {
               "id": "ml-1995-96-upper-deck-predictors-retail-R42",
@@ -7300,8 +7301,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 36
+              "inCollection": true,
+              "price": 15.63
             }
           ]
         },

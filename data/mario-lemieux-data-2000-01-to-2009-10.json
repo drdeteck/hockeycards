@@ -5221,8 +5221,8 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5684/cid/1285357/2003-04-In-The-Game-Action-445-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false,
-          "price": 0.1
+          "inCollection": true,
+          "price": 1.48
         }
       ],
       "subsets": [
@@ -5810,8 +5810,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false,
-          "price": 0.18
+          "inCollection": true,
+          "price": 2.57
         }
       ],
       "subsets": [
@@ -6054,7 +6054,9 @@
           "image_back": "img/cards/ML66/2003-04-Topps-100-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true,
+          "price": 1.35
         }
       ],
       "subsets": [
@@ -6253,7 +6255,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.00
             }
           ]
         },
@@ -6313,7 +6316,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 3.93
             }
           ]
         },
@@ -6333,7 +6337,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 3.73
             }
           ]
         },
@@ -6398,7 +6403,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.89
         },
         {
           "id": "ml-2003-04-upper-deck-bee-hive-158b",
@@ -7306,7 +7312,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 6.17
             }
           ]
         },
@@ -8326,7 +8333,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 8.62
             }
           ]
         },
@@ -8371,7 +8379,9 @@
           "image_back": "img/cards/ML66/2008-09-SP-Game-Used-81-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true,
+          "price": 3.59
         }
       ]
     },
@@ -8878,7 +8888,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 9.03
             }
           ]
         }
@@ -8982,7 +8993,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.82
         }
       ],
       "subsets": [
@@ -9125,7 +9137,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2.57
         }
       ],
       "subsets": [
