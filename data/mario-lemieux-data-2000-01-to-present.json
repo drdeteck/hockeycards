@@ -12728,8 +12728,8 @@
             {
               "id": "ml-2020-21-sp-signature-edition-legends-evolve-e17",
               "base_number": "E-17",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Evolve-E-17-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Evolve-E-17-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -12885,6 +12885,155 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "2021-22-fleer-ultra-scoring-kings",
+          "set_name": "Scoring Kings",
+          "set_display_name": "2021-22 Fleer Ultra - Scoring Kings",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2021-22-fleer-ultra-scoring-kings-sk15",
+              "base_number": "SK-15",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2021-22-Fleer-Ultra---Scoring-Kings-SK-15-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2021-22-Fleer-Ultra---Scoring-Kings-SK-15-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2021-22-pro-set": {
+      "set_key": "2021-22-pro-set",
+      "set_name": "Pro Set",
+      "set_year_label": "2021-22",
+      "set_year_start": 2021,
+      "set_year_end": 2022,
+      "set_display_name": "2021-22 Pro Set",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2021-22-pro-set-ps06",
+          "base_number": "PS06",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2021-22-Pro-Set-PS06-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2021-22-Pro-Set-PS06-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2021-22-pro-set-yellow",
+          "set_name": "Yellow",
+          "set_display_name": "2021-22 Pro Set - Yellow",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2021-22-pro-set-yellow-ps06",
+              "base_number": "PS06",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2021-22-Pro-Set---Yellow-PS06-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2021-22-Pro-Set---Yellow-PS06-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2021-22-sp-game-used": {
+      "set_key": "2021-22-sp-game-used",
+      "set_name": "SP Game Used",
+      "set_year_label": "2021-22",
+      "set_year_start": 2021,
+      "set_year_end": 2022,
+      "set_display_name": "2021-22 SP Game Used",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2021-22-sp-game-used-purity",
+          "set_name": "Purity",
+          "set_display_name": "2021-22 SP Game Used - Purity",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2021-22-sp-game-used-purity-p46",
+              "base_number": "P-46",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2021-22-SP-Game-Used---Purity-P-46-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2021-22-SP-Game-Used---Purity-P-46-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2021-22-upper-deck": {
+      "set_key": "2021-22-upper-deck",
+      "set_name": "Upper Deck",
+      "set_year_label": "2021-22",
+      "set_year_start": 2021,
+      "set_year_end": 2022,
+      "set_display_name": "2021-22 Upper Deck",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2021-22-upper-deck-nhl-records-collection",
+          "set_name": "NHL Records Collection",
+          "set_display_name": "2021-22 Upper Deck - NHL Records Collection",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2021-22-upper-deck-nhl-records-collection-rb1",
+              "base_number": "RB-1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2021-22-Upper-Deck---NHL-Records-Collection-RB-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2021-22-Upper-Deck---NHL-Records-Collection-RB-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2021-22-upper-deck-nhl-specialists",
+          "set_name": "NHL Specialists",
+          "set_display_name": "2021-22 Upper Deck - NHL Specialists",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2021-22-upper-deck-nhl-specialists-ns7",
+              "base_number": "NS-7",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2021-22-Upper-Deck---NHL-Specialists-NS-7-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2021-22-Upper-Deck---NHL-Specialists-NS-7-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
