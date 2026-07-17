@@ -12596,6 +12596,268 @@
         }
       ]
     },
+    "2020-21-sp-signature-edition-legends": {
+      "set_key": "2020-21-sp-signature-edition-legends",
+      "set_name": "SP Signature Edition Legends",
+      "set_year_label": "2020-21",
+      "set_year_start": 2020,
+      "set_year_end": 2021,
+      "set_display_name": "2020-21 SP Signature Edition Legends",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2020-21-sp-signature-edition-legends-325",
+          "base_number": "325",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends-325-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends-325-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2020-21-sp-signature-edition-legends-ud-canvas-legends",
+          "set_name": "UD Canvas Legends",
+          "set_display_name": "2020-21 SP Signature Edition Legends - UD Canvas Legends",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2020-21-sp-signature-edition-legends-ud-canvas-legends-c1",
+              "base_number": "C-1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---UD-Canvas-Legends-C-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---UD-Canvas-Legends-C-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2020-21-sp-signature-edition-legends-profiles",
+          "set_name": "Profiles",
+          "set_display_name": "2020-21 SP Signature Edition Legends - Profiles",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2020-21-sp-signature-edition-legends-profiles-p25",
+              "base_number": "P-25",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Profiles-P-25-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Profiles-P-25-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2020-21-sp-signature-edition-legends-profiles-p26",
+              "base_number": "P-26",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Profiles-P-26-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Profiles-P-26-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2020-21-sp-signature-edition-legends-profiles-p27",
+              "base_number": "P-27",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Profiles-P-27-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Profiles-P-27-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2020-21-sp-signature-edition-legends-profiles-p28",
+              "base_number": "P-28",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Profiles-P-28-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Profiles-P-28-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2020-21-sp-signature-edition-legends-profiles-p29",
+              "base_number": "P-29",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Profiles-P-29-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Profiles-P-29-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2020-21-sp-signature-edition-legends-profiles-p30",
+              "base_number": "P-30",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Profiles-P-30-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Profiles-P-30-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2020-21-sp-signature-edition-legends-evolve",
+          "set_name": "Evolve",
+          "set_display_name": "2020-21 SP Signature Edition Legends - Evolve",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2020-21-sp-signature-edition-legends-evolve-e17",
+              "base_number": "E-17",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Evolve-E-17-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Evolve-E-17-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2020-21-sp-signature-edition-legends-dominant-digits",
+          "set_name": "Dominant Digits",
+          "set_display_name": "2020-21 SP Signature Edition Legends - Dominant Digits",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2020-21-sp-signature-edition-legends-dominant-digits-dd11",
+              "base_number": "DD-11",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Dominant-Digits-DD-11-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Dominant-Digits-DD-11-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2020-21-sp-signature-edition-legends-decagons",
+          "set_name": "Decagons",
+          "set_display_name": "2020-21 SP Signature Edition Legends - Decagons",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2020-21-sp-signature-edition-legends-decagons-dc75",
+              "base_number": "DC-75",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Decagons-DC-75-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Decagons-DC-75-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2020-21-upper-deck-stature": {
+      "set_key": "2020-21-upper-deck-stature",
+      "set_name": "Upper Deck Stature",
+      "set_year_label": "2020-21",
+      "set_year_start": 2020,
+      "set_year_end": 2021,
+      "set_display_name": "2020-21 Upper Deck Stature",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2020-21-upper-deck-stature-90",
+          "base_number": "90",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2020-21-Upper-Deck-Stature-90-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2020-21-Upper-Deck-Stature-90-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2020-21-upper-deck-stature-century-momentous",
+          "set_name": "Century Momentous",
+          "set_display_name": "2020-21 Upper Deck Stature - Century Momentous",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2020-21-upper-deck-stature-century-momentous-cm1",
+              "base_number": "CM-1",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2020-21-Upper-Deck-Stature---Century-Momentous-CM-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2020-21-Upper-Deck-Stature---Century-Momentous-CM-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2020-21-upper-deck-synergy": {
+      "set_key": "2020-21-upper-deck-synergy",
+      "set_name": "Upper Deck Synergy",
+      "set_year_label": "2020-21",
+      "set_year_start": 2020,
+      "set_year_end": 2021,
+      "set_display_name": "2020-21 Upper Deck Synergy",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2020-21-upper-deck-synergy-red",
+          "set_name": "Red",
+          "set_display_name": "2020-21 Upper Deck Synergy - Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2020-21-upper-deck-synergy-red-70",
+              "base_number": "70",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2020-21-Upper-Deck-Synergy---Red-70-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2020-21-Upper-Deck-Synergy---Red-70-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2021-22-fleer-ultra": {
       "set_key": "2021-22-fleer-ultra",
       "set_name": "Fleer Ultra",
