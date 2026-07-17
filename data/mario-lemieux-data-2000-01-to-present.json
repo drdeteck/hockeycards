@@ -9474,6 +9474,30 @@
         }
       ]
     },
+    "2012-13-sp-game-used": {
+      "set_key": "2012-13-sp-game-used",
+      "set_name": "SP Game Used",
+      "set_year_label": "2012-13",
+      "set_year_start": 2012,
+      "set_year_end": 2013,
+      "set_display_name": "2012-13 SP Game Used",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2012-13-sp-game-used-25",
+          "base_number": "25",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/72758/cid/5496172/2012-13-SP-Game-Used-25-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "price": 1.00
+        }
+      ]
+    },
     "2012-13-upper-deck-artifacts": {
       "set_key": "2012-13-upper-deck-artifacts",
       "set_name": "Upper Deck Artifacts",
@@ -11212,6 +11236,27 @@
               "inCollection": false
             }
           ]
+        },
+        {
+          "set_key": "2015-16-upper-deck-full-force-blueprint",
+          "set_name": "Blueprint",
+          "set_display_name": "2015-16 Upper Deck Full Force - Blueprint",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2015-16-upper-deck-full-force-blueprint-bpml",
+              "base_number": "BP-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/120859/cid/8222081/2015-16-Upper-Deck-Full-Force-BP-ML-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 1.49
+            }
+          ]
         }
       ]
     },
@@ -11856,6 +11901,48 @@
               "inCollection": false
             }
           ]
+        },
+        {
+          "set_key": "2017-18-sp-authentic-spectrum-fx",
+          "set_name": "Spectrum FX",
+          "set_display_name": "2017-18 SP Authentic - Spectrum FX",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-sp-authentic-spectrum-fx-s39",
+              "base_number": "S-39",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/174167/cid/11175243/2017-18-SP-Authentic---Spectrum-FX-S-39-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 1.43
+            }
+          ]
+        },
+        {
+          "set_key": "2017-18-sp-authentic-limited-red",
+          "set_name": "Limited Red",
+          "set_display_name": "2017-18 SP Authentic - Limited Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-sp-authentic-limited-red-97",
+              "base_number": "97",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/174142/cid/11174021/2017-18-SP-Authentic-97-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 0.75
+            }
+          ]
         }
       ]
     },
@@ -12028,6 +12115,67 @@
               "image_front": "img/cards/ML66/2017-18-Upper-Deck-Synergy---Career-Spanning-CS-10-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2017-18-Upper-Deck-Synergy---Career-Spanning-CS-10-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2017-18-upper-deck-synergy-blue",
+          "set_name": "Blue",
+          "set_display_name": "2017-18 Upper Deck Synergy - Blue",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-upper-deck-synergy-blue-41",
+              "base_number": "41",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/168525/cid/10787095/2017-18-Upper-Deck-Synergy-41-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 2.00
+            }
+          ]
+        },
+        {
+          "set_key": "2017-18-upper-deck-synergy-cast-for-greatness-metal",
+          "set_name": "Cast For Greatness Metal",
+          "set_display_name": "2017-18 Upper Deck Synergy - Cast For Greatness Metal",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-upper-deck-synergy-cast-for-greatness-metal-cg16",
+              "base_number": "CG-16",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/168532/cid/10786639/2017-18-Upper-Deck-Synergy-CG-16-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2017-18-upper-deck-synergy-green",
+          "set_name": "Green",
+          "set_display_name": "2017-18 Upper Deck Synergy - Green",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-upper-deck-synergy-green-41",
+              "base_number": "41",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/168524/cid/10787197/2017-18-Upper-Deck-Synergy-41-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false
