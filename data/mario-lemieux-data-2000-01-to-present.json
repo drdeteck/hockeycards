@@ -13151,87 +13151,237 @@
         }
       ]
     },
-    "2022-23-upper-deck-tim-hortons-legends": {
-      "set_key": "2022-23-upper-deck-tim-hortons-legends",
-      "set_name": "Upper Deck Tim Hortons Legends",
+    "2022-23-parkhurst-champions": {
+      "set_key": "2022-23-parkhurst-champions",
+      "set_name": "Parkhurst Champions",
       "set_year_label": "2022-23",
       "set_year_start": 2022,
       "set_year_end": 2023,
-      "set_display_name": "2022-23 Upper Deck Tim Hortons Legends",
+      "set_display_name": "2022-23 Parkhurst Champions",
       "set_tcdb_href": "",
       "cards": [
         {
-          "id": "ml-2022-23-upper-deck-tim-hortons-legends-52",
-          "base_number": "52",
+          "id": "ml-2022-23-parkhurst-champions-349",
+          "base_number": "349",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends-52-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends-52-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2022-23-Parkhurst-Champions-349-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2022-23-Parkhurst-Champions-349-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true
+          "inCollection": false
         }
       ],
       "subsets": [
         {
-          "set_key": "2022-23-upper-deck-tim-hortons-legends-canvas-legends",
-          "set_name": "Canvas Legends",
-          "set_display_name": "2022-23 Upper Deck Tim Hortons Legends - Canvas Legends",
+          "set_key": "2022-23-parkhurst-champions-silver",
+          "set_name": "Silver",
+          "set_display_name": "2022-23 Parkhurst Champions - Silver",
           "set_tcdb_href": "",
           "cards": [
             {
-              "id": "ml-2022-23-upper-deck-tim-hortons-legends-canvas-legends-cl10",
-              "base_number": "CL-10",
+              "id": "ml-2022-23-parkhurst-champions-silver-349",
+              "base_number": "349",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Canvas-Legends-CL-10-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Canvas-Legends-CL-10-Mario-LemieuxBk.jpg",
+              "image_front": "img/cards/ML66/2022-23-Parkhurst-Champions---Silver-349-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2022-23-Parkhurst-Champions---Silver-349-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2022-23-sp-game-used": {
+      "set_key": "2022-23-sp-game-used",
+      "set_name": "SP Game Used",
+      "set_year_label": "2022-23",
+      "set_year_start": 2022,
+      "set_year_end": 2023,
+      "set_display_name": "2022-23 SP Game Used",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2022-23-sp-game-used-purity",
+          "set_name": "Purity",
+          "set_display_name": "2022-23 SP Game Used - Purity",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2022-23-sp-game-used-purity-p74",
+              "base_number": "P-74",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2022-23-SP-Game-Used---Purity-P-74-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2022-23-SP-Game-Used---Purity-P-74-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2022-23-upper-deck-ice": {
+      "set_key": "2022-23-upper-deck-ice",
+      "set_name": "Upper Deck Ice",
+      "set_year_label": "2022-23",
+      "set_year_start": 2022,
+      "set_year_end": 2023,
+      "set_display_name": "2022-23 Upper Deck Ice",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2022-23-upper-deck-ice-cool-cuts",
+          "set_name": "Cool Cuts",
+          "set_display_name": "2022-23 Upper Deck Ice - Cool Cuts",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2022-23-upper-deck-ice-cool-cuts-cc41",
+              "base_number": "CC-41",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2022-23-Upper-Deck-Ice---Cool-Cuts-CC-41-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2022-23-Upper-Deck-Ice---Cool-Cuts-CC-41-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2022-23-upper-deck-stature": {
+      "set_key": "2022-23-upper-deck-stature",
+      "set_name": "Upper Deck Stature",
+      "set_year_label": "2022-23",
+      "set_year_start": 2022,
+      "set_year_end": 2023,
+      "set_display_name": "2022-23 Upper Deck Stature",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2022-23-upper-deck-stature-2",
+          "base_number": "2",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2022-23-Upper-Deck-Stature-2-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2022-23-Upper-Deck-Stature-2-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2022-23-upper-deck-synergy": {
+      "set_key": "2022-23-upper-deck-synergy",
+      "set_name": "Upper Deck Synergy",
+      "set_year_label": "2022-23",
+      "set_year_start": 2022,
+      "set_year_end": 2023,
+      "set_display_name": "2022-23 Upper Deck Synergy",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2022-23-upper-deck-synergy-red",
+          "set_name": "Red",
+          "set_display_name": "2022-23 Upper Deck Synergy - Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2022-23-upper-deck-synergy-red-66",
+              "base_number": "66",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2022-23-Upper-Deck-Synergy---Red-66-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2022-23-Upper-Deck-Synergy---Red-66-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         },
         {
-          "set_key": "2022-23-upper-deck-tim-hortons-legends-championship-resume",
-          "set_name": "Championship Resume",
-          "set_display_name": "2022-23 Upper Deck Tim Hortons Legends - Championship Resume",
+          "set_key": "2022-23-upper-deck-synergy-cast-for-greatness",
+          "set_name": "Cast for Greatness",
+          "set_display_name": "2022-23 Upper Deck Synergy - Cast for Greatness",
           "set_tcdb_href": "",
           "cards": [
             {
-              "id": "ml-2022-23-upper-deck-tim-hortons-legends-championship-resume-cr12",
-              "base_number": "CR-12",
-              "orientation_front": "landscape",
-              "orientation_back": "landscape",
-              "image_front": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Championship-Resume-CR-12-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Championship-Resume-CR-12-Mario-LemieuxBk.jpg",
+              "id": "ml-2022-23-upper-deck-synergy-cast-for-greatness-cg14",
+              "base_number": "CG-14",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2022-23-Upper-Deck-Synergy---Cast-for-Greatness-CG-14-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2022-23-Upper-Deck-Synergy---Cast-for-Greatness-CG-14-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true
+              "inCollection": false
             }
           ]
         },
         {
-          "set_key": "2022-23-upper-deck-tim-hortons-legends-record-books",
-          "set_name": "Record Books",
-          "set_display_name": "2022-23 Upper Deck Tim Hortons Legends - Record Books",
+          "set_key": "2022-23-upper-deck-synergy-cast-for-greatness-purple",
+          "set_name": "Cast for Greatness Purple",
+          "set_display_name": "2022-23 Upper Deck Synergy - Cast for Greatness Purple",
           "set_tcdb_href": "",
           "cards": [
             {
-              "base_number": "RB5",
-              "id": "ml-2022-23-upper-deck-tim-hortons-legends-record-books-rb5",
-              "image_back": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Record-Books-RB-5-Mario-LemieuxBk.jpg",
-              "image_front": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Record-Books-RB-5-Mario-LemieuxFr.jpg",
-              "inCollection": true,
-              "orientation_back": "portrait",
+              "id": "ml-2022-23-upper-deck-synergy-cast-for-greatness-purple-cg14",
+              "base_number": "CG-14",
               "orientation_front": "portrait",
-              "position": "Center",
-              "price": 1.36,
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2022-23-Upper-Deck-Synergy---Cast-for-Greatness-Purple-CG-14-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2022-23-Upper-Deck-Synergy---Cast-for-Greatness-Purple-CG-14-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
-              "team": "Pittsburgh Penguins"
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2022-23-upper-deck-trilogy": {
+      "set_key": "2022-23-upper-deck-trilogy",
+      "set_name": "Upper Deck Trilogy",
+      "set_year_label": "2022-23",
+      "set_year_start": 2022,
+      "set_year_end": 2023,
+      "set_display_name": "2022-23 Upper Deck Trilogy",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2022-23-upper-deck-trilogy-frozen-in-time",
+          "set_name": "Frozen in Time",
+          "set_display_name": "2022-23 Upper Deck Trilogy - Frozen in Time",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2022-23-upper-deck-trilogy-frozen-in-time-ft-ml",
+              "base_number": "FT-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2022-23-Upper-Deck-Trilogy---Frozen-in-Time-FT-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2022-23-Upper-Deck-Trilogy---Frozen-in-Time-FT-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
@@ -13258,6 +13408,92 @@
           "position": "Center",
           "variant_note": "w/ Paul Coffey",
           "inCollection": true
+        }
+      ]
+    },
+    "2023-24-upper-deck-tim-hortons-legends": {
+      "set_key": "2023-24-upper-deck-tim-hortons-legends",
+      "set_name": "Upper Deck Tim Hortons Legends",
+      "set_year_label": "2023-24",
+      "set_year_start": 2023,
+      "set_year_end": 2024,
+      "set_display_name": "2023-24 Upper Deck Tim Hortons Legends",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2023-24-upper-deck-tim-hortons-legends-52",
+          "base_number": "52",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends-52-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends-52-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2023-24-upper-deck-tim-hortons-legends-canvas-legends",
+          "set_name": "Canvas Legends",
+          "set_display_name": "2023-24 Upper Deck Tim Hortons Legends - Canvas Legends",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-tim-hortons-legends-canvas-legends-cl10",
+              "base_number": "CL-10",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Canvas-Legends-CL-10-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Canvas-Legends-CL-10-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "2023-24-upper-deck-tim-hortons-legends-championship-resume",
+          "set_name": "Championship Resume",
+          "set_display_name": "2023-24 Upper Deck Tim Hortons Legends - Championship Resume",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-tim-hortons-legends-championship-resume-cr12",
+              "base_number": "CR-12",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Championship-Resume-CR-12-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Championship-Resume-CR-12-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "2023-24-upper-deck-tim-hortons-legends-record-books",
+          "set_name": "Record Books",
+          "set_display_name": "2023-24 Upper Deck Tim Hortons Legends - Record Books",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "base_number": "RB5",
+              "id": "ml-2023-24-upper-deck-tim-hortons-legends-record-books-rb5",
+              "image_back": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Record-Books-RB-5-Mario-LemieuxBk.jpg",
+              "image_front": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Record-Books-RB-5-Mario-LemieuxFr.jpg",
+              "inCollection": true,
+              "orientation_back": "portrait",
+              "orientation_front": "portrait",
+              "position": "Center",
+              "price": 1.36,
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins"
+            }
+          ]
         }
       ]
     },
