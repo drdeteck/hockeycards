@@ -11498,6 +11498,321 @@
         }
       ]
     },
+    "2016-17-o-pee-chee": {
+      "set_key": "2016-17-o-pee-chee",
+      "set_name": "O-Pee-Chee",
+      "set_year_label": "2016-17",
+      "set_year_start": 2016,
+      "set_year_end": 2017,
+      "set_display_name": "2016-17 O-Pee-Chee",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2016-17-o-pee-chee-vseriesc",
+          "set_name": "VSeriesC",
+          "set_display_name": "2016-17 O-Pee-Chee - VSeriesC",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2016-17-o-pee-chee-vseriesc-s40",
+              "base_number": "S-40",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2016-17-O-Pee-Chee---VSeriesC-S-40-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2016-17-O-Pee-Chee---VSeriesC-S-40-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2016-17-o-pee-chee-puck-stickers",
+          "set_name": "Puck Stickers",
+          "set_display_name": "2016-17 O-Pee-Chee - Puck Stickers",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2016-17-o-pee-chee-puck-stickers-23",
+              "base_number": "23",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2016-17-O-Pee-Chee---Puck-Stickers-23-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2016-17-O-Pee-Chee---Puck-Stickers-23-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2016-17-o-pee-chee-platinum": {
+      "set_key": "2016-17-o-pee-chee-platinum",
+      "set_name": "O-Pee-Chee Platinum",
+      "set_year_label": "2016-17",
+      "set_year_start": 2016,
+      "set_year_end": 2017,
+      "set_display_name": "2016-17 O-Pee-Chee Platinum",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2016-17-o-pee-chee-platinum-puck-personas-die-cuts",
+          "set_name": "Puck Personas Die Cuts",
+          "set_display_name": "2016-17 O-Pee-Chee Platinum - Puck Personas Die Cuts",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2016-17-o-pee-chee-platinum-puck-personas-die-cuts-pp1",
+              "base_number": "PP-1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2016-17-O-Pee-Chee-Platinum---Puck-Personas-Die-Cuts-PP-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2016-17-O-Pee-Chee-Platinum---Puck-Personas-Die-Cuts-PP-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2016-17-o-pee-chee-platinum-puck-personas-die-cuts-cracked-ice",
+          "set_name": "Puck Personas Die Cuts Cracked Ice",
+          "set_display_name": "2016-17 O-Pee-Chee Platinum - Puck Personas Die Cuts Cracked Ice",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2016-17-o-pee-chee-platinum-puck-personas-die-cuts-cracked-ice-pp1",
+              "base_number": "PP-1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2016-17-O-Pee-Chee-Platinum---Puck-Personas-Die-Cuts-Cracked-Ice-PP-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2016-17-O-Pee-Chee-Platinum---Puck-Personas-Die-Cuts-Cracked-Ice-PP-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2016-17-o-pee-chee-platinum-nhl-logo-crest-die-cuts",
+          "set_name": "NHL Logo Crest Die Cuts",
+          "set_display_name": "2016-17 O-Pee-Chee Platinum - NHL Logo Crest Die Cuts",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2016-17-o-pee-chee-platinum-nhl-logo-crest-die-cuts-nhlld3",
+              "base_number": "NHLLD-3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2016-17-O-Pee-Chee-Platinum---NHL-Logo-Crest-Die-Cuts-NHLLD-3-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2016-17-O-Pee-Chee-Platinum---NHL-Logo-Crest-Die-Cuts-NHLLD-3-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2016-17-o-pee-chee-platinum-nhl-logo-crest-die-cuts-cracked-ice",
+          "set_name": "NHL Logo Crest Die Cuts Cracked Ice",
+          "set_display_name": "2016-17 O-Pee-Chee Platinum - NHL Logo Crest Die Cuts Cracked Ice",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2016-17-o-pee-chee-platinum-nhl-logo-crest-die-cuts-cracked-ice-nhlld3",
+              "base_number": "NHLLD-3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2016-17-O-Pee-Chee-Platinum---NHL-Logo-Crest-Die-Cuts-Cracked-Ice-NHLLD-3-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2016-17-O-Pee-Chee-Platinum---NHL-Logo-Crest-Die-Cuts-Cracked-Ice-NHLLD-3-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2016-17-fleer-showcase": {
+      "set_key": "2016-17-fleer-showcase",
+      "set_name": "Fleer Showcase",
+      "set_year_label": "2016-17",
+      "set_year_start": 2016,
+      "set_year_end": 2017,
+      "set_display_name": "2016-17 Fleer Showcase",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2016-17-fleer-showcase-ultra-scoring-kings",
+          "set_name": "Ultra Scoring Kings",
+          "set_display_name": "2016-17 Fleer Showcase - Ultra Scoring Kings",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2016-17-fleer-showcase-ultra-scoring-kings-sk10",
+              "base_number": "SK10",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2016-17-Fleer-Showcase---Ultra-Scoring-Kings-SK10-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2016-17-Fleer-Showcase---Ultra-Scoring-Kings-SK10-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2016-17-fleer-showcase-flair-showcase",
+          "set_name": "Flair Showcase",
+          "set_display_name": "2016-17 Fleer Showcase - Flair Showcase",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2016-17-fleer-showcase-flair-showcase-5",
+              "base_number": "5",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2016-17-Fleer-Showcase---Flair-Showcase-5-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2016-17-Fleer-Showcase---Flair-Showcase-5-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2016-17-upper-deck-ice": {
+      "set_key": "2016-17-upper-deck-ice",
+      "set_name": "Upper Deck Ice",
+      "set_year_label": "2016-17",
+      "set_year_start": 2016,
+      "set_year_end": 2017,
+      "set_display_name": "2016-17 Upper Deck Ice",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2016-17-upper-deck-ice-sub-zero",
+          "set_name": "Sub Zero",
+          "set_display_name": "2016-17 Upper Deck Ice - Sub Zero",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2016-17-upper-deck-ice-sub-zero-sz53",
+              "base_number": "SZ-53",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2016-17-Upper-Deck-Ice---Sub-Zero-SZ-53-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2016-17-Upper-Deck-Ice---Sub-Zero-SZ-53-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2016-17-upper-deck-artifacts": {
+      "set_key": "2016-17-upper-deck-artifacts",
+      "set_name": "Upper Deck Artifacts",
+      "set_year_label": "2016-17",
+      "set_year_start": 2016,
+      "set_year_end": 2017,
+      "set_display_name": "2016-17 Upper Deck Artifacts",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2016-17-upper-deck-artifacts-158",
+          "base_number": "158",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2016-17-Upper-Deck-Artifacts-158-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2016-17-Upper-Deck-Artifacts-158-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2016-17-upper-deck": {
+      "set_key": "2016-17-upper-deck",
+      "set_name": "Upper Deck",
+      "set_year_label": "2016-17",
+      "set_year_start": 2016,
+      "set_year_end": 2017,
+      "set_display_name": "2016-17 Upper Deck",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2016-17-upper-deck-mastery-achievements",
+          "set_name": "Mastery Achievements",
+          "set_display_name": "2016-17 Upper Deck - Mastery Achievements",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2016-17-upper-deck-mastery-achievements-m2",
+              "base_number": "M2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2016-17-Upper-Deck---Mastery-Achievements-M2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2016-17-Upper-Deck---Mastery-Achievements-M2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2016-17-parkhurst": {
+      "set_key": "2016-17-parkhurst",
+      "set_name": "Parkhurst",
+      "set_year_label": "2016-17",
+      "set_year_start": 2016,
+      "set_year_end": 2017,
+      "set_display_name": "2016-17 Parkhurst",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2016-17-parkhurst-nhl-centennial-salute",
+          "set_name": "NHL Centennial Salute",
+          "set_display_name": "2016-17 Parkhurst - NHL Centennial Salute",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2016-17-parkhurst-nhl-centennial-salute-s4",
+              "base_number": "S-4",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2016-17-Parkhurst---NHL-Centennial-Salute-S-4-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2016-17-Parkhurst---NHL-Centennial-Salute-S-4-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2017-18-sp-authentic": {
       "set_key": "2017-18-sp-authentic",
       "set_name": "SP Authentic",
