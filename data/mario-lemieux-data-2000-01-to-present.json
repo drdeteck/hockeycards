@@ -11880,6 +11880,88 @@
           "position": "Center",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2017-18-o-pee-chee-platinum-rainbow",
+          "set_name": "Rainbow",
+          "set_display_name": "2017-18 O-Pee-Chee Platinum - Rainbow",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-o-pee-chee-platinum-rainbow-141",
+              "base_number": "141",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2017-18-O-Pee-Chee-Platinum---Rainbow-141-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-O-Pee-Chee-Platinum---Rainbow-141-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2017-18-o-pee-chee-platinum-rainbow-color-wheel",
+          "set_name": "Rainbow Color Wheel",
+          "set_display_name": "2017-18 O-Pee-Chee Platinum - Rainbow Color Wheel",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-o-pee-chee-platinum-rainbow-color-wheel-141",
+              "base_number": "141",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2017-18-O-Pee-Chee-Platinum---Rainbow-Color-Wheel-141-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-O-Pee-Chee-Platinum---Rainbow-Color-Wheel-141-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2017-18-o-pee-chee-platinum-violet-pixel",
+          "set_name": "Violet Pixel",
+          "set_display_name": "2017-18 O-Pee-Chee Platinum - Violet Pixel",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-o-pee-chee-platinum-violet-pixel-141",
+              "base_number": "141",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2017-18-O-Pee-Chee-Platinum---Violet-Pixel-141-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-O-Pee-Chee-Platinum---Violet-Pixel-141-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2017-18-o-pee-chee-platinum-vip-black",
+          "set_name": "VIP Black",
+          "set_display_name": "2017-18 O-Pee-Chee Platinum - VIP Black",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-o-pee-chee-platinum-vip-black-vip13",
+              "base_number": "VIP-13",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2017-18-O-Pee-Chee-Platinum---VIP-Black-VIP-13-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-O-Pee-Chee-Platinum---VIP-Black-VIP-13-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
       ]
     },
     "2017-18-upper-deck-synergy": {
@@ -11909,6 +11991,185 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "2017-18-upper-deck-synergy-red",
+          "set_name": "Red",
+          "set_display_name": "2017-18 Upper Deck Synergy - Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-upper-deck-synergy-red-41",
+              "base_number": "41",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2017-18-Upper-Deck-Synergy---Red-41-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-Upper-Deck-Synergy---Red-41-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2017-18-upper-deck-synergy-career-spanning",
+          "set_name": "Career Spanning",
+          "set_display_name": "2017-18 Upper Deck Synergy - Career Spanning",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-upper-deck-synergy-career-spanning-cs10",
+              "base_number": "CS-10",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2017-18-Upper-Deck-Synergy---Career-Spanning-CS-10-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-Upper-Deck-Synergy---Career-Spanning-CS-10-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2017-18-upper-deck-artifacts": {
+      "set_key": "2017-18-upper-deck-artifacts",
+      "set_name": "Upper Deck Artifacts",
+      "set_year_label": "2017-18",
+      "set_year_start": 2017,
+      "set_year_end": 2018,
+      "set_display_name": "2017-18 Upper Deck Artifacts",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2017-18-upper-deck-artifacts-131",
+          "base_number": "131",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2017-18-Upper-Deck-Artifacts-131-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2017-18-Upper-Deck-Artifacts-131-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
+    "2017-18-upper-deck": {
+      "set_key": "2017-18-upper-deck",
+      "set_name": "Upper Deck",
+      "set_year_label": "2017-18",
+      "set_year_start": 2017,
+      "set_year_end": 2018,
+      "set_display_name": "2017-18 Upper Deck",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2017-18-upper-deck-the-second-six",
+          "set_name": "The Second Six",
+          "set_display_name": "2017-18 Upper Deck - The Second Six",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-upper-deck-the-second-six-s612",
+              "base_number": "S6-12",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2017-18-Upper-Deck---The-Second-Six-S6-12-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-Upper-Deck---The-Second-Six-S6-12-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2017-18-upper-deck-mastery-achievements",
+          "set_name": "Mastery Achievements",
+          "set_display_name": "2017-18 Upper Deck - Mastery Achievements",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-upper-deck-mastery-achievements-me",
+              "base_number": "M-E",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2017-18-Upper-Deck---Mastery-Achievements-M-E-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-Upper-Deck---Mastery-Achievements-M-E-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2017-18-upper-deck-day-with-the-cup",
+          "set_name": "Day with the Cup",
+          "set_display_name": "2017-18 Upper Deck - Day with the Cup",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-upper-deck-day-with-the-cup-dc27",
+              "base_number": "DC27",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2017-18-Upper-Deck---Day-with-the-Cup-DC27-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-Upper-Deck---Day-with-the-Cup-DC27-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2017-18-upper-deck-centennial-standouts",
+          "set_name": "Centennial Standouts",
+          "set_display_name": "2017-18 Upper Deck - Centennial Standouts",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-upper-deck-centennial-standouts-cs100",
+              "base_number": "CS-100",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2017-18-Upper-Deck---Centennial-Standouts-CS-100-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-Upper-Deck---Centennial-Standouts-CS-100-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2017-18-upper-deck-centennial-standouts-cs75",
+              "base_number": "CS-75",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2017-18-Upper-Deck---Centennial-Standouts-CS-75-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-Upper-Deck---Centennial-Standouts-CS-75-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2017-18-upper-deck-centennial-standouts-cs66",
+              "base_number": "CS-66",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2017-18-Upper-Deck---Centennial-Standouts-CS-66-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-Upper-Deck---Centennial-Standouts-CS-66-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
