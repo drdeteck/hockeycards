@@ -14133,6 +14133,135 @@
         }
       ]
     },
+    "2024-25-parkhurst-champions": {
+      "set_key": "2024-25-parkhurst-champions",
+      "set_name": "Parkhurst Champions",
+      "set_year_label": "2024-25",
+      "set_year_start": 2024,
+      "set_year_end": 2025,
+      "set_display_name": "2024-25 Parkhurst Champions",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2024-25-parkhurst-champions-294",
+          "base_number": "294",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2024-25-Parkhurst-Champions-294-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2024-25-Parkhurst-Champions-294-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2024-25-parkhurst-champions-silver",
+          "set_name": "Silver",
+          "set_display_name": "2024-25 Parkhurst Champions - Silver",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2024-25-parkhurst-champions-silver-294",
+              "base_number": "294",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2024-25-Parkhurst-Champions---Silver-294-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2024-25-Parkhurst-Champions---Silver-294-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2024-25-spx": {
+      "set_key": "2024-25-spx",
+      "set_name": "SPx",
+      "set_year_label": "2024-25",
+      "set_year_start": 2024,
+      "set_year_end": 2025,
+      "set_display_name": "2024-25 SPx",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2024-25-spx-all-time-holoview",
+          "set_name": "All-Time Holoview",
+          "set_display_name": "2024-25 SPx - All-Time Holoview",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2024-25-spx-all-time-holoview-atgml",
+              "base_number": "ATG-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2024-25-SPx---All-Time-Holoview-ATG-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2024-25-SPx---All-Time-Holoview-ATG-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2024-25-upper-deck": {
+      "set_key": "2024-25-upper-deck",
+      "set_name": "Upper Deck",
+      "set_year_label": "2024-25",
+      "set_year_start": 2024,
+      "set_year_end": 2025,
+      "set_display_name": "2024-25 Upper Deck",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2024-25-upper-deck-ud-canvas-black-and-white",
+          "set_name": "UD Canvas Black and White",
+          "set_display_name": "2024-25 Upper Deck - UD Canvas Black and White",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2024-25-upper-deck-ud-canvas-black-and-white-c249",
+              "base_number": "C249",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2024-25-Upper-Deck---UD-Canvas-Black-and-White-C249-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2024-25-Upper-Deck---UD-Canvas-Black-and-White-C249-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2024-25-upper-deck-ud-canvas",
+          "set_name": "UD Canvas",
+          "set_display_name": "2024-25 Upper Deck - UD Canvas",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2024-25-upper-deck-ud-canvas-c249",
+              "base_number": "C249",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2024-25-Upper-Deck---UD-Canvas-C249-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2024-25-Upper-Deck---UD-Canvas-C249-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2024-25-upper-deck-synergy": {
       "set_key": "2024-25-upper-deck-synergy",
       "set_name": "Upper Deck Synergy",
@@ -14185,6 +14314,28 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2024-25-upper-deck-tim-hortons-retrospective-rookies-dynamic-debuts",
+          "set_name": "Dynamic Debuts",
+          "set_display_name": "2024-25 Upper Deck Tim Hortons Retrospective Rookies - Dynamic Debuts",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2024-25-upper-deck-tim-hortons-retrospective-rookies-dynamic-debuts-dd2",
+              "base_number": "DD-2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2024-25-Upper-Deck-Tim-Hortons-Retrospective-Rookies---Dynamic-Debuts-DD-2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2024-25-Upper-Deck-Tim-Hortons-Retrospective-Rookies---Dynamic-Debuts-DD-2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
