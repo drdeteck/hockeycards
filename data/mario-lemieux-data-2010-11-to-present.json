@@ -2881,13 +2881,13 @@
           ]
         },
         {
-          "set_key": "2012-13-fleer-retro-tradition-electrifying",
-          "set_name": "Tradition Electrifying",
-          "set_display_name": "2012-13 Fleer Retro - Tradition Electrifying",
+          "set_key": "2012-13-fleer-retro-electrifying",
+          "set_name": "Electrifying",
+          "set_display_name": "2012-13 Fleer Retro - Electrifying",
           "set_tcdb_href": "",
           "cards": [
             {
-              "id": "ml-2012-13-fleer-retro-tradition-electrifying-11",
+              "id": "ml-2012-13-fleer-retro-electrifying-11",
               "base_number": "11",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
@@ -2896,6 +2896,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
+              "odds": "1:70",
               "inCollection": false
             }
           ]

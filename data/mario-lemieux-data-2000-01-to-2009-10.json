@@ -3723,8 +3723,8 @@
           "base_number": "303",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
-          "image_front": "",
-          "image_back": "",
+          "image_front": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Complete-303-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Complete-303-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
@@ -3863,26 +3863,6 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
-            }
-          ]
-        },
-        {
-          "set_key": "2002-03-pacific-crown-royale-complete",
-          "set_name": "Complete",
-          "set_display_name": "2002-03 Pacific Crown Royale - Complete",
-          "set_tcdb_href": "",
-          "cards": [
-            {
-              "id": "ml-2002-03-pacific-crown-royale-complete-303",
-              "base_number": "303",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Complete-303-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Complete-303-Mario-LemieuxBk.jpg",
-              "tcdb_href": "",
-              "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": false
             }
           ]
         },
@@ -4042,14 +4022,14 @@
       ],
       "subsets": [
         {
-          "set_key": "2002-03-pacific-quest-for-the-cup-gold-parallel",
-          "set_name": "Gold Parallel",
-          "set_display_name": "2002-03 Pacific Quest for the Cup - Gold Parallel",
+          "set_key": "2002-03-pacific-quest-for-the-cup-gold",
+          "set_name": "Gold",
+          "set_display_name": "2002-03 Pacific Quest for the Cup - Gold",
           "set_type": "parallel",
           "set_tcdb_href": "",
           "cards": [
             {
-              "id": "ml-2002-03-pacific-quest-cup-gold-80",
+              "id": "ml-2002-03-pacific-quest-for-the-cup-gold-80",
               "base_number": "80",
               "orientation_front": "landscape",
               "orientation_back": "portrait",
