@@ -5798,7 +5798,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5188/cid/1599461/1995-96-SP-FX17-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 20.00
             }
           ]
         },
@@ -5863,7 +5864,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5111/cid/1599363/1995-96-Select-Certified-3-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 45.00
             }
           ]
         },
@@ -8407,7 +8409,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5329/cid/1608206/1996-97-SkyBox-Impact-7-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 30.00
             }
           ]
         },

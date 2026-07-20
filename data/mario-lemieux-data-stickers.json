@@ -809,7 +809,8 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true,
+                    "price": 0.99
                 }
             ]
         },

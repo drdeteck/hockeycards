@@ -1065,7 +1065,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.99
             },
             {
               "id": "ml-2000-01-topps-chrome-mlr-20",
@@ -1137,7 +1138,9 @@
           "image_back": "img/cards/ML66/2000-01-Topps-Gold-Label-37-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true,
+          "price": 2.99
         }
       ]
     },
@@ -8058,7 +8061,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.49
             }
           ]
         }
@@ -8212,7 +8216,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5.99
             }
           ]
         }
