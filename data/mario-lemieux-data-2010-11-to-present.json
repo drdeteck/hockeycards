@@ -1392,6 +1392,27 @@
       "cards": [],
       "subsets": [
         {
+          "set_key": "2013-14-upper-deck-hockey-heroes",
+          "set_name": "Hockey Heroes",
+          "set_display_name": "2013-14 Upper Deck - Hockey Heroes",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2013-14-upper-deck-hockey-heroes-hh65",
+              "base_number": "HH65",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2013-14-Upper-Deck---Hockey-Heroes-HH65-Mario-Lemieux--Patrick-RoyFr.jpg",
+              "image_back": "img/cards/ML66/2013-14-Upper-Deck---Hockey-Heroes-HH65-Mario-Lemieux--Patrick-RoyBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 4.95
+            }
+          ]
+        },
+        {
           "set_key": "2013-14-upper-deck-hockey-heroes-80s",
           "set_name": "Hockey Heroes 80s",
           "set_display_name": "2013-14 Upper Deck - Hockey Heroes 80s",
@@ -5148,6 +5169,31 @@
           ]
         }
       ]
+    },
+    "2023-24-upper-deck-engrained": {
+      "set_key": "2023-24-upper-deck-engrained",
+      "set_name": "Upper Deck Engrained",
+      "set_year_label": "2023-24",
+      "set_year_start": 2023,
+      "set_year_end": 2024,
+      "set_display_name": "2023-24 Upper Deck Engrained",
+      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/409919/2023-24-Upper-Deck-Engrained",
+      "cards": [
+        {
+          "id": "ml-2023-24-upper-deck-engrained-72",
+          "base_number": "72",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/409919/cid/26661156/2023-24-Upper-Deck-Engrained-72-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "variant_note": "SN299",
+          "inCollection": false
+        }
+      ],
+      "subsets": []
     },
     "2023-24-upper-deck-ice": {
       "set_key": "2023-24-upper-deck-ice",

@@ -4274,8 +4274,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 10.59
+              "inCollection": true,
+              "price": 8
             }
           ]
         }
