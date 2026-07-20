@@ -5783,6 +5783,26 @@
           ]
         },
         {
+          "set_key": "1995-96-sp-special-fx",
+          "set_name": "Special FX",
+          "set_display_name": "1995-96 SP - Special FX",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1995-96-sp-special-fx-fx17",
+              "base_number": "FX17",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-SP---Special-FX-FX17-Mario-LemieuxFr-placeholder.jpg",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5188/cid/1599461/1995-96-SP-FX17-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
           "set_key": "1995-96-sp-stars",
           "set_name": "Stars",
           "set_display_name": "1995-96 SP - Stars",
@@ -5827,6 +5847,26 @@
         }
       ],
       "subsets": [
+        {
+          "set_key": "1995-96-select-certified-gold-team",
+          "set_name": "Gold Team",
+          "set_display_name": "1995-96 Select Certified - Gold Team",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1995-96-select-certified-gold-team-3",
+              "base_number": "3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Select-Certified---Gold-Team-3-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Select-Certified---Gold-Team-3-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5111/cid/1599363/1995-96-Select-Certified-3-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
         {
           "set_key": "1995-96-select-certified-mirror-gold",
           "set_name": "Mirror Gold",
@@ -8351,6 +8391,26 @@
         }
       ],
       "subsets": [
+        {
+          "set_key": "1996-97-skybox-impact-versateam",
+          "set_name": "VersaTeam",
+          "set_display_name": "1996-97 SkyBox Impact - VersaTeam",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5329/1996-97-skybox-impact-versateam",
+          "cards": [
+            {
+              "id": "ml-1996-97-skybox-impact-versateam-7",
+              "base_number": "7",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/1996-97-SkyBox-Impact---VersaTeam-7-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-SkyBox-Impact---VersaTeam-7-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5329/cid/1608206/1996-97-SkyBox-Impact-7-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
         {
           "set_key": "1996-97-skybox-impact-countdown-to-impact",
           "set_name": "Countdown to Impact",
