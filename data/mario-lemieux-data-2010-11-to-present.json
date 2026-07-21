@@ -5134,7 +5134,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 0.99
             }
           ]
         },
@@ -5212,7 +5213,8 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "variant_note": "SN299",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2.99
         }
       ],
       "subsets": []

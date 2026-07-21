@@ -8534,7 +8534,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 2.72
+          "price": 0.99
         },
         {
           "id": "ml-2008-09-upper-deck-masterpieces-12",
@@ -8558,7 +8558,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 0.99
         },
         {
           "id": "ml-2008-09-upper-deck-masterpieces-86",
@@ -8570,7 +8571,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 0.99
         }
       ],
       "subsets": [
