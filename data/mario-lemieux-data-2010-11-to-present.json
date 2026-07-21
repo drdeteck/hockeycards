@@ -5140,6 +5140,26 @@
           ]
         },
         {
+          "set_key": "2023-24-upper-deck-seeing-red-gold-foil",
+          "set_name": "Seeing Red Gold Foil",
+          "set_display_name": "2023-24 Upper Deck - Seeing Red Gold Foil",
+          "set_tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/438593/cid/25111915/2023-24-Upper-Deck---Seeing-Red-Gold-Foil-SR-3-Mario-Lemieux",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-seeing-red-gold-foil-sr3",
+              "base_number": "SR-3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/438593/cid/25111915/2023-24-Upper-Deck---Seeing-Red-Gold-Foil-SR-3-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
           "set_key": "2023-24-upper-deck-mastery-achievements",
           "set_name": "Mastery Achievements",
           "set_display_name": "2023-24 Upper Deck - Mastery Achievements",
