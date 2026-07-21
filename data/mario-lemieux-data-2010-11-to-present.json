@@ -4685,6 +4685,40 @@
         }
       ]
     },
+    "2022-23-upper-deck-black-diamond": {
+      "set_key": "2022-23-upper-deck-black-diamond",
+      "set_name": "Upper Deck Black Diamond",
+      "set_year_label": "2022-23",
+      "set_year_start": 2022,
+      "set_year_end": 2023,
+      "set_display_name": "2022-23 Upper Deck Black Diamond",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2022-23-upper-deck-black-diamond-buybacks",
+          "set_name": "Black Diamond Buybacks",
+          "set_display_name": "2022-23 Upper Deck Black Diamond - Black Diamond Buybacks",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2022-23-upper-deck-black-diamond-buybacks-bdb-ml",
+              "base_number": "BDB-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2022-23-Upper-Deck-Black-Diamond-BDB-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2022-23-Upper-Deck-Black-Diamond-BDB-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 5,
+              "serial_number": "349"
+            }
+          ]
+        }
+      ]
+    },
     "2022-23-upper-deck-ice": {
       "set_key": "2022-23-upper-deck-ice",
       "set_name": "Upper Deck Ice",
