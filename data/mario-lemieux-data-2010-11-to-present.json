@@ -5758,6 +5758,26 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/545773/cid/30954858/2024-25-SP-Authentic-P-73-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
+              "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "2024-25-sp-authentic-pageantry-red",
+          "set_name": "Pageantry Red",
+          "set_display_name": "2024-25 SP Authentic - Pageantry Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2024-25-sp-authentic-pageantry-red-p73",
+              "base_number": "P-73",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2024-25-SP-Authentic---Pageantry-Red-P-73-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2024-25-SP-Authentic---Pageantry-Red-P-73-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
               "inCollection": false
             }
           ]
@@ -5987,29 +6007,6 @@
               "inCollection": false
             }
           ]
-        }
-      ]
-    },
-    "2024-25-sp-authentic-pageantry-red": {
-      "set_key": "2024-25-sp-authentic-pageantry-red",
-      "set_name": "SP Authentic Pageantry Red",
-      "set_year_label": "2024-25",
-      "set_year_start": 2024,
-      "set_year_end": 2025,
-      "set_display_name": "2024-25 SP Authentic Pageantry Red",
-      "set_tcdb_href": "",
-      "cards": [
-        {
-          "id": "ml-2024-25-sp-authentic-pageantry-red-p73",
-          "base_number": "P-73",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/2024-25-SP-Authentic---Pageantry-Red-P-73-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/2024-25-SP-Authentic---Pageantry-Red-P-73-Mario-LemieuxBk.jpg",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": false
         }
       ]
     },
