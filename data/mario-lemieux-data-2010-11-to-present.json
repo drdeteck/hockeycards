@@ -3741,8 +3741,8 @@
             {
               "id": "ml-2017-18-upper-deck-centennial-standouts-cs100",
               "base_number": "CS-100",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2017-18-Upper-Deck---Centennial-Standouts-CS-100-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2017-18-Upper-Deck---Centennial-Standouts-CS-100-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -3765,8 +3765,8 @@
             {
               "id": "ml-2017-18-upper-deck-centennial-standouts-cs66",
               "base_number": "CS-66",
-              "orientation_front": "landscape",
-              "orientation_back": "landscape",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2017-18-Upper-Deck---Centennial-Standouts-CS-66-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2017-18-Upper-Deck---Centennial-Standouts-CS-66-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -4461,6 +4461,28 @@
           "position": "Center",
           "inCollection": true,
           "price": 2
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2021-22-upper-deck-stature-green",
+          "set_name": "Green",
+          "set_display_name": "2021-22 Upper Deck Stature - Green",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2021-22-upper-deck-stature-green-71",
+              "base_number": "71",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2021-22-Upper-Deck-Stature---Green-71-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2021-22-Upper-Deck-Stature---Green-71-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },

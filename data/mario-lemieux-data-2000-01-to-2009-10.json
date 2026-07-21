@@ -339,8 +339,8 @@
           "base_number": "87",
           "orientation_front": "landscape",
           "orientation_back": "landscape",
-          "image_front": "img/cards/ML66/2000-01-Pacific-Crown-Royale-87-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/2000-01-Pacific-Crown-Royale-87-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2000-01-Pacific-Crown-Royale-87-Mario-LemieuxFr.png",
+          "image_back": "img/cards/ML66/2000-01-Pacific-Crown-Royale-87-Mario-LemieuxBk.png",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center"
@@ -360,6 +360,26 @@
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2000-01-Pacific-Crown-Royale---Jewels-of-the-Crown-22-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2000-01-Pacific-Crown-Royale---Jewels-of-the-Crown-22-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "2000-01-pacific-crown-royale-red",
+          "set_name": "Red",
+          "set_display_name": "2000-01 Pacific Crown Royale - Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-pacific-crown-royale-red-87",
+              "base_number": "87",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2000-01-Pacific-Crown-Royale---Red-87-Mario-LemieuxFr.png",
+              "image_back": "img/cards/ML66/2000-01-Pacific-Crown-Royale---Red-87-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
