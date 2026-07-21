@@ -5266,7 +5266,8 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/409919/cid/26661156/2023-24-Upper-Deck-Engrained-72-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "variant_note": "SN299",
+          "card_type": "numbered",
+          "print_run": 299,
           "inCollection": true,
           "price": 2.99
         }

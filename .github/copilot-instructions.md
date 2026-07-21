@@ -169,6 +169,10 @@ Mario Lemieux set keys have **no prefix** (e.g. `"1985-86-o-pee-chee"`), not `"m
   // --- External links ---
   "tcdb_href":        "https://www.tcdb.com/...",   // optional: Trading Card Database link
 
+  // --- Serial numbering ---
+  "card_type":        "numbered",            // optional: "numbered" flags a serial-numbered/limited print run
+  "print_run":        299,                   // optional: integer denominator of the print run (the "/299" part)
+
   // --- Collection tracking ---
   "inCollection":     true,                  // true = owned; false or absent = not owned
   "price":            32.09                  // optional: estimated market value (float)
@@ -180,6 +184,7 @@ Mario Lemieux set keys have **no prefix** (e.g. `"1985-86-o-pee-chee"`), not `"m
 - `price` — float; displayed on card detail view; used for collection value calculations
 - `base_number` — canonical card identifier used in URLs and data lookups
 - `image_front` / `image_back` — relative paths from repo root; empty string if image not yet added
+- `card_type` / `print_run` — use for serial-numbered cards (e.g. `/299`). Set `card_type: "numbered"` and `print_run` to the plain integer run size. Do **not** use `variant_note` for serial numbers — there is no tracking of the specific numbered copy pulled (e.g. "1541/1996"), only the run size.
 
 ---
 

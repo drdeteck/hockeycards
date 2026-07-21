@@ -92,6 +92,7 @@
                     "id": "ml-2007-08-upper-deck-trilogy-future-icons-frozen-in-time-111",
                     "base_number": "111",
                     "card_type": "numbered",
+                    "print_run": 799,
                     "orientation_front": "portrait",
                     "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/Gems/2007-08-Upper-Deck-Trilogy-111-Mario-LemieuxFr.jpg",
@@ -99,7 +100,6 @@
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
-                    "variant_note": "/799",
                     "inCollection": true,
                     "price": 23.5
                 }

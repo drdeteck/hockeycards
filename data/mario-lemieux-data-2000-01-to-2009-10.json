@@ -4012,7 +4012,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "variant_note": "150/240",
+              "card_type": "numbered",
+              "print_run": 240,
               "inCollection": true,
               "price": 6.5
             }
@@ -4519,7 +4520,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "variant_note": "/450",
+              "card_type": "numbered",
+              "print_run": 450,
               "inCollection": true,
               "price": 4.5
             }
@@ -6036,7 +6038,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "variant_note": "028/750",
+              "card_type": "numbered",
+              "print_run": 750,
               "inCollection": true,
               "price": 6.44
             },
@@ -6050,7 +6053,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "variant_note": "/750",
+              "card_type": "numbered",
+              "print_run": 750,
               "inCollection": true,
               "price": 9.3
             }
@@ -6121,7 +6125,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "variant_note": "293/500",
+              "card_type": "numbered",
+              "print_run": 500,
               "inCollection": true,
               "price": 6.44
             }

@@ -7316,7 +7316,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "variant_note": "1541/1996",
+              "card_type": "numbered",
+              "print_run": 1996,
               "price": 8.65,
               "inCollection": true
             },
