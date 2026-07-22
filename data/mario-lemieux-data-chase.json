@@ -1536,26 +1536,6 @@
                     ]
                 },
                 {
-                    "set_key": "1996-97-upper-deck-ice-stanley-cup-foundation",
-                    "set_name": "Stanley Cup Foundation",
-                    "set_display_name": "1996-97 Upper Deck Ice - Stanley Cup Foundation",
-                    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5363/1996-97-upper-deck-ice-stanley-cup-foundation",
-                    "cards": [
-                        {
-                            "id": "ml-1996-97-upper-deck-ice-stanley-cup-foundation-s7",
-                            "base_number": "S7",
-                            "orientation_front": "landscape",
-                            "orientation_back": "landscape",
-                            "image_front": "img/cards/ML66/Chase/1996-97-Upper-Deck-Ice---Stanley-Cup-Foundation-S7-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1996-97-Upper-Deck-Ice---Stanley-Cup-Foundation-S7-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5363/cid/1610082/1996-97-Upper-Deck-Ice-S7-Mario-Lemieux-/-Jaromir-Jagr",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": false
-                        }
-                    ]
-                },
-                {
                     "set_key": "1996-97-upper-deck-ice-stanley-cup-foundation-dynasty",
                     "set_name": "Stanley Cup Foundation Dynasty",
                     "set_display_name": "1996-97 Upper Deck Ice - Stanley Cup Foundation Dynasty",
