@@ -2338,7 +2338,9 @@
           "image_back": "img/cards/ML66/2001-02-SP-Game-Used-43-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true,
+          "price": 3.99
         }
       ]
     },
@@ -6580,7 +6582,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.99
             }
           ]
         },
@@ -6668,7 +6671,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.49
             }
           ]
         },
@@ -8597,7 +8601,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 9.99
             },
             {
               "id": "ml-2008-09-upper-deck-masterpieces-brown-12",
@@ -8609,7 +8614,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 9.99
             },
             {
               "id": "ml-2008-09-upper-deck-masterpieces-brown-81",
@@ -8621,7 +8627,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 9.99
             },
             {
               "id": "ml-2008-09-upper-deck-masterpieces-brown-86",
@@ -8730,7 +8737,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.99
             }
           ]
         }
@@ -8992,7 +9000,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.99
         }
       ]
     },

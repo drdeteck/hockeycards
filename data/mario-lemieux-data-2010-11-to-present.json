@@ -4056,7 +4056,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.75
             },
             {
               "id": "ml-2020-21-sp-signature-edition-legends-profiles-p26",
@@ -4863,6 +4864,51 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2022-23-upper-deck-synergy-cranked-up",
+          "set_name": "Cranked Up",
+          "set_display_name": "2022-23 Upper Deck Synergy - Cranked Up",
+          "set_tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/370562/cid/21742939/2022-23-Upper-Deck-Synergy---Cranked-Up-CU-ML-Mario-Lemieux",
+          "cards": [
+            {
+              "id": "ml-2022-23-upper-deck-synergy-cranked-up-cuml",
+              "base_number": "CU-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/370562/cid/21742939/2022-23-Upper-Deck-Synergy---Cranked-Up-CU-ML-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "card_type": "numbered",
+              "print_run": 699,
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2022-23-upper-deck-synergy-cranked-up-blue",
+          "set_name": "Cranked Up Blue",
+          "set_display_name": "2022-23 Upper Deck Synergy - Cranked Up Blue",
+          "set_tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/370564/cid/21743143/2022-23-Upper-Deck-Synergy---Cranked-Up-Blue-CU-ML-Mario-Lemieux",
+          "cards": [
+            {
+              "id": "ml-2022-23-upper-deck-synergy-cranked-up-blue-cuml",
+              "base_number": "CU-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/370564/cid/21743143/2022-23-Upper-Deck-Synergy---Cranked-Up-Blue-CU-ML-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "card_type": "numbered",
+              "print_run": 249,
+              "inCollection": true,
+              "price": 9.99
             }
           ]
         }

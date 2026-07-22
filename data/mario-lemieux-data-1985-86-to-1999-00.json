@@ -8303,6 +8303,27 @@
           ]
         },
         {
+          "set_key": "1996-97-score-golden-blades",
+          "set_name": "Golden Blades",
+          "set_display_name": "1996-97 Score - Golden Blades",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/48599/1996-97-score-golden-blades",
+          "cards": [
+            {
+              "id": "ml-1996-97-score-golden-blades-6",
+              "base_number": "6",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Score---Golden-Blades-6-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Score---Golden-Blades-6-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48599/cid/1606804/1996-97-Score-6-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 3.99
+            }
+          ]
+        },
+        {
           "set_key": "1996-97-score-sudden-death",
           "set_name": "Sudden Death",
           "set_display_name": "1996-97 Score - Sudden Death",
@@ -8952,7 +8973,9 @@
               "image_back": "img/cards/ML66/1999-00-Upper-Deck-Retro---Distant-Replay-DR12-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 2.99
             }
           ]
         },
