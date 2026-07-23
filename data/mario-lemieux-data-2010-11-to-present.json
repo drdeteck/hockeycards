@@ -3778,6 +3778,29 @@
         }
       ]
     },
+    "2017-18-upper-deck-team-canada-juniors": {
+      "set_key": "2017-18-upper-deck-team-canada-juniors",
+      "set_name": "Upper Deck Team Canada Juniors",
+      "set_year_label": "2017-18",
+      "set_year_start": 2017,
+      "set_year_end": 2018,
+      "set_display_name": "2017-18 Upper Deck Team Canada Juniors",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2017-18-upper-deck-team-canada-juniors-99",
+          "base_number": "99",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada-Juniors-99-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada-Juniors-99-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Team Canada",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2018-19-o-pee-chee-platinum": {
       "set_key": "2018-19-o-pee-chee-platinum",
       "set_name": "O-Pee-Chee Platinum",
@@ -5352,6 +5375,29 @@
         }
       ]
     },
+    "2023-24-upper-deck-national-hockey-card-day": {
+      "set_key": "2023-24-upper-deck-national-hockey-card-day",
+      "set_name": "Upper Deck National Hockey Card Day",
+      "set_year_label": "2023-24",
+      "set_year_start": 2023,
+      "set_year_end": 2024,
+      "set_display_name": "2023-24 Upper Deck National Hockey Card Day",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2023-24-upper-deck-national-hockey-card-day-nhcd26",
+          "base_number": "NHCD-26",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2023-24-Upper-Deck-National-Hockey-Card-Day-NHCD-26-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2023-24-Upper-Deck-National-Hockey-Card-Day-NHCD-26-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2023-24-upper-deck-synergy": {
       "set_key": "2023-24-upper-deck-synergy",
       "set_name": "Upper Deck Synergy",
@@ -5609,6 +5655,26 @@
               "price": 1.36,
               "tcdb_href": "",
               "team": "Pittsburgh Penguins"
+            }
+          ]
+        },
+        {
+          "set_key": "2023-24-upper-deck-tim-hortons-legends-trendsetters",
+          "set_name": "Trendsetters",
+          "set_display_name": "2023-24 Upper Deck Tim Hortons Legends - Trendsetters",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-tim-hortons-legends-trendsetters-t2",
+              "base_number": "T-2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Upper-Deck-Tim-Hortons-Legends---Trendsetters-T-2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Upper-Deck-Tim-Hortons-Legends---Trendsetters-T-2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }

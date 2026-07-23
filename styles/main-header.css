@@ -12,6 +12,10 @@
     background-color: var(--color-dark-blue);
 }
 
+.main-header--serial {
+    background-color: var(--color-serial-menu-bg);
+}
+
 .main-header-collections {
     display: flex;
     align-items: center;

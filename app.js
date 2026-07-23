@@ -110,6 +110,9 @@ window.HCHB = window.HCHB || {};
                     console.warn('Chase dataset not loaded. Expected JSON from data/mario-lemieux-data-chase.json');
                 }
 
+                var serialCollections = App.ViewModel.BuildSerialNumberedCollections(mergedData);
+                mergedData = Object.assign(mergedData, serialCollections);
+
                 initializeAppWithData(mergedData);
             }).catch(function (error) {
                 console.error('Fatal dataset loading error:', error);
@@ -341,7 +344,7 @@ function DataViewModel() {
     };
 
     self.IsMarioSource = function (source) {
-        return source === 'mario' || source === 'mario-stickers' || source === 'mario-gems' || source === 'mario-chase' || source === '96-97-CC' || source === 'other-cards';
+        return source === 'mario' || source === 'mario-stickers' || source === 'mario-gems' || source === 'mario-chase' || source === 'mario-serial' || source === '96-97-CC' || source === 'other-cards';
     };
 
     self.BuildStickerCollections = function (stickerData) {
@@ -924,12 +927,74 @@ function DataViewModel() {
                 ? row.last_seen_price
                 : row.price,
             card_type: row.card_type || 'card',
+            print_run: row.print_run || null,
             excludeFromBinder: !!(row.excludeFromBinder),
             inCollection: !!(row.inCollection),
             default_face: row.default_face || 'front',
             _set_key: routingSetKey,
             _parent_key: parentSetKey || null
         };
+    };
+
+    // Builds one virtual collection per distinct print_run value found across the regular ML,
+    // gems and chase "all" collections. Cards are referenced (not cloned) from those collections.
+    self.BuildSerialNumberedCollections = function (mergedData) {
+        var sourceKeys = ['ML-all', 'ML-gems-all', 'ML-chase-all'];
+        var groups = {};
+
+        sourceKeys.forEach(function (key) {
+            var collection = mergedData[key];
+            if (!collection) { return; }
+            (collection.cards || []).forEach(function (card) {
+                var printRun = parseInt(card.print_run, 10);
+                if (!printRun || isNaN(printRun)) { return; }
+                if (!groups[printRun]) { groups[printRun] = []; }
+                groups[printRun].push(card);
+            });
+        });
+
+        var result = {};
+        Object.keys(groups).forEach(function (printRunKey) {
+            var printRun = parseInt(printRunKey, 10);
+            var cards = groups[printRunKey].slice();
+            cards.sort(function (left, right) {
+                var leftYear = parseInt(left.set_year_start, 10) || 0;
+                var rightYear = parseInt(right.set_year_start, 10) || 0;
+                if (leftYear !== rightYear) {
+                    return leftYear - rightYear;
+                }
+                var leftSet = (left.set_name || '').toString();
+                var rightSet = (right.set_name || '').toString();
+                var setCompare = leftSet.localeCompare(rightSet, undefined, { sensitivity: 'base' });
+                if (setCompare !== 0) {
+                    return setCompare;
+                }
+                return (left.base_number || '').toString().localeCompare(
+                    (right.base_number || '').toString(),
+                    undefined,
+                    { numeric: true, sensitivity: 'base' }
+                );
+            });
+
+            var setKey = 'MLSerial-' + printRun;
+            result[setKey] = {
+                set_key: setKey,
+                set_name: '/' + printRun + ' Serial Numbered',
+                set_year_label: '/' + printRun,
+                set_year_start: null,
+                set_year_end: null,
+                set_category: 'Serial Numbered',
+                set_total_cards: cards.length,
+                set_tcdb_href: '',
+                set_display_name: '/' + printRun + ' Serial Numbered Cards',
+                source: 'mario-serial',
+                print_run: printRun,
+                cards: cards,
+                subsets: []
+            };
+        });
+
+        return result;
     };
 
     // primary data dictionary (sets keyed by id)
@@ -2316,6 +2381,9 @@ function DataViewModel() {
 
         Object.values(data).forEach(function (set) {
             if (!set) { return; }
+            // Serial-numbered virtual collections are alternate views of cards already
+            // counted elsewhere (ML-all / ML-gems-all / ML-chase-all) — skip entirely.
+            if (set.source === 'mario-serial') { return; }
             // For Mario virtual collections, only count from ML-all to avoid double-counting
             if (set.source === 'mario' && set.set_key !== 'ML-all') { return; }
             // For sticker virtual collections, only count from ML-stickers-all
@@ -2373,6 +2441,8 @@ function DataViewModel() {
         if (currentCollection && currentCollection.source) {
             if (currentCollection.source === 'mario' || currentCollection.source === 'mario-stickers' || currentCollection.source === 'mario-gems' || currentCollection.source === 'mario-chase') {
                 activeRowName = 'Mario Lemieux';
+            } else if (currentCollection.source === 'mario-serial') {
+                activeRowName = 'Serial Numbered';
             } else if (currentCollection.source === '96-97-CC' || currentCollection.source === 'other-cards') {
                 activeRowName = 'Other Sets';
             }
@@ -2458,7 +2528,6 @@ function DataViewModel() {
                     return leftYear - rightYear;
                 });
 
-            var marioDecadeGroupMap = {};
             var orderedMarioGroups = [];
 
             if (marioAll) {
@@ -2490,38 +2559,48 @@ function DataViewModel() {
                 });
             }
 
-            marioYears.forEach(function (item) {
-                var decade = item.set_category || self.GetDecadeLabel(item.set_year_label);
-                if (!marioDecadeGroupMap[decade]) {
-                    marioDecadeGroupMap[decade] = [];
-                }
-                marioDecadeGroupMap[decade].push({
-                    key: item.set_key,
-                    displayName: item.set_year_label || item.set_name
+            // Flat, compact list of years — no decade sub-headers.
+            if (marioYears.length > 0) {
+                orderedMarioGroups.push({
+                    text: '',
+                    controls: marioYears.map(function (item) {
+                        return {
+                            key: item.set_key,
+                            displayName: item.set_year_label || item.set_name
+                        };
+                    })
                 });
-            });
-
-            orderedMarioGroups = orderedMarioGroups.concat(Object.keys(marioDecadeGroupMap)
-                .sort(function (left, right) {
-                    var leftNum = parseInt(left, 10);
-                    var rightNum = parseInt(right, 10);
-                    if (!isNaN(leftNum) && !isNaN(rightNum)) {
-                        return leftNum - rightNum;
-                    }
-                    return left.localeCompare(right);
-                })
-                .map(function (label) {
-                    return {
-                        text: label,
-                        controls: marioDecadeGroupMap[label]
-                    };
-                }));
+            }
 
             menuRows.push({
                 name: 'Mario Lemieux',
                 template: 'button-text-template',
                 cssClass: 'main-header--mario',
                 groups: orderedMarioGroups
+            });
+        }
+
+        // Serial Numbered — always its own row (own line), one button per print run,
+        // flat list, no year/set grouping.
+        var serialItems = items.filter(function (itm) { return itm && itm.source === 'mario-serial'; });
+        if (serialItems.length > 0) {
+            serialItems.sort(function (left, right) {
+                return (parseInt(left.print_run, 10) || 0) - (parseInt(right.print_run, 10) || 0);
+            });
+
+            menuRows.push({
+                name: 'Serial Numbered',
+                template: 'button-text-template',
+                cssClass: 'main-header--serial',
+                groups: [{
+                    text: '',
+                    controls: serialItems.map(function (item) {
+                        return {
+                            key: item.set_key,
+                            displayName: '/' + item.print_run
+                        };
+                    })
+                }]
             });
         }
 
