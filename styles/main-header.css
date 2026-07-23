@@ -16,6 +16,10 @@
     background-color: var(--color-serial-menu-bg);
 }
 
+.main-header--serial-continued {
+    margin-top: 8px;
+}
+
 .main-header-collections {
     display: flex;
     align-items: center;

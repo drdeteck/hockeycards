@@ -2559,17 +2559,38 @@ function DataViewModel() {
                 });
             }
 
-            // Flat, compact list of years — no decade sub-headers.
+            // Wrap years after every 9 (1989, 1999, 2009, 2019, etc.) — each decade gets its own group row
             if (marioYears.length > 0) {
-                orderedMarioGroups.push({
+                var yearsGroups = [];
+                var currentYearGroup = {
                     text: '',
-                    controls: marioYears.map(function (item) {
-                        return {
-                            key: item.set_key,
-                            displayName: item.set_year_label || item.set_name
+                    controls: []
+                };
+
+                marioYears.forEach(function (item) {
+                    currentYearGroup.controls.push({
+                        key: item.set_key,
+                        displayName: item.set_year_label || item.set_name
+                    });
+
+                    // Check if this year ends in 9 (wrap after 1989, 1999, 2009, 2019, etc.)
+                    var yearLabel = item.set_year_label || '';
+                    var yearMatch = yearLabel.match(/(\d{4})/);
+                    if (yearMatch && yearMatch[1].endsWith('9')) {
+                        yearsGroups.push(currentYearGroup);
+                        currentYearGroup = {
+                            text: '',
+                            controls: []
                         };
-                    })
+                    }
                 });
+
+                // Push any remaining years in the last group
+                if (currentYearGroup.controls.length > 0) {
+                    yearsGroups.push(currentYearGroup);
+                }
+
+                orderedMarioGroups = orderedMarioGroups.concat(yearsGroups);
             }
 
             menuRows.push({
@@ -2580,28 +2601,58 @@ function DataViewModel() {
             });
         }
 
-        // Serial Numbered — always its own row (own line), one button per print run,
-        // flat list, no year/set grouping.
+        // Serial Numbered — organized into groups like Mario years, wraps after 999
         var serialItems = items.filter(function (itm) { return itm && itm.source === 'mario-serial'; });
         if (serialItems.length > 0) {
             serialItems.sort(function (left, right) {
                 return (parseInt(left.print_run, 10) || 0) - (parseInt(right.print_run, 10) || 0);
             });
 
-            menuRows.push({
-                name: 'Serial Numbered',
-                template: 'button-text-template',
-                cssClass: 'main-header--serial',
-                groups: [{
+            var serialGroups = [];
+
+            // Split into two groups: up to 999 and 1000+
+            var serialUpTo999 = serialItems.filter(function (item) {
+                return (parseInt(item.print_run, 10) || 0) <= 999;
+            });
+            var serialFrom1000 = serialItems.filter(function (item) {
+                return (parseInt(item.print_run, 10) || 0) > 999;
+            });
+
+            // Add group for up to 999
+            if (serialUpTo999.length > 0) {
+                serialGroups.push({
                     text: '',
-                    controls: serialItems.map(function (item) {
+                    controls: serialUpTo999.map(function (item) {
                         return {
                             key: item.set_key,
                             displayName: '/' + item.print_run
                         };
                     })
-                }]
-            });
+                });
+            }
+
+            // Add group for 1000+
+            if (serialFrom1000.length > 0) {
+                serialGroups.push({
+                    text: '',
+                    controls: serialFrom1000.map(function (item) {
+                        return {
+                            key: item.set_key,
+                            displayName: '/' + item.print_run
+                        };
+                    })
+                });
+            }
+
+            // Create single menuRow with both groups
+            if (serialGroups.length > 0) {
+                menuRows.push({
+                    name: 'Serial Numbered',
+                    template: 'button-text-template',
+                    cssClass: 'main-header--serial',
+                    groups: serialGroups
+                });
+            }
         }
 
         if (marioProjectItems.length > 0) {

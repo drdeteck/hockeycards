@@ -296,7 +296,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": false,
+          "print_run": 999
         }
       ]
     },
@@ -756,7 +757,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": false,
+          "print_run": 999
         }
       ]
     },
@@ -832,7 +834,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": false,
+              "print_run": 999
             }
           ]
         }
@@ -2814,7 +2817,7 @@
           "position": "Center",
           "inCollection": true,
           "price": 4.99,
-          "note": "SN999"
+          "print_run": 999
         }
       ]
     },
@@ -4280,6 +4283,69 @@
               "inCollection": false
             }
           ]
+        },
+        {
+          "set_key": "2020-21-upper-deck-synergy-stanley-cup-journey-regular-season",
+          "set_name": "Stanley Cup Journey - Regular Season",
+          "set_display_name": "2020-21 Upper Deck Synergy - Stanley Cup Journey - Regular Season",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2020-21-upper-deck-synergy-stanley-cup-journey-regular-season-cj-ml",
+              "base_number": "CJ-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2020-21-Upper-Deck-Synergy---Stanley-Cup-Journey-Regular-Season-CJ-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2020-21-Upper-Deck-Synergy---Stanley-Cup-Journey-Regular-Season-CJ-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "print_run": 999
+            }
+          ]
+        },
+        {
+          "set_key": "2020-21-upper-deck-synergy-stanley-cup-journey-postseason",
+          "set_name": "Stanley Cup Journey - Postseason",
+          "set_display_name": "2020-21 Upper Deck Synergy - Stanley Cup Journey - Postseason",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2020-21-upper-deck-synergy-stanley-cup-journey-postseason-cj-ml",
+              "base_number": "CJ-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2020-21-Upper-Deck-Synergy---Stanley-Cup-Journey-Postseason-CJ-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2020-21-Upper-Deck-Synergy---Stanley-Cup-Journey-Postseason-CJ-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "print_run": 899
+            }
+          ]
+        },
+        {
+          "set_key": "2020-21-upper-deck-synergy-stanley-cup-journey-winning-the-cup",
+          "set_name": "Stanley Cup Journey - Winning the Cup",
+          "set_display_name": "2020-21 Upper Deck Synergy - Stanley Cup Journey - Winning the Cup",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2020-21-upper-deck-synergy-stanley-cup-journey-winning-the-cup-cj-ml",
+              "base_number": "CJ-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2020-21-Upper-Deck-Synergy---Stanley-Cup-Journey-Winning-the-Cup-CJ-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2020-21-Upper-Deck-Synergy---Stanley-Cup-Journey-Winning-the-Cup-CJ-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "print_run": 799
+            }
+          ]
         }
       ]
     },
@@ -5180,12 +5246,13 @@
               "base_number": "RFX-1",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2023-24-SPx---Radiance-FX-RFX-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-SPx---Radiance-FX-RFX-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/446857/cid/25531516/2023-24-SPx-RFX-1-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": false,
+              "print_run": 949
             }
           ]
         }
@@ -5424,7 +5491,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": false,
+              "print_run": 849
             }
           ]
         },
@@ -5464,7 +5532,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": false,
+              "print_run": 599
             }
           ]
         },
@@ -5706,7 +5775,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": false,
+              "print_run": 799
             }
           ]
         },
@@ -6403,7 +6473,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": false,
+          "print_run": 999
         }
       ]
     },
@@ -6478,7 +6549,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": false,
+          "print_run": 999
         }
       ]
     },
@@ -6501,7 +6573,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": false,
+          "print_run": 1999
         },
         {
           "id": "ml-2010-11-sp-authentic-59",

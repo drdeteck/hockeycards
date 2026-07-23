@@ -457,6 +457,29 @@
           "inCollection": true,
           "price": 3
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2000-01-pacific-private-stock-titanium-3-star-selections",
+          "set_name": "3-Star Selections",
+          "set_display_name": "2000-01 Pacific Private Stock Titanium - 3-Star Selections",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-pacific-private-stock-titanium-3-star-selections-18",
+              "base_number": "18",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2000-01-Pacific-Private-Stock-Titanium---3-Star-Selections-18-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Pacific-Private-Stock-Titanium---3-Star-Selections-18-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "print_run": 1100
+            }
+          ]
+        }
       ]
     },
     "2000-01-pacific-vanguard": {
@@ -1645,6 +1668,19 @@
       "set_display_name": "2001-02 Fleer Legacy",
       "set_tcdb_href": "",
       "cards": [
+        {
+          "id": "ml-2001-02-fleer-legacy-1",
+          "base_number": "1",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2001-02-Fleer-Legacy-1-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2001-02-Fleer-Legacy-1-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "print_run": 2002
+        },
         {
           "id": "ml-2001-02-fleer-legacy-25",
           "base_number": "25",
@@ -4332,6 +4368,19 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-2002-03-sp-authentic-102",
+          "base_number": "102",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-SP-Authentic-102-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-SP-Authentic-102-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "print_run": 1499
         }
       ]
     },
@@ -4356,6 +4405,32 @@
           "position": "Center",
           "inCollection": true,
           "price": 5.45
+        },
+        {
+          "id": "ml-2002-03-sp-game-used-52",
+          "base_number": "52",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-SP-Game-Used-52-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-SP-Game-Used-52-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "print_run": 999
+        },
+        {
+          "id": "ml-2002-03-sp-game-used-54",
+          "base_number": "54",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-SP-Game-Used-54-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-SP-Game-Used-52-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "print_run": 999
         }
       ]
     },
@@ -4392,6 +4467,19 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-2002-03-spx-129",
+          "base_number": "129",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-SPx-129-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-SPx-129-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "print_run": 1601
         }
       ]
     },
@@ -4864,6 +4952,30 @@
         }
       ]
     },
+    "2002-03-upper-deck-foundations": {
+      "set_key": "2002-03-upper-deck-foundations",
+      "set_name": "Upper Deck Foundations",
+      "set_year_label": "2002-03",
+      "set_year_start": 2002,
+      "set_year_end": 2003,
+      "set_display_name": "2002-03 Upper Deck Foundations",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2002-03-upper-deck-foundations-159",
+          "base_number": "159",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-Upper-Deck-Foundations-159-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Upper-Deck-Foundations-159-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "print_run": 1250
+        }
+      ]
+    },
     "2002-03-upper-deck-honor-roll": {
       "set_key": "2002-03-upper-deck-honor-roll",
       "set_name": "Upper Deck Honor Roll",
@@ -5064,7 +5176,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": false,
+          "print_run": 999
         }
       ]
     },
@@ -5520,6 +5633,29 @@
           "inCollection": true,
           "price": 3.95
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2003-04-pacific-crown-royale-blue",
+          "set_name": "Blue",
+          "set_display_name": "2003-04 Pacific Crown Royale - Blue",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-crown-royale-blue-80",
+              "base_number": "80",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Crown-Royale---Blue-80-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Crown-Royale---Blue-80-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "print_run": 850
+            }
+          ]
+        }
       ]
     },
     "2003-04-pacific-exhibit": {
@@ -5658,6 +5794,27 @@
         }
       ],
       "subsets": [
+        {
+          "set_key": "2003-04-pacific-invincible-red",
+          "set_name": "Red",
+          "set_display_name": "2003-04 Pacific Invincible - Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-invincible-red-78",
+              "base_number": "78",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Invincible---Red-78-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Invincible---Red-78-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "print_run": 850
+            }
+          ]
+        },
         {
           "set_key": "2003-04-pacific-invincible-featured-performers",
           "set_name": "Featured Performers",
@@ -6493,6 +6650,19 @@
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
+        },
+        {
+          "id": "ml-2003-04-upper-deck-classic-portraits-103",
+          "base_number": "103",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
+          "image_front": "img/cards/ML66/2003-04-Upper-Deck-Classic-Portraits-103-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Upper-Deck-Classic-Portraits-103-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "print_run": 1100
         }
       ]
     },
@@ -7231,6 +7401,19 @@
           "position": "Center",
           "inCollection": true,
           "price": 1.5
+        },
+        {
+          "id": "ml-2005-06-upper-deck-artifacts-189",
+          "base_number": "189",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2005-06-Upper-Deck-Artifacts-189-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2005-06-Upper-Deck-Artifacts-189-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "print_run": 899
         }
       ]
     },
@@ -7290,6 +7473,19 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-2005-06-sp-authentic-101",
+          "base_number": "101",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2005-06-SP-Authentic-101-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2005-06-SP-Authentic-101-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "print_run": 999
         }
       ]
     },
@@ -8065,7 +8261,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": false,
+              "print_run": 999
             }
           ]
         }
@@ -8091,6 +8288,53 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2006-07-spx-spxcitement",
+          "set_name": "SPXcitement",
+          "set_display_name": "2006-07 SPx - SPXcitement",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2006-07-spx-spxcitement-x79",
+              "base_number": "X79",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2006-07-SPx---SPXcitement-X79-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2006-07-SPx---SPXcitement-X79-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "print_run": 999
+            }
+          ]
+        }
+      ]
+    },
+    "2006-07-upper-deck-artifacts": {
+      "set_key": "2006-07-upper-deck-artifacts",
+      "set_name": "Upper Deck Artifacts",
+      "set_year_label": "2006-07",
+      "set_year_start": 2006,
+      "set_year_end": 2007,
+      "set_display_name": "2006-07 Upper Deck Artifacts",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2006-07-upper-deck-artifacts-147",
+          "base_number": "147",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2006-07-Upper-Deck-Artifacts-147-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2006-07-Upper-Deck-Artifacts-147-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "print_run": 999
         }
       ]
     },
@@ -8244,7 +8488,8 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 2
+          "price": 2,
+          "print_run": 1999
         }
       ]
     },
@@ -8288,7 +8533,8 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 5.99
+              "price": 5.99,
+              "print_run": 999
             }
           ]
         }
@@ -8337,7 +8583,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": false,
+          "print_run": 999
         }
       ]
     },
@@ -8672,7 +8919,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": false,
+              "print_run": 799
             }
           ]
         }
@@ -8835,7 +9083,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": false,
+          "print_run": 999
         }
       ],
       "subsets": []
@@ -8859,7 +9108,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": false,
+          "print_run": 1499
         }
       ],
       "subsets": []
@@ -8931,7 +9181,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": false,
+          "print_run": 999
         }
       ],
       "subsets": []
@@ -8963,7 +9214,8 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 9.03
+              "price": 9.03,
+              "print_run": 999
             }
           ]
         }
@@ -9157,7 +9409,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": false,
+          "print_run": 999
         }
       ]
     },
@@ -9233,7 +9486,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": false,
+              "print_run": 999
             }
           ]
         }
@@ -9258,7 +9512,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": false,
+          "print_run": 1999
         }
       ],
       "subsets": [

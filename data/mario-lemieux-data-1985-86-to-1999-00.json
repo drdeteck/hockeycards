@@ -4856,8 +4856,8 @@
             {
               "id": "ml-1995-96-donruss-dominators-1",
               "base_number": "1",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/1995-96-Donruss---Dominators-1-Peter-Forsberg--Eric-Lindros--Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/1995-96-Donruss---Dominators-1-Peter-Forsberg--Eric-Lindros--Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -6900,8 +6900,8 @@
             {
               "id": "ml-1996-97-donruss-dominators-4",
               "base_number": "4",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/1996-97-Donruss---Dominators-4-Mario-Lemieux--Jaromir-Jagr--Ron-FrancisFr.jpg",
               "image_back": "img/cards/ML66/1996-97-Donruss---Dominators-4-Mario-Lemieux--Jaromir-Jagr--Ron-FrancisBk.jpg",
               "tcdb_href": "",
@@ -7612,7 +7612,8 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "price": 200.01
+              "price": 200.01,
+              "print_run": 2500
             }
           ]
         },
@@ -7704,7 +7705,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true
+              "inCollection": true,
+              "print_run": 2500
             }
           ]
         }
@@ -8182,7 +8184,8 @@
               "inCollection": true,
               "price": 10,
               "price_type": "bulk",
-              "price_bulk": 340
+              "price_bulk": 340,
+              "print_run": 1500
             }
           ]
         }
@@ -8735,7 +8738,8 @@
               "position": "Center",
               "variant_note": "Silver",
               "inCollection": true,
-              "price": 33.55
+              "price": 33.55,
+              "print_run": 1000
             }
           ]
         },

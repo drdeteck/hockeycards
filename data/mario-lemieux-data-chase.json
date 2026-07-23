@@ -679,7 +679,8 @@
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
                             "inCollection": false,
-                            "price": 41.51
+                            "price": 41.51,
+                            "print_run": 2000
                         }
                     ]
                 },
@@ -901,7 +902,8 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5257/cid/1604211/1996-97-Leaf-1-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "print_run": 1000
                         }
                     ]
                 }
@@ -955,7 +957,8 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5292/cid/1604371/1996-97-Leaf-Limited-7-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "print_run": 1500
                         }
                     ]
                 }
@@ -1282,7 +1285,8 @@
                             "position": "Center",
                             "inCollection": false,
                             "price": 83.04,
-                            "location": "US"
+                            "location": "US",
+                            "print_run": 1000
                         }
                     ]
                 }
@@ -1499,7 +1503,8 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5354/cid/1609653/1996-97-Ultra-4-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "print_run": 1082
                         }
                     ]
                 }
@@ -1695,7 +1700,9 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48626/cid/1609833/1996-97-Upper-Deck-LS3-Mario-Lemieux",
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
-                            "inCollection": false
+                            "inCollection": false,
+                            "print_run": 1000,
+                            "price": 50
                         }
                     ]
                 }
@@ -2027,7 +2034,8 @@
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
                             "inCollection": false,
-                            "price": 40
+                            "price": 40,
+                            "print_run": 2500
                         }
                     ]
                 },
@@ -2216,7 +2224,8 @@
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
                             "inCollection": false,
-                            "price": 72.99
+                            "price": 72.99,
+                            "print_run": 2500
                         }
                     ]
                 }
@@ -2362,6 +2371,41 @@
                             "position": "Center",
                             "variant_note": "3PT",
                             "inCollection": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "2000-01-pacific-private-stock-titanium": {
+            "set_key": "2000-01-pacific-private-stock-titanium",
+            "set_name": "Pacific Private Stock Titanium",
+            "set_year_label": "2000-01",
+            "set_year_start": 2000,
+            "set_year_end": 2001,
+            "set_display_name": "2000-01 Pacific - Private Stock Titanium",
+            "set_tcdb_href": "",
+            "cards": [],
+            "subsets": [
+                {
+                    "set_key": "2000-01-pacific-private-stock-titanium-north-america-all-stars",
+                    "set_name": "North America All-Stars",
+                    "set_display_name": "2000-01 Pacific - Private Stock Titanium - North America All-Stars",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2000-01-pacific-private-stock-titanium-north-america-all-stars-9",
+                            "base_number": "9",
+                            "name": "Mario Lemieux",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
+                            "image_front": "img/cards/ML66/Chase/2000-01-Pacific-Private-Stock-Titanium---North-America-All-Stars-9-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/Chase/2000-01-Pacific-Private-Stock-Titanium---North-America-All-Stars-9-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "inCollection": false,
+                            "print_run": 1000,
+                            "price": 49.99
                         }
                     ]
                 }
