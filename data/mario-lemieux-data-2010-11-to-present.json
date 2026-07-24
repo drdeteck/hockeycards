@@ -3661,7 +3661,9 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 9.50,
+          "print_run": 599
         }
       ]
     },
@@ -6084,7 +6086,8 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/486506/cid/32660559/2024-25-Upper-Deck-Engrained-Icons-51-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 8.50
         }
       ]
     },

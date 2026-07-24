@@ -7585,6 +7585,29 @@
           "position": "Center",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2005-06-spx-xcitement-superstars",
+          "set_name": "Xcitement Superstars",
+          "set_display_name": "Xcitement Superstars",
+          "cards": [
+            {
+              "id": "ml-2005-06-spx-xcitement-superstars-xs-ml",
+              "base_number": "XS-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2005-06-SPx---Xcitement-Superstars-XS-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2005-06-SPx---Xcitement-Superstars-XS-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 8.53,
+              "print_run": 499
+            }
+          ]
+        }
       ]
     },
     "2005-06-ultra": {
@@ -9203,7 +9226,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 8.50
         }
       ],
       "subsets": []
