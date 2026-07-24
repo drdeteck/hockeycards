@@ -5641,6 +5641,28 @@
           "variant_note": "w/ Paul Coffey",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2023-24-upper-deck-tim-hortons-greatest-duos-rookie-connections",
+          "set_name": "Rookie Connections",
+          "set_display_name": "Rookie Connections",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-tim-hortons-greatest-duos-rookie-connections-rc-13",
+              "base_number": "RC-13",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Upper-Deck-Tim-Hortons-Greatest-Duos---Rookie-Connections-RC-13-Mario-Lemieux--Patrick-RoyFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Upper-Deck-Tim-Hortons-Greatest-Duos---Rookie-Connections-RC-13-Mario-Lemieux--Patrick-RoyBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "w/ Patrick Roy",
+              "inCollection": false
+            }
+          ]
+        }
       ]
     },
     "2023-24-upper-deck-tim-hortons-legends": {
