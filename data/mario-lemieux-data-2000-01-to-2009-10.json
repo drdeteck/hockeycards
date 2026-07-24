@@ -1671,8 +1671,8 @@
         {
           "id": "ml-2001-02-fleer-legacy-1",
           "base_number": "1",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
           "image_front": "img/cards/ML66/2001-02-Fleer-Legacy-1-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/2001-02-Fleer-Legacy-1-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
@@ -2353,6 +2353,19 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-2001-02-sp-authentic-106",
+          "base_number": "106",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2001-02-SP-Authentic-106-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2001-02-SP-Authentic-106-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "print_run": 3500
         }
       ]
     },
@@ -5141,6 +5154,19 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-2002-03-upper-deck-piece-of-history-93",
+          "base_number": "93",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-Upper-Deck-Piece-of-History-93-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Upper-Deck-Piece-of-History-93-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "print_run": 2999
         }
       ]
     },
@@ -6155,6 +6181,30 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2003-04-sp-authentic-sp-honors",
+          "set_name": "SP Honors",
+          "set_display_name": "2003-04 SP Authentic - SP Honors",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-sp-authentic-sp-honors-h17",
+              "base_number": "H17",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/51268/cid/1757458/2003-04-SP-Authentic---SP-Honors-H17-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "print_run": 900,
+              "price": 5.00
+            }
+          ]
         }
       ]
     },
@@ -7449,7 +7499,9 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 10,
+          "print_run": 599
         }
       ]
     },
@@ -8196,7 +8248,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true
+          "inCollection": true,
+          "print_run": 3999
         }
       ]
     },
@@ -8919,7 +8972,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
+              "inCollection": true,
+              "price": 10,
               "print_run": 799
             }
           ]
