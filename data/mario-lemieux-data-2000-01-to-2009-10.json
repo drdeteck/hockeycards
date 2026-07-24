@@ -8614,7 +8614,7 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/6611/cid/1143875/2007-08-Upper-Deck-Trilogy-111-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false,
+          "inCollection": true,
           "price": 23.5
         }
       ],
