@@ -8601,7 +8601,23 @@
       "set_year_end": 2008,
       "set_display_name": "2007-08 Upper Deck Trilogy",
       "set_tcdb_href": "",
-      "cards": [],
+      "cards": [
+        {
+          "id": "ml-2007-08-upper-deck-trilogy-111",
+          "base_number": "111",
+          "card_type": "numbered",
+          "print_run": 799,
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2007-08-Upper-Deck-Trilogy-111-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2007-08-Upper-Deck-Trilogy-111-Mario-LemieuxBk.jpg",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/6611/cid/1143875/2007-08-Upper-Deck-Trilogy-111-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "price": 23.5
+        }
+      ],
       "subsets": []
     },
     "2008-09-artifacts": {
@@ -9294,7 +9310,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": false,
+          "print_run": 599
         },
         {
           "id": "ml-2009-10-upper-deck-trilogy-66",
