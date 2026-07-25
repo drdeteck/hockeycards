@@ -7521,7 +7521,8 @@
           "position": "Center",
           "inCollection": true,
           "price": 10,
-          "print_run": 599
+          "print_run": 599,
+          "excludeFromBinder": true
         }
       ]
     },
@@ -8658,7 +8659,8 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 23.5
+          "price": 23.5,
+          "excludeFromBinder": true
         }
       ],
       "subsets": []
@@ -9033,7 +9035,8 @@
               "position": "Center",
               "inCollection": true,
               "price": 10,
-              "print_run": 799
+              "print_run": 799,
+              "excludeFromBinder": true
             }
           ]
         }

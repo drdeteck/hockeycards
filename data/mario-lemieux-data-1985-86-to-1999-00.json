@@ -2939,8 +2939,8 @@
               "base_number": "148",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/1993-94-Stadium-Club---First-Day-Issue-148-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1993-94-Stadium-Club---First-Day-Issue-148-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48480/cid/1587807/1993-94-Stadium-Club-148-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -5821,7 +5821,8 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 20.00
+              "price": 20.00,
+              "is_image_placeholder": true
             }
           ]
         },
@@ -5902,8 +5903,8 @@
               "base_number": "1",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/1995-96-Select-Certified---Mirror-Gold-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Select-Certified---Mirror-Gold-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5112/cid/1536626/1995-96-Select-Certified-1-Mario-Lemieux-",
               "team": "Pittsburgh Penguins",
               "position": "Center",

@@ -511,7 +511,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true
+          "inCollection": false
         }
       ]
     },
@@ -2703,8 +2703,8 @@
               "base_number": "BP-ML",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2015-16-Upper-Deck-Full-Force---Blueprint-BP-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-Upper-Deck-Full-Force---Blueprint-BP-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/120859/cid/8222081/2015-16-Upper-Deck-Full-Force-BP-ML-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
