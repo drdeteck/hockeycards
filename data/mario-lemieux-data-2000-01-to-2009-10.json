@@ -4271,6 +4271,26 @@
       ],
       "subsets": [
         {
+          "set_key": "2002-03-pacific-vanguard-v-team",
+          "set_name": "V-Team",
+          "set_display_name": "2002-03 Pacific Vanguard - V-Team",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-vanguard-v-team-11",
+              "base_number": "11",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50605/cid/1730721/2002-03-Pacific-Vanguard---V-Team-11-Mario-Lemieux?PageIndex=1",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
           "set_key": "2002-03-pacific-vanguard-in-focus",
           "set_name": "In Focus",
           "set_display_name": "2002-03 Pacific Vanguard - In Focus",
