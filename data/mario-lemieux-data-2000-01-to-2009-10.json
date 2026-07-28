@@ -343,7 +343,8 @@
           "image_back": "img/cards/ML66/2000-01-Pacific-Crown-Royale-87-Mario-LemieuxBk.png",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": false
         }
       ],
       "subsets": [
@@ -383,7 +384,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true
+              "inCollection": false
             }
           ]
         }
