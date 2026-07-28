@@ -896,8 +896,8 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/72758/cid/5496172/2012-13-SP-Game-Used-25-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false,
-          "price": 1
+          "inCollection": true,
+          "price": 2.83
         }
       ]
     },
@@ -1165,7 +1165,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.41
             }
           ]
         }
@@ -1804,7 +1805,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.83
             }
           ]
         },
@@ -1945,7 +1947,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.83
             }
           ]
         },
@@ -2270,7 +2273,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.83
             }
           ]
         },
@@ -3309,7 +3313,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.12
             }
           ]
         }
@@ -6756,7 +6761,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 8.48
         }
       ],
       "subsets": [
