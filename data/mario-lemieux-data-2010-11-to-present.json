@@ -3381,8 +3381,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/174167/cid/11175243/2017-18-SP-Authentic---Spectrum-FX-S-39-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 1.43
+              "inCollection": true,
+              "price": 4.40
             }
           ]
         },
@@ -5795,7 +5795,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.64
             }
           ]
         }
