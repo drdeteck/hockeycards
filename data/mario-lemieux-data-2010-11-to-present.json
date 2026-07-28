@@ -5007,6 +5007,29 @@
               "price": 9.99
             }
           ]
+        },
+        {
+          "set_key": "2022-23-upper-deck-synergy-cranked-up-red",
+          "set_name": "Cranked Up Red",
+          "set_display_name": "2022-23 Upper Deck Synergy - Cranked Up Red",
+          "set_tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/370564/cid/21743143/2022-23-Upper-Deck-Synergy---Cranked-Up-Red-CU-ML-Mario-Lemieux",
+          "cards": [
+            {
+              "id": "ml-2022-23-upper-deck-synergy-cranked-up-red-cuml",
+              "base_number": "CU-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2022-23-Upper-Deck-Synergy---Cranked-Up-Red-CU-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2022-23-Upper-Deck-Synergy---Cranked-Up-Red-CU-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/370569/cid/21743653/2022-23-Upper-Deck-Synergy---Cranked-Up-Red-CU-ML-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "card_type": "numbered",
+              "print_run": 399,
+              "inCollection": true,
+              "price": 8.50
+            }
+          ]
         }
       ]
     },
