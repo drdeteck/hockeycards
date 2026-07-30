@@ -325,6 +325,39 @@
         }
       ]
     },
+    "2000-01-o-pee-chee": {
+      "set_key": "2000-01-o-pee-chee",
+      "set_name": "O-Pee-Chee",
+      "set_year_label": "2000-01",
+      "set_year_start": 2000,
+      "set_year_end": 2001,
+      "set_display_name": "2000-01 O-Pee-Chee",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2000-01-o-pee-chee-combos",
+          "set_name": "Combos",
+          "set_display_name": "2000-01 O-Pee-Chee - Combos",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-o-pee-chee-combos-tc10",
+              "base_number": "TC10",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-O-Pee-Chee---Combos-TC10-Jaromir-Jagr--Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-O-Pee-Chee---Combos-TC10-Jaromir-Jagr--Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 3.99
+            }
+          ]
+        }
+      ]
+    },
     "2000-01-pacific-crown-royale": {
       "set_key": "2000-01-pacific-crown-royale",
       "set_name": "Pacific Crown Royale",

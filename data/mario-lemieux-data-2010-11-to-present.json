@@ -248,7 +248,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.00
             }
           ]
         }
@@ -2352,7 +2353,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.25
         },
         {
           "id": "ml-2015-16-upper-deck-portfolio-291",
@@ -4427,7 +4429,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.49
         }
       ],
       "subsets": [
@@ -4996,8 +4999,8 @@
               "base_number": "CU-ML",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2022-23-Upper-Deck-Synergy---Cranked-Up-Blue-CU-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2022-23-Upper-Deck-Synergy---Cranked-Up-Blue-CU-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/370564/cid/21743143/2022-23-Upper-Deck-Synergy---Cranked-Up-Blue-CU-ML-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -5427,8 +5430,8 @@
           "base_number": "72",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
-          "image_front": "",
-          "image_back": "",
+          "image_front": "img/cards/ML66/2023-24-Upper-Deck-Engrained-72-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2023-24-Upper-Deck-Engrained-72-Mario-LemieuxBk.jpg",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/409919/cid/26661156/2023-24-Upper-Deck-Engrained-72-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
@@ -6110,8 +6113,8 @@
           "base_number": "51",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
-          "image_front": "",
-          "image_back": "",
+          "image_front": "img/cards/ML66/2024-25-Upper-Deck-Engrained-Icons-51-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2024-25-Upper-Deck-Engrained-Icons-51-Mario-LemieuxBk.jpg",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/486506/cid/32660559/2024-25-Upper-Deck-Engrained-Icons-51-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",

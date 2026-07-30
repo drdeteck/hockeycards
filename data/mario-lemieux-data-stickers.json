@@ -2,7 +2,7 @@
     "dataset": "mario-lemieux-stickers",
     "version": "0.4.0",
     "player": "Mario Lemieux",
-    "updated_at": "2026-07-09",
+    "updated_at": "2026-07-29",
     "image_folder": "img/cards/ML66/Stickers",
     "sets": {
         "1985-86-opc-stickers": {
@@ -57,8 +57,8 @@
                     "base_number": "120/134",
                     "orientation_front": "landscape",
                     "orientation_back": "landscape",
-                    "image_front": "",
-                    "image_back": "",
+                    "image_front": "img/cards/ML66/Stickers/1986-87-O-Pee-Chee-Stickers-120-134-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1986-87-O-Pee-Chee-Stickers-120-134-Mario-LemieuxBk.jpg",
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48403/cid/3989609/1986-87-O-Pee-Chee-Stickers-120+/+134-Mario-Lemieux-/-Gary-Suter",
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
@@ -481,7 +481,8 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true,
+                    "price": 2.99
                 }
             ],
             "subsets": [
@@ -663,7 +664,7 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 }
             ]
         },
@@ -1029,6 +1030,56 @@
                     "position": "Center",
                     "card_type": "sticker",
                     "inCollection": true
+                }
+            ]
+        },
+        "1996-97-got-um-nhlpa-hockey-greats-coins": {
+            "set_key": "1996-97-got-um-nhlpa-hockey-greats-coins",
+            "set_name": "Got' Um NHLPA Hockey Greats Coins",
+            "set_year_label": "1996-97",
+            "set_year_start": 1996,
+            "set_year_end": 1997,
+            "set_display_name": "1996-97 Got' Um NHLPA Hockey Greats Coins",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1996-97-got-um-nhlpa-hockey-greats-coins-nno",
+                    "base_number": "NNO",
+                    "orientation_front": "square",
+                    "orientation_back": "square",
+                    "image_front": "img/cards/ML66/Stickers/1996-97-Got-Um-NHLPA-Hockey-Greats-Coins-NNO-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1996-97-Got-Um-NHLPA-Hockey-Greats-Coins-NNO-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": true,
+                    "price": 1.99
+                }
+            ]
+        },
+        "2002-coca-cola-team-canada-coins": {
+            "set_key": "2002-coca-cola-team-canada-coins",
+            "set_name": "Coca-Cola Team Canada Coins",
+            "set_year_label": "2002",
+            "set_year_start": 2002,
+            "set_year_end": 2002,
+            "set_display_name": "2002 Coca-Cola Team Canada Coins",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-2002-coca-cola-team-canada-coins-1",
+                    "base_number": "1",
+                    "orientation_front": "square",
+                    "orientation_back": "square",
+                    "image_front": "img/cards/ML66/Stickers/2002-Coca-Cola-Team-Canada-Coins-1-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/2002-Coca-Cola-Team-Canada-Coins-1-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": true,
+                    "price": 1.99
                 }
             ]
         }
