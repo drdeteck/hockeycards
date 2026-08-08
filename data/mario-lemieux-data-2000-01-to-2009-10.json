@@ -2892,6 +2892,75 @@
               "inCollection": false
             }
           ]
+        },
+        {
+          "set_key": "2001-02-topps-chrome-mario-returns",
+          "set_name": "Mario Returns!",
+          "set_display_name": "2001-02 Topps Chrome - Mario Returns!",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/50204/2001-02-Topps-Chrome---Mario-Returns!",
+          "cards": [
+            {
+              "id": "ml-2001-02-topps-chrome-mario-returns-mr1",
+              "base_number": "MR1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Topps-Chrome---Mario-Returns-MR1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Topps-Chrome---Mario-Returns-MR1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50204/cid/1712804/2001-02-Topps-Chrome-MR1-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2001-02-topps-chrome-mario-returns-mr2",
+              "base_number": "MR2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Topps-Chrome---Mario-Returns-MR2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Topps-Chrome---Mario-Returns-MR2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50204/cid/1712805/2001-02-Topps-Chrome-MR2-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2001-02-topps-chrome-mario-returns-mr3",
+              "base_number": "MR3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Topps-Chrome---Mario-Returns-MR3-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Topps-Chrome---Mario-Returns-MR3-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50204/cid/1712806/2001-02-Topps-Chrome-MR3-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2001-02-topps-chrome-mario-returns-mr4",
+              "base_number": "MR4",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Topps-Chrome---Mario-Returns-MR4-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Topps-Chrome---Mario-Returns-MR4-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50204/cid/1712807/2001-02-Topps-Chrome-MR4-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2001-02-topps-chrome-mario-returns-mr5",
+              "base_number": "MR5",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Topps-Chrome---Mario-Returns-MR5-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Topps-Chrome---Mario-Returns-MR5-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50204/cid/1712808/2001-02-Topps-Chrome-MR5-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 4.99
+            }
+          ]
         }
       ]
     },
@@ -5215,14 +5284,16 @@
         {
           "id": "ml-2002-03-upper-deck-piece-of-history-93",
           "base_number": "93",
+          "card_type": "numbered",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
           "image_front": "img/cards/ML66/2002-03-Upper-Deck-Piece-of-History-93-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/2002-03-Upper-Deck-Piece-of-History-93-Mario-LemieuxBk.jpg",
-          "tcdb_href": "",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5670/cid/1281789/2002-03-Upper-Deck-Piece-of-History-93-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false,
+          "inCollection": true,
+          "price": 8.00,
           "print_run": 2999
         }
       ]
@@ -6790,6 +6861,22 @@
           "position": "Center",
           "inCollection": false,
           "print_run": 1100
+        },
+        {
+          "id": "ml-2003-04-upper-deck-classic-portraits-136",
+          "base_number": "136",
+          "card_type": "numbered",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-Upper-Deck-Classic-Portraits-136-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Upper-Deck-Classic-Portraits-136-Mario-LemieuxBk.jpg",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5717/cid/1293582/2003-04-Upper-Deck-Classic-Portraits-136-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "variant_note": "Pillars of Strength",
+          "inCollection": true,
+          "price": 4.99,
+          "print_run": 650
         }
       ]
     },

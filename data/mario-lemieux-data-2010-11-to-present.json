@@ -4822,10 +4822,11 @@
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2022-23-Upper-Deck-Ice---Cool-Cuts-CC-41-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2022-23-Upper-Deck-Ice---Cool-Cuts-CC-41-Mario-LemieuxBk.jpg",
-              "tcdb_href": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/403963/cid/23457051/2022-23-Upper-Deck-Ice-CC-41-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 21.00
             }
           ]
         }

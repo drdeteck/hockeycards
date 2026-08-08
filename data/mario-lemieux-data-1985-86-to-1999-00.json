@@ -8518,6 +8518,31 @@
         }
       ]
     },
+    "1996-97-playoff-one-on-one-challenge": {
+      "set_key": "1996-97-playoff-one-on-one-challenge",
+      "set_name": "Playoff One on One Challenge",
+      "set_year_label": "1996-97",
+      "set_year_start": 1996,
+      "set_year_end": 1997,
+      "set_display_name": "1996-97 Playoff One on One Challenge",
+      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/61387/1996-97-Playoff-One-on-One-Challenge",
+      "cards": [
+        {
+          "id": "ml-1996-97-playoff-one-on-one-challenge-436",
+          "base_number": "436",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/61387/cid/4517749/1996-97-Playoff-One-on-One-Challenge-436-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "variant_note": "Ultra Rare",
+          "inCollection": true,
+          "price": 17.13
+        }
+      ]
+    },
     "1996-97-sp": {
       "set_key": "1996-97-sp",
       "set_name": "SP",
