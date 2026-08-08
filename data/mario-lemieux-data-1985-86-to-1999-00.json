@@ -8380,6 +8380,30 @@
               "price": 5.00
             }
           ]
+        },
+        {
+          "set_key": "1996-97-pinnacle-mint-coins-nickel",
+          "set_name": "Coins (Nickel)",
+          "set_display_name": "1996-97 Pinnacle Mint - Coins (Nickel)",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-pinnacle-mint-coins-nickel-1",
+              "base_number": "1",
+              "card_type": "coin",
+              "orientation_front": "square",
+              "orientation_back": "square",
+              "excludeFromBinder": true,
+              "image_front": "img/cards/ML66/1996-97-Pinnacle-Mint-Collection---Coins-Nickel-1-Mario-LemieuxFr.png",
+              "image_back": "img/cards/ML66/1996-97-Pinnacle-Mint-Collection---Coins-Nickel-1-Mario-LemieuxBk.png",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48592/cid/1606071/1996-97-Pinnacle-Mint-Collection-1-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "Nickel Coin",
+              "inCollection": true,
+              "price": 2.99
+            }
+          ]
         }
       ]
     },
