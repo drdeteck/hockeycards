@@ -916,7 +916,9 @@
               "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-23-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 2.50
             }
           ]
         }
@@ -4865,8 +4867,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/10434/cid/1537483/2002-03-Topps-Total-TT18-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 0.25
+              "inCollection": true,
+              "price": 6.99
             }
           ]
         }

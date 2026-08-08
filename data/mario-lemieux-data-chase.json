@@ -831,26 +831,6 @@
                             "inCollection": false
                         }
                     ]
-                },
-                {
-                    "set_key": "1996-97-leaf-preferred-vanity-plates",
-                    "set_name": "Vanity Plates",
-                    "set_display_name": "1996-97 Leaf Preferred - Vanity Plates",
-                    "set_tcdb_href": "",
-                    "cards": [
-                        {
-                            "id": "ml-1996-97-leaf-preferred-vanity-plates-6",
-                            "base_number": "6",
-                            "orientation_front": "landscape",
-                            "orientation_back": "landscape",
-                            "image_front": "img/cards/ML66/Chase/1996-97-Leaf-Preferred---Vanity-Plates-6-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1996-97-Leaf-Preferred---Vanity-Plates-6-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5297/cid/1604691/1996-97-Leaf-Preferred-6-Mario-Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": false
-                        }
-                    ]
                 }
             ]
         },
@@ -1060,29 +1040,6 @@
                             "position": "Center",
                             "inCollection": false,
                             "price": 150.00
-                        }
-                    ]
-                },
-                {
-                    "set_key": "1996-97-pinnacle-summit-untouchables",
-                    "set_name": "Untouchables",
-                    "set_display_name": "1996-97 Pinnacle Summit - Untouchables",
-                    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5342/1996-97-pinnacle-summit-untouchables",
-                    "cards": [
-                        {
-                            "id": "ml-1996-97-pinnacle-summit-untouchables-1",
-                            "base_number": "1",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1996-97-Pinnacle-Summit---Untouchables-1-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1996-97-Pinnacle-Summit---Untouchables-1-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5342/cid/1609240/1996-97-Pinnacle-Summit-1-Mario-Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": false,
-                            "price": 83.04,
-                            "location": "US",
-                            "print_run": 1000
                         }
                     ]
                 }
@@ -1768,39 +1725,6 @@
                             "team": "Pittsburgh Penguins",
                             "position": "Center",
                             "inCollection": false
-                        }
-                    ]
-                }
-            ]
-        },
-        "1995-96-bowman": {
-            "set_key": "1995-96-bowman",
-            "set_name": "Bowman",
-            "set_year_label": "1995-96",
-            "set_year_start": 1995,
-            "set_year_end": 1996,
-            "set_display_name": "1995-96 Bowman",
-            "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5105/1995-96-bowman",
-            "cards": [],
-            "subsets": [
-                {
-                    "set_key": "1995-96-bowman-bowmans-best-refractors",
-                    "set_name": "Bowman's Best Refractors",
-                    "set_display_name": "1995-96 Bowman - Bowman's Best Refractors",
-                    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5107/1995-96-bowman-bowmans-best-refractors",
-                    "cards": [
-                        {
-                            "id": "ml-1995-96-bowman-bowmans-best-refractors-bb10",
-                            "base_number": "BB10",
-                            "orientation_front": "portrait",
-                            "orientation_back": "portrait",
-                            "image_front": "img/cards/ML66/Chase/1995-96-Bowman---Bowman's-Best-Refractors-BB10-Mario-LemieuxFr.jpg",
-                            "image_back": "img/cards/ML66/Chase/1995-96-Bowman---Bowman's-Best-Refractors-BB10-Mario-LemieuxBk.jpg",
-                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5107/cid/1597025/1995-96-Bowman-BB10-Mario-Lemieux",
-                            "team": "Pittsburgh Penguins",
-                            "position": "Center",
-                            "inCollection": false,
-                            "price": 48.35
                         }
                     ]
                 }

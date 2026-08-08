@@ -5,30 +5,6 @@
   "updated_at": "2026-07-13",
   "image_folder": "img/cards/ML66",
   "sets": {
-    "2010-11-upper-deck-national-hockey-card-day": {
-      "set_key": "2010-11-upper-deck-national-hockey-card-day",
-      "set_name": "Upper Deck National Hockey Card Day",
-      "set_year_label": "2010-11",
-      "set_year_start": 2010,
-      "set_year_end": 2011,
-      "set_display_name": "2010-11 Upper Deck National Hockey Card Day",
-      "set_tcdb_href": "",
-      "cards": [
-        {
-          "base_number": "NHCD12",
-          "id": "ml-2010-11-upper-deck-national-hockey-card-day-nhcd12",
-          "image_back": "img/cards/ML66/2011-Upper-Deck-National-Hockey-Card-Day-HCD12-Mario-LemieuxBk.jpg",
-          "image_front": "img/cards/ML66/2011-Upper-Deck-National-Hockey-Card-Day-HCD12-Mario-LemieuxFr.jpg",
-          "inCollection": true,
-          "orientation_back": "portrait",
-          "orientation_front": "portrait",
-          "position": "Center",
-          "price": 1.36,
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins"
-        }
-      ]
-    },
     "2010-11-panini-zenith": {
       "set_key": "2010-11-panini-zenith",
       "set_name": "Panini Zenith",
@@ -61,7 +37,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true
+          "inCollection": false
         }
       ],
       "subsets": [
@@ -493,26 +469,27 @@
         }
       ]
     },
-    "2011-12-upper-deck-national-hockey-card-day-canada": {
-      "set_key": "2011-12-upper-deck-national-hockey-card-day-canada",
-      "set_name": "Upper Deck National Hockey Card Day Canada",
+    "2011-12-upper-deck-national-hockey-card-day": {
+      "set_key": "2011-12-upper-deck-national-hockey-card-day",
+      "set_name": "Upper Deck National Hockey Card Day",
       "set_year_label": "2011-12",
       "set_year_start": 2011,
       "set_year_end": 2012,
-      "set_display_name": "2011-12 Upper Deck National Hockey Card Day Canada",
+      "set_display_name": "2011-12 Upper Deck National Hockey Card Day",
       "set_tcdb_href": "",
       "cards": [
         {
-          "id": "ml-2011-12-upper-deck-national-hockey-card-day-canada-13",
-          "base_number": "13",
-          "orientation_front": "portrait",
+          "base_number": "NHCD12",
+          "id": "ml-2011-12-upper-deck-national-hockey-card-day-nhcd12",
+          "image_back": "img/cards/ML66/2011-Upper-Deck-National-Hockey-Card-Day-HCD12-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2011-Upper-Deck-National-Hockey-Card-Day-HCD12-Mario-LemieuxFr.jpg",
+          "inCollection": true,
           "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/2012-Upper-Deck-National-Hockey-Card-Day-Canada-13-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/2012-Upper-Deck-National-Hockey-Card-Day-Canada-13-Mario-LemieuxBk.jpg",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
+          "orientation_front": "portrait",
           "position": "Center",
-          "inCollection": false
+          "price": 1.36,
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins"
         }
       ]
     },
@@ -984,18 +961,16 @@
       "set_tcdb_href": "",
       "cards": [
         {
-          "base_number": "NHCD14",
-          "id": "ml-2012-13-upper-deck-national-hockey-card-day-canada-nhcd14",
-          "image_back": "img/cards/ML66/2013-Upper-Deck-National-Hockey-Card-Day-Canada-NHCD14-Mario-LemieuxBk.jpg",
-          "image_front": "img/cards/ML66/2013-Upper-Deck-National-Hockey-Card-Day-Canada-NHCD14-Mario-LemieuxFr.jpg",
-          "inCollection": true,
-          "orientation_back": "portrait",
+          "id": "ml-2012-13-upper-deck-national-hockey-card-day-canada-13",
+          "base_number": "13",
           "orientation_front": "portrait",
-          "position": "Center",
-          "price": 1.36,
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2012-Upper-Deck-National-Hockey-Card-Day-Canada-13-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2012-Upper-Deck-National-Hockey-Card-Day-Canada-13-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "variant_note": "HH"
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
@@ -1199,7 +1174,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 3.14
             }
           ]
         }
@@ -1582,17 +1558,18 @@
       "set_tcdb_href": "",
       "cards": [
         {
-          "id": "ml-2013-14-upper-deck-national-hockey-card-day-canada-na",
-          "base_number": "N/A",
-          "orientation_front": "portrait",
+          "base_number": "NHCD14",
+          "id": "ml-2013-14-upper-deck-national-hockey-card-day-canada-nhcd14",
+          "image_back": "img/cards/ML66/2013-Upper-Deck-National-Hockey-Card-Day-Canada-NHCD14-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2013-Upper-Deck-National-Hockey-Card-Day-Canada-NHCD14-Mario-LemieuxFr.jpg",
+          "inCollection": true,
           "orientation_back": "portrait",
-          "image_front": "",
-          "image_back": "",
+          "orientation_front": "portrait",
+          "position": "Center",
+          "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": true,
-          "price": 1.36
+          "variant_note": "HH"
         }
       ]
     },
@@ -2058,7 +2035,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 8.99
         }
       ]
     },
@@ -3195,7 +3173,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.67
             }
           ]
         }
@@ -3316,7 +3295,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 2.12
+              "price": 1.68
             }
           ]
         }
@@ -4152,7 +4131,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.99
             }
           ]
         },
@@ -5831,7 +5811,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
+              "inCollection": true,
+              "price": 3.49,
               "print_run": 799
             }
           ]
@@ -6214,7 +6195,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.00
             }
           ]
         },
@@ -6255,7 +6237,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/479350/cid/27228108/2024-25-Upper-Deck-Synergy-74-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5.55
             }
           ]
         }
