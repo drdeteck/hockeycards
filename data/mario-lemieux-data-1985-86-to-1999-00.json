@@ -9492,6 +9492,27 @@
               "inCollection": true
             }
           ]
+        },
+        {
+          "set_key": "1999-00-upper-deck-retro-turn-of-the-century",
+          "set_name": "Turn of the Century",
+          "set_display_name": "1999-00 Upper Deck Retro - Turn of the Century",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1999-00-upper-deck-retro-turn-of-the-century-tc13",
+              "base_number": "TC13",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49499/cid/1668917/1999-00-Upper-Deck-Retro---Turn-of-the-Century-TC13-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 14
+            }
+          ]
         }
       ]
     }
