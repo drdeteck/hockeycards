@@ -2,7 +2,7 @@
   "dataset": "mario-lemieux",
   "version": "0.15.6",
   "player": "Mario Lemieux",
-  "updated_at": "2026-07-13",
+  "updated_at": "2026-08-10",
   "image_folder": "img/cards/ML66",
   "sets": {
     "2010-11-panini-zenith": {
@@ -2344,7 +2344,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 17.23
         }
       ]
     },
@@ -6101,7 +6102,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 8.50
+          "price": 23.56
         }
       ]
     },
