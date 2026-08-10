@@ -9066,7 +9066,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.25
         },
         {
           "id": "ml-2008-09-upper-deck-masterpieces-81",
