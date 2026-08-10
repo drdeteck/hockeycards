@@ -205,7 +205,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 9.80
+          "price": 9.8
         }
       ]
     },
@@ -2173,7 +2173,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 23.00
+              "price": 23.0
             }
           ]
         }
@@ -2908,7 +2908,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 7.50
+              "price": 7.5
             }
           ]
         },
@@ -2930,7 +2930,7 @@
               "position": "Center",
               "variant_note": "w/ Wayne Gretzky",
               "inCollection": true,
-              "price": 23.00
+              "price": 23.0
             }
           ]
         },
@@ -3017,7 +3017,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 4.00
+              "price": 4.0
             },
             {
               "id": "ml-1993-94-stadium-club-members-only-146",
@@ -3030,7 +3030,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 4.00
+              "price": 4.0
             },
             {
               "id": "ml-1993-94-stadium-club-members-only-148",
@@ -3043,7 +3043,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 4.00
+              "price": 4.0
             },
             {
               "id": "ml-1993-94-stadium-club-members-only-310",
@@ -3056,7 +3056,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 8.00
+              "price": 8.0
             },
             {
               "id": "ml-1993-94-stadium-club-members-only-nno",
@@ -4127,7 +4127,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 13.80
+              "price": 13.8
             }
           ]
         },
@@ -4204,7 +4204,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 7.50
+              "price": 7.5
             }
           ]
         }
@@ -4553,7 +4553,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 39.00
+              "price": 39.0
             }
           ]
         },
@@ -4986,7 +4986,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 27.40
+              "price": 27.4
             }
           ]
         },
@@ -5303,7 +5303,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 9.00
+              "price": 9.0
             }
           ]
         }
@@ -5596,7 +5596,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 7.50
+              "price": 7.5
             }
           ]
         },
@@ -5656,7 +5656,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 13.00
+              "price": 13.0
             },
             {
               "id": "ml-1995-96-parkhurst-international-parkie-picks-pp11",
@@ -5939,7 +5939,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 20.00,
+              "price": 20.0,
               "is_image_placeholder": true
             }
           ]
@@ -5980,8 +5980,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48534/cid/1599516/1995-96-SP-E22-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 45,
+              "inCollection": true,
+              "price": 40.98,
               "is_image_placeholder": true
             }
           ]
@@ -6028,7 +6028,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 45.00
+              "price": 45.0
             }
           ]
         },
@@ -6503,7 +6503,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 22.50
+              "price": 22.5
             }
           ]
         },
@@ -6607,7 +6607,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 5.50
+              "price": 5.5
             }
           ]
         },
@@ -7112,8 +7112,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5261/cid/1602703/1996-97-Donruss-1-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 41.51,
+              "inCollection": true,
+              "price": 26.0,
               "print_run": 2000
             }
           ]
@@ -7687,7 +7687,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 22.50
+              "price": 22.5
             }
           ]
         }
@@ -7990,7 +7990,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 12.00
+              "price": 12.0
             }
           ]
         }
@@ -8332,7 +8332,7 @@
               "position": "Center",
               "variant_note": "Silver",
               "inCollection": true,
-              "price": 10.00
+              "price": 10.0
             }
           ]
         },
@@ -8378,7 +8378,7 @@
               "position": "Center",
               "variant_note": "Brass Coin",
               "inCollection": true,
-              "price": 5.00
+              "price": 5.0
             }
           ]
         },
@@ -8450,7 +8450,7 @@
               "position": "Center",
               "variant_note": "Ice",
               "inCollection": true,
-              "price": 35.40
+              "price": 35.4
             }
           ]
         },
@@ -8535,7 +8535,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 43.50,
+              "price": 43.5,
               "location": "US",
               "print_run": 1000
             }
@@ -8812,7 +8812,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 8.50
+              "price": 8.5
             }
           ]
         },
@@ -8832,7 +8832,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48608/cid/1608034/1996-97-Select-Certified-10-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 26.0
             }
           ]
         }
@@ -8878,7 +8879,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 30.00
+              "price": 30.0
             }
           ]
         },
@@ -8899,7 +8900,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 10.00
+              "price": 10.0
             }
           ]
         }
@@ -9068,7 +9069,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 27.40
+              "price": 27.4
             }
           ]
         },
@@ -9316,7 +9317,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 18.00
+              "price": 18.0
             }
           ]
         }
