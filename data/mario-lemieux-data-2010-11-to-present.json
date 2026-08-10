@@ -6101,8 +6101,31 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/486506/cid/32660559/2024-25-Upper-Deck-Engrained-Icons-51-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true,
-          "price": 23.56
+          "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2024-25-upper-deck-engrained-icons-mahogany",
+          "set_name": "Mahogany",
+          "set_display_name": "2024-25 Upper Deck Engrained Icons - Mahogany",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2024-25-upper-deck-engrained-icons-mahogany-51",
+              "base_number": "51",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "card_type": "numbered",
+              "print_run": 75,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
