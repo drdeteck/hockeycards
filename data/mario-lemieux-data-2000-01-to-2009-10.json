@@ -2,7 +2,7 @@
   "dataset": "mario-lemieux",
   "version": "0.15.6",
   "player": "Mario Lemieux",
-  "updated_at": "2026-07-13",
+  "updated_at": "2026-08-10",
   "image_folder": "img/cards/ML66",
   "sets": {
     "2000-01-be-a-player-memorabilia": {
@@ -534,7 +534,9 @@
           "image_back": "img/cards/ML66/2000-01-Pacific-Vanguard-151-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true,
+          "price": 9.75
         }
       ]
     },
@@ -2049,7 +2051,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 4.48
         }
       ],
       "subsets": [
@@ -4617,7 +4620,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false,
+          "inCollection": true,
+          "price": 9.49,
           "print_run": 1601
         }
       ]
