@@ -4905,7 +4905,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.95
             }
           ]
         },
@@ -5452,7 +5453,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/451308/cid/25754023/2023-24-Upper-Deck-Ice-SM-43-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 0.99
             }
           ]
         }
@@ -5675,7 +5677,8 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "variant_note": "w/ Patrick Roy",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.00
             }
           ]
         }

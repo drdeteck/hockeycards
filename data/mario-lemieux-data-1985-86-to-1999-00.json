@@ -9420,7 +9420,10 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48623/cid/1609766/1996-97-Upper-Deck-HH16-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "card_type": "numbered",
+              "print_run": 100,
+              "price": 39
             }
           ]
         },
@@ -9440,9 +9443,9 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48626/cid/1609833/1996-97-Upper-Deck-LS3-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
+              "inCollection": true,
               "print_run": 1000,
-              "price": 50
+              "price": 43
             }
           ]
         }
