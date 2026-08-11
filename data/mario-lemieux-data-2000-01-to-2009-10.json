@@ -8310,7 +8310,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.00
             }
           ]
         }
@@ -9578,7 +9579,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.25
         },
         {
           "id": "ml-2009-10-upper-deck-champs-80",
