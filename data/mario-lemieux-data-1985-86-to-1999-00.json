@@ -9420,7 +9420,10 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48623/cid/1609766/1996-97-Upper-Deck-HH16-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "card_type": "numbered",
+              "print_run": 100,
+              "price": 60
             }
           ]
         },
