@@ -155,7 +155,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 8.00
             }
           ]
         }
@@ -193,7 +194,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2.40
         },
         {
           "id": "ml-2011-12-parkhurst-champions-159",
@@ -567,7 +569,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 4.00
         }
       ]
     },
@@ -2414,7 +2417,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 4.00
         }
       ]
     },
@@ -2457,7 +2461,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 8.00
             },
             {
               "id": "ml-2015-16-o-pee-chee-retro-614",
