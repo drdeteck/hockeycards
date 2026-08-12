@@ -1786,8 +1786,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 0
+              "inCollection": true,
+              "price": 1.89
             }
           ]
         },
@@ -1840,7 +1840,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.19
             }
           ]
         }
@@ -5484,7 +5485,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.19
         }
       ]
     },
@@ -6157,7 +6159,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 9.49
         }
       ],
       "subsets": [
