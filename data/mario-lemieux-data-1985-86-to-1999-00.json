@@ -5237,8 +5237,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5122/cid/1597575/1995-96-Donruss-Elite-2-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 40,
+              "inCollection": true,
+              "price": 15,
               "print_run": 2500
             }
           ]
@@ -7869,8 +7869,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 50.01
+              "inCollection": true,
+              "price": 15
             }
           ]
         },
