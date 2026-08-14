@@ -3109,8 +3109,8 @@
               "image_front": "img/cards/ML66/Chase/1993-94-Stadium-Club---All-Stars-Members-Only-NNO-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/Chase/1993-94-Stadium-Club---All-Stars-Members-Only-NNO-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/67718/cid/5248147/1993-94-Stadium-Club-NNO-Mario-Lemieux",
-              "inCollection": false,
-              "price": 27.67,
+              "inCollection": true,
+              "price": 40,
               "location": "US"
             }
           ]
