@@ -4804,6 +4804,29 @@
               "serial_number": "349"
             }
           ]
+        },
+        {
+          "set_key": "2022-23-upper-deck-black-diamond-legends",
+          "set_name": "Legends",
+          "set_display_name": "2022-23 Upper Deck Black Diamond - Legends",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2022-23-upper-deck-black-diamond-legends-bdl-ml",
+              "base_number": "BDL-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 15.50,
+              "card_type": "numbered",
+              "print_run": 299
+            }
+          ]
         }
       ]
     },
@@ -6112,7 +6135,8 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/486506/cid/32660559/2024-25-Upper-Deck-Engrained-Icons-51-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true
+          "inCollection": true,
+          "price": 6.50
         }
       ],
       "subsets": [
