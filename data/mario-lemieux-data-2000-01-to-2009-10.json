@@ -2,7 +2,7 @@
   "dataset": "mario-lemieux",
   "version": "0.15.6",
   "player": "Mario Lemieux",
-  "updated_at": "2026-07-13",
+  "updated_at": "2026-08-10",
   "image_folder": "img/cards/ML66",
   "sets": {
     "2000-01-be-a-player-memorabilia": {
@@ -127,7 +127,9 @@
               "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-04-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 4.00
             },
             {
               "id": "ml-2000-01-bap-signature-series-retrospective-r05",
@@ -211,7 +213,9 @@
               "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-11-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 4.00
             },
             {
               "id": "ml-2000-01-bap-signature-series-retrospective-r12",
@@ -259,7 +263,9 @@
               "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Mario-Lemieux-Retrospective-R-15-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 4.00
             },
             {
               "id": "ml-2000-01-bap-signature-series-retrospective-r16",
@@ -463,7 +469,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 8.00
             }
           ]
         }
@@ -534,7 +541,9 @@
           "image_back": "img/cards/ML66/2000-01-Pacific-Vanguard-151-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true,
+          "price": 9.75
         }
       ]
     },
@@ -918,7 +927,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 2.50
+              "price": 2.5
             }
           ]
         }
@@ -2049,7 +2058,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 4.48
         }
       ],
       "subsets": [
@@ -2114,7 +2124,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 3.99
             }
           ]
         }
@@ -2319,7 +2330,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.00
             }
           ]
         }
@@ -2401,8 +2413,9 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false,
-          "print_run": 3500
+          "inCollection": true,
+          "print_run": 3500,
+          "price": 4.00
         }
       ]
     },
@@ -3647,7 +3660,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 4.00
         }
       ]
     },
@@ -3750,7 +3764,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 4.00
         }
       ],
       "subsets": [
@@ -4285,7 +4300,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 4.00
         }
       ],
       "subsets": [
@@ -4555,7 +4571,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false,
+          "inCollection": true,
+          "price": 21.50,
           "print_run": 999
         },
         {
@@ -4617,7 +4634,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false,
+          "inCollection": true,
+          "price": 9.49,
           "print_run": 1601
         }
       ]
@@ -4640,7 +4658,9 @@
           "image_back": "img/cards/ML66/2002-03-Stadium-Club-6-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true,
+          "price": 2.40
         }
       ],
       "subsets": [
@@ -5293,7 +5313,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 8.00,
+          "price": 8.0,
           "print_run": 2999
         }
       ]
@@ -6026,8 +6046,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/51143/cid/1751359/2003-04-Pacific-Invincible-78-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 1.5
+              "inCollection": true,
+              "price": 2.40
             }
           ]
         },
@@ -6079,8 +6099,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 2.75
+              "inCollection": true,
+              "price": 3.99
             }
           ]
         }
@@ -6350,7 +6370,7 @@
               "position": "Center",
               "inCollection": false,
               "print_run": 900,
-              "price": 5.00
+              "price": 5.0
             }
           ]
         }
@@ -6438,7 +6458,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 4.00
         }
       ]
     },
@@ -6663,7 +6684,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 4.00
+              "price": 4.0
             }
           ]
         },
@@ -7440,7 +7461,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 10.50
             }
           ]
         },
@@ -8305,7 +8327,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.00
             }
           ]
         }
@@ -9061,7 +9084,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.25
         },
         {
           "id": "ml-2008-09-upper-deck-masterpieces-81",
@@ -9395,7 +9419,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 8.50
+          "price": 8.5
         }
       ],
       "subsets": []
@@ -9443,8 +9467,9 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false,
-          "print_run": 999
+          "inCollection": true,
+          "print_run": 999,
+          "price": 7.99
         }
       ],
       "subsets": []
@@ -9571,7 +9596,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.25
         },
         {
           "id": "ml-2009-10-upper-deck-champs-80",

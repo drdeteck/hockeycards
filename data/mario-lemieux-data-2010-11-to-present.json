@@ -2,7 +2,7 @@
   "dataset": "mario-lemieux",
   "version": "0.15.6",
   "player": "Mario Lemieux",
-  "updated_at": "2026-07-13",
+  "updated_at": "2026-08-10",
   "image_folder": "img/cards/ML66",
   "sets": {
     "2010-11-panini-zenith": {
@@ -155,7 +155,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 8.00
             }
           ]
         }
@@ -193,7 +194,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2.40
         },
         {
           "id": "ml-2011-12-parkhurst-champions-159",
@@ -225,7 +227,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 1.00
+              "price": 1.0
             }
           ]
         }
@@ -567,7 +569,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 4.00
         }
       ]
     },
@@ -1783,8 +1786,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 0
+              "inCollection": true,
+              "price": 1.89
             }
           ]
         },
@@ -1837,7 +1840,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.19
             }
           ]
         }
@@ -2344,7 +2348,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 17.23
         }
       ]
     },
@@ -2413,7 +2418,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 4.00
         }
       ]
     },
@@ -2456,7 +2462,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 8.00
             },
             {
               "id": "ml-2015-16-o-pee-chee-retro-614",
@@ -3363,7 +3370,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 4.40
+              "price": 4.4
             }
           ]
         },
@@ -3648,7 +3655,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 9.50,
+          "price": 9.5,
           "print_run": 599
         }
       ]
@@ -4172,7 +4179,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 8.04
             }
           ]
         },
@@ -4606,7 +4614,7 @@
               "team": "Team Canada",
               "position": "Center",
               "inCollection": true,
-              "price": 2.30
+              "price": 2.3
             }
           ]
         },
@@ -4796,6 +4804,29 @@
               "serial_number": "349"
             }
           ]
+        },
+        {
+          "set_key": "2022-23-upper-deck-black-diamond-legends",
+          "set_name": "Legends",
+          "set_display_name": "2022-23 Upper Deck Black Diamond - Legends",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2022-23-upper-deck-black-diamond-legends-bdl-ml",
+              "base_number": "BDL-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 15.50,
+              "card_type": "numbered",
+              "print_run": 299
+            }
+          ]
         }
       ]
     },
@@ -4826,7 +4857,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 21.00
+              "price": 21.0
             }
           ]
         }
@@ -4903,7 +4934,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.95
             }
           ]
         },
@@ -5011,7 +5043,7 @@
               "card_type": "numbered",
               "print_run": 399,
               "inCollection": true,
-              "price": 8.50
+              "price": 8.5
             }
           ]
         }
@@ -5450,7 +5482,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/451308/cid/25754023/2023-24-Upper-Deck-Ice-SM-43-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 0.99
             }
           ]
         }
@@ -5475,7 +5508,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.19
         }
       ]
     },
@@ -5673,7 +5707,8 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "variant_note": "w/ Patrick Roy",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.00
             }
           ]
         }
@@ -6101,7 +6136,31 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 8.50
+          "price": 6.50
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2024-25-upper-deck-engrained-icons-mahogany",
+          "set_name": "Mahogany",
+          "set_display_name": "2024-25 Upper Deck Engrained Icons - Mahogany",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2024-25-upper-deck-engrained-icons-mahogany-51",
+              "base_number": "51",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "card_type": "numbered",
+              "print_run": 75,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -6124,7 +6183,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 9.49
         }
       ],
       "subsets": [
@@ -6164,7 +6224,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/555140/cid/31613348/2024-25-Upper-Deck-Stature-30-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 14.66
             }
           ]
         }
@@ -6197,7 +6258,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 1.00
+              "price": 1.0
             }
           ]
         },
