@@ -1,8 +1,8 @@
 {
     "dataset": "mario-lemieux-stickers",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "player": "Mario Lemieux",
-    "updated_at": "2026-07-29",
+    "updated_at": "2026-08-16",
     "image_folder": "img/cards/ML66/Stickers",
     "sets": {
         "1985-86-opc-stickers": {
@@ -1006,6 +1006,92 @@
                     "card_type": "sticker",
                     "inCollection": true,
                     "price": 2.76
+                }
+            ]
+        },
+        "1996-metallic-impressions-super-mario": {
+            "set_key": "1996-metallic-impressions-super-mario",
+            "set_name": "Metallic Impressions Super Mario!",
+            "set_year_label": "1996",
+            "set_year_start": 1996,
+            "set_year_end": 1996,
+            "set_display_name": "1996 Metallic Impressions Super Mario!",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1996-metallic-impressions-super-mario-1",
+                    "base_number": "1",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1996-Metallic-Impressions-Super-Mario!-1-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1996-Metallic-Impressions-Super-Mario!-1-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": true,
+                    "price": 0.50,
+                    "excludeFromBinder": true
+                },
+                {
+                    "id": "ml-sticker-1996-metallic-impressions-super-mario-2",
+                    "base_number": "2",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1996-Metallic-Impressions-Super-Mario!-2-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1996-Metallic-Impressions-Super-Mario!-2-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": true,
+                    "price": 0.50,
+                    "excludeFromBinder": true
+                },
+                {
+                    "id": "ml-sticker-1996-metallic-impressions-super-mario-3",
+                    "base_number": "3",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1996-Metallic-Impressions-Super-Mario!-3-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1996-Metallic-Impressions-Super-Mario!-3-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": true,
+                    "price": 0.50,
+                    "excludeFromBinder": true
+                },
+                {
+                    "id": "ml-sticker-1996-metallic-impressions-super-mario-4",
+                    "base_number": "4",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1996-Metallic-Impressions-Super-Mario!-4-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1996-Metallic-Impressions-Super-Mario!-4-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": true,
+                    "price": 0.50,
+                    "excludeFromBinder": true
+                },
+                {
+                    "id": "ml-sticker-1996-metallic-impressions-super-mario-5",
+                    "base_number": "5",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1996-Metallic-Impressions-Super-Mario!-5-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1996-Metallic-Impressions-Super-Mario!-5-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": true,
+                    "price": 0.50,
+                    "excludeFromBinder": true
                 }
             ]
         },
