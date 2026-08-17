@@ -6248,7 +6248,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.85
             }
           ]
         },
@@ -9182,7 +9183,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.8
             }
           ]
         }
@@ -9438,8 +9440,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48314/cid/1573225/2008-09-O-Pee-Chee-570-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 4
+              "inCollection": true,
+              "price": 6.6
             }
           ]
         }
@@ -10162,7 +10164,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 8.8
         }
       ]
     },
