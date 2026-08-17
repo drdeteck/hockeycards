@@ -1,8 +1,8 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.15.6",
+  "version": "0.15.7",
   "player": "Mario Lemieux",
-  "updated_at": "2026-08-10",
+  "updated_at": "2026-08-17",
   "image_folder": "img/cards/ML66",
   "sets": {
     "2000-01-be-a-player-memorabilia": {
@@ -129,7 +129,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 4.00
+              "price": 4.0
             },
             {
               "id": "ml-2000-01-bap-signature-series-retrospective-r05",
@@ -215,7 +215,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 4.00
+              "price": 4.0
             },
             {
               "id": "ml-2000-01-bap-signature-series-retrospective-r12",
@@ -265,7 +265,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 4.00
+              "price": 4.0
             },
             {
               "id": "ml-2000-01-bap-signature-series-retrospective-r16",
@@ -426,6 +426,46 @@
               "inCollection": false
             }
           ]
+        },
+        {
+          "set_key": "2000-01-pacific-crown-royale-ice-blue",
+          "set_name": "Ice Blue",
+          "set_display_name": "2000-01 Pacific Crown Royale - Ice Blue",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49637/2000-01-Pacific-Crown-Royale---Ice-Blue",
+          "cards": [
+            {
+              "id": "ml-2000-01-pacific-crown-royale-ice-blue-87",
+              "base_number": "87",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Pacific-Crown-Royale---Ice-Blue-87-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Pacific-Crown-Royale---Ice-Blue-87-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49637/cid/1681552/2000-01-Pacific-Crown-Royale-87-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2000-01-pacific-crown-royale-now-playing",
+          "set_name": "Now Playing",
+          "set_display_name": "2000-01 Pacific Crown Royale - Now Playing",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49641/2000-01-Pacific-Crown-Royale---Now-Playing",
+          "cards": [
+            {
+              "id": "ml-2000-01-pacific-crown-royale-now-playing-15",
+              "base_number": "15",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Pacific-Crown-Royale---Now-Playing-15-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Pacific-Crown-Royale---Now-Playing-15-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49641/cid/1681731/2000-01-Pacific-Crown-Royale-15-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -470,7 +510,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 8.00
+              "price": 8.0
             }
           ]
         }
@@ -518,6 +558,29 @@
               "position": "Center",
               "inCollection": false,
               "print_run": 1100
+            }
+          ]
+        },
+        {
+          "set_key": "2000-01-pacific-private-stock-titanium-north-america-all-stars",
+          "set_name": "North America All-Stars",
+          "set_display_name": "2000-01 Pacific - Private Stock Titanium - North America All-Stars",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-pacific-private-stock-titanium-north-america-all-stars-9",
+              "base_number": "9",
+              "name": "Mario Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2000-01-Pacific-Private-Stock-Titanium---North-America-All-Stars-9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Pacific-Private-Stock-Titanium---North-America-All-Stars-9-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "inCollection": false,
+              "print_run": 1000,
+              "price": 49.99
             }
           ]
         }
@@ -2331,7 +2394,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 4.00
+              "price": 4.0
             }
           ]
         }
@@ -2415,7 +2478,7 @@
           "position": "Center",
           "inCollection": true,
           "print_run": 3500,
-          "price": 4.00
+          "price": 4.0
         }
       ]
     },
@@ -3661,7 +3724,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 4.00
+          "price": 4.0
         }
       ]
     },
@@ -3765,7 +3828,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 4.00
+          "price": 4.0
         }
       ],
       "subsets": [
@@ -4301,7 +4364,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 4.00
+          "price": 4.0
         }
       ],
       "subsets": [
@@ -4572,7 +4635,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 21.50,
+          "price": 21.5,
           "print_run": 999
         },
         {
@@ -4660,7 +4723,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 2.40
+          "price": 2.4
         }
       ],
       "subsets": [
@@ -6047,7 +6110,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 2.40
+              "price": 2.4
             }
           ]
         },
@@ -6459,7 +6522,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 4.00
+          "price": 4.0
         }
       ]
     },
@@ -7462,7 +7525,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 10.50
+              "price": 10.5
             }
           ]
         },
@@ -8328,7 +8391,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "price": 2.00
+              "price": 2.0
             }
           ]
         }
