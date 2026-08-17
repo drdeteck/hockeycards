@@ -1,8 +1,8 @@
 {
     "dataset": "mario-lemieux-stickers",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "player": "Mario Lemieux",
-    "updated_at": "2026-08-16",
+    "updated_at": "2026-08-17",
     "image_folder": "img/cards/ML66/Stickers",
     "sets": {
         "1985-86-opc-stickers": {
@@ -583,6 +583,31 @@
                 }
             ]
         },
+        "1990-91-orange-speckled-border": {
+            "set_key": "1990-91-orange-speckled-border",
+            "set_name": "Orange Speckled Border (unlicensed)",
+            "set_year_label": "1990-91",
+            "set_year_start": 1990,
+            "set_year_end": 1991,
+            "set_display_name": "1990-91 Orange Speckled Border (unlicensed)",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1990-91-orange-speckled-border-nno",
+                    "base_number": "NNO",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1990-91-Orange-Speckled-Border-NNO-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1990-91-Orange-Speckled-Border-NNO-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/228636/cid/14370809/1990-91-Orange-Speckled-Border-(unlicensed)-NNO-Mario-Lemieux",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": true,
+                    "price": 2.5
+                }
+            ]
+        },
         "1990-91-panini-stickers": {
             "set_key": "1990-91-panini-stickers",
             "set_name": "Panini Stickers",
@@ -641,6 +666,31 @@
                     "position": "Center",
                     "card_type": "sticker",
                     "inCollection": false
+                }
+            ]
+        },
+        "1991-sports-educational-magazine": {
+            "set_key": "1991-sports-educational-magazine",
+            "set_name": "Sports Educational Magazine",
+            "set_year_label": "1991",
+            "set_year_start": 1991,
+            "set_year_end": 1991,
+            "set_display_name": "1991 Sports Educational Magazine",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1991-sports-educational-magazine-47",
+                    "base_number": "47",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1991-Sports-Educational-Magazine-47-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1991-Sports-Educational-Magazine-47-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/111076/cid/7612880/1991-Sports-Educational-Magazine-47-Mario-Lemieux",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": true,
+                    "price": 2.5
                 }
             ]
         },
