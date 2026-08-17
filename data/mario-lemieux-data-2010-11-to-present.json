@@ -1,8 +1,8 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.15.6",
+  "version": "0.15.7",
   "player": "Mario Lemieux",
-  "updated_at": "2026-08-10",
+  "updated_at": "2026-08-17",
   "image_folder": "img/cards/ML66",
   "sets": {
     "2010-11-panini-zenith": {
@@ -2509,6 +2509,39 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2015-16-upper-deck-overtime": {
+      "set_key": "2015-16-upper-deck-overtime",
+      "set_name": "Upper Deck Overtime",
+      "set_year_label": "2015-16",
+      "set_year_start": 2015,
+      "set_year_end": 2016,
+      "set_display_name": "2015-16 Upper Deck Overtime",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2015-16-upper-deck-overtime-flash-of-excellence",
+          "set_name": "Flash of Excellence",
+          "set_display_name": "2015-16 Upper Deck Overtime - Flash of Excellence",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2015-16-upper-deck-overtime-flash-of-excellence-foe-17",
+              "base_number": "FOE-17",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2015-16-Upper-Deck-Overtime---Flash-of-Excellence-FOE-17-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-Upper-Deck-Overtime---Flash-of-Excellence-FOE-17-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/122356/cid/8305197/2015-16-Upper-Deck-Overtime---Flash-of-Excellence-FOE-17-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 2.5
             }
           ]
         }
@@ -6810,6 +6843,39 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2010-11-panini-certified": {
+      "set_key": "2010-11-panini-certified",
+      "set_name": "Panini Certified",
+      "set_year_label": "2010-11",
+      "set_year_start": 2010,
+      "set_year_end": 2011,
+      "set_display_name": "2010-11 Panini Certified",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2010-11-panini-certified-champions",
+          "set_name": "Champions",
+          "set_display_name": "2010-11 Panini Certified - Champions",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2010-11-panini-certified-champions-21",
+              "base_number": "21",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/60777/cid/4655051/2010-11-Panini-Certified---Champions-21-Mario-Lemieux-",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 10.5
             }
           ]
         }
