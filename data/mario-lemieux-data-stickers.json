@@ -1,6 +1,6 @@
 {
     "dataset": "mario-lemieux-stickers",
-    "version": "0.5.1",
+    "version": "0.6.0",
     "player": "Mario Lemieux",
     "updated_at": "2026-08-17",
     "image_folder": "img/cards/ML66/Stickers",
@@ -417,6 +417,30 @@
                 }
             ]
         },
+        "1989-sports-illustrated-for-kids": {
+            "set_key": "1989-sports-illustrated-for-kids",
+            "set_name": "Sports Illustrated for Kids",
+            "set_year_label": "1989",
+            "set_year_start": 1989,
+            "set_year_end": 1989,
+            "set_display_name": "1989 Sports Illustrated for Kids",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1989-sports-illustrated-for-kids-1",
+                    "base_number": "1",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1989-Sports-Illustrated-for-Kids-1-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1989-Sports-Illustrated-for-Kids-1-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
         "1989-90-opc-stickers": {
             "set_key": "1989-90-opc-stickers",
             "set_name": "O-Pee-Chee Stickers",
@@ -766,6 +790,65 @@
                 }
             ]
         },
+        "1992-93-clark-bun-candy": {
+            "set_key": "1992-93-clark-bun-candy",
+            "set_name": "Clark Bun Candy",
+            "set_year_label": "1992-93",
+            "set_year_start": 1992,
+            "set_year_end": 1993,
+            "set_display_name": "1992-93 Clark Bun Candy",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1992-93-clark-bun-candy-overview",
+                    "base_number": "OVERVIEW",
+                    "orientation_front": "square",
+                    "orientation_back": "square",
+                    "excludeFromBinder": true,
+                    "image_front": "img/cards/ML66/Stickers/1992-93-Clark-Bun-Candy-Mario-Lemieux-OVERVIEW-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1992-93-Clark-Bun-Candy-Mario-Lemieux-OVERVIEW-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "variant_note": "Overview",
+                    "card_type": "sticker",
+                    "inCollection": true,
+                    "price": 0.25
+                },
+                {
+                    "id": "ml-sticker-1992-93-clark-bun-candy-stats",
+                    "base_number": "STATS",
+                    "orientation_front": "square",
+                    "orientation_back": "square",
+                    "excludeFromBinder": true,
+                    "image_front": "img/cards/ML66/Stickers/1992-93-Clark-Bun-Candy-Mario-Lemieux-STATS-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1992-93-Clark-Bun-Candy-Mario-Lemieux-STATS-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "variant_note": "Stats",
+                    "card_type": "sticker",
+                    "inCollection": true,
+                    "price": 0.25
+                },
+                {
+                    "id": "ml-sticker-1992-93-clark-bun-candy-awards",
+                    "base_number": "AWARDS",
+                    "orientation_front": "square",
+                    "orientation_back": "square",
+                    "excludeFromBinder": true,
+                    "image_front": "img/cards/ML66/Stickers/1992-93-Clark-Bun-Candy-Mario-Lemieux-AWARDS-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1992-93-Clark-Bun-Candy-Mario-Lemieux-AWARDS-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "variant_note": "Awards",
+                    "card_type": "sticker",
+                    "inCollection": true,
+                    "price": 0.25
+                }
+            ]
+        },
         "1992-93-kraft-singles-all-stars": {
             "set_key": "1992-93-kraft-singles-all-stars",
             "set_name": "Kraft Singles All-Stars",
@@ -824,6 +907,30 @@
                     "position": "Center",
                     "card_type": "sticker",
                     "inCollection": true
+                }
+            ]
+        },
+        "1993-sports-illustrated-for-kids": {
+            "set_key": "1993-sports-illustrated-for-kids",
+            "set_name": "Sports Illustrated for Kids",
+            "set_year_label": "1993",
+            "set_year_start": 1993,
+            "set_year_end": 1993,
+            "set_display_name": "1993 Sports Illustrated for Kids",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1993-sports-illustrated-for-kids-125",
+                    "base_number": "125",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1993-Sports-Illustrated-for-Kids-125-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1993-Sports-Illustrated-for-Kids-125-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
                 }
             ]
         },
@@ -1193,6 +1300,56 @@
                     "card_type": "sticker",
                     "inCollection": true,
                     "price": 1.99
+                }
+            ]
+        },
+        "1996-97-panini-stickers": {
+            "set_key": "1996-97-panini-stickers",
+            "set_name": "Panini Stickers",
+            "set_year_label": "1996-97",
+            "set_year_start": 1996,
+            "set_year_end": 1997,
+            "set_display_name": "1996-97 Panini Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1996-97-panini-stickers-59",
+                    "base_number": "59",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1996-97-Panini-Stickers-59-Mario-Lemieux-Fr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1996-97-Panini-Stickers-59-Mario-Lemieux-Bk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                },
+                {
+                    "id": "ml-sticker-1996-97-panini-stickers-144",
+                    "base_number": "144",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1996-97-Panini-Stickers-144-Mario-Lemieux-Fr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1996-97-Panini-Stickers-144-Mario-Lemieux-Bk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                },
+                {
+                    "id": "ml-sticker-1996-97-panini-stickers-150",
+                    "base_number": "150",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1996-97-Panini-Stickers-150-Mario-Lemieux-Fr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1996-97-Panini-Stickers-150-Mario-Lemieux-Bk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
                 }
             ]
         },
