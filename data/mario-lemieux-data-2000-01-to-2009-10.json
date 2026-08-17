@@ -5170,6 +5170,29 @@
         }
       ]
     },
+    "2002-03-ud-superstars": {
+      "set_key": "2002-03-ud-superstars",
+      "set_name": "UD SuperStars",
+      "set_year_label": "2002-03",
+      "set_year_start": 2002,
+      "set_year_end": 2003,
+      "set_display_name": "2002-03 UD SuperStars",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2002-03-ud-superstars-197",
+          "base_number": "197",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2002-03-upper-deck-classic-portraits": {
       "set_key": "2002-03-upper-deck-classic-portraits",
       "set_name": "Upper Deck Classic Portraits",
@@ -5310,53 +5333,6 @@
               "inCollection": false
             }
           ]
-        }
-      ]
-    },
-    "2002-03-ud-superstars": {
-      "set_key": "2002-03-ud-superstars",
-      "set_name": "UD SuperStars",
-      "set_year_label": "2002-03",
-      "set_year_start": 2002,
-      "set_year_end": 2003,
-      "set_display_name": "2002-03 UD SuperStars",
-      "set_tcdb_href": "",
-      "cards": [
-        {
-          "id": "ml-2002-03-ud-superstars-197",
-          "base_number": "197",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "",
-          "image_back": "",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": false
-        }
-      ]
-    },
-    "2002-03-upper-deck-mask-collection": {
-      "set_key": "2002-03-upper-deck-mask-collection",
-      "set_name": "Upper Deck Mask Collection",
-      "set_year_label": "2002-03",
-      "set_year_start": 2002,
-      "set_year_end": 2003,
-      "set_display_name": "2002-03 Upper Deck Mask Collection",
-      "set_tcdb_href": "",
-      "cards": [
-        {
-          "id": "ml-2002-03-upper-deck-mask-collection-70",
-          "base_number": "70",
-          "variant_note": "Teammates - Mario Lemieux / Johan Hedberg",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "",
-          "image_back": "",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": false
         }
       ]
     },
@@ -5527,6 +5503,30 @@
               "inCollection": false
             }
           ]
+        }
+      ]
+    },
+    "2002-03-upper-deck-mask-collection": {
+      "set_key": "2002-03-upper-deck-mask-collection",
+      "set_name": "Upper Deck Mask Collection",
+      "set_year_label": "2002-03",
+      "set_year_start": 2002,
+      "set_year_end": 2003,
+      "set_display_name": "2002-03 Upper Deck Mask Collection",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2002-03-upper-deck-mask-collection-70",
+          "base_number": "70",
+          "variant_note": "Teammates - Mario Lemieux / Johan Hedberg",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
@@ -6190,8 +6190,8 @@
         },
         {
           "set_key": "2003-04-pacific-crown-royale-2003-04-pacific-complete",
-          "set_name": "2003-04 Pacific Complete",
-          "set_display_name": "2003-04 Pacific Crown Royale - 2003-04 Pacific Complete",
+          "set_name": "Pacific Complete",
+          "set_display_name": "2003-04 Pacific Crown Royale - Pacific Complete",
           "set_tcdb_href": "",
           "cards": [
             {
