@@ -6874,6 +6874,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/60777/cid/4655051/2010-11-Panini-Certified---Champions-21-Mario-Lemieux-",
               "team": "Pittsburgh Penguins",
               "position": "Center",
+              "card_type": "numbered",
+              "print_run": 500,
               "inCollection": true,
               "price": 10.5
             }
