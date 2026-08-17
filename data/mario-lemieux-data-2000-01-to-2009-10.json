@@ -3878,6 +3878,29 @@
         }
       ]
     },
+    "2002-03-in-the-game-used": {
+      "set_key": "2002-03-in-the-game-used",
+      "set_name": "In The Game Used",
+      "set_year_label": "2002-03",
+      "set_year_start": 2002,
+      "set_year_end": 2003,
+      "set_display_name": "2002-03 In The Game Used",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2002-03-in-the-game-used-162",
+          "base_number": "162",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2002-03-o-pee-chee": {
       "set_key": "2002-03-o-pee-chee",
       "set_name": "O-Pee-Chee",
@@ -3898,6 +3921,30 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-o-pee-chee-gold-holofoil",
+          "set_name": "Gold Holofoil",
+          "set_display_name": "Gold Holofoil",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-o-pee-chee-gold-holofoil-2",
+              "base_number": "2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "card_type": "numbered",
+              "print_run": 100
+            }
+          ]
         }
       ]
     },
@@ -4007,6 +4054,26 @@
               "price": 3
             }
           ]
+        },
+        {
+          "set_key": "2002-03-pacific-red",
+          "set_name": "Red",
+          "set_display_name": "Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-red-312",
+              "base_number": "312",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -4055,6 +4122,48 @@
           "position": "Center",
           "inCollection": true,
           "price": 1.76
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-pacific-atomic-cold-fusion",
+          "set_name": "Cold Fusion",
+          "set_display_name": "2002-03 Pacific Atomic - Cold Fusion",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-atomic-cold-fusion-20",
+              "base_number": "20",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-pacific-atomic-national-pride-canada",
+          "set_name": "National Pride Canada",
+          "set_display_name": "2002-03 Pacific Atomic - National Pride Canada",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-atomic-national-pride-canada-9",
+              "base_number": "9",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -4274,6 +4383,28 @@
               "inCollection": false
             }
           ]
+        },
+        {
+          "set_key": "2002-03-pacific-heads-up-stat-masters",
+          "set_name": "Stat Masters",
+          "set_display_name": "2002-03 Pacific Heads Up - Stat Masters",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-heads-up-stat-masters-12",
+              "base_number": "12",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "card_type": "numbered",
+              "print_run": 500,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -4340,6 +4471,26 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center"
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-pacific-quest-for-the-cup-raising-the-cup",
+          "set_name": "Raising the Cup",
+          "set_display_name": "2002-03 Pacific Quest for the Cup - Raising the Cup",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-quest-for-the-cup-raising-the-cup-11",
+              "base_number": "11",
+              "orientation_front": "landscape",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
@@ -4493,6 +4644,38 @@
               "position": "Center",
               "inCollection": true,
               "price": 6.38
+            }
+          ]
+        }
+      ]
+    },
+    "2002-03-pacific-private-stock-reserve": {
+      "set_key": "2002-03-pacific-private-stock-reserve",
+      "set_name": "Pacific Private Stock Reserve",
+      "set_year_label": "2002-03",
+      "set_year_start": 2002,
+      "set_year_end": 2003,
+      "set_display_name": "2002-03 Pacific Private Stock Reserve",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2002-03-pacific-private-stock-reserve-elite",
+          "set_name": "Elite",
+          "set_display_name": "2002-03 Pacific Private Stock Reserve - Elite",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-private-stock-reserve-elite-5",
+              "base_number": "5",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
@@ -4701,6 +4884,30 @@
           "inCollection": true,
           "price": 9.49,
           "print_run": 1601
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-spx-spectrum-silver",
+          "set_name": "Spectrum Silver",
+          "set_display_name": "2002-03 SPx - Spectrum Silver",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-spx-spectrum-silver-97",
+              "base_number": "97",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "card_type": "numbered",
+              "print_run": 199,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -5027,6 +5234,29 @@
         }
       ]
     },
+    "2002-03-ud-superstars": {
+      "set_key": "2002-03-ud-superstars",
+      "set_name": "UD SuperStars",
+      "set_year_label": "2002-03",
+      "set_year_start": 2002,
+      "set_year_end": 2003,
+      "set_display_name": "2002-03 UD SuperStars",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2002-03-ud-superstars-197",
+          "base_number": "197",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2002-03-upper-deck-classic-portraits": {
       "set_key": "2002-03-upper-deck-classic-portraits",
       "set_name": "Upper Deck Classic Portraits",
@@ -5048,6 +5278,48 @@
           "position": "Center",
           "inCollection": true,
           "price": 2
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-upper-deck-classic-portraits-etched-in-time",
+          "set_name": "Etched in Time",
+          "set_display_name": "2002-03 Upper Deck Classic Portraits - Etched in Time",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-upper-deck-classic-portraits-etched-in-time-et13",
+              "base_number": "ET13",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-upper-deck-classic-portraits-pillars-of-strength",
+          "set_name": "Pillars of Strength",
+          "set_display_name": "2002-03 Upper Deck Classic Portraits - Pillars of Strength",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-upper-deck-classic-portraits-pillars-of-strength-ps8",
+              "base_number": "PS8",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -5172,6 +5444,26 @@
               "price": 1.5
             }
           ]
+        },
+        {
+          "set_key": "2002-03-upper-deck-artistic-impressions-great-depictions",
+          "set_name": "Great Depictions",
+          "set_display_name": "2002-03 Upper Deck Artistic Impressions - Great Depictions",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-upper-deck-artistic-impressions-great-depictions-gd6",
+              "base_number": "GD6",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -5278,6 +5570,30 @@
         }
       ]
     },
+    "2002-03-upper-deck-mask-collection": {
+      "set_key": "2002-03-upper-deck-mask-collection",
+      "set_name": "Upper Deck Mask Collection",
+      "set_year_label": "2002-03",
+      "set_year_start": 2002,
+      "set_year_end": 2003,
+      "set_display_name": "2002-03 Upper Deck Mask Collection",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2002-03-upper-deck-mask-collection-70",
+          "base_number": "70",
+          "variant_note": "Teammates - Mario Lemieux / Johan Hedberg",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2002-03-upper-deck-mvp": {
       "set_key": "2002-03-upper-deck-mvp",
       "set_name": "Upper Deck MVP",
@@ -5379,6 +5695,28 @@
           "inCollection": true,
           "price": 8.0,
           "print_run": 2999
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-upper-deck-piece-of-history-awards-collection",
+          "set_name": "Awards Collection",
+          "set_display_name": "2002-03 Upper Deck Piece of History - Awards Collection",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-upper-deck-piece-of-history-awards-collection-ac22",
+              "base_number": "AC22",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -5907,6 +6245,26 @@
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2003-04-Pacific-Crown-Royale---Lords-of-the-Rink-18-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2003-04-Pacific-Crown-Royale---Lords-of-the-Rink-18-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-pacific-crown-royale-2003-04-pacific-complete",
+          "set_name": "Pacific Complete",
+          "set_display_name": "2003-04 Pacific Crown Royale - Pacific Complete",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-crown-royale-2003-04-pacific-complete-140",
+              "base_number": "140",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -7413,6 +7771,29 @@
         }
       ]
     },
+    "2004-05-upper-deck-all-world-edition": {
+      "set_key": "2004-05-upper-deck-all-world-edition",
+      "set_name": "Upper Deck All-World Edition",
+      "set_year_label": "2004-05",
+      "set_year_start": 2004,
+      "set_year_end": 2005,
+      "set_display_name": "2004-05 Upper Deck All-World Edition",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2004-05-upper-deck-all-world-edition-101",
+          "base_number": "101",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2004-05-upper-deck-worlds-best": {
       "set_key": "2004-05-upper-deck-worlds-best",
       "set_name": "Upper Deck World's Best",
@@ -8442,6 +8823,48 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2005-06-upper-deck-mcdonalds-top-scorers",
+          "set_name": "Top Scorers",
+          "set_display_name": "2005-06 Upper Deck McDonald's - Top Scorers",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2005-06-upper-deck-mcdonalds-top-scorers-ts4",
+              "base_number": "TS4",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2005-06-upper-deck-mcdonalds-superstar-spotlight",
+          "set_name": "Superstar Spotlight",
+          "set_display_name": "2005-06 Upper Deck McDonald's - Superstar Spotlight",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2005-06-upper-deck-mcdonalds-superstar-spotlight-ss1",
+              "base_number": "SS1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
