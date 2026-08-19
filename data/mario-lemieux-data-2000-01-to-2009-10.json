@@ -732,7 +732,9 @@
               "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-2-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 5.55
             },
             {
               "id": "ml-2000-01-topps-mario-lemieux-reprints-3",
@@ -818,7 +820,9 @@
               "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-9-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center"
+              "position": "Center",
+              "inCollection": true,
+              "price": 5.55
             },
             {
               "id": "ml-2000-01-topps-mario-lemieux-reprints-10",
@@ -6406,8 +6410,8 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5690/cid/1287658/2003-04-Pacific-Invincible-78-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false,
-          "price": 2
+          "inCollection": true,
+          "price": 2.07
         }
       ],
       "subsets": [
@@ -7031,7 +7035,8 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "variant_note": "Rookie",
-          "inCollection": false
+          "inCollection": true,
+          "price": 5.55
         }
       ]
     },
@@ -7545,7 +7550,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 4.01
         }
       ]
     },
