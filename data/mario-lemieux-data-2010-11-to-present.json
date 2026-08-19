@@ -6712,10 +6712,10 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true,
-          "price": 3.88,
           "card_type": "numbered",
-          "print_run": 1999
+          "print_run": 1999,
+          "inCollection": true,
+          "price": 3.88
         },
         {
           "id": "ml-2010-11-sp-authentic-59",
