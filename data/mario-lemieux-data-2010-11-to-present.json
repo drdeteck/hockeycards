@@ -3001,6 +3001,29 @@
           "position": "Center",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2016-17-upper-deck-team-canada-juniors-gold",
+          "set_name": "Gold",
+          "set_display_name": "2016-17 Upper Deck Team Canada Juniors - Gold",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2016-17-upper-deck-team-canada-juniors-gold-99",
+              "base_number": "99",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2016-Upper-Deck-Team-Canada-Juniors---Gold-99-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2016-Upper-Deck-Team-Canada-Juniors---Gold-99-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Team Canada",
+              "position": "Center",
+              "inCollection": true,
+              "price": 3.99
+            }
+          ]
+        }
       ]
     },
     "2016-17-upper-deck-winter": {
@@ -4772,7 +4795,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.99
             }
           ]
         }
