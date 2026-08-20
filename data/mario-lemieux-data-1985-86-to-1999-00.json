@@ -1,8 +1,8 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.15.6",
+  "version": "0.15.7",
   "player": "Mario Lemieux",
-  "updated_at": "2026-08-10",
+  "updated_at": "2026-08-17",
   "image_folder": "img/cards/ML66",
   "sets": {
     "1985-86-o-pee-chee": {
@@ -2449,6 +2449,27 @@
               "inCollection": true
             }
           ]
+        },
+        {
+          "set_key": "1993-94-leaf-authentic-autograph",
+          "set_name": "Authentic Autograph",
+          "set_display_name": "1993-94 Leaf - Authentic Autograph",
+          "cards": [
+            {
+              "id": "ml-1993-94-leaf-authentic-autograph-nno",
+              "base_number": "NNO",
+              "name": "Mario Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1993-94-Leaf---Authentic-Autograph-NNO-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1993-94-Leaf---Authentic-Autograph-NNO-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/430048/cid/24653587/1993-94-Leaf-NNO-Mario-Lemieux",
+              "inCollection": false,
+              "price": 666.66
+            }
+          ]
         }
       ]
     },
@@ -2716,6 +2737,27 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "1993-94-pinnacle-canadian-team-pinnacle",
+          "set_name": "Team Pinnacle",
+          "set_display_name": "1993-94 Pinnacle Canadian - Team Pinnacle",
+          "cards": [
+            {
+              "id": "ml-1993-94-pinnacle-canadian-team-pinnacle-5",
+              "base_number": "5",
+              "name": "Mario Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1993-94-Pinnacle-Canadian---Team-Pinnacle-5-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1993-94-Pinnacle-Canadian---Team-Pinnacle-5-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48475/cid/1587151/1993-94-Pinnacle-Canadian-5-Mario-Lemieux",
+              "inCollection": true,
+              "price": 82
             }
           ]
         }
@@ -3109,8 +3151,8 @@
               "image_front": "img/cards/ML66/Chase/1993-94-Stadium-Club---All-Stars-Members-Only-NNO-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/Chase/1993-94-Stadium-Club---All-Stars-Members-Only-NNO-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/67718/cid/5248147/1993-94-Stadium-Club-NNO-Mario-Lemieux",
-              "inCollection": false,
-              "price": 27.67,
+              "inCollection": true,
+              "price": 40,
               "location": "US"
             }
           ]
@@ -3854,6 +3896,30 @@
           "position": "Center",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "1994-95-leaf-limited-gold",
+          "set_name": "Gold",
+          "set_display_name": "1994-95 Leaf Limited - Gold",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1994-95-leaf-limited-gold-1",
+              "base_number": "1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1994-95-Leaf-Limited---Gold-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1994-95-Leaf-Limited---Gold-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5036/cid/1590209/1994-95-Leaf-Limited-1-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 72.99,
+              "print_run": 2500
+            }
+          ]
+        }
       ]
     },
     "1994-95-o-pee-chee-premier": {
@@ -4151,6 +4217,28 @@
               "inCollection": true
             }
           ]
+        },
+        {
+          "set_key": "1994-95-pinnacle-artists-proofs",
+          "set_name": "Artist's Proofs",
+          "set_display_name": "1994-95 Pinnacle - Artist's Proofs",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1994-95-pinnacle-artists-proofs-170",
+              "base_number": "170",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5047/cid/1556185/1994-95-Pinnacle-170-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 69.2,
+              "location": "US"
+            }
+          ]
         }
       ]
     },
@@ -4272,6 +4360,66 @@
               "position": "Center",
               "inCollection": false,
               "is_image_placeholder": true
+            }
+          ]
+        },
+        {
+          "set_key": "1994-95-stadium-club-finest-members-only",
+          "set_name": "Finest Members Only",
+          "set_display_name": "1994-95 Stadium Club - Finest Members Only",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1994-95-stadium-club-finest-members-only-1",
+              "base_number": "1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1994-95-Stadium-Club---Finest-Members-Only-1-Mario-LemieuxFr-placeholder.jpg",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48507/cid/1593946/1994-95-Stadium-Club-1-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "1994-95-stadium-club-first-day-issue",
+          "set_name": "First Day Issue",
+          "set_display_name": "1994-95 Stadium Club - First Day Issue",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1994-95-stadium-club-first-day-issue-60",
+              "base_number": "60",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1994-95-Stadium-Club---First-Day-Issue-60-Mario-LemieuxFr-placeholder.jpg",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48508/cid/1594014/1994-95-Stadium-Club-60-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "1994-95-stadium-club-members-only",
+          "set_name": "Members Only",
+          "set_display_name": "1994-95 Stadium Club - Members Only",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1994-95-stadium-club-members-only-60",
+              "base_number": "60",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1994-95-Stadium-Club---Members-Only-60-Mario-LemieuxFr-placeholder.jpg",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48509/cid/1594284/1994-95-Stadium-Club-60-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
@@ -4789,6 +4937,26 @@
               "inCollection": true
             }
           ]
+        },
+        {
+          "set_key": "1995-96-collectors-choice-you-crash-the-game-gold-bonus",
+          "set_name": "You Crash the Game Gold Bonus",
+          "set_display_name": "1995-96 Collector's Choice - You Crash the Game Gold Bonus",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/48519/1995-96-collectors-choice-you-crash-the-game-gold-bonus",
+          "cards": [
+            {
+              "id": "ml-1995-96-collectors-choice-you-crash-the-game-gold-bonus-c25",
+              "base_number": "C25",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Collector's-Choice---You-Crash-the-Game-Gold-Bonus-C25-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Collector's-Choice---You-Crash-the-Game-Gold-Bonus-C25-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48519/cid/1597365/1995-96-Collector's-Choice-C25-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -4966,6 +5134,18 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-1995-96-donruss-elite-nno eric lindros /",
+          "base_number": "NNO Eric Lindros /",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1995-96-Donruss-Elite-NNO Eric Lindros -Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1995-96-Donruss-Elite-NNO Eric Lindros -Mario-LemieuxBk.jpg",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5121/cid/18311565/1995-96-Donruss-Elite-NNO-Eric-Lindros-/-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ],
       "subsets": [
@@ -5123,6 +5303,55 @@
               "price": 60,
               "price_type": "bulk",
               "price_bulk": 340
+            },
+            {
+              "id": "ml-1995-96-donruss-elite-mario-lemieux-series-1",
+              "base_number": "1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Donruss-Elite---Mario-Lemieux-Series-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Donruss-Elite---Mario-Lemieux-Series-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5124/cid/1597589/1995-96-Donruss-Elite-1-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-1995-96-donruss-elite-mario-lemieux-series-3",
+              "base_number": "3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Donruss-Elite---Mario-Lemieux-Series-3-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Donruss-Elite---Mario-Lemieux-Series-3-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5124/cid/1597591/1995-96-Donruss-Elite-3-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-1995-96-donruss-elite-mario-lemieux-series-5",
+              "base_number": "5",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Donruss-Elite---Mario-Lemieux-Series-5-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Donruss-Elite---Mario-Lemieux-Series-5-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5124/cid/1597593/1995-96-Donruss-Elite-5-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-1995-96-donruss-elite-mario-lemieux-series-7",
+              "base_number": "7",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Donruss-Elite---Mario-Lemieux-Series-7-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Donruss-Elite---Mario-Lemieux-Series-7-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5124/cid/1597595/1995-96-Donruss-Elite-7-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 339.76
             }
           ]
         },
@@ -5142,8 +5371,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5122/cid/1597575/1995-96-Donruss-Elite-2-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 40,
+              "inCollection": true,
+              "price": 15,
               "print_run": 2500
             }
           ]
@@ -5689,8 +5918,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5164/cid/1598490/1995-96-Parkhurst-International-1-Mario-Lemieux-/-Wayne-Gretzky",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 44.99
+              "inCollection": true,
+              "price": 41
             }
           ]
         }
@@ -6448,6 +6677,26 @@
               "price": 6.91
             }
           ]
+        },
+        {
+          "set_key": "1995-96-topps-home-grown-canada",
+          "set_name": "Home Grown Canada",
+          "set_display_name": "1995-96 Topps - Home Grown Canada",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1995-96-topps-home-grown-canada-hgc30",
+              "base_number": "HGC30",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Topps---Home-Grown-Canada-HGC30-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Topps---Home-Grown-Canada-HGC30-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5205/cid/1600110/1995-96-Topps-HGC30-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -6902,6 +7151,28 @@
           "position": "Center",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "1995-96-zenith-z-team",
+          "set_name": "Z-Team",
+          "set_display_name": "1995-96 Zenith - Z-Team",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1995-96-zenith-z-team-3",
+              "base_number": "3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Zenith---Z-Team-3-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Zenith---Z-Team-3-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5239/cid/1602383/1995-96-Zenith-3-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
       ]
     },
     "1996-97-collectors-choice": {
@@ -7026,6 +7297,73 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "1996-97-collectors-choice-you-crash-the-game-gold-exchange",
+          "set_name": "You Crash the Game Gold Exchange",
+          "set_display_name": "1996-97 Collector's Choice - You Crash the Game Gold Exchange",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-collectors-choice-you-crash-the-game-gold-exchange-cr5",
+              "base_number": "CR5",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Collector's-Choice---You-Crash-the-Game-Gold-Exchange-CR5-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Collector's-Choice---You-Crash-the-Game-Gold-Exchange-CR5-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48558/cid/1602494/1996-97-Collector's-Choice-CR5-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 24.22,
+              "location": "US"
+            }
+          ]
+        },
+        {
+          "set_key": "1996-97-collectors-choice-you-crash-the-game-gold",
+          "set_name": "You Crash the Game Gold",
+          "set_display_name": "1996-97 Collector's Choice - You Crash the Game Gold",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-collectors-choice-you-crash-the-game-gold-c5",
+              "base_number": "C5",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Collectors-Choice---You-Crash-the-Game-Gold-C5-Mario-LemieuxFr-placeholder.jpg",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5250/cid/1602412/1996-97-Collector's-Choice-C5-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-1996-97-collectors-choice-you-crash-the-game-gold-c5-1",
+              "base_number": "C5",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5250/cid/1602413/1996-97-Collector's-Choice-C5-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 81.56
+            },
+            {
+              "id": "ml-1996-97-collectors-choice-you-crash-the-game-gold-c5-2",
+              "base_number": "C5",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5250/cid/1602414/1996-97-Collector's-Choice-C5-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
@@ -7489,6 +7827,26 @@
               "inCollection": true
             }
           ]
+        },
+        {
+          "set_key": "1996-97-donruss-canadian-ice-mario-lemieux-scrapbook-autograph",
+          "set_name": "Mario Lemieux Scrapbook Autograph",
+          "set_display_name": "1996-97 Donruss Canadian Ice - Mario Lemieux Scrapbook Autograph",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-donruss-canadian-ice-mario-lemieux-scrapbook-autograph-nno",
+              "base_number": "NNO",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-Autograph-NNO-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-Autograph-NNO-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/411533/cid/1603170/1996-97-Donruss-Canadian-Ice-NNO-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -7752,8 +8110,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 50.01
+              "inCollection": true,
+              "price": 15
             }
           ]
         },
@@ -7880,6 +8238,49 @@
               "print_run": 5000
             }
           ]
+        },
+        {
+          "set_key": "1996-97-leaf-press-proofs",
+          "set_name": "Press Proofs",
+          "set_display_name": "1996-97 Leaf - Press Proofs",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-leaf-press-proofs-84",
+              "base_number": "84",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Leaf---Press-Proofs-84-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Leaf---Press-Proofs-84-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48571/cid/1604024/1996-97-Leaf-84-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 55.36,
+              "location": "US"
+            }
+          ]
+        },
+        {
+          "set_key": "1996-97-leaf-sweaters-home",
+          "set_name": "Sweaters (Home)",
+          "set_display_name": "1996-97 Leaf - Sweaters (Home)",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-leaf-sweaters-home-1",
+              "base_number": "1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Leaf---Sweaters-(Home)-1-Mario-LemieuxFr.jpg",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5257/cid/1604211/1996-97-Leaf-1-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "print_run": 1000
+            }
+          ]
         }
       ]
     },
@@ -7924,6 +8325,28 @@
               "position": "Center",
               "inCollection": false,
               "print_run": 1500
+            }
+          ]
+        },
+        {
+          "set_key": "1996-97-leaf-limited-gold",
+          "set_name": "Gold",
+          "set_display_name": "1996-97 Leaf Limited - Gold",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-leaf-limited-gold-85",
+              "base_number": "85",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Leaf-Limited---Gold-85-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Leaf-Limited---Gold-85-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5290/cid/1604339/1996-97-Leaf-Limited-85-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 55.35,
+              "location": "US"
             }
           ]
         }
@@ -7991,6 +8414,26 @@
               "position": "Center",
               "inCollection": true,
               "price": 12.0
+            }
+          ]
+        },
+        {
+          "set_key": "1996-97-leaf-preferred-vanity-plates-gold",
+          "set_name": "Vanity Plates Gold",
+          "set_display_name": "1996-97 Leaf Preferred - Vanity Plates Gold",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-leaf-preferred-vanity-plates-gold-6",
+              "base_number": "6",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/1996-97-Leaf-Preferred---Vanity-Plates-Gold-6-Mario-LemieuxFr.jpg",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48576/cid/1604705/1996-97-Leaf-Preferred-6-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
@@ -8195,6 +8638,26 @@
               "position": "Center",
               "variant_note": "Premium Stock",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "1996-97-pinnacle-trophies",
+          "set_name": "Trophies",
+          "set_display_name": "1996-97 Pinnacle - Trophies",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-pinnacle-trophies-1",
+              "base_number": "1",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/1996-97-Pinnacle---Trophies-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Pinnacle---Trophies-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5318/cid/1605912/1996-97-Pinnacle-1-Hart-Memorial-Trophy-/-Art-Ross-Trophy-/-Lester-B.-Pearson-Award-(Mario-Lemieux)",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
@@ -8836,6 +9299,46 @@
               "price": 26.0
             }
           ]
+        },
+        {
+          "set_key": "1996-97-select-certified-certified-blue",
+          "set_name": "Certified Blue",
+          "set_display_name": "1996-97 Select Certified - Certified Blue",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-select-certified-certified-blue-10",
+              "base_number": "10",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Select-Certified---Certified-Blue-10-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Select-Certified---Certified-Blue-10-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48604/cid/1607524/1996-97-Select-Certified-10-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "1996-97-select-certified-artists-proofs",
+          "set_name": "Artist's Proofs",
+          "set_display_name": "1996-97 Select Certified - Artist's Proofs",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/48603/1996-97-select-certified-artists-proofs",
+          "cards": [
+            {
+              "id": "ml-1996-97-select-certified-artists-proofs-10",
+              "base_number": "10",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Select-Certified---Artists-Proofs-10-Mario-LemieuxFr.jpg",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48603/cid/1607404/1996-97-Select-Certified-10-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -9204,6 +9707,51 @@
               "price": 16.52
             }
           ]
+        },
+        {
+          "set_key": "1996-97-upper-deck-hart-hopefuls-gold",
+          "set_name": "Hart Hopefuls (Gold)",
+          "set_display_name": "1996-97 Upper Deck - Hart Hopefuls (Gold)",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-upper-deck-hart-hopefuls-gold-hh16",
+              "base_number": "HH16",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/1996-97-Upper-Deck---Hart-Hopefuls-Gold-HH16-Mario-LemieuxFr.jpg",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48623/cid/1609766/1996-97-Upper-Deck-HH16-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "card_type": "numbered",
+              "print_run": 100,
+              "price": 39
+            }
+          ]
+        },
+        {
+          "set_key": "1996-97-upper-deck-lord-stanleys-heroes-semifinals",
+          "set_name": "Lord Stanley's Heroes Semifinals",
+          "set_display_name": "1996-97 Upper Deck - Lord Stanley's Heroes Semifinals",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-upper-deck-lord-stanleys-heroes-semifinals-ls3",
+              "base_number": "LS3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Upper-Deck---Lord-Stanley's-Heroes-Semifinals-LS3-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Upper-Deck---Lord-Stanley's-Heroes-Semifinals-LS3-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48626/cid/1609833/1996-97-Upper-Deck-LS3-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "print_run": 1000,
+              "price": 43
+            }
+          ]
         }
       ]
     },
@@ -9272,6 +9820,26 @@
               "variant_note": "w/ Jaromir Jagr",
               "inCollection": true,
               "price": 35.07
+            }
+          ]
+        },
+        {
+          "set_key": "1996-97-upper-deck-ice-acetate",
+          "set_name": "Acetate",
+          "set_display_name": "1996-97 Upper Deck Ice - Acetate",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5362/1996-97-upper-deck-ice-acetate",
+          "cards": [
+            {
+              "id": "ml-1996-97-upper-deck-ice-acetate-114",
+              "base_number": "114",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/1996-97-Upper-Deck-Ice---Acetate-114-Mario-LemieuxFr.jpg",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5362/cid/1610074/1996-97-Upper-Deck-Ice-114-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
