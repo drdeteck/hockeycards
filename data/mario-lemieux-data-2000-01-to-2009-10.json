@@ -2337,6 +2337,28 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2001-02-pacific-vanguard-quebec-tournament-heroes",
+          "set_name": "Quebec Tournament Heroes",
+          "set_display_name": "2001-02 Pacific Vanguard - Quebec Tournament Heroes",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-vanguard-quebec-tournament-heroes-2",
+              "base_number": "2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50132/cid/1708918/2001-02-Pacific-Vanguard---Quebec-Tournament-Heroes-2-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
       ]
     },
     "2001-02-pacific-private-stock-titanium": {
@@ -5539,6 +5561,27 @@
       ],
       "subsets": [
         {
+          "set_key": "2002-03-upper-deck-artistic-impressions-common-ground",
+          "set_name": "Common Ground",
+          "set_display_name": "2002-03 Upper Deck Artistic Impressions - Common Ground",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-upper-deck-artistic-impressions-common-ground-cg6",
+              "base_number": "CG6",
+              "name": "Lemieux / Nash",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Upper-Deck-Artistic-Impressions---Common-Ground-CG6-Mario-Lemieux--Rick-NashFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Upper-Deck-Artistic-Impressions---Common-Ground-CG6-Mario-Lemieux--Rick-NashBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
           "set_key": "2002-03-upper-deck-artistic-impressions-flashbacks",
           "set_name": "Flashbacks",
           "set_display_name": "2002-03 Upper Deck Artistic Impressions - Flashbacks",
@@ -5570,8 +5613,8 @@
               "base_number": "GD6",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2002-03-Upper-Deck-Artistic-Impressions---Great-Depictions-GD6-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Upper-Deck-Artistic-Impressions---Great-Depictions-GD6-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",

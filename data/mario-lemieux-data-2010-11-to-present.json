@@ -979,6 +979,38 @@
         }
       ]
     },
+    "2013-panini-boxing-day": {
+      "set_key": "2013-panini-boxing-day",
+      "set_name": "Panini Boxing Day",
+      "set_year_label": "2013",
+      "set_year_start": 2013,
+      "set_year_end": 2013,
+      "set_display_name": "2013 Panini Boxing Day",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2013-panini-boxing-day-retired",
+          "set_name": "Retired",
+          "set_display_name": "2013 Panini Boxing Day - Retired",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2013-panini-boxing-day-retired-2",
+              "base_number": "2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2013-Panini-Boxing-Day---Retired-2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2013-Panini-Boxing-Day---Retired-2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2013-14-fleer-showcase": {
       "set_key": "2013-14-fleer-showcase",
       "set_name": "Fleer Showcase",
@@ -1813,6 +1845,29 @@
               "price": 2
             }
           ]
+        }
+      ]
+    },
+    "2014-upper-deck-goodwin-champions": {
+      "set_key": "2014-upper-deck-goodwin-champions",
+      "set_name": "Upper Deck Goodwin Champions",
+      "set_year_label": "2014",
+      "set_year_start": 2014,
+      "set_year_end": 2014,
+      "set_display_name": "2014 Upper Deck Goodwin Champions",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2014-upper-deck-goodwin-champions-114",
+          "base_number": "114",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2014-Upper-Deck-Goodwin-Champions-114-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2014-Upper-Deck-Goodwin-Champions-114-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
