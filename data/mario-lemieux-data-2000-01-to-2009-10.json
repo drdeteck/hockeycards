@@ -1679,6 +1679,28 @@
           "position": "Center",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2001-02-be-a-player-memorabilia-he-shoots-he-scores-points",
+          "set_name": "He Shoots He Scores Points",
+          "set_display_name": "2001-02 Be a Player Memorabilia - He Shoots He Scores Points",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-be-a-player-memorabilia-he-shoots-he-scores-points-nno",
+              "base_number": "NNO",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Be-a-Player-Memorabilia---He-Shoots-He-Scores-Points-NNO-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Be-a-Player-Memorabilia---He-Shoots-He-Scores-Points-NNO-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
       ]
     },
     "2001-02-bowman-youngstars": {
@@ -2582,6 +2604,26 @@
       ],
       "subsets": [
         {
+          "set_key": "2001-02-stadium-club-heart-and-soul",
+          "set_name": "Heart and Soul",
+          "set_display_name": "2001-02 Stadium Club - Heart and Soul",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-stadium-club-heart-and-soul-hs4",
+              "base_number": "HS4",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Stadium-Club---Heart-and-Soul-HS4-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Stadium-Club---Heart-and-Soul-HS4-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
           "set_key": "2001-02-stadium-club-perennials",
           "set_name": "Perennials",
           "set_display_name": "2001-02 Stadium Club - Perennials",
@@ -3256,6 +3298,29 @@
         }
       ]
     },
+    "2001-02-upper-deck-collectors-club": {
+      "set_key": "2001-02-upper-deck-collectors-club",
+      "set_name": "Upper Deck Collector's Club",
+      "set_year_label": "2001-02",
+      "set_year_start": 2001,
+      "set_year_end": 2002,
+      "set_display_name": "2001-02 Upper Deck Collector's Club",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2001-02-upper-deck-collectors-club-nhl5",
+          "base_number": "NHL5",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2001-02-Upper-Deck-Collectors-Club-NHL5-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2001-02-Upper-Deck-Collectors-Club-NHL5-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2001-02-upper-deck-honor-roll": {
       "set_key": "2001-02-upper-deck-honor-roll",
       "set_name": "Upper Deck Honor Roll",
@@ -3731,6 +3796,28 @@
           "position": "Center",
           "inCollection": true,
           "price": 4.0
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-bap-first-edition-he-shoots-he-scores-points",
+          "set_name": "He Shoots He Scores Points",
+          "set_display_name": "2002-03 BAP First Edition - He Shoots He Scores Points",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-bap-first-edition-he-shoots-he-scores-points-nno",
+              "base_number": "NNO",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Be-a-Player-First-Edition---He-Shoots-He-Scores-Points-NNO-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Be-a-Player-First-Edition---He-Shoots-He-Scores-Points-NNO-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -4706,6 +4793,28 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-parkhurst-he-shoots-he-scores-points",
+          "set_name": "He Shoots-He Scores Points",
+          "set_display_name": "2002-03 Parkhurst - He Shoots-He Scores Points",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-parkhurst-he-shoots-he-scores-points-nno",
+              "base_number": "NNO",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Parkhurst---He-Shoots-He-Scores-Points-NNO-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Parkhurst---He-Shoots-He-Scores-Points-NNO-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
