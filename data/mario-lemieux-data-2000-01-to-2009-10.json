@@ -1697,7 +1697,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.99
             }
           ]
         }
@@ -3317,7 +3318,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 3.99
         }
       ]
     },
@@ -3815,7 +3817,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.99
             }
           ]
         }
@@ -3941,7 +3944,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.99
             }
           ]
         }
@@ -4812,7 +4816,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.99
             }
           ]
         }
@@ -4895,8 +4900,9 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false,
-          "print_run": 1499
+          "inCollection": true,
+          "print_run": 1499,
+          "price": 6.99
         }
       ]
     },
@@ -5508,7 +5514,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.99
             }
           ]
         }
@@ -5866,8 +5873,9 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false,
-          "print_run": 999
+          "inCollection": true,
+          "print_run": 999,
+          "price": 9.99
         }
       ]
     },
@@ -8485,7 +8493,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true
+              "inCollection": true,
+              "price": 2.99
             }
           ]
         },
@@ -9088,8 +9097,8 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5786/cid/1135823/2006-07-SP-Game-Used-81-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false,
-          "price": 6
+          "inCollection": true,
+          "price": 1.99
         }
       ]
     },
@@ -9998,8 +10007,9 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false,
-          "print_run": 1499
+          "inCollection": true,
+          "print_run": 1499,
+          "price": 4.99
         }
       ],
       "subsets": []
