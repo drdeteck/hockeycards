@@ -22,6 +22,7 @@ Use this skill for repeat updates where new Mario Lemieux card images are added 
 2. Parse card identity from filename.
 - Filename convention example: `1994-95-Stadium-Club---Finest-1-Mario-LemieuxFr.jpg`
 - Derive: year, set/subset name, and card number (`base_number`).
+- If the source year is a single calendar year instead of a season span (e.g. "2013 Panini Boxing Day"), always convert it to the season span before writing any field. The single year is always the **first** year of the span (e.g. `2013` → `2013-14`, never `2012-13`). Apply this to `set_year_label`, `set_key`, `set_display_name`, card `id`, and image filenames — never mix single years and spans for the same product line.
 
 3. Locate target Mario dataset file.
 - Search all four regular files:
