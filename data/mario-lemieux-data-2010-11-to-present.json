@@ -2796,6 +2796,29 @@
               "price": 3.39
             }
           ]
+        },
+        {
+          "set_key": "2015-16-upper-deck-full-force-dual-force",
+          "set_name": "Dual Force",
+          "set_display_name": "2015-16 Upper Deck Full Force - Dual Force",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2015-16-upper-deck-full-force-dual-force-df-9",
+              "base_number": "DF-9",
+              "card_type": "numbered",
+              "print_run": 649,
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2015-16-Upper-Deck-Full-Force---Dual-Force-DF-9-Jaromir-Jagr--Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-Upper-Deck-Full-Force---Dual-Force-DF-9-Jaromir-Jagr--Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "with Jaromir Jagr",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -4012,6 +4035,8 @@
         {
           "id": "ml-2018-19-upper-deck-artifacts-134",
           "base_number": "134",
+          "card_type": "numbered",
+          "print_run": 599,
           "orientation_front": "portrait",
           "orientation_back": "portrait",
           "image_front": "img/cards/ML66/2018-19-Upper-Deck-Artifacts-134-Mario-LemieuxFr.jpg",
@@ -4091,6 +4116,8 @@
         {
           "id": "ml-2019-20-upper-deck-artifacts-156",
           "base_number": "156",
+          "card_type": "numbered",
+          "print_run": 599,
           "orientation_front": "portrait",
           "orientation_back": "portrait",
           "image_front": "img/cards/ML66/2019-20-Upper-Deck-Artifacts-156-Mario-LemieuxFr.jpg",
