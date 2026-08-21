@@ -4266,6 +4266,28 @@
           ]
         },
         {
+          "set_key": "2002-03-pacific-atomic-hobby-parallel",
+          "set_name": "Hobby Parallel",
+          "set_display_name": "2002-03 Pacific Atomic - Hobby Parallel",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-atomic-hobby-parallel-80",
+              "base_number": "80",
+              "card_type": "numbered",
+              "print_run": 775,
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2002-03-Pacific-Atomic---Hobby-Parallel-80-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Pacific-Atomic---Hobby-Parallel-80-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
           "set_key": "2002-03-pacific-atomic-national-pride-canada",
           "set_name": "National Pride Canada",
           "set_display_name": "2002-03 Pacific Atomic - National Pride Canada",
@@ -4393,6 +4415,28 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-pacific-crown-royale-game-worn-jerseys",
+          "set_name": "Game-Worn Jerseys",
+          "set_display_name": "2002-03 Pacific Crown Royale - Game-Worn Jerseys",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-crown-royale-game-worn-jerseys-16",
+              "base_number": "16",
+              "card_type": "memorabilia",
+              "print_run": 752,
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Game-Worn-Jerseys-16-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Game-Worn-Jerseys-16-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         },
@@ -5261,6 +5305,30 @@
           "position": "Center",
           "inCollection": true,
           "price": 2.04
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-topps-heritage-chrome",
+          "set_name": "Chrome",
+          "set_display_name": "2002-03 Topps Heritage - Chrome",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-topps-heritage-chrome-7",
+              "base_number": "7",
+              "card_type": "numbered",
+              "print_run": 667,
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -6191,6 +6259,40 @@
               "position": "Center",
               "inCollection": false,
               "price": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    "2003-04-in-the-game-vip": {
+      "set_key": "2003-04-in-the-game-vip",
+      "set_name": "In The Game VIP",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 In The Game VIP",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2003-04-in-the-game-vip-collages",
+          "set_name": "Collages",
+          "set_display_name": "2003-04 In The Game VIP - Collages",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-in-the-game-vip-collages-nno",
+              "base_number": "NNO",
+              "card_type": "numbered",
+              "print_run": 6000,
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
@@ -9041,6 +9143,31 @@
         }
       ]
     },
+    "2005-06-upper-deck-ultimate-collection": {
+      "set_key": "2005-06-upper-deck-ultimate-collection",
+      "set_name": "Upper Deck Ultimate Collection",
+      "set_year_label": "2005-06",
+      "set_year_start": 2005,
+      "set_year_end": 2006,
+      "set_display_name": "2005-06 Upper Deck Ultimate Collection",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2005-06-upper-deck-ultimate-collection-71",
+          "base_number": "71",
+          "card_type": "numbered",
+          "print_run": 599,
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2005-06-Upper-Deck-Ultimate-Collection-71-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2005-06-Upper-Deck-Ultimate-Collection-71-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2006-07-fleer-hockey-headliners": {
       "set_key": "2006-07-fleer-hockey-headliners",
       "set_name": "Fleer Hockey Headliners",
@@ -10009,6 +10136,31 @@
         }
       ],
       "subsets": []
+    },
+    "2006-07-upper-deck-ultimate-collection": {
+      "set_key": "2006-07-upper-deck-ultimate-collection",
+      "set_name": "Upper Deck Ultimate Collection",
+      "set_year_label": "2006-07",
+      "set_year_start": 2006,
+      "set_year_end": 2007,
+      "set_display_name": "2006-07 Upper Deck Ultimate Collection",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2006-07-upper-deck-ultimate-collection-49",
+          "base_number": "49",
+          "card_type": "numbered",
+          "print_run": 699,
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
     },
     "2007-08-fleer-hot-prospects": {
       "set_key": "2007-08-fleer-hot-prospects",
