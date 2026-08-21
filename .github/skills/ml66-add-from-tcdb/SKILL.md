@@ -43,6 +43,8 @@ Use this skill to fetch card metadata from a `tcdb.com/ViewCard.cfm/...` URL and
 
 **Year label** — extract "YYYY-YY" prefix from full set name (e.g. "2002-03 Topps - Coast to Coast" → `"2002-03"`).
 
+**Single-year fallback** — if the full set name / TCDB listing has a single calendar year instead of a season span (e.g. "2013 Panini Boxing Day"), always convert it to the season span before deriving any other field. The single year is always the **first** year of the span (e.g. `2013` → `"2013-14"`, never `"2012-13"`). Never write a bare single year into `set_year_label`, `set_key`, `set_display_name`, card `id`, or image filenames — this avoids having both single years and spans for the same product line across pages.
+
 **Year start / year end** — split year label integers (e.g. `"2002-03"` → `set_year_start: 2002`, `set_year_end: 2003`).
 
 **Is subset?** — the card is in a subset if the full set name contains ` - ` after removing the "YYYY-YY " prefix (e.g. "2002-03 Topps - Coast to Coast" has " - " → it is a subset of "2002-03 Topps").
@@ -186,6 +188,7 @@ Hardcoded / defaulted values:
 - Treat filenames ending in `-placeholder` as temporary, non-official Chase images.
 - Keep `-placeholder` images in Chase entries; when moving a card from Chase to a regular dataset, replace placeholder images with refreshed official images and update `image_front`/`image_back`.
 - If the player on the TCDB page is not Mario Lemieux, warn the user before proceeding.
+- Never label a set with a single calendar year; always fall back to the season span (single year = first year of the span, e.g. `2013` → `2013-14`, not `2012-13`).
 - If slugification of the set name is ambiguous (e.g. unusual punctuation), show the derived keys to the user and ask for confirmation before writing.
 
 ## Card Schema Reference

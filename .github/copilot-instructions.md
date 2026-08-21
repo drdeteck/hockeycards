@@ -41,6 +41,7 @@ Each dataset is a JSON file loaded at runtime from `app.js`:
 - Use **2-space indentation** for all JSON files in `/data/`
 - Use standard spacing with one space after `:`
 - Keep Mario `sets` ordered by `set_year_label`, then `set_name`, then `set_key`
+- **Always use a hockey season year span, never a single year.** Hockey card sets are labeled with a season (e.g. `"2013-14"`), even when the manufacturer/TCDB lists a single calendar year (e.g. `"2013"`). If a single year is encountered when importing a card (TCDB, checklist, etc.), convert it to a span before writing any field: the single year is always the **first** year of the span (e.g. `2013` → `"2013-14"`, not `"2012-13"`). Apply this to `set_year_label`, `set_year_start`/`set_year_end`, `set_display_name`, `set_key`, subset `set_key`/`set_display_name`, card `id`, and image filenames. This keeps single years and spans from both appearing across pages for the same product line.
 
 ### Image Files (`/img/cards/`)
 

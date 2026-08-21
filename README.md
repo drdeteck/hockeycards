@@ -154,6 +154,8 @@ Stores a JSON object keyed by `set_key`. Set-level attributes live on the set; c
 
 Stores dataset metadata plus a `sets` object across three split JSON files. Each set carries its own attributes and a `cards` array. Cards with a distinct subset name are grouped under a `subsets` array on their parent set. `app.js` loads all three files, merges their `sets`, and builds per-year virtual collections at runtime via `BuildMarioCollections()`:
 
+> **Year labeling rule:** Sets must always use a hockey season year span (e.g. `"2013-14"`), never a single calendar year (e.g. `"2013"`), even if the manufacturer or TCDB lists a single year. When importing a card whose source lists a single year, convert it to a span before writing any field — the single year is always the **first** year of the span (e.g. `2013` → `"2013-14"`, not `"2012-13"`). This applies to `set_year_label`, `set_year_start`/`set_year_end`, `set_display_name`, `set_key`, subset keys/names, card `id`, and image filenames, so single years and spans never both appear for the same product line.
+
 ```js
 {
   "dataset": "mario-lemieux",
