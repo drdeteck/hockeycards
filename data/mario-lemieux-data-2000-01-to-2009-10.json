@@ -2356,7 +2356,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50132/cid/1708918/2001-02-Pacific-Vanguard---Quebec-Tournament-Heroes-2-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.12
             }
           ]
         }
@@ -2642,7 +2643,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.12
             }
           ]
         },
@@ -5625,7 +5627,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.37
             }
           ]
         }
@@ -7686,7 +7689,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.37
             }
           ]
         }
