@@ -910,17 +910,17 @@
                 }
             ]
         },
-        "1993-sports-illustrated-for-kids": {
-            "set_key": "1993-sports-illustrated-for-kids",
+        "1993-94-sports-illustrated-for-kids": {
+            "set_key": "1993-94-sports-illustrated-for-kids",
             "set_name": "Sports Illustrated for Kids",
-            "set_year_label": "1993",
+            "set_year_label": "1993-94",
             "set_year_start": 1993,
-            "set_year_end": 1993,
-            "set_display_name": "1993 Sports Illustrated for Kids",
+            "set_year_end": 1994,
+            "set_display_name": "1993-94 Sports Illustrated for Kids",
             "set_tcdb_href": "",
             "cards": [
                 {
-                    "id": "ml-sticker-1993-sports-illustrated-for-kids-125",
+                    "id": "ml-sticker-1993-94-sports-illustrated-for-kids-125",
                     "base_number": "125",
                     "orientation_front": "portrait",
                     "orientation_back": "portrait",
@@ -969,6 +969,30 @@
                     "card_type": "sticker",
                     "inCollection": true,
                     "price": 0.99
+                }
+            ]
+        },
+        "1993-94-seasons-patches": {
+            "set_key": "1993-94-seasons-patches",
+            "set_name": "Seasons Patches",
+            "set_year_label": "1993-94",
+            "set_year_start": 1993,
+            "set_year_end": 1994,
+            "set_display_name": "1993-94 Seasons Patches",
+            "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/190550/1993-94-Seasons-Patches",
+            "cards": [
+                {
+                    "id": "ml-sticker-1993-94-seasons-patches-9",
+                    "base_number": "9",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1993-94-Seasons-Patches-9-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1993-94-Seasons-Patches-9-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/190550/cid/12016860/1993-94-Seasons-Patches-9-Mario-Lemieux",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "patch ",
+                    "inCollection": false
                 }
             ]
         },

@@ -6676,7 +6676,7 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5690/cid/1287658/2003-04-Pacific-Invincible-78-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true,
+          "inCollection": false,
           "price": 2.07
         }
       ],
