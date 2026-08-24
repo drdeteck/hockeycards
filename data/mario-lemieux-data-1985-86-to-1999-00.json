@@ -1324,6 +1324,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "card_type": "autograph",
+          "excludeFromBinder": true,
           "print_run": 2000,
           "inCollection": false
         },
@@ -1337,7 +1338,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true
         },
         {
           "id": "ml-1992-93-classic-draft-picks-sp1",
@@ -3458,7 +3459,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.0
         },
         {
           "id": "ml-1993-94-topps-premier-220",
@@ -7735,8 +7737,8 @@
           "set_tcdb_href": "",
           "cards": [
             {
-              "id": "ml-1996-97-collectors-choice-you-crash-the-game-gold-c5",
-              "base_number": "C5",
+              "id": "ml-1996-97-collectors-choice-you-crash-the-game-gold-c5a",
+              "base_number": "C5a",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/1996-97-Collectors-Choice---You-Crash-the-Game-Gold-C5-Mario-LemieuxFr-placeholder.jpg",
@@ -7744,11 +7746,13 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5250/cid/1602412/1996-97-Collector's-Choice-C5-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "variant_note": "Chicago",
+              "inCollection": true,
+              "price": 14.48
             },
             {
-              "id": "ml-1996-97-collectors-choice-you-crash-the-game-gold-c5-1",
-              "base_number": "C5",
+              "id": "ml-1996-97-collectors-choice-you-crash-the-game-gold-c5b",
+              "base_number": "C5b",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
               "image_front": "",
@@ -7756,12 +7760,13 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5250/cid/1602413/1996-97-Collector's-Choice-C5-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
+              "variant_note": "Colorado",
               "inCollection": false,
               "price": 81.56
             },
             {
-              "id": "ml-1996-97-collectors-choice-you-crash-the-game-gold-c5-2",
-              "base_number": "C5",
+              "id": "ml-1996-97-collectors-choice-you-crash-the-game-gold-c5c",
+              "base_number": "C5c",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
               "image_front": "",
@@ -7769,6 +7774,7 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5250/cid/1602414/1996-97-Collector's-Choice-C5-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
+              "variant_note": "Edmonton",
               "inCollection": false
             }
           ]
@@ -8250,6 +8256,7 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/411533/cid/1603170/1996-97-Donruss-Canadian-Ice-NNO-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
+              "excludeFromBinder": true,
               "inCollection": false
             }
           ]
@@ -8295,6 +8302,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
+              "print_run": 1996,
               "inCollection": true
             },
             {
@@ -8307,6 +8315,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
+              "print_run": 1996,
               "inCollection": true
             },
             {
@@ -8319,6 +8328,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
+              "print_run": 1996,
               "inCollection": true,
               "price": 13.99
             },
@@ -8347,6 +8357,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
+              "print_run": 1996,
               "inCollection": true,
               "price": 10
             },
@@ -8360,6 +8371,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
+              "print_run": 1996,
               "inCollection": true,
               "price": 15.63
             }
@@ -10972,8 +10984,8 @@
             {
               "id": "ml-1999-00-upper-deck-retro-turn-of-the-century-tc13",
               "base_number": "TC13",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "",
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49499/cid/1668917/1999-00-Upper-Deck-Retro---Turn-of-the-Century-TC13-Mario-Lemieux",
