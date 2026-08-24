@@ -721,7 +721,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true
+              "inCollection": true,
+              "price": 5.55
             },
             {
               "id": "ml-2000-01-topps-mario-lemieux-reprints-2",
@@ -1087,7 +1088,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5.5
             },
             {
               "id": "ml-2000-01-topps-chrome-mlr-7",
@@ -1135,7 +1137,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5.5
             },
             {
               "id": "ml-2000-01-topps-chrome-mlr-11",
@@ -1159,7 +1162,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5.5
             },
             {
               "id": "ml-2000-01-topps-chrome-mlr-13",
@@ -1183,7 +1187,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5.5
             },
             {
               "id": "ml-2000-01-topps-chrome-mlr-15",
@@ -2927,7 +2932,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5.5
             },
             {
               "id": "ml-2001-02-topps-chrome-mlr-2",
@@ -2939,7 +2945,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5.5
             },
             {
               "id": "ml-2001-02-topps-chrome-mlr-3",
@@ -2951,7 +2958,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5.5
             },
             {
               "id": "ml-2001-02-topps-chrome-mlr-4",
@@ -2989,7 +2997,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5.5
             },
             {
               "id": "ml-2001-02-topps-chrome-mlr-7",
@@ -3001,7 +3010,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5.5
             },
             {
               "id": "ml-2001-02-topps-chrome-mlr-8",
@@ -3013,7 +3023,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5.5
             },
             {
               "id": "ml-2001-02-topps-chrome-mlr-9",
@@ -3025,7 +3036,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5.5
             },
             {
               "id": "ml-2001-02-topps-chrome-mlr-10",
