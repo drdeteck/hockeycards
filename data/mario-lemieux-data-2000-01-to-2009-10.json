@@ -4448,6 +4448,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
+              "excludeFromBinder": true,
               "inCollection": false
             }
           ]
@@ -8233,7 +8234,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         }
@@ -9278,8 +9279,8 @@
           "base_number": "81",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
-          "image_front": "",
-          "image_back": "",
+          "image_front": "img/cards/ML66/2006-07-SP-Game-Used-81-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2006-07-SP-Game-Used-81-Mario-LemieuxBk.jpg",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5786/cid/1135823/2006-07-SP-Game-Used-81-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
@@ -9746,8 +9747,8 @@
               "base_number": "570",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2008-09-O-Pee-Chee---Gold-570-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2008-09-O-Pee-Chee---Gold-570-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48314/cid/1573225/2008-09-O-Pee-Chee-570-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
