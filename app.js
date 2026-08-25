@@ -1013,7 +1013,7 @@ function DataViewModel() {
     self.CardFilenamePrefixCopied = ko.observable(false);
     self.BinderPageIndex = ko.observable(0);
     self.BinderSelectedYearKey = ko.observable('');
-    self.BinderActiveRoute = ko.observable('binder-ml');
+    self.BinderActiveRoute = ko.observable('binder-ml-1');
     self.IsSyncingBinderYearSelect = false;
     // 'off' | 'owned' | 'wish'
     self.CollectionOverlayMode = ko.observable('owned');
@@ -1841,22 +1841,34 @@ function DataViewModel() {
             });
         }
 
-        if (activeRoute === 'binder-ml') {
+        if (activeRoute === 'binder-ml-1' || activeRoute === 'binder-ml') {
             var allCollection = data['ML-all'];
             if (!allCollection) { return []; }
             var mlCards = (allCollection.cards || []).filter(function (c) {
-                return parseInt(c.set_year_start, 10) < 2000;
+                var yearStart = parseInt(c.set_year_start, 10) || 0;
+                return yearStart >= 1985 && yearStart <= 1996;
             });
             return buildGroupEntries(mlCards, true);
         }
 
-        if (activeRoute === 'binder-ml-2000') {
+        if (activeRoute === 'binder-ml-2') {
             var allCollection2 = data['ML-all'];
             if (!allCollection2) { return []; }
             var mlCards2 = (allCollection2.cards || []).filter(function (c) {
-                return parseInt(c.set_year_start, 10) >= 2000;
+                var yearStart = parseInt(c.set_year_start, 10) || 0;
+                return yearStart >= 1997 && yearStart <= 2005;
             });
             return buildGroupEntries(mlCards2, false);
+        }
+
+        if (activeRoute === 'binder-ml-3') {
+            var allCollection3 = data['ML-all'];
+            if (!allCollection3) { return []; }
+            var mlCards3 = (allCollection3.cards || []).filter(function (c) {
+                var yearStart = parseInt(c.set_year_start, 10) || 0;
+                return yearStart >= 2006;
+            });
+            return buildGroupEntries(mlCards3, false);
         }
 
         if (activeRoute === 'binder-stickers') {
@@ -2431,7 +2443,7 @@ function DataViewModel() {
         }
 
         var route = (self.CurrentRoute() || '').toString().toLowerCase();
-        if (route === 'about' || route === 'binder-ml' || route === 'binder-ml-2000' || route === 'binder-stickers' || route === 'binder-mcd') {
+        if (route === 'about' || route === 'binder-ml' || route === 'binder-ml-1' || route === 'binder-ml-2' || route === 'binder-ml-3' || route === 'binder-ml-2000' || route === 'binder-stickers' || route === 'binder-mcd') {
             return false;
         }
 
@@ -2749,11 +2761,12 @@ function DataViewModel() {
         self.CardRouteError('');
         self.ShowAllSetCards(false);
 
-        var isBinderRoute = hash === 'binder-ml' || hash === 'binder-ml-2000' || hash === 'binder-stickers' || hash === 'binder-mcd';
+        var normalizedHash = hash === 'binder-ml' ? 'binder-ml-1' : hash;
+        var isBinderRoute = normalizedHash === 'binder-ml-1' || normalizedHash === 'binder-ml-2' || normalizedHash === 'binder-ml-3' || normalizedHash === 'binder-stickers' || normalizedHash === 'binder-mcd';
         self.RouteType(hash === 'about' ? 'about' : (hash === 'home' ? 'home' : (isBinderRoute ? 'binder' : 'collection')));
 
         if (isBinderRoute) {
-            self.BinderActiveRoute(hash);
+            self.BinderActiveRoute(normalizedHash);
             self.BinderPageIndex(0);
         }
 
