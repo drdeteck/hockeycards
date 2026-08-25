@@ -55,8 +55,8 @@
                 {
                     "id": "ml-sticker-1985-86-7-eleven-nhl-collectors-series-15",
                     "base_number": "15",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
+                    "orientation_front": "landscape",
+                    "orientation_back": "landscape",
                     "image_front": "img/cards/ML66/Stickers/1985-86-7-Eleven-NHL-Collectors-Series-15-Mario-Lemieux--Mike-BullardFr.jpg",
                     "image_back": "img/cards/ML66/Stickers/1985-86-7-Eleven-NHL-Collectors-Series-15-Mario-Lemieux--Mike-BullardBk.jpg",
                     "tcdb_href": "",
@@ -442,13 +442,13 @@
                 }
             ]
         },
-        "1989-sports-illustrated-for-kids": {
-            "set_key": "1989-sports-illustrated-for-kids",
+        "1989-90-sports-illustrated-for-kids": {
+            "set_key": "1989-90-sports-illustrated-for-kids",
             "set_name": "Sports Illustrated for Kids",
-            "set_year_label": "1989",
+            "set_year_label": "1989-90",
             "set_year_start": 1989,
-            "set_year_end": 1989,
-            "set_display_name": "1989 Sports Illustrated for Kids",
+            "set_year_end": 1990,
+            "set_display_name": "1989-90 Sports Illustrated for Kids",
             "set_tcdb_href": "",
             "cards": [
                 {
@@ -718,13 +718,13 @@
                 }
             ]
         },
-        "1991-legends-sports-memorabilia": {
-            "set_key": "1991-legends-sports-memorabilia",
+        "1991-92-legends-sports-memorabilia": {
+            "set_key": "1991-92-legends-sports-memorabilia",
             "set_name": "Legends Sports Memorabilia",
-            "set_year_label": "1991",
+            "set_year_label": "1991-92",
             "set_year_start": 1991,
-            "set_year_end": 1991,
-            "set_display_name": "1991 Legends Sports Memorabilia",
+            "set_year_end": 1992,
+            "set_display_name": "1991-92 Legends Sports Memorabilia",
             "set_tcdb_href": "",
             "cards": [
                 {
@@ -742,13 +742,13 @@
                 }
             ]
         },
-        "1991-sports-educational-magazine": {
-            "set_key": "1991-sports-educational-magazine",
+        "1991-92-sports-educational-magazine": {
+            "set_key": "1991-92-sports-educational-magazine",
             "set_name": "Sports Educational Magazine",
-            "set_year_label": "1991",
+            "set_year_label": "1991-92",
             "set_year_start": 1991,
-            "set_year_end": 1991,
-            "set_display_name": "1991 Sports Educational Magazine",
+            "set_year_end": 1992,
+            "set_display_name": "1991-92 Sports Educational Magazine",
             "set_tcdb_href": "",
             "cards": [
                 {
@@ -815,8 +815,8 @@
                 }
             ]
         },
-        "1992-american-sports-monthly-unlicensed": {
-            "set_key": "1992-american-sports-monthly-unlicensed",
+        "1992-93-american-sports-monthly-unlicensed": {
+            "set_key": "1992-93-american-sports-monthly-unlicensed",
             "set_name": "American Sports Monthly (unlicensed)",
             "set_year_label": "1992-93",
             "set_year_start": 1992,
@@ -839,13 +839,13 @@
                 }
             ]
         },
-        "1992-cartwrights-players-choice": {
-            "set_key": "1992-cartwrights-players-choice",
+        "1992-93-cartwrights-players-choice": {
+            "set_key": "1992-93-cartwrights-players-choice",
             "set_name": "Cartwrights Players Choice",
-            "set_year_label": "1992",
+            "set_year_label": "1992-93",
             "set_year_start": 1992,
-            "set_year_end": 1992,
-            "set_display_name": "1992 Cartwrights Players Choice",
+            "set_year_end": 1993,
+            "set_display_name": "1992-93 Cartwrights Players Choice",
             "set_tcdb_href": "",
             "cards": [
                 {
@@ -1117,13 +1117,13 @@
                 }
             ]
         },
-        "1995-panini-world-championship-stickers": {
-            "set_key": "1995-panini-world-championship-stickers",
+        "1995-96-panini-world-championship-stickers": {
+            "set_key": "1995-96-panini-world-championship-stickers",
             "set_name": "Panini Hockey '95 World Championship Stickers",
-            "set_year_label": "1995",
+            "set_year_label": "1995-96",
             "set_year_start": 1995,
-            "set_year_end": 1995,
-            "set_display_name": "1995 Panini Hockey '95 World Championship Stickers",
+            "set_year_end": 1996,
+            "set_display_name": "1995-96 Panini Hockey '95 World Championship Stickers",
             "set_tcdb_href": "",
             "cards": [
                 {
@@ -1265,13 +1265,13 @@
                 }
             ]
         },
-        "1996-metallic-impressions-super-mario": {
-            "set_key": "1996-metallic-impressions-super-mario",
+        "1996-97-metallic-impressions-super-mario": {
+            "set_key": "1996-97-metallic-impressions-super-mario",
             "set_name": "Metallic Impressions Super Mario!",
-            "set_year_label": "1996",
+            "set_year_label": "1996-97",
             "set_year_start": 1996,
-            "set_year_end": 1996,
-            "set_display_name": "1996 Metallic Impressions Super Mario!",
+            "set_year_end": 1997,
+            "set_display_name": "1996-97 Metallic Impressions Super Mario!",
             "set_tcdb_href": "",
             "cards": [
                 {
@@ -1351,13 +1351,13 @@
                 }
             ]
         },
-        "1996-semic-collections-wien-96": {
-            "set_key": "1996-semic-collections-wien-96",
+        "1996-97-semic-collections-wien-96": {
+            "set_key": "1996-97-semic-collections-wien-96",
             "set_name": "Semic Collections Wien 96",
-            "set_year_label": "1996",
+            "set_year_label": "1996-97",
             "set_year_start": 1996,
-            "set_year_end": 1996,
-            "set_display_name": "1996 Semic Collections Wien 96",
+            "set_year_end": 1997,
+            "set_display_name": "1996-97 Semic Collections Wien 96",
             "set_tcdb_href": "",
             "cards": [
                 {
@@ -1450,13 +1450,13 @@
                 }
             ]
         },
-        "2002-coca-cola-team-canada-coins": {
-            "set_key": "2002-coca-cola-team-canada-coins",
+        "2002-03-coca-cola-team-canada-coins": {
+            "set_key": "2002-03-coca-cola-team-canada-coins",
             "set_name": "Coca-Cola Team Canada Coins",
-            "set_year_label": "2002",
+            "set_year_label": "2002-03",
             "set_year_start": 2002,
-            "set_year_end": 2002,
-            "set_display_name": "2002 Coca-Cola Team Canada Coins",
+            "set_year_end": 2003,
+            "set_display_name": "2002-03 Coca-Cola Team Canada Coins",
             "set_tcdb_href": "",
             "cards": [
                 {
