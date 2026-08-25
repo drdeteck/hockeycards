@@ -2867,7 +2867,7 @@
       "set_tcdb_href": "",
       "cards": [
         {
-          "id": "ml-1993-94-pinnacle-221",
+          "id": "ml-1993-94-pinnacle-canadian-221",
           "base_number": "221",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
@@ -2879,7 +2879,7 @@
           "inCollection": true
         },
         {
-          "id": "ml-1993-94-pinnacle-230",
+          "id": "ml-1993-94-pinnacle-canadian-230",
           "base_number": "230",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
@@ -2891,7 +2891,7 @@
           "inCollection": true
         },
         {
-          "id": "ml-1993-94-pinnacle-310",
+          "id": "ml-1993-94-pinnacle-canadian-310",
           "base_number": "310",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
@@ -3038,7 +3038,7 @@
       "set_tcdb_href": "",
       "cards": [
         {
-          "id": "ml-1993-94-score-350",
+          "id": "ml-1993-94-score-canadian-350",
           "base_number": "350",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
@@ -3050,7 +3050,7 @@
           "inCollection": true
         },
         {
-          "id": "ml-1993-94-score-479",
+          "id": "ml-1993-94-score-canadian-479",
           "base_number": "479",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
@@ -3062,7 +3062,7 @@
           "inCollection": true
         },
         {
-          "id": "ml-1993-94-score-480",
+          "id": "ml-1993-94-score-canadian-480",
           "base_number": "480",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
@@ -3074,7 +3074,7 @@
           "inCollection": true
         },
         {
-          "id": "ml-1993-94-score-452",
+          "id": "ml-1993-94-score-canadian-452",
           "base_number": "452",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
@@ -3088,13 +3088,13 @@
       ],
       "subsets": [
         {
-          "set_key": "1993-94-score-dream-team",
+          "set_key": "1993-94-score-canadian-dream-team",
           "set_name": "Dream Team",
-          "set_display_name": "1993-94 Score - Dream Team",
+          "set_display_name": "1993-94 Score - Canadian Dream Team",
           "set_tcdb_href": "",
           "cards": [
             {
-              "id": "ml-1993-94-score-dream-team-10",
+              "id": "ml-1993-94-score-canadian-dream-team-10",
               "base_number": "10",
               "orientation_front": "landscape",
               "orientation_back": "landscape",
@@ -3109,13 +3109,13 @@
           ]
         },
         {
-          "set_key": "1993-94-score-dynamic-duos",
+          "set_key": "1993-94-score-canadian-dynamic-duos",
           "set_name": "Dynamic Duos",
-          "set_display_name": "1993-94 Score - Dynamic Duos",
+          "set_display_name": "1993-94 Score Canadian - Dynamic Duos",
           "set_tcdb_href": "",
           "cards": [
             {
-              "id": "ml-1993-94-score-dynamic-duos-DD8",
+              "id": "ml-1993-94-score-canadian-dynamic-duos-DD8",
               "base_number": "DD8",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
