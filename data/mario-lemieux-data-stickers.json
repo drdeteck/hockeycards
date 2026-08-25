@@ -43,6 +43,31 @@
                 }
             ]
         },
+        "1985-86-7-eleven-nhl-collectors-series": {
+            "set_key": "1985-86-7-eleven-nhl-collectors-series",
+            "set_name": "7-Eleven NHL Collectors Series",
+            "set_year_label": "1985-86",
+            "set_year_start": 1985,
+            "set_year_end": 1986,
+            "set_display_name": "1985-86 7-Eleven NHL Collectors Series",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1985-86-7-eleven-nhl-collectors-series-15",
+                    "base_number": "15",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1985-86-7-Eleven-NHL-Collectors-Series-15-Mario-Lemieux--Mike-BullardFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1985-86-7-Eleven-NHL-Collectors-Series-15-Mario-Lemieux--Mike-BullardBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "variant_note": "with Mike Bullard",
+                    "card_type": "sticker",
+                    "inCollection": true
+                }
+            ]
+        },
         "1986-87-opc-stickers": {
             "set_key": "1986-87-opc-stickers",
             "set_name": "O-Pee-Chee Stickers",
@@ -632,6 +657,30 @@
                 }
             ]
         },
+        "1990-91-kraft": {
+            "set_key": "1990-91-kraft",
+            "set_name": "Kraft",
+            "set_year_label": "1990-91",
+            "set_year_start": 1990,
+            "set_year_end": 1991,
+            "set_display_name": "1990-91 Kraft",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1990-91-kraft-29",
+                    "base_number": "29",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1990-91-Kraft-29-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1990-91-Kraft-29-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": true
+                }
+            ]
+        },
         "1990-91-panini-stickers": {
             "set_key": "1990-91-panini-stickers",
             "set_name": "Panini Stickers",
@@ -758,6 +807,30 @@
                     "orientation_back": "portrait",
                     "image_front": "img/cards/ML66/Stickers/1991-92-Panini-Stickers-268-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/Stickers/1991-92-Panini-Stickers-268-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": true
+                }
+            ]
+        },
+        "1992-american-sports-monthly-unlicensed": {
+            "set_key": "1992-american-sports-monthly-unlicensed",
+            "set_name": "American Sports Monthly (unlicensed)",
+            "set_year_label": "1992-93",
+            "set_year_start": 1992,
+            "set_year_end": 1993,
+            "set_display_name": "1992-93 American Sports Monthly (unlicensed)",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1992-american-sports-monthly-unlicensed-nno",
+                    "base_number": "NNO",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1992-American-Sports-Monthly-unlicensed--NNO-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1992-American-Sports-Monthly-unlicensed--NNO-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
