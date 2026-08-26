@@ -2021,6 +2021,30 @@
         }
       ]
     },
+    "2001-02-pacific-montreal-collectors-international": {
+      "set_key": "2001-02-pacific-montreal-collectors-international",
+      "set_name": "Montreal Collector's International",
+      "set_year_label": "2001-02",
+      "set_year_start": 2001,
+      "set_year_end": 2002,
+      "set_display_name": "2001-02 Pacific - Montreal Collector's International",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2001-02-pacific-montreal-collectors-international-8",
+          "base_number": "8",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
+          "image_front": "img/cards/ML66/2001-Pacific-Montreal-Collector's-International-8-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2001-Pacific-Montreal-Collector's-International-8-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "print_run": 499,
+          "inCollection": false
+        }
+      ]
+    },
     "2001-02-pacific-adrenaline": {
       "set_key": "2001-02-pacific-adrenaline",
       "set_name": "Pacific Adrenaline",
@@ -4595,6 +4619,19 @@
       "set_tcdb_href": "",
       "cards": [
         {
+          "id": "ml-2002-03-pacific-prism-platinum-mcdonalds-10",
+          "base_number": "10",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2002-03-Pacific-Prism-Platinum-McDonald's-10-Mario-Lemieux--Simon-GagneFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Pacific-Prism-Platinum-McDonald's-10-Mario-Lemieux--Simon-GagneBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 0.99
+        },
+        {
           "id": "ml-2002-03-pacific-prism-platinum-mcdonalds-32",
           "base_number": "32",
           "orientation_front": "portrait",
@@ -5229,6 +5266,7 @@
           "set_key": "2002-03-titanium-blue",
           "set_name": "Blue",
           "set_display_name": "2002-03 Pacific Private Stock Titanium - Blue",
+          "set_type": "parallel",
           "set_tcdb_href": "",
           "cards": [
             {
@@ -5245,6 +5283,28 @@
               "print_run": 450,
               "inCollection": true,
               "price": 4.5
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-titanium-retail",
+          "set_name": "Retail",
+          "set_display_name": "2002-03 Pacific Private Stock Titanium - Retail",
+          "set_type": "parallel",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-titanium-retail-82",
+              "base_number": "82",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50594/cid/1730347/2002-03-Pacific-Private-Stock-Titanium---Retail-82-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 1.95
             }
           ]
         }
@@ -5712,6 +5772,27 @@
               "price": 1.37
             }
           ]
+        },
+        {
+          "set_key": "2002-03-upper-deck-artistic-impressions-retrospectives",
+          "set_name": "Retrospectives",
+          "set_display_name": "2002-03 Upper Deck Artistic Impressions - Retrospectives",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-upper-deck-artistic-impressions-retrospectives-r72",
+              "base_number": "R72",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50735/cid/1736008/2002-03-Upper-Deck-Artistic-Impressions-R72-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 1.00
+            }
+          ]
         }
       ]
     },
@@ -5833,8 +5914,8 @@
           "variant_note": "Teammates - Mario Lemieux / Johan Hedberg",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
-          "image_front": "",
-          "image_back": "",
+          "image_front": "img/cards/ML66/2002-03-Upper-Deck-Mask-Collection-70-Mario-Lemieux--Johan-HedbergFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-Upper-Deck-Mask-Collection-70-Mario-Lemieux--Johan-HedbergBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
@@ -6213,6 +6294,27 @@
         }
       ],
       "subsets": [
+        {
+          "set_key": "2003-04-in-the-game-action-homeboys",
+          "set_name": "Homeboys",
+          "set_display_name": "2003-04 In The Game Action - Homeboys",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-in-the-game-action-homeboys-hb-10",
+              "base_number": "HB-10",
+              "variant_note": "Martin Brodeur / Mario Lemieux",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2003-04-In-The-Game-Action---Homeboys-HB-10-Martin-Brodeur--Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-In-The-Game-Action---Homeboys-HB-10-Martin-Brodeur--Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
         {
           "set_key": "2003-04-in-the-game-action-center-of-attention",
           "set_name": "Center of Attention",
@@ -7918,7 +8020,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 14.99
             }
           ]
         },
@@ -10009,6 +10112,29 @@
               "excludeFromBinder": true
             }
           ]
+        }
+      ]
+    },
+    "2009-10-upper-deck-national-hockey-card-day": {
+      "set_key": "2009-10-upper-deck-national-hockey-card-day",
+      "set_name": "Upper Deck National Hockey Card Day",
+      "set_year_label": "2009-10",
+      "set_year_start": 2009,
+      "set_year_end": 2010,
+      "set_display_name": "2009-10 Upper Deck National Hockey Card Day",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "base_number": "NHCD12",
+          "id": "ml-2009-10-upper-deck-national-hockey-card-day-nhcd12",
+          "image_back": "img/cards/ML66/2009-Upper-Deck-National-Hockey-Card-Day-HCD12-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2009-Upper-Deck-National-Hockey-Card-Day-HCD12-Mario-LemieuxFr.jpg",
+          "inCollection": false,
+          "orientation_back": "portrait",
+          "orientation_front": "portrait",
+          "position": "Center",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins"
         }
       ]
     },

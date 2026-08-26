@@ -3950,6 +3950,111 @@
         }
       ]
     },
+    "2017-18-upper-deck-team-canada": {
+      "set_key": "2017-18-upper-deck-team-canada",
+      "set_name": "Upper Deck Team Canada",
+      "set_year_label": "2017-18",
+      "set_year_start": 2017,
+      "set_year_end": 2018,
+      "set_display_name": "2017-18 Upper Deck Team Canada",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2017-18-upper-deck-team-canada-133",
+          "base_number": "133",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada-133-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada-133-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2017-18-upper-deck-team-canada-retro",
+          "set_name": "Retro",
+          "set_display_name": "2017-18 Upper Deck Team Canada - Retro",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-upper-deck-team-canada-retro-r-10",
+              "base_number": "R-10",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada---Retro-R-10-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada---Retro-R-10-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2017-18-upper-deck-team-canada-clear-cut-program-of-excellence",
+          "set_name": "Clear Cut Program of Excellence",
+          "set_display_name": "2017-18 Upper Deck Team Canada - Clear Cut Program of Excellence",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-upper-deck-team-canada-clear-cut-program-of-excellence-poe-21",
+              "base_number": "POE-21",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada---Clear-Cut-Program-of-Excellence-POE-21-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada---Clear-Cut-Program-of-Excellence-POE-21-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2017-18-upper-deck-team-canada-team-canada-canvas",
+          "set_name": "Team Canada Canvas",
+          "set_display_name": "2017-18 Upper Deck Team Canada - Team Canada Canvas",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-upper-deck-team-canada-team-canada-canvas-tcc-46",
+              "base_number": "TCC-46",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada---Team-Canada-Canvas-TCC-46-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada---Team-Canada-Canvas-TCC-46-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2017-18-upper-deck-team-canada-ud-exclusives-silver",
+          "set_name": "UD Exclusives Silver",
+          "set_display_name": "2017-18 Upper Deck Team Canada - UD Exclusives Silver",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2017-18-upper-deck-team-canada-ud-exclusives-silver-133",
+              "base_number": "133",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada---UD-Exclusives-Silver-133-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada---UD-Exclusives-Silver-133-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2017-18-upper-deck-team-canada-juniors": {
       "set_key": "2017-18-upper-deck-team-canada-juniors",
       "set_name": "Upper Deck Team Canada Juniors",
@@ -3970,6 +4075,126 @@
           "team": "Team Canada",
           "position": "Center",
           "inCollection": false
+        }
+      ]
+    },
+    "2018-19-o-pee-chee-coast-to-coast": {
+      "set_key": "2018-19-o-pee-chee-coast-to-coast",
+      "set_name": "O-Pee-Chee Coast to Coast",
+      "set_year_label": "2018-19",
+      "set_year_start": 2018,
+      "set_year_end": 2019,
+      "set_display_name": "2018-19 O-Pee-Chee Coast to Coast",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2018-19-o-pee-chee-coast-to-coast-195",
+          "base_number": "195",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast-195-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast-195-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 9.99
+        },
+        {
+          "id": "ml-2018-19-o-pee-chee-coast-to-coast-195b",
+          "base_number": "195b",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast-195b-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast-195b-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2018-19-o-pee-chee-coast-to-coast-franchise-heroes",
+          "set_name": "Franchise Heroes",
+          "set_display_name": "2018-19 O-Pee-Chee Coast to Coast - Franchise Heroes",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2018-19-o-pee-chee-coast-to-coast-franchise-heroes-g-20",
+              "base_number": "G-20",
+              "variant_note": "Sidney Crosby / Mario Lemieux",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast---Franchise-Heroes-G-20-Sidney-Crosby--Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast---Franchise-Heroes-G-20-Sidney-Crosby--Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2018-19-o-pee-chee-coast-to-coast-iconic-captains",
+          "set_name": "Iconic Captains",
+          "set_display_name": "2018-19 O-Pee-Chee Coast to Coast - Iconic Captains",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2018-19-o-pee-chee-coast-to-coast-iconic-captains-ic-4",
+              "base_number": "IC-4",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast---Iconic-Captains-IC-4-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast---Iconic-Captains-IC-4-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2018-19-o-pee-chee-coast-to-coast-pride-of-the-north",
+          "set_name": "Pride of the North",
+          "set_display_name": "2018-19 O-Pee-Chee Coast to Coast - Pride of the North",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2018-19-o-pee-chee-coast-to-coast-pride-of-the-north-p-51",
+              "base_number": "P-51",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast---Pride-of-the-North-P-51-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast---Pride-of-the-North-P-51-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2018-19-o-pee-chee-coast-to-coast-red",
+          "set_name": "Red",
+          "set_display_name": "2018-19 O-Pee-Chee Coast to Coast - Red",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2018-19-o-pee-chee-coast-to-coast-red-195",
+              "base_number": "195",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast---Red-195-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast---Red-195-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -5934,7 +6159,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": true
+              "inCollection": false
             }
           ]
         },
@@ -7132,6 +7357,7 @@
           "set_key": "2010-11-o-pee-chee-retro",
           "set_name": "Retro",
           "set_display_name": "2010-11 O-Pee-Chee - Retro",
+          "set_type": "parallel",
           "set_tcdb_href": "",
           "cards": [
             {
@@ -7146,6 +7372,28 @@
               "position": "Center",
               "inCollection": true,
               "price": 2.99
+            }
+          ]
+        },
+        {
+          "set_key": "2010-11-o-pee-chee-retro-rainbow",
+          "set_name": "Retro Rainbow",
+          "set_display_name": "2010-11 O-Pee-Chee - Retro Rainbow",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2010-11-o-pee-chee-retro-rainbow-596",
+              "base_number": "596",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/60764/cid/4654663/2010-11-O-Pee-Chee---Retro-Rainbow-596-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 5.33
             }
           ]
         }

@@ -922,6 +922,31 @@
                 }
             ]
         },
+        "1992-93-humpty-dumpty-ii": {
+            "set_key": "1992-93-humpty-dumpty-ii",
+            "set_name": "Humpty Dumpty II",
+            "set_year_label": "1992-93",
+            "set_year_start": 1992,
+            "set_year_end": 1993,
+            "set_display_name": "1992-93 Humpty Dumpty II",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1992-93-humpty-dumpty-ii-nno",
+                    "base_number": "NNO",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1992-93-Humpty-Dumpty-II-NNO-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1992-93-Humpty-Dumpty-II-NNO-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": true,
+                    "price": 1.99
+                }
+            ]
+        },
         "1992-93-kraft-singles-all-stars": {
             "set_key": "1992-93-kraft-singles-all-stars",
             "set_name": "Kraft Singles All-Stars",
@@ -1065,6 +1090,30 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "patch ",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1994-95-hockey-wit": {
+            "set_key": "1994-95-hockey-wit",
+            "set_name": "Hockey Wit",
+            "set_year_label": "1994-95",
+            "set_year_start": 1994,
+            "set_year_end": 1995,
+            "set_display_name": "1994-95 Hockey Wit",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1994-95-hockey-wit-66",
+                    "base_number": "66",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1994-Hockey-Wit-66-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1994-Hockey-Wit-66-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "",
                     "inCollection": false
                 }
             ]
