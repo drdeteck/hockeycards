@@ -738,7 +738,8 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true,
+                    "price": 3.45
                 }
             ]
         },
@@ -1114,7 +1115,8 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "",
-                    "inCollection": false
+                    "inCollection": true,
+                    "price": 1.86
                 }
             ]
         },
@@ -1260,8 +1262,8 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false,
-                    "price": 5.15
+                    "inCollection": true,
+                    "price": 1.37
                 }
             ]
         },

@@ -16,6 +16,12 @@ This is a static single-page web application for browsing and tracking a persona
 
 All dependencies are loaded from CDN. There is no `package.json` or `node_modules`.
 
+## Import workflow
+
+- Do not run `scripts/validate-ml66-ids.ps1` during card imports or data edits. That script is a manual validation tool for the user, not part of the import workflow.
+- Import work should be done by directly editing the relevant JSON data file, then performing a simple JSON parse check only if needed.
+- Keep validation scripts out of agent-driven import tasks unless the user explicitly asks to run them.
+
 ---
 
 ## File & Folder Paths

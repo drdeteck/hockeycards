@@ -2754,7 +2754,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.37
         },
         {
           "id": "ml-1993-94-pinnacle-230",
@@ -2766,7 +2767,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.37
         },
         {
           "id": "ml-1993-94-pinnacle-310",
@@ -2979,7 +2981,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.37
         },
         {
           "id": "ml-1993-94-score-480",
@@ -2991,7 +2994,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.37
         },
         {
           "id": "ml-1993-94-score-452",
@@ -3524,7 +3528,8 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "variant_note": "Gold",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.76
             },
             {
               "id": "ml-1993-94-topps-premier-gold-220",

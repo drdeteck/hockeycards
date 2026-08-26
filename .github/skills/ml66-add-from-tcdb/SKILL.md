@@ -178,10 +178,12 @@ Hardcoded / defaulted values:
 
 ### Step 9 — Validate and write
 - Validate that the modified JSON parses cleanly (no trailing commas, correct nesting).
+- Use a direct JSON parse check only if needed; do not run `scripts/validate-ml66-ids.ps1` as part of the import workflow.
 - Write the updated file.
 - Do **not** commit (no `git` commands).
 
 ## Guardrails
+- Do not run `scripts/validate-ml66-ids.ps1` during import tasks. That script is reserved for the user’s manual validation workflow, not this skill.
 - Only write to Mario Lemieux dataset files (`data/mario-lemieux-data-*.json`).
 - Do not modify unrelated sets or cards.
 - Do not overwrite an existing card `id` — warn and stop.

@@ -2018,6 +2018,27 @@
               "inCollection": false
             }
           ]
+        },
+        {
+          "set_key": "2001-02-pacific-north-america-all-stars-die-cuts",
+          "set_name": "North America All-Stars Die Cuts",
+          "set_display_name": "2001-02 Pacific - North America All-Stars Die Cuts",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-private-stock-titanium-north-america-all-stars-die-cuts-10",
+              "base_number": "10",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Pacific---North-America-All-Stars-Die-Cuts-10-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific---North-America-All-Stars-Die-Cuts-10-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 11.7
+            }
+          ]
         }
       ]
     },
@@ -2041,7 +2062,8 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "print_run": 499,
-          "inCollection": false
+          "inCollection": true,
+          "price": 5.74
         }
       ]
     },
@@ -3073,7 +3095,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.14
             }
           ]
         },
@@ -4791,7 +4814,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 6.92
             }
           ]
         }
@@ -5303,8 +5327,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50594/cid/1730347/2002-03-Pacific-Private-Stock-Titanium---Retail-82-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 1.95
+              "inCollection": true,
+              "price": 2.27
             }
           ]
         }
@@ -5789,8 +5813,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50735/cid/1736008/2002-03-Upper-Deck-Artistic-Impressions-R72-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 1.00
+              "inCollection": true,
+              "price": 1.65
             }
           ]
         }
@@ -5919,7 +5943,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.58
         }
       ]
     },
@@ -6311,7 +6336,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5.53
             }
           ]
         },
@@ -6614,6 +6640,28 @@
               "position": "Center",
               "inCollection": false,
               "print_run": 850
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-pacific-crown-royale-global-conquest",
+          "set_name": "Global Conquest",
+          "set_display_name": "2003-04 Pacific Crown Royale - Global Conquest",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-crown-royale-global-conquest-1",
+              "base_number": "1",
+              "variant_note": "Martin Brodeur / Mario Lemieux",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Crown-Royale---Global-Conquest-1-Martin-Brodeur--Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Crown-Royale---Global-Conquest-1-Martin-Brodeur--Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 2.76
             }
           ]
         },
@@ -8963,7 +9011,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.14
             }
           ]
         },
@@ -10129,7 +10178,8 @@
           "id": "ml-2009-10-upper-deck-national-hockey-card-day-nhcd12",
           "image_back": "img/cards/ML66/2009-Upper-Deck-National-Hockey-Card-Day-HCD12-Mario-LemieuxBk.jpg",
           "image_front": "img/cards/ML66/2009-Upper-Deck-National-Hockey-Card-Day-HCD12-Mario-LemieuxFr.jpg",
-          "inCollection": false,
+          "inCollection": true,
+          "price": 2.83,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
           "position": "Center",
