@@ -4773,7 +4773,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 3.45
             }
           ]
         },
@@ -5494,8 +5495,8 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5661/cid/1279489/2002-03-Topps-Total-96-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false,
-          "price": 0.5
+          "inCollection": true,
+          "price": 1.65
         }
       ],
       "subsets": [
@@ -5771,7 +5772,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.45
             }
           ]
         },
@@ -6638,7 +6640,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
+              "inCollection": true,
+              "price": 11.70,
               "print_run": 850
             }
           ]
@@ -6814,7 +6817,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 3.85
             }
           ]
         }

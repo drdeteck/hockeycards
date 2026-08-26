@@ -1747,6 +1747,19 @@
           "position": "Center",
           "inCollection": true,
           "price": 1.37
+        },
+        {
+          "id": "ml-2014-15-upper-deck-goodwin-champions-66",
+          "base_number": "66",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2015-Upper-Deck-Goodwin-Champions-66-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2015-Upper-Deck-Goodwin-Champions-66-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 2.15
         }
       ]
     },

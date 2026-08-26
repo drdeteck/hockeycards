@@ -1071,6 +1071,31 @@
                 }
             ]
         },
+        "1993-94-kraft-dinner-gold-edition": {
+            "set_key": "1993-94-kraft-dinner-gold-edition",
+            "set_name": "Kraft Dinner Gold Edition",
+            "set_year_label": "1993-94",
+            "set_year_start": 1993,
+            "set_year_end": 1994,
+            "set_display_name": "1993-94 Kraft Dinner Gold Edition",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1993-94-kraft-dinner-gold-edition-nno",
+                    "base_number": "NNO",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/1993-94-Kraft---Kraft-Dinner-Gold-Edition-NNO-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/1993-94-Kraft---Kraft-Dinner-Gold-Edition-NNO-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": true,
+                    "price": 2.65
+                }
+            ]
+        },
         "1993-94-seasons-patches": {
             "set_key": "1993-94-seasons-patches",
             "set_name": "Seasons Patches",

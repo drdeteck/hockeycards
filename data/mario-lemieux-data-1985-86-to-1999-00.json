@@ -830,7 +830,8 @@
           "image_back": "img/cards/ML66/1991-92-Parkhurst-French-137-Mario-LemieuxBk.jpg",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.45
         },
         {
           "id": "ml-1991-92-parkhurst-french-phc7",
@@ -876,7 +877,8 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Pinnacle-380-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.65
         }
       ],
       "subsets": [
@@ -922,7 +924,8 @@
           "image_back": "img/cards/ML66/1991-92-Pinnacle-French-1-Mario-LemieuxBk.jpg",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.45
         },
         {
           "id": "ml-1991-92-pinnacle-french-380",
@@ -991,7 +994,8 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Pro-Set-318-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.45
         },
         {
           "id": "ml-1991-92-pro-set-581",
@@ -1049,7 +1053,8 @@
           "image_back": "img/cards/ML66/1991-92-Pro-Set-French-194-Mario-LemieuxBk.jpg",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.20
         },
         {
           "id": "ml-1991-92-pro-set-french-318",
@@ -1071,7 +1076,8 @@
           "image_back": "img/cards/ML66/1991-92-Pro-Set-French-581-Mario-LemieuxBk.jpg",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.60
         }
       ]
     },
@@ -1366,7 +1372,8 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4896/cid/11277860/1991-92-Upper-Deck-156-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.15
         },
         {
           "id": "ml-1991-92-upper-deck-611",
@@ -3739,7 +3746,8 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "variant_note": "Gold",
-              "inCollection": false
+              "inCollection": true,
+              "price": 3.2
             }
           ]
         },
