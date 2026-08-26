@@ -2574,6 +2574,26 @@
               "inCollection": false
             }
           ]
+        },
+        {
+          "set_key": "2015-16-o-pee-chee-platinum-team-logo-die-cut",
+          "set_name": "Team Logo Die Cut",
+          "set_display_name": "2015-16 O-Pee-Chee Platinum - Team Logo Die Cut",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2015-16-o-pee-chee-platinum-team-logo-die-cut-t-35",
+              "base_number": "T-35",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2015-16-O-Pee-Chee-Platinum---Team-Logo-Die-Cut-T-35-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-O-Pee-Chee-Platinum---Team-Logo-Die-Cut-T-35-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -6287,6 +6307,27 @@
               "inCollection": false
             }
           ]
+        },
+        {
+          "set_key": "2023-24-upper-deck-trilogy-trivium",
+          "set_name": "Trivium",
+          "set_display_name": "2023-24 Upper Deck Trilogy - Trivium",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-trilogy-trivium-tr11",
+              "base_number": "TR-11",
+              "variant_note": "Ron Francis / Mario Lemieux / Jaromir Jagr",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Upper-Deck-Trilogy---Trivium-TR-11-Ron-Francis--Mario-Lemieux--Jaromir-JagrFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Upper-Deck-Trilogy---Trivium-TR-11-Ron-Francis--Mario-Lemieux--Jaromir-JagrBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -6740,6 +6781,46 @@
               "position": "Center",
               "inCollection": true,
               "price": 5.55
+            }
+          ]
+        },
+        {
+          "set_key": "2024-25-upper-deck-synergy-colorways",
+          "set_name": "Colorways",
+          "set_display_name": "2024-25 Upper Deck Synergy - Colorways",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2024-25-upper-deck-synergy-colorways-l60",
+              "base_number": "L-60",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2024-25-Upper-Deck-Synergy---Colorways-L-60-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2024-25-Upper-Deck-Synergy---Colorways-L-60-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/479363/cid/27228906/2024-25-Upper-Deck-Synergy---Colorways-L-60-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2024-25-upper-deck-synergy-colorways-neon-yellow",
+          "set_name": "Colorways Neon Yellow",
+          "set_display_name": "2024-25 Upper Deck Synergy - Colorways Neon Yellow",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2024-25-upper-deck-synergy-colorways-neon-yellow-l60",
+              "base_number": "L-60",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2024-25-Upper-Deck-Synergy---Colorways-Neon-Yellow-L-60-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2024-25-Upper-Deck-Synergy---Colorways-Neon-Yellow-L-60-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/479364/cid/27229008/2024-25-Upper-Deck-Synergy---Colorways-Neon-Yellow-L-60-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         }
