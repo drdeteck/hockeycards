@@ -4644,8 +4644,8 @@
         {
           "id": "ml-2002-03-pacific-prism-platinum-mcdonalds-10",
           "base_number": "10",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
           "image_front": "img/cards/ML66/2002-03-Pacific-Prism-Platinum-McDonald's-10-Mario-Lemieux--Simon-GagneFr.jpg",
           "image_back": "img/cards/ML66/2002-03-Pacific-Prism-Platinum-McDonald's-10-Mario-Lemieux--Simon-GagneBk.jpg",
           "tcdb_href": "",
@@ -10579,7 +10579,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.15
             }
           ]
         }

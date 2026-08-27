@@ -1740,16 +1740,27 @@
           "base_number": "114",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/2014-15-Upper-Deck-Goodwin-Champions-114-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/2014-15-Upper-Deck-Goodwin-Champions-114-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2014-Upper-Deck-Goodwin-Champions-114-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2014-Upper-Deck-Goodwin-Champions-114-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "price": 1.37
-        },
+          "price": 1.35
+        }
+      ]
+    },
+    "2015-16-upper-deck-goodwin-champions": {
+      "set_key": "2015-16-upper-deck-goodwin-champions",
+      "set_name": "Upper Deck Goodwin Champions",
+      "set_year_label": "2015-16",
+      "set_year_start": 2015,
+      "set_year_end": 2016,
+      "set_display_name": "2015-16 Upper Deck Goodwin Champions",
+      "set_tcdb_href": "",
+      "cards": [
         {
-          "id": "ml-2014-15-upper-deck-goodwin-champions-66",
+          "id": "ml-2015-16-upper-deck-goodwin-champions-66",
           "base_number": "66",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
@@ -2597,8 +2608,8 @@
             {
               "id": "ml-2015-16-o-pee-chee-platinum-team-logo-die-cut-t-35",
               "base_number": "T-35",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2015-16-O-Pee-Chee-Platinum---Team-Logo-Die-Cut-T-35-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2015-16-O-Pee-Chee-Platinum---Team-Logo-Die-Cut-T-35-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -4043,8 +4054,8 @@
             {
               "id": "ml-2017-18-upper-deck-team-canada-clear-cut-program-of-excellence-poe-21",
               "base_number": "POE-21",
-              "orientation_front": "landscape",
-              "orientation_back": "landscape",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada---Clear-Cut-Program-of-Excellence-POE-21-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada---Clear-Cut-Program-of-Excellence-POE-21-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -4063,8 +4074,8 @@
             {
               "id": "ml-2017-18-upper-deck-team-canada-team-canada-canvas-tcc-46",
               "base_number": "TCC-46",
-              "orientation_front": "landscape",
-              "orientation_back": "landscape",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada---Team-Canada-Canvas-TCC-46-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada---Team-Canada-Canvas-TCC-46-Mario-LemieuxBk.jpg",
               "tcdb_href": "",

@@ -111,7 +111,8 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4863/cid/118236/1986-87-Topps-122-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "price": 32.09
+          "inCollection": true,
+          "price": 22.31
         }
       ]
     },
@@ -1101,6 +1102,19 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-1991-92-pro-set-platinum-144",
+          "base_number": "144",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
+          "image_front": "img/cards/ML66/1991-92-Pro-Set-Platinum-144-Pittsburgh-PenguinsFr.jpg",
+          "image_back": "img/cards/ML66/1991-92-Pro-Set-Platinum-144-Pittsburgh-PenguinsBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "variation": "Team",
+          "position": "Center",
+          "inCollection": false
         }
       ]
     },
@@ -1125,6 +1139,30 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-1991-92-score-425",
+          "base_number": "425",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1991-92-Score-American-425-1991-Stanley-Cup-ChampionsFr.jpg",
+          "image_back": "img/cards/ML66/1991-92-Score-American-425-1991-Stanley-Cup-ChampionsBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-1991-92-score-426",
+          "base_number": "426",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1991-92-Score-American-426-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1991-92-Score-American-426-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ],
       "subsets": [
@@ -1173,6 +1211,18 @@
           "inCollection": true
         },
         {
+          "id": "ml-1991-92-score-canadian-bilingual-315",
+          "base_number": "315",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1991-92-Score-Canadian-Bilingual-315-1991-Stanley-Cup-ChampionsFr.jpg",
+          "image_back": "img/cards/ML66/1991-92-Score-Canadian-Bilingual-315-1991-Stanley-Cup-ChampionsBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
           "id": "ml-1991-92-score-canadian-bilingual-316",
           "base_number": "316",
           "orientation_front": "portrait",
@@ -1219,6 +1269,18 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-1991-92-score-canadian-english-315",
+          "base_number": "315",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1991-92-Score-Canadian-English-315-1991-Stanley-Cup-ChampionsFr.jpg",
+          "image_back": "img/cards/ML66/1991-92-Score-Canadian-English-315-1991-Stanley-Cup-ChampionsBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         },
         {
           "id": "ml-1991-92-score-canadian-english-365",
@@ -2604,6 +2666,19 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-1993-94-leaf-210",
+          "base_number": "210",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
+          "image_front": "img/cards/ML66/1993-94-Leaf-210-Checklist-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1993-94-Leaf-210-Checklist-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "variant_note": "Checklist",
+          "inCollection": false
         }
       ],
       "subsets": [
