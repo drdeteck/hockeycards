@@ -1150,7 +1150,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 0.99
         },
         {
           "id": "ml-1991-92-score-426",
@@ -1162,7 +1163,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 0.99
         }
       ],
       "subsets": [
@@ -1220,7 +1222,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 0.99
         },
         {
           "id": "ml-1991-92-score-canadian-bilingual-316",
@@ -1280,7 +1283,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 0.99
         },
         {
           "id": "ml-1991-92-score-canadian-english-365",
@@ -2678,7 +2682,8 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "variant_note": "Checklist",
-          "inCollection": false
+          "inCollection": true,
+          "price": 0.99
         }
       ],
       "subsets": [

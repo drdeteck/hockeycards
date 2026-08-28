@@ -2411,6 +2411,47 @@
               "price": 4.12
             }
           ]
+        },
+        {
+          "set_key": "2001-02-pacific-vanguard-v-team",
+          "set_name": "V-Team",
+          "set_display_name": "2001-02 Pacific Vanguard - V-Team",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-vanguard-v-team-17",
+              "base_number": "17",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50135/cid/1709103/2001-02-Pacific-Vanguard---V-Team-17-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2001-02-pacific-vanguard-east-meets-west",
+          "set_name": "East Meets West",
+          "set_display_name": "2001-02 Pacific Vanguard - East Meets West",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-vanguard-east-meets-west-1",
+              "base_number": "1",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Vanguard---East-Meets-West-1-Mario-Lemieux--Jaromir-JagrFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Vanguard---East-Meets-West-1-Mario-Lemieux--Jaromir-JagrBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "with Jaromir Jagr",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -4119,9 +4160,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "card_type": "numbered",
-              "print_run": 100
+              "inCollection": true,
+              "price": 0.99
             }
           ]
         }
@@ -10857,7 +10897,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 0.99
         }
       ],
       "subsets": [
