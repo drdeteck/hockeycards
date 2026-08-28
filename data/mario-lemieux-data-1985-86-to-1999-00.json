@@ -3052,7 +3052,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true,
+          "inCollection": false,
           "price": 1.37
         },
         {
@@ -8021,9 +8021,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48558/cid/1602494/1996-97-Collector's-Choice-CR5-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 24.22,
-              "location": "US"
+              "inCollection": true,
+              "price": 40
             }
           ]
         },
