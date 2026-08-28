@@ -5788,7 +5788,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.25
             }
           ]
         },
@@ -5850,6 +5851,41 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
+    "2023-24-upper-deck-black-diamond": {
+      "set_key": "2023-24-upper-deck-black-diamond",
+      "set_name": "Upper Deck Black Diamond",
+      "set_year_label": "2023-24",
+      "set_year_start": 2023,
+      "set_year_end": 2024,
+      "set_display_name": "2023-24 Upper Deck Black Diamond",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2023-24-upper-deck-black-diamond-diamond-might",
+          "set_name": "Diamond Might",
+          "set_display_name": "2023-24 Upper Deck Black Diamond - Diamond Might",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-black-diamond-diamond-might-dm-ml",
+              "base_number": "DM-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 16.17,
+              "card_type": "numbered",
+              "print_run": 99
             }
           ]
         }
@@ -6824,7 +6860,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/479363/cid/27228906/2024-25-Upper-Deck-Synergy---Colorways-L-60-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 9.07
             }
           ]
         },

@@ -1426,7 +1426,8 @@
           "image_back": "img/cards/ML66/1991-92-Upper-Deck-45-Mario-Lemieux-Wayne-Gretzky-Brett-HullBk.jpg",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 0.99
         },
         {
           "id": "ml-1991-92-upper-deck-156",
@@ -8785,6 +8786,54 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-1996-97-fleer-137",
+          "base_number": "137",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1996-97-Fleer-137-Points-(Mario-Lemieux--Jaromir-Jagr--Joe-Sakic--Ron-Francis)Fr.jpg",
+          "image_back": "img/cards/ML66/1996-97-Fleer-137-Points-(Mario-Lemieux--Jaromir-Jagr--Joe-Sakic--Ron-Francis)Bk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-1996-97-fleer-138",
+          "base_number": "138",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1996-97-Fleer-138-Goals-(Mario-Lemieux--Jaromir-Jagr--Alexander-Mogilny--Peter-Bondra)Fr.jpg",
+          "image_back": "img/cards/ML66/1996-97-Fleer-138-Goals-(Mario-Lemieux--Jaromir-Jagr--Alexander-Mogilny--Peter-Bondra)Bk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-1996-97-fleer-139",
+          "base_number": "139",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1996-97-Fleer-139-Assists-(Ron-Francis--Mario-Lemieux--Jaromir-Jagr--Peter-Forsberg)Fr.jpg",
+          "image_back": "img/cards/ML66/1996-97-Fleer-139-Assists-(Ron-Francis--Mario-Lemieux--Jaromir-Jagr--Peter-Forsberg)Bk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
+          "id": "ml-1996-97-fleer-141",
+          "base_number": "141",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1996-97-Fleer-141-Power-Play-Goals-(Mario-Lemieux--Jaromir-Jagr--Paul-Kariya--Keith-Tkachuk)Fr.jpg",
+          "image_back": "img/cards/ML66/1996-97-Fleer-141-Power-Play-Goals-(Mario-Lemieux--Jaromir-Jagr--Paul-Kariya--Keith-Tkachuk)Bk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ],
       "subsets": [
@@ -11204,6 +11253,26 @@
               "price": 2.75
             }
           ]
+        },
+        {
+          "set_key": "1999-00-ud-century-legends-essence-of-the-game",
+          "set_name": "Essence of the Game",
+          "set_display_name": "1999-00 UD Century Legends - Essence of the Game",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49429/1999-upper-deck-century-legends-essence-of-the-game",
+          "cards": [
+            {
+              "id": "ml-1999-00-ud-century-legends-essence-of-the-game-e3",
+              "base_number": "E3",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/1999-Upper-Deck-Century-Legends---Essence-of-the-Game-E3-Mario-Lemieux--Jaromir-JagrFr.jpg",
+              "image_back": "img/cards/ML66/1999-Upper-Deck-Century-Legends---Essence-of-the-Game-E3-Mario-Lemieux--Jaromir-JagrBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49429/cid/1666563/1999-Upper-Deck-Century-Legends-E3-Mario-Lemieux-/-Jaromir-Jagr",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -11268,6 +11337,72 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "1999-00-upper-deck-retro-distant-replay-level-2",
+          "set_name": "Distant Replay Level 2",
+          "set_display_name": "1999-00 Upper Deck Retro - Distant Replay Level 2",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49488/1999-00-Upper-Deck-Retro-Distant-Replay-Level-2",
+          "cards": [
+            {
+              "id": "ml-1999-00-upper-deck-retro-distant-replay-level-2-dr12",
+              "base_number": "DR12",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49488/cid/1668506/1999-00-Upper-Deck-Retro---Distant-Replay-Level-2-DR12-Mario-Lemieux?PageIndex=1",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "card_type": "numbered",
+              "print_run": 100
+            }
+          ]
+        },
+        {
+          "set_key": "1999-00-upper-deck-retro-generations-level-2",
+          "set_name": "Generations Level 2",
+          "set_display_name": "1999-00 Upper Deck Retro - Generations Level 2",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49492/1999-00-Upper-Deck-Retro-Generations-Level-2",
+          "cards": [
+            {
+              "id": "ml-1999-00-upper-deck-retro-generations-level-2-g5b",
+              "base_number": "G5B",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49492/cid/1668571/1999-00-Upper-Deck-Retro---Generations-Level-2-G5B-Mario-Lemieux?PageIndex=1",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "card_type": "numbered",
+              "print_run": 500
+            }
+          ]
+        },
+        {
+          "set_key": "1999-00-upper-deck-retro-gold",
+          "set_name": "Gold",
+          "set_display_name": "1999-00 Upper Deck Retro - Gold",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49493/1999-00-Upper-Deck-Retro-Gold",
+          "cards": [
+            {
+              "id": "ml-1999-00-upper-deck-retro-gold-83",
+              "base_number": "83",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49493/cid/1668669/1999-00-Upper-Deck-Retro---Gold-83-Mario-Lemieux?PageIndex=1",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "card_type": "numbered",
+              "print_run": 150
             }
           ]
         },
