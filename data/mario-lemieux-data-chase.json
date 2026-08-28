@@ -96,38 +96,6 @@
         }
       ]
     },
-    "1995-96-pinnacle": {
-      "set_key": "1995-96-pinnacle",
-      "set_name": "Pinnacle",
-      "set_year_label": "1995-96",
-      "set_year_start": 1995,
-      "set_year_end": 1996,
-      "set_display_name": "1995-96 Pinnacle",
-      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5167/1995-96-pinnacle-rink-collection-artists-proofs",
-      "cards": [],
-      "subsets": [
-        {
-          "set_key": "1995-96-pinnacle-rink-collection-artists-proofs",
-          "set_name": "Rink Collection Artist's Proofs",
-          "set_display_name": "1995-96 Pinnacle - Rink Collection Artist's Proofs",
-          "set_tcdb_href": "",
-          "cards": [
-            {
-              "id": "ml-1995-96-pinnacle-rink-collection-artists-proofs-192",
-              "base_number": "192",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/Chase/1995-96-Pinnacle---Rink-Collection-Artists-Proofs-192-Mario-LemieuxFr-placeholder.jpg",
-              "image_back": "",
-              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5168/cid/1166617/1995-96-Pinnacle-192-Mario-Lemieux",
-              "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": false
-            }
-          ]
-        }
-      ]
-    },
     "1995-96-score-summit": {
       "set_key": "1995-96-score-summit",
       "set_name": "Score Summit",
@@ -1050,18 +1018,6 @@
           "set_display_name": "1995-96 Finest - Refractors",
           "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5141/1995-96-finest-refractors",
           "cards": [
-            {
-              "id": "ml-1995-96-finest-refractors-150",
-              "base_number": "150",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/Chase/1995-96-Finest---Refractors-150-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/Chase/1995-96-Finest---Refractors-150-Mario-LemieuxBk.jpg",
-              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5141/cid/1219415/1995-96-Finest-150-Mario-Lemieux",
-              "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": false
-            },
             {
               "id": "ml-1995-96-finest-refractors-190",
               "base_number": "190",

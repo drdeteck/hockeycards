@@ -1859,30 +1859,6 @@
         }
       ]
     },
-    "1992-93-panini-diana-durivage": {
-      "set_key": "1992-93-panini-diana-durivage",
-      "set_name": "Panini Diana Durivage",
-      "set_year_label": "1992-93",
-      "set_year_start": 1992,
-      "set_year_end": 1993,
-      "set_display_name": "1992-93 Panini Diana Durivage",
-      "set_tcdb_href": "",
-      "cards": [
-        {
-          "id": "ml-1992-93-panini-diana-durivage-8",
-          "base_number": "8",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/1992-93-Panini-Diana-Durivage-8-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/1992-93-Panini-Diana-Durivage-8-Mario-LemieuxBk.jpg",
-          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Panini-Diana-Durivage-8-Mario-Lemieux",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "price": 1.4,
-          "inCollection": true
-        }
-      ]
-    },
     "1992-93-parkhurst": {
       "set_key": "1992-93-parkhurst",
       "set_name": "Parkhurst",
@@ -2887,6 +2863,7 @@
               "image_front": "img/cards/ML66/1993-94-Leaf---Authentic-Autograph-NNO-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/1993-94-Leaf---Authentic-Autograph-NNO-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/430048/cid/24653587/1993-94-Leaf-NNO-Mario-Lemieux",
+              "excludeFromBinder": true,
               "inCollection": false,
               "price": 666.66
             }
@@ -4881,13 +4858,13 @@
           ]
         },
         {
-          "set_key": "1994-95-pinnacle-team-pinnacle",
-          "set_name": "Team Pinnacle",
-          "set_display_name": "1994-95 Pinnacle - Team Pinnacle",
+          "set_key": "1994-95-pinnacle-team-pinnacle-back-dufex",
+          "set_name": "Team Pinnacle Back Dufex",
+          "set_display_name": "1994-95 Pinnacle - Team Pinnacle Back Dufex",
           "set_tcdb_href": "",
           "cards": [
             {
-              "id": "ml-1994-95-pinnacle-team-pinnacle-tp10",
+              "id": "ml-1994-95-pinnacle-team-pinnacle-back-dufex-tp10",
               "base_number": "TP10",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
@@ -4905,6 +4882,7 @@
           "set_key": "1994-95-pinnacle-artists-proofs",
           "set_name": "Artist's Proofs",
           "set_display_name": "1994-95 Pinnacle - Artist's Proofs",
+          "set_type": "parallel",
           "set_tcdb_href": "",
           "cards": [
             {
@@ -4920,6 +4898,27 @@
               "inCollection": false,
               "price": 69.2,
               "location": "US"
+            }
+          ]
+        },
+        {
+          "set_key": "1994-95-pinnacle-team-pinnacle-front-dufex",
+          "set_name": "Team Pinnacle Front Dufex",
+          "set_display_name": "1994-95 Pinnacle - Team Pinnacle Front Dufex",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1994-95-pinnacle-team-pinnacle-front-dufex-tp10",
+              "base_number": "TP10",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1994-95-Pinnacle---Team-Pinnacle-Dufex-Front-TP10-Doug-Gilmour--Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1994-95-Pinnacle---Team-Pinnacle-Dufex-Front-TP10-Doug-Gilmour--Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "default_face": "back",
+              "inCollection": false
             }
           ]
         }
@@ -5819,8 +5818,8 @@
           "inCollection": true
         },
         {
-          "id": "ml-1995-96-donruss-elite-nno eric lindros /",
-          "base_number": "NNO Eric Lindros /",
+          "id": "ml-1995-96-donruss-elite-nno-eric-lindros-mario-lemieux",
+          "base_number": "NNO Eric Lindros / Mario Lemieux",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
           "image_front": "img/cards/ML66/1995-96-Donruss-Elite-NNO Eric Lindros -Mario-LemieuxFr.jpg",
@@ -5828,6 +5827,7 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5121/cid/18311565/1995-96-Donruss-Elite-NNO-Eric-Lindros-/-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
+          "excludeFromBinder": true,
           "inCollection": false
         }
       ],
@@ -6033,6 +6033,7 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5124/cid/1597595/1995-96-Donruss-Elite-7-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
+              "excludeFromBinder": true,
               "inCollection": false,
               "price": 339.76
             }
@@ -6153,6 +6154,28 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "1995-96-finest-refractors",
+          "set_name": "Refractors",
+          "set_display_name": "1995-96 Finest - Refractors",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5141/1995-96-Finest-Refractors",
+          "cards": [
+            {
+              "id": "ml-1995-96-finest-refractors-150",
+              "base_number": "150",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Finest---1995-96-Finest-Inserts-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Finest---1995-96-Finest-Inserts-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true
+            }
+          ]
         }
       ]
     },
@@ -6711,6 +6734,27 @@
               "price": 9.67
             }
           ]
+        },
+        {
+          "set_key": "1995-96-pinnacle-rink-collection-artists-proofs",
+          "set_name": "Rink Collection Artist's Proofs",
+          "set_display_name": "1995-96 Pinnacle - Rink Collection Artist's Proofs",
+          "set_type": "parallel",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1995-96-pinnacle-rink-collection-artists-proofs-192",
+              "base_number": "192",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1995-96-Pinnacle---Rink-Collection-Artists-Proofs-192-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1995-96-Pinnacle---Rink-Collection-Artists-Proofs-192-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5168/cid/1166617/1995-96-Pinnacle-192-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -6787,7 +6831,9 @@
           "image_back": "img/cards/ML66/1995-96-Playoff-One-on-One-Challenge-298-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "position": "Center",
+          "inCollection": true,
+          "price": 34.76
         }
       ]
     },
@@ -6961,6 +7007,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
+              "excludeFromBinder": true,
               "price": 100,
               "price_type": "bulk",
               "price_bulk": 340
@@ -7143,6 +7190,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "variant_note": "Wayne Gretzky vs Mario Lemieux",
+              "default_face": "back",
               "inCollection": true,
               "price": 15
             }
@@ -7209,6 +7257,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
+              "default_face": "back",
               "variant_note": "Wayne Gretzky vs Mario Lemieux",
               "inCollection": false
             }

@@ -574,14 +574,14 @@
             <div class="binder-page" data-bind="with: BinderCurrentEntry">
                 <div class="binder-page-grid">
                     <!-- ko foreach: slots -->
-                    <!-- ko if: $data && $data.orientation_front !== 'extra-tall' && !$data.excludeFromBinder -->
+                    <!-- ko if: $data && ($data.default_face === 'back' ? $data.orientation_back : $data.orientation_front) !== 'extra-tall' && !$data.excludeFromBinder -->
                     <div class="binder-slot binder-slot--filled">
                         <div class="binder-slot-inner"
                             data-bind="css: { 'binder-slot-inner--owned': $data.inCollection }">
                             <a class="binder-slot-link"
                                 data-bind="attr: { href: $root.BuildCardRoute($data, null), title: $data.set_display_name + ' #' + $data.base_number + ($data.insert_subset ? ' · ' + $data.insert_subset : '') }">
-                                <img class="binder-slot-img" data-bind="css: { 'binder-slot-img--landscape': $data.orientation_front === 'landscape' }, attr: {
-                                        src: $data.image_front || $data.image_back || 'img/cards/placeholder.svg',
+                                <img class="binder-slot-img" data-bind="css: { 'binder-slot-img--landscape': ($data.default_face === 'back' ? $data.orientation_back : $data.orientation_front) === 'landscape' }, attr: {
+                                    src: $root.ParseImageUri($data),
                                         alt: $data.set_display_name + ' #' + $data.base_number }"
                                     onerror="this.src='img/cards/placeholder.svg'">
                                 <span class="binder-slot-label"

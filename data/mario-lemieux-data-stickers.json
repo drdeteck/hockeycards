@@ -972,6 +972,31 @@
                 }
             ]
         },
+        "1992-93-panini-diana-durivage": {
+            "set_key": "1992-93-panini-diana-durivage",
+            "set_name": "Panini Diana Durivage",
+            "set_year_label": "1992-93",
+            "set_year_start": 1992,
+            "set_year_end": 1993,
+            "set_display_name": "1992-93 Panini Diana Durivage",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1992-93-panini-diana-durivage-8",
+                    "base_number": "8",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1992-93-Panini-Diana-Durivage-8-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1992-93-Panini-Diana-Durivage-8-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1992-93-Panini-Diana-Durivage-8-Mario-Lemieux",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "price": 1.4,
+                    "card_type": "sticker",
+                    "inCollection": true
+                }
+            ]
+        },
         "1992-93-panini-stickers": {
             "set_key": "1992-93-panini-stickers",
             "set_name": "Panini Stickers",
