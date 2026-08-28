@@ -6173,6 +6173,9 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
+              "price": 50,
+              "price_type": "bulk",
+              "price_bulk": 340,
               "inCollection": true
             }
           ]
