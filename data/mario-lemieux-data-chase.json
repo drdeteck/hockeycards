@@ -552,27 +552,6 @@
               "inCollection": false
             }
           ]
-        },
-        {
-          "set_key": "1996-97-pinnacle-summit-high-voltage-mirage",
-          "set_name": "High Voltage Mirage",
-          "set_display_name": "1996-97 Pinnacle Summit - High Voltage Mirage",
-          "set_tcdb_href": "",
-          "cards": [
-            {
-              "id": "ml-1996-97-pinnacle-summit-high-voltage-mirage-8",
-              "base_number": "8",
-              "orientation_front": "landscape",
-              "orientation_back": "landscape",
-              "image_front": "img/cards/ML66/Chase/1996-97-Pinnacle-Summit---High-Voltage-Mirage-8-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/Chase/1996-97-Pinnacle-Summit---High-Voltage-Mirage-8-Mario-LemieuxBk.jpg",
-              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48613/cid/1608599/1996-97-Pinnacle-Summit-8-Mario-Lemieux",
-              "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": false,
-              "price": 150.0
-            }
-          ]
         }
       ]
     },
