@@ -244,32 +244,6 @@
                 }
             ]
         },
-        "2025-26-upper-deck-black-diamond-diamond-legends": {
-            "set_key": "2025-26-upper-deck-black-diamond-diamond-legends",
-            "set_name": "Upper Deck Black Diamond - Diamond Legends",
-            "set_year_label": "2025-26",
-            "set_year_start": 2025,
-            "set_year_end": 2026,
-            "set_display_name": "2025-26 Upper Deck Black Diamond - Diamond Legends",
-            "set_tcdb_href": "",
-            "cards": [
-                {
-                    "id": "ml-2025-26-upper-deck-black-diamond-diamond-legends-bdl-ml",
-                    "base_number": "BDL-ML",
-                    "card_type": "numbered",
-                    "print_run": 249,
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/570071/cid/32280285/2025-26",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center",
-                    "inCollection": true,
-                    "price": 6.50
-                }
-            ]
-        },
         "2025-26-upper-deck-x-ovo-x-hockey-canada-black-and-gold": {
             "set_key": "2025-26-upper-deck-x-ovo-x-hockey-canada-black-and-gold",
             "set_name": "Upper Deck X OVO X Hockey Canada - Black and Gold",

@@ -2461,6 +2461,31 @@
           "print_run": 499,
           "inCollection": false
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2015-16-upper-deck-artifacts-ruby",
+          "set_name": "Ruby",
+          "set_display_name": "2015-16 Upper Deck Artifacts - Ruby",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2015-16-upper-deck-artifacts-ruby-137",
+              "base_number": "137",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2015-16-Upper-Deck-Artifacts---Ruby-137-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-Upper-Deck-Artifacts---Ruby-137-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "card_type": "numbered",
+              "print_run": 399,
+              "inCollection": true,
+              "price": 8
+            }
+          ]
+        }
       ]
     },
     "2015-16-spx": {
@@ -2595,7 +2620,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.00
             }
           ]
         },
@@ -2681,7 +2707,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4
             }
           ]
         }
@@ -2855,7 +2882,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5
             }
           ]
         },
@@ -3773,7 +3801,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5
             }
           ]
         },
@@ -3793,7 +3822,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 3
             }
           ]
         },
@@ -3813,8 +3843,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/168525/cid/10787095/2017-18-Upper-Deck-Synergy-41-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 2
+              "inCollection": true,
+              "price": 8
             }
           ]
         },
@@ -3854,7 +3884,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/168524/cid/10787197/2017-18-Upper-Deck-Synergy-41-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 12
             }
           ]
         }
@@ -4655,7 +4686,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 8
             }
           ]
         }
@@ -5360,7 +5392,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/395734/cid/23066039/2022-23-Upper-Deck-Stature-D-2-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 10
             }
           ]
         }
@@ -5723,7 +5756,10 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 10,
+              "print_run": 258,
+              "card_type": "numbered"
             }
           ]
         }
@@ -5755,7 +5791,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/446857/cid/25531516/2023-24-SPx-RFX-1-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
+              "inCollection": true,
+              "price": 8,
               "print_run": 949
             }
           ]
@@ -6953,6 +6990,41 @@
           "position": "Center",
           "inCollection": true,
           "price": 2.72
+        }
+      ]
+    },
+    "2025-26-upper-deck-black-diamond": {
+      "set_key": "2025-26-upper-deck-black-diamond",
+      "set_name": "Upper Deck Black Diamond",
+      "set_year_label": "2025-26",
+      "set_year_start": 2025,
+      "set_year_end": 2026,
+      "set_display_name": "2025-26 Upper Deck Black Diamond",
+      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/547890/2025-26-Upper-Deck-Black-Diamond-Diamond-Legends",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2025-26-upper-deck-black-diamond-diamond-legends",
+          "set_name": "Diamond Legends",
+          "set_display_name": "2025-26 Upper Deck Black Diamond - Diamond Legends",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2025-26-upper-deck-black-diamond-diamond-legends-bdl-ml",
+              "base_number": "BDL-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/570071/cid/32280285/2025-26-Upper-Deck-Black-Diamond-BDL-ML-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 18,
+              "card_type": "numbered",
+              "print_run": 249
+            }
+          ]
         }
       ]
     },
