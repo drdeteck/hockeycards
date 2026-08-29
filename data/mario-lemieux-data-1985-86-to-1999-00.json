@@ -6936,8 +6936,8 @@
               "base_number": "E22",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/1995-96-SP---Stars-Etoiles-Gold-E22-Mario-LemieuxFr.jpg",
-              "image_back": "",
+              "image_front": "img/cards/ML66/1995-96-SP---Stars-Etoiles-Gold-E22-Mario-LemieuxFr.png",
+              "image_back": "img/cards/ML66/1995-96-SP---Stars-Etoiles-Gold-E22-Mario-LemieuxBk.png",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48534/cid/1599516/1995-96-SP-E22-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -8089,8 +8089,8 @@
               "base_number": "C5a",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/1996-97-Collectors-Choice---You-Crash-the-Game-Gold-C5-Mario-LemieuxFr-placeholder.jpg",
-              "image_back": "",
+              "image_front": "img/cards/ML66/1996-97-Collectors-Choice---You-Crash-the-Game-Gold-C5a-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Collectors-Choice---You-Crash-the-Game-Gold-C5a-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5250/cid/1602412/1996-97-Collector's-Choice-C5-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -10482,6 +10482,29 @@
           ]
         },
         {
+          "set_key": "1996-97-upper-deck-hart-hopefuls-gold",
+          "set_name": "Hart Hopefuls (Gold)",
+          "set_display_name": "1996-97 Upper Deck - Hart Hopefuls (Gold)",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-upper-deck-hart-hopefuls-gold-hh16",
+              "base_number": "HH16",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/1996-97-Upper-Deck---Hart-Hopefuls-Gold-HH16-Mario-LemieuxFr.png",
+              "image_back": "img/cards/ML66/1996-97-Upper-Deck---Hart-Hopefuls-Gold-HH16-Mario-LemieuxBk.png",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48623/cid/1609766/1996-97-Upper-Deck-HH16-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "card_type": "numbered",
+              "print_run": 100,
+              "price": 39
+            }
+          ]
+        },
+        {
           "set_key": "1996-97-upper-deck-superstar-showdown",
           "set_name": "Superstar Showdown",
           "set_display_name": "1996-97 Upper Deck - Superstar Showdown",
@@ -10519,29 +10542,6 @@
               "position": "Center",
               "inCollection": true,
               "price": 16.52
-            }
-          ]
-        },
-        {
-          "set_key": "1996-97-upper-deck-hart-hopefuls-gold",
-          "set_name": "Hart Hopefuls (Gold)",
-          "set_display_name": "1996-97 Upper Deck - Hart Hopefuls (Gold)",
-          "set_tcdb_href": "",
-          "cards": [
-            {
-              "id": "ml-1996-97-upper-deck-hart-hopefuls-gold-hh16",
-              "base_number": "HH16",
-              "orientation_front": "landscape",
-              "orientation_back": "landscape",
-              "image_front": "img/cards/ML66/1996-97-Upper-Deck---Hart-Hopefuls-Gold-HH16-Mario-LemieuxFr.jpg",
-              "image_back": "",
-              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48623/cid/1609766/1996-97-Upper-Deck-HH16-Mario-Lemieux",
-              "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": true,
-              "card_type": "numbered",
-              "print_run": 100,
-              "price": 39
             }
           ]
         },
