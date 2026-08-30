@@ -175,7 +175,8 @@
                     "position": "Center",
                     "variant_note": "with Allen Pedersen",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true,
+                    "price": 6.24
                 },
                 {
                     "id": "ml-sticker-1987-88-opc-stickers-170",
@@ -188,7 +189,8 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true,
+                    "price": 5.20
                 }
             ]
         },
@@ -578,7 +580,8 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true,
+                    "price": 3.12
                 },
                 {
                     "id": "ml-sticker-1989-90-panini-stickers-309",
@@ -604,7 +607,8 @@
                     "team": "Pittsburgh Penguins",
                     "position": "Center",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true,
+                    "price": 3.12
                 }
             ]
         },

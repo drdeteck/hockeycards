@@ -1496,6 +1496,20 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-2000-01-upper-deck-legends-108",
+          "base_number": "108",
+          "variant_note": "Mario Lemieux / Jaromir Jagr",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
+          "image_front": "img/cards/ML66/2000-01-Upper-Deck-Legends-108-Mario-Lemieux--Jaromir-JagrFr.jpg",
+          "image_back": "img/cards/ML66/2000-01-Upper-Deck-Legends-108-Mario-Lemieux--Jaromir-JagrBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 2.5
         }
       ],
       "subsets": [
@@ -7138,8 +7152,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 4
+              "inCollection": true,
+              "price": 4.14
             }
           ]
         }

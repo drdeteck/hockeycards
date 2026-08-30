@@ -1114,7 +1114,8 @@
           "team": "Pittsburgh Penguins",
           "variation": "Team",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.86
         }
       ]
     },
@@ -1533,7 +1534,8 @@
           "image_back": "img/cards/ML66/1991-92-Upper-Deck-French-611-Mario-LemieuxBk.jpg",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2.49
         }
       ]
     },
