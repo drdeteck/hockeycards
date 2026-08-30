@@ -2178,6 +2178,27 @@
               "price": 6.85
             }
           ]
+        },
+        {
+          "set_key": "2001-02-pacific-atomic-core-players",
+          "set_name": "Core Players",
+          "set_display_name": "2001-02 Pacific Atomic - Core Players",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-atomic-core-players-15",
+              "base_number": "15",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Atomic---Core-Players-15-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Atomic---Core-Players-15-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 8.10
+            }
+          ]
         }
       ]
     },
@@ -2999,7 +3020,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 5.11
         }
       ],
       "subsets": [
@@ -4518,6 +4540,27 @@
           ]
         },
         {
+          "set_key": "2002-03-pacific-crown-royale-blue",
+          "set_name": "Blue",
+          "set_display_name": "2002-03 Pacific Crown Royale - Blue",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/50555/2002-03-Pacific-Crown-Royale-Blue",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-crown-royale-blue-78",
+              "base_number": "78",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50555/cid/1727828/2002-03-Pacific-Crown-Royale-Blue-78-Mario-Lemieux?PageIndex=1",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 11.69
+            }
+          ]
+        },
+        {
           "set_key": "2002-03-pacific-crown-royale-game-worn-jerseys",
           "set_name": "Game-Worn Jerseys",
           "set_display_name": "2002-03 Pacific Crown Royale - Game-Worn Jerseys",
@@ -4657,16 +4700,15 @@
             {
               "id": "ml-2002-03-pacific-heads-up-stat-masters-12",
               "base_number": "12",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2002-03-Pacific-Heads-Up---Stat-Masters-12-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Pacific-Heads-Up---Stat-Masters-12-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "card_type": "numbered",
-              "print_run": 500,
-              "inCollection": false
+              "inCollection": true,
+              "price": 10.26
             }
           ]
         }
@@ -8895,7 +8937,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4
             }
           ]
         },
@@ -10884,7 +10927,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 10.80
             }
           ]
         }

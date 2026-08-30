@@ -435,7 +435,8 @@
           "position": "Center",
           "card_type": "numbered",
           "print_run": 499,
-          "inCollection": false
+          "inCollection": true,
+          "price": 10.80
         }
       ]
     },
@@ -596,7 +597,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 6.52
         }
       ],
       "subsets": [
@@ -656,7 +658,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 8.85
             }
           ]
         },
@@ -858,7 +861,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 8
         }
       ]
     },
@@ -2776,7 +2780,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 6.16
             }
           ]
         },
@@ -4161,6 +4166,39 @@
         }
       ]
     },
+    "2018-19-upper-deck-team-canada-juniors": {
+      "set_key": "2018-19-upper-deck-team-canada-juniors",
+      "set_name": "Upper Deck Team Canada Juniors",
+      "set_year_label": "2018-19",
+      "set_year_start": 2018,
+      "set_year_end": 2019,
+      "set_display_name": "2018-19 Upper Deck Team Canada Juniors",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2018-19-upper-deck-team-canada-juniors-program-of-excellence",
+          "set_name": "Program of Excellence",
+          "set_display_name": "2018-19 Upper Deck Team Canada Juniors - Program of Excellence",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2018-19-upper-deck-team-canada-juniors-program-of-excellence-poe-29",
+              "base_number": "POE-29",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2018-Upper-Deck-Team-Canada-Juniors---Program-of-Excellence-POE-29-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2018-Upper-Deck-Team-Canada-Juniors---Program-of-Excellence-POE-29-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Team Canada",
+              "position": "Center",
+              "inCollection": true,
+              "price": 4.72
+            }
+          ]
+        }
+      ]
+    },
     "2018-19-o-pee-chee-coast-to-coast": {
       "set_key": "2018-19-o-pee-chee-coast-to-coast",
       "set_name": "O-Pee-Chee Coast to Coast",
@@ -4470,6 +4508,31 @@
           "position": "Center",
           "inCollection": false
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2019-20-upper-deck-artifacts-ruby",
+          "set_name": "Ruby",
+          "set_display_name": "2019-20 Upper Deck Artifacts - Ruby",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2019-20-upper-deck-artifacts-ruby-156",
+              "base_number": "156",
+              "card_type": "numbered",
+              "print_run": 399,
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2019-20-Upper-Deck-Artifacts---Ruby-156-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2019-20-Upper-Deck-Artifacts---Ruby-156-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 8.10
+            }
+          ]
+        }
       ]
     },
     "2019-20-upper-deck-stature": {
@@ -4690,6 +4753,32 @@
               "price": 8
             }
           ]
+        }
+      ]
+    },
+    "2020-21-upper-deck-black-diamond": {
+      "set_key": "2020-21-upper-deck-black-diamond",
+      "set_name": "Upper Deck Black Diamond",
+      "set_year_label": "2020-21",
+      "set_year_start": 2020,
+      "set_year_end": 2021,
+      "set_display_name": "2020-21 Upper Deck Black Diamond",
+      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/238908/2020-21-upper-deck-black-diamond",
+      "cards": [
+        {
+          "id": "ml-2020-21-upper-deck-black-diamond-bdb-ml",
+          "base_number": "BDB-ML",
+          "card_type": "numbered",
+          "print_run": 349,
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/238908/cid/16258784/2020-21-Upper-Deck-Black-Diamond-BDB-ML-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 6
         }
       ]
     },
@@ -7365,7 +7454,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 6.48
             }
           ]
         }

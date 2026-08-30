@@ -1287,6 +1287,19 @@
           "price": 0.99
         },
         {
+          "id": "ml-1991-92-score-canadian-english-316",
+          "base_number": "316",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1991-92-Score-Canadian-English-316-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1991-92-Score-Canadian-English-316-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "price": 1.89
+        },
+        {
           "id": "ml-1991-92-score-canadian-english-365",
           "base_number": "365",
           "orientation_front": "landscape",
@@ -1620,7 +1633,8 @@
           "position": "Center",
           "variant_note": "SP",
           "print_run": 10000,
-          "inCollection": false
+          "inCollection": true,
+          "price": 5
         }
       ],
       "subsets": [
@@ -3764,7 +3778,8 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "variant_note": "Gold",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.5
             },
             {
               "id": "ml-1993-94-topps-premier-gold-91",
@@ -3777,7 +3792,8 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "variant_note": "Gold",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.5
             },
             {
               "id": "ml-1993-94-topps-premier-gold-185",
