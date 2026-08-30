@@ -7239,6 +7239,7 @@
         {
           "set_key": "2003-04-pacific-supreme-retail",
           "set_name": "Retail",
+          "set_type": "parallel",
           "set_display_name": "2003-04 Pacific Supreme - Retail",
           "set_tcdb_href": "",
           "cards": [
@@ -7253,6 +7254,27 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-pacific-supreme-team",
+          "set_name": "Team",
+          "set_display_name": "2003-04 Pacific Supreme - Team",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/51181/2003-04-Pacific-Supreme-Team",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-supreme-team-7",
+              "base_number": "7",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/51181/cid/1753547/2003-04-Pacific-Supreme-7-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 3.5
             }
           ]
         }
