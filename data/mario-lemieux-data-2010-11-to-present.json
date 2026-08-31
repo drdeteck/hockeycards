@@ -800,6 +800,31 @@
         }
       ]
     },
+    "2012-13-panini-prime": {
+      "set_key": "2012-13-panini-prime",
+      "set_name": "Panini Prime",
+      "set_year_label": "2012-13",
+      "set_year_start": 2012,
+      "set_year_end": 2013,
+      "set_display_name": "2012-13 Panini Prime",
+      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/82044/2012-13-Panini-Prime",
+      "cards": [
+        {
+          "id": "ml-2012-13-panini-prime-50",
+          "base_number": "50",
+          "card_type": "numbered",
+          "print_run": 249,
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/82044/cid/5984397/2012-13-Panini-Prime-50-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        }
+      ]
+    },
     "2012-13-panini-rookie-anthology": {
       "set_key": "2012-13-panini-rookie-anthology",
       "set_name": "Panini Rookie Anthology",
