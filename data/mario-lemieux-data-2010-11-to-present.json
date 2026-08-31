@@ -746,8 +746,11 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false,
-          "print_run": 999
+          "inCollection": true,
+          "price": 4.5,
+          "print_run": 999,
+          "card_type": "numbered",
+          "card_note": "Immortals"
         }
       ]
     },
