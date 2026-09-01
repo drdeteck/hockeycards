@@ -3393,6 +3393,26 @@
           ]
         },
         {
+          "set_key": "2001-02-upper-deck-leaders-of-the-pack",
+          "set_name": "Leaders of the Pack",
+          "set_display_name": "2001-02 Upper Deck - Leaders of the Pack",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-upper-deck-leaders-of-the-pack-lp11",
+              "base_number": "LP11",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Upper-Deck---Leaders-of-the-Pack-LP11-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Upper-Deck---Leaders-of-the-Pack-LP11-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
           "set_key": "2001-02-upper-deck-shooting-stars",
           "set_name": "Shooting Stars",
           "set_display_name": "2001-02 Upper Deck - Shooting Stars",
@@ -6732,6 +6752,27 @@
         }
       ],
       "subsets": [
+        {
+          "set_key": "2003-04-pacific-crown-royale-retail",
+          "set_name": "Retail",
+          "set_display_name": "2003-04 Pacific Crown Royale - Retail",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/51115/2003-04-Pacific-Crown-Royale-Retail",
+          "set_type": "Parallel",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-crown-royale-retail-80",
+              "base_number": "80",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Crown-Royale---Retail-80-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Crown-Royale---Retail-80-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
         {
           "set_key": "2003-04-pacific-crown-royale-blue",
           "set_name": "Blue",

@@ -585,7 +585,7 @@
                                         alt: $data.set_display_name + ' #' + $data.base_number }"
                                     onerror="this.src='img/cards/placeholder.svg'">
                                 <span class="binder-slot-label"
-                                    data-bind="text: $data.set_display_name + ' #' + $data.base_number"></span>
+                                    data-bind="text: $root.BinderCardLabel($data)"></span>
                             </a>
                             <!-- ko if: $data.inCollection -->
                             <span class="binder-slot-owned-badge" title="In collection" aria-label="In collection">

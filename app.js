@@ -2033,6 +2033,33 @@ function DataViewModel() {
         return card.image_front || card.image_back || placeholder;
     };
 
+    self.BinderCardLabel = function (card) {
+        if (!card) {
+            return '';
+        }
+
+        var subset = (card.insert_subset || '').toString().trim();
+        var number = (card.base_number || card.number || '').toString().trim();
+        var setName = (card.set_display_name || card.set_name || '').toString().trim();
+
+        if (subset) {
+            if (number) {
+                return setName + ' · ' + subset + ' · #' + number;
+            }
+            return subset;
+        }
+
+        if (setName && number) {
+            return setName + ' #' + number;
+        }
+
+        if (number) {
+            return '#' + number;
+        }
+
+        return setName || '';
+    };
+
     self.GetGridCardSetName = function (card) {
         if (!card) {
             return '';
