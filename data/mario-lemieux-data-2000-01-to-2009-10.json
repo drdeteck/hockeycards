@@ -1723,6 +1723,38 @@
         }
       ]
     },
+    "2001-02-be-a-player-signature-series": {
+      "set_key": "2001-02-be-a-player-signature-series",
+      "set_name": "Be a Player Signature Series",
+      "set_year_label": "2001-02",
+      "set_year_start": 2001,
+      "set_year_end": 2002,
+      "set_display_name": "2001-02 Be a Player Signature Series",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2001-02-be-a-player-signature-series-he-shoots-he-scores-points",
+          "set_name": "He Shoots He Scores Points",
+          "set_display_name": "2001-02 Be a Player Signature Series - He Shoots He Scores Points",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-be-a-player-signature-series-he-shoots-he-scores-points-nno",
+              "base_number": "NNO",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Be-a-Player-Signature-Series---He-Shoots-He-Scores-Points-NNO-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Be-a-Player-Signature-Series---He-Shoots-He-Scores-Points-NNO-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2001-02-bowman-youngstars": {
       "set_key": "2001-02-bowman-youngstars",
       "set_name": "Bowman YoungStars",
@@ -6459,8 +6491,8 @@
               "id": "ml-2003-04-in-the-game-action-homeboys-hb-10",
               "base_number": "HB-10",
               "variant_note": "Martin Brodeur / Mario Lemieux",
-              "orientation_front": "landscape",
-              "orientation_back": "landscape",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2003-04-In-The-Game-Action---Homeboys-HB-10-Martin-Brodeur--Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2003-04-In-The-Game-Action---Homeboys-HB-10-Martin-Brodeur--Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -6655,6 +6687,47 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-pacific-red",
+          "set_name": "Red",
+          "set_display_name": "2003-04 Pacific - Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-red-274",
+              "base_number": "274",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific---Red-274-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific---Red-274-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-pacific-blue",
+          "set_name": "Blue",
+          "set_display_name": "2003-04 Pacific - Blue",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-blue-274",
+              "base_number": "274",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific---Blue-274-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific---Blue-274-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "print_run": 250,
+              "inCollection": false
             }
           ]
         }
@@ -7383,6 +7456,27 @@
         }
       ],
       "subsets": [
+        {
+          "set_key": "2003-04-sp-authentic-10th-anniversary",
+          "set_name": "10th Anniversary",
+          "set_display_name": "2003-04 SP Authentic - 10th Anniversary",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-sp-authentic-10th-anniversary-sp4",
+              "base_number": "SP4",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-SP-Authentic---10th-Anniversary-SP4-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-SP-Authentic---10th-Anniversary-SP4-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "print_run": 1994,
+              "inCollection": false
+            }
+          ]
+        },
         {
           "set_key": "2003-04-sp-authentic-sp-honors",
           "set_name": "SP Honors",
