@@ -2640,7 +2640,7 @@ function DataViewModel() {
             });
         }
 
-        // Serial Numbered — organized into groups like Mario years, wraps after 999
+        // Serial Numbered — organized into compact groups so the vertical menu wraps naturally.
         var serialItems = items.filter(function (itm) { return itm && itm.source === 'mario-serial'; });
         if (serialItems.length > 0) {
             serialItems.sort(function (left, right) {
@@ -2649,41 +2649,34 @@ function DataViewModel() {
 
             var serialGroups = [];
 
-            // Split into two groups: up to 999 and 1000+
-            var serialUpTo999 = serialItems.filter(function (item) {
-                return (parseInt(item.print_run, 10) || 0) <= 999;
-            });
-            var serialFrom1000 = serialItems.filter(function (item) {
-                return (parseInt(item.print_run, 10) || 0) > 999;
-            });
+            var serialRanges = [
+                { label: 'upTo499', max: 499 },
+                { label: '500To999', min: 500, max: 999 },
+                { label: '1000To1999', min: 1000, max: 1999 },
+                { label: '2000Plus', min: 2000 }
+            ];
 
-            // Add group for up to 999
-            if (serialUpTo999.length > 0) {
-                serialGroups.push({
-                    text: '',
-                    controls: serialUpTo999.map(function (item) {
-                        return {
-                            key: item.set_key,
-                            displayName: '/' + item.print_run
-                        };
-                    })
+            serialRanges.forEach(function (range) {
+                var groupItems = serialItems.filter(function (item) {
+                    var value = parseInt(item.print_run, 10) || 0;
+                    var inMin = typeof range.min === 'undefined' || value >= range.min;
+                    var inMax = typeof range.max === 'undefined' || value <= range.max;
+                    return inMin && inMax;
                 });
-            }
 
-            // Add group for 1000+
-            if (serialFrom1000.length > 0) {
-                serialGroups.push({
-                    text: '',
-                    controls: serialFrom1000.map(function (item) {
-                        return {
-                            key: item.set_key,
-                            displayName: '/' + item.print_run
-                        };
-                    })
-                });
-            }
+                if (groupItems.length > 0) {
+                    serialGroups.push({
+                        text: '',
+                        controls: groupItems.map(function (item) {
+                            return {
+                                key: item.set_key,
+                                displayName: '/' + item.print_run
+                            };
+                        })
+                    });
+                }
+            });
 
-            // Create single menuRow with both groups
             if (serialGroups.length > 0) {
                 menuRows.push({
                     name: 'Serial Numbered',
