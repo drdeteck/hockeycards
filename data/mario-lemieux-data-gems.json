@@ -244,29 +244,38 @@
                 }
             ]
         },
-        "2025-26-upper-deck-x-ovo-x-hockey-canada-black-and-gold": {
-            "set_key": "2025-26-upper-deck-x-ovo-x-hockey-canada-black-and-gold",
-            "set_name": "Upper Deck X OVO X Hockey Canada - Black and Gold",
+        "2025-26-upper-deck-x-ovo-x-hockey-canada": {
+            "set_key": "2025-26-upper-deck-x-ovo-x-hockey-canada",
+            "set_name": "Upper Deck X-OVO X Hockey Canada",
             "set_year_label": "2025-26",
             "set_year_start": 2025,
             "set_year_end": 2026,
-            "set_display_name": "2025-26 Upper Deck X OVO X Hockey Canada - Black and Gold",
+            "set_display_name": "2025-26 Upper Deck X-OVO X Hockey Canada",
             "set_tcdb_href": "",
-            "cards": [
+            "cards": [],
+            "subsets": [
                 {
-                    "id": "ml-2025-26-upper-deck-x-ovo-x-hockey-canada-black-and-gold-02",
-                    "base_number": "02",
-                    "card_type": "numbered",
-                    "print_run": 99,
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/590290/cid/33252132/2025-26",
-                    "team": "Pittsburgh Penguins",
-                    "position": "Center",
-                    "inCollection": true,
-                    "price": 41.56
+                    "set_key": "2025-26-upper-deck-x-ovo-x-hockey-canada-black-and-gold",
+                    "set_name": "Black and Gold",
+                    "set_display_name": "2025-26 Upper Deck X-OVO X Hockey Canada - Black and Gold",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-2025-26-upper-deck-x-ovo-x-hockey-canada-black-and-gold-02",
+                            "base_number": "02",
+                            "card_type": "numbered",
+                            "print_run": 99,
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/590290/cid/33252132/2025-26",
+                            "team": "Pittsburgh Penguins",
+                            "position": "Center",
+                            "inCollection": true,
+                            "price": 41.56
+                        }
+                    ]
                 }
             ]
         }

@@ -7257,6 +7257,32 @@
           "position": "Center",
           "inCollection": false
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2025-26-upper-deck-x-ovo-x-hockey-canada-black-and-gold",
+          "set_name": "Black and Gold",
+          "set_display_name": "2025-26 Upper Deck X-OVO X Hockey Canada - Black and Gold",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2025-26-upper-deck-x-ovo-x-hockey-canada-black-and-gold-02",
+              "base_number": "02",
+              "card_type": "numbered",
+              "print_run": 99,
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2025-26-Upper-Deck-X-OVO-X-Hockey-Canada-Black-and-Gold-02-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2025-26-Upper-Deck-X-OVO-X-Hockey-Canada-Black-and-Gold-02-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/590290/cid/33252132/2025-26",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "excludeFromBinder": true,
+              "inCollection": true,
+              "price": 41.56
+            }
+          ]
+        }
       ]
     },
     "2026-27-upper-deck-national-hockey-card-day": {
