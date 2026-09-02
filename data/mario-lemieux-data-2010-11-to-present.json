@@ -5360,6 +5360,28 @@
       "cards": [],
       "subsets": [
         {
+          "set_key": "2022-23-spx-holochampions",
+          "set_name": "HoloChampions",
+          "set_display_name": "2022-23 SPx - HoloChampions",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2022-23-spx-holochampions-hc-ml",
+              "base_number": "HC-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/386925/cid/22617712/2022-23-SPx-HC-ML-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "print_run": 299,
+              "price": 12.50
+            }
+          ]
+        },
+        {
           "set_key": "2022-23-spx-radiance-fx",
           "set_name": "Radiance FX",
           "set_display_name": "2022-23 SPx - Radiance FX",
@@ -5375,7 +5397,50 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/386929/cid/22617810/2022-23-SPx-RFX-3-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": false,
+              "print_run": 549
+            }
+          ]
+        },
+        {
+          "set_key": "2022-23-spx-radiance-fx-blue",
+          "set_name": "Radiance FX Blue",
+          "set_display_name": "2022-23 SPx - Radiance FX Blue",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2022-23-spx-radiance-fx-blue-rfx3",
+              "base_number": "RFX-3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "print_run": 399
+            }
+          ]
+        },
+        {
+          "set_key": "2022-23-spx-radiance-fx-red",
+          "set_name": "Radiance FX Red",
+          "set_display_name": "2022-23 SPx - Radiance FX Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2022-23-spx-radiance-fx-red-rfx3",
+              "base_number": "RFX-3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "print_run": 249
             }
           ]
         }

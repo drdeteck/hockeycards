@@ -5033,6 +5033,28 @@
               "price": 6.38
             }
           ]
+        },
+        {
+          "set_key": "2002-03-pacific-vanguard-east-meets-west",
+          "set_name": "East Meets West",
+          "set_display_name": "2002-03 Pacific Vanguard - East Meets West",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-vanguard-east-meets-west-3",
+              "base_number": "3",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2002-03-Pacific-Vanguard---East-Meets-West-3-Mario-Lemieux--Steve-YzermanFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Pacific-Vanguard---East-Meets-West-3-Mario-Lemieux--Steve-YzermanBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "with Steve Yzerman",
+              "inCollection": true,
+              "price": 1.89
+            }
+          ]
         }
       ]
     },
