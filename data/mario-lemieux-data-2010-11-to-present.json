@@ -7690,7 +7690,21 @@
       "set_year_end": 2011,
       "set_display_name": "2010-11 Panini Certified",
       "set_tcdb_href": "",
-      "cards": [],
+      "cards": [
+        {
+          "id": "ml-2010-11-panini-certified-156",
+          "base_number": "156",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2010-11-Panini-Certified-156-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2010-11-Panini-Certified-156-Mario-LemieuxBk.jpg",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/10588/cid/1551771/2010-11-Panini-Certified-156-Mario-Lemieux-",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "print_run": 500,
+          "inCollection": false
+        }
+      ],
       "subsets": [
         {
           "set_key": "2010-11-panini-certified-champions",
@@ -7712,6 +7726,28 @@
               "print_run": 500,
               "inCollection": true,
               "price": 10.5
+            }
+          ]
+        },
+        {
+          "set_key": "2010-11-panini-certified-legends",
+          "set_name": "Legends",
+          "set_display_name": "2010-11 Panini Certified - Legends",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/60808/2010-11-Panini-Certified-Legends",
+          "cards": [
+            {
+              "id": "ml-2010-11-panini-certified-legends-4",
+              "base_number": "4",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2010-11-Panini-Certified---Legends-4-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2010-11-Panini-Certified---Legends-4-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/60808/cid/4656917/2010-11-Panini-Certified---Legends-4-Mario-Lemieux-",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "card_type": "numbered",
+              "print_run": 500,
+              "inCollection": false
             }
           ]
         }

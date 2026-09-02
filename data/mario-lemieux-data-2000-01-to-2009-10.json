@@ -4994,6 +4994,29 @@
       ],
       "subsets": [
         {
+          "set_key": "2002-03-pacific-vanguard-ltd",
+          "set_name": "LTD",
+          "set_display_name": "2002-03 Pacific Vanguard - LTD",
+          "set_type": "parallel",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/50603/2002-03-Pacific-Vanguard-LTD",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-vanguard-ltd-81",
+              "base_number": "81",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50603/cid/1730643/2002-03-Pacific-Vanguard-LTD-81-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "card_type": "numbered",
+              "print_run": 450,
+              "inCollection": false
+            }
+          ]
+        },
+        {
           "set_key": "2002-03-pacific-vanguard-v-team",
           "set_name": "V-Team",
           "set_display_name": "2002-03 Pacific Vanguard - V-Team",
@@ -5043,8 +5066,8 @@
             {
               "id": "ml-2002-03-pacific-vanguard-east-meets-west-3",
               "base_number": "3",
-              "orientation_front": "landscape",
-              "orientation_back": "landscape",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2002-03-Pacific-Vanguard---East-Meets-West-3-Mario-Lemieux--Steve-YzermanFr.jpg",
               "image_back": "img/cards/ML66/2002-03-Pacific-Vanguard---East-Meets-West-3-Mario-Lemieux--Steve-YzermanBk.jpg",
               "tcdb_href": "",
@@ -5772,8 +5795,8 @@
               "base_number": "ET13",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2002-03-Upper-Deck-Classic-Portraits---Etched-in-Time-ET13-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Upper-Deck-Classic-Portraits---Etched-in-Time-ET13-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -5792,8 +5815,8 @@
               "base_number": "PS8",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2002-03-Upper-Deck-Classic-Portraits---Pillars-of-Strength-PS8-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Upper-Deck-Classic-Portraits---Pillars-of-Strength-PS8-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
