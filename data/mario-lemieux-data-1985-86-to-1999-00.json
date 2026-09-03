@@ -8868,7 +8868,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.25
         },
         {
           "id": "ml-1996-97-fleer-138",
@@ -8880,7 +8881,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.25
         },
         {
           "id": "ml-1996-97-fleer-139",
@@ -8892,7 +8894,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.25
         },
         {
           "id": "ml-1996-97-fleer-141",

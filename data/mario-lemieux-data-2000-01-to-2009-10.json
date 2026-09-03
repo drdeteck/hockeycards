@@ -2074,7 +2074,7 @@
           "set_tcdb_href": "",
           "cards": [
             {
-              "id": "ml-2001-02-pacific-private-stock-titanium-north-america-all-stars-die-cuts-10",
+              "id": "ml-2001-02-pacific-north-america-all-stars-die-cuts-10",
               "base_number": "10",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
@@ -2409,8 +2409,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false,
-          "price": 2.72
+          "inCollection": true,
+          "price": 2
         }
       ],
       "subsets": [
@@ -3871,6 +3871,20 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-2001-02-upper-deck-vintage-208",
+          "base_number": "208",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2001-02-Upper-Deck-Vintage-208-Penguins-ChecklistFr.jpg",
+          "image_back": "img/cards/ML66/2001-02-Upper-Deck-Vintage-208-Penguins-ChecklistBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "variant_note": "Penguins Checklist",
+          "inCollection": true,
+          "price": 1.5
         }
       ]
     },
@@ -6592,8 +6606,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/51025/cid/1746492/2003-04-In-The-Game-Action-HR-4-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 4
+              "inCollection": true,
+              "price": 10
             }
           ]
         },

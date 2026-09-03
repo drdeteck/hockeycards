@@ -820,6 +820,31 @@
                 }
             ]
         },
+        "1991-92-allan-kaye-s-sports-cards-news-magazine-standard-size": {
+            "set_key": "1991-92-allan-kaye-s-sports-cards-news-magazine-standard-size",
+            "set_name": "Allan Kaye's Sports Cards News Magazine (Standard-size)",
+            "set_year_label": "1991-92",
+            "set_year_start": 1991,
+            "set_year_end": 1992,
+            "set_display_name": "1991-92 Allan Kaye's Sports Cards News Magazine (Standard-size)",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1991-92-allan-kaye-s-sports-cards-news-magazine-standard-size-1992-10",
+                    "base_number": "1992-10",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1991-92-Allan-Kaye-s-Sports-Cards-News-Magazine-Standard-size-1992-10-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1991-92-Allan-Kaye-s-Sports-Cards-News-Magazine-Standard-size-1992-10-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/121467/cid/8263678/1991-92-Allan-Kaye-s-Sports-Cards-News-Magazine-Standard-size-1992-10-Mario-Lemieux",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": true,
+                    "price": 3
+                }
+            ]
+        },
         "1992-93-american-sports-monthly-unlicensed": {
             "set_key": "1992-93-american-sports-monthly-unlicensed",
             "set_name": "American Sports Monthly (unlicensed)",
