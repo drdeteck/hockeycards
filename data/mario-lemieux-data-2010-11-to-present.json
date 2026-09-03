@@ -1643,6 +1643,20 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "variant_note": "HH"
+        },
+        {
+          "base_number": "NHCD16",
+          "id": "ml-2013-14-upper-deck-national-hockey-card-day-canada-nhcd16",
+          "image_back": "img/cards/ML66/2013-Upper-Deck-National-Hockey-Card-Day-Canada-NHCD16-Wayne-Gretzky--Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2013-Upper-Deck-National-Hockey-Card-Day-Canada-NHCD16-Wayne-Gretzky--Mario-LemieuxFr.jpg",
+          "inCollection": true,
+          "orientation_back": "portrait",
+          "orientation_front": "portrait",
+          "position": "Center",
+          "price": 1,
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/81427/cid/5779247/2013-Upper-Deck-National-Hockey-Card-Day-Canada-NHCD16-Wayne-Gretzky-/-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "variant_note": "w/ Wayne Gretzky"
         }
       ]
     },
