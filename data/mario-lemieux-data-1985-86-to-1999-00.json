@@ -26,6 +26,7 @@
           "position": "Center",
           "variant_note": "Rookie",
           "inCollection": true,
+          "excludeFromBinder": true,
           "price": 120
         },
         {
@@ -63,6 +64,7 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4861/cid/1174634/1985-86-Topps-9-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
+          "excludeFromBinder": true,
           "variant_note": "Rookie"
         }
       ]
