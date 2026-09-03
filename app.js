@@ -664,6 +664,7 @@ function DataViewModel() {
                     set_key: subset.set_key,
                     set_name: subset.set_name,
                     set_display_name: subset.set_display_name || (setDisplayName + ' - ' + subset.set_name),
+                    set_type: subset.set_type || null,
                     set_tcdb_href: subset.set_tcdb_href || '',
                     set_year_label: yearLabel,
                     set_year_start: seasonStart,
@@ -759,7 +760,7 @@ function DataViewModel() {
             var properSetSubsets = [];
 
             (setData.cards || []).forEach(function (row) {
-                var cardItem = self._buildMarioCardItem(row, setKey, yearLabel, seasonStart, seasonEnd, setName, setVariation, setDisplayName, '');
+                var cardItem = self._buildMarioCardItem(row, setKey, yearLabel, seasonStart, seasonEnd, setName, setVariation, setDisplayName, '', '', setKey);
                 properSetCards.push(cardItem);
                 allCards.push(cardItem);
             });
@@ -767,7 +768,7 @@ function DataViewModel() {
             (setData.subsets || []).forEach(function (subset) {
                 var subCards = [];
                 (subset.cards || []).forEach(function (row) {
-                    var cardItem = self._buildMarioCardItem(row, subset.set_key, yearLabel, seasonStart, seasonEnd, setName, setVariation, setDisplayName, subset.set_name, setKey);
+                    var cardItem = self._buildMarioCardItem(row, subset.set_key, yearLabel, seasonStart, seasonEnd, setName, setVariation, setDisplayName, subset.set_name, subset.set_type, setKey);
                     subCards.push(cardItem);
                     allCards.push(cardItem);
                 });
@@ -776,6 +777,7 @@ function DataViewModel() {
                     set_key: subset.set_key,
                     set_name: subset.set_name,
                     set_display_name: subset.set_display_name || (setDisplayName + ' - ' + subset.set_name),
+                    set_type: subset.set_type || null,
                     set_tcdb_href: subset.set_tcdb_href || '',
                     set_year_label: yearLabel,
                     set_year_start: seasonStart,
@@ -828,57 +830,11 @@ function DataViewModel() {
 
         Object.keys(byYear).forEach(function (key) {
             var yearCards = byYear[key].cards;
-            yearCards.sort(function (left, right) {
-                var leftSet = (left.set_name || '').toString();
-                var rightSet = (right.set_name || '').toString();
-                var setCompare = leftSet.localeCompare(rightSet, undefined, { sensitivity: 'base' });
-                if (setCompare !== 0) {
-                    return setCompare;
-                }
-                var leftVariation = (left.set_variation || '').toString();
-                var rightVariation = (right.set_variation || '').toString();
-                var variationCompare = leftVariation.localeCompare(rightVariation, undefined, { sensitivity: 'base' });
-                if (variationCompare !== 0) {
-                    return variationCompare;
-                }
-                var leftSubset = (left.insert_subset || '').toString();
-                var rightSubset = (right.insert_subset || '').toString();
-                var subsetCompare = leftSubset.localeCompare(rightSubset, undefined, { sensitivity: 'base' });
-                if (subsetCompare !== 0) {
-                    return subsetCompare;
-                }
-                return (left.base_number || '').toString().localeCompare((right.base_number || '').toString(), undefined, { numeric: true, sensitivity: 'base' });
-            });
+            yearCards.sort(self.CompareCardsForSetDisplay);
             byYear[key].set_total_cards = yearCards.length;
         });
 
-        allCards.sort(function (left, right) {
-            var leftYearStart = parseInt(left.set_year_start, 10) || 0;
-            var rightYearStart = parseInt(right.set_year_start, 10) || 0;
-            if (leftYearStart !== rightYearStart) {
-                return leftYearStart - rightYearStart;
-            }
-
-            var leftSet = (left.set_name || '').toString();
-            var rightSet = (right.set_name || '').toString();
-            var setCompare = leftSet.localeCompare(rightSet, undefined, { sensitivity: 'base' });
-            if (setCompare !== 0) {
-                return setCompare;
-            }
-            var leftVariation = (left.set_variation || '').toString();
-            var rightVariation = (right.set_variation || '').toString();
-            var variationCompare = leftVariation.localeCompare(rightVariation, undefined, { sensitivity: 'base' });
-            if (variationCompare !== 0) {
-                return variationCompare;
-            }
-            var leftSubset = (left.insert_subset || '').toString();
-            var rightSubset = (right.insert_subset || '').toString();
-            var subsetCompare = leftSubset.localeCompare(rightSubset, undefined, { sensitivity: 'base' });
-            if (subsetCompare !== 0) {
-                return subsetCompare;
-            }
-            return (left.base_number || '').toString().localeCompare((right.base_number || '').toString(), undefined, { numeric: true, sensitivity: 'base' });
-        });
+        allCards.sort(self.CompareCardsForSetDisplay);
 
         var allCollection = {
             set_key: 'ML-all',
@@ -900,7 +856,7 @@ function DataViewModel() {
         return result;
     };
 
-    self._buildMarioCardItem = function (row, routingSetKey, yearLabel, seasonStart, seasonEnd, setName, setVariation, setDisplayName, subsetName, parentSetKey) {
+    self._buildMarioCardItem = function (row, routingSetKey, yearLabel, seasonStart, seasonEnd, setName, setVariation, setDisplayName, subsetName, subsetType, parentSetKey) {
         var baseNumber = row.base_number || 'NNO';
         var tcdbHref = row.tcdb_href || '';
         return {
@@ -919,6 +875,7 @@ function DataViewModel() {
             set_year_start: seasonStart,
             set_year_end: seasonEnd,
             set_display_name: setDisplayName,
+            set_type: subsetType || row.set_type || '',
             insert_subset: subsetName || '',
             image_front: row.image_front || '',
             image_back: row.image_back || '',
@@ -1565,6 +1522,54 @@ function DataViewModel() {
         return d[self.CurrentCollectionKey()];
     });
 
+    self.GetOrderedSubsetEntries = function (collection) {
+        var subsets = (collection && Array.isArray(collection.subsets)) ? collection.subsets.slice() : [];
+        subsets.sort(function (left, right) {
+            var leftType = ((left && left.set_type) || '').toString().trim().toLowerCase();
+            var rightType = ((right && right.set_type) || '').toString().trim().toLowerCase();
+            var leftIsParallel = leftType === 'parallel';
+            var rightIsParallel = rightType === 'parallel';
+            if (leftIsParallel !== rightIsParallel) {
+                return leftIsParallel ? -1 : 1;
+            }
+            var leftName = ((left && (left.set_name || left.set_display_name)) || '').toString();
+            var rightName = ((right && (right.set_name || right.set_display_name)) || '').toString();
+            return leftName.localeCompare(rightName, undefined, { sensitivity: 'base' });
+        });
+        return subsets;
+    };
+
+    self.GetCardSubsetPriority = function (card) {
+        var subsetName = (card && (card.insert_subset || '') || '').toString();
+        if (!subsetName) { return 0; }
+        var subsetType = ((card && (card.set_type || '')) || '').toString().trim().toLowerCase();
+        return subsetType === 'parallel' ? 1 : 2;
+    };
+
+    self.CompareCardsForSetDisplay = function (left, right) {
+        var leftSubset = (left && (left.insert_subset || '') || '').toString();
+        var rightSubset = (right && (right.insert_subset || '') || '').toString();
+        if (!leftSubset && rightSubset) { return -1; }
+        if (leftSubset && !rightSubset) { return 1; }
+
+        var leftPriority = self.GetCardSubsetPriority(left);
+        var rightPriority = self.GetCardSubsetPriority(right);
+        if (leftPriority !== rightPriority) {
+            return leftPriority - rightPriority;
+        }
+
+        var subsetCompare = leftSubset.localeCompare(rightSubset, undefined, { sensitivity: 'base' });
+        if (subsetCompare !== 0) {
+            return subsetCompare;
+        }
+
+        return (left.base_number || '').toString().localeCompare(
+            (right.base_number || '').toString(),
+            undefined,
+            { numeric: true, sensitivity: 'base' }
+        );
+    };
+
     // Flattens a collection's own cards plus every subset's cards into a single array.
     self.GetAllCardsForCollection = function (collection) {
         var allCards = [];
@@ -1617,36 +1622,7 @@ function DataViewModel() {
         }
 
         var cards = (collection.cards || []).slice();
-        cards.sort(function (left, right) {
-            var leftYearStart = parseInt(left.set_year_start, 10) || 0;
-            var rightYearStart = parseInt(right.set_year_start, 10) || 0;
-            if (leftYearStart !== rightYearStart) {
-                return leftYearStart - rightYearStart;
-            }
-
-            var leftSet = (left.set_name || '').toString();
-            var rightSet = (right.set_name || '').toString();
-            var setCompare = leftSet.localeCompare(rightSet, undefined, { sensitivity: 'base' });
-            if (setCompare !== 0) {
-                return setCompare;
-            }
-
-            var leftVariation = (left.set_variation || '').toString();
-            var rightVariation = (right.set_variation || '').toString();
-            var variationCompare = leftVariation.localeCompare(rightVariation, undefined, { sensitivity: 'base' });
-            if (variationCompare !== 0) {
-                return variationCompare;
-            }
-
-            var leftSubset = (left.insert_subset || '').toString();
-            var rightSubset = (right.insert_subset || '').toString();
-            var subsetCompare = leftSubset.localeCompare(rightSubset, undefined, { sensitivity: 'base' });
-            if (subsetCompare !== 0) {
-                return subsetCompare;
-            }
-
-            return (left.base_number || left.number || '').toString().localeCompare((right.base_number || right.number || '').toString(), undefined, { numeric: true, sensitivity: 'base' });
-        });
+        cards.sort(self.CompareCardsForSetDisplay);
 
         var groupsByYear = {};
         cards.forEach(function (card) {
@@ -1710,19 +1686,7 @@ function DataViewModel() {
 
         return setOrderKeys.map(function (groupKey) {
             var group = groupsBySet[groupKey];
-            group.cards.sort(function (left, right) {
-                var leftSubset = (left.insert_subset || '').toString();
-                var rightSubset = (right.insert_subset || '').toString();
-                if (!leftSubset && rightSubset) { return -1; }
-                if (leftSubset && !rightSubset) { return 1; }
-                var subsetCompare = leftSubset.localeCompare(rightSubset, undefined, { sensitivity: 'base' });
-                if (subsetCompare !== 0) { return subsetCompare; }
-                return (left.base_number || '').toString().localeCompare(
-                    (right.base_number || '').toString(),
-                    undefined,
-                    { numeric: true, sensitivity: 'base' }
-                );
-            });
+            group.cards.sort(self.CompareCardsForSetDisplay);
             var label = group.variation ? (group.setName + ' (' + group.variation + ')') : group.setName;
             return { label: label, cards: group.cards };
         });

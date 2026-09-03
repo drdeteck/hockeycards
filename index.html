@@ -263,7 +263,7 @@
 
                 <!-- renders any inner sets / subsets (e.g. Holograms) -->
                 <!-- ko if: $root.CurrentCollection() && $root.CurrentCollection().subsets && $root.CurrentCollection().subsets.length -->
-                <!-- ko foreach: $root.CurrentCollection().subsets -->
+                <!-- ko foreach: $root.GetOrderedSubsetEntries($root.CurrentCollection()) -->
                 <!-- ko if: $root.HasWishableCards(cards) -->
                 <h2 class="card-grid-header">
                     <span class="card-grid-header-inner">
