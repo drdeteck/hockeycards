@@ -830,11 +830,11 @@ function DataViewModel() {
 
         Object.keys(byYear).forEach(function (key) {
             var yearCards = byYear[key].cards;
-            yearCards.sort(self.CompareCardsForSetDisplay);
+            yearCards.sort(self.CompareCardsForCollectionDisplay);
             byYear[key].set_total_cards = yearCards.length;
         });
 
-        allCards.sort(self.CompareCardsForSetDisplay);
+        allCards.sort(self.CompareCardsForCollectionDisplay);
 
         var allCollection = {
             set_key: 'ML-all',
@@ -1570,6 +1570,45 @@ function DataViewModel() {
         );
     };
 
+    self.CompareCardsForCollectionDisplay = function (left, right) {
+        var leftYearStart = parseInt(left.set_year_start, 10) || 0;
+        var rightYearStart = parseInt(right.set_year_start, 10) || 0;
+        if (leftYearStart !== rightYearStart) {
+            return leftYearStart - rightYearStart;
+        }
+
+        var setCompare = (left.set_name || '').toString().localeCompare(
+            (right.set_name || '').toString(),
+            undefined,
+            { sensitivity: 'base' }
+        );
+        if (setCompare !== 0) {
+            return setCompare;
+        }
+
+        var variationCompare = (left.set_variation || '').toString().localeCompare(
+            (right.set_variation || '').toString(),
+            undefined,
+            { sensitivity: 'base' }
+        );
+        if (variationCompare !== 0) {
+            return variationCompare;
+        }
+
+        var leftSubset = (left.insert_subset || '').toString();
+        var rightSubset = (right.insert_subset || '').toString();
+        var subsetCompare = leftSubset.localeCompare(rightSubset, undefined, { sensitivity: 'base' });
+        if (subsetCompare !== 0) {
+            return subsetCompare;
+        }
+
+        return (left.base_number || '').toString().localeCompare(
+            (right.base_number || '').toString(),
+            undefined,
+            { numeric: true, sensitivity: 'base' }
+        );
+    };
+
     // Flattens a collection's own cards plus every subset's cards into a single array.
     self.GetAllCardsForCollection = function (collection) {
         var allCards = [];
@@ -1622,7 +1661,7 @@ function DataViewModel() {
         }
 
         var cards = (collection.cards || []).slice();
-        cards.sort(self.CompareCardsForSetDisplay);
+        cards.sort(self.CompareCardsForCollectionDisplay);
 
         var groupsByYear = {};
         cards.forEach(function (card) {
