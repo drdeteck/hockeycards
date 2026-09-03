@@ -410,6 +410,7 @@
         {
           "set_key": "2000-01-pacific-crown-royale-red",
           "set_name": "Red",
+          "set_type": "parallel",
           "set_display_name": "2000-01 Pacific Crown Royale - Red",
           "set_tcdb_href": "",
           "cards": [
@@ -496,6 +497,7 @@
         {
           "set_key": "2000-01-pacific-private-stock-retail",
           "set_name": "Retail",
+          "set_type": "parallel",
           "set_display_name": "2000-01 Pacific Private Stock - Retail",
           "set_tcdb_href": "",
           "cards": [
@@ -2275,6 +2277,7 @@
         {
           "set_key": "2001-02-pacific-crown-royale-retail",
           "set_name": "Retail",
+          "set_type": "parallel",
           "set_display_name": "2001-02 Pacific Crown Royale - Retail",
           "cards": [
             {
@@ -2414,6 +2417,7 @@
         {
           "set_key": "2001-02-pacific-private-stock-retail",
           "set_name": "Retail",
+          "set_type": "parallel",
           "set_display_name": "2001-02 Pacific Private Stock - Retail",
           "set_tcdb_href": "",
           "cards": [
@@ -2590,6 +2594,7 @@
         {
           "set_key": "2001-02-pacific-private-stock-titanium-retail",
           "set_name": "Retail",
+          "set_type": "parallel",
           "set_display_name": "2001-02 Pacific Private Stock Titanium - Retail",
           "set_tcdb_href": "",
           "cards": [
@@ -4365,6 +4370,7 @@
         {
           "set_key": "2002-03-pacific-red",
           "set_name": "Red",
+          "set_type": "parallel",
           "set_display_name": "Red",
           "set_tcdb_href": "",
           "cards": [
@@ -4589,6 +4595,7 @@
         {
           "set_key": "2002-03-pacific-crown-royale-retail",
           "set_name": "Retail",
+          "set_type": "parallel",
           "set_display_name": "2002-03 Pacific Crown Royale - Retail",
           "cards": [
             {
@@ -6263,7 +6270,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.95
             }
           ]
         }
@@ -6739,6 +6747,7 @@
           "set_key": "2003-04-pacific-red",
           "set_name": "Red",
           "set_display_name": "2003-04 Pacific - Red",
+          "set_type": "parallel",
           "set_tcdb_href": "",
           "cards": [
             {
@@ -6759,6 +6768,7 @@
           "set_key": "2003-04-pacific-blue",
           "set_name": "Blue",
           "set_display_name": "2003-04 Pacific - Blue",
+          "set_type": "parallel",
           "set_tcdb_href": "",
           "cards": [
             {
@@ -6875,7 +6885,7 @@
           "set_name": "Retail",
           "set_display_name": "2003-04 Pacific Crown Royale - Retail",
           "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/51115/2003-04-Pacific-Crown-Royale-Retail",
-          "set_type": "Parallel",
+          "set_type": "parallel",
           "cards": [
             {
               "id": "ml-2003-04-pacific-crown-royale-retail-80",
@@ -6895,6 +6905,7 @@
           "set_key": "2003-04-pacific-crown-royale-blue",
           "set_name": "Blue",
           "set_display_name": "2003-04 Pacific Crown Royale - Blue",
+          "set_type": "parallel",
           "set_tcdb_href": "",
           "cards": [
             {
@@ -7051,6 +7062,7 @@
         {
           "set_key": "2003-04-pacific-heads-up-retail-ltd",
           "set_name": "Retail LTD",
+          "set_type": "parallel",
           "set_display_name": "2003-04 Pacific Heads Up - Retail LTD",
           "set_tcdb_href": "",
           "cards": [
@@ -7118,6 +7130,7 @@
         {
           "set_key": "2003-04-pacific-invincible-red",
           "set_name": "Red",
+          "set_type": "parallel",
           "set_display_name": "2003-04 Pacific Invincible - Red",
           "set_tcdb_href": "",
           "cards": [
@@ -7160,6 +7173,7 @@
         {
           "set_key": "2003-04-pacific-invincible-retail",
           "set_name": "Retail",
+          "set_type": "parallel",
           "set_display_name": "2003-04 Pacific Invincible - Retail",
           "set_tcdb_href": "",
           "cards": [
@@ -7247,19 +7261,20 @@
           "set_key": "2003-04-pacific-private-stock-reserve-moments-in-time",
           "set_name": "Moments in Time",
           "set_display_name": "2003-04 Pacific Private Stock Reserve - Moments in Time",
-          "set_tcdb_href": "",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5693/2003-04-Pacific-Private-Stock-Reserve-Moments-in-Time",
           "cards": [
             {
               "id": "ml-2003-04-pacific-private-stock-reserve-moments-in-time-9",
               "base_number": "9",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/2003-04-Pacific-Quest-for-the-Cup---Moments-in-Time-9-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2003-04-Pacific-Quest-for-the-Cup---Moments-in-Time-9-Mario-LemieuxBk.jpg",
-              "tcdb_href": "",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Private-Stock-Reserve---Moments-in-Time-9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Private-Stock-Reserve---Moments-in-Time-9-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/51158/cid/1752265/2003-04-Pacific-Private-Stock-Reserve-Moments-in-Time-9-Mario-Lemieux?PageIndex=1",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.95
             }
           ]
         }
@@ -7441,13 +7456,13 @@
               "base_number": "7",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Supreme---Team-7-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Supreme---Team-7-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/51181/cid/1753547/2003-04-Pacific-Supreme-7-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
-              "price": 3.5
+              "inCollection": true,
+              "price": 4.95
             }
           ]
         }
@@ -8349,6 +8364,7 @@
         {
           "set_key": "2004-05-pacific-red",
           "set_name": "Red",
+          "set_type": "parallel",
           "set_display_name": "2004-05 Pacific - Red",
           "set_tcdb_href": "",
           "cards": [
@@ -8686,6 +8702,7 @@
         {
           "set_key": "2005-06-upper-deck-bee-hive-red",
           "set_name": "Red",
+          "set_type": "parallel",
           "set_display_name": "2005-06 Upper Deck Bee-Hive - Red",
           "set_tcdb_href": "",
           "cards": [
