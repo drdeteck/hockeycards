@@ -4666,7 +4666,8 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "excludeFromBinder": true,
-              "inCollection": false
+              "inCollection": true,
+              "price": 22.50
             }
           ]
         },
@@ -11028,6 +11029,29 @@
           "position": "Center",
           "inCollection": true,
           "price": 8.8
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2009-10-upper-deck-black-diamond-horizontal",
+          "set_name": "Horizontal",
+          "set_display_name": "2009-10 Upper Deck Black Diamond - Horizontal",
+          "set_tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/54231/",
+          "cards": [
+            {
+              "id": "ml-2009-10-upper-deck-black-diamond-horizontal-bd28",
+              "base_number": "BD28",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2009-10-Upper-Deck-Black-Diamond---Horizontal-BD28-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2009-10-Upper-Deck-Black-Diamond---Horizontal-BD28-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 16.50
+            }
+          ]
         }
       ]
     },

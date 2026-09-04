@@ -7955,6 +7955,33 @@
           ]
         }
       ]
+    },
+    "2025-26-upper-deck-ultimate-collection": {
+      "set_key": "2025-26-upper-deck-ultimate-collection",
+      "set_name": "Upper Deck Ultimate Collection",
+      "set_year_label": "2025-26",
+      "set_year_start": 2025,
+      "set_year_end": 2026,
+      "set_display_name": "2025-26 Upper Deck Ultimate Collection",
+      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/575299/2025-26-Upper-Deck-Ultimate-Collection",
+      "cards": [
+        {
+          "id": "ml-2025-26-upper-deck-ultimate-collection-87",
+          "base_number": "87",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/575299/cid/38831834/2025-26-Upper-Deck-Ultimate-Collection-87-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": true,
+          "print_run": 149,
+          "card_type": "numbered",
+          "price": 12.67
+        }
+      ],
+      "subsets": []
     }
   }
 }
