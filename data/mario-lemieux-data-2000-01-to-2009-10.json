@@ -1846,6 +1846,27 @@
               "price": 3
             }
           ]
+        },
+        {
+          "set_key": "2001-02-fleer-greats-of-the-game-board-certified",
+          "set_name": "Board Certified",
+          "set_display_name": "2001-02 Fleer Greats of the Game - Board Certified",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-fleer-greats-of-the-game-board-certified-nno",
+              "base_number": "NNO",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Fleer-Greats-of-the-Game---Board-Certified-NNO-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Fleer-Greats-of-the-Game---Board-Certified-NNO-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 15
+            }
+          ]
         }
       ]
     },
