@@ -1570,6 +1570,23 @@ function DataViewModel() {
         );
     };
 
+    self.CompareCardsForBinderDisplay = function (left, right) {
+        var leftYearStart = parseInt(left.set_year_start, 10) || self.GetSeasonStartYear(left.set_year_label) || 0;
+        var rightYearStart = parseInt(right.set_year_start, 10) || self.GetSeasonStartYear(right.set_year_label) || 0;
+        if (leftYearStart !== rightYearStart) {
+            return leftYearStart - rightYearStart;
+        }
+
+        var leftSet = (left.set_display_name || left.set_name || '').toString();
+        var rightSet = (right.set_display_name || right.set_name || '').toString();
+        var setCompare = leftSet.localeCompare(rightSet, undefined, { sensitivity: 'base' });
+        if (setCompare !== 0) {
+            return setCompare;
+        }
+
+        return self.CompareCardsForSetDisplay(left, right);
+    };
+
     self.CompareCardsForCollectionDisplay = function (left, right) {
         var leftYearStart = parseInt(left.set_year_start, 10) || 0;
         var rightYearStart = parseInt(right.set_year_start, 10) || 0;
@@ -1743,14 +1760,7 @@ function DataViewModel() {
             });
 
             if (denseMode) {
-                filtered.sort(function (a, b) {
-                    var ay = self.GetSeasonStartYear(a.set_year_label) || 0;
-                    var by = self.GetSeasonStartYear(b.set_year_label) || 0;
-                    if (ay !== by) { return ay - by; }
-                    var aset = (a.set_display_name || a.set_name || '').toString();
-                    var bset = (b.set_display_name || b.set_name || '').toString();
-                    return aset.localeCompare(bset, undefined, { sensitivity: 'base' });
-                });
+                filtered.sort(self.CompareCardsForBinderDisplay);
                 var denseGroups = [];
                 for (var pi = 0; pi < filtered.length; pi += 9) {
                     var chunk = filtered.slice(pi, pi + 9);
@@ -1799,17 +1809,7 @@ function DataViewModel() {
                     }
                 });
                 if (mergedCards.length) {
-                    mergedCards.sort(function (left, right) {
-                        var lyear = left.set_year_start || 0;
-                        var ryear = right.set_year_start || 0;
-                        if (lyear !== ryear) { return lyear - ryear; }
-                        var lset = (left.set_display_name || left.set_name || '').toString();
-                        var rset = (right.set_display_name || right.set_name || '').toString();
-                        var sc = lset.localeCompare(rset, undefined, { sensitivity: 'base' });
-                        if (sc !== 0) { return sc; }
-                        return (left.base_number || '').toString().localeCompare(
-                            (right.base_number || '').toString(), undefined, { numeric: true, sensitivity: 'base' });
-                    });
+                    mergedCards.sort(self.CompareCardsForBinderDisplay);
                     groupedEntries.push({ label: mergedYearLabel, yearKey: mergedYearKey, cards: mergedCards });
                 }
                 orderedLabels.forEach(function (label) {
@@ -1823,7 +1823,7 @@ function DataViewModel() {
             }
 
             return groupedEntries.map(function (entry) {
-                var yearCards = entry.cards;
+                var yearCards = entry.cards.slice().sort(self.CompareCardsForBinderDisplay);
                 var owned = yearCards.filter(function (c) { return c.inCollection; }).length;
                 var ownedPct = yearCards.length > 0 ? Math.round(owned / yearCards.length * 100) : 0;
                 var pages = [];

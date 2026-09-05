@@ -437,8 +437,8 @@
             {
               "id": "ml-2000-01-pacific-crown-royale-ice-blue-87",
               "base_number": "87",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2000-01-Pacific-Crown-Royale---Ice-Blue-87-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2000-01-Pacific-Crown-Royale---Ice-Blue-87-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49637/cid/1681552/2000-01-Pacific-Crown-Royale-87-Mario-Lemieux",
@@ -633,19 +633,6 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
-        },
-        {
-          "id": "ml-2000-01-sp-authentic-st7",
-          "base_number": "ST7",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/2000-01-SP-Authentic-ST7-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/2000-01-SP-Authentic-ST7-Mario-LemieuxBk.jpg",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": true,
-          "price": 4.25
         }
       ],
       "subsets": [
@@ -667,6 +654,27 @@
               "position": "Center",
               "inCollection": true,
               "price": 5.1
+            }
+          ]
+        },
+        {
+          "set_key": "2000-01-sp-authentic-significant-stars",
+          "set_name": "Significant Stars",
+          "set_display_name": "2000-01 SP Authentic - Significant Stars",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49706/2000-01-SP-Authentic-Significant-Stars",
+          "cards": [
+            {
+              "id": "ml-2000-01-sp-authentic-significant-starsst7",
+              "base_number": "ST7",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-SP-Authentic-ST7-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-SP-Authentic-ST7-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 4.25
             }
           ]
         }
@@ -1856,8 +1864,8 @@
             {
               "id": "ml-2001-02-fleer-greats-of-the-game-board-certified-nno",
               "base_number": "NNO",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2001-02-Fleer-Greats-of-the-Game---Board-Certified-NNO-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2001-02-Fleer-Greats-of-the-Game---Board-Certified-NNO-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
