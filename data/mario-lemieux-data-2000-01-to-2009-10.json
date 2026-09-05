@@ -4650,6 +4650,7 @@
         {
           "set_key": "2002-03-pacific-crown-royale-blue",
           "set_name": "Blue",
+          "set_type": "parallel",
           "set_display_name": "2002-03 Pacific Crown Royale - Blue",
           "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/50555/2002-03-Pacific-Crown-Royale-Blue",
           "cards": [
@@ -4658,8 +4659,8 @@
               "base_number": "78",
               "orientation_front": "landscape",
               "orientation_back": "landscape",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Blue-78-Mario-LemieuxFr.png",
+              "image_back": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Blue-78-Mario-LemieuxBk.png",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50555/cid/1727828/2002-03-Pacific-Crown-Royale-Blue-78-Mario-Lemieux?PageIndex=1",
               "team": "Pittsburgh Penguins",
               "position": "Center",
