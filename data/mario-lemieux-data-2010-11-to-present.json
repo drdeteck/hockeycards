@@ -2804,7 +2804,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 0.99
         }
       ],
       "subsets": [
@@ -3839,6 +3840,7 @@
           "set_name": "Red",
           "set_display_name": "2017-18 Upper Deck Synergy - Red",
           "set_tcdb_href": "",
+          "set_type": "parallel",
           "cards": [
             {
               "id": "ml-2017-18-upper-deck-synergy-red-41",
@@ -3879,6 +3881,7 @@
         {
           "set_key": "2017-18-upper-deck-synergy-blue",
           "set_name": "Blue",
+          "set_type": "parallel",
           "set_display_name": "2017-18 Upper Deck Synergy - Blue",
           "set_tcdb_href": "",
           "cards": [
@@ -3887,8 +3890,8 @@
               "base_number": "41",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2017-18-Upper-Deck-Synergy---Blue-41-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-Upper-Deck-Synergy---Blue-41-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/168525/cid/10787095/2017-18-Upper-Deck-Synergy-41-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -3922,14 +3925,15 @@
           "set_name": "Green",
           "set_display_name": "2017-18 Upper Deck Synergy - Green",
           "set_tcdb_href": "",
+          "set_type": "parallel",
           "cards": [
             {
               "id": "ml-2017-18-upper-deck-synergy-green-41",
               "base_number": "41",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2017-18-Upper-Deck-Synergy---Green-41-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-Upper-Deck-Synergy---Green-41-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/168524/cid/10787197/2017-18-Upper-Deck-Synergy-41-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -4817,8 +4821,8 @@
           "print_run": 349,
           "orientation_front": "portrait",
           "orientation_back": "portrait",
-          "image_front": "",
-          "image_back": "",
+          "image_front": "img/cards/ML66/2020-21-Upper-Deck-Black-Diamond-BDB-ML-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2020-21-Upper-Deck-Black-Diamond-BDB-ML-Mario-LemieuxBk.jpg",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/238908/cid/16258784/2020-21-Upper-Deck-Black-Diamond-BDB-ML-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "position": "Center",
@@ -5585,10 +5589,10 @@
             {
               "id": "ml-2022-23-upper-deck-stature-dignified-d2",
               "base_number": "D-2",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2022-23-Upper-Deck-Stature---Dignified-D-2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2022-23-Upper-Deck-Stature---Dignified-D-2-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/395734/cid/23066039/2022-23-Upper-Deck-Stature-D-2-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -6112,10 +6116,10 @@
             {
               "id": "ml-2023-24-upper-deck-black-diamond-diamond-might-dm-ml",
               "base_number": "DM-ML",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2023-24-Upper-Deck-Black-Diamond---Diamond-Might-DM-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Upper-Deck-Black-Diamond---Diamond-Might-DM-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -6464,7 +6468,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": true
+          "inCollection": false
         }
       ],
       "subsets": [
