@@ -4293,8 +4293,8 @@
               "id": "ml-2018-19-o-pee-chee-coast-to-coast-franchise-heroes-g-20",
               "base_number": "G-20",
               "variant_note": "Sidney Crosby / Mario Lemieux",
-              "orientation_front": "landscape",
-              "orientation_back": "landscape",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast---Franchise-Heroes-G-20-Sidney-Crosby--Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast---Franchise-Heroes-G-20-Sidney-Crosby--Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -4333,8 +4333,8 @@
             {
               "id": "ml-2018-19-o-pee-chee-coast-to-coast-pride-of-the-north-p-51",
               "base_number": "P-51",
-              "orientation_front": "landscape",
-              "orientation_back": "landscape",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast---Pride-of-the-North-P-51-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast---Pride-of-the-North-P-51-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
@@ -4635,7 +4635,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 3.99
         }
       ],
       "subsets": [
@@ -6000,6 +6001,28 @@
               "print_run": 949
             }
           ]
+        },
+        {
+          "set_key": "2023-24-spx-radiance-fx-blue",
+          "set_name": "Radiance FX Blue",
+          "set_display_name": "2023-24 SPx - Radiance FX Blue",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-spx-radiance-fx-blue-rfx1",
+              "base_number": "RFX-1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-SPx---Radiance-FX-Blue-RFX-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-SPx---Radiance-FX-Blue-RFX-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 7.66,
+              "print_run": 299
+            }
+          ]
         }
       ]
     },
@@ -6488,7 +6511,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.25
         }
       ],
       "subsets": [
@@ -6625,7 +6649,29 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.95
+            }
+          ]
+        },
+        {
+          "set_key": "2023-24-upper-deck-trilogy-generations-blue",
+          "set_name": "Generations Blue",
+          "set_display_name": "2023-24 Upper Deck Trilogy - Generations Blue",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/430316/2023-24-Upper-Deck-Trilogy-Generations-Blue",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-trilogy-generations-blue-tg-20a",
+              "base_number": "TG-20A",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/430316/cid/24671778/2023-24-Upper-Deck-Trilogy-Generations-Blue-TG-20A-Mario-Lemieux?PageIndex=1",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "print_run": 349
             }
           ]
         },
@@ -6639,8 +6685,8 @@
               "id": "ml-2023-24-upper-deck-trilogy-trivium-tr11",
               "base_number": "TR-11",
               "variant_note": "Ron Francis / Mario Lemieux / Jaromir Jagr",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2023-24-Upper-Deck-Trilogy---Trivium-TR-11-Ron-Francis--Mario-Lemieux--Jaromir-JagrFr.jpg",
               "image_back": "img/cards/ML66/2023-24-Upper-Deck-Trilogy---Trivium-TR-11-Ron-Francis--Mario-Lemieux--Jaromir-JagrBk.jpg",
               "tcdb_href": "",
