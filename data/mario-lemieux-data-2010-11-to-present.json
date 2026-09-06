@@ -4656,7 +4656,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 8
             }
           ]
         },
@@ -4758,7 +4759,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4
             }
           ]
         },
@@ -5331,7 +5333,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 13
             }
           ]
         }
@@ -6419,7 +6422,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/435801/cid/24997332/2023-24-Upper-Deck-Synergy-64-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5
             }
           ]
         },
@@ -6670,7 +6674,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/430316/cid/24671778/2023-24-Upper-Deck-Trilogy-Generations-Blue-TG-20A-Mario-Lemieux?PageIndex=1",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false,
+              "inCollection": true,
+              "price": 8,
               "print_run": 349
             }
           ]
