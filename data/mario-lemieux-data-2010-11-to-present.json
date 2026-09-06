@@ -6399,6 +6399,26 @@
               "inCollection": false
             }
           ]
+        },
+        {
+          "set_key": "2023-24-upper-deck-synergy-fearless-leaders",
+          "set_name": "Fearless Leaders",
+          "set_display_name": "2023-24 Upper Deck Synergy - Fearless Leaders",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/435617/2023-24-Upper-Deck-Synergy-Fearless-Leaders",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-synergy-fearless-leaders-ld-6",
+              "base_number": "LD-6",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/435617/cid/24992099/2023-24-Upper-Deck-Synergy-Fearless-Leaders-LD-6-Mario-Lemieux?PageIndex=1",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },

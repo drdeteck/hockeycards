@@ -1009,6 +1009,26 @@
               "price": 2.5
             }
           ]
+        },
+        {
+          "set_key": "2000-01-topps-combos",
+          "set_name": "Combos",
+          "set_display_name": "2000-01 Topps - Combos",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-topps-combos-tc10",
+              "base_number": "TC10",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps---Combos-TC10-Jaromir-Jagr--Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps---Combos-TC10-Jaromir-Jagr--Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -1310,6 +1330,26 @@
               "inCollection": false
             }
           ]
+        },
+        {
+          "set_key": "2000-01-topps-chrome-combos",
+          "set_name": "Combos",
+          "set_display_name": "2000-01 Topps Chrome - Combos",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-topps-chrome-combos-tc10",
+              "base_number": "TC10",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Chrome---Combos-TC10-Jaromir-Jagr--Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Combos-TC10-Jaromir-Jagr--Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -1406,6 +1446,52 @@
           "inCollection": true,
           "price": 1.36
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2000-01-topps-stars-progression",
+          "set_name": "Progression",
+          "set_display_name": "2000-01 Topps Stars - Progression",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-topps-stars-progression-p1",
+              "base_number": "P1",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2000-01-Topps-Stars---Progression-P1-Mario-Lemieux--Mike-Modano--Vincent-LecavalierFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Stars---Progression-P1-Mario-Lemieux--Mike-Modano--Vincent-LecavalierBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2000-01-topps-stars-progression-p2",
+              "base_number": "P2",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2000-01-Topps-Stars---Progression-P2-Mario-Lemieux--Peter-Forsberg--Patrik-StefanFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Stars---Progression-P2-Mario-Lemieux--Peter-Forsberg--Patrik-StefanBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            },
+            {
+              "id": "ml-2000-01-topps-stars-progression-p3",
+              "base_number": "P3",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2000-01-Topps-Stars---Progression-P3-Mario-Lemieux--Steve-Yzerman--Scott-GomezFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Stars---Progression-P3-Mario-Lemieux--Steve-Yzerman--Scott-GomezBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        }
       ]
     },
     "2000-01-ud-reserve": {
@@ -1483,6 +1569,28 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2000-01-upper-deck-heroes-player-idols",
+          "set_name": "Player Idols",
+          "set_display_name": "2000-01 Upper Deck Heroes - Player Idols",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-upper-deck-heroes-player-idols-pi5",
+              "base_number": "PI5",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Upper-Deck-Heroes---Player-Idols-PI5-Vincent-Lecavalier--Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Upper-Deck-Heroes---Player-Idols-PI5-Vincent-Lecavalier--Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
