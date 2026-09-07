@@ -7059,6 +7059,29 @@
               "inCollection": false
             }
           ]
+        },
+        {
+          "set_key": "2003-04-o-pee-chee-blue-line",
+          "set_name": "Blue Line",
+          "set_type": "parallel",
+          "set_display_name": "2003-04 O-Pee-Chee - Blue Line",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-o-pee-chee-blue-line-100",
+              "base_number": "100",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/51089/cid/4522326/2003-04-O-Pee-Chee-Blue-Line-100-Mario-Lemieux-?PageIndex=1",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "card_type": "numbered",
+              "print_run": 500,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -7564,6 +7587,28 @@
       ],
       "subsets": [
         {
+          "set_key": "2003-04-pacific-invincible-blue",
+          "set_name": "Blue",
+          "set_type": "parallel",
+          "set_display_name": "2003-04 Pacific Invincible - Blue",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-invincible-blue-78",
+              "base_number": "78",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Invincible---Blue-78-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Invincible---Blue-78-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "print_run": 350
+            }
+          ]
+        },
+        {
           "set_key": "2003-04-pacific-invincible-red",
           "set_name": "Red",
           "set_type": "parallel",
@@ -7861,6 +7906,26 @@
       ],
       "subsets": [
         {
+          "set_key": "2003-04-pacific-supreme-generations",
+          "set_name": "Generations",
+          "set_display_name": "2003-04 Pacific Supreme - Generations",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-supreme-generations-8",
+              "base_number": "8",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Supreme---Generations-8-Mario-Lemieux--Marc-Andre-FleuryFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Supreme---Generations-8-Mario-Lemieux--Marc-Andre-FleuryBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
           "set_key": "2003-04-pacific-supreme-retail",
           "set_name": "Retail",
           "set_type": "parallel",
@@ -8017,6 +8082,20 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true
+        },
+        {
+          "id": "ml-2003-04-spx-176",
+          "base_number": "176",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
+          "image_front": "img/cards/ML66/Stickers/2003-04-SPx-176-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/Stickers/2003-04-SPx-176-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "card_type": "numbered",
+          "print_run": 250,
+          "inCollection": false
         }
       ],
       "subsets": [
@@ -8130,6 +8209,28 @@
               "price": 6.44
             }
           ]
+        },
+        {
+          "set_key": "2003-04-topps-lost-rookie-cards",
+          "set_name": "Lost Rookie Cards",
+          "set_display_name": "2003-04 Topps - Lost Rookie Cards",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-topps-lost-rookie-cards-lrc",
+              "base_number": "LRC",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Topps---Lost-Rookie-Cards-LRC-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Topps---Lost-Rookie-Cards-LRC-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "variant_note": "Rookie",
+              "inCollection": true,
+              "price": 5.55
+            }
+          ]
         }
       ]
     },
@@ -8206,31 +8307,6 @@
               "inCollection": true
             }
           ]
-        }
-      ]
-    },
-    "2003-04-topps-lost-rookie-cards": {
-      "set_key": "2003-04-topps-lost-rookie-cards",
-      "set_name": "Topps Lost Rookie Cards",
-      "set_year_label": "2003-04",
-      "set_year_start": 2003,
-      "set_year_end": 2004,
-      "set_display_name": "2003-04 Topps Lost Rookie Cards",
-      "set_tcdb_href": "",
-      "cards": [
-        {
-          "id": "ml-2003-04-topps-lost-rookie-cards-lrc",
-          "base_number": "LRC",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/2003-04-Topps---Lost-Rookie-Cards-LRC-ML-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/2003-04-Topps---Lost-Rookie-Cards-LRC-ML-Mario-LemieuxBk.jpg",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "variant_note": "Rookie",
-          "inCollection": true,
-          "price": 5.55
         }
       ]
     },
@@ -8429,6 +8505,27 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-upper-deck-superstar-spotlight",
+          "set_name": "Superstar Spotlight",
+          "set_display_name": "2003-04 Upper Deck - Superstar Spotlight",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-upper-deck-superstar-spotlight-ss9",
+              "base_number": "SS9",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2003-04-Upper-Deck---Superstar-Spotlight-SS9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Upper-Deck---Superstar-Spotlight-SS9-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false,
+              "price": 50
             }
           ]
         }
@@ -8633,6 +8730,31 @@
               "inCollection": true
             }
           ]
+        }
+      ]
+    },
+    "2003-04-upper-deck-premier-collection": {
+      "set_key": "2003-04-upper-deck-premier-collection",
+      "set_name": "Upper Deck Premier Collection",
+      "set_year_label": "2003-04",
+      "set_year_start": 2003,
+      "set_year_end": 2004,
+      "set_display_name": "2003-04 Upper Deck Premier Collection",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2003-04-upper-deck-premier-collection-45",
+          "base_number": "45",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2003-04-Upper-Deck-Premier-Collection-45-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Upper-Deck-Premier-Collection-45-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false,
+          "print_run": 399,
+          "card_type": "numbered"
         }
       ]
     },

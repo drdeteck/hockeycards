@@ -1604,6 +1604,54 @@
                     "price": 1.99
                 }
             ]
+        },
+        "2003-04-panini-stickers": {
+            "set_key": "2003-04-panini-stickers",
+            "set_name": "Panini Stickers",
+            "set_year_label": "2003-04",
+            "set_year_start": 2003,
+            "set_year_end": 2004,
+            "set_display_name": "2003-04 Panini Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-2003-04-panini-stickers-144",
+                    "base_number": "144",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/2003-04-Panini-Stickers-144-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/2003-04-Panini-Stickers-144-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "2003-04-sports-vault-nhl-stickers": {
+            "set_key": "2003-04-sports-vault-nhl-stickers",
+            "set_name": "Sports Vault NHL Stickers",
+            "set_year_label": "2003-04",
+            "set_year_start": 2003,
+            "set_year_end": 2004,
+            "set_display_name": "2003-04 Sports Vault NHL Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-2003-04-sports-vault-nhl-stickers-115",
+                    "base_number": "115",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/2003-04-Sports-Vault-NHL-Stickers-115-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/2003-04-Sports-Vault-NHL-Stickers-115-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "position": "Center",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
         }
     }
 }
