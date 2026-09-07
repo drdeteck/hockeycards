@@ -8921,6 +8921,27 @@
       ],
       "subsets": [
         {
+          "set_key": "2004-05-pacific-blue",
+          "set_name": "Blue",
+          "set_type": "parallel",
+          "set_display_name": "2004-05 Pacific - Blue",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2004-05-pacific-blue-213",
+              "base_number": "213",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2004-05-Pacific---Blue-213-Mario-LemieuxFr.jpg",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
+            }
+          ]
+        },
+        {
           "set_key": "2004-05-pacific-red",
           "set_name": "Red",
           "set_type": "parallel",
