@@ -356,7 +356,7 @@
 
                         <div class="card-profile-actions card-actions">
                             <a class="btn btn-sm btn-outline-secondary"
-                                data-bind="attr: { href: $root.CardBackHref(), 'aria-label': 'Back to set ' + (collection.set_display_name || collection.set_name) }"><svg
+                                data-bind="click: $root.BackToCollection, attr: { href: $root.CardBackHref(), 'aria-label': 'Back to set ' + (collection.set_display_name || collection.set_name) }"><svg
                                     class="icon-inline" aria-hidden="true" focusable="false">
                                     <use href="#icon-back"></use>
                                 </svg>Back

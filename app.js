@@ -219,6 +219,25 @@ window.HCHB = window.HCHB || {};
 
             ko.applyBindings(App.ViewModel);
 
+            document.addEventListener('click', function (event) {
+                var anchor = event.target.closest ? event.target.closest('a[href]') : null;
+                if (!anchor) {
+                    return;
+                }
+
+                var href = anchor.getAttribute('href') || '';
+                var currentHash = window.location.hash.slice(1) || 'home';
+                if (href.charAt(0) !== '#' || href.indexOf('/') === -1 || currentHash.indexOf('/') !== -1) {
+                    return;
+                }
+
+                var scrollY = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+                window.history.replaceState({
+                    hockeyCardsCollectionHash: currentHash,
+                    hockeyCardsScrollY: scrollY
+                }, '', window.location.href);
+            });
+
             var scrollToTopButton = document.getElementById('scroll-to-top-btn');
             if (scrollToTopButton) {
                 var updateScrollToTopVisibility = function () {
@@ -1280,6 +1299,20 @@ function DataViewModel() {
         var key = ctx.collection.menu_key || ctx.collection.set_key;
         return '#' + key;
     });
+
+    self.BackToCollection = function (data, event) {
+        var href = self.CardBackHref();
+        var currentState = window.history && window.history.state;
+        var currentHash = href.slice(1);
+
+        if (currentState && currentState.hockeyCardsCollectionHash === currentHash && window.history.back) {
+            window.history.back();
+            return false;
+        }
+
+        window.location.hash = currentHash;
+        return true;
+    };
 
     self.CardBrandLogoSymbol = ko.pureComputed(function () {
         var ctx = self.CurrentCardContext();
@@ -2796,6 +2829,13 @@ function DataViewModel() {
         // if the hash looks like a collection key, update selection too
         if (hash !== 'home' && hash !== 'about' && !isBinderRoute) {
             self.CurrentCollectionKey(hash);
+        }
+
+        var savedScroll = window.history && window.history.state;
+        if (savedScroll && savedScroll.hockeyCardsCollectionHash === hash && typeof savedScroll.hockeyCardsScrollY === 'number') {
+            window.setTimeout(function () {
+                window.scrollTo(0, savedScroll.hockeyCardsScrollY);
+            }, 0);
         }
         self.IsHandlingRoute = false;
     };
