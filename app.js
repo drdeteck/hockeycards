@@ -520,7 +520,7 @@ function DataViewModel() {
                         ? row.last_seen_price
                         : row.price,
                     card_type: row.card_type || 'card',
-                    print_run: row.print_run || null,
+                    serial_total: row.serial_total || null,
                     excludeFromBinder: !!(row.excludeFromBinder),
                     default_face: row.default_face || 'front',
                     inCollection: !!(row.inCollection),
@@ -628,7 +628,7 @@ function DataViewModel() {
                         ? row.last_seen_price
                         : row.price,
                     card_type: row.card_type || 'card',
-                    print_run: row.print_run || null,
+                    serial_total: row.serial_total || null,
                     excludeFromBinder: !!(row.excludeFromBinder),
                     default_face: row.default_face || 'front',
                     inCollection: !!(row.inCollection),
@@ -668,7 +668,7 @@ function DataViewModel() {
                             ? row.last_seen_price
                             : row.price,
                         card_type: row.card_type || 'card',
-                        print_run: row.print_run || null,
+                        serial_total: row.serial_total || null,
                         excludeFromBinder: !!(row.excludeFromBinder),
                         default_face: row.default_face || 'front',
                         inCollection: !!(row.inCollection),
@@ -903,7 +903,7 @@ function DataViewModel() {
                 ? row.last_seen_price
                 : row.price,
             card_type: row.card_type || 'card',
-            print_run: row.print_run || null,
+            serial_total: row.serial_total || null,
             excludeFromBinder: !!(row.excludeFromBinder),
             inCollection: !!(row.inCollection),
             default_face: row.default_face || 'front',
@@ -912,7 +912,7 @@ function DataViewModel() {
         };
     };
 
-    // Builds one virtual collection per distinct print_run value found across the regular ML,
+    // Builds one virtual collection per distinct serial_total value found across the regular ML,
     // gems and chase "all" collections. Cards are referenced (not cloned) from those collections.
     self.BuildSerialNumberedCollections = function (mergedData) {
         var sourceKeys = ['ML-all', 'ML-gems-all', 'ML-chase-all'];
@@ -922,7 +922,7 @@ function DataViewModel() {
             var collection = mergedData[key];
             if (!collection) { return; }
             (collection.cards || []).forEach(function (card) {
-                var printRun = parseInt(card.print_run, 10);
+                var printRun = parseInt(card.serial_total, 10);
                 if (!printRun || isNaN(printRun)) { return; }
                 if (!groups[printRun]) { groups[printRun] = []; }
                 groups[printRun].push(card);
@@ -964,7 +964,7 @@ function DataViewModel() {
                 set_tcdb_href: '',
                 set_display_name: '/' + printRun + ' Serial Numbered Cards',
                 source: 'mario-serial',
-                print_run: printRun,
+                serial_total: printRun,
                 cards: cards,
                 subsets: []
             };
@@ -2680,7 +2680,7 @@ function DataViewModel() {
         var serialItems = items.filter(function (itm) { return itm && itm.source === 'mario-serial'; });
         if (serialItems.length > 0) {
             serialItems.sort(function (left, right) {
-                return (parseInt(left.print_run, 10) || 0) - (parseInt(right.print_run, 10) || 0);
+                return (parseInt(left.serial_total, 10) || 0) - (parseInt(right.serial_total, 10) || 0);
             });
 
             var serialGroups = [];
@@ -2694,7 +2694,7 @@ function DataViewModel() {
 
             serialRanges.forEach(function (range) {
                 var groupItems = serialItems.filter(function (item) {
-                    var value = parseInt(item.print_run, 10) || 0;
+                    var value = parseInt(item.serial_total, 10) || 0;
                     var inMin = typeof range.min === 'undefined' || value >= range.min;
                     var inMax = typeof range.max === 'undefined' || value <= range.max;
                     return inMin && inMax;
@@ -2706,7 +2706,7 @@ function DataViewModel() {
                         controls: groupItems.map(function (item) {
                             return {
                                 key: item.set_key,
-                                displayName: '/' + item.print_run
+                                displayName: '/' + item.serial_total
                             };
                         })
                     });

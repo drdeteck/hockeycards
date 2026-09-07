@@ -279,7 +279,7 @@
           "position": "Center",
           "inCollection": true,
           "price": 14.12,
-          "print_run": 999
+          "serial_total": 999
         }
       ]
     },
@@ -437,7 +437,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "card_type": "numbered",
-          "print_run": 499,
+          "serial_total": 499,
           "inCollection": true,
           "price": 10.80
         }
@@ -750,7 +750,7 @@
           "position": "Center",
           "inCollection": true,
           "price": 4.5,
-          "print_run": 999,
+          "serial_total": 999,
           "card_type": "numbered",
           "card_note": "Immortals"
         }
@@ -815,7 +815,7 @@
           "id": "ml-2012-13-panini-prime-50",
           "base_number": "50",
           "card_type": "numbered",
-          "print_run": 249,
+          "serial_total": 249,
           "orientation_front": "portrait",
           "orientation_back": "portrait",
           "image_front": "",
@@ -854,7 +854,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "print_run": 999
+              "serial_total": 999
             }
           ]
         }
@@ -2507,7 +2507,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "card_type": "numbered",
-          "print_run": 499,
+          "serial_total": 499,
           "inCollection": false
         }
       ],
@@ -2529,7 +2529,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "card_type": "numbered",
-              "print_run": 399,
+              "serial_total": 399,
               "inCollection": true,
               "price": 8
             }
@@ -2969,7 +2969,7 @@
               "id": "ml-2015-16-upper-deck-full-force-dual-force-df-9",
               "base_number": "DF-9",
               "card_type": "numbered",
-              "print_run": 649,
+              "serial_total": 649,
               "orientation_front": "landscape",
               "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2015-16-Upper-Deck-Full-Force---Dual-Force-DF-9-Jaromir-Jagr--Mario-LemieuxFr.jpg",
@@ -3086,7 +3086,7 @@
           "position": "Center",
           "inCollection": true,
           "price": 4.99,
-          "print_run": 999
+          "serial_total": 999
         }
       ]
     },
@@ -3542,7 +3542,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "card_type": "numbered",
-          "print_run": 499,
+          "serial_total": 499,
           "inCollection": false
         }
       ]
@@ -3966,7 +3966,7 @@
           "position": "Center",
           "inCollection": true,
           "price": 9.5,
-          "print_run": 599
+          "serial_total": 599
         }
       ]
     },
@@ -4289,7 +4289,7 @@
               "image_back": "img/cards/ML66/2017-Upper-Deck-Team-Canada-Juniors---Red-Exclusives-99-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/158792/cid/10221025/2017-Upper-Deck-Team-Canada-Juniors-Red-Exclusives-99-Mario-Lemieux",
               "team": "Team Canada",
-              "print_run": 199,
+              "serial_total": 199,
               "inCollection": false
             }
           ]
@@ -4547,7 +4547,7 @@
           "id": "ml-2018-19-upper-deck-artifacts-134",
           "base_number": "134",
           "card_type": "numbered",
-          "print_run": 599,
+          "serial_total": 599,
           "orientation_front": "portrait",
           "orientation_back": "portrait",
           "image_front": "img/cards/ML66/2018-19-Upper-Deck-Artifacts-134-Mario-LemieuxFr.jpg",
@@ -4629,7 +4629,7 @@
           "id": "ml-2019-20-upper-deck-artifacts-156",
           "base_number": "156",
           "card_type": "numbered",
-          "print_run": 599,
+          "serial_total": 599,
           "orientation_front": "portrait",
           "orientation_back": "portrait",
           "image_front": "img/cards/ML66/2019-20-Upper-Deck-Artifacts-156-Mario-LemieuxFr.jpg",
@@ -4651,7 +4651,7 @@
               "id": "ml-2019-20-upper-deck-artifacts-ruby-156",
               "base_number": "156",
               "card_type": "numbered",
-              "print_run": 399,
+              "serial_total": 399,
               "orientation_front": "portrait",
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2019-20-Upper-Deck-Artifacts---Ruby-156-Mario-LemieuxFr.jpg",
@@ -4903,7 +4903,7 @@
           "id": "ml-2020-21-upper-deck-black-diamond-bdb-ml",
           "base_number": "BDB-ML",
           "card_type": "numbered",
-          "print_run": 349,
+          "serial_total": 349,
           "orientation_front": "portrait",
           "orientation_back": "portrait",
           "image_front": "img/cards/ML66/2020-21-Upper-Deck-Black-Diamond-BDB-ML-Mario-LemieuxFr.jpg",
@@ -5010,7 +5010,7 @@
               "position": "Center",
               "inCollection": true,
               "price": 9.50,
-              "print_run": 999
+              "serial_total": 999
             }
           ]
         },
@@ -5031,7 +5031,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "print_run": 899
+              "serial_total": 899
             }
           ]
         },
@@ -5052,7 +5052,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "print_run": 799
+              "serial_total": 799
             }
           ]
         }
@@ -5482,7 +5482,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "print_run": 299,
+              "serial_total": 299,
               "price": 12.50
             }
           ]
@@ -5504,7 +5504,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "print_run": 549
+              "serial_total": 549
             }
           ]
         },
@@ -5525,7 +5525,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "print_run": 399
+              "serial_total": 399
             }
           ]
         },
@@ -5546,7 +5546,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "print_run": 249
+              "serial_total": 249
             }
           ]
         }
@@ -5603,7 +5603,7 @@
               "inCollection": true,
               "price": 15.50,
               "card_type": "numbered",
-              "print_run": 299
+              "serial_total": 299
             }
           ]
         }
@@ -5777,7 +5777,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "card_type": "numbered",
-              "print_run": 699,
+              "serial_total": 699,
               "inCollection": false
             }
           ]
@@ -5799,7 +5799,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "card_type": "numbered",
-              "print_run": 249,
+              "serial_total": 249,
               "inCollection": true,
               "price": 9.99
             }
@@ -5822,7 +5822,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "card_type": "numbered",
-              "print_run": 399,
+              "serial_total": 399,
               "inCollection": true,
               "price": 8.5
             }
@@ -6048,7 +6048,7 @@
               "position": "Center",
               "inCollection": true,
               "price": 10,
-              "print_run": 258,
+              "serial_total": 258,
               "card_type": "numbered"
             }
           ]
@@ -6083,7 +6083,7 @@
               "position": "Center",
               "inCollection": true,
               "price": 8,
-              "print_run": 949
+              "serial_total": 949
             }
           ]
         },
@@ -6105,7 +6105,7 @@
               "position": "Center",
               "inCollection": true,
               "price": 7.66,
-              "print_run": 299
+              "serial_total": 299
             }
           ]
         }
@@ -6234,7 +6234,7 @@
               "inCollection": true,
               "price": 16.17,
               "card_type": "numbered",
-              "print_run": 99
+              "serial_total": 99
             }
           ]
         }
@@ -6292,7 +6292,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "card_type": "numbered",
-          "print_run": 299,
+          "serial_total": 299,
           "inCollection": true,
           "price": 2.99
         }
@@ -6383,7 +6383,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "print_run": 849
+              "serial_total": 849
             }
           ]
         },
@@ -6424,7 +6424,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "print_run": 599
+              "serial_total": 599
             }
           ]
         },
@@ -6715,7 +6715,7 @@
               "position": "Center",
               "inCollection": true,
               "price": 1.95,
-              "print_run": 799
+              "serial_total": 799
             }
           ]
         },
@@ -6758,7 +6758,7 @@
               "position": "Center",
               "inCollection": true,
               "price": 8,
-              "print_run": 349
+              "serial_total": 349
             }
           ]
         },
@@ -7068,7 +7068,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "card_type": "numbered",
-              "print_run": 199,
+              "serial_total": 199,
               "inCollection": true,
               "price": 6.50
             }
@@ -7091,7 +7091,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "card_type": "numbered",
-              "print_run": 75,
+              "serial_total": 75,
               "inCollection": true,
               "price": 15.50
             }
@@ -7380,7 +7380,7 @@
               "inCollection": true,
               "price": 18,
               "card_type": "numbered",
-              "print_run": 249
+              "serial_total": 249
             }
           ]
         }
@@ -7508,7 +7508,7 @@
               "id": "ml-2025-26-upper-deck-x-ovo-x-hockey-canada-black-and-gold-02",
               "base_number": "02",
               "card_type": "numbered",
-              "print_run": 99,
+              "serial_total": 99,
               "orientation_front": "portrait",
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2025-26-Upper-Deck-X-OVO-X-Hockey-Canada-Black-and-Gold-02-Mario-LemieuxFr.jpg",
@@ -7614,7 +7614,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false,
-          "print_run": 999
+          "serial_total": 999
         }
       ]
     },
@@ -7690,7 +7690,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false,
-          "print_run": 999
+          "serial_total": 999
         }
       ]
     },
@@ -7714,7 +7714,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "card_type": "numbered",
-          "print_run": 1999,
+          "serial_total": 1999,
           "inCollection": true,
           "price": 3.88
         },
@@ -7875,7 +7875,7 @@
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/10588/cid/1551771/2010-11-Panini-Certified-156-Mario-Lemieux-",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "print_run": 500,
+          "serial_total": 500,
           "inCollection": false
         }
       ],
@@ -7897,7 +7897,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "card_type": "numbered",
-              "print_run": 500,
+              "serial_total": 500,
               "inCollection": true,
               "price": 10.5
             }
@@ -7920,7 +7920,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "card_type": "numbered",
-              "print_run": 500,
+              "serial_total": 500,
               "inCollection": false
             }
           ]
@@ -7947,7 +7947,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "card_type": "numbered",
-          "print_run": 499,
+          "serial_total": 499,
           "inCollection": true,
           "price": 8.48
         }
@@ -8133,7 +8133,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "print_run": 149,
+          "serial_total": 149,
           "card_type": "numbered",
           "price": 12.67
         }
@@ -8179,7 +8179,7 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/663480/cid/38690602/2026-Upper-Deck-Team-Canada-Deluxe-167-Mario-Lemieux",
               "team": "Team Canada",
               "inCollection": false,
-              "print_run": 250,
+              "serial_total": 250,
               "card_type": "numbered"
             }
           ]
@@ -8219,7 +8219,7 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/663525/cid/38693157/2026-Upper-Deck-Team-Canada-Representing-the-Flag-Pink-RF-8-Mario-Lemieux",
               "team": "Team Canada",
               "inCollection": false,
-              "print_run": 399,
+              "serial_total": 399,
               "card_type": "numbered"
             }
           ]

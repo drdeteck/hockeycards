@@ -559,7 +559,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "print_run": 1100
+              "serial_total": 1100
             }
           ]
         },
@@ -582,7 +582,7 @@
               "tcdb_href": "",
               "inCollection": false,
               "card_type": "numbered",
-              "print_run": 1000,
+              "serial_total": 1000,
               "price": 49.99
             }
           ]
@@ -2006,7 +2006,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false,
-          "print_run": 2002
+          "serial_total": 2002
         },
         {
           "id": "ml-2001-02-fleer-legacy-25",
@@ -2247,7 +2247,7 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "print_run": 499,
+          "serial_total": 499,
           "inCollection": true,
           "price": 5.74
         }
@@ -2830,7 +2830,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "print_run": 3500,
+          "serial_total": 3500,
           "price": 4.0
         }
       ]
@@ -4623,7 +4623,7 @@
               "id": "ml-2002-03-pacific-atomic-hobby-parallel-80",
               "base_number": "80",
               "card_type": "numbered",
-              "print_run": 775,
+              "serial_total": 775,
               "orientation_front": "landscape",
               "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2002-03-Pacific-Atomic---Hobby-Parallel-80-Mario-LemieuxFr.jpg",
@@ -4799,7 +4799,7 @@
               "id": "ml-2002-03-pacific-crown-royale-game-worn-jerseys-16",
               "base_number": "16",
               "card_type": "memorabilia",
-              "print_run": 752,
+              "serial_total": 752,
               "orientation_front": "portrait",
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Game-Worn-Jerseys-16-Mario-LemieuxFr.jpg",
@@ -4896,7 +4896,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "card_type": "numbered",
-              "print_run": 240,
+              "serial_total": 240,
               "inCollection": true,
               "price": 6.5
             }
@@ -5177,7 +5177,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "card_type": "numbered",
-              "print_run": 450,
+              "serial_total": 450,
               "inCollection": false
             }
           ]
@@ -5403,7 +5403,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "print_run": 1499,
+          "serial_total": 1499,
           "price": 6.99
         }
       ]
@@ -5442,7 +5442,7 @@
           "position": "Center",
           "inCollection": true,
           "price": 21.5,
-          "print_run": 999
+          "serial_total": 999
         },
         {
           "id": "ml-2002-03-sp-game-used-54",
@@ -5455,7 +5455,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false,
-          "print_run": 999
+          "serial_total": 999
         }
       ]
     },
@@ -5505,7 +5505,7 @@
           "position": "Center",
           "inCollection": true,
           "price": 9.49,
-          "print_run": 1601
+          "serial_total": 1601
         }
       ],
       "subsets": [
@@ -5526,7 +5526,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "card_type": "numbered",
-              "print_run": 199,
+              "serial_total": 199,
               "inCollection": false
             }
           ]
@@ -5664,7 +5664,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "card_type": "numbered",
-              "print_run": 450,
+              "serial_total": 450,
               "inCollection": true,
               "price": 4.5
             }
@@ -5838,7 +5838,7 @@
               "id": "ml-2002-03-topps-heritage-chrome-7",
               "base_number": "7",
               "card_type": "numbered",
-              "print_run": 667,
+              "serial_total": 667,
               "orientation_front": "landscape",
               "orientation_back": "landscape",
               "image_front": "",
@@ -6284,7 +6284,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false,
-          "print_run": 1250
+          "serial_total": 1250
         }
       ]
     },
@@ -6512,7 +6512,7 @@
           "position": "Center",
           "inCollection": true,
           "price": 8.0,
-          "print_run": 2999
+          "serial_total": 2999
         }
       ],
       "subsets": [
@@ -6559,7 +6559,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false,
-          "print_run": 399,
+          "serial_total": 399,
           "card_type": "numbered"
         }
       ]
@@ -6597,7 +6597,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "print_run": 999,
+          "serial_total": 999,
           "price": 9.99
         }
       ]
@@ -7004,7 +7004,7 @@
               "id": "ml-2003-04-in-the-game-vip-collages-nno",
               "base_number": "NNO",
               "card_type": "numbered",
-              "print_run": 6000,
+              "serial_total": 6000,
               "orientation_front": "landscape",
               "orientation_back": "landscape",
               "image_front": "",
@@ -7079,7 +7079,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "card_type": "numbered",
-              "print_run": 500,
+              "serial_total": 500,
               "inCollection": false
             }
           ]
@@ -7168,7 +7168,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "print_run": 250,
+              "serial_total": 250,
               "inCollection": false
             }
           ]
@@ -7254,7 +7254,7 @@
               "id": "ml-2003-04-pacific-calder-silver-81",
               "base_number": "81",
               "card_type": "numbered",
-              "print_run": 575,
+              "serial_total": 575,
               "orientation_front": "portrait",
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/2003-04-Pacific-Calder---Silver-81-Mario-LemieuxFr.jpg",
@@ -7332,7 +7332,7 @@
               "position": "Center",
               "inCollection": true,
               "price": 11.70,
-              "print_run": 850
+              "serial_total": 850
             }
           ]
         },
@@ -7514,7 +7514,7 @@
               "position": "Center",
               "inCollection": false,
               "card_type": "numbered",
-              "print_run": 299
+              "serial_total": 299
             }
           ]
         },
@@ -7557,7 +7557,7 @@
               "position": "Center",
               "inCollection": false,
               "card_type": "numbered",
-              "print_run": 175
+              "serial_total": 175
             }
           ]
         }
@@ -7605,7 +7605,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "print_run": 350
+              "serial_total": 350
             }
           ]
         },
@@ -7627,7 +7627,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "print_run": 850
+              "serial_total": 850
             }
           ]
         },
@@ -8034,7 +8034,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "print_run": 1994,
+              "serial_total": 1994,
               "inCollection": false
             }
           ]
@@ -8056,7 +8056,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "print_run": 900,
+              "serial_total": 900,
               "price": 5.0
             }
           ]
@@ -8087,15 +8087,15 @@
         {
           "id": "ml-2003-04-spx-176",
           "base_number": "176",
-          "orientation_front": "landscape",
-          "orientation_back": "landscape",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
           "image_front": "img/cards/ML66/Stickers/2003-04-SPx-176-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/Stickers/2003-04-SPx-176-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "card_type": "numbered",
-          "print_run": 250,
+          "serial_total": 250,
           "inCollection": false
         }
       ],
@@ -8117,7 +8117,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "card_type": "numbered",
-              "print_run": 750,
+              "serial_total": 750,
               "inCollection": true,
               "price": 6.44
             },
@@ -8132,7 +8132,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "card_type": "numbered",
-              "print_run": 750,
+              "serial_total": 750,
               "inCollection": true,
               "price": 9.3
             }
@@ -8205,7 +8205,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "card_type": "numbered",
-              "print_run": 500,
+              "serial_total": 500,
               "inCollection": true,
               "price": 6.44
             }
@@ -8601,7 +8601,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false,
-          "print_run": 1100
+          "serial_total": 1100
         },
         {
           "id": "ml-2003-04-upper-deck-classic-portraits-136",
@@ -8617,7 +8617,7 @@
           "variant_note": "Pillars of Strength",
           "inCollection": true,
           "price": 4.99,
-          "print_run": 650
+          "serial_total": 650
         }
       ]
     },
@@ -8754,7 +8754,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false,
-          "print_run": 399,
+          "serial_total": 399,
           "card_type": "numbered"
         }
       ]
@@ -8937,7 +8937,9 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": false,
+              "serial_total": 250,
+              "card_type": "numbered"
             }
           ]
         },
@@ -9155,8 +9157,8 @@
           "base_number": "101",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
-          "image_front": "",
-          "image_back": "",
+          "image_front": "img/cards/ML66/2004-05-Upper-Deck-All-World-Edition-101-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2004-05-Upper-Deck-All-World-Edition-101-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
@@ -9441,7 +9443,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false,
-          "print_run": 899
+          "serial_total": 899
         }
       ]
     },
@@ -9479,7 +9481,7 @@
           "position": "Center",
           "inCollection": true,
           "price": 10,
-          "print_run": 599,
+          "serial_total": 599,
           "excludeFromBinder": true
         }
       ]
@@ -9516,7 +9518,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false,
-          "print_run": 999
+          "serial_total": 999
         }
       ]
     },
@@ -9583,7 +9585,7 @@
               "position": "Center",
               "inCollection": true,
               "price": 8.53,
-              "print_run": 499
+              "serial_total": 499
             }
           ]
         }
@@ -10232,7 +10234,7 @@
           "id": "ml-2005-06-upper-deck-ultimate-collection-71",
           "base_number": "71",
           "card_type": "numbered",
-          "print_run": 599,
+          "serial_total": 599,
           "orientation_front": "portrait",
           "orientation_back": "portrait",
           "image_front": "img/cards/ML66/2005-06-Upper-Deck-Ultimate-Collection-71-Mario-LemieuxFr.jpg",
@@ -10324,7 +10326,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "print_run": 3999
+          "serial_total": 3999
         }
       ]
     },
@@ -10390,7 +10392,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "print_run": 999
+              "serial_total": 999
             }
           ]
         }
@@ -10436,7 +10438,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "print_run": 999
+              "serial_total": 999
             }
           ]
         }
@@ -10462,7 +10464,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false,
-          "print_run": 999
+          "serial_total": 999
         }
       ]
     },
@@ -10618,7 +10620,7 @@
           "position": "Center",
           "inCollection": true,
           "price": 2,
-          "print_run": 1999
+          "serial_total": 1999
         }
       ]
     },
@@ -10663,7 +10665,7 @@
               "position": "Center",
               "inCollection": true,
               "price": 5.99,
-              "print_run": 999
+              "serial_total": 999
             }
           ]
         }
@@ -10682,7 +10684,7 @@
           "id": "ml-2007-08-upper-deck-trilogy-111",
           "base_number": "111",
           "card_type": "numbered",
-          "print_run": 799,
+          "serial_total": 799,
           "orientation_front": "portrait",
           "orientation_back": "portrait",
           "image_front": "img/cards/ML66/2007-08-Upper-Deck-Trilogy-111-Mario-LemieuxFr.jpg",
@@ -10730,7 +10732,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false,
-          "print_run": 999
+          "serial_total": 999
         }
       ]
     },
@@ -11068,7 +11070,7 @@
               "position": "Center",
               "inCollection": true,
               "price": 10,
-              "print_run": 799,
+              "serial_total": 799,
               "excludeFromBinder": true
             }
           ]
@@ -11250,7 +11252,7 @@
           "id": "ml-2006-07-upper-deck-ultimate-collection-49",
           "base_number": "49",
           "card_type": "numbered",
-          "print_run": 699,
+          "serial_total": 699,
           "orientation_front": "portrait",
           "orientation_back": "portrait",
           "image_front": "",
@@ -11282,7 +11284,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false,
-          "print_run": 999
+          "serial_total": 999
         }
       ],
       "subsets": []
@@ -11307,7 +11309,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "print_run": 1499,
+          "serial_total": 1499,
           "price": 4.99
         }
       ],
@@ -11382,7 +11384,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": true,
-          "print_run": 999,
+          "serial_total": 999,
           "price": 7.99
         }
       ],
@@ -11416,7 +11418,7 @@
               "position": "Center",
               "inCollection": true,
               "price": 9.03,
-              "print_run": 999
+              "serial_total": 999
             }
           ]
         }
@@ -11442,7 +11444,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false,
-          "print_run": 599
+          "serial_total": 599
         },
         {
           "id": "ml-2009-10-upper-deck-trilogy-66",
@@ -11638,7 +11640,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false,
-          "print_run": 999
+          "serial_total": 999
         }
       ]
     },
@@ -11716,7 +11718,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "print_run": 999
+              "serial_total": 999
             }
           ]
         }
@@ -11742,7 +11744,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false,
-          "print_run": 1999
+          "serial_total": 1999
         }
       ],
       "subsets": [

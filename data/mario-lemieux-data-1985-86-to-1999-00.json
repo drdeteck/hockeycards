@@ -1610,7 +1610,7 @@
           "position": "Center",
           "card_type": "autograph",
           "excludeFromBinder": true,
-          "print_run": 2000,
+          "serial_total": 2000,
           "inCollection": false
         },
         {
@@ -1636,7 +1636,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "variant_note": "SP",
-          "print_run": 10000,
+          "serial_total": 10000,
           "inCollection": true,
           "price": 5
         }
@@ -4596,7 +4596,7 @@
               "position": "Center",
               "inCollection": false,
               "price": 72.99,
-              "print_run": 2500
+              "serial_total": 2500
             }
           ]
         }
@@ -5797,7 +5797,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "print_run": 5000
+              "serial_total": 5000
             }
           ]
         }
@@ -6077,7 +6077,7 @@
               "position": "Center",
               "inCollection": true,
               "price": 15,
-              "print_run": 2500
+              "serial_total": 2500
             }
           ]
         }
@@ -6508,7 +6508,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "print_run": 5000
+              "serial_total": 5000
             }
           ]
         }
@@ -8210,7 +8210,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "print_run": 5000
+              "serial_total": 5000
             }
           ]
         },
@@ -8232,7 +8232,7 @@
               "position": "Center",
               "inCollection": true,
               "price": 26.0,
-              "print_run": 2000
+              "serial_total": 2000
             }
           ]
         }
@@ -8583,7 +8583,7 @@
               "position": "Center",
               "inCollection": true,
               "price": 16.66,
-              "print_run": 2000
+              "serial_total": 2000
             }
           ]
         },
@@ -8670,7 +8670,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "print_run": 1996,
+              "serial_total": 1996,
               "inCollection": true
             },
             {
@@ -8683,7 +8683,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "print_run": 1996,
+              "serial_total": 1996,
               "inCollection": true
             },
             {
@@ -8696,7 +8696,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "print_run": 1996,
+              "serial_total": 1996,
               "inCollection": true,
               "price": 13.99
             },
@@ -8711,7 +8711,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "card_type": "numbered",
-              "print_run": 1996,
+              "serial_total": 1996,
               "price": 8.65,
               "inCollection": true
             },
@@ -8725,7 +8725,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "print_run": 1996,
+              "serial_total": 1996,
               "inCollection": true,
               "price": 10
             },
@@ -8739,7 +8739,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "print_run": 1996,
+              "serial_total": 1996,
               "inCollection": true,
               "price": 15.63
             }
@@ -8764,7 +8764,7 @@
               "position": "Center",
               "price": 36.77,
               "inCollection": true,
-              "print_run": 500
+              "serial_total": 500
             }
           ]
         },
@@ -9048,7 +9048,7 @@
               "position": "Center",
               "inCollection": false,
               "price": 200.01,
-              "print_run": 2500
+              "serial_total": 2500
             }
           ]
         },
@@ -9072,7 +9072,7 @@
               "price": 10,
               "price_type": "bulk",
               "price_bulk": 340,
-              "print_run": 5000
+              "serial_total": 5000
             }
           ]
         },
@@ -9115,7 +9115,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "print_run": 1000
+              "serial_total": 1000
             }
           ]
         }
@@ -9161,7 +9161,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "print_run": 1500
+              "serial_total": 1500
             }
           ]
         },
@@ -9229,7 +9229,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "print_run": 2500
+              "serial_total": 2500
             }
           ]
         },
@@ -9829,7 +9829,7 @@
               "price": 10,
               "price_type": "bulk",
               "price_bulk": 340,
-              "print_run": 1500
+              "serial_total": 1500
             }
           ]
         },
@@ -9873,7 +9873,7 @@
               "inCollection": true,
               "price": 43.5,
               "location": "US",
-              "print_run": 1000
+              "serial_total": 1000
             }
           ]
         }
@@ -10467,7 +10467,7 @@
               "position": "Center",
               "inCollection": true,
               "price": 43.58,
-              "print_run": 1082
+              "serial_total": 1082
             }
           ]
         }
@@ -10536,7 +10536,7 @@
               "variant_note": "Silver",
               "inCollection": true,
               "price": 33.55,
-              "print_run": 1000
+              "serial_total": 1000
             }
           ]
         },
@@ -10558,7 +10558,7 @@
               "position": "Center",
               "inCollection": true,
               "card_type": "numbered",
-              "print_run": 100,
+              "serial_total": 100,
               "price": 39
             }
           ]
@@ -10621,7 +10621,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "print_run": 1000,
+              "serial_total": 1000,
               "price": 43
             }
           ]
@@ -11468,7 +11468,7 @@
               "position": "Center",
               "inCollection": false,
               "card_type": "numbered",
-              "print_run": 100
+              "serial_total": 100
             }
           ]
         },
@@ -11490,7 +11490,7 @@
               "position": "Center",
               "inCollection": false,
               "card_type": "numbered",
-              "print_run": 500
+              "serial_total": 500
             }
           ]
         },
@@ -11512,7 +11512,7 @@
               "position": "Center",
               "inCollection": false,
               "card_type": "numbered",
-              "print_run": 150
+              "serial_total": 150
             }
           ]
         },
