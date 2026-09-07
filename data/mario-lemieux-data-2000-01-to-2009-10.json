@@ -9214,12 +9214,25 @@
           "position": "Center",
           "inCollection": true,
           "price": 1.76
+        },
+        {
+          "id": "ml-2005-06-upper-deck-bee-hive-209",
+          "base_number": "209",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive-209-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2005-06-Upper-Deck-Bee-Hive-209-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
         }
       ],
       "subsets": [
         {
           "set_key": "2005-06-upper-deck-bee-hive-beige",
           "set_name": "Beige",
+          "set_type": "parallel",
           "set_display_name": "2005-06 Upper Deck Bee-Hive - Beige",
           "set_tcdb_href": "",
           "cards": [
@@ -9241,6 +9254,7 @@
         {
           "set_key": "2005-06-upper-deck-bee-hive-blue",
           "set_name": "Blue",
+          "set_type": "parallel",
           "set_display_name": "2005-06 Upper Deck Bee-Hive - Blue",
           "set_tcdb_href": "",
           "cards": [
@@ -10111,30 +10125,6 @@
         }
       ]
     },
-    "2005-06-upper-deck-beehive": {
-      "set_key": "2005-06-upper-deck-beehive",
-      "set_name": "Upper Deck Beehive",
-      "set_year_label": "2005-06",
-      "set_year_start": 2005,
-      "set_year_end": 2006,
-      "set_display_name": "2005-06 Upper Deck Beehive",
-      "set_tcdb_href": "",
-      "cards": [
-        {
-          "id": "ml-2005-06-upper-deck-beehive-71",
-          "base_number": "71",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "",
-          "image_back": "",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": true,
-          "price": 1.7
-        }
-      ]
-    },
     "2005-06-upper-deck-mcdonalds": {
       "set_key": "2005-06-upper-deck-mcdonalds",
       "set_name": "Upper Deck McDonald's",
@@ -10169,8 +10159,8 @@
               "base_number": "TS4",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2005-06-Upper-Deck-McDonalds---Top-Scorers-TS4-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2005-06-Upper-Deck-McDonalds---Top-Scorers-TS4-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
@@ -10189,8 +10179,8 @@
               "base_number": "SS1",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2005-06-Upper-Deck-McDonalds---Superstar-Spotlight-SS1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2005-06-Upper-Deck-McDonalds---Superstar-Spotlight-SS1-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
