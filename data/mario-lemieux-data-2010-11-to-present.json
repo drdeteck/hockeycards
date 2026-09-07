@@ -4213,6 +4213,87 @@
           "position": "Center",
           "inCollection": false
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2017-18-upper-deck-team-canada-juniors-program-of-excellence",
+          "set_name": "Program of Excellence",
+          "set_display_name": "2017-18 Upper Deck Team Canada Juniors - Program of Excellence",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/158798/2017-Upper-Deck-Team-Canada-Juniors-Program-of-Excellence",
+          "cards": [
+            {
+              "id": "ml-2017-18-upper-deck-team-canada-juniors-program-of-excellence-poe-27",
+              "base_number": "POE-27",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2017-Upper-Deck-Team-Canada-Juniors---Program-of-Excellence-POE-27-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-Upper-Deck-Team-Canada-Juniors---Program-of-Excellence-POE-27-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/158798/cid/10221390/2017-Upper-Deck-Team-Canada-Juniors-Program-of-Excellence-POE-27-Mario-Lemieux",
+              "team": "Team Canada",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2017-18-upper-deck-team-canada-juniors-program-of-excellence-retro",
+          "set_name": "Program of Excellence Retro",
+          "set_display_name": "2017-18 Upper Deck Team Canada Juniors - Program of Excellence Retro",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/158799/2017-Upper-Deck-Team-Canada-Juniors-Program-of-Excellence-1997-98-Retro",
+          "cards": [
+            {
+              "id": "ml-2017-18-upper-deck-team-canada-juniors-program-of-excellence-retro-poe27-8",
+              "base_number": "POE27-8",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2017-Upper-Deck-Team-Canada-Juniors---Program-of-Excellence-1997-98-Retro-POE97-8-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-Upper-Deck-Team-Canada-Juniors---Program-of-Excellence-1997-98-Retro-POEE97-8-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/158798/cid/10221390/2017-Upper-Deck-Team-Canada-Juniors-Program-of-Excellence-POE-27-Mario-Lemieux",
+              "team": "Team Canada",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2017-18-upper-deck-team-canada-juniors-blue-spectrum",
+          "set_name": "Blue Spectrum",
+          "set_type": "parallel",
+          "set_display_name": "2017-18 Upper Deck Team Canada Juniors - Blue Spectrum",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/206121/2017-Upper-Deck-Team-Canada-Juniors-Blue-Spectrum",
+          "cards": [
+            {
+              "id": "ml-2017-18-upper-deck-team-canada-juniors-blue-spectrum-99",
+              "base_number": "99",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2017-Upper-Deck-Team-Canada-Juniors---Blue-Spectrum-99-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-Upper-Deck-Team-Canada-Juniors---Blue-Spectrum-99-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/206121/cid/13177927/2017-Upper-Deck-Team-Canada-Juniors-Blue-Spectrum-99-Mario-Lemieux",
+              "team": "Team Canada",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2017-18-upper-deck-team-canada-juniors-red-exclusives",
+          "set_name": "Red Exclusives",
+          "set_type": "parallel",
+          "set_display_name": "2017-18 Upper Deck Team Canada Juniors - Red Exclusives",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/158792/2017-Upper-Deck-Team-Canada-Juniors-Red-Exclusives",
+          "cards": [
+            {
+              "id": "ml-2017-18-upper-deck-team-canada-juniors-red-exclusives-99",
+              "base_number": "99",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2017-Upper-Deck-Team-Canada-Juniors---Red-Exclusives-99-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-Upper-Deck-Team-Canada-Juniors---Red-Exclusives-99-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/158792/cid/10221025/2017-Upper-Deck-Team-Canada-Juniors-Red-Exclusives-99-Mario-Lemieux",
+              "team": "Team Canada",
+              "print_run": 199,
+              "inCollection": false
+            }
+          ]
+        }
       ]
     },
     "2018-19-upper-deck-team-canada-juniors": {
@@ -8058,6 +8139,92 @@
         }
       ],
       "subsets": []
+    },
+    "2026-27-upper-deck-team-canada": {
+      "set_key": "2026-27-upper-deck-team-canada",
+      "set_name": "Upper Deck Team Canada",
+      "set_year_label": "2026-27",
+      "set_year_start": 2026,
+      "set_year_end": 2027,
+      "set_display_name": "2026-27 Upper Deck Team Canada",
+      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/662113/2026-Upper-Deck-Team-Canada",
+      "cards": [
+        {
+          "id": "ml-2026-27-upper-deck-team-canada-167",
+          "base_number": "167",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/662113/cid/38692535/2026-Upper-Deck-Team-Canada-167-Mario-Lemieux",
+          "team": "Team Canada",
+          "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2026-27-upper-deck-team-canada-deluxe",
+          "set_name": "Deluxe",
+          "set_type": "parallel",
+          "set_display_name": "2026-27 Upper Deck Team Canada - Deluxe",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/663480/2026-Upper-Deck-Team-Canada-Deluxe",
+          "cards": [
+            {
+              "id": "ml-2026-27-upper-deck-team-canada-deluxe-167",
+              "base_number": "167",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/663480/cid/38690602/2026-Upper-Deck-Team-Canada-Deluxe-167-Mario-Lemieux",
+              "team": "Team Canada",
+              "inCollection": false,
+              "print_run": 250,
+              "card_type": "numbered"
+            }
+          ]
+        },
+        {
+          "set_key": "2026-27-upper-deck-team-canada-representing-the-flag",
+          "set_name": "Representing the Flag",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/663524/2026-Upper-Deck-Team-Canada-Representing-the-Flag",
+          "set_display_name": "2026-27 Upper Deck Team Canada - Representing the Flag",
+          "cards": [
+            {
+              "id": "ml-2026-27-upper-deck-team-canada-representing-the-flag-rf-8",
+              "base_number": "RF-8",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/663524/cid/38693073/2026-Upper-Deck-Team-Canada-Representing-the-Flag-RF-8-Mario-Lemieux",
+              "team": "Team Canada",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2026-27-upper-deck-team-canada-representing-the-flag-pink",
+          "set_name": "Representing the Flag Pink",
+          "set_display_name": "2026-27 Upper Deck Team Canada - Representing the Flag Pink",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/663525/2026-Upper-Deck-Team-Canada-Representing-the-Flag-Pink",
+          "cards": [
+            {
+              "id": "ml-2026-27-upper-deck-team-canada-representing-the-flag-rf-8",
+              "base_number": "RF-8",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/663525/cid/38693157/2026-Upper-Deck-Team-Canada-Representing-the-Flag-Pink-RF-8-Mario-Lemieux",
+              "team": "Team Canada",
+              "inCollection": false,
+              "print_run": 399,
+              "card_type": "numbered"
+            }
+          ]
+        }
+      ]
     }
   }
 }

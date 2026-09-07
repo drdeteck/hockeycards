@@ -2200,7 +2200,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2
             }
           ]
         },
@@ -9095,6 +9096,27 @@
               "inCollection": false
             }
           ]
+        },
+        {
+          "set_key": "2004-05-upper-deck-worlds-best",
+          "set_name": "World's Best",
+          "set_display_name": "2004-05 Upper Deck - World's Best",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "base_number": "WB5",
+              "id": "ml-2004-05-upper-deck-worlds-best-wb5",
+              "image_back": "img/cards/ML66/2004-05-Upper-Deck---Worlds-Best-WB5-Mario-LemieuxBk.jpg",
+              "image_front": "img/cards/ML66/2004-05-Upper-Deck---Worlds-Best-WB5-Mario-LemieuxFr.jpg",
+              "inCollection": true,
+              "orientation_back": "portrait",
+              "orientation_front": "portrait",
+              "position": "Center",
+              "price": 1.36,
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins"
+            }
+          ]
         }
       ]
     },
@@ -9118,30 +9140,6 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false
-        }
-      ]
-    },
-    "2004-05-upper-deck-worlds-best": {
-      "set_key": "2004-05-upper-deck-worlds-best",
-      "set_name": "Upper Deck World's Best",
-      "set_year_label": "2004-05",
-      "set_year_start": 2004,
-      "set_year_end": 2005,
-      "set_display_name": "2004-05 Upper Deck World's Best",
-      "set_tcdb_href": "",
-      "cards": [
-        {
-          "base_number": "WB5",
-          "id": "ml-2004-05-upper-deck-worlds-best-wb5",
-          "image_back": "img/cards/ML66/2004-05-Upper-Deck---Worlds-Best-WB5-Mario-LemieuxBk.jpg",
-          "image_front": "img/cards/ML66/2004-05-Upper-Deck---Worlds-Best-WB5-Mario-LemieuxFr.jpg",
-          "inCollection": true,
-          "orientation_back": "portrait",
-          "orientation_front": "portrait",
-          "position": "Center",
-          "price": 1.36,
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins"
         }
       ]
     },
@@ -11649,7 +11647,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2
             }
           ]
         }
