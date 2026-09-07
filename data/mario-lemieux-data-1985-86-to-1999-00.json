@@ -8710,7 +8710,6 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "card_type": "numbered",
               "serial_total": 1996,
               "price": 8.65,
               "inCollection": true
@@ -10557,7 +10556,6 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": true,
-              "card_type": "numbered",
               "serial_total": 100,
               "price": 39
             }
@@ -11467,7 +11465,6 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "card_type": "numbered",
               "serial_total": 100
             }
           ]
@@ -11489,7 +11486,6 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "card_type": "numbered",
               "serial_total": 500
             }
           ]
@@ -11511,7 +11507,6 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "card_type": "numbered",
               "serial_total": 150
             }
           ]

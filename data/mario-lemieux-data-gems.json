@@ -91,7 +91,6 @@
                 {
                     "id": "ml-2007-08-upper-deck-trilogy-future-icons-frozen-in-time-111",
                     "base_number": "111",
-                    "card_type": "numbered",
                     "serial_total": 799,
                     "orientation_front": "portrait",
                     "orientation_back": "portrait",
@@ -204,7 +203,6 @@
                 {
                     "id": "ml-2015-16-upper-deck-team-canada-master-collection-41",
                     "base_number": "41",
-                    "card_type": "numbered",
                     "serial_total": 499,
                     "orientation_front": "portrait",
                     "orientation_back": "portrait",
@@ -230,7 +228,6 @@
                 {
                     "id": "ml-2022-23-upper-deck-ultimate-collection-blue-100",
                     "base_number": "100",
-                    "card_type": "numbered",
                     "serial_total": 99,
                     "orientation_front": "portrait",
                     "orientation_back": "portrait",
@@ -263,7 +260,6 @@
                         {
                             "id": "ml-2025-26-upper-deck-x-ovo-x-hockey-canada-black-and-gold-02",
                             "base_number": "02",
-                            "card_type": "numbered",
                             "serial_total": 99,
                             "orientation_front": "portrait",
                             "orientation_back": "portrait",

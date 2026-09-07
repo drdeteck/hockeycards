@@ -198,7 +198,7 @@ Hardcoded / defaulted values:
 Key ordering for card objects in all Mario Lemieux dataset files:
 `id`, `base_number`, `orientation_front`, `orientation_back`, `image_front`, `image_back`, `tcdb_href`, `team`, `position`, `inCollection`, `price` (optional)
 
-For `mario-lemieux-data-gems.json` entries, also include `card_type` (e.g. `"memorabilia"`, `"autograph"`, `"numbered"`) before `orientation_front`.
+For `mario-lemieux-data-gems.json` entries, also include `card_type` (e.g. `"memorabilia"` or `"autograph"`) before `orientation_front`. Use `serial_total` for serial-numbered cards instead of a numbered `card_type`.
 
 ## Expected Output To User
 - Which file was updated

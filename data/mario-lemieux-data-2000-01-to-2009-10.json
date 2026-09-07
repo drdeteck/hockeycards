@@ -581,7 +581,6 @@
               "image_back": "img/cards/ML66/2000-01-Pacific-Private-Stock-Titanium---North-America-All-Stars-9-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "inCollection": false,
-              "card_type": "numbered",
               "serial_total": 1000,
               "price": 49.99
             }
@@ -4622,7 +4621,6 @@
             {
               "id": "ml-2002-03-pacific-atomic-hobby-parallel-80",
               "base_number": "80",
-              "card_type": "numbered",
               "serial_total": 775,
               "orientation_front": "landscape",
               "orientation_back": "landscape",
@@ -4895,7 +4893,6 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "card_type": "numbered",
               "serial_total": 240,
               "inCollection": true,
               "price": 6.5
@@ -5176,7 +5173,6 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50603/cid/1730643/2002-03-Pacific-Vanguard-LTD-81-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "card_type": "numbered",
               "serial_total": 450,
               "inCollection": false
             }
@@ -5525,7 +5521,6 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "card_type": "numbered",
               "serial_total": 199,
               "inCollection": false
             }
@@ -5663,7 +5658,6 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "card_type": "numbered",
               "serial_total": 450,
               "inCollection": true,
               "price": 4.5
@@ -5837,7 +5831,6 @@
             {
               "id": "ml-2002-03-topps-heritage-chrome-7",
               "base_number": "7",
-              "card_type": "numbered",
               "serial_total": 667,
               "orientation_front": "landscape",
               "orientation_back": "landscape",
@@ -6502,7 +6495,6 @@
         {
           "id": "ml-2002-03-upper-deck-piece-of-history-93",
           "base_number": "93",
-          "card_type": "numbered",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
           "image_front": "img/cards/ML66/2002-03-Upper-Deck-Piece-of-History-93-Mario-LemieuxFr.jpg",
@@ -6559,8 +6551,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false,
-          "serial_total": 399,
-          "card_type": "numbered"
+          "serial_total": 399
         }
       ]
     },
@@ -7003,7 +6994,6 @@
             {
               "id": "ml-2003-04-in-the-game-vip-collages-nno",
               "base_number": "NNO",
-              "card_type": "numbered",
               "serial_total": 6000,
               "orientation_front": "landscape",
               "orientation_back": "landscape",
@@ -7078,7 +7068,6 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/51089/cid/4522326/2003-04-O-Pee-Chee-Blue-Line-100-Mario-Lemieux-?PageIndex=1",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "card_type": "numbered",
               "serial_total": 500,
               "inCollection": false
             }
@@ -7253,7 +7242,6 @@
             {
               "id": "ml-2003-04-pacific-calder-silver-81",
               "base_number": "81",
-              "card_type": "numbered",
               "serial_total": 575,
               "orientation_front": "portrait",
               "orientation_back": "portrait",
@@ -7513,7 +7501,6 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "card_type": "numbered",
               "serial_total": 299
             }
           ]
@@ -7556,7 +7543,6 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "card_type": "numbered",
               "serial_total": 175
             }
           ]
@@ -8094,7 +8080,6 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "position": "Center",
-          "card_type": "numbered",
           "serial_total": 250,
           "inCollection": false
         }
@@ -8116,7 +8101,6 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "card_type": "numbered",
               "serial_total": 750,
               "inCollection": true,
               "price": 6.44
@@ -8131,7 +8115,6 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "card_type": "numbered",
               "serial_total": 750,
               "inCollection": true,
               "price": 9.3
@@ -8204,7 +8187,6 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "position": "Center",
-              "card_type": "numbered",
               "serial_total": 500,
               "inCollection": true,
               "price": 6.44
@@ -8606,7 +8588,6 @@
         {
           "id": "ml-2003-04-upper-deck-classic-portraits-136",
           "base_number": "136",
-          "card_type": "numbered",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
           "image_front": "img/cards/ML66/2003-04-Upper-Deck-Classic-Portraits-136-Mario-LemieuxFr.jpg",
@@ -8754,8 +8735,7 @@
           "team": "Pittsburgh Penguins",
           "position": "Center",
           "inCollection": false,
-          "serial_total": 399,
-          "card_type": "numbered"
+          "serial_total": 399
         }
       ]
     },
@@ -8938,8 +8918,7 @@
               "team": "Pittsburgh Penguins",
               "position": "Center",
               "inCollection": false,
-              "serial_total": 250,
-              "card_type": "numbered"
+              "serial_total": 250
             }
           ]
         },
@@ -10233,7 +10212,6 @@
         {
           "id": "ml-2005-06-upper-deck-ultimate-collection-71",
           "base_number": "71",
-          "card_type": "numbered",
           "serial_total": 599,
           "orientation_front": "portrait",
           "orientation_back": "portrait",
@@ -10683,7 +10661,6 @@
         {
           "id": "ml-2007-08-upper-deck-trilogy-111",
           "base_number": "111",
-          "card_type": "numbered",
           "serial_total": 799,
           "orientation_front": "portrait",
           "orientation_back": "portrait",
@@ -11251,7 +11228,6 @@
         {
           "id": "ml-2006-07-upper-deck-ultimate-collection-49",
           "base_number": "49",
-          "card_type": "numbered",
           "serial_total": 699,
           "orientation_front": "portrait",
           "orientation_back": "portrait",
