@@ -1,8 +1,8 @@
 {
     "dataset": "mario-lemieux-gems",
-    "version": "0.4.0",
+    "version": "1.0.0",
     "player": "Mario Lemieux",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-09-07",
     "image_folder": "img/cards/ML66/Gems",
     "sets": {
         "2000-01-sp-game-used-tools-of-the-game": {

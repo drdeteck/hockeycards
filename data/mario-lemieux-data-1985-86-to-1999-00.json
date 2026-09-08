@@ -1,8 +1,8 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.15.8",
+  "version": "1.0.0",
   "player": "Mario Lemieux",
-  "updated_at": "2026-08-21",
+  "updated_at": "2026-09-07",
   "image_folder": "img/cards/ML66",
   "sets": {
     "1985-86-o-pee-chee": {
@@ -39,7 +39,7 @@
           "team": "Pittsburgh Penguins",
           "variant_note": "Rookie Scoring Leaders",
           "inCollection": true,
-          "paid_price": 22.69
+          "price": 22.69
         }
       ]
     },
@@ -84,9 +84,8 @@
           "image_back": "img/cards/ML66/1986-87-O-Pee-Chee-122-Mario-LemieuxBk.jpg",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/4862/cid/1185547/1986-87-O-Pee-Chee-122-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
-          "price": 32.09,
-          "inCollection": true,
-          "paid_price": 19.5
+          "price": 19.5,
+          "inCollection": true
         }
       ]
     },
@@ -8908,8 +8907,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "variant_note": "Rink Collection",
-              "price": 15.09,
-              "paid_price": 9.48,
+              "price": 9.48,
               "inCollection": true
             }
           ]
@@ -8948,7 +8946,7 @@
               "image_back": "img/cards/ML66/1996-97-Pinnacle---Team-Pinnacle-2-Mario-Lemieux--Peter-ForsbergBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "last_seen_price": 13.25,
+              "price": 13.25,
               "inCollection": true
             }
           ]

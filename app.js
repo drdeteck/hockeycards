@@ -122,7 +122,7 @@ window.HCHB = window.HCHB || {};
             function initializeAppWithData(mergedData) {
 
             // Add _parent_key to all subsets so BuildCardRoute can emit Set/Subset/number URLs
-            // Also normalize orientation_front/orientation_back from orientation for any card missing them
+            // Normalize orientation_front/orientation_back for every card.
             Object.keys(mergedData).forEach(function (setKey) {
                 var setData = mergedData[setKey];
                 if (!setData) { return; }
@@ -139,12 +139,10 @@ window.HCHB = window.HCHB || {};
                 }
 
                 function normalizeCardOrientation(card) {
-                    var base = normalizeOrientationValue(card.orientation) || 'portrait';
                     var front = normalizeOrientationValue(card.orientation_front);
                     var back = normalizeOrientationValue(card.orientation_back);
-                    card.orientation = base;
-                    card.orientation_front = front || base;
-                    card.orientation_back = back || base;
+                    card.orientation_front = front || 'portrait';
+                    card.orientation_back = back || card.orientation_front;
                 }
 
                 function applyCardSetContext(card, parentSet, subset) {
@@ -396,7 +394,6 @@ function DataViewModel() {
                     base_number: baseNumber,
                     team: row.team || 'Pittsburgh Penguins',
                     position: row.position || 'Center',
-                    orientation: row.orientation || 'portrait',
                     orientation_front: row.orientation_front || 'portrait',
                     orientation_back: row.orientation_back || 'portrait',
                     variant_note: row.variant_note || null,
@@ -410,9 +407,7 @@ function DataViewModel() {
                     image_front: row.image_front || '',
                     image_back: row.image_back || '',
                     tcdb_href: (tcdbHref && tcdbHref.indexOf('http') === 0) ? tcdbHref : '',
-                    last_seen_price: row.last_seen_price !== undefined && row.last_seen_price !== null && row.last_seen_price !== ''
-                        ? row.last_seen_price
-                        : row.price,
+                    price: row.price,
                     card_type: row.card_type || 'sticker',
                     excludeFromBinder: !!(row.excludeFromBinder),
                     default_face: row.default_face || 'front',
@@ -502,7 +497,6 @@ function DataViewModel() {
                     base_number: baseNumber,
                     team: row.team || 'Pittsburgh Penguins',
                     position: row.position || 'Center',
-                    orientation: row.orientation || 'portrait',
                     orientation_front: row.orientation_front || 'portrait',
                     orientation_back: row.orientation_back || 'portrait',
                     variant_note: row.variant_note || null,
@@ -516,9 +510,7 @@ function DataViewModel() {
                     image_front: row.image_front || '',
                     image_back: row.image_back || '',
                     tcdb_href: (tcdbHref && tcdbHref.indexOf('http') === 0) ? tcdbHref : '',
-                    last_seen_price: row.last_seen_price !== undefined && row.last_seen_price !== null && row.last_seen_price !== ''
-                        ? row.last_seen_price
-                        : row.price,
+                    price: row.price,
                     card_type: row.card_type || 'card',
                     serial_total: row.serial_total || null,
                     excludeFromBinder: !!(row.excludeFromBinder),
@@ -610,7 +602,6 @@ function DataViewModel() {
                     base_number: baseNumber,
                     team: row.team || 'Pittsburgh Penguins',
                     position: row.position || 'Center',
-                    orientation: row.orientation || 'portrait',
                     orientation_front: row.orientation_front || 'portrait',
                     orientation_back: row.orientation_back || 'portrait',
                     variant_note: row.variant_note || null,
@@ -624,9 +615,7 @@ function DataViewModel() {
                     image_front: row.image_front || '',
                     image_back: row.image_back || '',
                     tcdb_href: (tcdbHref && tcdbHref.indexOf('http') === 0) ? tcdbHref : '',
-                    last_seen_price: row.last_seen_price !== undefined && row.last_seen_price !== null && row.last_seen_price !== ''
-                        ? row.last_seen_price
-                        : row.price,
+                    price: row.price,
                     card_type: row.card_type || 'card',
                     serial_total: row.serial_total || null,
                     excludeFromBinder: !!(row.excludeFromBinder),
@@ -650,7 +639,6 @@ function DataViewModel() {
                         base_number: baseNumber,
                         team: row.team || 'Pittsburgh Penguins',
                         position: row.position || 'Center',
-                        orientation: row.orientation || 'portrait',
                         orientation_front: row.orientation_front || 'portrait',
                         orientation_back: row.orientation_back || 'portrait',
                         variant_note: row.variant_note || null,
@@ -664,9 +652,7 @@ function DataViewModel() {
                         image_front: row.image_front || '',
                         image_back: row.image_back || '',
                         tcdb_href: (tcdbHref && tcdbHref.indexOf('http') === 0) ? tcdbHref : '',
-                        last_seen_price: row.last_seen_price !== undefined && row.last_seen_price !== null && row.last_seen_price !== ''
-                            ? row.last_seen_price
-                            : row.price,
+                        price: row.price,
                         card_type: row.card_type || 'card',
                         serial_total: row.serial_total || null,
                         excludeFromBinder: !!(row.excludeFromBinder),
@@ -884,9 +870,8 @@ function DataViewModel() {
             base_number: baseNumber,
             team: row.team || 'Pittsburgh Penguins',
             position: row.position || 'Center',
-            orientation: row.orientation || 'unknown',
-            orientation_front: row.orientation_front || row.orientation || 'unknown',
-            orientation_back: row.orientation_back || row.orientation || 'unknown',
+            orientation_front: row.orientation_front || 'unknown',
+            orientation_back: row.orientation_back || row.orientation_front || 'unknown',
             variant_note: row.variant_note || null,
             set_name: setName,
             set_variation: setVariation || null,
@@ -899,9 +884,7 @@ function DataViewModel() {
             image_front: row.image_front || '',
             image_back: row.image_back || '',
             tcdb_href: (tcdbHref && tcdbHref.indexOf('http') === 0) ? tcdbHref : '',
-            last_seen_price: row.last_seen_price !== undefined && row.last_seen_price !== null && row.last_seen_price !== ''
-                ? row.last_seen_price
-                : row.price,
+            price: row.price,
             card_type: row.card_type || 'card',
             serial_total: row.serial_total || null,
             excludeFromBinder: !!(row.excludeFromBinder),
@@ -1788,7 +1771,7 @@ function DataViewModel() {
 
         function buildGroupEntries(cards, useMLMerge, denseMode) {
             var filtered = cards.filter(function (c) {
-                var frontOrientation = (c.orientation_front || c.orientation || '').toString().toLowerCase();
+                var frontOrientation = (c.orientation_front || '').toString().toLowerCase();
                 return frontOrientation !== 'extra-tall' && !c.excludeFromBinder;
             });
 
@@ -2214,7 +2197,7 @@ function DataViewModel() {
             return '';
         }
 
-        var rawPrice = card.last_seen_price;
+        var rawPrice = card.price;
         if (rawPrice === undefined || rawPrice === null || rawPrice === '') {
             return '';
         }
@@ -2232,24 +2215,6 @@ function DataViewModel() {
         }
         
         return formattedPrice;
-    };
-
-    self.GetCardGridPaidPriceCad = function (card) {
-        if (!card) {
-            return '';
-        }
-
-        var rawPrice = card.paid_price;
-        if (rawPrice === undefined || rawPrice === null || rawPrice === '') {
-            return '';
-        }
-
-        var numericPrice = parseFloat(rawPrice);
-        if (isNaN(numericPrice)) {
-            return '';
-        }
-
-        return numericPrice.toFixed(2) + '$';
     };
 
     self.GetCardGridMetaTooltip = function (card) {
@@ -2416,7 +2381,7 @@ function DataViewModel() {
             cards.forEach(function (card) {
                 tally.totalCards++;
                 if (card.image_front || card.image_back) { tally.cardsWithImages++; }
-                var price = parseFloat(card.last_seen_price);
+                var price = parseFloat(card.price);
                 if (card.inCollection) {
                     tally.cardsInCollection++;
                     if (!isNaN(price)) { tally.ownedPrice += price; }

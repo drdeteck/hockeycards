@@ -1,8 +1,8 @@
 {
     "dataset": "mario-lemieux-stickers",
-    "version": "0.6.0",
+    "version": "1.0.0",
     "player": "Mario Lemieux",
-    "updated_at": "2026-08-17",
+    "updated_at": "2026-09-07",
     "image_folder": "img/cards/ML66/Stickers",
     "sets": {
         "1985-86-opc-stickers": {

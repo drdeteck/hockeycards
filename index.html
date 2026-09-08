@@ -1092,10 +1092,6 @@
             <span class="card-grid-item-meta-price"
                 data-bind="html: '· ' + $root.GetCardGridPriceCad($data), css: { 'card-grid-item-meta-price--owned': $data.inCollection }"></span>
             <!-- /ko -->
-            <!-- ko if: $root.GetCardGridPaidPriceCad($data) -->
-            <span class="card-grid-item-meta-paid-price"
-                data-bind="text: '· ' + $root.GetCardGridPaidPriceCad($data)"></span>
-            <!-- /ko -->
             <!-- ko if: $root.IsCurrentCollectionMario() -->
             <a class="card-grid-item-ebay-link" target="_blank" rel="noopener noreferrer"
                 data-bind="attr: { href: $root.GetEbaySearchUrl($data), title: 'Search on eBay: ' + ($data.name || '') }">

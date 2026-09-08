@@ -136,7 +136,8 @@ Stores a JSON object keyed by `set_key`. Set-level attributes live on the set; c
         "base_number": "Mc-1",
         "team": "Boston Bruins",
         "position": "",
-        "orientation": "portrait",    // "portrait" | "landscape"
+        "orientation_front": "portrait", // "portrait" | "landscape"
+        "orientation_back": "portrait",
         "image_front": "img/cards/McD91-92/56699-Mc-1Fr.jpg",
         "image_back":  "img/cards/McD91-92/56699-Mc-1Bk.jpg",
         "tcdb_href": "https://www.tcdb.com/…"   // card/set TCDB link (optional)
@@ -177,7 +178,8 @@ Stores dataset metadata plus a `sets` object across three split JSON files. Each
           "id": "ml-1985-86-opc-9",
           "base_number": "9",
           "variant_note": "Rookie",   // optional
-          "orientation": "portrait",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
           "image_front": "img/cards/ML66/1985-86-O-Pee-Chee-9-Mario-Lemieux-FR.jpg",
           "image_back":  "img/cards/ML66/1985-86-O-Pee-Chee-9-Mario-Lemieux-BK.jpg",
           "tcdb_href": "https://www.tcdb.com/…",

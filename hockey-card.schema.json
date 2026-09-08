@@ -113,7 +113,12 @@
                 },
                 "set_type": {
                     "type": "string",
-                    "description": "Optional classification of the set."
+                    "description": "Optional classification of the set.",
+                    "enum": [
+                        "base",
+                        "insert",
+                        "parallel"
+                    ]
                 },
                 "set_variation": {
                     "type": [
@@ -178,7 +183,11 @@
                 },
                 "set_type": {
                     "type": "string",
-                    "description": "Optional classification of the subset, such as parallel or insert."
+                    "description": "Optional classification of the subset, such as parallel or insert.",
+                    "enum": [
+                        "insert",
+                        "parallel"
+                    ]
                 },
                 "set_display_name": {
                     "type": "string",
@@ -236,10 +245,6 @@
                     "type": "string",
                     "description": "Team or national program represented by the card."
                 },
-                "position": {
-                    "type": "string",
-                    "description": "Player position represented by the card."
-                },
                 "variant_note": {
                     "type": "string",
                     "description": "Optional human-readable note describing a variant or special designation."
@@ -280,15 +285,6 @@
                     ],
                     "description": "Orientation of the card back image."
                 },
-                "orientation": {
-                    "type": "string",
-                    "enum": [
-                        "portrait",
-                        "landscape",
-                        "square"
-                    ],
-                    "description": "Legacy shared orientation for card images."
-                },
                 "image_front": {
                     "type": "string",
                     "description": "URL or repository-relative path for the front image; use an empty string when unavailable."
@@ -320,20 +316,7 @@
                 "price": {
                     "type": "number",
                     "minimum": 0,
-                    "description": "Optional estimated market value of the card."
-                },
-                "last_seen_price": {
-                    "type": [
-                        "number",
-                        "null"
-                    ],
-                    "minimum": 0,
-                    "description": "Optional most recently observed market price."
-                },
-                "paid_price": {
-                    "type": "number",
-                    "minimum": 0,
-                    "description": "Optional purchase price."
+                    "description": "Optional paid price if inCollection:true, otherwise it's market price."
                 },
                 "price_bulk": {
                     "type": "number",

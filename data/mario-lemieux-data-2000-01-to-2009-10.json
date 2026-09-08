@@ -1,8 +1,8 @@
 {
   "dataset": "mario-lemieux",
-  "version": "0.15.7",
+  "version": "1.0.0",
   "player": "Mario Lemieux",
-  "updated_at": "2026-08-17",
+  "updated_at": "2026-09-07",
   "image_folder": "img/cards/ML66",
   "sets": {
     "2000-01-be-a-player-memorabilia": {
