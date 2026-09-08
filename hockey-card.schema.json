@@ -1,0 +1,426 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://hockeycards.example.com/schemas/hockey-card.schema.json",
+    "title": "Hockey Card Collection",
+    "description": "Schema for hockey card collection data. Supports both a direct map of set identifiers to sets and the repository's dataset wrapper format.",
+    "type": "object",
+    "properties": {
+        "dataset": {
+            "type": "string"
+        },
+        "version": {
+            "type": "string"
+        },
+        "player": {
+            "type": "string"
+        },
+        "updated_at": {
+            "type": "string"
+        },
+        "image_folder": {
+            "type": "string"
+        },
+        "sets": {
+            "$ref": "#/definitions/setMap"
+        }
+    },
+    "patternProperties": {
+        "^(?!(dataset|version|player|updated_at|image_folder|sets)$)[A-Za-z0-9][A-Za-z0-9._-]*$": {
+            "$ref": "#/definitions/set"
+        }
+    },
+    "additionalProperties": false,
+    "definitions": {
+        "setMap": {
+            "type": "object",
+            "description": "Map whose property names are unique set identifiers.",
+            "patternProperties": {
+                "^[A-Za-z0-9][A-Za-z0-9._-]*$": {
+                    "$ref": "#/definitions/set"
+                }
+            },
+            "additionalProperties": false
+        },
+        "datasetDocument": {
+            "type": "object",
+            "description": "Dataset document containing collection metadata and a map of sets.",
+            "properties": {
+                "dataset": {
+                    "type": "string",
+                    "description": "Stable identifier for the dataset, such as mario-lemieux."
+                },
+                "version": {
+                    "type": "string",
+                    "description": "Dataset schema or content version."
+                },
+                "player": {
+                    "type": "string",
+                    "description": "Primary player represented by the dataset."
+                },
+                "updated_at": {
+                    "type": "string",
+                    "description": "ISO-formatted date on which the dataset was last updated."
+                },
+                "image_folder": {
+                    "type": "string",
+                    "description": "Root folder used for card images in this dataset."
+                },
+                "sets": {
+                    "$ref": "#/definitions/setMap",
+                    "description": "Map of unique set identifiers to set objects."
+                }
+            },
+            "required": [
+                "sets"
+            ],
+            "additionalProperties": false
+        },
+        "set": {
+            "type": "object",
+            "description": "A complete card release, including its base cards and optional subsets.",
+            "properties": {
+                "set_key": {
+                    "type": "string",
+                    "description": "Unique identifier for the set, normally a lowercase slug."
+                },
+                "set_name": {
+                    "type": "string",
+                    "description": "Manufacturer or product name of the set without the year prefix."
+                },
+                "set_year_label": {
+                    "type": "string",
+                    "description": "Human-readable hockey season label, such as 2026-27."
+                },
+                "set_year_start": {
+                    "type": "integer",
+                    "description": "First calendar year in the hockey season represented by the set."
+                },
+                "set_year_end": {
+                    "type": "integer",
+                    "description": "Last calendar year in the hockey season represented by the set."
+                },
+                "set_display_name": {
+                    "type": "string",
+                    "description": "Full display label for the set, usually including the season and product name."
+                },
+                "menu_display_name": {
+                    "type": "string",
+                    "description": "Optional shorter label used in navigation menus."
+                },
+                "set_category": {
+                    "type": "string",
+                    "description": "Optional navigation category used to group related sets."
+                },
+                "set_type": {
+                    "type": "string",
+                    "description": "Optional classification of the set."
+                },
+                "set_variation": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "description": "Optional variation label for the set."
+                },
+                "set_total_cards": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "description": "Optional number of cards in the complete set checklist."
+                },
+                "set_tcdb_href": {
+                    "type": "string",
+                    "description": "Trading Card Database set URL, or an empty string when no link is available."
+                },
+                "_parent_key": {
+                    "type": "string",
+                    "description": "Optional internal identifier for the parent set of a nested set record."
+                },
+                "source": {
+                    "type": "string",
+                    "description": "Optional source or provenance label for the set."
+                },
+                "cards": {
+                    "type": "array",
+                    "description": "Base cards belonging directly to this set.",
+                    "items": {
+                        "$ref": "#/definitions/card"
+                    }
+                },
+                "subsets": {
+                    "type": "array",
+                    "description": "Insert, parallel, autograph, relic, or other subsets within this set.",
+                    "items": {
+                        "$ref": "#/definitions/subset"
+                    }
+                }
+            },
+            "required": [
+                "set_key",
+                "set_name",
+                "set_year_label",
+                "set_year_start",
+                "set_year_end",
+                "set_display_name"
+            ],
+            "additionalProperties": false
+        },
+        "subset": {
+            "type": "object",
+            "description": "A named secondary release belonging to a parent set.",
+            "properties": {
+                "set_key": {
+                    "type": "string",
+                    "description": "Unique identifier for the subset."
+                },
+                "set_name": {
+                    "type": "string",
+                    "description": "Name of the subset, parallel, or insert."
+                },
+                "set_type": {
+                    "type": "string",
+                    "description": "Optional classification of the subset, such as parallel or insert."
+                },
+                "set_display_name": {
+                    "type": "string",
+                    "description": "Full display label for the subset."
+                },
+                "set_year_label": {
+                    "type": "string",
+                    "description": "Optional season label stored on a legacy subset record."
+                },
+                "set_year_start": {
+                    "type": "integer",
+                    "description": "Optional start year stored on a legacy subset record."
+                },
+                "set_year_end": {
+                    "type": "integer",
+                    "description": "Optional end year stored on a legacy subset record."
+                },
+                "set_tcdb_href": {
+                    "type": "string",
+                    "description": "Trading Card Database subset URL, or an empty string when no link is available."
+                },
+                "cards": {
+                    "type": "array",
+                    "description": "Cards belonging to this subset.",
+                    "items": {
+                        "$ref": "#/definitions/card"
+                    }
+                }
+            },
+            "required": [
+                "set_key",
+                "set_name",
+                "set_display_name",
+                "cards"
+            ],
+            "additionalProperties": false
+        },
+        "card": {
+            "type": "object",
+            "description": "An individual hockey card and its collection metadata.",
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "description": "Globally stable card identifier used for routes and data lookups."
+                },
+                "base_number": {
+                    "type": "string",
+                    "description": "Card number as printed on the card, including prefixes or letters."
+                },
+                "name": {
+                    "type": "string",
+                    "description": "Name of the player or subject shown on the card."
+                },
+                "team": {
+                    "type": "string",
+                    "description": "Team or national program represented by the card."
+                },
+                "position": {
+                    "type": "string",
+                    "description": "Player position represented by the card."
+                },
+                "variant_note": {
+                    "type": "string",
+                    "description": "Optional human-readable note describing a variant or special designation."
+                },
+                "card_type": {
+                    "type": "string",
+                    "description": "Optional dataset-specific card classification."
+                },
+                "card_note": {
+                    "type": "string",
+                    "description": "Optional note about the card."
+                },
+                "card_thickness": {
+                    "type": "number",
+                    "description": "Optional card thickness measurement."
+                },
+                "default_face": {
+                    "type": "string",
+                    "description": "Optional default face used when displaying a two-sided card."
+                },
+                "orientation_front": {
+                    "type": "string",
+                    "enum": [
+                        "portrait",
+                        "landscape",
+                        "square",
+                        "extra-tall"
+                    ],
+                    "description": "Orientation of the card front image."
+                },
+                "orientation_back": {
+                    "type": "string",
+                    "enum": [
+                        "portrait",
+                        "landscape",
+                        "square",
+                        "extra-tall"
+                    ],
+                    "description": "Orientation of the card back image."
+                },
+                "orientation": {
+                    "type": "string",
+                    "enum": [
+                        "portrait",
+                        "landscape",
+                        "square"
+                    ],
+                    "description": "Legacy shared orientation for card images."
+                },
+                "image_front": {
+                    "type": "string",
+                    "description": "URL or repository-relative path for the front image; use an empty string when unavailable."
+                },
+                "image_back": {
+                    "type": "string",
+                    "description": "URL or repository-relative path for the back image; use an empty string when unavailable."
+                },
+                "tcdb_href": {
+                    "type": "string",
+                    "description": "Trading Card Database card URL, or an empty string when no link is available."
+                },
+                "serial_total": {
+                    "type": [
+                        "integer",
+                        "null"
+                    ],
+                    "minimum": 1,
+                    "description": "Total production limit for a serial-numbered card, such as 250; null means not serial-numbered."
+                },
+                "serial_number": {
+                    "type": "string",
+                    "description": "Optional specific serial number printed on the card."
+                },
+                "inCollection": {
+                    "type": "boolean",
+                    "description": "Whether this card is currently owned in the collection."
+                },
+                "price": {
+                    "type": "number",
+                    "minimum": 0,
+                    "description": "Optional estimated market value of the card."
+                },
+                "last_seen_price": {
+                    "type": [
+                        "number",
+                        "null"
+                    ],
+                    "minimum": 0,
+                    "description": "Optional most recently observed market price."
+                },
+                "paid_price": {
+                    "type": "number",
+                    "minimum": 0,
+                    "description": "Optional purchase price."
+                },
+                "price_bulk": {
+                    "type": "number",
+                    "minimum": 0,
+                    "description": "Optional bulk market price."
+                },
+                "price_type": {
+                    "type": "string",
+                    "description": "Optional price source or classification."
+                },
+                "location": {
+                    "type": "string",
+                    "description": "Optional physical storage location."
+                },
+                "note": {
+                    "type": "string",
+                    "description": "Optional collection note."
+                },
+                "odds": {
+                    "type": "string",
+                    "description": "Optional pack odds description."
+                },
+                "insert_subset": {
+                    "type": "string",
+                    "description": "Optional subset name associated with the card."
+                },
+                "isRookie": {
+                    "type": "boolean",
+                    "description": "Whether the card is a rookie card."
+                },
+                "is_image_placeholder": {
+                    "type": "boolean",
+                    "description": "Whether the image is a temporary placeholder."
+                },
+                "set_display_name": {
+                    "type": "string",
+                    "description": "Optional set display label stored on legacy card records."
+                },
+                "set_name": {
+                    "type": "string",
+                    "description": "Optional set name stored on legacy card records."
+                },
+                "set_variation": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "description": "Optional set variation stored on legacy card records."
+                },
+                "set_year_label": {
+                    "type": "string",
+                    "description": "Optional set year label stored on legacy card records."
+                },
+                "set_year_start": {
+                    "type": "integer",
+                    "description": "Optional set start year stored on legacy card records."
+                },
+                "set_year_end": {
+                    "type": "integer",
+                    "description": "Optional set end year stored on legacy card records."
+                },
+                "type": {
+                    "type": "string",
+                    "description": "Optional legacy card type label."
+                },
+                "variation": {
+                    "type": "string",
+                    "description": "Optional variation label."
+                },
+                "_parent_key": {
+                    "type": "string",
+                    "description": "Optional parent set identifier stored on legacy card records."
+                },
+                "_set_key": {
+                    "type": "string",
+                    "description": "Optional set identifier stored on legacy card records."
+                },
+                "excludeFromBinder": {
+                    "type": "boolean",
+                    "description": "Whether the card should be excluded from binder views."
+                }
+            },
+            "required": [
+                "id",
+                "base_number"
+            ],
+            "additionalProperties": false
+        }
+    }
+}

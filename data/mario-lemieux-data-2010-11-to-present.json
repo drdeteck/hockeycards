@@ -22,7 +22,6 @@
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
-          "position": "Center",
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
@@ -36,7 +35,6 @@
           "image_back": "img/cards/ML66/2010-11-Panini-Zenith-238-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ],
@@ -56,7 +54,6 @@
               "image_back": "img/cards/ML66/2010-11-Panini-Zenith---Red-Hot-125-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -88,7 +85,6 @@
               "image_back": "img/cards/ML66/2011-12-In-The-Game---Captain-C-50-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -113,7 +109,6 @@
           "image_back": "img/cards/ML66/2011-12-O-Pee-Chee-507-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 3.86
         }
@@ -134,7 +129,6 @@
               "image_back": "img/cards/ML66/2011-12-O-Pee-Chee---Marquee-Legends-L6-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -154,7 +148,6 @@
               "image_back": "img/cards/ML66/2011-12-O-Pee-Chee---Retro-507-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 8.00
             }
@@ -180,7 +173,6 @@
           "image_back": "img/cards/ML66/2011-12-Parkhurst-Champions-4-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 2.5
         },
@@ -193,7 +185,6 @@
           "image_back": "img/cards/ML66/2011-12-Parkhurst-Champions-134-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 2.40
         },
@@ -206,7 +197,6 @@
           "image_back": "img/cards/ML66/2011-12-Parkhurst-Champions-159-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 6.68
         }
@@ -226,7 +216,6 @@
               "image_back": "img/cards/ML66/2011-12-Parkhurst-Champions---Champs-Mini-53-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 1.0
             }
@@ -252,7 +241,6 @@
           "image_back": "img/cards/ML66/2011-12-Panini-Certified-162-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 4.99
         }
@@ -276,7 +264,6 @@
           "image_back": "img/cards/ML66/2011-12-Panini-Contenders-159-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 14.12,
           "serial_total": 999
@@ -308,7 +295,6 @@
               "image_back": "img/cards/ML66/2011-12-Panini-Crown-Royale---Ice-Kings-13-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 9.95
             }
@@ -341,7 +327,6 @@
               "image_back": "img/cards/ML66/2011-12-Panini-Pinnacle---All-Star-Game-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true
             }
           ]
@@ -366,7 +351,6 @@
           "image_back": "img/cards/ML66/2011-12-Score-10-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 1.35
         }
@@ -387,7 +371,6 @@
               "image_back": "img/cards/ML66/2011-12-Score---Glossy-10-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true
             }
           ]
@@ -412,7 +395,6 @@
           "image_back": "img/cards/ML66/2011-12-SP-Game-Used-74-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ]
@@ -435,7 +417,6 @@
           "image_back": "img/cards/ML66/2011-12-SPx-119-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "serial_total": 499,
           "inCollection": true,
           "price": 10.80
@@ -460,7 +441,6 @@
           "image_back": "img/cards/ML66/2011-12-Upper-Deck-Black-Diamond-49-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true
         },
         {
@@ -472,7 +452,6 @@
           "image_back": "img/cards/ML66/2011-12-Upper-Deck-Black-Diamond-222-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ]
@@ -494,7 +473,6 @@
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
-          "position": "Center",
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
@@ -526,7 +504,6 @@
               "image_back": "img/cards/ML66/2011-12-Upper-Deck---UD-Canvas-C242-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -551,7 +528,6 @@
           "image_back": "img/cards/ML66/2011-12-Upper-Deck-Ultimate-Collection-46-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ]
@@ -574,7 +550,6 @@
           "image_back": "img/cards/ML66/2012-13-In-The-Game-Draft-Prospects-122-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 4.00
         }
@@ -598,7 +573,6 @@
           "image_back": "img/cards/ML66/2012-13-O-Pee-Chee-597-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 6.52
         }
@@ -619,7 +593,6 @@
               "image_back": "img/cards/ML66/2012-13-O-Pee-Chee---All-Stars-AS-26-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -639,7 +612,6 @@
               "image_back": "img/cards/ML66/2012-13-O-Pee-Chee---Marquee-Legends-Gold-G9-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -659,7 +631,6 @@
               "image_back": "img/cards/ML66/2012-13-O-Pee-Chee---Pop-Ups-PU-41-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 8.85
             }
@@ -680,7 +651,6 @@
               "image_back": "img/cards/ML66/2012-13-O-Pee-Chee---Rainbow-597-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -700,7 +670,6 @@
               "image_back": "img/cards/ML66/2012-13-O-Pee-Chee---Retro-597-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -720,7 +689,6 @@
               "image_back": "img/cards/ML66/2012-13-O-Pee-Chee---Stickers-S-76-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 3.25
             }
@@ -746,7 +714,6 @@
           "image_back": "img/cards/ML66/2012-13-Panini-Certified-131-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 4.5,
           "serial_total": 999,
@@ -772,7 +739,6 @@
           "image_back": "img/cards/ML66/2012-13-Panini-Classics-Signatures-68-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 3.59
         }
@@ -793,7 +759,6 @@
               "image_back": "img/cards/ML66/2012-13-Panini-Classics-Signatures---Banner-Numbers-EN9-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -819,8 +784,8 @@
           "image_back": "",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/82044/cid/5984397/2012-13-Panini-Prime-50-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 20
         }
       ]
     },
@@ -849,7 +814,6 @@
               "image_back": "img/cards/ML66/2012-13-Panini-Rookie-Anthology---Contenders-Legacies-L6-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false,
               "serial_total": 999
             }
@@ -875,7 +839,6 @@
           "image_back": "img/cards/ML66/2012-13-SP-Authentic-42-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 1.48
         },
@@ -888,7 +851,6 @@
           "image_back": "img/cards/ML66/2012-13-SP-Authentic-177-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 8
         }
@@ -912,7 +874,6 @@
           "image_back": "img/cards/ML66/2012-13-SP-Game-Used-25-Mario-LemieuxBk.jpg",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/72758/cid/5496172/2012-13-SP-Game-Used-25-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 2.83
         }
@@ -935,7 +896,6 @@
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
-          "position": "Center",
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
@@ -952,18 +912,6 @@
       "set_tcdb_href": "",
       "cards": [
         {
-          "id": "ml-2012-13-upper-deck-black-diamond-49",
-          "base_number": "49",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/2012-13-Upper-Deck-Black-Diamond-49-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/2012-13-Upper-Deck-Black-Diamond-49-Mario-LemieuxBk.jpg",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": true
-        },
-        {
           "id": "ml-2012-13-upper-deck-black-diamond-70",
           "base_number": "70",
           "orientation_front": "portrait",
@@ -972,7 +920,6 @@
           "image_back": "img/cards/ML66/2012-13-Upper-Deck-Black-Diamond-70-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 1.35
         },
@@ -985,8 +932,8 @@
           "image_back": "img/cards/ML66/2012-13-Upper-Deck-Black-Diamond-217-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 11
         }
       ]
     },
@@ -1008,7 +955,6 @@
           "image_back": "img/cards/ML66/2012-Upper-Deck-National-Hockey-Card-Day-Canada-13-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true
         }
       ]
@@ -1037,7 +983,6 @@
               "image_back": "img/cards/ML66/2013-14-Panini-Boxing-Day---Retired-2-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -1061,7 +1006,6 @@
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
-          "position": "Center",
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
@@ -1083,7 +1027,6 @@
               "image_back": "img/cards/ML66/2013-14-Fleer-Showcase---SkyBox-Premium-3-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true
             }
           ]
@@ -1103,7 +1046,6 @@
               "image_back": "img/cards/ML66/2013-14-Fleer-Showcase---Ultra-3-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -1128,7 +1070,6 @@
           "image_back": "img/cards/ML66/2013-14-In-The-Game-Decades-1990s-98-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         },
         {
@@ -1140,7 +1081,6 @@
           "image_back": "img/cards/ML66/2013-14-In-The-Game-Decades-1990s-162-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ]
@@ -1170,7 +1110,6 @@
               "image_back": "img/cards/ML66/2013-14-O-Pee-Chee---Rings-R-33-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -1190,7 +1129,6 @@
               "image_back": "img/cards/ML66/2013-14-O-Pee-Chee---Stamps-ST-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -1210,7 +1148,6 @@
               "image_back": "img/cards/ML66/2013-14-O-Pee-Chee---Stickers-S-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 1.41
             }
@@ -1243,7 +1180,6 @@
               "image_back": "img/cards/ML66/2013-14-Panini-Prizm---Endless-Impressions-EI-5-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 3.14
             }
@@ -1268,7 +1204,6 @@
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
-          "position": "Center",
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
@@ -1290,7 +1225,6 @@
               "image_back": "img/cards/ML66/2013-14-Panini-Select---Honored-Selections-HS-17-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -1315,7 +1249,6 @@
           "image_back": "img/cards/ML66/2013-14-SP-Authentic-49-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true
         },
         {
@@ -1327,7 +1260,6 @@
           "image_back": "img/cards/ML66/2013-14-SP-Authentic-185-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 2.74
         }
@@ -1348,7 +1280,6 @@
               "image_back": "img/cards/ML66/2013-14-SP-Authentic---SP-Retro-93-40-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 8.62
             }
@@ -1369,7 +1300,6 @@
               "image_back": "img/cards/ML66/2013-14-SP-Authentic---SP-Retro-Silver-Skates-R2-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 1.04
             }
@@ -1395,7 +1325,6 @@
           "image_back": "img/cards/ML66/2013-14-SP-Game-Used-28-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true
         }
       ]
@@ -1425,7 +1354,6 @@
               "image_back": "img/cards/ML66/2013-14-SPx---SPx-Retro-18-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 11
             }
@@ -1458,7 +1386,6 @@
               "image_back": "img/cards/ML66/2013-14-Upper-Deck---Hockey-Heroes-HH65-Mario-Lemieux--Patrick-RoyBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 4.95
             }
@@ -1479,7 +1406,6 @@
               "image_back": "img/cards/ML66/2013-14-Upper-Deck---Hockey-Heroes-80s-HH50-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true
             }
           ]
@@ -1499,7 +1425,6 @@
               "image_back": "img/cards/ML66/2013-14-Upper-Deck---Hockey-Heroes-90s-HH63-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 1.83
             }
@@ -1520,7 +1445,6 @@
               "image_back": "img/cards/ML66/2013-14-Upper-Deck---UD-Canvas-C243-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -1540,7 +1464,6 @@
               "image_back": "img/cards/ML66/2013-14-Upper-Deck---UD-MVP-35-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 8.15
             }
@@ -1566,7 +1489,6 @@
           "image_back": "img/cards/ML66/2013-14-Upper-Deck-Artifacts-54-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 1.89
         }
@@ -1590,7 +1512,6 @@
           "image_back": "img/cards/ML66/2013-14-Upper-Deck-Black-Diamond-212-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 4.99
         }
@@ -1614,7 +1535,6 @@
           "image_back": "img/cards/ML66/2013-14-Upper-Deck-The-Cup-66-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ]
@@ -1636,7 +1556,6 @@
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
-          "position": "Center",
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
@@ -1650,7 +1569,6 @@
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
-          "position": "Center",
           "price": 1,
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/81427/cid/5779247/2013-Upper-Deck-National-Hockey-Card-Day-Canada-NHCD16-Wayne-Gretzky-/-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
@@ -1676,7 +1594,6 @@
           "image_back": "img/cards/ML66/2013-14-Upper-Deck-Trilogy-79-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 1.36
         }
@@ -1700,8 +1617,9 @@
           "image_back": "img/cards/ML66/2013-14-Upper-Deck-Ultimate-Collection-54-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": false
+          "serial_total": 499,
+          "inCollection": true,
+          "price": 15
         }
       ]
     },
@@ -1723,7 +1641,6 @@
           "image_back": "img/cards/ML66/2013-Upper-Deck-Team-Canada-155-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 3.93
         }
@@ -1744,7 +1661,6 @@
               "image_back": "img/cards/ML66/2013-Upper-Deck-Team-Canada---Special-Edition-SE29-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 8.69
             }
@@ -1765,7 +1681,6 @@
               "image_back": "img/cards/ML66/2013-Upper-Deck-Team-Canada---Captains-C9-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -1790,7 +1705,6 @@
           "image_back": "img/cards/ML66/2014-Upper-Deck-Goodwin-Champions-114-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 1.35
         }
@@ -1814,7 +1728,6 @@
           "image_back": "img/cards/ML66/2015-Upper-Deck-Goodwin-Champions-66-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 2.15
         }
@@ -1837,7 +1750,6 @@
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
-          "position": "Center",
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
@@ -1859,7 +1771,6 @@
               "image_back": "img/cards/ML66/2014-15-SP-Authentic---SP-Retro-94---38-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -1883,7 +1794,6 @@
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
-          "position": "Center",
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
@@ -1915,7 +1825,6 @@
               "image_back": "img/cards/ML66/2014-15-Upper-Deck---Shining-Stars-SS-50-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 1.89
             }
@@ -1936,7 +1845,6 @@
               "image_back": "img/cards/ML66/2014-15-Upper-Deck---Shining-Stars-Royale-Blue-SS-50-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 2
             }
@@ -1969,7 +1877,6 @@
               "image_back": "img/cards/ML66/2014-15-Fleer-Showcase---Metal-Universe-6-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 1.19
             }
@@ -1995,7 +1902,6 @@
           "image_back": "img/cards/ML66/2014-15-In-The-Game-Draft-Prospects-90-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ]
@@ -2018,7 +1924,6 @@
           "image_back": "img/cards/ML66/2014-15-O-Pee-Chee-613-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ],
@@ -2038,7 +1943,6 @@
               "image_back": "img/cards/ML66/2014-15-O-Pee-Chee---Mini-Tall-Boys-34-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -2058,7 +1962,6 @@
               "image_back": "img/cards/ML66/2014-15-O-Pee-Chee---Stickers-ST-19-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 2.83
             }
@@ -2079,8 +1982,8 @@
               "image_back": "img/cards/ML66/2014-15-O-Pee-Chee---VSeriesA-S-33-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.99
             }
           ]
         }
@@ -2111,7 +2014,6 @@
               "image_back": "img/cards/ML66/2014-15-O-Pee-Chee-Platinum---Legend-Die-Cut-LS-16-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -2143,7 +2045,6 @@
               "image_back": "img/cards/ML66/2014-15-SPx---Retro-55-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -2168,7 +2069,6 @@
           "image_back": "img/cards/ML66/2014-15-Upper-Deck-Black-Diamond-206-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 8.99
         }
@@ -2192,7 +2092,6 @@
           "image_back": "img/cards/ML66/2014-15-Upper-Deck-Ice-80-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ]
@@ -2215,7 +2114,6 @@
           "image_back": "img/cards/ML66/2014-15-Upper-Deck-Masterpieces-120-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         },
         {
@@ -2227,7 +2125,6 @@
           "image_back": "img/cards/ML66/2014-15-Upper-Deck-Masterpieces-153-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ]
@@ -2250,7 +2147,6 @@
           "image_back": "img/cards/ML66/2014-15-Upper-Deck-MVP-294-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ],
@@ -2270,7 +2166,6 @@
               "image_back": "img/cards/ML66/2014-15-Upper-Deck-MVP---Silver-Script-294-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 6.78
             }
@@ -2296,7 +2191,6 @@
           "image_back": "img/cards/ML66/2014-15-Upper-Deck-National-Hockey-Card-Day-Canada-NHCD+17-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 1.4
         }
@@ -2326,7 +2220,6 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck---UD-Portraits-P-53-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true
             }
           ]
@@ -2346,7 +2239,6 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck---Shining-Stars-Blue-SS-45-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true
             }
           ]
@@ -2366,7 +2258,6 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck---UD-Portraits-Red-P-53-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -2386,7 +2277,6 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck---Shining-Stars-SS-45-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 2.83
             }
@@ -2407,7 +2297,6 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck---Code-to-Greatness-CTG-24-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -2427,7 +2316,6 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck---Clear-Cut-Superstars-CCS-62-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -2452,7 +2340,6 @@
           "image_back": "img/cards/ML66/2015-16-Upper-Deck-Portfolio-197-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 1.5
         },
@@ -2465,7 +2352,6 @@
           "image_back": "img/cards/ML66/2015-16-Upper-Deck-Portfolio-262-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 1.25
         },
@@ -2478,7 +2364,6 @@
           "image_back": "img/cards/ML66/2015-16-Upper-Deck-Portfolio-291-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 17.23
         }
@@ -2502,7 +2387,6 @@
           "image_back": "img/cards/ML66/2015-16-Upper-Deck-Artifacts-137-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "serial_total": 499,
           "inCollection": false
         }
@@ -2523,7 +2407,6 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck-Artifacts---Ruby-137-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "serial_total": 399,
               "inCollection": true,
               "price": 8
@@ -2550,7 +2433,6 @@
           "image_back": "img/cards/ML66/2015-16-SPx-95-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ]
@@ -2573,7 +2455,6 @@
           "image_back": "img/cards/ML66/2015-16-SP-Authentic-124-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 4.00
         }
@@ -2597,7 +2478,6 @@
           "image_back": "img/cards/ML66/2015-16-O-Pee-Chee-559-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 4.65
         }
@@ -2618,7 +2498,6 @@
               "image_back": "img/cards/ML66/2015-16-O-Pee-Chee---Retro-559-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 8.00
             },
@@ -2631,7 +2510,6 @@
               "image_back": "img/cards/ML66/2015-16-O-Pee-Chee---Retro-614-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -2663,7 +2541,6 @@
               "image_back": "img/cards/ML66/2015-16-O-Pee-Chee-Platinum---Retro-R12-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 4.00
             }
@@ -2684,7 +2561,6 @@
               "image_back": "img/cards/ML66/2015-16-O-Pee-Chee-Platinum---Team-Logo-Die-Cut-T-35-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -2709,7 +2585,6 @@
           "image_back": "img/cards/ML66/2015-16-Upper-Deck-Overtime-44-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ],
@@ -2729,7 +2604,6 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck-Overtime---Flash-of-Excellence-FOE-17-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/122356/cid/8305197/2015-16-Upper-Deck-Overtime---Flash-of-Excellence-FOE-17-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 2.5
             }
@@ -2750,7 +2624,6 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck-Overtime---Blue-44-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 4
             }
@@ -2776,7 +2649,6 @@
           "image_back": "img/cards/ML66/2015-16-Upper-Deck-Premier-44-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ]
@@ -2799,7 +2671,6 @@
           "image_back": "img/cards/ML66/2015-16-Upper-Deck-MVP-172-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 0.99
         }
@@ -2820,7 +2691,6 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck-MVP---Silver-Script-172-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 6.16
             }
@@ -2841,7 +2711,6 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck-MVP---Green-172-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -2861,7 +2730,6 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck-MVP---Colours-and-Contours-172-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -2893,10 +2761,11 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck-Ice---Exquisite-Collection-33-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "excludeFromBinder": true,
-              "thickness": 180,
+              "card_thickness": 180,
               "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "serial_total": 499,
+              "price": 0.99
             }
           ]
         }
@@ -2927,7 +2796,6 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck-Full-Force---Draft-Board-DB-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 5
             }
@@ -2948,7 +2816,6 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck-Full-Force---Blueprint-BP-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/120859/cid/8222081/2015-16-Upper-Deck-Full-Force-BP-ML-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 3.39
             }
@@ -2970,7 +2837,6 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck-Full-Force---Dual-Force-DF-9-Jaromir-Jagr--Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "variant_note": "with Jaromir Jagr",
               "inCollection": false
             }
@@ -2996,7 +2862,6 @@
           "image_back": "img/cards/ML66/2015-16-Upper-Deck-Champ's-326-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ],
@@ -3016,7 +2881,6 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck-Champ's-No1-Picks-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -3041,7 +2905,6 @@
           "image_back": "img/cards/ML66/2015-16-Upper-Deck-Black-33-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ]
@@ -3064,7 +2927,6 @@
           "image_back": "img/cards/ML66/2011-12-Upper-Deck-Artifacts-66-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 1.5
         },
@@ -3077,7 +2939,6 @@
           "image_back": "img/cards/ML66/2011-12-Upper-Deck-Artifacts-106-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 4.99,
           "serial_total": 999
@@ -3102,7 +2963,6 @@
           "image_back": "img/cards/ML66/2012-13-Fleer-Retro-27-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 1.5
         }
@@ -3123,7 +2983,6 @@
               "image_back": "img/cards/ML66/2012-13-Fleer-Retro---EX-2001-6-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -3143,7 +3002,6 @@
               "image_back": "img/cards/ML66/2012-13-Fleer-Retro---Flair-Showcase-Row2-11-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -3163,7 +3021,6 @@
               "image_back": "img/cards/ML66/2012-13-Fleer-Retro---Metal-Universe-50-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -3183,7 +3040,6 @@
               "image_back": "img/cards/ML66/2012-13-Fleer-Retro---Tradition-Electrifying-11-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "odds": "1:70",
               "inCollection": false
             }
@@ -3209,7 +3065,6 @@
           "image_back": "img/cards/ML66/2012-13-In-The-Game-Heroes-and-Prospects-17-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 1.5
         }
@@ -3233,7 +3088,6 @@
           "image_back": "img/cards/ML66/2016-Upper-Deck-Team-Canada-Juniors-99-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Team Canada",
-          "position": "Center",
           "inCollection": true
         }
       ],
@@ -3253,7 +3107,6 @@
               "image_back": "img/cards/ML66/2016-Upper-Deck-Team-Canada-Juniors---Gold-99-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Team Canada",
-              "position": "Center",
               "inCollection": true,
               "price": 3.99
             }
@@ -3278,7 +3131,6 @@
           "inCollection": true,
           "orientation_back": "portrait",
           "orientation_front": "portrait",
-          "position": "Center",
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
@@ -3310,7 +3162,6 @@
               "image_back": "img/cards/ML66/2016-17-O-Pee-Chee---VSeriesC-S-40-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -3330,7 +3181,6 @@
               "image_back": "img/cards/ML66/2016-17-O-Pee-Chee---Puck-Stickers-23-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -3362,7 +3212,6 @@
               "image_back": "img/cards/ML66/2016-17-O-Pee-Chee-Platinum---Puck-Personas-Die-Cuts-PP-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 8.99
             }
@@ -3383,7 +3232,6 @@
               "image_back": "img/cards/ML66/2016-17-O-Pee-Chee-Platinum---Puck-Personas-Die-Cuts-Cracked-Ice-PP-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -3403,7 +3251,6 @@
               "image_back": "img/cards/ML66/2016-17-O-Pee-Chee-Platinum---NHL-Logo-Crest-Die-Cuts-NHLLD-3-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -3423,7 +3270,6 @@
               "image_back": "img/cards/ML66/2016-17-O-Pee-Chee-Platinum---NHL-Logo-Crest-Die-Cuts-Cracked-Ice-NHLLD-3-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -3455,7 +3301,6 @@
               "image_back": "img/cards/ML66/2016-17-Fleer-Showcase---Ultra-Scoring-Kings-SK10-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -3475,7 +3320,6 @@
               "image_back": "img/cards/ML66/2016-17-Fleer-Showcase---Flair-Showcase-5-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 1.67
             }
@@ -3508,7 +3352,6 @@
               "image_back": "img/cards/ML66/2016-17-Upper-Deck-Ice---Sub-Zero-SZ-53-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 9.99
             }
@@ -3534,7 +3377,6 @@
           "image_back": "img/cards/ML66/2016-17-Upper-Deck-Artifacts-158-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "serial_total": 499,
           "inCollection": false
         }
@@ -3565,7 +3407,6 @@
               "image_back": "img/cards/ML66/2016-17-Upper-Deck---Mastery-Achievements-M2-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -3597,7 +3438,6 @@
               "image_back": "img/cards/ML66/2016-17-Parkhurst---NHL-Centennial-Salute-S-4-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 1.68
             }
@@ -3623,7 +3463,6 @@
           "image_back": "img/cards/ML66/2017-18-SP-Authentic-97-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 1.5
         }
@@ -3644,7 +3483,6 @@
               "image_back": "img/cards/ML66/2017-18-SP-Authentic---Rookie-Year-Milestones-RYM-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 2.71
             }
@@ -3665,7 +3503,6 @@
               "image_back": "img/cards/ML66/2017-18-SP-Authentic---Spectrum-FX-S-39-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/174167/cid/11175243/2017-18-SP-Authentic---Spectrum-FX-S-39-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 4.4
             }
@@ -3675,6 +3512,7 @@
           "set_key": "2017-18-sp-authentic-limited-red",
           "set_name": "Limited Red",
           "set_display_name": "2017-18 SP Authentic - Limited Red",
+          "set_type": "parallel",
           "set_tcdb_href": "",
           "cards": [
             {
@@ -3686,9 +3524,8 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/174142/cid/11174021/2017-18-SP-Authentic-97-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": false,
-              "price": 0.75
+              "inCollection": true,
+              "price": 1.99
             }
           ]
         }
@@ -3712,7 +3549,6 @@
           "image_back": "img/cards/ML66/2017-18-O-Pee-Chee-Platinum-141-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true
         }
       ],
@@ -3732,7 +3568,6 @@
               "image_back": "img/cards/ML66/2017-18-O-Pee-Chee-Platinum---Rainbow-141-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -3752,7 +3587,6 @@
               "image_back": "img/cards/ML66/2017-18-O-Pee-Chee-Platinum---Rainbow-Color-Wheel-141-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -3772,7 +3606,6 @@
               "image_back": "img/cards/ML66/2017-18-O-Pee-Chee-Platinum---Violet-Pixel-141-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -3792,7 +3625,6 @@
               "image_back": "img/cards/ML66/2017-18-O-Pee-Chee-Platinum---VIP-Black-VIP-13-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -3824,7 +3656,6 @@
               "image_back": "img/cards/ML66/2017-18-Upper-Deck-Synergy---Impact-Players-IP-37-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true
             }
           ]
@@ -3845,7 +3676,6 @@
               "image_back": "img/cards/ML66/2017-18-Upper-Deck-Synergy---Red-41-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 5
             }
@@ -3866,7 +3696,6 @@
               "image_back": "img/cards/ML66/2017-18-Upper-Deck-Synergy---Career-Spanning-CS-10-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 3
             }
@@ -3888,7 +3717,6 @@
               "image_back": "img/cards/ML66/2017-18-Upper-Deck-Synergy---Blue-41-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/168525/cid/10787095/2017-18-Upper-Deck-Synergy-41-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 8
             }
@@ -3909,7 +3737,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/168532/cid/10786639/2017-18-Upper-Deck-Synergy-CG-16-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -3930,7 +3757,6 @@
               "image_back": "img/cards/ML66/2017-18-Upper-Deck-Synergy---Green-41-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/168524/cid/10787197/2017-18-Upper-Deck-Synergy-41-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 12
             }
@@ -3956,7 +3782,6 @@
           "image_back": "img/cards/ML66/2017-18-Upper-Deck-Artifacts-131-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 9.5,
           "serial_total": 599
@@ -3988,7 +3813,6 @@
               "image_back": "img/cards/ML66/2017-18-Upper-Deck---The-Second-Six-S6-12-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -4008,7 +3832,6 @@
               "image_back": "img/cards/ML66/2017-18-Upper-Deck---Mastery-Achievements-M-E-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -4028,7 +3851,6 @@
               "image_back": "img/cards/ML66/2017-18-Upper-Deck---Day-with-the-Cup-DC27-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -4048,7 +3870,6 @@
               "image_back": "img/cards/ML66/2017-18-Upper-Deck---Centennial-Standouts-CS-100-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             },
             {
@@ -4060,7 +3881,6 @@
               "image_back": "img/cards/ML66/2017-18-Upper-Deck---Centennial-Standouts-CS-75-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             },
             {
@@ -4072,7 +3892,6 @@
               "image_back": "img/cards/ML66/2017-18-Upper-Deck---Centennial-Standouts-CS-66-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -4097,7 +3916,6 @@
           "image_back": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada-133-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 6.49
         }
@@ -4118,8 +3936,8 @@
               "image_back": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada---Retro-R-10-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 3.49
             }
           ]
         },
@@ -4138,7 +3956,6 @@
               "image_back": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada---Clear-Cut-Program-of-Excellence-POE-21-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -4158,7 +3975,6 @@
               "image_back": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada---Team-Canada-Canvas-TCC-46-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -4178,7 +3994,6 @@
               "image_back": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada---UD-Exclusives-Silver-133-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -4203,8 +4018,8 @@
           "image_back": "img/cards/ML66/2017-18-Upper-Deck-Team-Canada-Juniors-99-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Team Canada",
-          "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1
         }
       ],
       "subsets": [
@@ -4307,8 +4122,8 @@
           "image_back": "img/cards/ML66/2018-Upper-Deck-Team-Canada-Juniors-100-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Team Canada",
-          "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1
         }
       ],
       "subsets": [
@@ -4328,8 +4143,8 @@
               "image_back": "img/cards/ML66/2018-Upper-Deck-Team-Canada-Juniors---Exclusives-100-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Team Canada",
-              "position": "Center",
-              "inCollection": false,
+              "inCollection": true,
+              "price": 9.99,
               "serial_total": 225
             }
           ]
@@ -4350,7 +4165,6 @@
               "image_back": "img/cards/ML66/2018-Upper-Deck-Team-Canada-Juniors---Blue-100-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/209493/cid/13367576/2018-Upper-Deck-Team-Canada-Juniors-Blue-100-Mario-Lemieux?PageIndex=1",
               "team": "Team Canada",
-              "position": "Center",
               "inCollection": false,
               "serial_total": 225
             }
@@ -4371,7 +4185,6 @@
               "image_back": "img/cards/ML66/2018-Upper-Deck-Team-Canada-Juniors---Program-of-Excellence-POE-29-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Team Canada",
-              "position": "Center",
               "inCollection": true,
               "price": 4.72
             }
@@ -4397,7 +4210,6 @@
           "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast-195-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 9.99
         },
@@ -4410,7 +4222,6 @@
           "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast-195b-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ],
@@ -4431,7 +4242,6 @@
               "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast---Franchise-Heroes-G-20-Sidney-Crosby--Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -4451,7 +4261,6 @@
               "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast---Iconic-Captains-IC-4-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -4471,7 +4280,6 @@
               "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast---Pride-of-the-North-P-51-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -4492,7 +4300,6 @@
               "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Coast-to-Coast---Red-195-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -4517,7 +4324,6 @@
           "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Platinum-144-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true
         }
       ],
@@ -4537,7 +4343,6 @@
               "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Platinum---Rainbow-144-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true
             }
           ]
@@ -4557,7 +4362,6 @@
               "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Platinum---Rainbow-Color-Wheel-144-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -4577,7 +4381,6 @@
               "image_back": "img/cards/ML66/2018-19-O-Pee-Chee-Platinum---Violet-Pixel-144-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -4603,7 +4406,6 @@
           "image_back": "img/cards/ML66/2018-19-Upper-Deck-Artifacts-134-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ]
@@ -4633,7 +4435,6 @@
               "image_back": "img/cards/ML66/2018-19-Upper-Deck-Synergy---Postseason-Perfection-PS-2-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 2.95
             }
@@ -4659,7 +4460,6 @@
           "image_back": "img/cards/ML66/2018-19-Upper-Deck-National-Hockey-Card-Day-Canada-CAN-15-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 1
         }
@@ -4683,7 +4483,6 @@
           "image_back": "img/cards/ML66/2019-Upper-Deck-Team-Canada-Juniors-98-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Team Canada",
-          "position": "Center",
           "inCollection": false
         }
       ],
@@ -4704,7 +4503,6 @@
               "image_back": "img/cards/ML66/2019-Upper-Deck-Team-Canada-Juniors---Exclusives-98-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Team Canada",
-              "position": "Center",
               "inCollection": false,
               "serial_total": 250
             }
@@ -4726,7 +4524,6 @@
               "image_back": "img/cards/ML66/2019-Upper-Deck-Team-Canada-Juniors---Blue-98-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Team Canada",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -4752,7 +4549,6 @@
           "image_back": "img/cards/ML66/2019-20-Upper-Deck-Buybacks-33-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ],
@@ -4783,7 +4579,6 @@
               "image_back": "img/cards/ML66/2019-20-SP-Game-Used---Rainbow-70-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false,
               "serial_total": 275
             }
@@ -4810,7 +4605,6 @@
           "image_back": "img/cards/ML66/2019-20-Upper-Deck-Artifacts-156-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ],
@@ -4831,7 +4625,6 @@
               "image_back": "img/cards/ML66/2019-20-Upper-Deck-Artifacts---Ruby-156-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 8.10
             }
@@ -4858,7 +4651,6 @@
           "image_back": "img/cards/ML66/2019-20-Upper-Deck-Engrained-42-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ],
@@ -4889,7 +4681,6 @@
               "image_back": "img/cards/ML66/2019-20-Upper-Deck-Stature---Century-Momentous-CM-16-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -4914,7 +4705,6 @@
           "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends-325-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 3.99
         }
@@ -4935,7 +4725,6 @@
               "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---UD-Canvas-Legends-C-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 8
             }
@@ -4956,7 +4745,6 @@
               "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Profiles-P-25-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 2.75
             },
@@ -4969,7 +4757,6 @@
               "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Profiles-P-26-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             },
             {
@@ -4981,8 +4768,8 @@
               "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Profiles-P-27-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.4
             },
             {
               "id": "ml-2020-21-sp-signature-edition-legends-profiles-p28",
@@ -4993,8 +4780,8 @@
               "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Profiles-P-28-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5.49
             },
             {
               "id": "ml-2020-21-sp-signature-edition-legends-profiles-p29",
@@ -5005,8 +4792,8 @@
               "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Profiles-P-29-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.40
             },
             {
               "id": "ml-2020-21-sp-signature-edition-legends-profiles-p30",
@@ -5017,7 +4804,6 @@
               "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Profiles-P-30-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 4.99
             }
@@ -5038,7 +4824,6 @@
               "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Evolve-E-17-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 4
             }
@@ -5059,7 +4844,6 @@
               "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Dominant-Digits-DD-11-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 8.04
             }
@@ -5080,7 +4864,6 @@
               "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Decagons-DC-75-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 8
             }
@@ -5107,7 +4890,6 @@
           "image_back": "img/cards/ML66/2019-20-Upper-Deck-Black-Diamond-BDB-ML-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ],
@@ -5132,7 +4914,6 @@
           "image_back": "img/cards/ML66/2020-21-Upper-Deck-Black-Diamond-BDB-ML-Mario-LemieuxBk.jpg",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/238908/cid/16258784/2020-21-Upper-Deck-Black-Diamond-BDB-ML-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 6
         }
@@ -5156,7 +4937,6 @@
           "image_back": "img/cards/ML66/2020-21-Upper-Deck-Stature-90-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ],
@@ -5176,7 +4956,6 @@
               "image_back": "img/cards/ML66/2020-21-Upper-Deck-Stature---Century-Momentous-CM-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 4.50
             }
@@ -5209,7 +4988,6 @@
               "image_back": "img/cards/ML66/2020-21-Upper-Deck-Synergy---Red-70-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -5229,7 +5007,6 @@
               "image_back": "img/cards/ML66/2020-21-Upper-Deck-Synergy---Stanley-Cup-Journey-Regular-Season-CJ-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 9.50,
               "serial_total": 999
@@ -5251,7 +5028,6 @@
               "image_back": "img/cards/ML66/2020-21-Upper-Deck-Synergy---Stanley-Cup-Journey-Postseason-CJ-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false,
               "serial_total": 899
             }
@@ -5272,7 +5048,6 @@
               "image_back": "img/cards/ML66/2020-21-Upper-Deck-Synergy---Stanley-Cup-Journey-Winning-the-Cup-CJ-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false,
               "serial_total": 799
             }
@@ -5305,7 +5080,6 @@
               "image_back": "img/cards/ML66/2021-22-Fleer-Ultra---Fabulous-50s-FF-50-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true
             }
           ]
@@ -5325,7 +5099,6 @@
               "image_back": "img/cards/ML66/2021-22-Fleer-Ultra---Scoring-Kings-SK-15-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -5350,7 +5123,6 @@
           "image_back": "img/cards/ML66/2021-22-Pro-Set-PS06-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 1.49
         }
@@ -5371,7 +5143,6 @@
               "image_back": "img/cards/ML66/2021-22-Pro-Set---Yellow-PS06-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -5403,7 +5174,6 @@
               "image_back": "img/cards/ML66/2021-22-SP-Game-Used---Purity-P-46-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -5435,7 +5205,6 @@
               "image_back": "img/cards/ML66/2021-22-Upper-Deck---NHL-Records-Collection-RB-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -5455,7 +5224,6 @@
               "image_back": "img/cards/ML66/2021-22-Upper-Deck---NHL-Specialists-NS-7-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -5480,7 +5248,6 @@
           "image_back": "img/cards/ML66/2021-22-Upper-Deck-Stature-71-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 2
         }
@@ -5501,7 +5268,6 @@
               "image_back": "img/cards/ML66/2021-22-Upper-Deck-Stature---Green-71-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -5526,7 +5292,6 @@
           "image_back": "img/cards/ML66/2021-22-Upper-Deck-Tim-Hortons-Team-Canada-99-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Team Canada",
-          "position": "Center",
           "inCollection": true
         }
       ],
@@ -5546,7 +5311,6 @@
               "image_back": "img/cards/ML66/2021-22-Upper-Deck-Tim-Hortons-Team-Canada---Canadas-Capitains-CC-9-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Team Canada",
-              "position": "Center",
               "inCollection": true,
               "price": 2.3
             }
@@ -5567,7 +5331,6 @@
               "image_back": "img/cards/ML66/2021-22-Upper-Deck-Tim-Hortons-Team-Canada---UD-Canvas-Moments-CM-12-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Team Canada",
-              "position": "Center",
               "inCollection": true,
               "price": 2.57
             }
@@ -5593,7 +5356,6 @@
           "image_back": "img/cards/ML66/2021-Upper-Deck-National-Hockey-Card-Day-Canada-CAN-11-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true
         }
       ]
@@ -5616,8 +5378,8 @@
           "image_back": "img/cards/ML66/2022-23-Parkhurst-Champions-349-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
-          "inCollection": false
+          "inCollection": true,
+          "price": 3.49
         }
       ],
       "subsets": [
@@ -5636,7 +5398,6 @@
               "image_back": "img/cards/ML66/2022-23-Parkhurst-Champions---Silver-349-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 13
             }
@@ -5669,7 +5430,6 @@
               "image_back": "img/cards/ML66/2022-23-SP-Game-Used---Purity-P-74-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 2.99
             }
@@ -5702,7 +5462,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/386925/cid/22617712/2022-23-SPx-HC-ML-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "serial_total": 299,
               "price": 12.50
@@ -5724,7 +5483,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/386929/cid/22617810/2022-23-SPx-RFX-3-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false,
               "serial_total": 549
             }
@@ -5745,7 +5503,6 @@
               "image_back": "",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false,
               "serial_total": 399
             }
@@ -5766,7 +5523,6 @@
               "image_back": "",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false,
               "serial_total": 249
             }
@@ -5799,7 +5555,6 @@
               "image_back": "img/cards/ML66/2022-23-Upper-Deck-Black-Diamond-BDB-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false,
               "price": 5,
               "serial_number": "349"
@@ -5821,7 +5576,6 @@
               "image_back": "img/cards/ML66/2022-23-Upper-Deck-Black-Diamond---Legends-BDL-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 15.50,
               "serial_total": 299
@@ -5855,7 +5609,6 @@
               "image_back": "img/cards/ML66/2022-23-Upper-Deck-Ice---Cool-Cuts-CC-41-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/403963/cid/23457051/2022-23-Upper-Deck-Ice-CC-41-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 21.0
             }
@@ -5881,7 +5634,6 @@
           "image_back": "img/cards/ML66/2022-23-Upper-Deck-Stature-2-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 11.25
         }
@@ -5902,7 +5654,6 @@
               "image_back": "img/cards/ML66/2022-23-Upper-Deck-Stature---Dignified-D-2-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/395734/cid/23066039/2022-23-Upper-Deck-Stature-D-2-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 10
             }
@@ -5935,7 +5686,6 @@
               "image_back": "img/cards/ML66/2022-23-Upper-Deck-Synergy---Red-66-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 2.95
             }
@@ -5956,7 +5706,6 @@
               "image_back": "img/cards/ML66/2022-23-Upper-Deck-Synergy---Cast-for-Greatness-CG-14-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -5976,7 +5725,6 @@
               "image_back": "img/cards/ML66/2022-23-Upper-Deck-Synergy---Cast-for-Greatness-Purple-CG-14-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -5996,7 +5744,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/370562/cid/21742939/2022-23-Upper-Deck-Synergy---Cranked-Up-CU-ML-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "serial_total": 699,
               "inCollection": false
             }
@@ -6017,7 +5764,6 @@
               "image_back": "img/cards/ML66/2022-23-Upper-Deck-Synergy---Cranked-Up-Blue-CU-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/370564/cid/21743143/2022-23-Upper-Deck-Synergy---Cranked-Up-Blue-CU-ML-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "serial_total": 249,
               "inCollection": true,
               "price": 9.99
@@ -6039,7 +5785,6 @@
               "image_back": "img/cards/ML66/2022-23-Upper-Deck-Synergy---Cranked-Up-Red-CU-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/370569/cid/21743653/2022-23-Upper-Deck-Synergy---Cranked-Up-Red-CU-ML-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "serial_total": 399,
               "inCollection": true,
               "price": 8.5
@@ -6073,7 +5818,6 @@
               "image_back": "img/cards/ML66/2022-23-Upper-Deck-Trilogy---Frozen-in-Time-FT-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -6098,7 +5842,6 @@
           "image_back": "img/cards/ML66/2023-24-Parkhurst-Champions-268-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ],
@@ -6118,7 +5861,6 @@
               "image_back": "img/cards/ML66/2023-24-Parkhurst-Champions---Speckled-268-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -6138,7 +5880,6 @@
               "image_back": "img/cards/ML66/2023-24-Parkhurst-Champions---Silver-268-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -6158,7 +5899,6 @@
               "image_back": "img/cards/ML66/2023-24-Parkhurst-Champions---Rainbow-268-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -6178,7 +5918,6 @@
               "image_back": "img/cards/ML66/2023-24-Parkhurst-Champions---Color-Variation-268-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -6210,7 +5949,6 @@
               "image_back": "img/cards/ML66/2023-24-SkyBox-Metal-Universe---Soul-of-the-Game-34-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 6.49
             }
@@ -6243,7 +5981,6 @@
               "image_back": "img/cards/ML66/2023-24-SP-Game-Used---Gold-197-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -6263,7 +6000,6 @@
               "image_back": "img/cards/ML66/2023-24-SP-Game-Used---Red-197-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 10,
               "serial_total": 258
@@ -6297,7 +6033,6 @@
               "image_back": "img/cards/ML66/2023-24-SPx---Radiance-FX-RFX-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/446857/cid/25531516/2023-24-SPx-RFX-1-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 8,
               "serial_total": 949
@@ -6319,7 +6054,6 @@
               "image_back": "img/cards/ML66/2023-24-SPx---Radiance-FX-Blue-RFX-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 7.66,
               "serial_total": 299
@@ -6353,7 +6087,6 @@
               "image_back": "img/cards/ML66/2023-24-Upper-Deck---Seeing-Red-Silver-Spectrum-SR-3-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 2.25
             }
@@ -6374,7 +6107,6 @@
               "image_back": "img/cards/ML66/2023-24-Upper-Deck---Seeing-Red-SR-3-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 0.99
             }
@@ -6395,7 +6127,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/438593/cid/25111915/2023-24-Upper-Deck---Seeing-Red-Gold-Foil-SR-3-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -6415,7 +6146,6 @@
               "image_back": "img/cards/ML66/2023-24-Upper-Deck---Mastery-Achievements-M-H-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -6447,7 +6177,6 @@
               "image_back": "img/cards/ML66/2023-24-Upper-Deck-Black-Diamond---Diamond-Might-DM-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 16.17,
               "serial_total": 99
@@ -6481,7 +6210,6 @@
               "image_back": "img/cards/ML66/2023-24-Upper-Deck-Credentials---Live-Tonight-LT-9-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -6506,7 +6234,6 @@
           "image_back": "img/cards/ML66/2023-24-Upper-Deck-Engrained-72-Mario-LemieuxBk.jpg",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/409919/cid/26661156/2023-24-Upper-Deck-Engrained-72-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "serial_total": 299,
           "inCollection": true,
           "price": 2.99
@@ -6539,7 +6266,6 @@
               "image_back": "img/cards/ML66/2023-24-Upper-Deck-Ice---Snow-Men-SM-43-Mario-LemieuxBk.png",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/451308/cid/25754023/2023-24-Upper-Deck-Ice-SM-43-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 0.99
             }
@@ -6565,7 +6291,6 @@
           "image_back": "img/cards/ML66/2023-24-Upper-Deck-National-Hockey-Card-Day-NHCD-26-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 1.19
         }
@@ -6596,7 +6321,6 @@
               "image_back": "img/cards/ML66/2023-24-Upper-Deck-Synergy---Cranked-Up-CR-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false,
               "serial_total": 849
             }
@@ -6617,7 +6341,6 @@
               "image_back": "img/cards/ML66/2023-24-Upper-Deck-Synergy---Flammable!-FL-9-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -6637,7 +6360,6 @@
               "image_back": "img/cards/ML66/2023-24-Upper-Deck-Synergy---Cranked-Up-Red-CR-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false,
               "serial_total": 599
             }
@@ -6658,7 +6380,6 @@
               "image_back": "img/cards/ML66/2023-24-Upper-Deck-Synergy---Barnburners!-BARN-4-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -6678,7 +6399,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/435615/cid/24992040/2023-24-Upper-Deck-Synergy-CG-27-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -6698,7 +6418,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/435616/cid/24992080/2023-24-Upper-Deck-Synergy-CG-27-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -6718,7 +6437,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/435801/cid/24997332/2023-24-Upper-Deck-Synergy-64-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 5
             }
@@ -6739,7 +6457,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/435617/cid/24992099/2023-24-Upper-Deck-Synergy-Fearless-Leaders-LD-6-Mario-Lemieux?PageIndex=1",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -6764,7 +6481,6 @@
           "image_back": "img/cards/ML66/2023-24-Upper-Deck-Tim-Hortons-Greatest-Duos-38-Mario-Lemieux--Paul-CoffeyBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "variant_note": "w/ Paul Coffey",
           "inCollection": true
         }
@@ -6784,7 +6500,6 @@
               "image_back": "img/cards/ML66/2023-24-Upper-Deck-Tim-Hortons-Greatest-Duos---Rookie-Connections-RC-13-Mario-Lemieux--Patrick-RoyBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/424299/cid/24406758/2023-24-Upper-Deck-Tim-Hortons-Greatest-Duos---Rookie-Connections-RC-13-Mario-Lemieux-/-Patrick-Roy",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "variant_note": "w/ Patrick Roy",
               "inCollection": true,
               "price": 2.00
@@ -6811,7 +6526,6 @@
           "image_back": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends-52-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 1.25
         }
@@ -6832,7 +6546,6 @@
               "image_back": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Canvas-Legends-CL-10-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 3.8
             }
@@ -6853,7 +6566,6 @@
               "image_back": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Championship-Resume-CR-12-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true
             }
           ]
@@ -6872,7 +6584,6 @@
               "inCollection": true,
               "orientation_back": "portrait",
               "orientation_front": "portrait",
-              "position": "Center",
               "price": 1.36,
               "tcdb_href": "",
               "team": "Pittsburgh Penguins"
@@ -6894,7 +6605,6 @@
               "image_back": "img/cards/ML66/2023-24-Upper-Deck-Tim-Hortons-Legends---Trendsetters-T-2-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 2.64
             }
@@ -6927,7 +6637,6 @@
               "image_back": "img/cards/ML66/2023-24-Upper-Deck-Trilogy---Generations-Red-TG-20A-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 1.95,
               "serial_total": 799
@@ -6949,7 +6658,6 @@
               "image_back": "img/cards/ML66/2023-24-Upper-Deck-Trilogy---Generations-TG-20A-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 1.95
             }
@@ -6970,7 +6678,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/430316/cid/24671778/2023-24-Upper-Deck-Trilogy-Generations-Blue-TG-20A-Mario-Lemieux?PageIndex=1",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 8,
               "serial_total": 349
@@ -6993,7 +6700,6 @@
               "image_back": "img/cards/ML66/2023-24-Upper-Deck-Trilogy---Trivium-TR-11-Ron-Francis--Mario-Lemieux--Jaromir-JagrBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -7018,7 +6724,6 @@
           "image_back": "img/cards/ML66/2024-25-Parkhurst-Champions-294-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ],
@@ -7038,7 +6743,6 @@
               "image_back": "img/cards/ML66/2024-25-Parkhurst-Champions---Silver-294-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 4.95
             }
@@ -7059,7 +6763,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/528558/cid/29807341/2024-25-Parkhurst-Champions-294-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -7091,7 +6794,6 @@
               "image_back": "img/cards/ML66/2024-25-SPx---All-Time-Holoview-ATG-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -7123,7 +6825,6 @@
               "image_back": "img/cards/ML66/2024-25-Upper-Deck---UD-Canvas-Black-and-White-C249-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -7143,7 +6844,6 @@
               "image_back": "img/cards/ML66/2024-25-Upper-Deck---UD-Canvas-C249-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -7175,7 +6875,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/545768/cid/30954648/2024-25-SP-Authentic-HFL-26-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -7195,7 +6894,6 @@
               "image_back": "img/cards/ML66/2024-25-SP-Authentic---Pageantry-P-73-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/545773/cid/30954858/2024-25-SP-Authentic-P-73-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true
             }
           ]
@@ -7215,8 +6913,8 @@
               "image_back": "img/cards/ML66/2024-25-SP-Authentic---Pageantry-Red-P-73-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 3
             }
           ]
         },
@@ -7235,7 +6933,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/545787/cid/30955502/2024-25-SP-Authentic-S-96-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -7260,7 +6957,6 @@
           "image_back": "img/cards/ML66/2024-25-Upper-Deck-Engrained-Icons-51-Mario-LemieuxBk.jpg",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/486506/cid/32660559/2024-25-Upper-Deck-Engrained-Icons-51-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 6.50
         }
@@ -7281,7 +6977,6 @@
               "image_back": "img/cards/ML66/2024-25-Upper-Deck-Engrained-Icons---Ebony-51-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "serial_total": 199,
               "inCollection": true,
               "price": 6.50
@@ -7303,7 +6998,6 @@
               "image_back": "img/cards/ML66/2024-25-Upper-Deck-Engrained-Icons---Mahogany-51-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "serial_total": 75,
               "inCollection": true,
               "price": 15.50
@@ -7330,7 +7024,6 @@
           "image_back": "img/cards/ML66/2024-25-Upper-Deck-Stature-30-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 9.49
         }
@@ -7351,7 +7044,6 @@
               "image_back": "img/cards/ML66/2024-25-Upper-Deck-Stature---Green-30-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -7371,7 +7063,6 @@
               "image_back": "img/cards/ML66/2024-25-Upper-Deck-Stature---Red-30-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/555140/cid/31613348/2024-25-Upper-Deck-Stature-30-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 14.66
             }
@@ -7404,7 +7095,6 @@
               "image_back": "img/cards/ML66/2024-25-Upper-Deck-Synergy---NHL-Monuments-M-12-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 1.0
             }
@@ -7425,9 +7115,9 @@
               "image_back": "img/cards/ML66/2024-25-Upper-Deck-Synergy---Synergistic-Duos-Stars-and-Legends-SD-3-Evgeni-Malkin--Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "variant_note": "w/ Evgeni Malkin",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.99
             }
           ]
         },
@@ -7446,7 +7136,6 @@
               "image_back": "img/cards/ML66/2024-25-Upper-Deck-Synergy---Red-74-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/479350/cid/27228108/2024-25-Upper-Deck-Synergy-74-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 5.55
             }
@@ -7467,7 +7156,6 @@
               "image_back": "img/cards/ML66/2024-25-Upper-Deck-Synergy---Colorways-L-60-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/479363/cid/27228906/2024-25-Upper-Deck-Synergy---Colorways-L-60-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 9.07
             }
@@ -7488,7 +7176,6 @@
               "image_back": "img/cards/ML66/2024-25-Upper-Deck-Synergy---Colorways-Neon-Yellow-L-60-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/479364/cid/27229008/2024-25-Upper-Deck-Synergy---Colorways-Neon-Yellow-L-60-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -7513,7 +7200,6 @@
           "image_back": "img/cards/ML66/2024-25-Upper-Deck-Tim-Hortons-Retrospective-Rookies-92-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true
         }
       ],
@@ -7533,7 +7219,6 @@
               "image_back": "img/cards/ML66/2024-25-Upper-Deck-Tim-Hortons-Retrospective-Rookies---Dynamic-Debuts-DD-2-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -7558,7 +7243,6 @@
           "image_back": "img/cards/ML66/2024-Upper-Deck-National-Hockey-Card-Day-NHCD-21-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 2.72
         }
@@ -7589,7 +7273,6 @@
               "image_back": "img/cards/ML66/2025-26-Upper-Deck-Black-Diamond---Diamond-Legends-BDL-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/570071/cid/32280285/2025-26-Upper-Deck-Black-Diamond-BDL-ML-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 18,
               "serial_total": 249
@@ -7616,7 +7299,6 @@
           "image_back": "img/cards/ML66/2025-26-Upper-Deck-Tim-Hortons-Team-Canada-38-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Team Canada",
-          "position": "Center",
           "inCollection": true
         }
       ],
@@ -7636,7 +7318,6 @@
               "image_back": "img/cards/ML66/2025-26-Upper-Deck-Tim-Hortons-Team-Canada---Gold-Medalists-GM-13-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Team Canada",
-              "position": "Center",
               "inCollection": true
             }
           ]
@@ -7656,7 +7337,6 @@
               "image_back": "img/cards/ML66/2025-26-Upper-Deck-Tim-Hortons-Team-Canada---Maple-Leaf-Immortals-ML-3-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Team Canada",
-              "position": "Center",
               "inCollection": true,
               "price": 37.76
             }
@@ -7682,7 +7362,6 @@
           "image_back": "img/cards/ML66/2025-Upper-Deck-National-Hockey-Card-Day-NHCD-22-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true
         }
       ]
@@ -7705,7 +7384,6 @@
           "image_back": "img/cards/ML66/2025-26-Upper-Deck-X-OVO-X-Hockey-Canada-02-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ],
@@ -7726,7 +7404,6 @@
               "image_back": "img/cards/ML66/2025-26-Upper-Deck-X-OVO-X-Hockey-Canada-Black-and-Gold-02-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/590290/cid/33252132/2025-26",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "excludeFromBinder": true,
               "inCollection": true,
               "price": 41.56
@@ -7753,7 +7430,6 @@
           "image_back": "img/cards/ML66/2026-27-Upper-Deck-National-Hockey-Card-Day-NHCD-22-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true
         }
       ]
@@ -7776,7 +7452,6 @@
           "image_back": "img/cards/ML66/2010-11-Upper-Deck-Ultimate-Collection-43-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ]
@@ -7799,7 +7474,6 @@
           "image_back": "img/cards/ML66/2010-11-Upper-Deck-Black-Diamond-185-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 4.99
         }
@@ -7823,7 +7497,6 @@
           "image_back": "img/cards/ML66/2010-11-Upper-Deck-Artifacts-196-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false,
           "serial_total": 999
         }
@@ -7854,8 +7527,8 @@
               "image_back": "img/cards/ML66/2010-11-Upper-Deck---Ambassadors-of-the-Game-AG27-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": false
+              "inCollection": true,
+              "price": 9.50
             }
           ]
         },
@@ -7874,7 +7547,6 @@
               "image_back": "img/cards/ML66/2010-11-Upper-Deck---20th-Anniversary-Variation-504-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -7899,7 +7571,6 @@
           "image_back": "img/cards/ML66/2010-11-SPx-113-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false,
           "serial_total": 999
         }
@@ -7923,7 +7594,6 @@
           "image_back": "img/cards/ML66/2010-11-SP-Authentic-166-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "serial_total": 1999,
           "inCollection": true,
           "price": 3.88
@@ -7937,7 +7607,6 @@
           "image_back": "img/cards/ML66/2010-11-SP-Authentic-59-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 1.75
         }
@@ -7958,7 +7627,6 @@
               "image_back": "img/cards/ML66/2010-11-SP-Authentic---Holo-FX-FX23-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 6.48
             }
@@ -7991,7 +7659,6 @@
               "image_back": "img/cards/ML66/2010-11-Score---Canada-Greats-17-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -8016,7 +7683,6 @@
           "image_back": "img/cards/ML66/2010-11-Playoff-Contenders-108-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 4.99
         }
@@ -8037,7 +7703,6 @@
               "image_back": "img/cards/ML66/2010-11-Playoff-Contenders---Legendary-Contenders-6-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 4.99
             }
@@ -8058,7 +7723,6 @@
               "image_back": "img/cards/ML66/2010-11-Playoff-Contenders---The-Great-Outdoors-18-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 5.50
             }
@@ -8084,7 +7748,6 @@
           "image_back": "img/cards/ML66/2010-11-Panini-Certified-156-Mario-LemieuxBk.jpg",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/10588/cid/1551771/2010-11-Panini-Certified-156-Mario-Lemieux-",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "serial_total": 500,
           "inCollection": false
         }
@@ -8105,7 +7768,6 @@
               "image_back": "img/cards/ML66/2010-11-Panini-Certified---Champions-21-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/60777/cid/4655051/2010-11-Panini-Certified---Champions-21-Mario-Lemieux-",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "serial_total": 500,
               "inCollection": true,
               "price": 10.5
@@ -8127,7 +7789,6 @@
               "image_back": "img/cards/ML66/2010-11-Panini-Certified---Legends-4-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/60808/cid/4656917/2010-11-Panini-Certified---Legends-4-Mario-Lemieux-",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "serial_total": 500,
               "inCollection": false
             }
@@ -8153,7 +7814,6 @@
           "image_back": "img/cards/ML66/2010-11-Panini-Crown-Royale-111-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "serial_total": 499,
           "inCollection": true,
           "price": 8.48
@@ -8175,7 +7835,6 @@
               "image_back": "img/cards/ML66/2010-11-Panini-Crown-Royale---Legends-4-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -8200,7 +7859,6 @@
           "image_back": "img/cards/ML66/2010-11-O-Pee-Chee-596-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "price": 1.35
         }
@@ -8222,7 +7880,6 @@
               "image_back": "img/cards/ML66/2010-11-O-Pee-Chee---Retro-596-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 2.99
             }
@@ -8244,7 +7901,6 @@
               "image_back": "img/cards/ML66/2010-11-O-Pee-Chee---Retro-Rainbow-596-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/60764/cid/4654663/2010-11-O-Pee-Chee---Retro-Rainbow-596-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 11.77
             }
@@ -8270,7 +7926,6 @@
           "image_back": "img/cards/ML66/2010-11-In-The-Game-Enshrined-NNO-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": false
         }
       ]
@@ -8300,7 +7955,6 @@
               "image_back": "img/cards/ML66/2010-11-Donruss---Ice-Kings-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             },
             {
@@ -8312,7 +7966,6 @@
               "image_back": "img/cards/ML66/2010-11-Donruss---Ice-Kings-12-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 8.26
             }
@@ -8338,7 +7991,6 @@
           "image_back": "",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/575299/cid/38831834/2025-26-Upper-Deck-Ultimate-Collection-87-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
-          "position": "Center",
           "inCollection": true,
           "serial_total": 149,
           "price": 12.67
@@ -8398,13 +8050,14 @@
             {
               "id": "ml-2026-27-upper-deck-team-canada-representing-the-flag-rf-8",
               "base_number": "RF-8",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "",
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/663524/cid/38693073/2026-Upper-Deck-Team-Canada-Representing-the-Flag-RF-8-Mario-Lemieux",
               "team": "Team Canada",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.99
             }
           ]
         },
@@ -8417,8 +8070,8 @@
             {
               "id": "ml-2026-27-upper-deck-team-canada-representing-the-flag-rf-8",
               "base_number": "RF-8",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "",
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/663525/cid/38693157/2026-Upper-Deck-Team-Canada-Representing-the-Flag-Pink-RF-8-Mario-Lemieux",

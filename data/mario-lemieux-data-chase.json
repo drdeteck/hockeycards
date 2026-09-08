@@ -25,7 +25,6 @@
               "base_number": "10",
               "name": "Mario Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/Chase/1993-94-Stadium-Club---Finest-Refractors-Test-10-Mario-LemieuxFr-placeholder.jpg",
@@ -58,7 +57,6 @@
               "base_number": "143",
               "name": "Mario Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/Chase/1993-94-Stadium-Club-O-Pee-Chee---First-Day-Issue-143-Mario-LemieuxFr-placeholder.jpg",
@@ -71,7 +69,6 @@
               "base_number": "146",
               "name": "Mario Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/Chase/1993-94-Stadium-Club-O-Pee-Chee---First-Day-Issue-146-Mario-LemieuxFr.jpg",
@@ -84,7 +81,6 @@
               "base_number": "148",
               "name": "Mario Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/Chase/1993-94-Stadium-Club-O-Pee-Chee---First-Day-Issue-148-Mario-LemieuxFr-placeholder.jpg",
@@ -121,7 +117,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5199/cid/1599700/1995-96-Score-Summit-118-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -153,7 +148,6 @@
               "image_back": "img/cards/ML66/Chase/1995-96-Topps---Mystery-Finest-Refractors-M2-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48538/cid/1600144/1995-96-Topps-M2-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -185,7 +179,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/10419/cid/1535569/1995-96-Upper-Deck-84-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             },
             {
@@ -197,7 +190,6 @@
               "image_back": "img/cards/ML66/Chase/1995-96-Upper-Deck---Electric-Ice-Gold-231-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/10419/cid/1535716/1995-96-Upper-Deck-231-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -217,7 +209,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48548/cid/1601142/1995-96-Upper-Deck-MVP16-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -237,7 +228,6 @@
               "image_back": "img/cards/ML66/Chase/1995-96-Upper-Deck---Predictors-All-Star-MVP-Exchange-MVP-R16-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48549/cid/1601172/1995-96-Upper-Deck-MVP-R16-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false,
               "price": 354
             }
@@ -270,7 +260,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/387083/cid/31511439/1996-97-Donruss-1-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -302,7 +291,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48568/cid/1603014/1996-97-Donruss-Canadian-Ice-31-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -334,7 +322,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/481539/cid/27342177/1996-97-Donruss-Elite-4-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -366,7 +353,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5266/cid/1603638/1996-97-Flair-B78-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -398,7 +384,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48574/cid/1604509/1996-97-Leaf-Preferred-113-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -430,7 +415,6 @@
               "image_back": "img/cards/ML66/Chase/1996-97-Metal-Universe---Ice-Carvings-Super-Power-10-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48579/cid/1604783/1996-97-Metal-Universe-10-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -450,7 +434,6 @@
               "image_back": "img/cards/ML66/Chase/1996-97-Metal-Universe---Lethal-Weapons-Super-Power-11-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48580/cid/1604816/1996-97-Metal-Universe-11-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -482,7 +465,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48581/cid/1604911/1996-97-Pinnacle-86-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false,
               "price": 69.2,
               "location": "US"
@@ -516,7 +498,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48591/cid/1606041/1996-97-Pinnacle-Mint-Collection-1-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -548,7 +529,6 @@
               "image_back": "img/cards/ML66/Chase/1996-97-Pinnacle-Summit---Artist's-Proofs-32-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48612/cid/1608406/1996-97-Pinnacle-Summit-32-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -580,7 +560,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48605/cid/1607674/1996-97-Select-Certified-10-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -600,7 +579,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48606/cid/1607794/1996-97-Select-Certified-10-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false,
               "price": 108.0
             }
@@ -621,7 +599,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48607/cid/1607914/1996-97-Select-Certified-10-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -653,7 +630,6 @@
               "image_back": "img/cards/ML66/Chase/1996-97-Upper-Deck-Ice---Stanley-Cup-Foundation-Dynasty-S7-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48627/cid/1610092/1996-97-Upper-Deck-Ice-S7-Mario-Lemieux-/-Jaromir-Jagr",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -685,7 +661,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48628/cid/1610209/1996-97-Zenith-114-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -705,7 +680,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5370/cid/1610283/1996-97-Zenith-5-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -737,7 +711,6 @@
               "image_back": "img/cards/ML66/Chase/1996-97-Upper-Deck---Game-Jersey-GJ6-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48622/cid/1609683/1996-97-Upper-Deck-GJ6-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -757,7 +730,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48625/cid/1609793/1996-97-Upper-Deck-LS3-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -789,7 +761,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/61385/cid/4518513/1996-97-Upper-Deck-Black-Diamond-166-Mario-Lemieux-",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -809,7 +780,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5358/cid/1609943/1996-97-Upper-Deck-Black-Diamond-RC3-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -841,7 +811,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49426/cid/1666423/1999-Upper-Deck-Century-Legends-4-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -861,7 +830,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49427/cid/1666526/1999-Upper-Deck-Century-Legends-ML-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -881,7 +849,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49428/cid/1666549/1999-Upper-Deck-Century-Legends-ML-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -901,7 +868,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49431/cid/1666583/1999-Upper-Deck-Century-Legends-JC5-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -921,7 +887,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49429/cid/1666563/1999-Upper-Deck-Century-Legends-E3-Mario-Lemieux-/-Jaromir-Jagr",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 3.99
             }
@@ -954,7 +919,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5141/cid/1219455/1995-96-Finest-190-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -986,7 +950,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49639/cid/1681607/2000-01-Pacific-Crown-Royale-9-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -1006,7 +969,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49640/cid/1681695/2000-01-Pacific-Crown-Royale-87-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -1026,7 +988,6 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49642/cid/1681823/2000-01-Pacific-Crown-Royale-87-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": false
             }
           ]
@@ -1058,7 +1019,6 @@
               "image_back": "img/cards/ML66/Chase/2000-01-Be-a-Player-Signature-Series---He-Shoots-He-Scores-Points-NNO-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49556/cid/1677125/2000-01-Be-a-Player-Signature-Series-NNO-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "variant_note": "3PT",
               "inCollection": false
             }
