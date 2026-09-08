@@ -555,58 +555,6 @@
         }
       ]
     },
-    "1996-97-score": {
-      "set_key": "1996-97-score",
-      "set_name": "Score",
-      "set_year_label": "1996-97",
-      "set_year_start": 1996,
-      "set_year_end": 1997,
-      "set_display_name": "1996-97 Score",
-      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5319/1996-97-score",
-      "cards": [],
-      "subsets": [
-        {
-          "set_key": "1996-97-score-artists-proofs",
-          "set_name": "Artist's Proofs",
-          "set_display_name": "1996-97 Score - Artist's Proofs",
-          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/48597/1996-97-score-artists-proofs",
-          "cards": [
-            {
-              "id": "ml-1996-97-score-artists-proofs-6",
-              "base_number": "6",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/Chase/1996-97-Score---Artist's-Proofs-6-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/Chase/1996-97-Score---Artist's-Proofs-6-Mario-LemieuxBk.jpg",
-              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48597/cid/1606226/1996-97-Score-6-Mario-Lemieux",
-              "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": false
-            }
-          ]
-        },
-        {
-          "set_key": "1996-97-score-dealers-choice-artists-proofs",
-          "set_name": "Dealer's Choice Artist's Proofs",
-          "set_display_name": "1996-97 Score - Dealer's Choice Artist's Proofs",
-          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/48598/1996-97-score-dealers-choice-artists-proofs",
-          "cards": [
-            {
-              "id": "ml-1996-97-score-dealers-choice-artists-proofs-6",
-              "base_number": "6",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/Chase/1996-97-Score---Dealers-Choice-Artists-Proofs-6-Mario-LemieuxFr.jpg",
-              "image_back": "",
-              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48598/cid/1606517/1996-97-Score-6-Mario-Lemieux",
-              "team": "Pittsburgh Penguins",
-              "position": "Center",
-              "inCollection": false
-            }
-          ]
-        }
-      ]
-    },
     "1996-97-select-certified": {
       "set_key": "1996-97-select-certified",
       "set_name": "Select Certified",
