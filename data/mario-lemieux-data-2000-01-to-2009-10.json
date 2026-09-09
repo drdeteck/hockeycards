@@ -4940,7 +4940,8 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50605/cid/1730721/2002-03-Pacific-Vanguard---V-Team-11-Mario-Lemieux?PageIndex=1",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 6
             }
           ]
         },
@@ -6904,7 +6905,8 @@
               "image_back": "img/cards/ML66/2003-04-Pacific-Calder---Silver-81-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 6
             }
           ]
         }

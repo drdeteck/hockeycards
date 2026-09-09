@@ -1401,7 +1401,8 @@
           "image_back": "img/cards/ML66/1991-92-Upper-Deck-47-White-House-Welcome-(Mario-Lemieux--George-Bush)Bk.jpg",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Upper-Deck-47-White-House-Welcome-(Mario-Lemieux--George-Bush)",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.3
         },
         {
           "id": "ml-1991-92-upper-deck-156",
@@ -1479,7 +1480,8 @@
           "image_front": "img/cards/ML66/1991-92-Upper-Deck-French-47-A-La-Maison-Blanche-(Mario-Lemieux--George-Bush)Fr.jpg",
           "image_back": "img/cards/ML66/1991-92-Upper-Deck-French-47-A-La-Maison-Blanche-(Mario-Lemieux--George-Bush)Bk.jpg",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1.3
         },
         {
           "id": "ml-1991-92-ud-french-156",
