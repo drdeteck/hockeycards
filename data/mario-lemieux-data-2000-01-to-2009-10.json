@@ -7847,7 +7847,7 @@
           "image_back": "",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5710/cid/1291773/2003-04-Topps-Pristine-26-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
-          "inCollection": false,
+          "inCollection": true,
           "price": 2.98
         }
       ]

@@ -739,6 +739,18 @@
           "inCollection": true
         },
         {
+          "id": "ml-1991-92-parkhurst-459",
+          "base_number": "459",
+          "variant_note": "Pittsburgh Wins Wales Conference",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
+          "image_front": "img/cards/ML66/1991-92-Parkhurst-459-Pittsburgh-Wins-Wales-ConferenceFr.jpg",
+          "image_back": "img/cards/ML66/1991-92-Parkhurst-459-Pittsburgh-Wins-Wales-ConferenceBk.jpg",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Parkhurst-459-Pittsburgh-Wins-Wales-Conference",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        },
+        {
           "id": "ml-1991-92-parkhurst-467",
           "base_number": "467",
           "orientation_front": "portrait",
@@ -1085,6 +1097,17 @@
           "inCollection": true
         },
         {
+          "id": "ml-1991-92-score-335",
+          "base_number": "335",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
+          "image_front": "img/cards/ML66/1991-92-Score-335-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1991-92-Score-335-Mario-LemieuxBk.jpg",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Score-American-335-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        },
+        {
           "id": "ml-1991-92-score-425",
           "base_number": "425",
           "orientation_front": "portrait",
@@ -1369,6 +1392,18 @@
           "price": 0.99
         },
         {
+          "id": "ml-1991-92-upper-deck-47",
+          "base_number": "47",
+          "variant_note": "White House Welcome (Mario Lemieux / George Bush)",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
+          "image_front": "img/cards/ML66/1991-92-Upper-Deck-47-White-House-Welcome-(Mario-Lemieux--George-Bush)Fr.jpg",
+          "image_back": "img/cards/ML66/1991-92-Upper-Deck-47-White-House-Welcome-(Mario-Lemieux--George-Bush)Bk.jpg",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Upper-Deck-47-White-House-Welcome-(Mario-Lemieux--George-Bush)",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        },
+        {
           "id": "ml-1991-92-upper-deck-156",
           "base_number": "156",
           "orientation_front": "portrait",
@@ -1432,6 +1467,17 @@
           "orientation_back": "landscape",
           "image_front": "img/cards/ML66/1991-92-Upper-Deck-French-45-Mario-Lemieux-Wayne-Gretzky-Brett-HullFr.jpg",
           "image_back": "img/cards/ML66/1991-92-Upper-Deck-French-45-Mario-Lemieux-Wayne-Gretzky-Brett-HullBk.jpg",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        },
+        {
+          "id": "ml-1991-92-ud-french-47",
+          "base_number": "47",
+          "variant_note": "A La Maison Blanche (Mario Lemieux / George Bush)",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
+          "image_front": "img/cards/ML66/1991-92-Upper-Deck-French-47-A-La-Maison-Blanche-(Mario-Lemieux--George-Bush)Fr.jpg",
+          "image_back": "img/cards/ML66/1991-92-Upper-Deck-French-47-A-La-Maison-Blanche-(Mario-Lemieux--George-Bush)Bk.jpg",
           "team": "Pittsburgh Penguins",
           "inCollection": false
         },
