@@ -2917,8 +2917,8 @@
           "image_back": "img/cards/ML66/1993-94-Pinnacle-221-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false,
-          "price": 1.37
+          "inCollection": true,
+          "price": 2.4
         },
         {
           "id": "ml-1993-94-pinnacle-230",
@@ -2929,8 +2929,8 @@
           "image_back": "img/cards/ML66/1993-94-Pinnacle-230-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false,
-          "price": 1.37
+          "inCollection": true,
+          "price": 2.40
         },
         {
           "id": "ml-1993-94-pinnacle-310",
@@ -3234,7 +3234,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "type": "Team Card",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2.4
         }
       ],
       "subsets": [

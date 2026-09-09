@@ -4144,7 +4144,8 @@
           "image_back": "img/cards/ML66/2002-03-In-The-Game-Used-162-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 12
         }
       ]
     },
@@ -5709,7 +5710,8 @@
           "image_back": "img/cards/ML66/2002-03-UD-SuperStars-197-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 4
         }
       ]
     },
@@ -7038,7 +7040,8 @@
           "image_back": "img/cards/ML66/2003-04-Pacific-Complete-140-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 4
         }
       ]
     },
