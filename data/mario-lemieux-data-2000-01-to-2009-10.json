@@ -4186,7 +4186,7 @@
               "image_back": "img/cards/ML66/2002-03-O-Pee-Chee---Gold-Holofoil-2-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false,
+              "inCollection": true,
               "price": 0.99
             }
           ]
