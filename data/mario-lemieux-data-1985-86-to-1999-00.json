@@ -1105,7 +1105,8 @@
           "image_back": "img/cards/ML66/1991-92-Score-335-Mario-LemieuxBk.jpg",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Score-American-335-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 0.99
         },
         {
           "id": "ml-1991-92-score-425",
@@ -1649,7 +1650,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "variant_note": "Promo A",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2
             },
             {
               "id": "ml-1992-93-classic-draft-picks-promo-b",
@@ -1661,7 +1663,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "variant_note": "Promo B",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2
             }
           ]
         }
@@ -3129,8 +3132,8 @@
           "image_back": "img/cards/ML66/1993-94-Score-479-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false,
-          "price": 1.37
+          "inCollection": true,
+          "price": 0.99
         },
         {
           "id": "ml-1993-94-score-480",
