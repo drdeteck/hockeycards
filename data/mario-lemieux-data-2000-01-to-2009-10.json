@@ -1373,7 +1373,7 @@
               "image_back": "img/cards/ML66/2000-01-Topps-Stars---Progression-P1-Mario-Lemieux--Mike-Modano--Vincent-LecavalierBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": true,
+              "inCollection": false,
               "price": 0.99
             },
             {
@@ -1492,7 +1492,8 @@
               "image_back": "img/cards/ML66/2000-01-Upper-Deck-Heroes---Player-Idols-PI5-Vincent-Lecavalier--Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 0.99
             }
           ]
         }
