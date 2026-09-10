@@ -739,18 +739,6 @@
           "inCollection": true
         },
         {
-          "id": "ml-1991-92-parkhurst-459",
-          "base_number": "459",
-          "variant_note": "Pittsburgh Wins Wales Conference",
-          "orientation_front": "landscape",
-          "orientation_back": "landscape",
-          "image_front": "img/cards/ML66/1991-92-Parkhurst-459-Pittsburgh-Wins-Wales-ConferenceFr.jpg",
-          "image_back": "img/cards/ML66/1991-92-Parkhurst-459-Pittsburgh-Wins-Wales-ConferenceBk.jpg",
-          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Parkhurst-459-Pittsburgh-Wins-Wales-Conference",
-          "team": "Pittsburgh Penguins",
-          "inCollection": false
-        },
-        {
           "id": "ml-1991-92-parkhurst-467",
           "base_number": "467",
           "orientation_front": "portrait",
