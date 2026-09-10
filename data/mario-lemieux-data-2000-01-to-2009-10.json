@@ -11056,7 +11056,7 @@
           "set_key": "2009-10-upper-deck-black-diamond-horizontal",
           "set_name": "Horizontal",
           "set_display_name": "2009-10 Upper Deck Black Diamond - Horizontal",
-          "set_tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/54231/",
+          "set_tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/54231/2009-10-Upper-Deck-Black-Diamond-Horizontal",
           "cards": [
             {
               "id": "ml-2009-10-upper-deck-black-diamond-horizontal-bd28",
@@ -11065,6 +11065,25 @@
               "orientation_back": "landscape",
               "image_front": "img/cards/ML66/2009-10-Upper-Deck-Black-Diamond---Horizontal-BD28-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2009-10-Upper-Deck-Black-Diamond---Horizontal-BD28-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2009-10-upper-deck-black-diamond-horizontal-perimeter-die-cut",
+          "set_name": "Horizontal Perimeter Die Cut",
+          "set_display_name": "2009-10 Upper Deck Black Diamond - Horizontal Perimeter Die Cut",
+          "set_tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/54232/2009-10-Upper-Deck-Black-Diamond-Horizontal-Perimeter-Die-Cut",
+          "cards": [
+            {
+              "id": "ml-2009-10-upper-deck-black-diamond-horizontal-perimeter-die-cut-bd28",
+              "base_number": "BD28",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2009-10-Upper-Deck-Black-Diamond---Horizontal-Perimeter-Die-Cut-BD28-Mario-LemieuxFr.png",
+              "image_back": "img/cards/ML66/2009-10-Upper-Deck-Black-Diamond---Horizontal-Perimeter-Die-Cut-BD28-Mario-LemieuxBk.png",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "inCollection": true,
