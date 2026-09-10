@@ -1373,7 +1373,8 @@
               "image_back": "img/cards/ML66/2000-01-Topps-Stars---Progression-P1-Mario-Lemieux--Mike-Modano--Vincent-LecavalierBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 0.99
             },
             {
               "id": "ml-2000-01-topps-stars-progression-p2",
@@ -7848,8 +7849,8 @@
           "base_number": "26",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
-          "image_front": "",
-          "image_back": "",
+          "image_front": "img/cards/ML66/2003-04-Topps-Pristine-26-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-Topps-Pristine-26-Mario-LemieuxBk.jpg",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5710/cid/1291773/2003-04-Topps-Pristine-26-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "inCollection": true,

@@ -814,7 +814,8 @@
           "image_front": "img/cards/ML66/1991-92-Parkhurst-French-PHC7-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/1991-92-Parkhurst-French-PHC7-Mario-LemieuxBk.jpg",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 3.75
         }
       ]
     },

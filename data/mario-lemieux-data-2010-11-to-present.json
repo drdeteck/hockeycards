@@ -2020,6 +2020,29 @@
         }
       ]
     },
+    "2014-15-panini-fathers-day-legends": {
+      "set_key": "2014-15-panini-fathers-day-legends",
+      "set_name": "Panini Father's Day Legends",
+      "set_year_label": "2014-15",
+      "set_year_start": 2014,
+      "set_year_end": 2015,
+      "set_display_name": "2014-15 Panini Father's Day Legends",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2014-15-panini-fathers-day-legends-2",
+          "base_number": "2",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2014-15-Panini-Father-s-Day-Legends-2-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2014-15-Panini-Father-s-Day-Legends-2-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": true,
+          "price": 8
+        }
+      ]
+    },
     "2014-15-spx": {
       "set_key": "2014-15-spx",
       "set_name": "SPx",
@@ -3301,7 +3324,8 @@
               "image_back": "img/cards/ML66/2016-17-Fleer-Showcase---Ultra-Scoring-Kings-SK10-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5
             }
           ]
         },
@@ -4038,7 +4062,8 @@
               "image_back": "img/cards/ML66/2017-Upper-Deck-Team-Canada-Juniors---Program-of-Excellence-POE-27-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/158798/cid/10221390/2017-Upper-Deck-Team-Canada-Juniors-Program-of-Excellence-POE-27-Mario-Lemieux",
               "team": "Team Canada",
-              "inCollection": false
+              "inCollection": true,
+              "price": 9
             }
           ]
         },
@@ -4579,7 +4604,8 @@
               "image_back": "img/cards/ML66/2019-20-SP-Game-Used---Rainbow-70-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false,
+              "inCollection": true,
+              "price": 6.50,
               "serial_total": 275
             }
           ]
@@ -5458,8 +5484,8 @@
               "base_number": "HC-ML",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2022-23-SPx---HoloChampions-HC-ML-Mario-LemieuxFr.png",
+              "image_back": "img/cards/ML66/2022-23-SPx---HoloChampions-HC-ML-Mario-LemieuxBk.png",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/386925/cid/22617712/2022-23-SPx-HC-ML-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "inCollection": true,
