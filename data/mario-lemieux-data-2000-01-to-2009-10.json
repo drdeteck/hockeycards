@@ -1175,7 +1175,8 @@
               "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-17-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 0.99
             },
             {
               "id": "ml-2000-01-topps-chrome-mlr-18",
@@ -4381,7 +4382,8 @@
               "image_back": "img/cards/ML66/2002-03-Pacific-Atomic---Cold-Fusion-20-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 14
             }
           ]
         },
@@ -4773,7 +4775,10 @@
               "image_front": "img/cards/ML66/2002-03-Pacific-Quest-for-the-Cup---Gold-80-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2002-03-Pacific-Quest-for-the-Cup---Gold-80-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
-              "team": "Pittsburgh Penguins"
+              "team": "Pittsburgh Penguins",
+              "inCollection": true,
+              "price": 9,
+              "serial_total": 325
             }
           ]
         },
@@ -8483,7 +8488,8 @@
           "image_back": "img/cards/ML66/2003-04-Upper-Deck-Black-Diamond-135-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 9
         }
       ]
     },

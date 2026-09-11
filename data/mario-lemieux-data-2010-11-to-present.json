@@ -2672,7 +2672,9 @@
           "image_back": "img/cards/ML66/2015-16-Upper-Deck-Premier-44-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 9,
+          "serial_total": 299
         }
       ]
     },
@@ -3592,7 +3594,8 @@
               "image_back": "img/cards/ML66/2017-18-O-Pee-Chee-Platinum---Rainbow-141-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 3
             }
           ]
         },
@@ -3809,6 +3812,31 @@
           "inCollection": true,
           "price": 9.5,
           "serial_total": 599
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2017-18-upper-deck-artifacts-ruby",
+          "set_name": "Ruby",
+          "set_display_name": "2017-18 Upper Deck Artifacts - Ruby",
+          "set_type": "parallel",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/158801/2017-18-Upper-Deck-Artifacts-Ruby",
+          "cards": [
+            {
+              "id": "ml-2017-18-upper-deck-artifacts-ruby-131",
+              "base_number": "131",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/158801/cid/10223908/2017-18-Upper-Deck-Artifacts-Ruby-131-Mario-Lemieux?PageIndex=2",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": true,
+              "price": 12,
+              "serial_total": 299
+            }
+          ]
         }
       ]
     },
@@ -5054,7 +5082,8 @@
               "image_back": "img/cards/ML66/2020-21-Upper-Deck-Synergy---Stanley-Cup-Journey-Postseason-CJ-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false,
+              "inCollection": true,
+              "price": 9,
               "serial_total": 899
             }
           ]
@@ -5074,7 +5103,8 @@
               "image_back": "img/cards/ML66/2020-21-Upper-Deck-Synergy---Stanley-Cup-Journey-Winning-the-Cup-CJ-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false,
+              "inCollection": true,
+              "price": 9,
               "serial_total": 799
             }
           ]
