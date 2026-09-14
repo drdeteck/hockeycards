@@ -1391,7 +1391,7 @@
           "image_back": "img/cards/ML66/1991-92-Upper-Deck-47-White-House-Welcome-(Mario-Lemieux--George-Bush)Bk.jpg",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/1991-92-Upper-Deck-47-White-House-Welcome-(Mario-Lemieux--George-Bush)",
           "team": "Pittsburgh Penguins",
-          "inCollection": true,
+          "inCollection": false,
           "price": 1.3
         },
         {

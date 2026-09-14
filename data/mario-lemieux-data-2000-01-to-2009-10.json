@@ -5478,8 +5478,7 @@
               "image_back": "img/cards/ML66/2002-03-Topps---Hometown-Heroes-USA-HHU3-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": true,
-              "price": 5
+              "inCollection": false
             }
           ]
         },
@@ -5498,7 +5497,8 @@
               "image_back": "img/cards/ML66/2002-03-Topps---Hometown-Heroes-USA-Matte-HHU3-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5
             }
           ]
         }
