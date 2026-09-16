@@ -3884,7 +3884,8 @@
               "image_back": "img/cards/ML66/2017-18-Upper-Deck---Mastery-Achievements-M-E-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "excludeFromBinder": true
             }
           ]
         },
