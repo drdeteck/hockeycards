@@ -6202,7 +6202,8 @@
               "image_back": "img/cards/ML66/2023-24-Upper-Deck---Mastery-Achievements-M-H-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "excludeFromBinder": true
             }
           ]
         }
@@ -6234,6 +6235,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "inCollection": true,
+              "excludeFromBinder": true,
               "price": 16.17,
               "serial_total": 99
             }
