@@ -2407,7 +2407,7 @@
           "image_back": "img/cards/ML66/2001-02-Pacific-Private-Stock-78-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": true,
+          "inCollection": false,
           "price": 2
         }
       ],
@@ -4139,6 +4139,18 @@
       "set_tcdb_href": "",
       "cards": [
         {
+          "id": "ml-2002-03-in-the-game-used-62",
+          "base_number": "62",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5640/cid/1274189/2002-03-In-The-Game-Used-62-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "inCollection": false
+        },
+        {
           "id": "ml-2002-03-in-the-game-used-162",
           "base_number": "162",
           "orientation_front": "portrait",
@@ -4573,7 +4585,7 @@
               "image_back": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Game-Worn-Jerseys-16-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "excludeFromBinder": true,
+              "excludeFromBinder": false,
               "inCollection": true,
               "price": 22.50
             }
