@@ -2407,7 +2407,7 @@
           "image_back": "img/cards/ML66/2001-02-Pacific-Private-Stock-78-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false,
+          "inCollection": true,
           "price": 2
         }
       ],
