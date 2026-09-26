@@ -6311,8 +6311,8 @@
               "image_back": "img/cards/ML66/1995-96-Parkhurst-International---Parkie-Picks-PP-11-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false,
-              "price": 50.01
+              "inCollection": true,
+              "price": 20
             }
           ]
         },
@@ -9570,7 +9570,9 @@
               "image_front": "img/cards/ML66/1996-97-Score---Dream-Team-6-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/1996-97-Score---Dream-Team-6-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
-              "team": "Pittsburgh Penguins"
+              "team": "Pittsburgh Penguins",
+              "inCollection": true,
+              "price": 20
             }
           ]
         },

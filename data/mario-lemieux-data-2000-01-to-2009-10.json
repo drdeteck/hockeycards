@@ -8223,7 +8223,8 @@
           "image_back": "img/cards/ML66/2003-04-Upper-Deck-Classic-Portraits-103-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false,
+          "inCollection": true,
+          "price": 2.5,
           "serial_total": 1100
         },
         {

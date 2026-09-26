@@ -6564,6 +6564,26 @@
               "price": 2.00
             }
           ]
+        },
+        {
+          "set_key": "2023-24-upper-deck-tim-hortons-greatest-duos-captain-connections",
+          "set_name": "Captain Connections",
+          "set_display_name": "Captain Connections",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-tim-hortons-greatest-duos-captain-connections-c-10",
+              "base_number": "C-10",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Upper-Deck-Tim-Hortons-Greatest-Duos---Captain-Connections-C-10-Sidney-Crosby--Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Upper-Deck-Tim-Hortons-Greatest-Duos---Captain-Connections-C-10-Sidney-Crosby--Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "variant_note": "w/ Sidney Crosby",
+              "inCollection": true,
+              "price": 15
+            }
+          ]
         }
       ]
     },
