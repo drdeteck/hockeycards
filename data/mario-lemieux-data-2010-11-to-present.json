@@ -2170,7 +2170,8 @@
           "image_back": "img/cards/ML66/2014-15-Upper-Deck-MVP-294-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2.83
         }
       ],
       "subsets": [
