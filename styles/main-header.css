@@ -16,6 +16,10 @@
     background-color: var(--color-serial-menu-bg);
 }
 
+.main-header--memorabilia {
+    background-color: var(--color-serial-menu-bg);
+}
+
 .main-header-collections {
     display: flex;
     align-items: center;

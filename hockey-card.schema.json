@@ -347,6 +347,10 @@
                     "type": "boolean",
                     "description": "Whether the card is a rookie card."
                 },
+                "isMemorabilia": {
+                    "type": "boolean",
+                    "description": "Whether the card is a memorabilia card."
+                },
                 "is_image_placeholder": {
                     "type": "boolean",
                     "description": "Whether the image is a temporary placeholder."

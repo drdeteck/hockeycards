@@ -91,6 +91,42 @@
         }
       ]
     },
+    "2011-12-in-the-game-canada-vs-the-world": {
+      "set_key": "2011-12-in-the-game-canada-vs-the-world",
+      "set_name": "In The Game Canada vs. The World",
+      "set_year_label": "2011-12",
+      "set_year_start": 2011,
+      "set_year_end": 2012,
+      "set_display_name": "2011-12 In The Game Canada vs. The World",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2011-12-in-the-game-canada-vs-the-world-international-showdown-teammates-silver",
+          "set_name": "International Showdown Teammates Silver",
+          "set_display_name": "2011-12 In The Game Canada vs. The World - International Showdown Teammates Silver",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2011-12-in-the-game-canada-vs-the-world-international-showdown-teammates-silver-ist-06",
+              "base_number": "IST-06",
+              "card_type": "memorabilia",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2011-12-In-The-Game-Canada-vs-The-World---International-Showdown-Teammates-Silver-IST-06Fr.jpg",
+              "image_back": "img/cards/ML66/2011-12-In-The-Game-Canada-vs-The-World---International-Showdown-Teammates-Silver-IST-06Bk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/68611/cid/5026475/2011-12-In-The-Game-Canada-vs.-The-World-IST-06-Mario-Lemieux-/-Grant-Fuhr-/-Dale-Hawerchuk-/-Wayne-Gretzky",
+              "team": "Pittsburgh Penguins",
+              "variant_note": "with Grant Fuhr, Dale Hawerchuk, Wayne Gretzky, PR50",
+              "inCollection": true,
+              "price": 50,
+              "excludeFromBinder": true,
+              "isMemorabilia": true
+            }
+          ]
+        }
+      ]
+    },
     "2011-12-o-pee-chee": {
       "set_key": "2011-12-o-pee-chee",
       "set_name": "O-Pee-Chee",
@@ -1356,6 +1392,29 @@
               "team": "Pittsburgh Penguins",
               "inCollection": true,
               "price": 11
+            }
+          ]
+        },
+        {
+          "set_key": "2013-14-spx-winning-materials",
+          "set_name": "Winning Materials",
+          "set_display_name": "2013-14 SPx - Winning Materials",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2013-14-spx-winning-materials-wm-ml",
+              "base_number": "WM-ML",
+              "card_type": "memorabilia",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2013-14-SPx---Winning-Materials-WM-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2013-14-SPx---Winning-Materials-WM-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": true,
+              "price": 21.84,
+              "excludeFromBinder": true,
+              "isMemorabilia": true
             }
           ]
         }
@@ -3301,6 +3360,32 @@
           ]
         }
       ]
+    },
+    "2015-16-upper-deck-team-canada-master-collection": {
+      "set_key": "2015-16-upper-deck-team-canada-master-collection",
+      "set_name": "Upper Deck Team Canada Master Collection",
+      "set_year_label": "2015-16",
+      "set_year_start": 2015,
+      "set_year_end": 2016,
+      "set_display_name": "2015-16 Upper Deck Team Canada Master Collection",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2015-16-upper-deck-team-canada-master-collection-41",
+          "base_number": "41",
+          "serial_total": 499,
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2015-16-Upper-Deck-Team-Canada-Master-Collection-41-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2015-16-Upper-Deck-Team-Canada-Master-Collection-41-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "variant_note": "marked 2014",
+          "inCollection": true,
+          "excludeFromBinder": true
+        }
+      ],
+      "subsets": []
     },
     "2016-17-fleer-showcase": {
       "set_key": "2016-17-fleer-showcase",
@@ -5881,6 +5966,32 @@
           ]
         }
       ]
+    },
+    "2022-23-upper-deck-ultimate-collection-blue": {
+      "set_key": "2022-23-upper-deck-ultimate-collection-blue",
+      "set_name": "Upper Deck Ultimate Collection - Blue",
+      "set_year_label": "2022-23",
+      "set_year_start": 2022,
+      "set_year_end": 2023,
+      "set_display_name": "2022-23 Upper Deck Ultimate Collection - Blue",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2022-23-upper-deck-ultimate-collection-blue-100",
+          "base_number": "100",
+          "serial_total": 99,
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2022-23-Upper-Deck-Ultimate-Collection-100-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2022-23-Upper-Deck-Ultimate-Collection-100-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": true,
+          "price": 15.50,
+          "excludeFromBinder": true
+        }
+      ],
+      "subsets": []
     },
     "2023-24-parkhurst-champions": {
       "set_key": "2023-24-parkhurst-champions",

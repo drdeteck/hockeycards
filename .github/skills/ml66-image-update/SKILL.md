@@ -29,7 +29,6 @@ Use this skill for repeat updates where new Mario Lemieux card images are added 
   - `data/mario-lemieux-data-1985-86-to-1999-00.json`
   - `data/mario-lemieux-data-2000-01-to-2009-10.json`
   - `data/mario-lemieux-data-2010-11-to-present.json`
-  - `data/mario-lemieux-data-gems.json` (for rare/numbered, memorabilia, autograph cards — images in `img/cards/ML66/Gems/`)
 - Also check `data/mario-lemieux-data-stickers.json` for sticker cards (images in `img/cards/ML66/Stickers/`).
 - Choose the file whose card type and year match the new image.
 

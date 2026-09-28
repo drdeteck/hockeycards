@@ -30,7 +30,6 @@ window.HCHB = window.HCHB || {};
             var ccDataUrl = 'data/96-97-cc-data.json?ver=' + dataVersion;
             var otherDataUrl = 'data/other-cards.json?ver=' + dataVersion;
             var stickerDataUrl = 'data/mario-lemieux-data-stickers.json?ver=' + dataVersion;
-            var gemsDataUrl = 'data/mario-lemieux-data-gems.json?ver=' + dataVersion;
             var chaseDataUrl = 'data/mario-lemieux-data-chase.json?ver=' + dataVersion;
 
             Promise.all([
@@ -41,7 +40,6 @@ window.HCHB = window.HCHB || {};
                 loadJsonData(ccDataUrl, '96-97-CC dataset'),
                 loadJsonData(otherDataUrl, 'Other cards dataset'),
                 loadJsonData(stickerDataUrl, 'Mario Lemieux stickers dataset'),
-                loadJsonData(gemsDataUrl, 'Mario Lemieux gems dataset'),
                 loadJsonData(chaseDataUrl, 'Mario Lemieux chase dataset')
             ]).then(function (datasets) {
                 var mcdonaldsData = datasets[0] || {};
@@ -51,8 +49,7 @@ window.HCHB = window.HCHB || {};
                 var ccData = datasets[4];
                 var otherData = datasets[5];
                 var stickerData = datasets[6];
-                var gemsData = datasets[7];
-                var chaseData = datasets[8];
+                var chaseData = datasets[7];
 
                 var mergedData = Object.assign({}, mcdonaldsData);
 
@@ -96,13 +93,6 @@ window.HCHB = window.HCHB || {};
                     console.warn('Sticker dataset not loaded. Expected JSON from data/mario-lemieux-data-stickers.json');
                 }
 
-                if (gemsData) {
-                    var gemsCollections = App.ViewModel.BuildGemsCollections(gemsData);
-                    mergedData = Object.assign(mergedData, gemsCollections);
-                } else {
-                    console.warn('Gems dataset not loaded. Expected JSON from data/mario-lemieux-data-gems.json');
-                }
-
                 if (chaseData) {
                     var chaseCollections = App.ViewModel.BuildChaseCollections(chaseData);
                     mergedData = Object.assign(mergedData, chaseCollections);
@@ -112,6 +102,8 @@ window.HCHB = window.HCHB || {};
 
                 var serialCollections = App.ViewModel.BuildSerialNumberedCollections(mergedData);
                 mergedData = Object.assign(mergedData, serialCollections);
+                var memorabiliaCollections = App.ViewModel.BuildMemorabiliaCollections(mergedData);
+                mergedData = Object.assign(mergedData, memorabiliaCollections);
 
                 initializeAppWithData(mergedData);
             }).catch(function (error) {
@@ -361,7 +353,7 @@ function DataViewModel() {
     };
 
     self.IsMarioSource = function (source) {
-        return source === 'mario' || source === 'mario-stickers' || source === 'mario-gems' || source === 'mario-chase' || source === 'mario-serial' || source === '96-97-CC' || source === 'other-cards';
+        return source === 'mario' || source === 'mario-stickers' || source === 'mario-chase' || source === 'mario-serial' || source === 'mario-memorabilia' || source === '96-97-CC' || source === 'other-cards';
     };
 
     self.BuildStickerCollections = function (stickerData) {
@@ -464,110 +456,6 @@ function DataViewModel() {
             set_tcdb_href: '',
             set_display_name: 'All Mario Lemieux Stickers',
             source: 'mario-stickers',
-            cards: allCards,
-            subsets: []
-        };
-
-        return result;
-    };
-
-    self.BuildGemsCollections = function (gemsData) {
-        var sets = (gemsData && gemsData.sets) || {};
-        var setKeys = Object.keys(sets);
-        var allCards = [];
-        var result = {};
-
-        setKeys.forEach(function (setKey) {
-            var setData = sets[setKey];
-            var yearLabel = setData.set_year_label || 'Unknown';
-            var parsedYearStart = parseInt(setData.set_year_start, 10);
-            var seasonStart = !isNaN(parsedYearStart) ? parsedYearStart : (self.GetSeasonStartYear(yearLabel) || 0);
-            var parsedYearEnd = parseInt(setData.set_year_end, 10);
-            var seasonEnd = !isNaN(parsedYearEnd) ? parsedYearEnd : (self.GetSeasonEndYear(yearLabel) || null);
-            var setName = setData.set_name || 'Unknown';
-            var setDisplayName = setData.set_display_name || self.ComposeSetDisplayName(yearLabel, setName, '');
-
-            var setCards = [];
-            (setData.cards || []).forEach(function (row) {
-                var baseNumber = row.base_number || 'NNO';
-                var tcdbHref = row.tcdb_href || '';
-                var cardItem = {
-                    id: row.id || '',
-                    name: 'Mario Lemieux',
-                    base_number: baseNumber,
-                    team: row.team || 'Pittsburgh Penguins',
-                    position: row.position || 'Center',
-                    orientation_front: row.orientation_front || 'portrait',
-                    orientation_back: row.orientation_back || 'portrait',
-                    variant_note: row.variant_note || null,
-                    set_name: setName,
-                    set_variation: null,
-                    set_year_label: yearLabel,
-                    set_year_start: seasonStart,
-                    set_year_end: seasonEnd,
-                    set_display_name: setDisplayName,
-                    insert_subset: '',
-                    image_front: row.image_front || '',
-                    image_back: row.image_back || '',
-                    tcdb_href: (tcdbHref && tcdbHref.indexOf('http') === 0) ? tcdbHref : '',
-                    price: row.price,
-                    card_type: row.card_type || 'card',
-                    serial_total: row.serial_total || null,
-                    excludeFromBinder: !!(row.excludeFromBinder),
-                    default_face: row.default_face || 'front',
-                    inCollection: !!(row.inCollection),
-                    _set_key: setKey,
-                    _parent_key: null
-                };
-                setCards.push(cardItem);
-                allCards.push(cardItem);
-            });
-
-            result[setKey] = {
-                set_key: setKey,
-                set_name: setName,
-                set_variation: null,
-                set_year_label: yearLabel,
-                set_year_start: seasonStart,
-                set_year_end: seasonEnd,
-                set_category: self.GetDecadeLabel(yearLabel),
-                set_total_cards: setCards.length,
-                set_tcdb_href: setData.set_tcdb_href || '',
-                set_display_name: setDisplayName,
-                source: 'mario-gems',
-                cards: setCards,
-                subsets: []
-            };
-        });
-
-        allCards.sort(function (left, right) {
-            var leftYearStart = parseInt(left.set_year_start, 10) || 0;
-            var rightYearStart = parseInt(right.set_year_start, 10) || 0;
-            if (leftYearStart !== rightYearStart) {
-                return leftYearStart - rightYearStart;
-            }
-            var leftSet = (left.set_name || '').toString();
-            var rightSet = (right.set_name || '').toString();
-            var setCompare = leftSet.localeCompare(rightSet, undefined, { sensitivity: 'base' });
-            if (setCompare !== 0) { return setCompare; }
-            return (left.base_number || '').toString().localeCompare(
-                (right.base_number || '').toString(),
-                undefined,
-                { numeric: true, sensitivity: 'base' }
-            );
-        });
-
-        result['ML-gems-all'] = {
-            set_key: 'ML-gems-all',
-            set_name: 'All Mario Lemieux Gems',
-            set_year_label: 'All Gems',
-            set_year_start: null,
-            set_year_end: null,
-            set_category: 'All',
-            set_total_cards: allCards.length,
-            set_tcdb_href: '',
-            set_display_name: 'All Mario Lemieux Gems',
-            source: 'mario-gems',
             cards: allCards,
             subsets: []
         };
@@ -888,6 +776,7 @@ function DataViewModel() {
             card_type: row.card_type || 'card',
             serial_total: row.serial_total || null,
             excludeFromBinder: !!(row.excludeFromBinder),
+            isMemorabilia: !!(row.isMemorabilia),
             inCollection: !!(row.inCollection),
             default_face: row.default_face || 'front',
             _set_key: routingSetKey,
@@ -895,10 +784,10 @@ function DataViewModel() {
         };
     };
 
-    // Builds one virtual collection per distinct serial_total value found across the regular ML,
-    // gems and chase "all" collections. Cards are referenced (not cloned) from those collections.
+    // Builds one virtual collection per distinct serial_total value found across the regular ML
+    // and chase "all" collections. Cards are referenced (not cloned) from those collections.
     self.BuildSerialNumberedCollections = function (mergedData) {
-        var sourceKeys = ['ML-all', 'ML-gems-all', 'ML-chase-all'];
+        var sourceKeys = ['ML-all', 'ML-chase-all'];
         var groups = {};
 
         sourceKeys.forEach(function (key) {
@@ -954,6 +843,36 @@ function DataViewModel() {
         });
 
         return result;
+    };
+
+    self.BuildMemorabiliaCollections = function (mergedData) {
+        var allMarioCards = mergedData['ML-all'];
+        var cards = allMarioCards ? (allMarioCards.cards || []).filter(function (card) {
+            return card.isMemorabilia === true;
+        }) : [];
+
+        if (cards.length === 0) {
+            return {};
+        }
+
+        cards.sort(self.CompareCardsForCollectionDisplay);
+
+        return {
+            'ML-memorabilia': {
+                set_key: 'ML-memorabilia',
+                set_name: 'Mario Lemieux Memorabilia Cards',
+                set_year_label: 'Memorabilia',
+                set_year_start: null,
+                set_year_end: null,
+                set_category: 'Memorabilia',
+                set_total_cards: cards.length,
+                set_tcdb_href: '',
+                set_display_name: 'Mario Lemieux Memorabilia Cards',
+                source: 'mario-memorabilia',
+                cards: cards,
+                subsets: []
+            }
+        };
     };
 
     // primary data dictionary (sets keyed by id)
@@ -1653,7 +1572,7 @@ function DataViewModel() {
         return allCards;
     };
 
-    var MARIO_ALL_SET_KEYS = ['ML-all', 'ML-stickers-all', 'ML-gems-all', 'ML-chase-all'];
+    var MARIO_ALL_SET_KEYS = ['ML-all', 'ML-stickers-all', 'ML-chase-all'];
 
     // Computes the page-level header stats for the currently viewed collection:
     // title, total card count, wish (not-in-collection) count and completion %.
@@ -1689,7 +1608,7 @@ function DataViewModel() {
 
     self.CurrentCollectionYearGroups = ko.pureComputed(function () {
         var collection = self.CurrentCollection();
-        if (!collection || (collection.set_key !== 'ML-all' && collection.set_key !== 'ML-stickers-all' && collection.set_key !== 'ML-gems-all' && collection.set_key !== 'ML-chase-all')) {
+        if (!collection || (collection.set_key !== 'ML-all' && collection.set_key !== 'ML-stickers-all' && collection.set_key !== 'ML-chase-all')) {
             return [];
         }
 
@@ -1724,14 +1643,14 @@ function DataViewModel() {
         var collection = self.CurrentCollection();
         if (!collection) { return false; }
         var key = collection.set_key || '';
-        return key !== 'ML-all' && key !== 'ML-stickers-all' && key !== 'ML-gems-all' && key !== 'ML-chase-all' && key.indexOf('ML-') === 0;
+        return key !== 'ML-all' && key !== 'ML-stickers-all' && key !== 'ML-chase-all' && key !== 'ML-memorabilia' && key.indexOf('ML-') === 0;
     });
 
     self.CurrentCollectionYearSetGroups = ko.pureComputed(function () {
         var collection = self.CurrentCollection();
         if (!collection) { return []; }
         var key = collection.set_key || '';
-        if (key === 'ML-all' || key === 'ML-stickers-all' || key === 'ML-gems-all' || key === 'ML-chase-all' || key.indexOf('ML-') !== 0) { return []; }
+        if (key === 'ML-all' || key === 'ML-stickers-all' || key === 'ML-chase-all' || key === 'ML-memorabilia' || key.indexOf('ML-') !== 0) { return []; }
 
         var allCards = [];
         (collection.cards || []).forEach(function (card) { allCards.push(card); });
@@ -2416,28 +2335,22 @@ function DataViewModel() {
         var mcd = makeTally();
         var mario = makeTally();
         var stickers = makeTally();
-        var gems = makeTally();
         var chase = makeTally();
 
         Object.values(data).forEach(function (set) {
             if (!set) { return; }
-            // Serial-numbered virtual collections are alternate views of cards already
-            // counted elsewhere (ML-all / ML-gems-all / ML-chase-all) — skip entirely.
-            if (set.source === 'mario-serial') { return; }
+            // Virtual collections are alternate views of cards already counted elsewhere.
+            if (set.source === 'mario-serial' || set.source === 'mario-memorabilia') { return; }
             // For Mario virtual collections, only count from ML-all to avoid double-counting
             if (set.source === 'mario' && set.set_key !== 'ML-all') { return; }
             // For sticker virtual collections, only count from ML-stickers-all
             if (set.source === 'mario-stickers' && set.set_key !== 'ML-stickers-all') { return; }
-            // For gems virtual collections, only count from ML-gems-all
-            if (set.source === 'mario-gems' && set.set_key !== 'ML-gems-all') { return; }
             // For chase virtual collections, only count from ML-chase-all
             if (set.source === 'mario-chase' && set.set_key !== 'ML-chase-all') { return; }
 
             var tally;
             if (set.source === 'mario-stickers') {
                 tally = stickers;
-            } else if (set.source === 'mario-gems') {
-                tally = gems;
             } else if (set.source === 'mario-chase') {
                 tally = chase;
             } else if (self.IsMarioSource(set.source)) {
@@ -2460,7 +2373,6 @@ function DataViewModel() {
         result.mcd = toStats(mcd);
         result.mario = toStats(mario);
         result.stickers = toStats(stickers);
-        result.gems = toStats(gems);
         result.chase = toStats(chase);
         return result;
     });
@@ -2476,13 +2388,15 @@ function DataViewModel() {
         }
 
         var currentCollection = self.CurrentCollection();
-        var activeRowName = 'McDonald\'s';
+        var activeRowName = 'Other Sets';
 
         if (currentCollection && currentCollection.source) {
-            if (currentCollection.source === 'mario' || currentCollection.source === 'mario-stickers' || currentCollection.source === 'mario-gems' || currentCollection.source === 'mario-chase') {
+            if (currentCollection.source === 'mario' || currentCollection.source === 'mario-stickers' || currentCollection.source === 'mario-chase') {
                 activeRowName = 'Mario Lemieux';
             } else if (currentCollection.source === 'mario-serial') {
                 activeRowName = 'Serial Numbered';
+            } else if (currentCollection.source === 'mario-memorabilia') {
+                activeRowName = 'Memorabilia';
             } else if (currentCollection.source === '96-97-CC' || currentCollection.source === 'other-cards') {
                 activeRowName = 'Other Sets';
             }
@@ -2523,10 +2437,6 @@ function DataViewModel() {
         var stickerAllItem = items.find(function (itm) {
             return itm && itm.source === 'mario-stickers' && itm.set_key === 'ML-stickers-all';
         });
-        // Gems virtual collection
-        var gemsAllItem = items.find(function (itm) {
-            return itm && itm.source === 'mario-gems' && itm.set_key === 'ML-gems-all';
-        });
         // Chase virtual collection
         var chaseAllItem = items.find(function (itm) {
             return itm && itm.source === 'mario-chase' && itm.set_key === 'ML-chase-all';
@@ -2552,11 +2462,7 @@ function DataViewModel() {
             });
         });
 
-        var menuRows = [{
-            name: 'McDonald\'s',            // matches menu-row-template expectation
-            template: 'button-text-template',  // layout for controls in groups
-            groups: groups
-        }];
+        var menuRows = [];
 
         if (marioItems.length > 0) {
             var marioAll = marioItems.find(function (item) { return item.set_key === 'ML-all'; });
@@ -2575,12 +2481,6 @@ function DataViewModel() {
                     key: marioAll.set_key,
                     displayName: 'All ML Cards'
                 }];
-                if (gemsAllItem) {
-                    allGroupControls.push({
-                        key: gemsAllItem.set_key,
-                        displayName: 'Gems'
-                    });
-                }
                 if (stickerAllItem) {
                     allGroupControls.push({
                         key: stickerAllItem.set_key,
@@ -2594,7 +2494,7 @@ function DataViewModel() {
                     });
                 }
                 orderedMarioGroups.push({
-                    text: 'All',
+                    text: '',
                     controls: allGroupControls
                 });
             }
@@ -2643,6 +2543,9 @@ function DataViewModel() {
 
         // Serial Numbered — organized into compact groups so the vertical menu wraps naturally.
         var serialItems = items.filter(function (itm) { return itm && itm.source === 'mario-serial'; });
+        var memorabiliaItem = items.find(function (itm) {
+            return itm && itm.source === 'mario-memorabilia' && itm.set_key === 'ML-memorabilia';
+        });
         if (serialItems.length > 0) {
             serialItems.sort(function (left, right) {
                 return (parseInt(left.serial_total, 10) || 0) - (parseInt(right.serial_total, 10) || 0);
@@ -2688,7 +2591,22 @@ function DataViewModel() {
             }
         }
 
-        if (marioProjectItems.length > 0) {
+        if (memorabiliaItem) {
+            menuRows.push({
+                name: 'Memorabilia',
+                template: 'button-text-template',
+                cssClass: 'main-header--memorabilia',
+                groups: [{
+                    text: '',
+                    controls: [{
+                        key: memorabiliaItem.set_key,
+                        displayName: 'Memorabilia'
+                    }]
+                }]
+            });
+        }
+
+        if (marioProjectItems.length > 0 || mcdItems.length > 0) {
             var otherSetGroupMap = {};
             marioProjectItems
                 .sort(function (left, right) {
@@ -2724,6 +2642,18 @@ function DataViewModel() {
                         controls: otherSetGroupMap[label]
                     };
                 });
+
+            if (mcdItems.length > 0) {
+                orderedOtherSetGroups.push({
+                    text: 'McDonald\'s',
+                    controls: mcdItems.map(function (item) {
+                        return {
+                            key: item.set_key,
+                            displayName: item.set_year_label || item.set_name
+                        };
+                    })
+                });
+            }
 
             menuRows.push({
                 name: 'Other Sets',
