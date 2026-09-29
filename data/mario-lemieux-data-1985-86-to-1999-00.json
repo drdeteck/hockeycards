@@ -26,6 +26,7 @@
           "variant_note": "Rookie",
           "inCollection": true,
           "excludeFromBinder": true,
+          "isTooThickForBinder": true,
           "price": 120
         },
         {
@@ -6699,6 +6700,7 @@
               "team": "Pittsburgh Penguins",
               "inCollection": true,
               "excludeFromBinder": true,
+              "isTooThickForBinder": true,
               "price": 100,
               "price_type": "bulk",
               "price_bulk": 340

@@ -2846,6 +2846,7 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck-Ice---Exquisite-Collection-33-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "excludeFromBinder": true,
+              "isTooThickForBinder": true,
               "card_thickness": 180,
               "team": "Pittsburgh Penguins",
               "inCollection": true,
@@ -3382,7 +3383,8 @@
           "team": "Pittsburgh Penguins",
           "variant_note": "marked 2014",
           "inCollection": true,
-          "excludeFromBinder": true
+          "excludeFromBinder": true,
+          "isTooThickForBinder": true
         }
       ],
       "subsets": []
@@ -4305,8 +4307,7 @@
               "image_back": "img/cards/ML66/2018-Upper-Deck-Team-Canada-Juniors---Blue-100-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/209493/cid/13367576/2018-Upper-Deck-Team-Canada-Juniors-Blue-100-Mario-Lemieux?PageIndex=1",
               "team": "Team Canada",
-              "inCollection": false,
-              "serial_total": 225
+              "inCollection": false
             }
           ]
         },
@@ -5988,7 +5989,8 @@
           "team": "Pittsburgh Penguins",
           "inCollection": true,
           "price": 15.50,
-          "excludeFromBinder": true
+          "excludeFromBinder": true,
+          "isTooThickForBinder": true
         }
       ],
       "subsets": []
@@ -6349,6 +6351,7 @@
               "team": "Pittsburgh Penguins",
               "inCollection": true,
               "excludeFromBinder": true,
+              "isTooThickForBinder": true,
               "price": 16.17,
               "serial_total": 99
             }
@@ -7596,6 +7599,7 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/590290/cid/33252132/2025-26",
               "team": "Pittsburgh Penguins",
               "excludeFromBinder": true,
+              "isTooThickForBinder": true,
               "inCollection": true,
               "price": 41.56
             }

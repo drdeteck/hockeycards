@@ -351,6 +351,10 @@
                     "type": "boolean",
                     "description": "Whether the card is a memorabilia card."
                 },
+                "isTooThickForBinder": {
+                    "type": "boolean",
+                    "description": "Whether the card is too thick to fit in the binder."
+                },
                 "is_image_placeholder": {
                     "type": "boolean",
                     "description": "Whether the image is a temporary placeholder."

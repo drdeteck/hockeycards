@@ -9123,7 +9123,8 @@
           "inCollection": true,
           "price": 10,
           "serial_total": 599,
-          "excludeFromBinder": true
+          "excludeFromBinder": true,
+          "isTooThickForBinder": true
         }
       ]
     },
@@ -10280,7 +10281,8 @@
           "team": "Pittsburgh Penguins",
           "inCollection": true,
           "price": 23.5,
-          "excludeFromBinder": true
+          "excludeFromBinder": true,
+          "isTooThickForBinder": true
         }
       ],
       "subsets": []
@@ -10638,7 +10640,8 @@
               "inCollection": true,
               "price": 10,
               "serial_total": 799,
-              "excludeFromBinder": true
+              "excludeFromBinder": true,
+              "isTooThickForBinder": true
             }
           ]
         }

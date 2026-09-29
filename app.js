@@ -104,6 +104,8 @@ window.HCHB = window.HCHB || {};
                 mergedData = Object.assign(mergedData, serialCollections);
                 var memorabiliaCollections = App.ViewModel.BuildMemorabiliaCollections(mergedData);
                 mergedData = Object.assign(mergedData, memorabiliaCollections);
+                var tooThickCollections = App.ViewModel.BuildTooThickForBinderCollections(mergedData);
+                mergedData = Object.assign(mergedData, tooThickCollections);
 
                 initializeAppWithData(mergedData);
             }).catch(function (error) {
@@ -777,6 +779,7 @@ function DataViewModel() {
             serial_total: row.serial_total || null,
             excludeFromBinder: !!(row.excludeFromBinder),
             isMemorabilia: !!(row.isMemorabilia),
+            isTooThickForBinder: !!(row.isTooThickForBinder),
             inCollection: !!(row.inCollection),
             default_face: row.default_face || 'front',
             _set_key: routingSetKey,
@@ -868,6 +871,36 @@ function DataViewModel() {
                 set_total_cards: cards.length,
                 set_tcdb_href: '',
                 set_display_name: 'Mario Lemieux Memorabilia Cards',
+                source: 'mario-memorabilia',
+                cards: cards,
+                subsets: []
+            }
+        };
+    };
+
+    self.BuildTooThickForBinderCollections = function (mergedData) {
+        var allMarioCards = mergedData['ML-all'];
+        var cards = allMarioCards ? (allMarioCards.cards || []).filter(function (card) {
+            return card.isTooThickForBinder === true;
+        }) : [];
+
+        if (cards.length === 0) {
+            return {};
+        }
+
+        cards.sort(self.CompareCardsForCollectionDisplay);
+
+        return {
+            'ML-too-thick-for-binder': {
+                set_key: 'ML-too-thick-for-binder',
+                set_name: 'Mario Lemieux Thick Cards',
+                set_year_label: 'Thick Cards',
+                set_year_start: null,
+                set_year_end: null,
+                set_category: 'Memorabilia',
+                set_total_cards: cards.length,
+                set_tcdb_href: '',
+                set_display_name: 'Mario Lemieux Thick Cards',
                 source: 'mario-memorabilia',
                 cards: cards,
                 subsets: []
@@ -1643,14 +1676,14 @@ function DataViewModel() {
         var collection = self.CurrentCollection();
         if (!collection) { return false; }
         var key = collection.set_key || '';
-        return key !== 'ML-all' && key !== 'ML-stickers-all' && key !== 'ML-chase-all' && key !== 'ML-memorabilia' && key.indexOf('ML-') === 0;
+        return key !== 'ML-all' && key !== 'ML-stickers-all' && key !== 'ML-chase-all' && key !== 'ML-memorabilia' && key !== 'ML-too-thick-for-binder' && key.indexOf('ML-') === 0;
     });
 
     self.CurrentCollectionYearSetGroups = ko.pureComputed(function () {
         var collection = self.CurrentCollection();
         if (!collection) { return []; }
         var key = collection.set_key || '';
-        if (key === 'ML-all' || key === 'ML-stickers-all' || key === 'ML-chase-all' || key === 'ML-memorabilia' || key.indexOf('ML-') !== 0) { return []; }
+        if (key === 'ML-all' || key === 'ML-stickers-all' || key === 'ML-chase-all' || key === 'ML-memorabilia' || key === 'ML-too-thick-for-binder' || key.indexOf('ML-') !== 0) { return []; }
 
         var allCards = [];
         (collection.cards || []).forEach(function (card) { allCards.push(card); });
@@ -2546,6 +2579,9 @@ function DataViewModel() {
         var memorabiliaItem = items.find(function (itm) {
             return itm && itm.source === 'mario-memorabilia' && itm.set_key === 'ML-memorabilia';
         });
+        var tooThickItem = items.find(function (itm) {
+            return itm && itm.source === 'mario-memorabilia' && itm.set_key === 'ML-too-thick-for-binder';
+        });
         if (serialItems.length > 0) {
             serialItems.sort(function (left, right) {
                 return (parseInt(left.serial_total, 10) || 0) - (parseInt(right.serial_total, 10) || 0);
@@ -2591,17 +2627,27 @@ function DataViewModel() {
             }
         }
 
-        if (memorabiliaItem) {
+        if (memorabiliaItem || tooThickItem) {
+            var memorabiliaControls = [];
+            if (memorabiliaItem) {
+                memorabiliaControls.push({
+                    key: memorabiliaItem.set_key,
+                    displayName: 'Memorabilia'
+                });
+            }
+            if (tooThickItem) {
+                memorabiliaControls.push({
+                    key: tooThickItem.set_key,
+                    displayName: 'Thick Cards'
+                });
+            }
             menuRows.push({
                 name: 'Memorabilia',
                 template: 'button-text-template',
                 cssClass: 'main-header--memorabilia',
                 groups: [{
                     text: '',
-                    controls: [{
-                        key: memorabiliaItem.set_key,
-                        displayName: 'Memorabilia'
-                    }]
+                    controls: memorabiliaControls
                 }]
             });
         }
