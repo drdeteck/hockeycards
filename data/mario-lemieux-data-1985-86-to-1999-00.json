@@ -2474,7 +2474,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "inCollection": true,
-              "price": 23.0
+              "price": 23.0,
+              "serial_total": 10000
             }
           ]
         }
@@ -4155,7 +4156,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "inCollection": true,
-              "price": 22.54
+              "price": 22.54,
+              "serial_total": 10000
             }
           ]
         },
@@ -4325,7 +4327,8 @@
               "team": "Pittsburgh Penguins",
               "variant_note": "w/ Eric Lindros",
               "inCollection": true,
-              "price": 21
+              "price": 21,
+              "serial_total": 10000
             }
           ]
         },
@@ -5493,7 +5496,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "inCollection": true,
-              "price": 11
+              "price": 11,
+              "serial_total": 10000
             }
           ]
         },
@@ -5700,7 +5704,8 @@
               "inCollection": true,
               "price": 60,
               "price_type": "bulk",
-              "price_bulk": 340
+              "price_bulk": 340,
+              "serial_total": 1066
             },
             {
               "id": "ml-1995-96-donruss-elite-mario-lemieux-series-4",
@@ -5714,7 +5719,8 @@
               "inCollection": true,
               "price": 60,
               "price_type": "bulk",
-              "price_bulk": 340
+              "price_bulk": 340,
+              "serial_total": 1066
             },
             {
               "id": "ml-1995-96-donruss-elite-mario-lemieux-series-6",
@@ -5728,7 +5734,8 @@
               "inCollection": true,
               "price": 60,
               "price_type": "bulk",
-              "price_bulk": 340
+              "price_bulk": 340,
+              "serial_total": 1066
             },
             {
               "id": "ml-1995-96-donruss-elite-mario-lemieux-series-1",
@@ -5739,7 +5746,8 @@
               "image_back": "img/cards/ML66/1995-96-Donruss-Elite---Mario-Lemieux-Series-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5124/cid/1597589/1995-96-Donruss-Elite-1-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "serial_total": 1066
             },
             {
               "id": "ml-1995-96-donruss-elite-mario-lemieux-series-3",
@@ -5750,7 +5758,8 @@
               "image_back": "img/cards/ML66/1995-96-Donruss-Elite---Mario-Lemieux-Series-3-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5124/cid/1597591/1995-96-Donruss-Elite-3-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "serial_total": 1066
             },
             {
               "id": "ml-1995-96-donruss-elite-mario-lemieux-series-5",
@@ -5761,7 +5770,8 @@
               "image_back": "img/cards/ML66/1995-96-Donruss-Elite---Mario-Lemieux-Series-5-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5124/cid/1597593/1995-96-Donruss-Elite-5-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "serial_total": 1066
             },
             {
               "id": "ml-1995-96-donruss-elite-mario-lemieux-series-7",
@@ -5774,6 +5784,7 @@
               "team": "Pittsburgh Penguins",
               "excludeFromBinder": true,
               "inCollection": false,
+              "serial_total": 1066,
               "price": 339.76
             }
           ]
@@ -6138,7 +6149,8 @@
               "image_back": "img/cards/ML66/1995-96-Leaf---Mario-Lemieux-Commemorative-500th-Goal-66-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": true
+              "inCollection": true,
+              "serial_total": 15000
             }
           ]
         },
@@ -6158,7 +6170,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "inCollection": true,
-              "price": 7
+              "price": 7,
+              "serial_total": 10000
             }
           ]
         }
@@ -9300,6 +9313,7 @@
           "set_key": "1996-97-pinnacle-summit-premium-stock",
           "set_name": "Premium Stock",
           "set_display_name": "1996-97 Pinnacle Summit - Premium Stock",
+          "set_type": "parallel",
           "set_tcdb_href": "",
           "cards": [
             {
@@ -9319,6 +9333,7 @@
           "set_key": "1996-97-pinnacle-summit-metal",
           "set_name": "Metal",
           "set_display_name": "1996-97 Pinnacle Summit - Metal",
+          "set_type": "parallel",
           "set_tcdb_href": "",
           "cards": [
             {
@@ -9373,7 +9388,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48613/cid/1608599/1996-97-Pinnacle-Summit-8-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "inCollection": false,
-              "price": 150.0
+              "price": 150.0,
+              "serial_total": 600
             }
           ]
         },

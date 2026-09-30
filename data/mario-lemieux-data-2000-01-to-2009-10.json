@@ -1334,6 +1334,28 @@
           "team": "Pittsburgh Penguins",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2000-01-topps-heritage-chrome",
+          "set_name": "Chrome",
+          "set_display_name": "2000-01 Topps Heritage - Chrome",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-topps-heritage-chrome-73",
+              "base_number": "73",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Topps-Heritage---Chrome-73-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Topps-Heritage---Chrome-73-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 555,
+              "inCollection": false
+            }
+          ]
+        }
       ]
     },
     "2000-01-topps-premier-plus": {
@@ -2711,6 +2733,26 @@
               "inCollection": true
             }
           ]
+        },
+        {
+          "set_key": "2001-02-parkhurst-silver",
+          "set_name": "Silver",
+          "set_display_name": "2001-02 Parkhurst - Silver",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-parkhurst-silver-24",
+              "base_number": "24",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Parkhurst---Silver-24-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Parkhurst---Silver-24-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 500,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -3331,6 +3373,29 @@
           "team": "Pittsburgh Penguins",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2001-02-topps-heritage-retro-fractors",
+          "set_name": "Retro Fractors",
+          "set_display_name": "2001-02 Topps Heritage - Retro Fractors",
+          "set_type": "parallel",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-topps-heritage-retro-fractors-1",
+              "base_number": "1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Topps-Heritage---Retro-Fractors-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Topps-Heritage---Retro-Fractors-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 558,
+              "inCollection": false
+            }
+          ]
+        }
       ]
     },
     "2001-02-topps-reserve": {
@@ -3518,6 +3583,28 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2001-02-upper-deck-challenge-for-the-cup-cornerstones",
+          "set_name": "Cornerstones",
+          "set_display_name": "2001-02 Upper Deck Challenge for the Cup - Cornerstones",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-upper-deck-challenge-for-the-cup-cornerstones-cr7",
+              "base_number": "CR7",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Upper-Deck-Challenge-for-the-Cup---Cornerstones-CR7-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Upper-Deck-Challenge-for-the-Cup---Cornerstones-CR7-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 250,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -4612,6 +4699,27 @@
               "team": "Pittsburgh Penguins",
               "inCollection": true,
               "price": 11.69
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-pacific-crown-royale-red",
+          "set_name": "Red",
+          "set_type": "parallel",
+          "set_display_name": "2002-03 Pacific Crown Royale - Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-crown-royale-red-78",
+              "base_number": "78",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/10510/cid/1545643/2002-03-Pacific-Crown-Royale-Red-78-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "position": "Center",
+              "inCollection": false
             }
           ]
         },
@@ -6795,8 +6903,8 @@
               "base_number": "100",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2003-04-O-Pee-Chee---Blue-Line-100-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-O-Pee-Chee---Blue-Line-100-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/51089/cid/4522326/2003-04-O-Pee-Chee-Blue-Line-100-Mario-Lemieux-?PageIndex=1",
               "team": "Pittsburgh Penguins",
               "serial_total": 500,
@@ -7728,13 +7836,33 @@
               "base_number": "H17",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2003-04-SP-Authentic---SP-Honors-H17-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-SP-Authentic---SP-Honors-H17-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/51268/cid/1757458/2003-04-SP-Authentic---SP-Honors-H17-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "inCollection": false,
               "serial_total": 900,
               "price": 5.0
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-sp-authentic-breakout-season",
+          "set_name": "Breakout Season",
+          "set_display_name": "2003-04 SP Authentic - Breakout Season",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-sp-authentic-breakout-season-b29",
+              "base_number": "B29",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-SP-Authentic---Breakout-Season-B29-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-SP-Authentic---Breakout-Season-B29-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 500,
+              "inCollection": false
             }
           ]
         }
@@ -11396,6 +11524,97 @@
               "price": 1.36
             }
           ]
+        }
+      ]
+    },
+    "2004-05-upper-deck-ultimate-collection": {
+      "set_key": "2004-05-upper-deck-ultimate-collection",
+      "set_name": "Upper Deck Ultimate Collection",
+      "set_year_label": "2004-05",
+      "set_year_start": 2004,
+      "set_year_end": 2005,
+      "set_display_name": "2004-05 Upper Deck Ultimate Collection",
+      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/9030/2004-05-Upper-Deck-Ultimate-Collection",
+      "cards": [
+        {
+          "id": "ml-2004-05-upper-deck-ultimate-collection-34",
+          "base_number": "34",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/9030/cid/1297520/2004-05-Upper-Deck-Ultimate-Collection-34-Mario-Lemieux",
+          "serial_total": 350,
+          "inCollection": false
+        }
+      ]
+    },
+    "2007-08-o-pee-chee-premier": {
+      "set_key": "2007-08-o-pee-chee-premier",
+      "set_name": "O-Pee-Chee Premier",
+      "set_year_label": "2007-08",
+      "set_year_start": 2007,
+      "set_year_end": 2008,
+      "set_display_name": "2007-08 O-Pee-Chee Premier",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2007-08-o-pee-chee-premier-66",
+          "base_number": "66",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2007-08-O-Pee-Chee-Premier-66-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2007-08-O-Pee-Chee-Premier-66-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "serial_total": 299,
+          "inCollection": false
+        }
+      ]
+    },
+    "2007-08-upper-deck-ultimate-collection": {
+      "set_key": "2007-08-upper-deck-ultimate-collection",
+      "set_name": "Upper Deck Ultimate Collection",
+      "set_year_label": "2007-08",
+      "set_year_start": 2007,
+      "set_year_end": 2008,
+      "set_display_name": "2007-08 Upper Deck Ultimate Collection",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2007-08-upper-deck-ultimate-collection-15",
+          "base_number": "15",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2007-08-Upper-Deck-Ultimate-Collection-15-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2007-08-Upper-Deck-Ultimate-Collection-15-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "serial_total": 499,
+          "inCollection": false
+        }
+      ]
+    },
+    "2009-10-upper-deck-ultimate-collection": {
+      "set_key": "2009-10-upper-deck-ultimate-collection",
+      "set_name": "Upper Deck Ultimate Collection",
+      "set_year_label": "2009-10",
+      "set_year_start": 2009,
+      "set_year_end": 2010,
+      "set_display_name": "2009-10 Upper Deck Ultimate Collection",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2009-10-upper-deck-ultimate-collection-16",
+          "base_number": "16",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2009-10-Upper-Deck-Ultimate-Collection-16-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2009-10-Upper-Deck-Ultimate-Collection-16-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "serial_total": 399,
+          "inCollection": false
         }
       ]
     }

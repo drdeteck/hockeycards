@@ -267,18 +267,27 @@
       "set_year_end": 2012,
       "set_display_name": "2011-12 Panini Certified",
       "set_tcdb_href": "",
-      "cards": [
+      "cards": [],
+      "subsets": [
         {
-          "id": "ml-2011-12-panini-certified-162",
-          "base_number": "162",
-          "orientation_front": "portrait",
-          "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/2011-12-Panini-Certified-162-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/2011-12-Panini-Certified-162-Mario-LemieuxBk.jpg",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "inCollection": true,
-          "price": 4.99
+          "set_key": "2011-12-panini-certified-totally-silver",
+          "set_name": "Totally Silver",
+          "set_display_name": "2011-12 Panini Certified - Totally Silver",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2011-12-panini-certified-162",
+              "base_number": "162",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2011-12-Panini-Certified-162-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2011-12-Panini-Certified-162-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": true,
+              "price": 4.99
+            }
+          ]
         }
       ]
     },
@@ -564,7 +573,8 @@
           "image_back": "img/cards/ML66/2011-12-Upper-Deck-Ultimate-Collection-46-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": false,
+          "serial_total": 399
         }
       ]
     },
@@ -1594,7 +1604,8 @@
           "image_back": "img/cards/ML66/2013-14-Upper-Deck-The-Cup-66-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": false,
+          "serial_total": 249
         }
       ]
     },
@@ -2991,7 +3002,8 @@
           "image_back": "img/cards/ML66/2015-16-Upper-Deck-Black-33-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": false,
+          "serial_total": 349
         }
       ]
     },
@@ -3915,11 +3927,10 @@
               "base_number": "131",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2017-18-Upper-Deck-Artifacts-Ruby-131-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-Upper-Deck-Artifacts-Ruby-131-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/158801/cid/10223908/2017-18-Upper-Deck-Artifacts-Ruby-131-Mario-Lemieux?PageIndex=2",
               "team": "Pittsburgh Penguins",
-              "position": "Center",
               "inCollection": true,
               "price": 12,
               "serial_total": 299
@@ -4548,6 +4559,28 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "inCollection": false
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2018-19-upper-deck-artifacts-ruby",
+          "set_name": "Ruby",
+          "set_display_name": "2018-19 Upper Deck Artifacts - Ruby",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2018-19-upper-deck-artifacts-ruby-134",
+              "base_number": "134",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2018-19-Upper-Deck-Artifacts---Ruby-134-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2018-19-Upper-Deck-Artifacts---Ruby-134-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 349,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -5701,7 +5734,7 @@
               "team": "Pittsburgh Penguins",
               "inCollection": false,
               "price": 5,
-              "serial_number": "349"
+              "serial_total": 349
             }
           ]
         },
@@ -5962,7 +5995,8 @@
               "image_back": "img/cards/ML66/2022-23-Upper-Deck-Trilogy---Frozen-in-Time-FT-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "serial_total": 275
             }
           ]
         }
@@ -7219,7 +7253,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "inCollection": true,
-          "price": 9.49
+          "price": 9.49,
+          "serial_total": 1199
         }
       ],
       "subsets": [
@@ -7258,6 +7293,7 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/555140/cid/31613348/2024-25-Upper-Deck-Stature-30-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "inCollection": true,
+              "serial_total": 249,
               "price": 14.66
             }
           ]
@@ -7647,7 +7683,8 @@
           "image_back": "img/cards/ML66/2010-11-Upper-Deck-Ultimate-Collection-43-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": false,
+          "serial_total": 399
         }
       ]
     },
@@ -7988,6 +8025,26 @@
               "inCollection": false
             }
           ]
+        },
+        {
+          "set_key": "2010-11-panini-certified-champions-mirror-red",
+          "set_name": "Champions Mirror Red",
+          "set_display_name": "2010-11 Panini Certified - Champions Mirror Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2010-11-panini-certified-champions-mirror-red-21",
+              "base_number": "21",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2010-11-Panini-Certified---Champions-Mirror-Red-21-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2010-11-Panini-Certified---Champions-Mirror-Red-21-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 250,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -8273,6 +8330,315 @@
               "team": "Team Canada",
               "inCollection": false,
               "serial_total": 399
+            }
+          ]
+        }
+      ]
+    },
+    "2015-16-upper-deck-the-cup": {
+      "set_key": "2015-16-upper-deck-the-cup",
+      "set_name": "Upper Deck The Cup",
+      "set_year_label": "2015-16",
+      "set_year_start": 2015,
+      "set_year_end": 2016,
+      "set_display_name": "2015-16 Upper Deck The Cup",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2015-16-upper-deck-the-cup-74",
+          "base_number": "74",
+          "serial_total": 249,
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2015-16-Upper-Deck-The-Cup-74-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2015-16-Upper-Deck-The-Cup-74-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        }
+      ]
+    },
+    "2016-17-upper-deck-black-diamond": {
+      "set_key": "2016-17-upper-deck-black-diamond",
+      "set_name": "Upper Deck Black Diamond",
+      "set_year_label": "2016-17",
+      "set_year_start": 2016,
+      "set_year_end": 2017,
+      "set_display_name": "2016-17 Upper Deck Black Diamond",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2016-17-upper-deck-black-diamond-bdb-ml",
+          "base_number": "BDB-ML",
+          "serial_total": 249,
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2016-17-Upper-Deck-Black-Diamond-BDB-ML-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2016-17-Upper-Deck-Black-Diamond-BDB-ML-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        }
+      ]
+    },
+    "2017-18-spx": {
+      "set_key": "2017-18-spx",
+      "set_name": "SPx",
+      "set_year_label": "2017-18",
+      "set_year_start": 2017,
+      "set_year_end": 2018,
+      "set_display_name": "2017-18 SPx",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2017-18-spx-21",
+          "base_number": "21",
+          "serial_total": 249,
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2017-18-SPx-21-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2017-18-SPx-21-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        }
+      ]
+    },
+    "2017-18-upper-deck-black-diamond": {
+      "set_key": "2017-18-upper-deck-black-diamond",
+      "set_name": "Upper Deck Black Diamond",
+      "set_year_label": "2017-18",
+      "set_year_start": 2017,
+      "set_year_end": 2018,
+      "set_display_name": "2017-18 Upper Deck Black Diamond",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2017-18-upper-deck-black-diamond-bdb-ml",
+          "base_number": "BDB-ML",
+          "serial_total": 249,
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2017-18-Upper-Deck-Black-Diamond-BDB-ML-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2017-18-Upper-Deck-Black-Diamond-BDB-ML-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        }
+      ]
+    },
+    "2017-18-upper-deck-the-cup": {
+      "set_key": "2017-18-upper-deck-the-cup",
+      "set_name": "Upper Deck The Cup",
+      "set_year_label": "2017-18",
+      "set_year_start": 2017,
+      "set_year_end": 2018,
+      "set_display_name": "2017-18 Upper Deck The Cup",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2017-18-upper-deck-the-cup-65",
+          "base_number": "65",
+          "serial_total": 249,
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2017-18-Upper-Deck-The-Cup-65-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2017-18-Upper-Deck-The-Cup-65-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        }
+      ]
+    },
+    "2018-19-upper-deck-black-diamond": {
+      "set_key": "2018-19-upper-deck-black-diamond",
+      "set_name": "Upper Deck Black Diamond",
+      "set_year_label": "2018-19",
+      "set_year_start": 2018,
+      "set_year_end": 2019,
+      "set_display_name": "2018-19 Upper Deck Black Diamond",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2018-19-upper-deck-black-diamond-bdb-ml",
+          "base_number": "BDB-ML",
+          "serial_total": 249,
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2018-19-Upper-Deck-Black-Diamond-BDB-ML-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2018-19-Upper-Deck-Black-Diamond-BDB-ML-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        }
+      ]
+    },
+    "2020-21-upper-deck-the-cup": {
+      "set_key": "2020-21-upper-deck-the-cup",
+      "set_name": "Upper Deck The Cup",
+      "set_year_label": "2020-21",
+      "set_year_start": 2020,
+      "set_year_end": 2021,
+      "set_display_name": "2020-21 Upper Deck The Cup",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2020-21-upper-deck-the-cup-25",
+          "base_number": "25",
+          "serial_total": 249,
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2020-21-Upper-Deck-The-Cup-25-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2020-21-Upper-Deck-The-Cup-25-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        }
+      ]
+    },
+    "2011-12-panini-limited": {
+      "set_key": "2011-12-panini-limited",
+      "set_name": "Panini Limited",
+      "set_year_label": "2011-12",
+      "set_year_start": 2011,
+      "set_year_end": 2012,
+      "set_display_name": "2011-12 Panini Limited",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2011-12-panini-limited-41",
+          "base_number": "41",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2011-12-Panini-Limited-41-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2011-12-Panini-Limited-41-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "serial_total": 299,
+          "inCollection": false
+        }
+      ]
+    },
+    "2013-14-panini-prime": {
+      "set_key": "2013-14-panini-prime",
+      "set_name": "Panini Prime",
+      "set_year_label": "2013-14",
+      "set_year_start": 2013,
+      "set_year_end": 2014,
+      "set_display_name": "2013-14 Panini Prime",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2013-14-panini-prime-76",
+          "base_number": "76",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2013-14-Panini-Prime-76-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2013-14-Panini-Prime-76-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "serial_total": 299,
+          "inCollection": false
+        }
+      ]
+    },
+    "2018-19-upper-deck-engrained": {
+      "set_key": "2018-19-upper-deck-engrained",
+      "set_name": "Upper Deck Engrained",
+      "set_year_label": "2018-19",
+      "set_year_start": 2018,
+      "set_year_end": 2019,
+      "set_display_name": "2018-19 Upper Deck Engrained",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2018-19-upper-deck-engrained-40",
+          "base_number": "40",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2018-19-Upper-Deck-Engrained-40-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2018-19-Upper-Deck-Engrained-40-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "serial_total": 299,
+          "inCollection": false
+        }
+      ]
+    },
+    "2024-25-upper-deck-black-diamond": {
+      "set_key": "2024-25-upper-deck-black-diamond",
+      "set_name": "Upper Deck Black Diamond",
+      "set_year_label": "2024-25",
+      "set_year_start": 2024,
+      "set_year_end": 2025,
+      "set_display_name": "2024-25 Upper Deck Black Diamond",
+      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/446293/2024-25-Upper-Deck-Black-Diamond",
+      "cards": [
+        {
+          "id": "ml-2024-25-upper-deck-black-diamond-bdb-ml",
+          "base_number": "BDB-ML",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/446293/cid/27155805/2024-25-Upper-Deck-Black-Diamond-BDB-ML-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "position": "Center",
+          "serial_total": 349,
+          "inCollection": false
+        }
+      ]
+    },
+    "2012-13-upper-deck-ultimate-collection": {
+      "set_key": "2012-13-upper-deck-ultimate-collection",
+      "set_name": "Upper Deck Ultimate Collection",
+      "set_year_label": "2012-13",
+      "set_year_start": 2012,
+      "set_year_end": 2013,
+      "set_display_name": "2012-13 Upper Deck Ultimate Collection",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2012-13-upper-deck-ultimate-collection-22",
+          "base_number": "22",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2012-13-Upper-Deck-Ultimate-Collection-22-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2012-13-Upper-Deck-Ultimate-Collection-22-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "serial_total": 399,
+          "inCollection": false
+        }
+      ]
+    },
+    "2013-14-panini-contenders": {
+      "set_key": "2013-14-panini-contenders",
+      "set_name": "Panini Contenders",
+      "set_year_label": "2013-14",
+      "set_year_start": 2013,
+      "set_year_end": 2014,
+      "set_display_name": "2013-14 Panini Contenders",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2013-14-panini-contenders-legacies",
+          "set_name": "Legacies",
+          "set_display_name": "2013-14 Panini Contenders - Legacies",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2013-14-panini-contenders-legacies-cl-8",
+              "base_number": "CL-8",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2013-14-Panini-Contenders---Legacies-CL-8-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2013-14-Panini-Contenders---Legacies-CL-8-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 499,
+              "inCollection": false
             }
           ]
         }
