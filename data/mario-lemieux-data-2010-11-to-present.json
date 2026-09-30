@@ -3927,8 +3927,8 @@
               "base_number": "131",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/2017-18-Upper-Deck-Artifacts-Ruby-131-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2017-18-Upper-Deck-Artifacts-Ruby-131-Mario-LemieuxBk.jpg",
+              "image_front": "img/cards/ML66/2017-18-Upper-Deck-Artifacts---Ruby-131-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2017-18-Upper-Deck-Artifacts---Ruby-131-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/158801/cid/10223908/2017-18-Upper-Deck-Artifacts-Ruby-131-Mario-Lemieux?PageIndex=2",
               "team": "Pittsburgh Penguins",
               "inCollection": true,
@@ -5654,8 +5654,8 @@
             {
               "id": "ml-2022-23-spx-radiance-fx-rfx3",
               "base_number": "RFX-3",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "",
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/386929/cid/22617810/2022-23-SPx-RFX-3-Mario-Lemieux",
@@ -5674,8 +5674,8 @@
             {
               "id": "ml-2022-23-spx-radiance-fx-blue-rfx3",
               "base_number": "RFX-3",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "",
               "image_back": "",
               "tcdb_href": "",
@@ -5694,8 +5694,8 @@
             {
               "id": "ml-2022-23-spx-radiance-fx-red-rfx3",
               "base_number": "RFX-3",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
               "image_front": "",
               "image_back": "",
               "tcdb_href": "",
@@ -6531,6 +6531,26 @@
               "team": "Pittsburgh Penguins",
               "inCollection": false,
               "serial_total": 849
+            }
+          ]
+        },
+        {
+          "set_key": "2023-24-upper-deck-synergy-cranked-up-blue",
+          "set_name": "Cranked Up Blue",
+          "set_display_name": "2023-24 Upper Deck Synergy - Cranked Up Blue",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-synergy-cranked-up-blue-crml",
+              "base_number": "CR-ML",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/435729/cid/24993298/2023-24-Upper-Deck-Synergy-Cranked-Up-Blue-CR-ML-Mario-Lemieux?PageIndex=1",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false,
+              "serial_total": 399
             }
           ]
         },

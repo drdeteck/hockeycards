@@ -4637,6 +4637,27 @@
               "price": 3.4
             }
           ]
+        },
+        {
+          "set_key": "2002-03-pacific-calder-silver",
+          "set_name": "Silver",
+          "set_type": "parallel",
+          "set_display_name": "2002-03 Pacific Calder - Silver",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-calder-silver-27",
+              "base_number": "27",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50554/cid/1727627/2002-03-Pacific-Calder-Silver-27-Mario-Lemieux?PageIndex=1",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 299,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },

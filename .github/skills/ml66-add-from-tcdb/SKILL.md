@@ -164,7 +164,6 @@ Use this field order (omit `price` if not available):
   "image_back": "img/cards/ML66/Chase/2002-03-Topps---Coast-to-Coast-CC1-Mario-LemieuxBk.jpg",
   "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50684/cid/1734485/2002-03-Topps-CC1-Mario-Lemieux",
   "team": "Pittsburgh Penguins",
-  "position": "Center",
   "inCollection": false,
   "price": 1.50
 }
@@ -173,7 +172,6 @@ Use this field order (omit `price` if not available):
 Hardcoded / defaulted values:
 - `orientation_front` / `orientation_back`: always `"portrait"`
 - `image_front` / `image_back`: populated with renamed Chase path if image was found in step 7; otherwise `""` 
-- `position`: always `"Center"` (Mario Lemieux only skill)
 - `inCollection`: `false` unless user specified `true`
 - `price`: float parsed from TCDB price; omit if not present on page
 
@@ -196,7 +194,7 @@ Hardcoded / defaulted values:
 
 ## Card Schema Reference
 Key ordering for card objects in all Mario Lemieux dataset files:
-`id`, `base_number`, `orientation_front`, `orientation_back`, `image_front`, `image_back`, `tcdb_href`, `team`, `position`, `inCollection`, `price` (optional)
+`id`, `base_number`, `orientation_front`, `orientation_back`, `image_front`, `image_back`, `tcdb_href`, `team`, `inCollection`, `price` (optional)
 
 For `mario-lemieux-data-gems.json` entries, also include `card_type` (e.g. `"memorabilia"` or `"autograph"`) before `orientation_front`. Use `serial_total` for serial-numbered cards instead of a numbered `card_type`.
 
