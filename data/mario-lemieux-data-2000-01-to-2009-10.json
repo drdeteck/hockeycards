@@ -5605,6 +5605,27 @@
               "price": 2.27
             }
           ]
+        },
+        {
+          "set_key": "2002-03-titanium-red",
+          "set_name": "Red",
+          "set_display_name": "2002-03 Pacific Private Stock Titanium - Red",
+          "set_type": "parallel",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-titanium-red-82",
+              "base_number": "82",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50593/cid/1730207/2002-03-Pacific-Private-Stock-Titanium-Red-82-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 299,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },

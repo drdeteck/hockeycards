@@ -35,6 +35,7 @@ Use this skill to fetch card metadata from a `tcdb.com/ViewCard.cfm/...` URL and
   - **Team**: from the team link (e.g. "Pittsburgh Penguins")
   - **Full set name**: from the page title or breadcrumb (e.g. "2002-03 Topps - Coast to Coast")
   - **Price**: from "Med. Price: $X.XX" (extract numeric value only, e.g. `1.50`)
+  - **Serial total**: when the card/set text contains an `SN<number>` serial marker (for example `SN299`), extract the numeric suffix as `serial_total: 299`; omit `serial_total` when no such marker is present
   - **Parent set SID**: from the "Overview" link in the Set Links section (`/ViewSet.cfm/sid/{parentSID}/...`)
   - **Subset SID**: the `{sid}` from the URL itself
   - **TCDB card href**: the full URL provided by the user
@@ -164,6 +165,7 @@ Use this field order (omit `price` if not available):
   "image_back": "img/cards/ML66/Chase/2002-03-Topps---Coast-to-Coast-CC1-Mario-LemieuxBk.jpg",
   "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50684/cid/1734485/2002-03-Topps-CC1-Mario-Lemieux",
   "team": "Pittsburgh Penguins",
+  "serial_total": 299,
   "inCollection": false,
   "price": 1.50
 }
@@ -173,6 +175,7 @@ Hardcoded / defaulted values:
 - `orientation_front` / `orientation_back`: always `"portrait"`
 - `image_front` / `image_back`: populated with renamed Chase path if image was found in step 7; otherwise `""` 
 - `inCollection`: `false` unless user specified `true`
+- `serial_total`: integer extracted from an `SN<number>` marker (for example `SN299` → `299`); omit when no serial marker is present. Do not include the `SN` prefix or use `variant_note` for this value
 - `price`: float parsed from TCDB price; omit if not present on page
 
 ### Step 9 — Validate and write
@@ -194,7 +197,7 @@ Hardcoded / defaulted values:
 
 ## Card Schema Reference
 Key ordering for card objects in all Mario Lemieux dataset files:
-`id`, `base_number`, `orientation_front`, `orientation_back`, `image_front`, `image_back`, `tcdb_href`, `team`, `inCollection`, `price` (optional)
+`id`, `base_number`, `orientation_front`, `orientation_back`, `image_front`, `image_back`, `tcdb_href`, `team`, `serial_total` (optional), `inCollection`, `price` (optional)
 
 For `mario-lemieux-data-gems.json` entries, also include `card_type` (e.g. `"memorabilia"` or `"autograph"`) before `orientation_front`. Use `serial_total` for serial-numbered cards instead of a numbered `card_type`.
 
