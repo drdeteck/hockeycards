@@ -25,7 +25,8 @@
                     "team": "Pittsburgh Penguins",
                     "variant_note": "with Duane Sutter",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": false,
+                    "price": 80
                 },
                 {
                     "id": "ml-sticker-1985-86-opc-stickers-97",
@@ -37,7 +38,8 @@
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": false,
+                    "price": 225
                 }
             ]
         },
@@ -120,7 +122,8 @@
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": false,
+                    "price": 10
                 }
             ]
         },
@@ -204,7 +207,8 @@
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": false,
+                    "price": 50
                 }
             ]
         },
@@ -227,7 +231,8 @@
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": false,
+                    "price": 5
                 }
             ]
         },
@@ -310,7 +315,8 @@
                     "team": "Pittsburgh Penguins",
                     "variant_note": "with Pat Verbeek",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": false,
+                    "price": 15
                 },
                 {
                     "id": "ml-sticker-1988-89-opc-stickers-82-211",
@@ -395,7 +401,8 @@
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": false,
+                    "price": 13
                 }
             ]
         },
@@ -582,6 +589,29 @@
                 }
             ]
         },
+        "1989-90-semic-hockey-vm-j-kiekon-mm": {
+            "set_key": "1989-90-semic-hockey-vm-j-kiekon-mm",
+            "set_name": "Semic Hockey VM J-kiekon MM Swedish Finnish Stickers",
+            "set_year_label": "1989-90",
+            "set_year_start": 1989,
+            "set_year_end": 1990,
+            "set_display_name": "1989-90 Semic Hockey VM J-kiekon MM Swedish Finnish Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1989-semic-hockey-vm-j-kiekon-mm-64",
+                    "base_number": "64",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1989-Semic-Hockey-VM-J-kiekon-MM-Swedish-Finnish-Stickers-64-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1989-Semic-Hockey-VM-J-kiekon-MM-Swedish-Finnish-Stickers-64-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
         "1989-90-topps-stickers": {
             "set_key": "1989-90-topps-stickers",
             "set_name": "Topps Stickers",
@@ -671,7 +701,8 @@
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": false,
+                    "price": 1.5
                 },
                 {
                     "id": "ml-sticker-1990-91-panini-stickers-326",
@@ -1119,6 +1150,29 @@
                 }
             ]
         },
+        "1993-94-semic-hockey-vm-j-kiekon-mm": {
+            "set_key": "1993-94-semic-hockey-vm-j-kiekon-mm",
+            "set_name": "Semic Hockey VM J-kiekon MM Swedish Finnish Stickers",
+            "set_year_label": "1993-94",
+            "set_year_start": 1993,
+            "set_year_end": 1994,
+            "set_display_name": "1993-94 Semic Hockey VM J-kiekon MM Swedish Finnish Stickers",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1993-semic-hockey-vm-j-kiekon-mm-198",
+                    "base_number": "198",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1993-Semic-Hockey-VM-J-kiekon-MM-Swedish-Finnish-Stickers-198-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1993-Semic-Hockey-VM-J-kiekon-MM-Swedish-Finnish-Stickers-198-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Canada",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
         "1994-95-hockey-wit": {
             "set_key": "1994-95-hockey-wit",
             "set_name": "Hockey Wit",
@@ -1256,7 +1310,8 @@
                     "team": "Pittsburgh Penguins",
                     "variant_note": "Die-Cut",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": false,
+                    "price": 8
                 }
             ]
         },
@@ -1304,6 +1359,49 @@
                     "team": "Pittsburgh Penguins",
                     "card_type": "sticker",
                     "inCollection": true
+                }
+            ]
+        },
+        "1995-96-semic-ice-hockey-finnish": {
+            "set_key": "1995-96-semic-ice-hockey-finnish",
+            "set_name": "Semic Ice Hockey Finnish",
+            "set_year_label": "1995-96",
+            "set_year_start": 1995,
+            "set_year_end": 1996,
+            "set_display_name": "1995-96 Semic Ice Hockey Finnish",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1995-semic-ice-hockey-finnish-93",
+                    "base_number": "93",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1995-Semic-Ice-Hockey-Finnish--93-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1995-Semic-Ice-Hockey-Finnish--93-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "inCollection": false
+                }
+            ]
+        },
+        "1995-96-semic-globe-vm-swedish": {
+            "set_key": "1995-96-semic-globe-vm-swedish",
+            "set_name": "Semic Globe VM Swedish",
+            "set_year_label": "1995-96",
+            "set_year_start": 1995,
+            "set_year_end": 1996,
+            "set_display_name": "1995-96 Semic Globe VM Swedish",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1995-semic-globe-vm-swedish-87",
+                    "base_number": "87",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1995-Semic-Globe-VM-Swedish--87-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1995-Semic-Globe-VM-Swedish--87-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Canada",
+                    "inCollection": false
                 }
             ]
         },

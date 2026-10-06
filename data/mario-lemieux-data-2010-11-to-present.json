@@ -1005,6 +1005,37 @@
         }
       ]
     },
+    "2012-13-upper-deck": {
+      "set_key": "2012-13-upper-deck",
+      "set_name": "Upper Deck",
+      "set_year_label": "2012-13",
+      "set_year_start": 2012,
+      "set_year_end": 2013,
+      "set_display_name": "2012-13 Upper Deck",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2012-13-upper-deck-silver-skates",
+          "set_name": "Silver Skates",
+          "set_display_name": "2012-13 Upper Deck - Silver Skates",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2012-13-upper-deck-silver-skates-ss37",
+              "base_number": "SS37",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2012-13-Upper-Deck---Silver-Skates-SS37-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2012-13-Upper-Deck---Silver-Skates-SS37-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2013-14-panini-boxing-day": {
       "set_key": "2013-14-panini-boxing-day",
       "set_name": "Panini Boxing Day",
@@ -3207,6 +3238,25 @@
               "team": "Team Canada",
               "inCollection": true,
               "price": 3.99
+            }
+          ]
+        },
+        {
+          "set_key": "2016-17-upper-deck-team-canada-juniors-program-of-excellence",
+          "set_name": "Program of Excellence",
+          "set_display_name": "2016-17 Upper Deck Team Canada Juniors - Program of Excellence",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2016-17-upper-deck-team-canada-juniors-program-of-excellence-poe-59",
+              "base_number": "POE-59",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2016-Upper-Deck-Team-Canada-Juniors---Program-of-Excellence-POE-59-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2016-Upper-Deck-Team-Canada-Juniors---Program-of-Excellence-POE-59-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Team Canada",
+              "inCollection": false
             }
           ]
         }
