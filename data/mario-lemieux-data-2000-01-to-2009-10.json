@@ -4652,10 +4652,11 @@
               "orientation_back": "portrait",
               "image_front": "",
               "image_back": "",
-              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50554/cid/1727627/2002-03-Pacific-Calder-Silver-27-Mario-Lemieux?PageIndex=1",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50554/cid/1727627/2002-03-Pacific-Calder-Silver-27-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "serial_total": 299,
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.25
             }
           ]
         }
