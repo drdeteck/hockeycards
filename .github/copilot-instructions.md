@@ -202,5 +202,9 @@ Mario Lemieux set keys have **no prefix** (e.g. `"1985-86-o-pee-chee"`), not `"m
 - Data files are loaded asynchronously via `fetch` in `app.js` during `HCHB.App.Init()`
 - Mario data is loaded from three runtime JSON files (`1985-86 to 1999-00`, `2000-01 to 2009-10`, and `2010-11 to present`) and merged in memory before collections are built
 - All UI is rendered via Knockout `data-bind` attributes and `<script type="text/html">` templates in `index.html`
+- Keep UI behavior in Knockout bindings and the ViewModel; avoid direct DOM manipulation.
+- `self.HandleRouteChange` processes hash navigation, and `self.MenuRows` builds navigation from the loaded collection data.
+- Follow the CSS custom-property conventions in `styles/style.css`; avoid inline styles unless necessary.
+- For local browser testing on Windows, run `.\_serve.ps1` and open `http://localhost:8080/`. This serves the static files; no build or dependency installation is needed.
 - Card front/back flipping is done with CSS 3D transforms (see `styles/card-detail.css`)
 - No local storage, no cookies, no user accounts — collection state is entirely defined in the data JSON files

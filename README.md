@@ -226,8 +226,3 @@ Stores dataset metadata plus a `sets` object across three split JSON files. Each
 | `self.MenuRows` | Computed array that generates the top navigation from `self.Data` |
 | `self.BuildCardRoute(card, collection)` | Returns the `#{setKey}/{cardKey}` hash for a card link |
 
----
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding cards, fixing bugs, and opening pull requests.
