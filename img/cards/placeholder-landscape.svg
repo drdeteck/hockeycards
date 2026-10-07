@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 350">
-  <rect width="250" height="350" fill="#16161D"/>
-  <rect x="8" y="8" width="234" height="334" fill="none" stroke="#FCB514" stroke-width="1" stroke-dasharray="5 3" opacity="0.35"/>
-  <svg x="70" y="110" width="110" height="95" viewBox="0 0 84.345436 73.071037">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 250">
+  <rect width="350" height="250" fill="#16161D"/>
+  <rect x="8" y="8" width="334" height="234" fill="none" stroke="#FCB514" stroke-width="1" stroke-dasharray="5 3" opacity="0.35"/>
+  <svg x="118" y="42" width="114" height="99" viewBox="0 0 84.345436 73.071037">
     <g transform="translate(-62.827276,-51.656527)">
       <g transform="translate(159.50638,-6.1168169)">
         <path fill="#ffffff" d="M 17.238301,49.675967 -6.6852452,24.933749 -30.60879,0.19153249 2.7803727,-8.1557568 36.169533,-16.503046 26.703917,16.586462 Z" transform="matrix(-0.85122222,0.88142731,-0.88142731,-0.85122222,-38.219717,84.915802)"/>
@@ -13,7 +13,5 @@
       <path fill="#000000" stroke="#ffffff" stroke-width="1.14886" d="m 103.28773,92.168544 -4.549744,4.011601 H 86.409649 L 81.859905,92.168544 V 61.787999 l 4.500822,-4.036063 h 12.303876 l 4.549747,4.036063 v 5.944019 h -7.118151 v -2.886396 h -7.142608 v 8.561345 h 9.784395 l 4.549744,3.987141 z m -7.215992,-3.082085 v -8.561345 h -7.118147 v 8.561345 z m 32.068352,3.082085 -4.54974,4.011601 h -12.32834 l -4.54974,-4.011601 V 61.787999 l 4.50082,-4.036063 h 12.30387 l 4.54975,4.036063 v 5.944019 h -7.11815 v -2.886396 h -7.14261 v 8.561345 h 9.7844 l 4.54974,3.987141 z m -7.21599,-3.082085 v -8.561345 h -7.11815 v 8.561345 z"/>
     </g>
   </svg>
-  <text x="125" y="295" text-anchor="middle"
-        font-family="Arial, Helvetica, sans-serif" font-size="13"
-        fill="rgba(255,255,255,0.35)" letter-spacing="3">NO IMAGE</text>
+  <text x="175" y="205" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="rgba(255,255,255,0.35)" letter-spacing="3">NO IMAGE</text>
 </svg>

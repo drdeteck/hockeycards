@@ -37,9 +37,8 @@ Each dataset is a JSON file loaded at runtime from `app.js`:
 | `data/mario-lemieux-data-2000-01-to-2009-10.json` | metadata + `sets` object | Mario Lemieux cards from 2000–01 through 2009–10 |
 | `data/mario-lemieux-data-2010-11-to-present.json` | metadata + `sets` object | Mario Lemieux cards from 2010–11 to present |
 | `data/mario-lemieux-data-stickers.json` | metadata + `sets` object | Mario Lemieux sticker cards (all years) |
-| `data/mario-lemieux-data-gems.json` | metadata + `sets` object | Mario Lemieux rare/numbered, memorabilia & autograph cards |
 | `data/96-97-cc-data.json` | set map (`{ [set_key]: Set }`) | 1996–97 Upper Deck Collector's Choice (412 cards) |
-| `data/other-cards.json` | set map (`{ [set_key]: Set }`) | Rookies & singles collections |
+| `data/single-cards.json` | set map (`{ [set_key]: Set }`) | Rookies & singles collections |
 
 ### JSON Formatting Convention
 
@@ -65,12 +64,14 @@ img/cards/
 ├── McD98-99/      ← McDonald's 1998-99
 ├── ML66/          ← All Mario Lemieux cards (multi-year, multi-brand)
 │   ├── Stickers/  ← Mario Lemieux sticker images (source: mario-stickers)
-│   └── Gems/      ← Mario Lemieux rare/numbered/memo/auto images (source: mario-gems)
 ├── CC96-97/       ← 1996-97 Collector's Choice (partial)
 └── Singles/       ← Rookie & other individual cards
 ```
 
 Each card has a front image and a back image. Paths are stored directly in the card object (e.g. `"image_front": "img/cards/McD91-92/56699-Mc-1Fr.jpg"`). Empty string means no image yet.
+
+- Build each image filename in this order: season label, set name, optional set variation, optional subset, collector number, and card player's name, followed by `Fr.jpg` for the front or `Bk.jpg` for the back. Join the season, set/variation, collector number, and player name with single hyphens. When a subset exists, put the literal `---` between the set/variation and subset; otherwise omit it. For example: `1994-95-Pinnacle---Gamers-GR8-Mike-ModanoFr.jpg`.
+- Sanitize the season, set/variation, subset, collector number, and player name by trimming whitespace, removing diacritics, replacing `&` with `and`, removing apostrophes and quotation marks, replacing runs of non-alphanumeric characters with a hyphen, collapsing repeated hyphens, and trimming hyphens from each part. Always use the card player's name, not a hard-coded player name.
 
 ### Placeholder Chase Images
 

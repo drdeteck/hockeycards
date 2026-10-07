@@ -1,7 +1,7 @@
 ---
 name: ml66-add-from-tcdb
 description: 'Fetch card metadata from a TCDB URL and write a new card entry into the correct Mario Lemieux dataset JSON, or move an existing card from Chase to Regular. Use when user says: "add a card from TCDB", "fetch card info from tcdb.com", "add this TCDB card", provides a tcdb.com/ViewCard.cfm URL, or says "move from chase to regular".'
-argument-hint: 'Provide the TCDB card URL (ViewCard.cfm). Cards default to the regular dataset by year; specify chase for Chase. Optionally override dataset (gems|stickers) and inCollection (default false).'
+argument-hint: 'Provide the TCDB card URL (ViewCard.cfm). Cards default to the regular dataset by year; specify chase for Chase. Optionally override dataset (stickers) and inCollection (default false).'
 user-invocable: true
 ---
 
@@ -11,7 +11,7 @@ Use this skill to fetch card metadata from a `tcdb.com/ViewCard.cfm/...` URL and
 
 ## Inputs
 - TCDB card URL (`https://www.tcdb.com/ViewCard.cfm/sid/{subsetSID}/cid/{cardID}/...`) — **required**
-- Target dataset hint: `chase`, `gems`, `stickers`, `regular` — optional; omitted target defaults to `regular` routed by year
+- Target dataset hint: `chase`, `stickers`, `regular` — optional; omitted target defaults to `regular` routed by year
 - `inCollection` value: `true` or `false` (default `false`) — optional
 
 ## Target Dataset Routing
@@ -19,7 +19,6 @@ Use this skill to fetch card metadata from a `tcdb.com/ViewCard.cfm/...` URL and
 |---|---|
 | Default (no hint) | `regular`, routed by year |
 | User says `chase` | `data/mario-lemieux-data-chase.json` |
-| User says `gems` | `data/mario-lemieux-data-gems.json` |
 | User says `stickers` | `data/mario-lemieux-data-stickers.json` |
 | User says `regular`, year < 2000 | `data/mario-lemieux-data-1985-86-to-1999-00.json` |
 | User says `regular`, 2000 ≤ year < 2010 | `data/mario-lemieux-data-2000-01-to-2009-10.json` |
@@ -80,7 +79,6 @@ Use this skill to fetch card metadata from a `tcdb.com/ViewCard.cfm/...` URL and
 ### Step 3 — Determine target dataset file
 - If no hint is given, **default to `regular`** and route by year: year < 2000 → `1985-86-to-1999-00.json`; 2000 ≤ year < 2010 → `2000-01-to-2009-10.json`; year ≥ 2010 → `2010-11-to-present.json`.
 - If user explicitly says `chase` → `mario-lemieux-data-chase.json`.
-- If user says `gems` → `mario-lemieux-data-gems.json`.
 - If user says `stickers` → `mario-lemieux-data-stickers.json`.
 - If user says `regular` → route by year using the same regular dataset mapping above.
 - Never ask about the dataset unless the user explicitly requests an unknown target.
@@ -198,8 +196,6 @@ Hardcoded / defaulted values:
 ## Card Schema Reference
 Key ordering for card objects in all Mario Lemieux dataset files:
 `id`, `base_number`, `orientation_front`, `orientation_back`, `image_front`, `image_back`, `tcdb_href`, `team`, `serial_total` (optional), `inCollection`, `price` (optional)
-
-For `mario-lemieux-data-gems.json` entries, also include `card_type` (e.g. `"memorabilia"` or `"autograph"`) before `orientation_front`. Use `serial_total` for serial-numbered cards instead of a numbered `card_type`.
 
 ## Expected Output To User
 - Which file was updated

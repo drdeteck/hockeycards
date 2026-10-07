@@ -22,13 +22,13 @@ window.HCHB = window.HCHB || {};
                 });
             };
 
-            var dataVersion = '0.2.6';
+            var dataVersion = '0.2.8';
             var mcdonaldsDataUrl = 'data/mcdonalds-data.json?ver=' + dataVersion;
             var marioEarlyDataUrl = 'data/mario-lemieux-data-1985-86-to-1999-00.json?ver=' + dataVersion;
             var marioMidDataUrl = 'data/mario-lemieux-data-2000-01-to-2009-10.json?ver=' + dataVersion;
             var marioLateDataUrl = 'data/mario-lemieux-data-2010-11-to-present.json?ver=' + dataVersion;
             var ccDataUrl = 'data/96-97-cc-data.json?ver=' + dataVersion;
-            var otherDataUrl = 'data/other-cards.json?ver=' + dataVersion;
+            var otherDataUrl = 'data/single-cards.json?ver=' + dataVersion;
             var stickerDataUrl = 'data/mario-lemieux-data-stickers.json?ver=' + dataVersion;
             var chaseDataUrl = 'data/mario-lemieux-data-chase.json?ver=' + dataVersion;
 
@@ -38,7 +38,7 @@ window.HCHB = window.HCHB || {};
                 loadJsonData(marioMidDataUrl, 'Mario dataset (2000-01 to 2009-10)'),
                 loadJsonData(marioLateDataUrl, 'Mario dataset (2010-11 to present)'),
                 loadJsonData(ccDataUrl, '96-97-CC dataset'),
-                loadJsonData(otherDataUrl, 'Other cards dataset'),
+                loadJsonData(otherDataUrl, 'Single cards dataset'),
                 loadJsonData(stickerDataUrl, 'Mario Lemieux stickers dataset'),
                 loadJsonData(chaseDataUrl, 'Mario Lemieux chase dataset')
             ]).then(function (datasets) {
@@ -81,9 +81,10 @@ window.HCHB = window.HCHB || {};
                 }
 
                 if (otherData) {
-                    mergedData = Object.assign(mergedData, otherData);
+                    var otherCollections = App.ViewModel.BuildOtherCollections(otherData, mergedData);
+                    mergedData = Object.assign(mergedData, otherCollections);
                 } else {
-                    console.warn('Other cards dataset not loaded. Expected JSON from data/other-cards.json');
+                    console.warn('Single cards dataset not loaded. Expected JSON from data/single-cards.json');
                 }
 
                 if (stickerData) {
@@ -627,6 +628,78 @@ function DataViewModel() {
         return result;
     };
 
+    self.BuildOtherCollections = function (otherData, existingCollections) {
+        var sets = (otherData && otherData.sets) || otherData || {};
+        var result = {};
+        var allCards = [];
+        var rookieCards = [];
+        var rookieCardIds = Object.create(null);
+
+        function addRookieCard(card) {
+            if (!card || card.isRookieCard !== true) { return; }
+            var cardId = (card.id || '').toString();
+            if (cardId && rookieCardIds[cardId]) { return; }
+            if (cardId) { rookieCardIds[cardId] = true; }
+            rookieCards.push(card);
+        }
+
+        Object.keys(existingCollections || {}).forEach(function (collectionKey) {
+            var collection = existingCollections[collectionKey];
+            if (!collection) { return; }
+            (collection.cards || []).forEach(addRookieCard);
+            (collection.subsets || []).forEach(function (subset) {
+                (subset.cards || []).forEach(addRookieCard);
+            });
+        });
+
+        Object.keys(sets).forEach(function (setKey) {
+            var setData = sets[setKey];
+            if (!setData) { return; }
+
+            result[setKey] = Object.assign({}, setData, { source: 'other-cards' });
+            (setData.cards || []).forEach(function (card) {
+                allCards.push(card);
+                addRookieCard(card);
+            });
+            (setData.subsets || []).forEach(function (subset) {
+                (subset.cards || []).forEach(function (card) {
+                    allCards.push(card);
+                    addRookieCard(card);
+                });
+            });
+        });
+
+        result.rookies = {
+            set_key: 'rookies',
+            set_name: 'Rookies',
+            set_year_label: 'All Years',
+            set_year_start: null,
+            set_year_end: null,
+            set_category: 'Other Cards',
+            set_display_name: 'Rookies',
+            menu_display_name: 'Rookies',
+            source: 'other-cards',
+            cards: rookieCards,
+            subsets: []
+        };
+
+        result['other-cool-cards'] = {
+            set_key: 'other-cool-cards',
+            set_name: 'Cool cards',
+            set_year_label: 'All Years',
+            set_year_start: null,
+            set_year_end: null,
+            set_category: 'Other Cards',
+            set_display_name: 'Cool cards',
+            menu_display_name: 'Cool cards',
+            source: 'other-cards',
+            cards: allCards.filter(function (card) { return card.isRookieCard !== true; }),
+            subsets: []
+        };
+
+        return result;
+    };
+
     self.BuildMarioCollections = function (marioData) {
         var sets = (marioData && marioData.sets) || {};
         var setKeys = Object.keys(sets);
@@ -778,6 +851,7 @@ function DataViewModel() {
             card_type: row.card_type || 'card',
             serial_total: row.serial_total || null,
             excludeFromBinder: !!(row.excludeFromBinder),
+            isRookieCard: row.isRookieCard === true,
             isMemorabilia: !!(row.isMemorabilia),
             isTooThickForBinder: !!(row.isTooThickForBinder),
             inCollection: !!(row.inCollection),
@@ -919,8 +993,6 @@ function DataViewModel() {
     self.CardRouteError = ko.observable('');
     self.ShowAllSetCards = ko.observable(false);
     self.CardImageFace = ko.observable('front');
-    self.ShowExportOverlay = ko.observable(false);
-    self.ExportCopied = ko.observable(false);
     self.CardFilenamePrefixCopied = ko.observable(false);
     self.BinderPageIndex = ko.observable(0);
     self.BinderSelectedYearKey = ko.observable('');
@@ -1199,7 +1271,7 @@ function DataViewModel() {
             return '';
         }
 
-        // Filename format: YYYY-YY-SETNAME---SUBSETNAME-COLLECTOR-Mario-Lemieux
+        // Filename format: YYYY-YY-SETNAME---SUBSETNAME-COLLECTOR-PLAYERNAME
         // The subset delimiter (---) is only added when the card has an insert/subset.
         var yearLabel = self.SanitizeFilenamePart(ctx.card.set_year_label || ctx.collection.set_year_label || 'YYYY-YY');
         var setNameParts = [ctx.card.set_name || ctx.collection.set_name || 'Unknown Set'];
@@ -1211,13 +1283,14 @@ function DataViewModel() {
         var setName = self.SanitizeFilenamePart(setNameParts.join(' - '));
         var subsetName = self.SanitizeFilenamePart(ctx.card.insert_subset || (ctx.insert && ctx.insert.set_name) || '');
         var collector = self.SanitizeFilenamePart(ctx.card.base_number || ctx.card.number || 'NNO');
+        var playerName = self.SanitizeFilenamePart(ctx.card.name || 'Unknown Player');
         var prefix = yearLabel + '-' + setName;
 
         if (subsetName) {
             prefix += '---' + subsetName;
         }
 
-        return prefix + '-' + collector + '-Mario-Lemieux';
+        return prefix + '-' + collector + '-' + playerName;
     });
 
     self.CardFilenameCopyTitle = ko.pureComputed(function () {
@@ -1287,14 +1360,6 @@ function DataViewModel() {
         }
 
         self.CardImageFace(self.CardImageFace() === 'front' ? 'back' : 'front');
-    };
-
-    self.ToggleExportOverlay = function () {
-        self.ShowExportOverlay(!self.ShowExportOverlay());
-    };
-
-    self.CloseExportOverlay = function () {
-        self.ShowExportOverlay(false);
     };
 
     self.NormalizeText = function (value) {
@@ -1604,6 +1669,40 @@ function DataViewModel() {
         });
         return allCards;
     };
+
+    self.CompareOtherCards = function (left, right) {
+        var leftYear = parseInt(left.set_year_start, 10) || self.GetSeasonStartYear(left.set_year_label) || 0;
+        var rightYear = parseInt(right.set_year_start, 10) || self.GetSeasonStartYear(right.set_year_label) || 0;
+        if (leftYear !== rightYear) { return leftYear - rightYear; }
+
+        var setCompare = (left.set_name || '').toString().localeCompare(
+            (right.set_name || '').toString(), undefined, { sensitivity: 'base' }
+        );
+        if (setCompare !== 0) { return setCompare; }
+
+        var subsetCompare = (left.insert_subset || '').toString().localeCompare(
+            (right.insert_subset || '').toString(), undefined, { sensitivity: 'base' }
+        );
+        if (subsetCompare !== 0) { return subsetCompare; }
+
+        return (left.base_number || '').toString().localeCompare(
+            (right.base_number || '').toString(),
+            undefined,
+            { numeric: true, sensitivity: 'base' }
+        );
+    };
+
+    self.CurrentRookieCards = ko.pureComputed(function () {
+        var collection = self.CurrentCollection();
+        if (!collection || collection.set_key !== 'rookies') { return []; }
+        return (collection.cards || []).slice().sort(self.CompareOtherCards);
+    });
+
+    self.CurrentOtherCoolCards = ko.pureComputed(function () {
+        var collection = self.CurrentCollection();
+        if (!collection || collection.set_key !== 'other-cool-cards') { return []; }
+        return (collection.cards || []).slice().sort(self.CompareOtherCards);
+    });
 
     var MARIO_ALL_SET_KEYS = ['ML-all', 'ML-stickers-all', 'ML-chase-all'];
 
@@ -1997,10 +2096,18 @@ function DataViewModel() {
 
     // helper used by the card template to pick an image URL
     // (template uses $root.ParseImageUri so it must live on the root viewmodel)
-    self.ParseImageUri = function (card) {
-        var placeholder = 'img/cards/placeholder.svg';
+    self.PlaceholderImageUri = function (card, face) {
+        if (!card) return 'img/cards/placeholder.svg';
+        var imageFace = face || (card.default_face === 'back' ? 'back' : 'front');
+        var orientation = imageFace === 'back' ? card.orientation_back : card.orientation_front;
+        return orientation === 'landscape' ? 'img/cards/placeholder-landscape.svg' : 'img/cards/placeholder.svg';
+    };
+
+    self.ParseImageUri = function (card, face) {
+        var imageFace = face || (card && card.default_face === 'back' ? 'back' : 'front');
+        var placeholder = self.PlaceholderImageUri(card, imageFace);
         if (!card) return placeholder;
-        if (card.default_face === 'back') return card.image_back || card.image_front || placeholder;
+        if (imageFace === 'back') return card.image_back || card.image_front || placeholder;
         return card.image_front || card.image_back || placeholder;
     };
 
@@ -2108,6 +2215,13 @@ function DataViewModel() {
         }
 
         var col = self.CurrentCollection();
+        if (col && col.set_key === 'other-cool-cards') {
+            var year = (card.set_year_label || '').toString().trim();
+            var setName = self.GetGridCardSetName(card);
+            var subsetName = (card.insert_subset || '').toString().trim();
+            return [year, setName, subsetName].filter(function (part) { return !!part; }).join(' · ');
+        }
+
         if (!col || !self.IsMarioSource(col.source)) {
             // For McDonald's cards, return subset only (or empty if no subset)
             var subset = (card.insert_subset || '').toString().trim();
@@ -2200,92 +2314,6 @@ function DataViewModel() {
         return 'https://www.ebay.ca/sch/i.html?_nkw=' + encodeURIComponent(parts.join(' ')) + '&_sacat=212';
     };
 
-    // Returns the eBay search query string for a card (year+set + subset + number + name)
-    self.GetEbaySearchText = function (card) {
-        if (!card) { return ''; }
-        var parts = [];
-        var displayName = (card.set_display_name || card.set_name || '').toString().trim();
-        var insertSubset = (card.insert_subset || '').toString().trim();
-        var baseNumber = (card.base_number || card.number || '').toString().trim();
-        var name = (card.name || '').toString().trim();
-        if (displayName) { parts.push(displayName); }
-        if (insertSubset) { parts.push(insertSubset); }
-        if (baseNumber) { parts.push(baseNumber); }
-        if (name) { parts.push(name); }
-        return parts.join(' ');
-    };
-
-    // Flat list of all cards currently visible in the collection grid
-    self.CurrentViewCards = ko.pureComputed(function () {
-        var collection = self.CurrentCollection();
-        if (!collection) { return []; }
-
-        var cards = [];
-
-        if (collection.set_key === 'ML-all') {
-            self.CurrentCollectionYearGroups().forEach(function (group) {
-                (group.cards || []).forEach(function (card) { cards.push(card); });
-            });
-            return cards;
-        }
-
-        if (self.IsMLYearView()) {
-            self.CurrentCollectionYearSetGroups().forEach(function (group) {
-                (group.cards || []).forEach(function (card) { cards.push(card); });
-            });
-            return cards;
-        }
-
-        (collection.cards || []).forEach(function (card) { cards.push(card); });
-        (collection.subsets || []).forEach(function (subset) {
-            (subset.cards || []).forEach(function (card) { cards.push(card); });
-        });
-        return cards;
-    });
-
-    // Text content for the export overlay: one eBay search line per card
-    // When the collection overlay is active (mode !== 'off'), only export cards not in collection
-    self.ExportCurrentViewText = ko.pureComputed(function () {
-        var mode = self.CollectionOverlayMode();
-        var cards = self.CurrentViewCards();
-        if (mode !== 'off') {
-            cards = cards.filter(function (card) { return !card.inCollection; });
-        }
-        return cards
-            .map(function (card) { return self.GetEbaySearchText(card); })
-            .filter(function (line) { return !!line; })
-            .join('\n');
-    });
-
-    self.ExportCurrentViewCount = ko.pureComputed(function () {
-        var text = self.ExportCurrentViewText();
-        return text ? text.split('\n').length : 0;
-    });
-
-    self.CopyExportText = function () {
-        var text = self.ExportCurrentViewText();
-        if (!text) { return; }
-
-        var onCopied = function () {
-            self.ExportCopied(true);
-            setTimeout(function () { self.ExportCopied(false); }, 2000);
-        };
-
-        var fallbackCopy = function () {
-            var textarea = document.getElementById('export-textarea');
-            if (textarea) {
-                textarea.select();
-                try { document.execCommand('copy'); onCopied(); } catch (e) { }
-            }
-        };
-
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-            navigator.clipboard.writeText(text).then(onCopied, fallbackCopy);
-        } else {
-            fallbackCopy();
-        }
-    };
-
     self.CopyCardImageFilenamePrefix = function () {
         var text = self.CardImageFilenamePrefix();
         if (!text) {
@@ -2372,6 +2400,7 @@ function DataViewModel() {
 
         Object.values(data).forEach(function (set) {
             if (!set) { return; }
+            if (set.set_key === 'rookies' || set.set_key === 'other-cool-cards') { return; }
             // Virtual collections are alternate views of cards already counted elsewhere.
             if (set.source === 'mario-serial' || set.source === 'mario-memorabilia') { return; }
             // For Mario virtual collections, only count from ML-all to avoid double-counting
@@ -2437,7 +2466,7 @@ function DataViewModel() {
             var currentKey = (self.CurrentCollectionKey() || '').toString().toLowerCase();
             if (/^ml(-|$)/.test(currentKey)) {
                 activeRowName = 'Mario Lemieux';
-            } else if (currentKey === '96-97-cc' || currentKey.indexOf('other-') === 0) {
+            } else if (currentKey === '96-97-cc' || currentKey.indexOf('singles-') === 0) {
                 activeRowName = 'Other Sets';
             }
         }
@@ -2475,7 +2504,7 @@ function DataViewModel() {
             return itm && itm.source === 'mario-chase' && itm.set_key === 'ML-chase-all';
         });
         var marioProjectItems = items.filter(function (itm) {
-            return itm && (itm.source === '96-97-CC' || itm.source === 'other-cards');
+            return itm && (itm.source === '96-97-CC' || (itm.source === 'other-cards' && (itm.set_key === 'rookies' || itm.set_key === 'other-cool-cards')));
         });
 
         var groups = [];
@@ -2769,7 +2798,7 @@ function DataViewModel() {
 
         // if the hash looks like a collection key, update selection too
         if (hash !== 'home' && hash !== 'about' && !isBinderRoute) {
-            self.CurrentCollectionKey(hash);
+            self.CurrentCollectionKey(hash.toLowerCase() === 'rookie' ? 'rookies' : hash);
         }
 
         var savedScroll = window.history && window.history.state;

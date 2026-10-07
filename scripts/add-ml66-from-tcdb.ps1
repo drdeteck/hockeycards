@@ -6,7 +6,7 @@ param(
     [string[]]$URLs,
     
     [Parameter(Mandatory = $false)]
-    [ValidateSet("2000-01-to-present", "1985-86-to-1999-00", "gems", "stickers", "chase")]
+    [ValidateSet("2000-01-to-present", "1985-86-to-1999-00", "stickers", "chase")]
     [string]$TargetDataset = "chase"
 )
 

@@ -13,7 +13,6 @@ A static single-page web application for browsing a personal hockey card collect
 | **McDonald's All-Stars** | 1991-92 through 1998-99 (Upper Deck promotionals, with inserts/holograms) | ~325 |
 | **Mario Lemieux** | 1985-86 rookie through late 1990s (multi-brand) | ~67 |
 | **Mario Lemieux — Stickers** | O-Pee-Chee and Topps sticker sets (all years) | varies |
-| **Mario Lemieux — Gems** | Rare numbered, memorabilia & autograph cards (all years) | varies |
 
 ---
 
@@ -56,7 +55,7 @@ hockeycards/
 │   ├── mario-lemieux-data-2000-01-to-2009-10.json # Mario Lemieux cards (2000-01 to 2009-10)
 │   ├── mario-lemieux-data-2010-11-to-present.json # Mario Lemieux cards (2010-11 to present)
 │   ├── 96-97-cc-data.json      # 1996-97 Collector's Choice
-│   └── other-cards.json        # Other cards / singles
+│   └── single-cards.json       # Singles
 ├── img/
 │   └── cards/
 │       ├── McD91-92/       # Card images for each McDonald's set

@@ -1,0 +1,471 @@
+{
+  "singles-1990-91-score-canadian": {
+    "set_key": "singles-1990-91-score-canadian",
+    "set_name": "Score",
+    "set_variation": "Canadian",
+    "set_year_label": "1990-91",
+    "set_year_start": 1990,
+    "set_year_end": 1991,
+    "set_display_name": "1990-91 Score (Canadian)",
+    "set_category": "Singles",
+    "set_tcdb_href": "",
+    "source": "other-cards",
+    "cards": [
+      {
+        "id": "other-1990-91-score-canadian-440",
+        "name": "Eric Lindros",
+        "base_number": "440",
+        "team": "Oshawa Generals",
+        "orientation_front": "portrait",
+        "orientation_back": "landscape",
+        "variant_note": "Rookie",
+        "image_front": "img/cards/Singles/1990-91-Score-Canadian-440-Eric-LindrosFr.jpg",
+        "image_back": "img/cards/Singles/1990-91-Score-Canadian-440-Eric-LindrosBk.jpg",
+        "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/8813/cid/1191523/1990-91-Score-Canadian-440-Eric-Lindros",
+        "isRookieCard": true,
+        "inCollection": true
+      }
+    ],
+    "subsets": []
+  },
+  "singles-1991-92-upper-deck": {
+    "set_key": "singles-1991-92-upper-deck",
+    "set_name": "Upper Deck",
+    "set_year_label": "1991-92",
+    "set_year_start": 1991,
+    "set_year_end": 1992,
+    "set_display_name": "1991-92 Upper Deck",
+    "set_category": "Singles",
+    "set_tcdb_href": "",
+    "source": "other-cards",
+    "cards": [],
+    "subsets": [
+      {
+        "set_key": "singles-1991-92-upper-deck-french",
+        "set_name": "French",
+        "set_display_name": "French",
+        "set_tcdb_href": "",
+        "cards": [
+          {
+            "id": "other-1991-92-upper-deck-64",
+            "name": "Peter Forsberg",
+            "base_number": "64",
+            "team": "Philadelphia Flyers",
+            "orientation_front": "portrait",
+            "orientation_back": "portrait",
+            "variant_note": "Rookie",
+            "image_front": "img/cards/Singles/1991-92-Upper-Deck---French-64-Peter-ForsbergFr.jpg",
+            "image_back": "img/cards/Singles/1991-92-Upper-Deck---French-64-Peter-ForsbergBk.jpg",
+            "tcdb_href": "",
+            "isRookieCard": true,
+            "inCollection": true
+          },
+          {
+            "id": "other-1991-92-upper-deck-french-21",
+            "name": "Teemu Selanne",
+            "base_number": "21",
+            "team": "Winnipeg Jets",
+            "orientation_front": "portrait",
+            "orientation_back": "portrait",
+            "variant_note": "Rookie",
+            "image_front": "img/cards/Singles/1991-92-Upper-Deck---French-21-Teemu-SelanneFr.jpg",
+            "image_back": "img/cards/Singles/1991-92-Upper-Deck---French-21-Teemu-SelanneBk.jpg",
+            "tcdb_href": "",
+            "isRookieCard": true,
+            "inCollection": true
+          }
+        ]
+      }
+    ]
+  },
+  "singles-1994-95-pinnacle": {
+    "set_key": "singles-1994-95-pinnacle",
+    "set_name": "Pinnacle",
+    "set_year_label": "1994-95",
+    "set_year_start": 1994,
+    "set_year_end": 1995,
+    "set_display_name": "1994-95 Pinnacle",
+    "set_category": "Singles",
+    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5046/1994-95-Pinnacle-Gamers",
+    "source": "other-cards",
+    "cards": [],
+    "subsets": [
+      {
+        "set_key": "singles-1994-95-pinnacle-gamers",
+        "set_name": "Gamers",
+        "set_display_name": "Gamers",
+        "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5049/1994-95-Pinnacle-Gamers",
+        "cards": [
+          {
+            "id": "other-1994-95-pinnacle-gamers-gr8",
+            "name": "Mike Modano",
+            "base_number": "GR8",
+            "team": "Dallas Stars",
+            "orientation_front": "landscape",
+            "orientation_back": "portrait",
+            "image_front": "img/cards/Singles/1994-95-Pinnacle---Gamers-GR8-Mike-ModanoFr.jpg",
+            "image_back": "img/cards/Singles/1994-95-Pinnacle---Gamers-GR8-Mike-ModanoBk.jpg",
+            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5049/cid/1592419/1994-95-Pinnacle-Gamers-GR8-Mike-Modano",
+            "inCollection": true
+          }
+        ]
+      }
+    ]
+  },
+  "singles-1995-96-finest": {
+    "set_key": "singles-1995-96-finest",
+    "set_name": "Finest",
+    "set_year_label": "1995-96",
+    "set_year_start": 1995,
+    "set_year_end": 1996,
+    "set_display_name": "1995-96 Finest",
+    "set_category": "Singles",
+    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5140/1995-96-Finest",
+    "source": "other-cards",
+    "cards": [
+      {
+        "id": "other-1995-96-finest-5",
+        "name": "Wayne Gretzky",
+        "base_number": "5",
+        "team": "St. Louis Blues",
+        "orientation_front": "portrait",
+        "orientation_back": "portrait",
+        "image_front": "img/cards/Singles/1995-96-Finest-5-Wayne-GretzkyFr.jpg",
+        "image_back": "img/cards/Singles/1995-96-Finest-5-Wayne-GretzkyBk.jpg",
+        "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5140/cid/1219030/1995-96-Finest-5-Wayne-Gretzky",
+        "inCollection": true
+      },
+      {
+        "id": "other-1995-96-finest-177",
+        "name": "Mats Sundin",
+        "base_number": "177",
+        "team": "Toronto Maple Leafs",
+        "orientation_front": "portrait",
+        "orientation_back": "portrait",
+        "image_front": "img/cards/Singles/1995-96-Finest-177-Mats-SundinFr.jpg",
+        "image_back": "img/cards/Singles/1995-96-Finest-177-Mats-SundinBk.jpg",
+        "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5140/cid/1219202/1995-96-Finest-177-Mats-Sundin",
+        "inCollection": true
+      }
+    ],
+    "subsets": []
+  },
+  "singles-1995-96-score-summit": {
+    "set_key": "singles-1995-96-score-summit",
+    "set_name": "Score Summit",
+    "set_year_label": "1995-96",
+    "set_year_start": 1995,
+    "set_year_end": 1996,
+    "set_display_name": "1995-96 Score Summit",
+    "set_category": "Singles",
+    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5198/1995-96-Score-Summit-Ice",
+    "source": "other-cards",
+    "cards": [],
+    "subsets": [
+      {
+        "set_key": "singles-1995-96-score-summit-ice",
+        "set_name": "Ice",
+        "set_display_name": "Ice",
+        "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/48535/1995-96-Score-Summit-Ice",
+        "cards": [
+          {
+            "id": "other-1995-96-score-summit-ice-122",
+            "name": "Chris Osgood",
+            "base_number": "122",
+            "team": "Detroit Red Wings",
+            "orientation_front": "portrait",
+            "orientation_back": "portrait",
+            "image_front": "img/cards/Singles/1995-96-Score-Summit---Ice-122-Chris-OsgoodFr.jpg",
+            "image_back": "img/cards/Singles/1995-96-Score-Summit---Ice-122-Chris-OsgoodBk.jpg",
+            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48535/cid/1599925/1995-96-Score-Summit-Ice-122-Chris-Osgood",
+            "inCollection": true
+          }
+        ]
+      }
+    ]
+  },
+  "singles-1996-97-select-certified": {
+    "set_key": "singles-1996-97-select-certified",
+    "set_name": "Select Certified",
+    "set_year_label": "1996-97",
+    "set_year_start": 1996,
+    "set_year_end": 1997,
+    "set_display_name": "1996-97 Select Certified",
+    "set_category": "Singles",
+    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5244/1996-97-Select-Certified-Mirror-Red",
+    "source": "other-cards",
+    "cards": [],
+    "subsets": [
+      {
+        "set_key": "singles-1996-97-select-certified-mirror-red",
+        "set_name": "Mirror Red",
+        "set_display_name": "Mirror Red",
+        "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/48607/1996-97-Select-Certified-Mirror-Red",
+        "cards": [
+          {
+            "id": "other-1996-97-select-certified-mirror-red-50",
+            "name": "Doug Weight",
+            "base_number": "50",
+            "team": "Edmonton Oilers",
+            "orientation_front": "portrait",
+            "orientation_back": "portrait",
+            "image_front": "img/cards/Singles/1996-97-Select-Certified---Mirror-Red-50-Doug-WeightFr.jpg",
+            "image_back": "img/cards/Singles/1996-97-Select-Certified---Mirror-Red-50-Doug-WeightBk.jpg",
+            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48607/cid/1607954/1996-97-Select-Certified-Mirror-Red-50-Doug-Weight",
+            "inCollection": true
+          }
+        ]
+      }
+    ]
+  },
+  "singles-1996-97-topps-nhl-picks": {
+    "set_key": "singles-1996-97-topps-nhl-picks",
+    "set_name": "Topps NHL Picks",
+    "set_year_label": "1996-97",
+    "set_year_start": 1996,
+    "set_year_end": 1997,
+    "set_display_name": "1996-97 Topps NHL Picks",
+    "set_category": "Singles",
+    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5343/1996-97-Topps-NHL-Picks-Fantasy-Team",
+    "source": "other-cards",
+    "cards": [],
+    "subsets": [
+      {
+        "set_key": "singles-1996-97-topps-nhl-picks-fantasy-team",
+        "set_name": "Fantasy Team",
+        "set_display_name": "Fantasy Team",
+        "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5344/1996-97-Topps-NHL-Picks-Fantasy-Team",
+        "cards": [
+          {
+            "id": "other-1996-97-topps-nhl-picks-fantasy-team-ft14",
+            "name": "Jaromir Jagr",
+            "base_number": "FT14",
+            "team": "Pittsburgh Penguins",
+            "orientation_front": "portrait",
+            "orientation_back": "portrait",
+            "image_front": "img/cards/Singles/1996-97-Topps-NHL-Picks---Fantasy-Team-FT14-Jaromir-JagrFr.jpg",
+            "image_back": "img/cards/Singles/1996-97-Topps-NHL-Picks---Fantasy-Team-FT14-Jaromir-JagrBk.jpg",
+            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5344/cid/1609271/1996-97-Topps-NHL-Picks-Fantasy-Team-FT14-Jaromir-Jagr",
+            "inCollection": true
+          }
+        ]
+      }
+    ]
+  },
+  "singles-1996-97-upper-deck": {
+    "set_key": "singles-1996-97-upper-deck",
+    "set_name": "Upper Deck",
+    "set_year_label": "1996-97",
+    "set_year_start": 1996,
+    "set_year_end": 1997,
+    "set_display_name": "1996-97 Upper Deck",
+    "set_category": "Singles",
+    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5356/1996-97-Upper-Deck-Lord-Stanley-s-Heroes-Semifinals",
+    "source": "other-cards",
+    "cards": [],
+    "subsets": [
+      {
+        "set_key": "singles-1996-97-upper-deck-lord-stanleys-heroes-semifinals",
+        "set_name": "Lord Stanley's Heroes Semifinals",
+        "set_display_name": "Lord Stanley's Heroes Semifinals",
+        "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/48626/1996-97-Upper-Deck-Lord-Stanley-s-Heroes-Semifinals",
+        "cards": [
+          {
+            "id": "other-1996-97-upper-deck-lord-stanleys-heroes-semifinals-ls4",
+            "name": "Jaromir Jagr",
+            "base_number": "LS4",
+            "team": "Pittsburgh Penguins",
+            "orientation_front": "portrait",
+            "orientation_back": "portrait",
+            "image_front": "img/cards/Singles/1996-97-Upper-Deck---Lord-Stanleys-Heroes-Semifinals-LS4-Jaromir-JagrFr.jpg",
+            "image_back": "img/cards/Singles/1996-97-Upper-Deck---Lord-Stanleys-Heroes-Semifinals-LS4-Jaromir-JagrBk.jpg",
+            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48626/cid/1609834/1996-97-Upper-Deck-Lord-Stanley-s-Heroes-Semifinals-LS4-Jaromir-Jagr",
+            "serial_total": 1000,
+            "inCollection": true
+          }
+        ]
+      }
+    ]
+  },
+  "singles-1997-98-spx": {
+    "set_key": "singles-1997-98-spx",
+    "set_name": "SPx",
+    "set_year_label": "1997-98",
+    "set_year_start": 1997,
+    "set_year_end": 1998,
+    "set_display_name": "1997-98 SPx",
+    "set_category": "Singles",
+    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5466/1997-98-SPx",
+    "source": "other-cards",
+    "cards": [
+      {
+        "id": "other-1997-98-spx-21",
+        "name": "Ed Jovanovski",
+        "base_number": "21",
+        "team": "Florida Panthers",
+        "orientation_front": "landscape",
+        "orientation_back": "landscape",
+        "image_front": "img/cards/Singles/1997-98-SPx-21-Ed-JovanovskiFr.jpg",
+        "image_back": "img/cards/Singles/1997-98-SPx-21-Ed-JovanovskiBk.jpg",
+        "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5466/cid/1236956/1997-98-SPx-21-Ed-Jovanovski",
+        "inCollection": true
+      }
+    ],
+    "subsets": []
+  },
+  "singles-1998-99-spx-finite": {
+    "set_key": "singles-1998-99-spx-finite",
+    "set_name": "SPx Finite",
+    "set_year_label": "1998-99",
+    "set_year_start": 1998,
+    "set_year_end": 1999,
+    "set_display_name": "1998-99 SPx Finite",
+    "set_category": "Singles",
+    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5504/1998-99-SPx-Finite",
+    "source": "other-cards",
+    "cards": [
+      {
+        "id": "other-1998-99-spx-finite-spx99",
+        "name": "Wayne Gretzky",
+        "base_number": "SPX99",
+        "team": "New York Rangers",
+        "orientation_front": "landscape",
+        "orientation_back": "landscape",
+        "image_front": "img/cards/Singles/1998-99-SPx-Finite-SPX99-Wayne-GretzkyFr.jpg",
+        "image_back": "img/cards/Singles/1998-99-SPx-Finite-SPX99-Wayne-GretzkyBk.jpg",
+        "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5504/cid/1244081/1998-99-SPx-Finite-SPX99-Wayne-Gretzky",
+        "inCollection": true
+      }
+    ],
+    "subsets": []
+  },
+  "singles-2011-12-panini-prime": {
+    "set_key": "singles-2011-12-panini-prime",
+    "set_name": "Panini Prime",
+    "set_year_label": "2011-12",
+    "set_year_start": 2011,
+    "set_year_end": 2012,
+    "set_display_name": "2011-12 Panini Prime",
+    "set_category": "Singles",
+    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/70778/2011-12-Panini-Prime-Prime-Signatures-Holosilver",
+    "source": "other-cards",
+    "cards": [],
+    "subsets": [
+      {
+        "set_key": "singles-2011-12-panini-prime-prime-signatures-holosilver",
+        "set_name": "Prime Signatures Holosilver",
+        "set_display_name": "Prime Signatures Holosilver",
+        "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/72393/2011-12-Panini-Prime-Prime-Signatures-Holosilver",
+        "cards": [
+          {
+            "id": "other-2011-12-panini-prime-prime-signatures-holosilver-57",
+            "name": "Sean Couturier",
+            "base_number": "57",
+            "team": "Philadelphia Flyers",
+            "orientation_front": "portrait",
+            "orientation_back": "portrait",
+            "image_front": "img/cards/Singles/2011-12-Panini-Prime---Prime-Signatures-Holosilver-57-Sean-CouturierFr.jpg",
+            "image_back": "img/cards/Singles/2011-12-Panini-Prime---Prime-Signatures-Holosilver-57-Sean-CouturierBk.jpg",
+            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/72393/cid/5188903/2011-12-Panini-Prime-Prime-Signatures-Holosilver-57-Sean-Couturier",
+            "serial_total": 25,
+            "inCollection": true
+          }
+        ]
+      }
+    ]
+  },
+  "singles-2020-21-upper-deck-black-diamond": {
+    "set_key": "singles-2020-21-upper-deck-black-diamond",
+    "set_name": "Upper Deck Black Diamond",
+    "set_year_label": "2020-21",
+    "set_year_start": 2020,
+    "set_year_end": 2021,
+    "set_display_name": "2020-21 Upper Deck Black Diamond",
+    "set_category": "Singles",
+    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/238908/2020-21-Upper-Deck-Black-Diamond-Winter-Classic-Memories",
+    "source": "other-cards",
+    "cards": [],
+    "subsets": [
+      {
+        "set_key": "singles-2020-21-upper-deck-black-diamond-winter-classic-memories",
+        "set_name": "Winter Classic Memories",
+        "set_display_name": "Winter Classic Memories",
+        "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/264610/2020-21-Upper-Deck-Black-Diamond-Winter-Classic-Memories",
+        "cards": [
+          {
+            "id": "other-2020-21-upper-deck-black-diamond-winter-classic-memories-wc-vt",
+            "name": "Vladimir Tarasenko",
+            "base_number": "WC-VT",
+            "team": "St. Louis Blues",
+            "orientation_front": "portrait",
+            "orientation_back": "portrait",
+            "image_front": "img/cards/Singles/2020-21-Upper-Deck-Black-Diamond---Winter-Classic-Memories-WC-VT-Vladimir-TarasenkoFr.jpg",
+            "image_back": "img/cards/Singles/2020-21-Upper-Deck-Black-Diamond---Winter-Classic-Memories-WC-VT-Vladimir-TarasenkoBk.jpg",
+            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/264610/cid/16260122/2020-21-Upper-Deck-Black-Diamond-Winter-Classic-Memories-WC-VT-Vladimir-Tarasenko",
+            "inCollection": true
+          }
+        ]
+      }
+    ]
+  },
+  "singles-2024-25-spx": {
+    "set_key": "singles-2024-25-spx",
+    "set_name": "SPx",
+    "set_year_label": "2024-25",
+    "set_year_start": 2024,
+    "set_year_end": 2025,
+    "set_display_name": "2024-25 SPx",
+    "set_category": "Singles",
+    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/457204/2024-25-SPx-Game-Film",
+    "source": "other-cards",
+    "cards": [],
+    "subsets": [
+      {
+        "set_key": "singles-2024-25-spx-game-film",
+        "set_name": "Game Film",
+        "set_display_name": "Game Film",
+        "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/504277/2024-25-SPx-Game-Film",
+        "cards": [
+          {
+            "id": "other-2024-25-spx-game-film-gf-15",
+            "name": "Quinn Hughes",
+            "base_number": "GF-15",
+            "team": "Vancouver Canucks",
+            "orientation_front": "portrait",
+            "orientation_back": "portrait",
+            "image_front": "img/cards/Singles/2024-25-SPx---Game-Film-GF-15-Quinn-HughesFr.jpg",
+            "image_back": "img/cards/Singles/2024-25-SPx---Game-Film-GF-15-Quinn-HughesBk.jpg",
+            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/504277/cid/28543527/2024-25-SPx-Game-Film-GF-15-Quinn-Hughes",
+            "inCollection": true
+          }
+        ]
+      }
+    ]
+  },
+  "singles-2025-26-upper-deck-x-ovo-x-hockey-canada": {
+    "set_key": "singles-2025-26-upper-deck-x-ovo-x-hockey-canada",
+    "set_name": "Upper Deck X OVO X Hockey Canada",
+    "set_year_label": "2025-26",
+    "set_year_start": 2025,
+    "set_year_end": 2026,
+    "set_display_name": "2025-26 Upper Deck X OVO X Hockey Canada",
+    "set_category": "Singles",
+    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/590289/2025-26-Upper-Deck-X-OVO-X-Hockey-Canada",
+    "source": "other-cards",
+    "cards": [
+      {
+        "id": "other-2025-26-upper-deck-x-ovo-x-hockey-canada-06",
+        "name": "Patrick Roy",
+        "base_number": "06",
+        "team": "Canada",
+        "orientation_front": "portrait",
+        "orientation_back": "portrait",
+        "image_front": "img/cards/Singles/2025-26-Upper-Deck-X-OVO-X-Hockey-Canada-06-Patrick-RoyFr.jpg",
+        "image_back": "img/cards/Singles/2025-26-Upper-Deck-X-OVO-X-Hockey-Canada-06-Patrick-RoyBk.jpg",
+        "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/590289/cid/33252126/2025-26-Upper-Deck-X-OVO-X-Hockey-Canada-06-Patrick-Roy",
+        "inCollection": true
+      }
+    ],
+    "subsets": []
+  }
+}

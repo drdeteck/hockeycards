@@ -93,28 +93,12 @@
             <path fill="currentColor" fill-opacity="0.82" transform="translate(-107.05196,-64.41831)"
                 d="m 167.52274,311.80036 -60.47078,-0.68709 9.71171,-12 c 15.39005,-19.01629 29.4246,-35.7474 32.65761,-38.93234 1.63712,-1.61279 7.59188,-8.67058 13.23279,-15.68399 5.64091,-7.0134 14.86423,-17.99385 20.49627,-24.40099 11.38109,-12.9474 42.89565,-49.76524 67.73462,-79.13302 8.92362,-10.55065 18.14278,-21.28299 20.48701,-23.84966 2.34423,-2.56667 13.94308,-16.01153 25.77522,-29.877477 18.27216,-21.412918 21.58287,-24.727114 21.97688,-22 0.25515,1.765944 3.70224,24.210807 7.66022,49.877477 10.48875,68.01735 29.87178,195.83615 29.87399,197 0.002,1.03066 -82.9684,0.89339 -189.13554,-0.31291 z m 67.72887,-52.2822 c 15.72528,-19.17098 28.75893,-34.30476 28.96365,-33.63061 0.47796,1.57388 9.77825,65.55459 9.77825,67.26878 0,0.79257 11.37208,1.29027 29.48172,1.29027 h 29.48173 l -0.82378,-4.39112 c -0.45308,-2.41512 -2.89769,-18.46512 -5.43246,-35.66667 -2.53478,-17.20155 -5.44246,-36.8855 -6.46152,-43.74212 -2.35984,-15.87792 1.299,-14.70806 -46.37953,-14.82914 l -40.87193,-0.1038 -26.58125,31.03309 c -33.89067,39.56671 -56.41303,66.1795 -56.41272,66.65823 1.4e-4,0.20617 12.75014,0.50864 28.33334,0.67214 l 28.33307,0.29728 z m 80.07524,-77.80931 c 0,-2.19464 -8.83429,-59.93347 -10.15959,-66.40064 l -0.77975,-3.80506 -4.197,5.11825 c -2.30835,2.81503 -15.24175,18.02731 -28.74089,33.80505 -13.49914,15.77775 -25.44213,29.73682 -26.53998,31.02015 -1.89396,2.21395 -0.14349,2.33334 34.21056,2.33334 31.84709,0 36.20665,-0.24938 36.20665,-2.07109 z" />
         </symbol>
-        <symbol id="icon-export" viewBox="0 0 24 24">
-            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
-        </symbol>
     </svg>
 
     <div class="header">
         <div class="header-control-row">
             <a title="Back to homepage" href="#home" class="header-logo">
-                <svg class="header-logo-icon" aria-hidden="true" focusable="false" viewBox="0 0 200 200"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <!-- Inverted triangle: gold fill, thick black outer border, white inner border -->
-                    <polygon points="100,188 13,44 187,44" fill="#FCB514" stroke="#111111" stroke-width="12"
-                        stroke-linejoin="miter" />
-                    <polygon points="100,188 13,44 187,44" fill="none" stroke="white" stroke-width="5"
-                        stroke-linejoin="miter" />
-                    <!-- "66": white outline behind, black fill on top -->
-                    <text x="100" y="112" text-anchor="middle" dominant-baseline="central"
-                        font-family="Impact, 'Arial Black', sans-serif" font-size="118" fill="white" stroke="white"
-                        stroke-width="12" stroke-linejoin="round">66</text>
-                    <text x="100" y="112" text-anchor="middle" dominant-baseline="central"
-                        font-family="Impact, 'Arial Black', sans-serif" font-size="118" fill="#111111">66</text>
-                </svg>
+                <img class="header-logo-icon" src="favicon.svg" alt="" aria-hidden="true">
                 <span class="logo-title">Phil's Hockey Cards Collection</span>
             </a>
             <div class="header-links">
@@ -151,14 +135,6 @@
                         <span>Wish</span>
                     </label>
                 </div>
-                <button type="button" class="btn btn-outline-light btn-sm export-view-toggle"
-                    data-bind="click: $root.ToggleExportOverlay, css: { active: $root.ShowExportOverlay() }"
-                    title="Export current view as eBay search list">
-                    <svg class="icon-inline" aria-hidden="true" focusable="false">
-                        <use href="#icon-export"></use>
-                    </svg>
-                    <span>Export</span>
-                </button>
                 <button type="button" class="btn btn-outline-light btn-sm theme-toggle"
                     data-bind="click: $root.ToggleTheme, css: { active: $root.IsDarkMode() }, attr: { title: $root.IsDarkMode() ? 'Switch to light mode' : 'Switch to dark mode', 'aria-label': $root.IsDarkMode() ? 'Switch to light mode' : 'Switch to dark mode' }">
                     <span data-bind="text: $root.ThemeToggleLabel">Dark</span>
@@ -195,6 +171,22 @@
                         </span>
                     </div>
                 </div>
+
+                <!-- ko if: set_key === 'rookies' -->
+                <div class="card-grid">
+                    <ul class="card-grid-inner"
+                        data-bind="template: {name: 'card-template', foreach: $root.CurrentRookieCards}">
+                    </ul>
+                </div>
+                <!-- /ko -->
+
+                <!-- ko if: set_key === 'other-cool-cards' -->
+                <div class="card-grid">
+                    <ul class="card-grid-inner"
+                        data-bind="template: {name: 'card-template', foreach: $root.CurrentOtherCoolCards}">
+                    </ul>
+                </div>
+                <!-- /ko -->
 
                 <!-- ko if: set_key === 'ML-all' || set_key === 'ML-stickers-all' || set_key === 'ML-chase-all' -->
                 <!-- ko foreach: $root.CurrentCollectionYearGroups -->
@@ -239,7 +231,7 @@
                 <!-- /ko -->
                 <!-- /ko -->
 
-                <!-- ko if: set_key !== 'ML-all' && set_key !== 'ML-stickers-all' && set_key !== 'ML-chase-all' && !$root.IsMLYearView() -->
+                <!-- ko if: set_key !== 'ML-all' && set_key !== 'ML-stickers-all' && set_key !== 'ML-chase-all' && set_key !== 'rookies' && set_key !== 'other-cool-cards' && !$root.IsMLYearView() -->
                 <!-- ko if: (cards || []).length || !($root.CurrentCollection() && $root.CurrentCollection().subsets && $root.CurrentCollection().subsets.length) -->
                 <!-- ko if: $root.HasWishableCards(cards) -->
                 <h2 class="card-grid-header">
@@ -299,13 +291,13 @@
                             data-bind="css: { 'flip-backside': $root.CardImageFace() === 'back' }">
                             <div class="card-profile-image-front card-image-front">
                                 <img class="card-profile-card-image"
-                                    data-bind="css: { 'card-landscape': card.orientation_front === 'landscape', 'card-square': card.orientation_front === 'square', 'card-extra-tall': card.orientation_front === 'extra-tall' }, attr: { src: card.image_front || card.image_back || 'img/cards/placeholder.svg', alt: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')', title: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')' }"
-                                    onerror="this.src='img/cards/placeholder.svg'">
+                                    data-bind="css: { 'card-landscape': card.orientation_front === 'landscape', 'card-square': card.orientation_front === 'square', 'card-extra-tall': card.orientation_front === 'extra-tall' }, attr: { src: $root.ParseImageUri(card, 'front'), 'data-placeholder': $root.PlaceholderImageUri(card, 'front'), alt: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')', title: (card.name || 'Card') + ' (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')' }"
+                                    onerror="this.onerror=null; this.src=this.getAttribute('data-placeholder') || 'img/cards/placeholder.svg'">
                             </div>
                             <div class="card-profile-image-back card-image-back">
                                 <img class="card-profile-card-image"
-                                    data-bind="css: { 'card-landscape': card.orientation_back === 'landscape', 'card-square': card.orientation_back === 'square', 'card-extra-tall': card.orientation_back === 'extra-tall' }, attr: { src: card.image_back || card.image_front || 'img/cards/placeholder.svg', alt: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')', title: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')' }"
-                                    onerror="this.src='img/cards/placeholder.svg'">
+                                    data-bind="css: { 'card-landscape': card.orientation_back === 'landscape', 'card-square': card.orientation_back === 'square', 'card-extra-tall': card.orientation_back === 'extra-tall' }, attr: { src: $root.ParseImageUri(card, 'back'), 'data-placeholder': $root.PlaceholderImageUri(card, 'back'), alt: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')', title: (card.name || 'Card') + ' back (' + (collection.set_display_name || collection.set_name || '') + ' #' + (card.base_number || card.number || 'NNO') + ')' }"
+                                    onerror="this.onerror=null; this.src=this.getAttribute('data-placeholder') || 'img/cards/placeholder.svg'">
                             </div>
                         </section>
 
@@ -587,8 +579,9 @@
                                 data-bind="attr: { href: $root.BuildCardRoute($data, null), title: $data.set_display_name + ' #' + $data.base_number + ($data.insert_subset ? ' · ' + $data.insert_subset : '') }">
                                 <img class="binder-slot-img" data-bind="css: { 'binder-slot-img--landscape': ($data.default_face === 'back' ? $data.orientation_back : $data.orientation_front) === 'landscape' }, attr: {
                                     src: $root.ParseImageUri($data),
+                                    'data-placeholder': $root.PlaceholderImageUri($data),
                                         alt: $data.set_display_name + ' #' + $data.base_number }"
-                                    onerror="this.src='img/cards/placeholder.svg'">
+                                    onerror="this.onerror=null; this.src=this.getAttribute('data-placeholder') || 'img/cards/placeholder.svg'">
                                 <span class="binder-slot-label" data-bind="text: $root.BinderCardLabel($data)"></span>
                             </a>
                             <!-- ko if: $data.inCollection -->
@@ -927,27 +920,6 @@
             <p class="footer-credit">Card data and images are presented for personal collection reference.</p>
         </div>
     </footer>
-    <!-- EXPORT OVERLAY -->
-    <div class="export-overlay" style="display:none;" data-bind="visible: $root.ShowExportOverlay()">
-        <div class="export-overlay-header">
-            <span class="export-overlay-title"
-                data-bind="text: 'Export — ' + $root.ExportCurrentViewCount() + ' cards'"></span>
-            <button type="button" class="export-overlay-close" data-bind="click: $root.CloseExportOverlay" title="Close"
-                aria-label="Close export panel">✕</button>
-        </div>
-        <div class="export-overlay-body">
-            <p class="export-overlay-hint">eBay search text for each card in the current view, one per line.</p>
-            <textarea id="export-textarea" class="export-textarea" readonly
-                data-bind="value: $root.ExportCurrentViewText()"></textarea>
-        </div>
-        <div class="export-overlay-footer">
-            <button type="button" class="btn btn-sm btn-outline-light export-copy-btn" data-bind="click: $root.CopyExportText,
-                           enable: !!$root.ExportCurrentViewText(),
-                           css: { 'export-copy-btn--copied': $root.ExportCopied() }">
-                <span data-bind="text: $root.ExportCopied() ? '✓ Copied!' : 'Copy to clipboard'"></span>
-            </button>
-        </div>
-    </div>
     <button type="button" id="scroll-to-top-btn" class="scroll-to-top-btn" aria-label="Go to top of page"
         title="Go to top">Top</button>
     <!--------------->
@@ -1001,9 +973,10 @@
                 <div class="card-grid-item-card-front">
                     <img class="card" data-bind="attr: { 
                             src: $root.ParseImageUri($data),
+                            'data-placeholder': $root.PlaceholderImageUri($data),
                             alt: ($data.name || '') + ' (' + ($data.set_display_name || $data.set_name || '') + ')',
                             title: ($data.name || '') + ' (' + ($data.base_number || $data.number || 'NNO') + ')' }"
-                        onerror="this.src='img/cards/placeholder.svg'">
+                        onerror="this.onerror=null; this.src=this.getAttribute('data-placeholder') || 'img/cards/placeholder.svg'">
                 </div>
             </div>
             <!-- ko if: $root.CollectionOverlayMode() === 'owned' && $data.inCollection -->

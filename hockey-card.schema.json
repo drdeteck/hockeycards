@@ -343,9 +343,9 @@
                     "type": "string",
                     "description": "Optional subset name associated with the card."
                 },
-                "isRookie": {
+                "isRookieCard": {
                     "type": "boolean",
-                    "description": "Whether the card is a rookie card."
+                    "description": "Whether the card is a rookie card, used by the Other Cards rookie view."
                 },
                 "isMemorabilia": {
                     "type": "boolean",

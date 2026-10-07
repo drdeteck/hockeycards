@@ -26,6 +26,7 @@
           "variant_note": "Rookie",
           "inCollection": true,
           "excludeFromBinder": true,
+          "isRookieCard": true,
           "isTooThickForBinder": true,
           "price": 120
         },

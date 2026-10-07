@@ -31,7 +31,6 @@ Use this skill before inserting or moving a Mario Lemieux card in the dataset.
    - `data/mario-lemieux-data-1985-86-to-1999-00.json`
    - `data/mario-lemieux-data-2000-01-to-2009-10.json`
    - `data/mario-lemieux-data-2010-11-to-present.json`
-   - `data/mario-lemieux-data-gems.json`
    - `data/mario-lemieux-data-stickers.json`
 3. Check the existing JSON hierarchy before editing.
    - Confirm whether the item already exists as a set or a subset under a parent set.
