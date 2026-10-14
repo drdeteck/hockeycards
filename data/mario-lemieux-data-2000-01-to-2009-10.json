@@ -9193,6 +9193,42 @@
         }
       ]
     },
+    "2005-06-in-the-game-ultimate-memorabilia-level-2": {
+      "set_key": "2005-06-in-the-game-ultimate-memorabilia-level-2",
+      "set_name": "In The Game Ultimate Memorabilia Level 2",
+      "set_year_label": "2005-06",
+      "set_year_start": 2005,
+      "set_year_end": 2006,
+      "set_display_name": "2005-06 In The Game Ultimate Memorabilia Level 2",
+      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/52496/2005-06-In-The-Game-Ultimate-Memorabilia-Level-2",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2005-06-in-the-game-ultimate-memorabilia-level-2-first-rounders-jerseys",
+          "set_name": "First Rounders Jerseys",
+          "set_display_name": "2005-06 In The Game Ultimate Memorabilia Level 2 - First Rounders Jerseys",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/52527/2005-06-In-The-Game-Ultimate-Memorabilia-Level-2-First-Rounders-Jerseys",
+          "cards": [
+            {
+              "id": "ml-2005-06-in-the-game-ultimate-memorabilia-level-2-first-rounders-jerseys-9",
+              "base_number": "9",
+              "card_type": "memorabilia",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/52527/cid/1783133/2005-06",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 25,
+              "inCollection": true,
+              "price": 30,
+              "isMemorabilia": true,
+              "isTooThickForBinder": true
+            }
+          ]
+        }
+      ]
+    },
     "2005-06-parkhurst": {
       "set_key": "2005-06-parkhurst",
       "set_name": "Parkhurst",
@@ -9258,6 +9294,29 @@
           "team": "Pittsburgh Penguins",
           "inCollection": false,
           "serial_total": 899
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2005-06-upper-deck-artifacts-red",
+          "set_name": "Red",
+          "set_display_name": "2005-06 Upper Deck Artifacts - Red",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2005-06-upper-deck-artifacts-red-81",
+              "base_number": "81",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/52771/cid/1796714/2005-06-Upper-Deck-Artifacts-Red-81-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "inCollection": true,
+              "serial_total": 50,
+              "price": 23.17
+            }
+          ]
         }
       ]
     },
@@ -9971,7 +10030,8 @@
               "image_back": "img/cards/ML66/2005-06-Upper-Deck-McDonalds---Superstar-Spotlight-SS1-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 0.99
             }
           ]
         }

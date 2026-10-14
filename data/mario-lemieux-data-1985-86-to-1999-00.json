@@ -4875,7 +4875,8 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48508/cid/1594014/1994-95-Stadium-Club-60-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "price": 200
             }
           ]
         },
@@ -4894,7 +4895,8 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48509/cid/1594284/1994-95-Stadium-Club-60-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "price": 45
             }
           ]
         }

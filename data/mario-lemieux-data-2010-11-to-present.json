@@ -4906,7 +4906,8 @@
               "image_back": "img/cards/ML66/2019-20-Upper-Deck-Stature---Century-Momentous-CM-16-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 9.50
             }
           ]
         }
@@ -6382,7 +6383,8 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/438593/cid/25111915/2023-24-Upper-Deck---Seeing-Red-Gold-Foil-SR-3-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 0.99
             }
           ]
         },
@@ -8358,7 +8360,8 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/663480/cid/38690602/2026-Upper-Deck-Team-Canada-Deluxe-167-Mario-Lemieux",
               "team": "Team Canada",
-              "inCollection": false,
+              "inCollection": true,
+              "price": 26.67,
               "serial_total": 250
             }
           ]

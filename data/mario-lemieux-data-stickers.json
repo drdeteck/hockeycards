@@ -447,8 +447,8 @@
                     "image_back": "img/cards/ML66/Stickers/1989-Sports-Illustrated-for-Kids-1-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
-                    "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true,
+                    "price": 0.99
                 }
             ]
         },
