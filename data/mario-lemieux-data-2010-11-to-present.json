@@ -3451,6 +3451,37 @@
       ],
       "subsets": []
     },
+    "2015-16-upper-deck-tim-hortons": {
+      "set_key": "2015-16-upper-deck-tim-hortons",
+      "set_name": "Upper Deck Tim Hortons",
+      "set_year_label": "2015-16",
+      "set_year_start": 2015,
+      "set_year_end": 2016,
+      "set_display_name": "2015-16 Upper Deck Tim Hortons",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2015-16-upper-deck-tim-hortons-franchise-force",
+          "set_name": "Franchise Force",
+          "set_display_name": "2015-16 Upper Deck Tim Hortons - Franchise Force",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2015-16-upper-deck-tim-hortons-franchise-force-ff-2",
+              "base_number": "FF-2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2015-16-Upper-Deck-Tim-Hortons---Franchise-Force-FF-2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-Upper-Deck-Tim-Hortons---Franchise-Force-FF-2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2016-17-fleer-showcase": {
       "set_key": "2016-17-fleer-showcase",
       "set_name": "Fleer Showcase",
