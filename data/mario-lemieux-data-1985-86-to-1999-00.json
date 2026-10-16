@@ -9386,14 +9386,16 @@
               "id": "ml-1996-97-pinnacle-summit-high-voltage-mirage-8",
               "base_number": "8",
               "orientation_front": "landscape",
-              "orientation_back": "landscape",
+              "orientation_back": "portrait",
               "image_front": "img/cards/ML66/1996-97-Pinnacle-Summit---High-Voltage-Mirage-8-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/1996-97-Pinnacle-Summit---High-Voltage-Mirage-8-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48613/cid/1608599/1996-97-Pinnacle-Summit-8-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false,
-              "price": 150.0,
-              "serial_total": 600
+              "inCollection": true,
+              "price": 127.50,
+              "serial_total": 600,
+              "isTooThickForBinder": true,
+              "serial_number": "105"
             }
           ]
         },

@@ -6660,7 +6660,8 @@
               "image_back": "img/cards/ML66/2023-24-Upper-Deck-Synergy---Barnburners!-BARN-4-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 10.5
             }
           ]
         },
@@ -7580,6 +7581,27 @@
               "serial_total": 249
             }
           ]
+        },
+        {
+          "set_key": "2025-26-upper-deck-black-diamond-exquisite-collection-stanley-cup-heroes",
+          "set_name": "Exquisite Collection Stanley Cup Heroes",
+          "set_display_name": "2025-26 Upper Deck Black Diamond - Exquisite Collection Stanley Cup Heroes",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2025-26-upper-deck-black-diamond-exquisite-collection-stanley-cup-heroes-esc-ml",
+              "base_number": "ESC-ML",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/570182/cid/32282899/2025-26-Upper-Deck-Black-Diamond-Exquisite-Collection-Stanley-Cup-Heroes-ESC-ML-Mario-Lemieux?PageIndex=1",
+              "team": "Pittsburgh Penguins",
+              "inCollection": true,
+              "price": 9.5,
+              "serial_total": 299
+            }
+          ]
         }
       ]
     },
@@ -8401,7 +8423,8 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/663525/cid/38693157/2026-Upper-Deck-Team-Canada-Representing-the-Flag-Pink-RF-8-Mario-Lemieux",
               "team": "Team Canada",
-              "inCollection": false,
+              "inCollection": true,
+              "price": 10.5,
               "serial_total": 399
             }
           ]
