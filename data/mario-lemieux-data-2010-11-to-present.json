@@ -6732,10 +6732,10 @@
             {
               "id": "ml-2023-24-upper-deck-synergy-fearless-leaders-ld-6",
               "base_number": "LD-6",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2023-24-Upper-Deck-Synergy---Fearless-Leaders-LD-6-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Upper-Deck-Synergy---Fearless-Leaders-LD-6-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/435617/cid/24992099/2023-24-Upper-Deck-Synergy-Fearless-Leaders-LD-6-Mario-Lemieux?PageIndex=1",
               "team": "Pittsburgh Penguins",
               "inCollection": false
