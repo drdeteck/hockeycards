@@ -305,17 +305,10 @@ img.card {
     height: 14px;
 }
 
-/* Green inner border on the card when owned overlay is active */
-.card-grid-item-card--owned::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+/* Keep the ownership border aligned to the rendered card image. */
+.card-grid-item-card--owned img.card {
+    box-sizing: border-box;
     border: 4px solid #27ae60;
-    pointer-events: none;
-    z-index: 9;
 }
 
 .card-missing-badge {
