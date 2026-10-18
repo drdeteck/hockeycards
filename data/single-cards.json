@@ -24,6 +24,21 @@
         "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/8813/cid/1191523/1990-91-Score-Canadian-440-Eric-Lindros",
         "isRookieCard": true,
         "inCollection": true
+      },
+      {
+        "id": "other-1990-91-score-canadian-428",
+        "name": "Jaromir Jagr",
+        "base_number": "428",
+        "team": "Pittsburgh Penguins",
+        "orientation_front": "portrait",
+        "orientation_back": "portrait",
+        "variant_note": "Rookie",
+        "image_front": "img/cards/Singles/1990-91-Score-Canadian-428-Jaromir-JagrFr.jpg",
+        "image_back": "img/cards/Singles/1990-91-Score-Canadian-428-Jaromir-JagrBk.jpg",
+        "tcdb_href": "",
+        "isRookieCard": true,
+        "inCollection": true,
+        "price": 1
       }
     ],
     "subsets": []
@@ -91,6 +106,27 @@
     "cards": [],
     "subsets": [
       {
+        "set_key": "singles-1994-95-pinnacle-artists-proofs",
+        "set_name": "Artist's Proofs",
+        "set_display_name": "Artist's Proofs",
+        "set_tcdb_href": "",
+        "cards": [
+          {
+            "id": "other-1994-95-pinnacle-artists-proofs-121",
+            "name": "Arturs Irbe",
+            "base_number": "121",
+            "team": "San Jose Sharks",
+            "orientation_front": "portrait",
+            "orientation_back": "landscape",
+            "image_front": "img/cards/Singles/1994-95-Pinnacle---Artist-s-Proofs-121-Arturs-IrbeFr.jpg",
+            "image_back": "img/cards/Singles/1994-95-Pinnacle---Artist-s-Proofs-121-Arturs-IrbeBk.jpg",
+            "tcdb_href": "",
+            "inCollection": true,
+            "price": 1
+          }
+        ]
+      },
+      {
         "set_key": "singles-1994-95-pinnacle-gamers",
         "set_name": "Gamers",
         "set_display_name": "Gamers",
@@ -107,6 +143,41 @@
             "image_back": "img/cards/Singles/1994-95-Pinnacle---Gamers-GR8-Mike-ModanoBk.jpg",
             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5049/cid/1592419/1994-95-Pinnacle-Gamers-GR8-Mike-Modano",
             "inCollection": true
+          }
+        ]
+      }
+    ]
+  },
+  "singles-1994-95-stadium-club": {
+    "set_key": "singles-1994-95-stadium-club",
+    "set_name": "Stadium Club",
+    "set_year_label": "1994-95",
+    "set_year_start": 1994,
+    "set_year_end": 1995,
+    "set_display_name": "1994-95 Stadium Club",
+    "set_category": "Singles",
+    "set_tcdb_href": "",
+    "source": "other-cards",
+    "cards": [],
+    "subsets": [
+      {
+        "set_key": "singles-1994-95-stadium-club-first-day-issue",
+        "set_name": "First Day Issue",
+        "set_display_name": "First Day Issue",
+        "set_tcdb_href": "",
+        "cards": [
+          {
+            "id": "other-1994-95-stadium-club-first-day-issue-190",
+            "name": "Arturs Irbe",
+            "base_number": "190",
+            "team": "San Jose Sharks",
+            "orientation_front": "portrait",
+            "orientation_back": "portrait",
+            "image_front": "/img/cards/Singles/1994-95-Stadium-Club---First-Day-Issue-190-Arturs-IrbeFr.jpg",
+            "image_back": "/img/cards/Singles/1994-95-Stadium-Club---First-Day-Issue-190-Arturs-IrbeBk.jpg",
+            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48508/cid/1594144/1994-95-Stadium-Club-First-Day-Issue-190-Arturs-Irbe?PageIndex=2",
+            "inCollection": true,
+            "price": 1
           }
         ]
       }
@@ -179,6 +250,41 @@
             "image_back": "img/cards/Singles/1995-96-Score-Summit---Ice-122-Chris-OsgoodBk.jpg",
             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48535/cid/1599925/1995-96-Score-Summit-Ice-122-Chris-Osgood",
             "inCollection": true
+          }
+        ]
+      }
+    ]
+  },
+  "singles-1995-96-ultra": {
+    "set_key": "singles-1995-96-ultra",
+    "set_name": "Ultra",
+    "set_year_label": "1995-96",
+    "set_year_start": 1995,
+    "set_year_end": 1996,
+    "set_display_name": "1995-96 Ultra",
+    "set_category": "Singles",
+    "set_tcdb_href": "",
+    "source": "other-cards",
+    "cards": [],
+    "subsets": [
+      {
+        "set_key": "singles-1995-96-ultra-gold-medallion",
+        "set_name": "Gold Medallion",
+        "set_display_name": "Gold Medallion",
+        "set_tcdb_href": "",
+        "cards": [
+          {
+            "id": "other-1995-96-ultra-gold-medallion-146",
+            "name": "Arturs Irbe",
+            "base_number": "146",
+            "team": "San Jose Sharks",
+            "orientation_front": "portrait",
+            "orientation_back": "landscape",
+            "image_front": "img/cards/Singles/1995-96-Ultra---Gold-Medallion-146-Arturs-IrbeFr.jpg",
+            "image_back": "img/cards/Singles/1995-96-Ultra---Gold-Medallion-146-Arturs-IrbeBk.jpg",
+            "tcdb_href": "",
+            "inCollection": true,
+            "price": 1
           }
         ]
       }
@@ -287,6 +393,41 @@
       }
     ]
   },
+  "singles-1997-98-donruss-canadian-ice": {
+    "set_key": "singles-1997-98-donruss-canadian-ice",
+    "set_name": "Donruss Canadian Ice",
+    "set_year_label": "1997-98",
+    "set_year_start": 1997,
+    "set_year_end": 1998,
+    "set_display_name": "1997-98 Donruss Canadian Ice",
+    "set_category": "Singles",
+    "set_tcdb_href": "",
+    "source": "other-cards",
+    "cards": [],
+    "subsets": [
+      {
+        "set_key": "singles-1997-98-donruss-canadian-ice-national-pride",
+        "set_name": "National Pride",
+        "set_display_name": "National Pride",
+        "set_tcdb_href": "",
+        "cards": [
+          {
+            "id": "other-1997-98-donruss-canadian-ice-national-pride-20",
+            "name": "Ron Francis",
+            "base_number": "20",
+            "team": "Pittsburgh Penguins",
+            "orientation_front": "portrait",
+            "orientation_back": "portrait",
+            "image_front": "img/cards/Singles/1997-98-Donruss-Canadian-Ice---National-Pride-20-Ron-FrancisFr.jpg",
+            "image_back": "img/cards/Singles/1997-98-Donruss-Canadian-Ice---National-Pride-20-Ron-FrancisBk.jpg",
+            "tcdb_href": "",
+            "inCollection": true,
+            "price": 1
+          }
+        ]
+      }
+    ]
+  },
   "singles-1997-98-spx": {
     "set_key": "singles-1997-98-spx",
     "set_name": "SPx",
@@ -312,6 +453,41 @@
       }
     ],
     "subsets": []
+  },
+  "singles-1998-99-ud-choice": {
+    "set_key": "singles-1998-99-ud-choice",
+    "set_name": "UD Choice",
+    "set_year_label": "1998-99",
+    "set_year_start": 1998,
+    "set_year_end": 1999,
+    "set_display_name": "1998-99 UD Choice",
+    "set_category": "Singles",
+    "set_tcdb_href": "",
+    "source": "other-cards",
+    "cards": [],
+    "subsets": [
+      {
+        "set_key": "singles-1998-99-ud-choice-starquest-blue",
+        "set_name": "StarQuest Blue",
+        "set_display_name": "StarQuest Blue",
+        "set_tcdb_href": "",
+        "cards": [
+          {
+            "id": "other-1998-99-ud-choice-starquest-blue-sq1",
+            "name": "Wayne Gretzky",
+            "base_number": "SQ1",
+            "team": "New York Rangers",
+            "orientation_front": "portrait",
+            "orientation_back": "portrait",
+            "image_front": "img/cards/Singles/1998-99-UD-Choice---StarQuest-Blue-SQ1-Wayne-GretzkyFr.jpg",
+            "image_back": "img/cards/Singles/1998-99-UD-Choice---StarQuest-Blue-SQ1-Wayne-GretzkyBk.jpg",
+            "tcdb_href": "",
+            "inCollection": true,
+            "price": 1
+          }
+        ]
+      }
+    ]
   },
   "singles-1998-99-spx-finite": {
     "set_key": "singles-1998-99-spx-finite",
@@ -437,6 +613,41 @@
             "image_back": "img/cards/Singles/2024-25-SPx---Game-Film-GF-15-Quinn-HughesBk.jpg",
             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/504277/cid/28543527/2024-25-SPx-Game-Film-GF-15-Quinn-Hughes",
             "inCollection": true
+          }
+        ]
+      }
+    ]
+  },
+  "singles-2025-26-upper-deck": {
+    "set_key": "singles-2025-26-upper-deck",
+    "set_name": "Upper Deck",
+    "set_year_label": "2025-26",
+    "set_year_start": 2025,
+    "set_year_end": 2026,
+    "set_display_name": "2025-26 Upper Deck",
+    "set_category": "Singles",
+    "set_tcdb_href": "",
+    "source": "other-cards",
+    "cards": [],
+    "subsets": [
+      {
+        "set_key": "singles-2025-26-upper-deck-outburst-silver",
+        "set_name": "Outburst Silver",
+        "set_display_name": "Outburst Silver",
+        "set_tcdb_href": "",
+        "cards": [
+          {
+            "id": "other-2025-26-upper-deck-outburst-silver-679",
+            "name": "Victor Hedman",
+            "base_number": "679",
+            "team": "Sweden",
+            "orientation_front": "landscape",
+            "orientation_back": "portrait",
+            "image_front": "img/cards/Singles/2025-26-Upper-Deck---Outburst-Silver-679-Victor-HedmanFr.jpg",
+            "image_back": "img/cards/Singles/2025-26-Upper-Deck---Outburst-Silver-679-Victor-HedmanBk.jpg",
+            "tcdb_href": "",
+            "inCollection": true,
+            "price": 1
           }
         ]
       }
