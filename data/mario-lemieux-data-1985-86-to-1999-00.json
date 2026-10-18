@@ -3415,8 +3415,8 @@
               "image_front": "img/cards/ML66/Chase/1993-94-Stadium-Club---First-Day-Issue-143-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/Chase/1993-94-Stadium-Club---First-Day-Issue-143-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48480/cid/1587802/1993-94-Stadium-Club-143-Mario-Lemieux",
-              "inCollection": false,
-              "price": 38.74,
+              "inCollection": true,
+              "price": 30,
               "location": "US"
             },
             {
