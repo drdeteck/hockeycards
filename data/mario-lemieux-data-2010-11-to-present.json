@@ -6438,6 +6438,25 @@
               "excludeFromBinder": true
             }
           ]
+        },
+        {
+          "set_key": "2023-24-upper-deck-ud-canvas",
+          "set_name": "UD Canvas",
+          "set_display_name": "2023-24 Upper Deck - UD Canvas",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-ud-canvas-c404",
+              "base_number": "C404",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Upper-Deck---UD-Canvas-C404-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Upper-Deck---UD-Canvas-C404-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/390327/cid/25112440/2023-24-Upper-Deck-UD-Canvas-C404-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -7181,6 +7200,30 @@
           ]
         }
       ]
+    },
+    "2024-25-upper-deck-the-cup": {
+      "set_key": "2024-25-upper-deck-the-cup",
+      "set_name": "Upper Deck The Cup",
+      "set_year_label": "2024-25",
+      "set_year_start": 2024,
+      "set_year_end": 2025,
+      "set_display_name": "2024-25 Upper Deck The Cup",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2024-25-upper-deck-the-cup-66",
+          "base_number": "66",
+          "serial_total": 249,
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2024-25-Upper-Deck-The-Cup-66-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2024-25-Upper-Deck-The-Cup-66-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        }
+      ],
+      "subsets": []
     },
     "2024-25-sp-authentic": {
       "set_key": "2024-25-sp-authentic",
