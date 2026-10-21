@@ -1630,7 +1630,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "variant_note": "Promo Gold",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.2
             },
             {
               "id": "ml-1992-93-classic-draft-picks-promo-a",
@@ -7932,7 +7933,9 @@
               "image_front": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-4-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-4-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
-              "team": "Pittsburgh Penguins"
+              "team": "Pittsburgh Penguins",
+              "inCollection": true,
+              "price": 11
             },
             {
               "id": "ml-1996-97-donruss-canadian-ice-scrapbook-5",
