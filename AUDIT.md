@@ -74,13 +74,15 @@ Other measurements:
 
 Severity here describes collection correctness and maintenance risk, not a CVSS rating. High findings should precede structural cleanup; frozen data findings remain blocked regardless of severity.
 
-### F01 - High: Sticker Subsets Are Omitted at Runtime
+### ~~F01 - High: Sticker Subsets Are Omitted at Runtime~~ (Resolved)
 
-Evidence: [BuildStickerCollections](app.js#L362) processes only each set's direct `cards` and emits empty subsets. The sticker dataset contains the owned card `ml-sticker-1989-90-opc-stickers-future-star-all-star-backs-24` in a subset. Browser comparison confirmed that this ID is absent from the records counted by global statistics.
+~~Evidence: [BuildStickerCollections](app.js#L362) processed only each set's direct `cards` and emitted empty subsets. The sticker dataset contains the owned card `ml-sticker-1989-90-opc-stickers-future-star-all-star-backs-24` in a subset. Browser comparison confirmed that this ID was absent from the runtime collection.~~
 
-Impact: one owned sticker is missing from runtime browsing/statistics. Source totals are 82 stickers / 60 owned; runtime shows 81 / 59. Overall source totals are 2,493 / 1,514, versus 2,492 / 1,513 at runtime.
+~~Impact: one owned sticker was missing from runtime browsing. Source totals are 82 stickers / 60 owned; runtime showed 81 / 59.~~
 
-Recommendation: teach the sticker builder to preserve and expose subset cards and their routes without changing source records or IDs. Add a focused subset-card fixture and count comparison. Do not change category definitions or deduplicate other records as part of this fix.
+~~Recommendation: teach the sticker builder to preserve and expose subset cards and their routes without changing source records or IDs. Add a focused subset-card fixture and count comparison. Do not change category definitions or deduplicate other records as part of this fix.~~
+
+Resolution: the sticker and regular Mario builders now share set/subset construction logic. The subset card is included in the sticker collections and routes correctly; browser verification confirmed 82 stickers and the expected subset-card detail view.
 
 ### F02 - High: Dataset Failures Look Like a Smaller Collection
 

@@ -368,67 +368,15 @@ function DataViewModel() {
 
         var allCards = [];
         var result = {};
+        var stickerOptions = {
+            source: 'mario-stickers',
+            cardDefaults: { cardType: 'sticker', orientation: 'portrait' }
+        };
 
         setKeys.forEach(function (setKey) {
-            var setData = sets[setKey];
-            var yearLabel = setData.set_year_label || 'Unknown';
-            var parsedYearStart = parseInt(setData.set_year_start, 10);
-            var seasonStart = !isNaN(parsedYearStart) ? parsedYearStart : (self.GetSeasonStartYear(yearLabel) || 0);
-            var parsedYearEnd = parseInt(setData.set_year_end, 10);
-            var seasonEnd = !isNaN(parsedYearEnd) ? parsedYearEnd : (self.GetSeasonEndYear(yearLabel) || null);
-            var setName = setData.set_name || 'Unknown';
-            var setDisplayName = setData.set_display_name || self.ComposeSetDisplayName(yearLabel, setName, '');
-
-            var setCards = [];
-            (setData.cards || []).forEach(function (row) {
-                var baseNumber = row.base_number || 'NNO';
-                var tcdbHref = row.tcdb_href || '';
-                var cardItem = {
-                    id: row.id || '',
-                    name: 'Mario Lemieux',
-                    base_number: baseNumber,
-                    team: row.team || 'Pittsburgh Penguins',
-                    position: row.position || 'Center',
-                    orientation_front: row.orientation_front || 'portrait',
-                    orientation_back: row.orientation_back || 'portrait',
-                    variant_note: row.variant_note || null,
-                    set_name: setName,
-                    set_variation: null,
-                    set_year_label: yearLabel,
-                    set_year_start: seasonStart,
-                    set_year_end: seasonEnd,
-                    set_display_name: setDisplayName,
-                    insert_subset: '',
-                    image_front: row.image_front || '',
-                    image_back: row.image_back || '',
-                    tcdb_href: (tcdbHref && tcdbHref.indexOf('http') === 0) ? tcdbHref : '',
-                    price: row.price,
-                    card_type: row.card_type || 'sticker',
-                    excludeFromBinder: !!(row.excludeFromBinder),
-                    default_face: row.default_face || 'front',
-                    inCollection: !!(row.inCollection),
-                    _set_key: setKey,
-                    _parent_key: null
-                };
-                setCards.push(cardItem);
-                allCards.push(cardItem);
-            });
-
-            result[setKey] = {
-                set_key: setKey,
-                set_name: setName,
-                set_variation: null,
-                set_year_label: yearLabel,
-                set_year_start: seasonStart,
-                set_year_end: seasonEnd,
-                set_category: self.GetDecadeLabel(yearLabel),
-                set_total_cards: setCards.length,
-                set_tcdb_href: setData.set_tcdb_href || '',
-                set_display_name: setDisplayName,
-                source: 'mario-stickers',
-                cards: setCards,
-                subsets: []
-            };
+            var built = self._buildMarioSetEntry(setKey, sets[setKey], stickerOptions);
+            result[setKey] = built.set;
+            built.cards.forEach(function (c) { allCards.push(c); });
         });
 
         allCards.sort(function (left, right) {
@@ -712,66 +660,16 @@ function DataViewModel() {
         var result = {};
 
         setKeys.forEach(function (setKey) {
-            var setData = sets[setKey];
-            var yearLabel = setData.set_year_label || 'Unknown';
+            var built = self._buildMarioSetEntry(setKey, sets[setKey], { source: 'mario' });
+            var properSet = built.set;
+            var yearLabel = properSet.set_year_label;
+            var seasonStart = properSet.set_year_start;
+            var seasonEnd = properSet.set_year_end;
             var yearKey = 'ML-' + yearLabel;
-            var parsedYearStart = parseInt(setData.set_year_start, 10);
-            var seasonStart = !isNaN(parsedYearStart) ? parsedYearStart : (self.GetSeasonStartYear(yearLabel) || 0);
-            var parsedYearEnd = parseInt(setData.set_year_end, 10);
-            var seasonEnd = !isNaN(parsedYearEnd) ? parsedYearEnd : (self.GetSeasonEndYear(yearLabel) || null);
-            var setName = setData.set_name || 'Unknown';
-            var setVariation = setData.set_variation || '';
-            var setDisplayName = setData.set_display_name || self.ComposeSetDisplayName(yearLabel, setName, setVariation);
 
-            // Build the proper set entry (with all cards from base + subsets)
-            var properSetCards = [];
-            var properSetSubsets = [];
-
-            (setData.cards || []).forEach(function (row) {
-                var cardItem = self._buildMarioCardItem(row, setKey, yearLabel, seasonStart, seasonEnd, setName, setVariation, setDisplayName, '', '', setKey);
-                properSetCards.push(cardItem);
-                allCards.push(cardItem);
-            });
-
-            (setData.subsets || []).forEach(function (subset) {
-                var subCards = [];
-                (subset.cards || []).forEach(function (row) {
-                    var cardItem = self._buildMarioCardItem(row, subset.set_key, yearLabel, seasonStart, seasonEnd, setName, setVariation, setDisplayName, subset.set_name, subset.set_type, setKey);
-                    subCards.push(cardItem);
-                    allCards.push(cardItem);
-                });
-                properSetSubsets.push({
-                    _parent_key: setKey,
-                    set_key: subset.set_key,
-                    set_name: subset.set_name,
-                    set_display_name: subset.set_display_name || (setDisplayName + ' - ' + subset.set_name),
-                    set_type: subset.set_type || null,
-                    set_tcdb_href: subset.set_tcdb_href || '',
-                    set_year_label: yearLabel,
-                    set_year_start: seasonStart,
-                    set_year_end: seasonEnd,
-                    source: 'mario',
-                    cards: subCards
-                });
-            });
-
-            // Add proper set to result
-            result[setKey] = {
-                set_key: setKey,
-                set_name: setName,
-                set_variation: setVariation || null,
-                set_year_label: yearLabel,
-                set_year_start: seasonStart,
-                set_year_end: seasonEnd,
-                set_category: self.GetDecadeLabel(yearLabel),
-                set_total_cards: properSetCards.length,
-                set_tcdb_href: setData.set_tcdb_href || '',
-                set_display_name: setDisplayName,
-                menu_key: yearKey,
-                source: 'mario',
-                cards: properSetCards,
-                subsets: properSetSubsets
-            };
+            properSet.menu_key = yearKey;
+            result[setKey] = properSet;
+            built.cards.forEach(function (c) { allCards.push(c); });
 
             // Build/update virtual year collection
             if (!byYear[yearKey]) {
@@ -792,8 +690,8 @@ function DataViewModel() {
             }
 
             var yearCollection = byYear[yearKey];
-            properSetCards.forEach(function (c) { yearCollection.cards.push(c); });
-            properSetSubsets.forEach(function (sub) { yearCollection.subsets.push(sub); });
+            properSet.cards.forEach(function (c) { yearCollection.cards.push(c); });
+            properSet.subsets.forEach(function (sub) { yearCollection.subsets.push(sub); });
         });
 
         Object.keys(byYear).forEach(function (key) {
@@ -824,17 +722,88 @@ function DataViewModel() {
         return result;
     };
 
-    self._buildMarioCardItem = function (row, routingSetKey, yearLabel, seasonStart, seasonEnd, setName, setVariation, setDisplayName, subsetName, subsetType, parentSetKey) {
+    // Builds one runtime set (base cards + subsets) from a Mario-format source set.
+    // Shared by the regular Mario and sticker builders so both expose subset cards and routes.
+    // options: { source, cardDefaults: { cardType, orientation } }
+    // Returns { set, cards } where cards is every built card (base + subsets) in source order.
+    self._buildMarioSetEntry = function (setKey, setData, options) {
+        var source = options.source;
+        var cardDefaults = options.cardDefaults;
+        var yearLabel = setData.set_year_label || 'Unknown';
+        var parsedYearStart = parseInt(setData.set_year_start, 10);
+        var seasonStart = !isNaN(parsedYearStart) ? parsedYearStart : (self.GetSeasonStartYear(yearLabel) || 0);
+        var parsedYearEnd = parseInt(setData.set_year_end, 10);
+        var seasonEnd = !isNaN(parsedYearEnd) ? parsedYearEnd : (self.GetSeasonEndYear(yearLabel) || null);
+        var setName = setData.set_name || 'Unknown';
+        var setVariation = setData.set_variation || '';
+        var setDisplayName = setData.set_display_name || self.ComposeSetDisplayName(yearLabel, setName, setVariation);
+
+        var allCards = [];
+        var baseCards = [];
+        var subsets = [];
+
+        (setData.cards || []).forEach(function (row) {
+            var cardItem = self._buildMarioCardItem(row, setKey, yearLabel, seasonStart, seasonEnd, setName, setVariation, setDisplayName, '', '', setKey, cardDefaults);
+            baseCards.push(cardItem);
+            allCards.push(cardItem);
+        });
+
+        (setData.subsets || []).forEach(function (subset) {
+            var subCards = [];
+            (subset.cards || []).forEach(function (row) {
+                var cardItem = self._buildMarioCardItem(row, subset.set_key, yearLabel, seasonStart, seasonEnd, setName, setVariation, setDisplayName, subset.set_name, subset.set_type, setKey, cardDefaults);
+                subCards.push(cardItem);
+                allCards.push(cardItem);
+            });
+            subsets.push({
+                _parent_key: setKey,
+                set_key: subset.set_key,
+                set_name: subset.set_name,
+                set_display_name: subset.set_display_name || (setDisplayName + ' - ' + subset.set_name),
+                set_type: subset.set_type || null,
+                set_tcdb_href: subset.set_tcdb_href || '',
+                set_year_label: yearLabel,
+                set_year_start: seasonStart,
+                set_year_end: seasonEnd,
+                source: source,
+                cards: subCards
+            });
+        });
+
+        return {
+            set: {
+                set_key: setKey,
+                set_name: setName,
+                set_variation: setVariation || null,
+                set_year_label: yearLabel,
+                set_year_start: seasonStart,
+                set_year_end: seasonEnd,
+                set_category: self.GetDecadeLabel(yearLabel),
+                set_total_cards: baseCards.length,
+                set_tcdb_href: setData.set_tcdb_href || '',
+                set_display_name: setDisplayName,
+                source: source,
+                cards: baseCards,
+                subsets: subsets
+            },
+            cards: allCards
+        };
+    };
+
+    // defaults (optional): { cardType, orientation } fallbacks used when the source row omits them.
+    self._buildMarioCardItem = function (row, routingSetKey, yearLabel, seasonStart, seasonEnd, setName, setVariation, setDisplayName, subsetName, subsetType, parentSetKey, defaults) {
         var baseNumber = row.base_number || 'NNO';
         var tcdbHref = row.tcdb_href || '';
+        var defaultCardType = (defaults && defaults.cardType) || 'card';
+        var defaultOrientation = (defaults && defaults.orientation) || 'unknown';
         return {
             id: row.id || '',
             name: 'Mario Lemieux',
             base_number: baseNumber,
             team: row.team || 'Pittsburgh Penguins',
             position: row.position || 'Center',
-            orientation_front: row.orientation_front || 'unknown',
-            orientation_back: row.orientation_back || row.orientation_front || 'unknown',
+            orientation_front: row.orientation_front || defaultOrientation,
+            orientation_back: row.orientation_back || row.orientation_front || defaultOrientation,
             variant_note: row.variant_note || null,
             set_name: setName,
             set_variation: setVariation || null,
@@ -848,7 +817,7 @@ function DataViewModel() {
             image_back: row.image_back || '',
             tcdb_href: (tcdbHref && tcdbHref.indexOf('http') === 0) ? tcdbHref : '',
             price: row.price,
-            card_type: row.card_type || 'card',
+            card_type: row.card_type || defaultCardType,
             serial_total: row.serial_total || null,
             excludeFromBinder: !!(row.excludeFromBinder),
             isRookieCard: row.isRookieCard === true,
@@ -2347,97 +2316,6 @@ function DataViewModel() {
             fallbackCopy();
         }
     };
-
-    // global stats across all card data
-    self.GlobalStats = ko.pureComputed(function () {
-        var data = self.Data() || {};
-
-        function makeTally() {
-            return { totalCards: 0, cardsWithImages: 0, cardsInCollection: 0, ownedPrice: 0, unownedPrice: 0 };
-        }
-
-        function countCards(cards, tally) {
-            if (!Array.isArray(cards)) { return; }
-            cards.forEach(function (card) {
-                tally.totalCards++;
-                if (card.image_front || card.image_back) { tally.cardsWithImages++; }
-                var price = parseFloat(card.price);
-                if (card.inCollection) {
-                    tally.cardsInCollection++;
-                    if (!isNaN(price)) { tally.ownedPrice += price; }
-                } else {
-                    if (!isNaN(price)) { tally.unownedPrice += price; }
-                }
-            });
-        }
-
-        function pct(n, total) {
-            return total > 0 ? Math.round(n / total * 100) : 0;
-        }
-
-        function formatPrice(value) {
-            return value > 0 ? value.toFixed(2) + '$' : null;
-        }
-
-        function toStats(tally) {
-            return {
-                totalCards: tally.totalCards,
-                cardsWithImages: tally.cardsWithImages,
-                cardsInCollection: tally.cardsInCollection,
-                cardsNotInCollection: tally.totalCards - tally.cardsInCollection,
-                pctWithImages: pct(tally.cardsWithImages, tally.totalCards),
-                pctInCollection: pct(tally.cardsInCollection, tally.totalCards),
-                ownedPrice: formatPrice(tally.ownedPrice),
-                unownedPrice: formatPrice(tally.unownedPrice)
-            };
-        }
-
-        var overall = makeTally();
-        var mcd = makeTally();
-        var mario = makeTally();
-        var stickers = makeTally();
-        var chase = makeTally();
-
-        Object.values(data).forEach(function (set) {
-            if (!set) { return; }
-            if (set.set_key === 'rookies' || set.set_key === 'other-cool-cards') { return; }
-            // Virtual collections are alternate views of cards already counted elsewhere.
-            if (set.source === 'mario-serial' || set.source === 'mario-memorabilia') { return; }
-            // For Mario virtual collections, only count from ML-all to avoid double-counting
-            if (set.source === 'mario' && set.set_key !== 'ML-all') { return; }
-            // For sticker virtual collections, only count from ML-stickers-all
-            if (set.source === 'mario-stickers' && set.set_key !== 'ML-stickers-all') { return; }
-            // For chase virtual collections, only count from ML-chase-all
-            if (set.source === 'mario-chase' && set.set_key !== 'ML-chase-all') { return; }
-
-            var tally;
-            if (set.source === 'mario-stickers') {
-                tally = stickers;
-            } else if (set.source === 'mario-chase') {
-                tally = chase;
-            } else if (self.IsMarioSource(set.source)) {
-                tally = mario;
-            } else {
-                tally = mcd;
-            }
-            countCards(set.cards, tally);
-            countCards(set.cards, overall);
-
-            if (Array.isArray(set.subsets)) {
-                set.subsets.forEach(function (subset) {
-                    countCards(subset.cards, tally);
-                    countCards(subset.cards, overall);
-                });
-            }
-        });
-
-        var result = toStats(overall);
-        result.mcd = toStats(mcd);
-        result.mario = toStats(mario);
-        result.stickers = toStats(stickers);
-        result.chase = toStats(chase);
-        return result;
-    });
 
     self.IsStickyMenuRowActive = function (row) {
         if (!row || !row.name) {
