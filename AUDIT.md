@@ -84,13 +84,15 @@ Severity here describes collection correctness and maintenance risk, not a CVSS 
 
 Resolution: the sticker and regular Mario builders now share set/subset construction logic. The subset card is included in the sticker collections and routes correctly; browser verification confirmed 82 stickers and the expected subset-card detail view.
 
-### F02 - High: Dataset Failures Look Like a Smaller Collection
+### ~~F02 - High: Dataset Failures Look Like a Smaller Collection~~ (Resolved)
 
-Evidence: [loader error handling](app.js#L13) catches individual fetch failures, logs a console warning, and substitutes missing data. Blocking the late Mario dataset in Chromium reduced the global total from 2,492 to 2,100. There was no visible dataset-failure message or live alert. Unblocking and reloading restored 2,492.
+~~Evidence: [loader error handling](app.js#L13) catches individual fetch failures, logs a console warning, and substitutes missing data. Blocking the late Mario dataset in Chromium reduced the global total from 2,492 to 2,100. There was no visible dataset-failure message or live alert. Unblocking and reloading restored 2,492.~~
 
-Impact: apparently valid totals can silently describe an incomplete collection.
+~~Impact: apparently valid totals can silently describe an incomplete collection.~~
 
-Recommendation: retain healthy datasets, expose loading/partial/failure states, identify unavailable collections, and distinguish incomplete statistics from complete statistics. A retry should not produce duplicate bindings. Verify one failed request, malformed JSON, and successful recovery.
+~~Recommendation: retain healthy datasets, expose loading/partial/failure states, identify unavailable collections, and distinguish incomplete statistics from complete statistics. A retry should not produce duplicate bindings. Verify one failed request, malformed JSON, and successful recovery.~~
+
+Resolution: healthy datasets still load, and any dataset that fails to fetch or parse is now named in a red `role="alert"` banner above the header, stating that collections and counts may be incomplete. The console warning is kept. Recovery is a page reload, so there is no in-app retry and no risk of duplicate bindings. Browser verification covered a normal load (no banner), a blocked late Mario dataset (banner; `ML-all` 1,219 instead of 1,611), malformed sticker JSON (banner), and recovery after reload (no banner, 1,611).
 
 ### F03 - High: Missing Image Paths and Deployment-Path Inconsistency
 

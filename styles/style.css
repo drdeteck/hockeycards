@@ -19,6 +19,21 @@
     --color-border: #768896;
     --color-white: #f8f9fa;
     --color-black: #000;
+    --color-alert-bg: #b3261e;
+    --color-alert-text: #fff;
+}
+
+.dataset-error-banner {
+    display: none;
+    padding: 8px 2.5%;
+    background-color: var(--color-alert-bg);
+    color: var(--color-alert-text);
+    font-size: 14px;
+    text-align: center;
+}
+
+.dataset-error-banner.is-visible {
+    display: block;
 }
 
 [data-theme='dark'] {

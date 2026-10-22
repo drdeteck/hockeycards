@@ -10,6 +10,7 @@ window.HCHB = window.HCHB || {};
     // Public function
     App.Init = function (args) {
         document.addEventListener('DOMContentLoaded', function () {
+            var failedDatasets = [];
             var loadJsonData = function (url, label) {
                 return fetch(url).then(function (response) {
                     if (!response.ok) {
@@ -18,6 +19,7 @@ window.HCHB = window.HCHB || {};
                     return response.json();
                 }).catch(function (error) {
                     console.warn('Dataset load warning:', error.message);
+                    failedDatasets.push(label);
                     return null;
                 });
             };
@@ -111,6 +113,7 @@ window.HCHB = window.HCHB || {};
                 initializeAppWithData(mergedData);
             }).catch(function (error) {
                 console.error('Fatal dataset loading error:', error);
+                failedDatasets.push('All card data (unexpected error)');
                 initializeAppWithData({});
             });
 
@@ -206,6 +209,7 @@ window.HCHB = window.HCHB || {};
             });
 
             App.ViewModel.Data(mergedData);
+            App.ViewModel.DatasetLoadErrors(failedDatasets.slice());
             App.ViewModel.InitializeTheme();
 
             App.ViewModel.Root = App.ViewModel.MenuRows;
@@ -953,6 +957,8 @@ function DataViewModel() {
 
     // primary data dictionary (sets keyed by id)
     self.Data = ko.observable({});
+    // Labels of datasets that failed to load or parse; drives the red alert banner.
+    self.DatasetLoadErrors = ko.observableArray([]);
 
     // routing / selection state
     self.CurrentCollectionKey = ko.observable(HCHB.App.HomeCollection);
