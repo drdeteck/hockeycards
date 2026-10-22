@@ -6,6 +6,27 @@ A static single-page web application for browsing a personal hockey card collect
 
 ---
 
+## Beta Exhibitions
+
+Four independent, mobile-first Mario Lemieux exhibitions are available alongside the original app:
+
+| Page | Storyline | Visual Direction |
+|---|---|---|
+| [beta1.html](beta1.html) | Five card-design eras | Archival white and ink |
+| [beta2.html](beta2.html) | Seven career chapters, with sourced milestones | Black, yellow, and sports editorial typography |
+| [beta3.html](beta3.html) | Product-family journeys across release seasons | Teal, vermilion, and chronological sequences |
+| [beta4.html](beta4.html) | Six collector-defined career periods | Forest, rose, and photographic selections |
+
+[beta.html](beta.html) also opens the first exhibition and contains the shared Knockout component template. All versions use [beta.js](beta.js) and [beta.css](beta.css), without loading or modifying the original application runtime.
+
+The exhibitions read the three regular Mario datasets and the sticker dataset. Chase and other collections are excluded. Each includes chapter highlights, expandable full collections and missing lists, search and filters, front/back inspection, TCDB/eBay links, and CSV export of filtered missing cards. On phones, the sliders button reveals the collection filters.
+
+Counts describe recorded cards, not a complete published checklist. An absent `inCollection` flag counts as missing, matching the original app. Career chapters group by release season, not the date of the event pictured. The six personal chapter boundaries and their provisional highlights are editorial selections, not acquisition history or claimed personal favorites. Historical notes link to the consulted [Mario Lemieux career overview](https://en.wikipedia.org/wiki/Mario_Lemieux#Playing_career).
+
+Run `./_serve.ps1 -Port 8091` and open `http://localhost:8091/beta1.html`. As with the original app, the JSON/template fetches require HTTP rather than `file://`. No build, package installation, persistence, or dataset edits are involved.
+
+---
+
 ## Collections
 
 | Section | Sets | Cards |

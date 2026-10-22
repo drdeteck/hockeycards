@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mario Lemieux: a collection in four exhibitions.">
+    <title>Mario Lemieux / The Design Archive</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="beta.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
+    <script defer src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+    <script defer src="beta.js"></script>
+</head>
+<body data-beta="1">
+    <a class="skip-link" href="#exhibition">Skip to collection</a>
+    <div id="beta-app">
+        <p class="load-status" role="status" data-bind="text: status, visible: !ready()">Loading the Mario Lemieux collection...</p>
+        <!-- ko if: ready -->
+        <beta-exhibition></beta-exhibition>
+        <!-- /ko -->
+    </div>
+    <noscript>This exhibition requires JavaScript to read the collection files.</noscript>
+    <script type="text/html" id="exhibition-template">
+        <header class="site-header">
+            <a class="wordmark" href="index.html" aria-label="Phil's original hockey card collection"><span class="number-mark">66</span><span>PHIL'S COLLECTION</span></a>
+            <nav class="version-nav" aria-label="Exhibition versions" data-bind="foreach: VersionLinks">
+                <a data-bind="attr: { href: href, title: name, 'aria-current': current ? 'page' : null }, css: { current: current }"><span class="version-number" data-bind="text: '0' + number"></span><span class="version-name" data-bind="text: name"></span></a>
+            </nav>
+        </header>
+        <main id="exhibition">
+            <section class="exhibition-heading" aria-labelledby="collection-title">
+                <div class="edition-line"><span data-bind="text: Config.eyebrow"></span><span>MARIO LEMIEUX / PITTSBURGH</span></div>
+                <div class="heading-line"><h1 id="collection-title">Mario Lemieux<span class="title-period">.</span></h1><span class="heading-number" aria-hidden="true">66</span></div>
+                <div class="heading-baseline"><p data-bind="text: Config.subtitle"></p><p class="collection-tally"><strong data-bind="text: TotalOwned.toLocaleString()"></strong> owned <span>/</span> <strong data-bind="text: TotalMissing"></strong> missing <span class="tally-qualifier">in this catalog</span></p></div>
+            </section>
+
+            <section class="collection-tools" aria-label="Collection filters" data-bind="css: { 'filters-open': FiltersOpen }">
+                <label class="search-control"><span data-bind="icon: 'Search'"></span><input type="search" placeholder="Season, set, card number..." aria-label="Search cards" data-bind="textInput: Query"></label>
+                <fieldset class="ownership-control"><legend class="sr-only">Ownership</legend><label><input type="radio" name="ownership" value="" data-bind="checked: Ownership"><span>All</span></label><label><input type="radio" name="ownership" value="owned" data-bind="checked: Ownership"><span>Owned</span></label><label><input type="radio" name="ownership" value="missing" data-bind="checked: Ownership"><span>Missing</span></label></fieldset>
+                <label class="select-control"><span class="sr-only">Source</span><select aria-label="Card source" data-bind="value: Source"><option value="">Cards + stickers</option><option value="regular">Cards</option><option value="stickers">Stickers</option></select></label>
+                <label class="select-control"><span class="sr-only">Season</span><select aria-label="Season" data-bind="options: Seasons, optionsCaption: 'Every season', value: Season"></select></label>
+                <button class="icon-button filter-button" type="button" title="Show or hide collection filters" aria-label="Show or hide collection filters" data-bind="click: function () { FiltersOpen(!FiltersOpen()); }, attr: { 'aria-expanded': FiltersOpen() }, css: { active: HasFilters }"><span data-bind="icon: 'SlidersHorizontal'"></span></button>
+                <button class="icon-button reset-button" type="button" title="Reset filters" aria-label="Reset filters" data-bind="click: Reset, enable: HasFilters"><span data-bind="icon: 'RotateCcw'"></span></button>
+                <button class="icon-button export-button" type="button" title="Export filtered missing cards as CSV" aria-label="Export filtered missing cards as CSV" data-bind="click: function () { ExportMissing(); }, enable: ScopeMissing().length > 0"><span data-bind="icon: 'Download'"></span></button>
+            </section>
+
+            <div class="exhibition-layout">
+                <aside class="chapter-index" aria-label="Chapter index">
+                    <div class="index-label"><span data-bind="text: Variant === 3 ? 'PRODUCT INDEX' : 'CONTENTS'"></span><span data-bind="text: Chapters.length < 10 ? '0' + Chapters.length : Chapters.length"></span></div>
+                    <!-- ko if: Variant === 3 -->
+                    <label class="family-search"><span class="sr-only">Find product family</span><input type="search" placeholder="Find a product family" aria-label="Find product family" data-bind="textInput: FamilyQuery"></label>
+                    <label class="chapter-select"><span class="sr-only">Product family</span><select aria-label="Product family" data-bind="options: FamilyOptions, optionsText: 'title', optionsValue: 'key', value: ChapterKey"></select></label>
+                    <nav class="family-shortcuts" aria-label="Featured product families" data-bind="foreach: Chapters.slice(0, 6)"><button type="button" data-bind="text: title, click: function () { $component.ChapterKey(key); }, css: { active: $component.ChapterKey() === key }"></button></nav>
+                    <!-- /ko -->
+                    <!-- ko if: Variant !== 3 -->
+                    <label class="chapter-select"><span class="sr-only">Chapter</span><select aria-label="Chapter" data-bind="options: Chapters, optionsText: 'title', optionsValue: 'key', optionsCaption: 'All chapters', value: ChapterKey"></select></label>
+                    <nav class="chapter-links" aria-label="Jump to chapter" data-bind="foreach: Chapters"><a data-bind="attr: { href: '#chapter-' + key }, click: function () { $component.ShowAllChapters(); return true; }"><span class="chapter-link-number" data-bind="text: '0' + index"></span><span data-bind="text: short"></span><span class="index-missing" data-bind="text: missing, attr: { title: missing + ' missing in catalog' }"></span></a></nav>
+                    <!-- /ko -->
+                    <div class="index-foot"><span class="legend-owned"></span> Owned <span class="legend-missing"></span> Missing</div>
+                </aside>
+
+                <div class="chapter-stream">
+                    <div class="results-line" role="status"><span><strong data-bind="text: ScopeCards().length.toLocaleString()"></strong> recorded cards <span class="results-missing" data-bind="text: '/ ' + ScopeMissing().length + ' missing'"></span></span><span data-bind="text: Variant === 3 ? 'RELEASE SEQUENCE' : 'THE COLLECTION'"></span></div>
+                    <div class="empty-state" data-bind="visible: !VisibleChapters().length"><h2>No cards in this selection.</h2><button type="button" class="text-button" data-bind="click: Reset">Clear filters</button></div>
+                    <!-- ko foreach: VisibleChapters -->
+                    <section class="chapter" data-bind="attr: { id: 'chapter-' + key, 'aria-labelledby': 'title-' + key }">
+                        <div class="chapter-kicker"><span class="chapter-ordinal" data-bind="text: index < 10 ? '0' + index : index"></span><span data-bind="text: label"></span><span class="chapter-milestone" data-bind="text: milestone || '', visible: $component.Variant === 2"></span></div>
+                        <div class="chapter-heading"><h2 data-bind="text: title, attr: { id: 'title-' + key }"></h2><div class="chapter-coverage"><span><strong data-bind="text: FilteredOwned()"></strong> owned</span><span class="missing-count"><strong data-bind="text: MissingCards().length"></strong> missing</span></div></div>
+                        <p class="selection-label" data-bind="text: $component.Variant === 3 ? 'Across the seasons' : ($component.Variant === 4 ? 'Provisional selections' : 'Selected from the collection')"></p>
+                        <div class="exhibit-stage" data-bind="foreach: Highlights">
+                            <figure class="exhibit-piece" data-bind="css: { 'piece-missing': !owned }">
+                                <button class="image-stage" type="button" data-bind="click: $component.OpenCard, attr: { 'aria-label': 'View ' + season + ' ' + title + ' number ' + number + (owned ? ', owned' : ', missing') }"><img loading="lazy" decoding="async" data-bind="cardImage: front, attr: { alt: season + ' ' + title + ' #' + number }"></button>
+                                <figcaption><div class="piece-dateline"><span data-bind="text: season"></span><span class="ownership-label" data-bind="text: owned ? 'Owned' : 'Missing', css: { missing: !owned }"></span></div><button type="button" class="piece-title" data-bind="text: title, click: $component.OpenCard"></button><span class="piece-number" data-bind="text: '#' + number + (source === 'stickers' ? ' / Sticker' : '')"></span></figcaption>
+                            </figure>
+                        </div>
+                        <!-- ko if: note -->
+                        <p class="chapter-note"><span data-bind="text: note"></span> <a class="history-reference" target="_blank" rel="noopener noreferrer" data-bind="visible: $component.Variant === 2, attr: { href: $component.HistorySource, 'aria-label': 'Historical source for ' + title }">Source<span data-bind="icon: 'ArrowUpRight'"></span></a></p>
+                        <!-- /ko -->
+
+                        <div class="chapter-actions">
+                            <button class="text-button" type="button" data-bind="click: ToggleCollection, attr: { 'aria-expanded': Expanded(), 'aria-controls': 'collection-' + key }"><span data-bind="text: Expanded() ? 'Close collection' : 'Full chapter collection'"></span><span class="action-count" data-bind="text: Filtered().length"></span><span data-bind="icon: 'ChevronDown'"></span></button>
+                            <button class="text-button missing-action" type="button" data-bind="click: ToggleMissing, enable: MissingCards().length > 0, attr: { 'aria-expanded': MissingExpanded(), 'aria-controls': 'missing-' + key }"><span>Missing cards</span><span class="action-count" data-bind="text: MissingCards().length"></span><span data-bind="icon: 'ChevronDown'"></span></button>
+                        </div>
+                        <!-- ko if: Expanded -->
+                        <div class="chapter-collection" data-bind="attr: { id: 'collection-' + key }">
+                            <ul class="catalog-list" data-bind="foreach: VisibleCards"><li><button class="catalog-entry" type="button" data-bind="click: $component.OpenCard"><span class="catalog-thumbnail"><img loading="lazy" decoding="async" alt="" data-bind="cardImage: front"></span><span class="catalog-identity"><span class="catalog-season" data-bind="text: season + ' / #' + number"></span><strong data-bind="text: title"></strong><span class="catalog-note" data-bind="text: note || (source === 'stickers' ? 'Sticker' : '')"></span></span><span class="ownership-label" data-bind="text: owned ? 'Owned' : 'Missing', css: { missing: !owned }"></span><span class="entry-arrow" data-bind="icon: 'ArrowUpRight'"></span></button></li></ul>
+                            <button class="text-button load-more" type="button" data-bind="click: MoreCards, visible: Filtered().length > Limit()"><span>More cards</span><span data-bind="text: VisibleCards().length + ' / ' + Filtered().length"></span><span data-bind="icon: 'Plus'"></span></button>
+                        </div>
+                        <!-- /ko -->
+                        <!-- ko if: MissingExpanded -->
+                        <div class="missing-list" data-bind="attr: { id: 'missing-' + key }"><div class="missing-list-heading"><h3>Missing from this chapter</h3><button class="icon-button" type="button" title="Export this chapter's filtered missing cards" aria-label="Export this chapter's filtered missing cards" data-bind="click: function () { $component.ExportMissing(MissingCards()); }, enable: MissingCards().length > 0"><span data-bind="icon: 'Download'"></span></button></div><ul data-bind="foreach: VisibleMissing"><li><button class="missing-entry" type="button" data-bind="click: $component.OpenCard"><span class="missing-season" data-bind="text: season"></span><span data-bind="text: title"></span><strong data-bind="text: '#' + number"></strong><span data-bind="icon: 'ArrowUpRight'"></span></button></li></ul><button class="text-button load-more" type="button" data-bind="click: MoreMissing, visible: MissingCards().length > MissingLimit()"><span>More missing cards</span><span data-bind="text: VisibleMissing().length + ' / ' + MissingCards().length"></span><span data-bind="icon: 'Plus'"></span></button></div>
+                        <!-- /ko -->
+                    </section>
+                    <!-- /ko -->
+                </div>
+            </div>
+            <footer class="exhibition-footer"><a href="index.html">Original collection<span data-bind="icon: 'ArrowUpRight'"></span></a><p>Regular cards + stickers. Counts cover recorded cards, not a complete published checklist. Unspecified ownership counts as missing.</p><p data-bind="visible: Variant === 1">Design-era boundaries are editorial groupings by release season.</p><p data-bind="visible: Variant === 2">Career chapters use card release seasons, not the dates of pictured events.</p><p data-bind="visible: Variant === 4">Chapter boundaries are editorial. Highlight selections are provisional, not personal favorites.</p></footer>
+        </main>
+        <p class="sr-only" role="status" data-bind="text: Announcement"></p>
+        <dialog class="card-viewer" aria-labelledby="viewer-title" data-bind="dialogOpen: Selected, event: { cancel: CloseViewer, click: BackdropClick, keydown: ViewerKey }">
+            <div class="viewer-content">
+                <header class="viewer-header"><span data-bind="text: Selected() ? Selected().season + ' / ' + (Selected().source === 'stickers' ? 'STICKER' : 'CARD') : ''"></span><button type="button" class="icon-button" aria-label="Close card viewer" title="Close card viewer" autofocus data-bind="click: CloseViewer"><span data-bind="icon: 'X'"></span></button></header>
+                <!-- ko with: Selected -->
+                <div class="viewer-layout"><div class="viewer-artwork"><div class="viewer-image"><img data-bind="cardImage: $component.SelectedImage, attr: { alt: season + ' ' + title + ' #' + number + ' / ' + $component.Face() }"></div><fieldset class="face-control"><legend class="sr-only">Card face</legend><label><input type="radio" name="face" value="front" data-bind="checked: $component.Face"><span>Front</span></label><label><input type="radio" name="face" value="back" data-bind="checked: $component.Face"><span>Back</span></label></fieldset></div>
+                <div class="viewer-details"><span class="ownership-label" data-bind="text: owned ? 'Owned' : 'Missing', css: { missing: !owned }"></span><h2 id="viewer-title" data-bind="text: title"></h2><p class="viewer-card-number" data-bind="text: '#' + number"></p><dl><dt>Player</dt><dd data-bind="text: name"></dd><dt>Season</dt><dd data-bind="text: season"></dd><dt>Product</dt><dd data-bind="text: family"></dd><!-- ko if: variation --><dt>Variation</dt><dd data-bind="text: variation"></dd><!-- /ko --><!-- ko if: subset --><dt>Subset</dt><dd data-bind="text: subset"></dd><!-- /ko --><dt>Team</dt><dd data-bind="text: team"></dd><!-- ko if: serial --><dt>Print run</dt><dd data-bind="text: '/' + serial"></dd><!-- /ko --><!-- ko if: note --><dt>Note</dt><dd data-bind="text: note"></dd><!-- /ko --></dl><div class="viewer-links"><a target="_blank" rel="noopener noreferrer" data-bind="attr: { href: $component.SelectedEbay }">eBay search<span data-bind="icon: 'ArrowUpRight'"></span></a><!-- ko if: tcdb --><a target="_blank" rel="noopener noreferrer" data-bind="attr: { href: tcdb }">TCDB<span data-bind="icon: 'ArrowUpRight'"></span></a><!-- /ko --></div></div></div>
+                <!-- /ko -->
+                <footer class="viewer-navigation"><button class="icon-button" type="button" title="Previous card" aria-label="Previous card" data-bind="click: PreviousCard, enable: ViewerIndex() > 0"><span data-bind="icon: 'ArrowLeft'"></span></button><span data-bind="text: (ViewerIndex() + 1) + ' / ' + ViewerCards.length"></span><button class="icon-button" type="button" title="Next card" aria-label="Next card" data-bind="click: NextCard, enable: ViewerIndex() < ViewerCards.length - 1"><span data-bind="icon: 'ArrowRight'"></span></button></footer>
+            </div>
+        </dialog>
+    </script>
+</body>
+</html>
