@@ -5990,7 +5990,8 @@
               "image_back": "img/cards/ML66/2002-03-Upper-Deck-Classic-Portraits---Pillars-of-Strength-PS8-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.38
             }
           ]
         }
