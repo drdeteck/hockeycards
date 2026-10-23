@@ -6440,6 +6440,25 @@
           ]
         },
         {
+          "set_key": "2023-24-upper-deck-ud-canvas-black-and-white",
+          "set_name": "UD Canvas Black and White",
+          "set_display_name": "2023-24 Upper Deck - UD Canvas Black and White",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-ud-canvas-black-and-white-c404",
+              "base_number": "C404",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Upper-Deck---UD-Canvas-Black-White-C404-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Upper-Deck---UD-Canvas-Black-White-C404-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
+            }
+          ]
+        },
+        {
           "set_key": "2023-24-upper-deck-ud-canvas",
           "set_name": "UD Canvas",
           "set_display_name": "2023-24 Upper Deck - UD Canvas",
