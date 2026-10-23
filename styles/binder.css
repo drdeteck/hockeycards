@@ -395,7 +395,8 @@
     height: 12px;
 }
 
-.binder-slot-inner--owned::after {
+.binder-slot-inner--owned::after,
+.binder-slot-inner--placeholder::after {
     content: '';
     position: absolute;
     top: 0;
@@ -405,6 +406,10 @@
     border: 4px solid #27ae60;
     pointer-events: none;
     z-index: 6;
+}
+
+.binder-slot-inner--placeholder::after {
+    border-color: var(--color-image-placeholder);
 }
 
 @media (max-width: 1024px) {

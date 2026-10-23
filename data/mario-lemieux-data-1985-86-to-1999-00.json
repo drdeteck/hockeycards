@@ -6750,6 +6750,27 @@
       ],
       "subsets": [
         {
+          "set_key": "1995-96-score-summit-artists-proofs",
+          "set_name": "Artist's Proofs",
+          "set_type": "parallel",
+          "set_display_name": "1995-96 Score Summit - Artist's Proofs",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1995-96-score-summit-artists-proofs-118",
+              "base_number": "118",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/Chase/1995-96-Score-Summit---Artists-Proofs-118-Mario-LemieuxFr-placeholder.jpg",
+              "image_back": "img/cards/ML66/Chase/1995-96-Score-Summit---Artists-Proofs-118-Mario-LemieuxFr-placeholder.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5199/cid/1599700/1995-96-Score-Summit-118-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false,
+              "is_image_placeholder": true
+            }
+          ]
+        },
+        {
           "set_key": "1995-96-score-summit-general-managers-choice",
           "set_name": "General Manager's Choice",
           "set_display_name": "1995-96 Score Summit - General Manager's Choice",
@@ -8408,6 +8429,26 @@
       ],
       "subsets": [
         {
+          "set_key": "1996-97-flair-blue-ice-collection",
+          "set_name": "Blue Ice Collection",
+          "set_display_name": "1996-97 Flair - Blue Ice Collection",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-flair-blue-ice-collection-b78",
+              "base_number": "B78",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Flair---Blue-Ice-Collection-B78-Mario-LemieuxFr.jpg",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5266/cid/1603638/1996-97-Flair-B78-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false,
+              "price": 400
+            }
+          ]
+        },
+        {
           "set_key": "1996-97-flair-hot-numbers",
           "set_name": "Hot Numbers",
           "set_display_name": "1996-97 Flair - Hot Numbers",
@@ -8938,6 +8979,27 @@
       ],
       "subsets": [
         {
+          "set_key": "1996-97-pinnacle-artists-proofs",
+          "set_name": "Artist's Proofs",
+          "set_display_name": "1996-97 Pinnacle - Artist's Proofs",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-pinnacle-artists-proofs-86",
+              "base_number": "86",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Pinnacle---Artists-Proofs-86-Mario-LemieuxFr.jpg",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48581/cid/1604911/1996-97-Pinnacle-86-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false,
+              "price": 225,
+              "location": "US"
+            }
+          ]
+        },
+        {
           "set_key": "1996-97-pinnacle-foil",
           "set_name": "Foil",
           "set_display_name": "1996-97 Pinnacle - Foil",
@@ -9299,6 +9361,25 @@
       ],
       "subsets": [
         {
+          "set_key": "1996-97-pinnacle-summit-artists-proofs",
+          "set_name": "Artist's Proofs",
+          "set_display_name": "1996-97 Pinnacle Summit - Artist's Proofs",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-pinnacle-summit-artists-proofs-32",
+              "base_number": "32",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Pinnacle-Summit---Artists-Proofs-32-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Pinnacle-Summit---Artists-Proofs-32-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48612/cid/1608406/1996-97-Pinnacle-Summit-32-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
+            }
+          ]
+        },
+        {
           "set_key": "1996-97-pinnacle-summit-ice",
           "set_name": "Ice (Parallel)",
           "set_display_name": "1996-97 Pinnacle Summit - Ice (Parallel)",
@@ -9626,6 +9707,26 @@
               "team": "Pittsburgh Penguins",
               "inCollection": true,
               "price": 3.99
+            }
+          ]
+        },
+        {
+          "set_key": "1996-97-score-golden-blades-winners-redeemed",
+          "set_name": "Golden Blades Winners Redeemed",
+          "set_display_name": "1996-97 Score - Golden Blades Winners Redeemed",
+          "set_type": "parallel",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/48601/",
+          "cards": [
+            {
+              "id": "ml-1996-97-score-golden-blades-winners-redeemed-6",
+              "base_number": "6",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48601/cid/4518034/1996-97-Score-Golden-Blades-Winners-Redeemed-6-Mario-Lemieux-?PageIndex=1",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
             }
           ]
         },
@@ -10297,6 +10398,26 @@
         }
       ],
       "subsets": [
+        {
+          "set_key": "1996-97-zenith-artists-proofs",
+          "set_name": "Artist's Proofs",
+          "set_display_name": "1996-97 Zenith - Artist's Proofs",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/48628/1996-97-zenith-artists-proofs",
+          "cards": [
+            {
+              "id": "ml-1996-97-zenith-artists-proofs-114",
+              "base_number": "114",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Zenith---Artists-Proofs-114-Mario-LemieuxFr.jpg",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48628/cid/1610209/1996-97-Zenith-114-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false,
+              "price": 560
+            }
+          ]
+        },
         {
           "set_key": "1996-97-zenith-champion-salute",
           "set_name": "Champion Salute",

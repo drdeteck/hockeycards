@@ -359,18 +359,17 @@
                         </p>
 
                         <div class="card-profile-actions card-actions">
-                            <a class="btn btn-sm btn-outline-secondary"
-                                data-bind="click: $root.BackToCollection, attr: { href: $root.CardBackHref(), 'aria-label': 'Back to set ' + (collection.set_display_name || collection.set_name) }"><svg
-                                    class="icon-inline" aria-hidden="true" focusable="false">
-                                    <use href="#icon-back"></use>
-                                </svg>Back
-                                to set</a>
-                            <a class="btn btn-sm btn-outline-secondary" target="_blank" rel="noopener noreferrer"
+                            <a class="btn btn-sm btn-success" target="_blank" rel="noopener noreferrer"
                                 data-bind="attr: { href: $root.GetEbaySearchUrl(card), 'aria-label': 'Search eBay for ' + (card.name || 'card'), title: 'Search on eBay: ' + (card.name || '') }"><svg
                                     class="icon-inline" aria-hidden="true" focusable="false">
                                     <use href="#icon-search"></use>
-                                </svg>EBAY</a>
-                            <a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer"
+                                </svg>eBay</a>
+                            <a class="btn btn-sm btn-primary" target="_blank" rel="noopener noreferrer"
+                                data-bind="attr: { href: $root.GetEbayResearchUrl(card), 'aria-label': 'Research sold eBay listings for ' + (card.name || 'card'), title: 'Research sold eBay listings: ' + (card.name || '') }"><svg
+                                    class="icon-inline" aria-hidden="true" focusable="false">
+                                    <use href="#icon-search"></use>
+                                </svg>Research</a>
+                            <a class="btn btn-sm card-action-tcdb" target="_blank" rel="noopener noreferrer"
                                 data-bind="attr: { href: $root.CardExternalHref(), 'aria-label': 'Open TCDB page for ' + (card.name || 'card') }"><svg
                                     class="icon-inline" aria-hidden="true" focusable="false">
                                     <use href="#icon-external"></use>
@@ -436,10 +435,10 @@
                             </thead>
                             <tbody data-bind="foreach: $root.VisibleCardSetCards()">
                                 <tr
-                                    data-bind="css: { current: $root.IsCurrentCardRoute($root.BuildCardRoute($data, $root.CardSetListContainer())) }">
+                                    data-bind="css: { current: $root.IsCurrentCardRoute($root.BuildCardRoute(card, container)) }">
                                     <td>
                                         <a
-                                            data-bind="text: (base_number || number || 'NNO') + ' - ' + (name || 'Card'), attr: { href: $root.BuildCardRoute($data, $root.CardSetListContainer()) }"></a>
+                                            data-bind="text: (card.base_number || card.number || 'NNO') + ' - ' + (card.name || 'Card') + (subsetName ? ' (' + subsetName + ')' : ''), attr: { href: $root.BuildCardRoute(card, container) }"></a>
                                     </td>
                                 </tr>
                             </tbody>
@@ -581,7 +580,7 @@
                     <!-- ko if: $data && ($data.default_face === 'back' ? $data.orientation_back : $data.orientation_front) !== 'extra-tall' && !$data.excludeFromBinder -->
                     <div class="binder-slot binder-slot--filled">
                         <div class="binder-slot-inner"
-                            data-bind="css: { 'binder-slot-inner--owned': $data.inCollection }">
+                            data-bind="css: { 'binder-slot-inner--owned': $data.inCollection, 'binder-slot-inner--placeholder': $data.is_image_placeholder }">
                             <a class="binder-slot-link"
                                 data-bind="attr: { href: $root.BuildCardRoute($data, null), title: $data.set_display_name + ' #' + $data.base_number + ($data.insert_subset ? ' · ' + $data.insert_subset : '') }">
                                 <img class="binder-slot-img" data-bind="css: { 'binder-slot-img--landscape': ($data.default_face === 'back' ? $data.orientation_back : $data.orientation_front) === 'landscape' }, attr: {
@@ -597,6 +596,14 @@
                                     focusable="false">
                                     <polyline points="2,5.5 4.2,8 8,3" stroke="#fff" stroke-width="1.8" fill="none"
                                         stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <!-- /ko -->
+                            <!-- ko if: $data.is_image_placeholder -->
+                            <span class="image-placeholder-badge" title="Placeholder image" aria-label="Placeholder image">
+                                <svg class="image-placeholder-badge-mark" viewBox="0 0 10 10" aria-hidden="true" focusable="false">
+                                    <path d="M5 1.5v4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none" />
+                                    <circle cx="5" cy="8.5" r="0.9" fill="currentColor" />
                                 </svg>
                             </span>
                             <!-- /ko -->
@@ -679,7 +686,7 @@
     <li class="card-grid-item"
         data-bind="visible: !($root.CollectionOverlayMode() === 'wish' && $data.inCollection), css: { 'card-landscape': ($data.default_face === 'back' ? $data.orientation_back : $data.orientation_front) === 'landscape', 'card-square': ($data.default_face === 'back' ? $data.orientation_back : $data.orientation_front) === 'square', 'card-extra-tall': ($data.default_face === 'back' ? $data.orientation_back : $data.orientation_front) === 'extra-tall' }">
         <a class="card-grid-item-card"
-            data-bind="css: { 'card-landscape': ($data.default_face === 'back' ? $data.orientation_back : $data.orientation_front) === 'landscape', 'card-square': ($data.default_face === 'back' ? $data.orientation_back : $data.orientation_front) === 'square', 'card-extra-tall': ($data.default_face === 'back' ? $data.orientation_back : $data.orientation_front) === 'extra-tall', 'card-grid-item-card--owned': $root.CollectionOverlayMode() === 'owned' && $data.inCollection },
+            data-bind="css: { 'card-landscape': ($data.default_face === 'back' ? $data.orientation_back : $data.orientation_front) === 'landscape', 'card-square': ($data.default_face === 'back' ? $data.orientation_back : $data.orientation_front) === 'square', 'card-extra-tall': ($data.default_face === 'back' ? $data.orientation_back : $data.orientation_front) === 'extra-tall', 'card-grid-item-card--owned': $root.CollectionOverlayMode() === 'owned' && $data.inCollection, 'card-grid-item-card--placeholder': $data.is_image_placeholder },
             attr: { href: $root.BuildCardRoute($data, $parent), 'aria-label': 'Open card details for ' + (($data.name || 'Unknown') + ' ' + ($data.base_number || $data.number || 'NNO')) }">
             <span class="card-grid-item-invisible-label" aria-hidden="true" data-bind="text: name"></span>
             <div class="card-grid-item-card-faces">
@@ -692,6 +699,14 @@
                         onerror="this.onerror=null; this.src=this.getAttribute('data-placeholder') || 'img/cards/placeholder.svg'">
                 </div>
             </div>
+            <!-- ko if: $data.is_image_placeholder -->
+            <span class="image-placeholder-badge" aria-label="Placeholder image" title="Placeholder image">
+                <svg class="image-placeholder-badge-mark" viewBox="0 0 10 10" aria-hidden="true" focusable="false">
+                    <path d="M5 1.5v4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none" />
+                    <circle cx="5" cy="8.5" r="0.9" fill="currentColor" />
+                </svg>
+            </span>
+            <!-- /ko -->
             <!-- ko if: $root.CollectionOverlayMode() === 'owned' && $data.inCollection -->
             <span class="card-owned-badge" aria-label="In collection" title="In collection">
                 <svg class="card-owned-badge-check" viewBox="0 0 10 10" aria-hidden="true" focusable="false">

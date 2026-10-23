@@ -457,6 +457,7 @@ function DataViewModel() {
                     insert_subset: '',
                     image_front: row.image_front || '',
                     image_back: row.image_back || '',
+                    is_image_placeholder: !!(row.is_image_placeholder),
                     tcdb_href: (tcdbHref && tcdbHref.indexOf('http') === 0) ? tcdbHref : '',
                     price: row.price,
                     card_type: row.card_type || 'card',
@@ -494,6 +495,7 @@ function DataViewModel() {
                         insert_subset: subset.set_name,
                         image_front: row.image_front || '',
                         image_back: row.image_back || '',
+                        is_image_placeholder: !!(row.is_image_placeholder),
                         tcdb_href: (tcdbHref && tcdbHref.indexOf('http') === 0) ? tcdbHref : '',
                         price: row.price,
                         card_type: row.card_type || 'card',
@@ -819,6 +821,7 @@ function DataViewModel() {
             insert_subset: subsetName || '',
             image_front: row.image_front || '',
             image_back: row.image_back || '',
+            is_image_placeholder: !!(row.is_image_placeholder),
             tcdb_href: (tcdbHref && tcdbHref.indexOf('http') === 0) ? tcdbHref : '',
             price: row.price,
             card_type: row.card_type || defaultCardType,
@@ -1409,26 +1412,38 @@ function DataViewModel() {
             return [];
         }
 
-        var listContainer = ctx.insert || ctx.collection;
-        var sourceCards = (listContainer.cards || []).slice();
+        var cardItems = [];
+        var containers = [{
+            container: ctx.collection,
+            cards: ctx.collection.cards || [],
+            subsetName: ''
+        }].concat((ctx.collection.subsets || []).map(function (subset) {
+            return {
+                container: subset,
+                cards: subset.cards || [],
+                subsetName: subset.set_name || ''
+            };
+        }));
 
-        var filteredCards = sourceCards;
-
-        filteredCards.sort(function (leftCard, rightCard) {
-            var leftNumber = (leftCard && (leftCard.base_number || leftCard.number)) || '';
-            var rightNumber = (rightCard && (rightCard.base_number || rightCard.number)) || '';
-            return leftNumber.localeCompare(rightNumber, undefined, { numeric: true, sensitivity: 'base' });
+        containers.forEach(function (item) {
+            item.cards.forEach(function (card) {
+                cardItems.push({
+                    card: card,
+                    container: item.container,
+                    subsetName: item.subsetName || card.insert_subset || ''
+                });
+            });
         });
 
-        return filteredCards;
-    });
+        cardItems.sort(function (leftItem, rightItem) {
+            var leftNumber = (leftItem.card && (leftItem.card.base_number || leftItem.card.number)) || '';
+            var rightNumber = (rightItem.card && (rightItem.card.base_number || rightItem.card.number)) || '';
+            var numberCompare = leftNumber.localeCompare(rightNumber, undefined, { numeric: true, sensitivity: 'base' });
+            if (numberCompare !== 0) { return numberCompare; }
+            return leftItem.subsetName.localeCompare(rightItem.subsetName, undefined, { sensitivity: 'base' });
+        });
 
-    self.CardSetListContainer = ko.pureComputed(function () {
-        var ctx = self.CurrentCardContext();
-        if (!ctx || !ctx.collection) {
-            return null;
-        }
-        return ctx.insert || ctx.collection;
+        return cardItems;
     });
 
     self.VisibleCardSetCards = ko.pureComputed(function () {
@@ -2274,8 +2289,8 @@ function DataViewModel() {
         return !!(col && self.IsMarioSource(col.source));
     });
 
-    self.GetEbaySearchUrl = function (card) {
-        if (!card) { return '#'; }
+    self.GetEbaySearchKeywords = function (card) {
+        if (!card) { return ''; }
         var parts = [];
         var displayName = (card.set_display_name || card.set_name || '').toString().trim();
         var insertSubset = (card.insert_subset || '').toString().trim();
@@ -2285,8 +2300,28 @@ function DataViewModel() {
         if (insertSubset) { parts.push(insertSubset); }
         if (baseNumber) { parts.push(baseNumber); }
         if (name) { parts.push(name); }
-        if (!parts.length) { return '#'; }
-        return 'https://www.ebay.ca/sch/i.html?_nkw=' + encodeURIComponent(parts.join(' ')) + '&_sacat=212';
+        return parts.join(' ');
+    };
+
+    self.GetEbaySearchUrl = function (card) {
+        var keywords = self.GetEbaySearchKeywords(card);
+        if (!keywords) { return '#'; }
+        return 'https://www.ebay.ca/sch/i.html?_nkw=' + encodeURIComponent(keywords) + '&_sacat=212';
+    };
+
+    self.GetEbayResearchUrl = function (card) {
+        var keywords = self.GetEbaySearchKeywords(card);
+        if (!keywords) { return '#'; }
+
+        var dayRange = 1095;
+        var endDate = Date.now();
+        var startDate = endDate - dayRange * 24 * 60 * 60 * 1000;
+        return 'https://www.ebay.ca/sh/research?marketplace=EBAY-CA'
+            + '&keywords=' + encodeURIComponent(keywords)
+            + '&dayRange=' + dayRange
+            + '&endDate=' + endDate
+            + '&startDate=' + startDate
+            + '&offset=0&limit=50&tabName=SOLD&tz=America%2FToronto';
     };
 
     self.CopyCardImageFilenamePrefix = function () {

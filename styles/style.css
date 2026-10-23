@@ -21,6 +21,30 @@
     --color-black: #000;
     --color-alert-bg: #b3261e;
     --color-alert-text: #fff;
+    --color-image-placeholder: #f1c40f;
+    --color-image-placeholder-text: #16161d;
+}
+
+.image-placeholder-badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 36px 36px 0 0;
+    border-color: var(--color-image-placeholder) transparent transparent transparent;
+    color: var(--color-image-placeholder-text);
+    z-index: 10;
+    pointer-events: none;
+}
+
+.image-placeholder-badge-mark {
+    position: absolute;
+    top: -32px;
+    left: 4px;
+    width: 14px;
+    height: 14px;
 }
 
 .dataset-error-banner {

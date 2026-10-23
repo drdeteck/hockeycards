@@ -19,6 +19,7 @@ A static single-page web application for browsing a personal hockey card collect
 ## Features
 
 - **Card grid** — browse a set by thumbnail with collector number and insert label
+- **Placeholder image warning** — cards with `is_image_placeholder: true` show a yellow border and top-left "!" badge in the grid and binder, even with the collection overlay off. The yellow border takes priority over the owned border; owned cards retain their top-right green checkmark.
 - **Card detail view** — full-size front/back image with a CSS flip animation
 - **Deep-link routing** — every card and set has its own shareable URL (`#{setKey}/{cardKey}`)
 - **eBay search** — one-click search for a card in eBay's Sports Trading Cards category (Mario Lemieux collection)
@@ -223,4 +224,3 @@ Stores dataset metadata plus a `sets` object across three split JSON files. Each
 | `self.BuildMarioCollections` | Transforms `marioLemieuxData.sets` into per-year virtual collections + individual proper sets |
 | `self.MenuRows` | Computed array that generates the top navigation from `self.Data` |
 | `self.BuildCardRoute(card, collection)` | Returns the `#{setKey}/{cardKey}` hash for a card link |
-

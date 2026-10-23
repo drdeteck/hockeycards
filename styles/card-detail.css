@@ -337,10 +337,10 @@
 
 .card-profile-actions {
     margin: 0;
-    padding: 14px 12px 0;
+    padding: 10px 8px 0;
     border-top: 2px solid rgba(0, 0, 0, 0.05);
     display: flex;
-    gap: 8px;
+    gap: 4px;
 }
 
 .card-actions {
@@ -358,6 +358,21 @@
     -webkit-flex-flow: row;
     -ms-flex-flow: row;
     flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.card-action-tcdb {
+    color: #fff;
+    background-color: #fd7e14;
+    border-color: #fd7e14;
+}
+
+.card-action-tcdb:hover,
+.card-action-tcdb:focus {
+    color: #fff;
+    background-color: #e96b02;
+    border-color: #dc6500;
+    box-shadow: 0 0 0 0.2rem rgba(253, 126, 20, 0.5);
 }
 
 .card-action-icon-btn {
