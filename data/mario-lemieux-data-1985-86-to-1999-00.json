@@ -4698,8 +4698,8 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5047/cid/1556185/1994-95-Pinnacle-170-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false,
-              "price": 69.2,
+              "inCollection": true,
+              "price": 70,
               "location": "US"
             }
           ]
@@ -6703,6 +6703,7 @@
         {
           "set_key": "1995-96-select-certified-mirror-gold",
           "set_name": "Mirror Gold",
+          "set_type": "parallel",
           "set_display_name": "1995-96 Select Certified - Mirror Gold",
           "set_tcdb_href": "",
           "cards": [
@@ -6774,6 +6775,7 @@
           "set_key": "1995-96-score-summit-ice",
           "set_name": "Ice",
           "set_display_name": "1995-96 Score Summit - Ice",
+          "set_type": "parallel",
           "set_tcdb_href": "",
           "cards": [
             {
