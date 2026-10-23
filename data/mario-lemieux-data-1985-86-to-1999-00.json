@@ -10202,7 +10202,9 @@
           "image_front": "img/cards/ML66/1996-97-Upper-Deck-Black-Diamond-166-Mario-LemieuxFr.jpg",
           "image_back": "img/cards/ML66/1996-97-Upper-Deck-Black-Diamond-166-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
-          "team": "Pittsburgh Penguins"
+          "team": "Pittsburgh Penguins",
+          "inCollection": true,
+          "price": 55
         }
       ]
     },
