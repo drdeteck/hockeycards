@@ -6785,8 +6785,8 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48535/cid/1599921/1995-96-Score-Summit-118-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false,
-              "price": 67.66,
+              "inCollection": true,
+              "price": 37,
               "is_image_placeholder": true
             }
           ]
