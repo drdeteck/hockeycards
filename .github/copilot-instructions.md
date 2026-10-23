@@ -159,13 +159,12 @@ Mario Lemieux set keys have **no prefix** (e.g. `"1985-86-o-pee-chee"`), not `"m
 ```js
 {
   // --- Identity ---
-  "id":               "ml-1985-86-opc-9",    // unique card id (ML and CC datasets)
+  "id":               "ml-1985-86-opc-9",    // unique card id (required in wrapped datasets; optional in legacy setMap datasets)
   "base_number":      "9",                   // card number as printed; used as the canonical key
   "name":             "Mario Lemieux",       // player name
 
   // --- Card details ---
   "team":             "Pittsburgh Penguins",
-  "position":         "Center",
   "variant_note":     "Rookie",              // optional: variant label (e.g. "Rookie", "French")
 
   // --- Images ---
@@ -182,16 +181,16 @@ Mario Lemieux set keys have **no prefix** (e.g. `"1985-86-o-pee-chee"`), not `"m
 
   // --- Collection tracking ---
   "inCollection":     true,                  // true = owned; false or absent = not owned
-  "price":            32.09                  // optional: estimated market value (float)
+  "price":            32.09                  // optional: paid price when inCollection:true, otherwise market/reference price (float)
 }
 ```
 
 **Key fields for collection features:**
 - `inCollection` — boolean; drives the "in collection" badge/filter
-- `price` — float; displayed on card detail view; used for collection value calculations
+- `price` — float; paid price when `inCollection` is `true`, otherwise market or reference price; displayed on card detail view and used for collection value calculations
 - `base_number` — canonical card identifier used in URLs and data lookups
 - `image_front` / `image_back` — relative paths from repo root; empty string if image not yet added
-- `serial_total` — use for serial-numbered cards (e.g. `/299`) and set it to the plain integer run size. Do **not** use `variant_note` for serial numbers — there is no tracking of the specific numbered copy pulled (e.g. "1541/1996"), only the run size.
+- `serial_total` — use for serial-numbered cards (e.g. `/299`) and set it to the plain integer run size. Do **not** use `variant_note` or `serial_number` for serial numbers — there is no tracking of the specific numbered copy pulled (e.g. "1541/1996"), only the run size.
 
 ---
 

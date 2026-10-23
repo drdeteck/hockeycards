@@ -134,7 +134,6 @@ Stores a JSON object keyed by `set_key`. Set-level attributes live on the set; c
         "name": "Cam Neely",
         "base_number": "Mc-1",
         "team": "Boston Bruins",
-        "position": "",
         "orientation_front": "portrait", // "portrait" | "landscape"
         "orientation_back": "portrait",
         "image_front": "img/cards/McD91-92/56699-Mc-1Fr.jpg",
@@ -182,8 +181,7 @@ Stores dataset metadata plus a `sets` object across three split JSON files. Each
           "image_front": "img/cards/ML66/1985-86-O-Pee-Chee-9-Mario-Lemieux-FR.jpg",
           "image_back":  "img/cards/ML66/1985-86-O-Pee-Chee-9-Mario-Lemieux-BK.jpg",
           "tcdb_href": "https://www.tcdb.com/…",
-          "team": "Pittsburgh Penguins",
-          "position": "Center"
+          "team": "Pittsburgh Penguins"
         }
       ]
       // "subsets": [ … ]  // optional — for insert/parallel subsets within this set

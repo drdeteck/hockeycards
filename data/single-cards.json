@@ -173,8 +173,8 @@
             "team": "San Jose Sharks",
             "orientation_front": "portrait",
             "orientation_back": "portrait",
-            "image_front": "/img/cards/Singles/1994-95-Stadium-Club---First-Day-Issue-190-Arturs-IrbeFr.jpg",
-            "image_back": "/img/cards/Singles/1994-95-Stadium-Club---First-Day-Issue-190-Arturs-IrbeBk.jpg",
+            "image_front": "img/cards/Singles/1994-95-Stadium-Club---First-Day-Issue-190-Arturs-IrbeFr.jpg",
+            "image_back": "img/cards/Singles/1994-95-Stadium-Club---First-Day-Issue-190-Arturs-IrbeBk.jpg",
             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48508/cid/1594144/1994-95-Stadium-Club-First-Day-Issue-190-Arturs-Irbe?PageIndex=2",
             "inCollection": true,
             "price": 1

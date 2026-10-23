@@ -94,13 +94,15 @@ Resolution: the sticker and regular Mario builders now share set/subset construc
 
 Resolution: healthy datasets still load, and any dataset that fails to fetch or parse is now named in a red `role="alert"` banner above the header, stating that collections and counts may be incomplete. The console warning is kept. Recovery is a page reload, so there is no in-app retry and no risk of duplicate bindings. Browser verification covered a normal load (no banner), a blocked late Mario dataset (banner; `ML-all` 1,219 instead of 1,611), malformed sticker JSON (banner), and recovery after reload (no banner, 1,611).
 
-### F03 - High: Missing Image Paths and Deployment-Path Inconsistency
+### ~~F03 - High: Missing Image Paths and Deployment-Path Inconsistency~~ (Resolved)
 
-Evidence: the full UTF-8-aware reference inventory found 14 absent local paths listed in the appendix. Four additional strings begin with `/img/` in the late Mario and singles datasets. Their files exist under repository-relative paths.
+~~Evidence: the full UTF-8-aware reference inventory found 14 absent local paths listed in the appendix. Four additional strings begin with `/img/` in the late Mario and singles datasets. Their files exist under repository-relative paths.~~
 
-Impact: affected images fall back rather than showing the intended card. Root-relative URLs work at a domain root but can fail when the application is hosted under a repository subpath. [CNAME](CNAME) names a custom domain, while the README also advertises a GitHub Pages URL.
+~~Impact: affected images fall back rather than showing the intended card. Root-relative URLs work at a domain root but can fail when the application is hosted under a repository subpath. [CNAME](CNAME) names a custom domain, while the README also advertises a GitHub Pages URL.~~
 
-Recommendation: inspect nearby assets for extension/naming mismatches, and propose exact path-only corrections for owner review. Do not invent scans, fetch replacements, relabel seasons, or rename IDs. Preserve fallbacks for genuinely unavailable images. Test both domain-root and project-subpath URL resolution before approving path normalization.
+~~Recommendation: inspect nearby assets for extension/naming mismatches, and propose exact path-only corrections for owner review. Do not invent scans, fetch replacements, relabel seasons, or rename IDs. Preserve fallbacks for genuinely unavailable images. Test both domain-root and project-subpath URL resolution before approving path normalization.~~
+
+Resolution: normalized all four root-relative `/img/...` paths to repository-relative `img/...` paths in `data/mario-lemieux-data-2010-11-to-present.json` and `data/single-cards.json`. Renamed the two existing `2011-12-In-The-Game-Captain-C-50` files to `2011-12-In-The-Game---Captain-C-50...` to match the subset `---` naming convention, corrected the `POEE97-8` → `POE97-8` back-image typo in `data/mario-lemieux-data-2010-11-to-present.json`, and cleared the remaining 11 genuinely absent scan references to `""` (empty string) so they cleanly use the placeholder fallback without 404s. Verified 0 root-relative paths and 0 missing files across all 3,985 non-empty image references.
 
 ### F04 - High, Frozen: Two Duplicate-ID Groups
 
@@ -113,13 +115,15 @@ Impact: ID-based external consumers can conflate records. The two cases require 
 
 Recommendation agreed with owner: flag both, preserve all current records and IDs, and require Radar review before any repair proposal. Do not quietly deduplicate statistics or binder entries. Any future enforcement should baseline these exceptions rather than demand immediate repair.
 
-### F05 - Medium: Shared Schema Does Not Match All Existing Data
+### ~~F05 - Medium: Shared Schema Does Not Match All Existing Data~~ (Resolved)
 
-Evidence: [card requirements](hockey-card.schema.json) require `id` and `base_number`, but the 325 McDonald's cards do not have IDs. The schema's `datasetDocument` definition is not selected as an exclusive root alternative. The schema also permits a specific `serial_number` field while repository instructions say only total print runs are tracked.
+~~Evidence: [card requirements](hockey-card.schema.json) require `id` and `base_number`, but the 325 McDonald's cards do not have IDs. The schema's `datasetDocument` definition is not selected as an exclusive root alternative. The schema also permits a specific `serial_number` field while repository instructions say only total print runs are tracked.~~
 
-Impact: applying this schema uniformly would reject existing legacy data, while its root shape and domain descriptions do not fully enforce the intended model.
+~~Impact: applying this schema uniformly would reject existing legacy data, while its root shape and domain descriptions do not fully enforce the intended model.~~
 
-Recommendation: decide and document separate legacy and wrapped-dataset contracts before enabling validation. Preserve McDonald's identities; do not manufacture IDs to satisfy the schema. Tighten root alternatives and season rules only against representative valid fixtures. Reconcile serial-number and price descriptions without changing stored values.
+~~Recommendation: decide and document separate legacy and wrapped-dataset contracts before enabling validation. Preserve McDonald's identities; do not manufacture IDs to satisfy the schema. Tighten root alternatives and season rules only against representative valid fixtures. Reconcile serial-number and price descriptions without changing stored values.~~
+
+Resolution: [hockey-card.schema.json](hockey-card.schema.json) now uses an exclusive root `oneOf` between `datasetDocument` (wrapped datasets, where cards require both `id` and `base_number`) and `setMap` (legacy set-map datasets, where cards require `base_number` and `id` is optional, preserving McDonald's identities without synthetic IDs). Legacy subset fields (`set_category`, `set_total_cards`) and `YYYY-YY` season-span patterns on `set_year_label` are enforced. Per owner direction, legacy `position` fields were removed from dataset JSON and documentation examples, the single redundant `serial_number` entry (already paired with `serial_total: 600`) and its schema property were removed in favor of `serial_total`, and `price` descriptions were aligned across schema and instructions. All eight datasets and six negative fixtures were validated against the updated schema.
 
 ### F06 - Medium: Maintenance Workflows Have Drifted
 

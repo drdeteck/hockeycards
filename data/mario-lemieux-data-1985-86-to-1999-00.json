@@ -9397,8 +9397,7 @@
               "inCollection": true,
               "price": 127.50,
               "serial_total": 600,
-              "isTooThickForBinder": true,
-              "serial_number": "105"
+              "isTooThickForBinder": true
             }
           ]
         },

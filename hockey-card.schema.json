@@ -2,41 +2,34 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://hockeycards.example.com/schemas/hockey-card.schema.json",
     "title": "Hockey Card Collection",
-    "description": "Schema for hockey card collection data. Supports both a direct map of set identifiers to sets and the repository's dataset wrapper format.",
+    "description": "Schema for hockey card collection data. Supports either the repository's wrapped dataset format (with required card IDs) or a legacy direct map of set identifiers to sets (where card IDs are optional).",
     "type": "object",
-    "properties": {
-        "dataset": {
-            "type": "string"
+    "oneOf": [
+        {
+            "$ref": "#/definitions/datasetDocument"
         },
-        "version": {
-            "type": "string"
-        },
-        "player": {
-            "type": "string"
-        },
-        "updated_at": {
-            "type": "string"
-        },
-        "image_folder": {
-            "type": "string"
-        },
-        "sets": {
+        {
             "$ref": "#/definitions/setMap"
         }
-    },
-    "patternProperties": {
-        "^(?!(dataset|version|player|updated_at|image_folder|sets)$)[A-Za-z0-9][A-Za-z0-9._-]*$": {
-            "$ref": "#/definitions/set"
-        }
-    },
-    "additionalProperties": false,
+    ],
     "definitions": {
-        "setMap": {
+        "datasetSetMap": {
             "type": "object",
-            "description": "Map whose property names are unique set identifiers.",
+            "description": "Map whose property names are unique set identifiers in a wrapped dataset document.",
             "patternProperties": {
                 "^[A-Za-z0-9][A-Za-z0-9._-]*$": {
                     "$ref": "#/definitions/set"
+                }
+            },
+            "additionalProperties": false
+        },
+        "setMap": {
+            "type": "object",
+            "description": "Legacy root map whose property names are unique set identifiers.",
+            "minProperties": 1,
+            "patternProperties": {
+                "^(?!(dataset|version|player|updated_at|image_folder|sets)$)[A-Za-z0-9][A-Za-z0-9._-]*$": {
+                    "$ref": "#/definitions/legacySet"
                 }
             },
             "additionalProperties": false
@@ -47,26 +40,31 @@
             "properties": {
                 "dataset": {
                     "type": "string",
+                    "minLength": 1,
                     "description": "Stable identifier for the dataset, such as mario-lemieux."
                 },
                 "version": {
                     "type": "string",
+                    "minLength": 1,
                     "description": "Dataset schema or content version."
                 },
                 "player": {
                     "type": "string",
+                    "minLength": 1,
                     "description": "Primary player represented by the dataset."
                 },
                 "updated_at": {
                     "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
                     "description": "ISO-formatted date on which the dataset was last updated."
                 },
                 "image_folder": {
                     "type": "string",
+                    "minLength": 1,
                     "description": "Root folder used for card images in this dataset."
                 },
                 "sets": {
-                    "$ref": "#/definitions/setMap",
+                    "$ref": "#/definitions/datasetSetMap",
                     "description": "Map of unique set identifiers to set objects."
                 }
             },
@@ -75,21 +73,24 @@
             ],
             "additionalProperties": false
         },
-        "set": {
+        "setBase": {
             "type": "object",
-            "description": "A complete card release, including its base cards and optional subsets.",
+            "description": "Shared properties for a complete card release, including its base cards and optional subsets.",
             "properties": {
                 "set_key": {
                     "type": "string",
+                    "minLength": 1,
                     "description": "Unique identifier for the set, normally a lowercase slug."
                 },
                 "set_name": {
                     "type": "string",
+                    "minLength": 1,
                     "description": "Manufacturer or product name of the set without the year prefix."
                 },
                 "set_year_label": {
                     "type": "string",
-                    "description": "Human-readable hockey season label, such as 2026-27."
+                    "pattern": "^\\d{4}-\\d{2}$",
+                    "description": "Human-readable hockey season span label (YYYY-YY), such as 2026-27."
                 },
                 "set_year_start": {
                     "type": "integer",
@@ -101,6 +102,7 @@
                 },
                 "set_display_name": {
                     "type": "string",
+                    "minLength": 1,
                     "description": "Full display label for the set, usually including the season and product name."
                 },
                 "menu_display_name": {
@@ -146,17 +148,11 @@
                 },
                 "cards": {
                     "type": "array",
-                    "description": "Base cards belonging directly to this set.",
-                    "items": {
-                        "$ref": "#/definitions/card"
-                    }
+                    "description": "Base cards belonging directly to this set."
                 },
                 "subsets": {
                     "type": "array",
-                    "description": "Insert, parallel, autograph, relic, or other subsets within this set.",
-                    "items": {
-                        "$ref": "#/definitions/subset"
-                    }
+                    "description": "Insert, parallel, autograph, relic, or other subsets within this set."
                 }
             },
             "required": [
@@ -169,16 +165,62 @@
             ],
             "additionalProperties": false
         },
-        "subset": {
+        "set": {
+            "description": "A complete card release in a wrapped dataset document (cards require id).",
+            "allOf": [
+                {
+                    "$ref": "#/definitions/setBase"
+                }
+            ],
+            "properties": {
+                "cards": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/card"
+                    }
+                },
+                "subsets": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/subset"
+                    }
+                }
+            }
+        },
+        "legacySet": {
+            "description": "A complete card release in a legacy set-map document (card id is optional).",
+            "allOf": [
+                {
+                    "$ref": "#/definitions/setBase"
+                }
+            ],
+            "properties": {
+                "cards": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/legacyCard"
+                    }
+                },
+                "subsets": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/legacySubset"
+                    }
+                }
+            }
+        },
+        "subsetBase": {
             "type": "object",
-            "description": "A named secondary release belonging to a parent set.",
+            "description": "Shared properties for a named secondary release belonging to a parent set.",
             "properties": {
                 "set_key": {
                     "type": "string",
+                    "minLength": 1,
                     "description": "Unique identifier for the subset."
                 },
                 "set_name": {
                     "type": "string",
+                    "minLength": 1,
                     "description": "Name of the subset, parallel, or insert."
                 },
                 "set_type": {
@@ -191,11 +233,22 @@
                 },
                 "set_display_name": {
                     "type": "string",
+                    "minLength": 1,
                     "description": "Full display label for the subset."
+                },
+                "set_category": {
+                    "type": "string",
+                    "description": "Optional navigation category stored on a legacy subset record."
+                },
+                "set_total_cards": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "description": "Optional number of cards in the complete subset checklist."
                 },
                 "set_year_label": {
                     "type": "string",
-                    "description": "Optional season label stored on a legacy subset record."
+                    "pattern": "^\\d{4}-\\d{2}$",
+                    "description": "Optional season span label (YYYY-YY) stored on a legacy subset record."
                 },
                 "set_year_start": {
                     "type": "integer",
@@ -211,10 +264,7 @@
                 },
                 "cards": {
                     "type": "array",
-                    "description": "Cards belonging to this subset.",
-                    "items": {
-                        "$ref": "#/definitions/card"
-                    }
+                    "description": "Cards belonging to this subset."
                 }
             },
             "required": [
@@ -225,16 +275,50 @@
             ],
             "additionalProperties": false
         },
-        "card": {
+        "subset": {
+            "description": "A named secondary release belonging to a parent set in a wrapped dataset document.",
+            "allOf": [
+                {
+                    "$ref": "#/definitions/subsetBase"
+                }
+            ],
+            "properties": {
+                "cards": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/card"
+                    }
+                }
+            }
+        },
+        "legacySubset": {
+            "description": "A named secondary release belonging to a parent set in a legacy set-map document.",
+            "allOf": [
+                {
+                    "$ref": "#/definitions/subsetBase"
+                }
+            ],
+            "properties": {
+                "cards": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/legacyCard"
+                    }
+                }
+            }
+        },
+        "legacyCard": {
             "type": "object",
-            "description": "An individual hockey card and its collection metadata.",
+            "description": "An individual hockey card and its collection metadata in a legacy set-map dataset (id is optional).",
             "properties": {
                 "id": {
                     "type": "string",
+                    "minLength": 1,
                     "description": "Globally stable card identifier used for routes and data lookups."
                 },
                 "base_number": {
                     "type": "string",
+                    "minLength": 1,
                     "description": "Card number as printed on the card, including prefixes or letters."
                 },
                 "name": {
@@ -303,11 +387,7 @@
                         "null"
                     ],
                     "minimum": 1,
-                    "description": "Total production limit for a serial-numbered card, such as 250; null means not serial-numbered."
-                },
-                "serial_number": {
-                    "type": "string",
-                    "description": "Optional specific serial number printed on the card."
+                    "description": "Total production limit (print run denominator) for a serial-numbered card, such as 250; only the total run size is tracked, not the individual copy number."
                 },
                 "inCollection": {
                     "type": "boolean",
@@ -316,7 +396,7 @@
                 "price": {
                     "type": "number",
                     "minimum": 0,
-                    "description": "Optional paid price if inCollection:true, otherwise it's market price."
+                    "description": "Optional paid price when inCollection is true; otherwise market or reference price."
                 },
                 "price_bulk": {
                     "type": "number",
@@ -376,7 +456,8 @@
                 },
                 "set_year_label": {
                     "type": "string",
-                    "description": "Optional set year label stored on legacy card records."
+                    "pattern": "^\\d{4}-\\d{2}$",
+                    "description": "Optional season span label (YYYY-YY) stored on legacy card records."
                 },
                 "set_year_start": {
                     "type": "integer",
@@ -408,10 +489,21 @@
                 }
             },
             "required": [
-                "id",
                 "base_number"
             ],
             "additionalProperties": false
+        },
+        "card": {
+            "description": "An individual hockey card and its collection metadata in a wrapped dataset document (id is required).",
+            "allOf": [
+                {
+                    "$ref": "#/definitions/legacyCard"
+                }
+            ],
+            "required": [
+                "id",
+                "base_number"
+            ]
         }
     }
 }
