@@ -1604,6 +1604,38 @@
                 }
             ]
         },
+        "1996-97-upper-deck-kraft": {
+            "set_key": "1996-97-upper-deck-kraft",
+            "set_name": "Upper Deck Kraft",
+            "set_year_label": "1996-97",
+            "set_year_start": 1996,
+            "set_year_end": 1997,
+            "set_display_name": "1996-97 Upper Deck Kraft",
+            "set_tcdb_href": "",
+            "cards": [],
+            "subsets": [
+                {
+                    "set_key": "1996-97-upper-deck-kraft-kraft-dinner-magnets",
+                    "set_name": "Kraft Dinner Magnets",
+                    "set_display_name": "1996-97 Upper Deck Kraft - Kraft Dinner Magnets",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-sticker-1996-97-upper-deck-kraft-kraft-dinner-magnets-22",
+                            "base_number": "22",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/Stickers/1996-97-Upper-Deck-Kraft---Kraft-Dinner-Magnets-22-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/Stickers/1996-97-Upper-Deck-Kraft---Kraft-Dinner-Magnets-22-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/152200/cid/4518594/1996-97",
+                            "team": "Pittsburgh Penguins",
+                            "card_type": "magnet",
+                            "inCollection": false
+                        }
+                    ]
+                }
+            ]
+        },
         "2002-03-coca-cola-team-canada-coins": {
             "set_key": "2002-03-coca-cola-team-canada-coins",
             "set_name": "Coca-Cola Team Canada Coins",
