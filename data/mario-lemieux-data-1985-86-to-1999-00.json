@@ -7979,7 +7979,9 @@
               "image_front": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-8-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/1996-97-Donruss-Canadian-Ice---Mario-Lemieux-Scrapbook-8-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
-              "team": "Pittsburgh Penguins"
+              "team": "Pittsburgh Penguins",
+              "inCollection": true,
+              "price": 21.0
             },
             {
               "id": "ml-1996-97-donruss-canadian-ice-scrapbook-9",

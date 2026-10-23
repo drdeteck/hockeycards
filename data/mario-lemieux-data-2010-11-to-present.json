@@ -6454,7 +6454,8 @@
               "image_back": "img/cards/ML66/2023-24-Upper-Deck---UD-Canvas-Black-White-C404-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 13.5
             }
           ]
         },
@@ -7239,7 +7240,8 @@
           "image_back": "img/cards/ML66/2024-25-Upper-Deck-The-Cup-66-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 20.5
         }
       ],
       "subsets": []
@@ -8681,7 +8683,8 @@
           "image_back": "img/cards/ML66/2020-21-Upper-Deck-The-Cup-25-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 20.5
         }
       ]
     },

@@ -1630,7 +1630,8 @@
                             "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/152200/cid/4518594/1996-97",
                             "team": "Pittsburgh Penguins",
                             "card_type": "magnet",
-                            "inCollection": false
+                            "inCollection": true,
+                            "price": 2.25
                         }
                     ]
                 }
