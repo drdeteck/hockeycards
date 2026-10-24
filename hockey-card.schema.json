@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://hockeycards.example.com/schemas/hockey-card.schema.json",
+    "$id": "https://ml66.philippelavoie.com/schemas/hockey-card.schema.json",
     "title": "Hockey Card Collection",
     "description": "Schema for hockey card collection data. Supports either the repository's wrapped dataset format (with required card IDs) or a legacy direct map of set identifiers to sets (where card IDs are optional).",
     "type": "object",

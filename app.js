@@ -983,7 +983,7 @@ function DataViewModel() {
         return self.ThemeMode() === 'dark';
     });
     self.ThemeToggleLabel = ko.pureComputed(function () {
-        return self.IsDarkMode() ? 'Light' : 'Dark';
+        return self.IsDarkMode() ? 'Dark' : 'Light';
     });
     self.FastScrollToTop = function () {
         var startY = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;

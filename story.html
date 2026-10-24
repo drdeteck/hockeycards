@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mario Lemieux — Story (1985-86 à 1996-97)</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/story.css">
+</head>
+
+<body>
+    <div class="story-header-stack">
+        <header class="story-topbar">
+            <a href="index.html#home" class="story-brand" id="brandLink">
+                <img class="story-brand-logo" src="favicon.svg" alt="" aria-hidden="true">
+                <span>Mario Lemieux</span>
+            </a>
+
+            <nav class="story-years-nav" id="yearsNav" aria-label="Saisons Mario Lemieux (1985-86 à 1996-97)">
+                <a class="story-year-link is-active" href="#1985-86" data-year="1985-86">1985-86</a>
+                <a class="story-year-link" href="#1986-87" data-year="1986-87">1986-87</a>
+                <a class="story-year-link" href="#1987-88" data-year="1987-88">1987-88</a>
+                <a class="story-year-link" href="#1988-89" data-year="1988-89">1988-89</a>
+                <a class="story-year-link" href="#1989-90" data-year="1989-90">1989-90</a>
+                <a class="story-year-link" href="#1990-91" data-year="1990-91">1990-91</a>
+                <a class="story-year-link" href="#1991-92" data-year="1991-92">1991-92</a>
+                <a class="story-year-link" href="#1992-93" data-year="1992-93">1992-93</a>
+                <a class="story-year-link" href="#1993-94" data-year="1993-94">1993-94</a>
+                <a class="story-year-link" href="#1994-95" data-year="1994-95">1994-95</a>
+                <a class="story-year-link" href="#1995-96" data-year="1995-96">1995-96</a>
+                <a class="story-year-link" href="#1996-97" data-year="1996-97">1996-97</a>
+            </nav>
+
+            <div class="story-actions">
+                <button type="button" role="switch" id="themeToggle" class="story-theme-toggle" aria-checked="false" aria-label="Changer le thème">
+                    <span class="story-theme-toggle-track" aria-hidden="true">
+                        <span class="story-theme-toggle-thumb"></span>
+                    </span>
+                    <span class="story-theme-toggle-status" id="themeToggleStatus">Light</span>
+                </button>
+            </div>
+        </header>
+
+        <div class="story-sets-bar">
+            <nav class="story-sets-nav" id="setsNav" aria-label="Sets de la saison"></nav>
+        </div>
+    </div>
+
+    <main id="storyMain" class="story-main">
+        <div class="story-status">Chargement des cartes...</div>
+    </main>
+
+    <script>
+        (function () {
+            var STORAGE_KEY = 'hockeycards-theme';
+            var ALLOWED_YEARS = [
+                '1985-86', '1986-87', '1987-88', '1988-89',
+                '1989-90', '1990-91', '1991-92', '1992-93',
+                '1993-94', '1994-95', '1995-96', '1996-97'
+            ];
+
+            var root = document.documentElement;
+            var toggleBtn = document.getElementById('themeToggle');
+            var yearsNav = document.getElementById('yearsNav');
+            var setsNav = document.getElementById('setsNav');
+            var storyMain = document.getElementById('storyMain');
+
+            var setsByYear = {};
+            var storiesByYear = {};
+            var setDescriptionsByKey = {};
+            var currentYear = '1985-86';
+
+            var toggleStatus = document.getElementById('themeToggleStatus');
+
+            function applyTheme(mode) {
+                var theme = mode === 'dark' ? 'dark' : 'light';
+                var isDark = theme === 'dark';
+                root.setAttribute('data-theme', theme);
+                if (toggleBtn) {
+                    toggleBtn.classList.toggle('active', isDark);
+                    toggleBtn.setAttribute('aria-checked', isDark ? 'true' : 'false');
+                }
+                if (toggleStatus) {
+                    toggleStatus.textContent = isDark ? 'Dark' : 'Light';
+                }
+            }
+
+            var saved = '';
+            try {
+                saved = window.localStorage.getItem(STORAGE_KEY) || '';
+            } catch (e) {
+                saved = '';
+            }
+            applyTheme(saved === 'dark' ? 'dark' : 'light');
+
+            if (toggleBtn) {
+                toggleBtn.addEventListener('click', function () {
+                    var current = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+                    var next = current === 'dark' ? 'light' : 'dark';
+                    applyTheme(next);
+                    try {
+                        window.localStorage.setItem(STORAGE_KEY, next);
+                    } catch (e) { }
+                });
+            }
+
+            function placeholderForOrientation(orientation) {
+                return orientation === 'landscape'
+                    ? 'img/cards/placeholder-landscape.svg'
+                    : 'img/cards/placeholder.svg';
+            }
+
+            function createCardFace(src, orientation, altText) {
+                var face = document.createElement('div');
+                var isExtraTall = orientation === 'extra-tall';
+                var isSquare = orientation === 'square';
+                face.className = 'story-card-face'
+                    + (isExtraTall ? ' story-card-face--extra-tall' : '')
+                    + (isSquare ? ' story-card-face--square' : '');
+
+                var img = document.createElement('img');
+                var isLandscape = orientation === 'landscape';
+                img.className = 'story-card-img' + (isLandscape ? ' story-card-img--landscape' : '');
+                img.src = src || placeholderForOrientation(orientation);
+                img.alt = altText;
+                img.loading = 'lazy';
+
+                img.addEventListener('load', function () {
+                    if (img.naturalWidth > img.naturalHeight && !isSquare) {
+                        img.classList.add('story-card-img--landscape');
+                    } else if (img.naturalHeight >= img.naturalWidth && !isLandscape) {
+                        img.classList.remove('story-card-img--landscape');
+                    }
+                });
+
+                face.appendChild(img);
+                return face;
+            }
+
+            function compareCardsByNumber(left, right) {
+                return ((left && left.base_number) || '').toString().localeCompare(
+                    ((right && right.base_number) || '').toString(),
+                    undefined,
+                    { numeric: true, sensitivity: 'base' }
+                );
+            }
+
+            function getOrderedSubsets(setObj) {
+                var subsets = (setObj && Array.isArray(setObj.subsets)) ? setObj.subsets.slice() : [];
+                subsets.sort(function (left, right) {
+                    var leftType = ((left && left.set_type) || '').toString().trim().toLowerCase();
+                    var rightType = ((right && right.set_type) || '').toString().trim().toLowerCase();
+                    var leftIsParallel = leftType === 'parallel';
+                    var rightIsParallel = rightType === 'parallel';
+                    if (leftIsParallel !== rightIsParallel) {
+                        return leftIsParallel ? -1 : 1;
+                    }
+                    var leftName = ((left && (left.set_name || left.set_display_name)) || '').toString();
+                    var rightName = ((right && (right.set_name || right.set_display_name)) || '').toString();
+                    return leftName.localeCompare(rightName, undefined, { sensitivity: 'base' });
+                });
+                return subsets;
+            }
+
+            function createCardElement(card, subsetName, setDisplayName) {
+                var item = document.createElement('div');
+                item.className = 'story-card-item';
+
+                var pair = document.createElement('div');
+                pair.className = 'story-card-pair';
+
+                var labelPrefix = subsetName ? subsetName : 'Base';
+                var numberText = card.base_number ? '#' + card.base_number : '';
+                var captionText = numberText ? (labelPrefix + ' ' + numberText) : labelPrefix;
+
+                var frontFace = createCardFace(
+                    card.image_front,
+                    card.orientation_front,
+                    setDisplayName + ' ' + captionText + ' (Front)'
+                );
+                var backFace = createCardFace(
+                    card.image_back,
+                    card.orientation_back,
+                    setDisplayName + ' ' + captionText + ' (Back)'
+                );
+
+                pair.appendChild(frontFace);
+                pair.appendChild(backFace);
+
+                var caption = document.createElement('div');
+                caption.className = 'story-card-caption';
+                caption.textContent = captionText;
+                if (card.is_image_placeholder === true) {
+                    var placeholderNote = document.createElement('em');
+                    placeholderNote.className = 'story-card-placeholder-note';
+                    placeholderNote.textContent = ' (placeholder image)';
+                    caption.appendChild(placeholderNote);
+                }
+
+                item.appendChild(pair);
+                item.appendChild(caption);
+                return item;
+            }
+
+            function updateActiveYearNav(year) {
+                var yearLinks = yearsNav.querySelectorAll('.story-year-link');
+                for (var i = 0; i < yearLinks.length; i++) {
+                    var link = yearLinks[i];
+                    if (link.getAttribute('data-year') === year) {
+                        link.classList.add('is-active');
+                    } else {
+                        link.classList.remove('is-active');
+                    }
+                }
+            }
+
+            function renderYear(year, targetSetKey) {
+                currentYear = year;
+                updateActiveYearNav(year);
+
+                setsNav.innerHTML = '';
+                storyMain.innerHTML = '';
+
+                var storyObj = storiesByYear[year];
+                if (storyObj) {
+                    var intro = document.createElement('section');
+                    intro.className = 'story-year-intro';
+
+                    var yearBadge = document.createElement('div');
+                    yearBadge.className = 'story-year-intro-year';
+                    yearBadge.textContent = 'Saison ' + year;
+                    intro.appendChild(yearBadge);
+
+                    if (storyObj.title) {
+                        var introTitle = document.createElement('h1');
+                        introTitle.className = 'story-year-intro-title';
+                        introTitle.textContent = storyObj.title;
+                        intro.appendChild(introTitle);
+                    }
+
+                    if (storyObj.description) {
+                        var introDesc = document.createElement('p');
+                        introDesc.className = 'story-year-intro-desc';
+                        introDesc.textContent = storyObj.description;
+                        intro.appendChild(introDesc);
+                    }
+
+                    storyMain.appendChild(intro);
+                }
+
+                var yearSets = setsByYear[year] || [];
+                if (!yearSets.length) {
+                    var empty = document.createElement('div');
+                    empty.className = 'story-status';
+                    empty.textContent = 'Aucun set pour ' + year + '.';
+                    storyMain.appendChild(empty);
+                    return;
+                }
+
+                for (var i = 0; i < yearSets.length; i++) {
+                    var setObj = yearSets[i];
+                    var setId = 'set-' + setObj.set_key;
+                    var cleanSetTitle = (setObj.set_display_name || setObj.set_name || '')
+                        .replace(/^\d{4}-\d{2}\s+/, '');
+
+                    // Link in the sets sub-bar
+                    var setLink = document.createElement('a');
+                    setLink.className = 'story-set-link' + (i === 0 ? ' is-active' : '');
+                    setLink.href = '#' + year + '/' + setObj.set_key;
+                    setLink.setAttribute('data-set-key', setObj.set_key);
+                    setLink.textContent = cleanSetTitle;
+                    setsNav.appendChild(setLink);
+
+                    // Set section in the main area
+                    var section = document.createElement('section');
+                    section.className = 'story-set-section';
+                    section.id = setId;
+                    section.setAttribute('data-set-key', setObj.set_key);
+
+                    var header = document.createElement('div');
+                    header.className = 'story-set-header';
+
+                    var title = document.createElement('h2');
+                    title.className = 'story-set-title';
+                    title.textContent = cleanSetTitle;
+                    header.appendChild(title);
+                    section.appendChild(header);
+
+                    var grid = document.createElement('div');
+                    grid.className = 'story-cards-grid';
+
+                    var baseCards = Array.isArray(setObj.cards) ? setObj.cards.slice().sort(compareCardsByNumber) : [];
+                    for (var c = 0; c < baseCards.length; c++) {
+                        grid.appendChild(createCardElement(baseCards[c], '', setObj.set_display_name));
+                    }
+
+                    var subsets = getOrderedSubsets(setObj);
+                    for (var s = 0; s < subsets.length; s++) {
+                        var subset = subsets[s];
+                        var subsetName = subset.set_name || subset.set_display_name || '';
+                        var subsetCards = Array.isArray(subset.cards) ? subset.cards.slice().sort(compareCardsByNumber) : [];
+                        for (var sc = 0; sc < subsetCards.length; sc++) {
+                            grid.appendChild(createCardElement(subsetCards[sc], subsetName, setObj.set_display_name));
+                        }
+                    }
+
+                    section.appendChild(grid);
+
+                    var setDescriptionText = setDescriptionsByKey[setObj.set_key] || '';
+                    if (setDescriptionText) {
+                        var setDesc = document.createElement('p');
+                        setDesc.className = 'story-set-description';
+                        setDesc.textContent = setDescriptionText;
+                        section.appendChild(setDesc);
+                    }
+
+                    storyMain.appendChild(section);
+                }
+
+                if (targetSetKey) {
+                    highlightSetLink(targetSetKey);
+                    var targetEl = document.getElementById('set-' + targetSetKey);
+                    if (targetEl) {
+                        targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                } else {
+                    window.scrollTo(0, 0);
+                    updateActiveSetOnScroll();
+                }
+            }
+
+            function highlightSetLink(setKey) {
+                var links = setsNav.querySelectorAll('.story-set-link');
+                for (var i = 0; i < links.length; i++) {
+                    if (links[i].getAttribute('data-set-key') === setKey) {
+                        links[i].classList.add('is-active');
+                    } else {
+                        links[i].classList.remove('is-active');
+                    }
+                }
+            }
+
+            var isScrollingTicking = false;
+            function updateActiveSetOnScroll() {
+                var sections = storyMain.querySelectorAll('.story-set-section');
+                if (!sections.length) {
+                    return;
+                }
+
+                // If scrolled to the very bottom of the page, select the last set
+                var scrolledToBottom = (window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 8);
+                if (scrolledToBottom) {
+                    var lastKey = sections[sections.length - 1].getAttribute('data-set-key');
+                    if (lastKey) {
+                        highlightSetLink(lastKey);
+                    }
+                    return;
+                }
+
+                var headerStack = document.querySelector('.story-header-stack');
+                var offsetThreshold = (headerStack ? headerStack.offsetHeight : 80) + 40;
+
+                var activeKey = sections[0].getAttribute('data-set-key');
+                for (var i = 0; i < sections.length; i++) {
+                    var rect = sections[i].getBoundingClientRect();
+                    if (rect.top <= offsetThreshold) {
+                        activeKey = sections[i].getAttribute('data-set-key');
+                    } else {
+                        break;
+                    }
+                }
+
+                if (activeKey) {
+                    highlightSetLink(activeKey);
+                }
+            }
+
+            window.addEventListener('scroll', function () {
+                if (!isScrollingTicking) {
+                    isScrollingTicking = true;
+                    window.requestAnimationFrame(function () {
+                        updateActiveSetOnScroll();
+                        isScrollingTicking = false;
+                    });
+                }
+            }, { passive: true });
+
+            function handleHashChange() {
+                var rawHash = (window.location.hash || '').replace(/^#/, '');
+                var parts = rawHash.split('/');
+                var yearPart = parts[0];
+                var setPart = parts[1] || '';
+
+                if (ALLOWED_YEARS.indexOf(yearPart) === -1) {
+                    yearPart = ALLOWED_YEARS[0];
+                    setPart = '';
+                }
+
+                if (yearPart !== currentYear || !storyMain.querySelector('.story-set-section')) {
+                    renderYear(yearPart, setPart);
+                } else if (setPart) {
+                    highlightSetLink(setPart);
+                    var targetEl = document.getElementById('set-' + setPart);
+                    if (targetEl) {
+                        targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                }
+            }
+
+            Promise.all([
+                fetch('data/mario-lemieux-data-1985-86-to-1999-00.json').then(function (res) {
+                    if (!res.ok) { throw new Error('HTTP ' + res.status); }
+                    return res.json();
+                }),
+                fetch('data/stories/mario-lemieux-stories.json').then(function (res) {
+                    if (!res.ok) { throw new Error('HTTP ' + res.status); }
+                    return res.json();
+                })
+            ])
+                .then(function (results) {
+                    var data = results[0];
+                    var storiesData = results[1];
+
+                    var storiesList = (storiesData && Array.isArray(storiesData.stories)) ? storiesData.stories : [];
+                    for (var s = 0; s < storiesList.length; s++) {
+                        if (storiesList[s] && storiesList[s].year) {
+                            storiesByYear[storiesList[s].year] = storiesList[s];
+                        }
+                    }
+
+                    setDescriptionsByKey = (storiesData && storiesData.set_descriptions) ? storiesData.set_descriptions : {};
+
+                    var setsMap = (data && data.sets) ? data.sets : {};
+                    var keys = Object.keys(setsMap);
+
+                    for (var i = 0; i < ALLOWED_YEARS.length; i++) {
+                        setsByYear[ALLOWED_YEARS[i]] = [];
+                    }
+
+                    for (var k = 0; k < keys.length; k++) {
+                        var setObj = setsMap[keys[k]];
+                        var yr = setObj && setObj.set_year_label;
+                        if (yr && setsByYear[yr]) {
+                            setsByYear[yr].push(setObj);
+                        }
+                    }
+
+                    window.addEventListener('hashchange', handleHashChange);
+                    handleHashChange();
+                })
+                .catch(function (err) {
+                    storyMain.innerHTML = '<div class="story-status">Erreur lors du chargement des données : ' + err.message + '</div>';
+                });
+        })();
+    </script>
+</body>
+
+</html>

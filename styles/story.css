@@ -1,0 +1,392 @@
+:root {
+    --story-bg: #F6F6F4;
+    --story-surface: #FFFFFF;
+    --story-surface-alt: #EAEAE6;
+    --story-text: #111111;
+    --story-text-muted: #555550;
+    --story-topbar-bg: #0D0D0D;
+    --story-topbar-border: #FCB514;
+    --story-subbar-bg: #1F1F22;
+    --story-subbar-border: #333338;
+    --story-nav-text: #FFFFFF;
+    --story-nav-muted: #C8C8C4;
+    --story-nav-hover-bg: #323236;
+    --story-nav-active-bg: #FCB514;
+    --story-nav-active-text: #0D0D0D;
+    --story-border: #DCDCD6;
+    --story-accent: #FCB514;
+    --story-card-shadow: rgba(0, 0, 0, 0.14);
+}
+
+[data-theme='dark'] {
+    --story-bg: #111214;
+    --story-surface: #1A1B1E;
+    --story-surface-alt: #232529;
+    --story-text: #F4F4F2;
+    --story-text-muted: #B4B4AE;
+    --story-topbar-bg: #08080A;
+    --story-topbar-border: #FCB514;
+    --story-subbar-bg: #18191C;
+    --story-subbar-border: #2C2E33;
+    --story-nav-text: #F8F8F6;
+    --story-nav-muted: #A6A6A0;
+    --story-nav-hover-bg: #2C2E33;
+    --story-nav-active-bg: #FCB514;
+    --story-nav-active-text: #08080A;
+    --story-border: #2C2E33;
+    --story-accent: #FCB514;
+    --story-card-shadow: rgba(0, 0, 0, 0.55);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--story-text);
+    background-color: var(--story-bg);
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Sticky header stack (years bar + sets bar) */
+.story-header-stack {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.story-topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    min-height: 38px;
+    padding: 4px 16px;
+    background-color: var(--story-topbar-bg);
+    border-bottom: 1px solid var(--story-topbar-border);
+    color: var(--story-nav-text);
+}
+
+.story-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: var(--story-nav-text);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.story-brand-logo {
+    height: 22px;
+    width: auto;
+    flex-shrink: 0;
+    display: block;
+}
+
+.story-years-nav,
+.story-sets-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 2px 0;
+}
+
+.story-year-link,
+.story-set-link {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--story-nav-muted);
+    text-decoration: none;
+    white-space: nowrap;
+    border: 1px solid transparent;
+    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.story-year-link:hover,
+.story-year-link:focus,
+.story-set-link:hover,
+.story-set-link:focus {
+    color: var(--story-nav-text);
+    background-color: var(--story-nav-hover-bg);
+    text-decoration: none;
+    outline: none;
+}
+
+.story-year-link.is-active,
+.story-set-link.is-active {
+    color: var(--story-nav-active-text);
+    background-color: var(--story-nav-active-bg);
+    font-weight: 700;
+}
+
+/* Sets bar right below the years bar */
+.story-sets-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 34px;
+    padding: 4px 16px;
+    background-color: var(--story-subbar-bg);
+    border-bottom: 1px solid var(--story-subbar-border);
+    color: var(--story-nav-text);
+}
+
+.story-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.story-theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    padding: 2px 6px;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: inherit;
+    letter-spacing: 0.02em;
+    color: var(--story-nav-muted);
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.story-theme-toggle:hover,
+.story-theme-toggle:focus {
+    color: var(--story-nav-text);
+    outline: none;
+}
+
+.story-theme-toggle-track {
+    position: relative;
+    display: inline-block;
+    width: 28px;
+    height: 16px;
+    background-color: rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 999px;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.story-theme-toggle-thumb {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #f6c343;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.story-theme-toggle.active .story-theme-toggle-track {
+    background-color: #5C7A8F;
+    border-color: #8FA8BC;
+}
+
+.story-theme-toggle.active .story-theme-toggle-thumb {
+    transform: translateX(12px);
+    background-color: #e8eef3;
+}
+
+.story-theme-toggle-status {
+    min-width: 28px;
+    text-align: left;
+}
+
+/* Full width & centered main layout */
+.story-main {
+    width: 100%;
+    padding: 28px 24px 80px;
+}
+
+.story-status {
+    text-align: center;
+    padding: 40px 16px;
+    color: var(--story-text-muted);
+}
+
+/* Year story banner at the top of each season */
+.story-year-intro {
+    max-width: 900px;
+    margin: 0 auto 40px;
+    padding: 20px 26px;
+    background-color: var(--story-surface);
+    border: 1px solid var(--story-border);
+    border-left: 4px solid var(--story-accent);
+    border-radius: 6px;
+    box-shadow: 0 2px 8px var(--story-card-shadow);
+    text-align: center;
+}
+
+.story-year-intro-year {
+    display: inline-block;
+    margin-bottom: 6px;
+    padding: 2px 10px;
+    border-radius: 3px;
+    background-color: var(--story-topbar-bg);
+    color: var(--story-accent);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.story-year-intro-title {
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--story-text);
+}
+
+.story-year-intro-desc {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--story-text);
+}
+
+/* Set sections presented one by one */
+.story-set-section {
+    width: 100%;
+    margin: 0 auto 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--story-border);
+    scroll-margin-top: 86px;
+}
+
+.story-set-section:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.story-set-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.story-set-title {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--story-text);
+}
+
+.story-set-description {
+    max-width: 780px;
+    margin: 20px auto 0;
+    font-size: 14px;
+    line-height: 1.55;
+    color: var(--story-text-muted);
+    text-align: center;
+}
+
+/* Centered full-width grid of cards */
+.story-cards-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px 32px;
+    width: 100%;
+}
+
+.story-card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Front left, Back right, always in portrait */
+.story-card-pair {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.story-card-face {
+    position: relative;
+    width: 190px;
+    aspect-ratio: 63 / 88;
+    border-radius: 0;
+    overflow: hidden;
+    background-color: var(--story-surface-alt);
+    border: 1px solid var(--story-border);
+    box-shadow: 0 3px 10px var(--story-card-shadow);
+}
+
+.story-card-face--extra-tall {
+    aspect-ratio: 256 / 475;
+}
+
+.story-card-face--square {
+    aspect-ratio: 1 / 1;
+}
+
+.story-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Landscape cards rotated 90deg to always display in portrait */
+.story-card-img--landscape {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 139.68%;
+    height: 71.6%;
+    object-fit: cover;
+    display: block;
+    transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+.story-card-caption {
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--story-text);
+    text-align: center;
+    max-width: 390px;
+}
+
+.story-card-placeholder-note {
+    font-style: italic;
+    font-weight: 400;
+    color: var(--story-text-muted);
+}
+
+@media (max-width: 520px) {
+    .story-card-face {
+        width: 140px;
+    }
+
+    .story-card-caption {
+        max-width: 290px;
+        font-size: 12px;
+    }
+}
