@@ -87,6 +87,10 @@
 
 /* Mobile: stack collection title above the set buttons */
 @media screen and (max-width: 600px) {
+    .main-header--mario .collection-control-title {
+        display: none;
+    }
+
     .main-header-collections {
         flex-direction: column;
         align-items: center;

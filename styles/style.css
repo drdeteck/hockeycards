@@ -604,6 +604,10 @@ ul {
 
 /* Mobile: rework top header for small screens */
 @media screen and (max-width: 600px) {
+    .header .theme-toggle {
+        display: none;
+    }
+
     .header-control-row {
         height: auto;
         -webkit-flex-direction: column;
