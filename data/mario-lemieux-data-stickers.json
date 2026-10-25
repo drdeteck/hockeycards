@@ -1044,6 +1044,51 @@
                 }
             ]
         },
+        "1993-94-ballstreet-news": {
+            "set_key": "1993-94-ballstreet-news",
+            "set_name": "Ballstreet News",
+            "set_year_label": "1993-94",
+            "set_year_start": 1993,
+            "set_year_end": 1994,
+            "set_display_name": "1993-94 Ballstreet News",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1993-94-ballstreet-news-nno",
+                    "base_number": "NNO",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1993-94-Ballstreet-News-NNO-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1993-94-Ballstreet-News-NNO-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ],
+            "subsets": [
+                {
+                    "set_key": "1993-94-ballstreet-news-platinum",
+                    "set_name": "Platinum",
+                    "set_display_name": "1993-94 Ballstreet News - Platinum",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-sticker-1993-94-ballstreet-news-platinum-nno",
+                            "base_number": "NNO",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "img/cards/ML66/Stickers/1993-94-Ballstreet-News---Platinum-NNO-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/Stickers/1993-94-Ballstreet-News---Platinum-NNO-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "card_type": "sticker",
+                            "inCollection": false
+                        }
+                    ]
+                }
+            ]
+        },
         "1993-94-sports-illustrated-for-kids": {
             "set_key": "1993-94-sports-illustrated-for-kids",
             "set_name": "Sports Illustrated for Kids",
