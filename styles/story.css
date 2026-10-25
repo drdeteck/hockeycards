@@ -374,6 +374,22 @@ body {
     max-width: 390px;
 }
 
+.story-card-number--owned {
+    color: #27ae60;
+}
+
+.story-card-number--missing {
+    color: #c0392b;
+}
+
+[data-theme='dark'] .story-card-number--owned {
+    color: #2ecc71;
+}
+
+[data-theme='dark'] .story-card-number--missing {
+    color: #e74c3c;
+}
+
 .story-card-placeholder-note {
     font-style: italic;
     font-weight: 400;

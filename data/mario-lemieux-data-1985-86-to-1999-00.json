@@ -1565,7 +1565,8 @@
           "card_type": "autograph",
           "excludeFromBinder": true,
           "serial_total": 2000,
-          "inCollection": false
+          "inCollection": false,
+          "price": 210
         },
         {
           "id": "ml-1992-93-classic-draft-picks-66",
@@ -1610,7 +1611,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "variant_note": "Gold",
-              "inCollection": false
+              "inCollection": false,
+              "price": 40
             }
           ],
           "set_type": "parallel"
@@ -2971,7 +2973,8 @@
               "image_front": "img/cards/ML66/1993-94-Pinnacle-Nifty-50-ChecklistFr.jpg",
               "image_back": "img/cards/ML66/1993-94-Pinnacle-Nifty-50-ChecklistBk.jpg",
               "tcdb_href": "",
-              "inCollection": false
+              "inCollection": false,
+              "price": 35
             }
           ]
         },
@@ -3434,8 +3437,10 @@
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/Chase/1993-94-Stadium-Club---First-Day-Issue-310-Mario-LemieuxFr-placeholder.jpg",
               "image_back": "",
+              "is_image_placeholder": true,
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48480/cid/1587969/1993-94-Stadium-Club-310-Mario-Lemieux",
-              "inCollection": false
+              "inCollection": false,
+              "price": 280
             }
           ],
           "set_type": "parallel"
@@ -4734,7 +4739,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "default_face": "back",
-              "inCollection": false
+              "inCollection": false,
+              "price": 40
             }
           ]
         }
@@ -4869,6 +4875,7 @@
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/1994-95-Stadium-Club---Finest-Members-Only-1-Mario-LemieuxFr-placeholder.jpg",
               "image_back": "",
+              "is_image_placeholder": true,
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48507/cid/1593946/1994-95-Stadium-Club-1-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "inCollection": false
@@ -4889,6 +4896,7 @@
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/1994-95-Stadium-Club---First-Day-Issue-60-Mario-LemieuxFr-placeholder.jpg",
               "image_back": "",
+              "is_image_placeholder": true,
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48508/cid/1594014/1994-95-Stadium-Club-60-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "inCollection": false,
@@ -4910,6 +4918,7 @@
               "orientation_back": "portrait",
               "image_front": "img/cards/ML66/1994-95-Stadium-Club---Members-Only-60-Mario-LemieuxFr-placeholder.jpg",
               "image_back": "",
+              "is_image_placeholder": true,
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48509/cid/1594284/1994-95-Stadium-Club-60-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "inCollection": false,
@@ -8476,6 +8485,7 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5266/cid/1603638/1996-97-Flair-B78-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "inCollection": false,
+              "is_image_placeholder": true,
               "price": 400
             }
           ],
@@ -10453,6 +10463,7 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48628/cid/1610209/1996-97-Zenith-114-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "inCollection": false,
+              "is_image_placeholder": true,
               "price": 560
             }
           ],

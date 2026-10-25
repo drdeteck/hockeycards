@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mario Lemieux — Story (1985-86 à 1996-97)</title>
+    <title>Story board</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -194,7 +194,17 @@
 
                 var caption = document.createElement('div');
                 caption.className = 'story-card-caption';
-                caption.textContent = captionText;
+                caption.appendChild(document.createTextNode(labelPrefix));
+
+                if (numberText) {
+                    caption.appendChild(document.createTextNode(' '));
+                    var numSpan = document.createElement('span');
+                    var isOwned = card.inCollection === true;
+                    numSpan.className = 'story-card-number ' + (isOwned ? 'story-card-number--owned' : 'story-card-number--missing');
+                    numSpan.textContent = numberText;
+                    caption.appendChild(numSpan);
+                }
+
                 if (card.is_image_placeholder === true) {
                     var placeholderNote = document.createElement('em');
                     placeholderNote.className = 'story-card-placeholder-note';

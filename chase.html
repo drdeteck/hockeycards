@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chase board</title>
+    <meta name="description" content="Mario Lemieux cards (1985-86 to 1996-97) I'm still chasing — open to trades.">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/story.css">
+    <link rel="stylesheet" href="styles/chase.css">
+</head>
+
+<body>
+    <div class="story-header-stack">
+        <header class="story-topbar">
+            <a href="index.html#home" class="story-brand">
+                <img class="story-brand-logo" src="favicon.svg" alt="" aria-hidden="true">
+                <span>Mario Lemieux · Chase</span>
+            </a>
+
+            <nav class="story-years-nav" id="yearsNav" aria-label="Seasons"></nav>
+
+            <div class="story-actions">
+                <a href="story.html" class="chase-nav-link">📖 Story</a>
+                <button type="button" role="switch" id="themeToggle" class="story-theme-toggle" aria-checked="false"
+                    aria-label="Toggle theme">
+                    <span class="story-theme-toggle-track" aria-hidden="true">
+                        <span class="story-theme-toggle-thumb"></span>
+                    </span>
+                    <span class="story-theme-toggle-status" id="themeToggleStatus">Light</span>
+                </button>
+            </div>
+        </header>
+    </div>
+
+    <main class="chase-main">
+        <section class="chase-intro">
+            <div>
+                <h1 class="chase-title">Chase Board</h1>
+                <p class="chase-subtitle">Mario Lemieux cards I'm still missing from 1985-86 to 1996-97 — open to
+                    trades. Prices are estimates (or last seen sale).</p>
+            </div>
+            <div class="chase-summary">
+                <span class="chase-stat"><strong id="statCount">–</strong> cards</span>
+                <span class="chase-stat"><strong id="statValue">–</strong> est.</span>
+                <button type="button" class="chase-btn chase-btn--copy" id="copyListBtn"
+                    title="Copy a plain-text list of the board for sharing">Copy list</button>
+            </div>
+        </section>
+
+        <div id="chaseBoard" class="chase-board">
+            <div class="story-status">Loading cards...</div>
+        </div>
+    </main>
+
+    <div class="chase-preview" id="chasePreview" hidden>
+        <div class="chase-preview-inner" id="chasePreviewInner"></div>
+        <p class="chase-preview-caption" id="chasePreviewCaption"></p>
+    </div>
+
+    <script>
+        (function () {
+            var STORAGE_KEY = 'hockeycards-theme';
+            var DATA_URL = 'data/mario-lemieux-data-1985-86-to-1999-00.json?ver=' + Date.now();
+            var FIRST_SEASON_START = 1985;
+            var LAST_SEASON_START = 1996;
+            // Sparse early seasons share a single lane.
+            var MERGED_LANE_LAST_START = 1992;
+            var PLAYER_NAME = 'Mario Lemieux';
+
+            var root = document.documentElement;
+            var toggleBtn = document.getElementById('themeToggle');
+            var toggleStatus = document.getElementById('themeToggleStatus');
+            var board = document.getElementById('chaseBoard');
+            var yearsNav = document.getElementById('yearsNav');
+            var copyBtn = document.getElementById('copyListBtn');
+            var preview = document.getElementById('chasePreview');
+            var previewInner = document.getElementById('chasePreviewInner');
+            var previewCaption = document.getElementById('chasePreviewCaption');
+
+            var yearGroups = [];
+
+            function applyTheme(mode) {
+                var isDark = mode === 'dark';
+                root.setAttribute('data-theme', isDark ? 'dark' : 'light');
+                toggleBtn.classList.toggle('active', isDark);
+                toggleBtn.setAttribute('aria-checked', isDark ? 'true' : 'false');
+                toggleStatus.textContent = isDark ? 'Dark' : 'Light';
+            }
+
+            var savedTheme = '';
+            try { savedTheme = window.localStorage.getItem(STORAGE_KEY) || ''; } catch (e) { }
+            applyTheme(savedTheme === 'dark' ? 'dark' : 'light');
+
+            toggleBtn.addEventListener('click', function () {
+                var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+                applyTheme(next);
+                try { window.localStorage.setItem(STORAGE_KEY, next); } catch (e) { }
+            });
+
+            function parsePrice(value) {
+                if (value === undefined || value === null || value === '') { return null; }
+                var num = parseFloat(value);
+                return (isNaN(num) || num <= 0) ? null : num;
+            }
+
+            function formatPrice(num) {
+                return num.toFixed(2) + '$';
+            }
+
+            function compareText(left, right) {
+                return (left || '').toString().localeCompare((right || '').toString(), undefined,
+                    { numeric: true, sensitivity: 'base' });
+            }
+
+            // Mirrors DataViewModel.GetEbaySearchKeywords in app.js so links match the main site.
+            function ebayKeywords(card) {
+                return [card.setDisplayName, card.subsetName, card.number, card.name]
+                    .filter(function (part) { return !!part; })
+                    .join(' ');
+            }
+
+            function ebaySearchUrl(card) {
+                return 'https://www.ebay.ca/sch/i.html?_nkw=' + encodeURIComponent(ebayKeywords(card)) + '&_sacat=212';
+            }
+
+            function ebayResearchUrl(card) {
+                var dayRange = 1095;
+                var endDate = Date.now();
+                var startDate = endDate - dayRange * 24 * 60 * 60 * 1000;
+                return 'https://www.ebay.ca/sh/research?marketplace=EBAY-CA'
+                    + '&keywords=' + encodeURIComponent(ebayKeywords(card))
+                    + '&dayRange=' + dayRange
+                    + '&endDate=' + endDate
+                    + '&startDate=' + startDate
+                    + '&offset=0&limit=50&tabName=SOLD&tz=America%2FToronto';
+            }
+
+            function collectCards(data) {
+                var cards = [];
+                var sets = (data && data.sets) || {};
+
+                function addCard(row, setData, subset) {
+                    if (!row || row.inCollection === true) { return; }
+                    var tcdb = (row.tcdb_href || '').toString();
+                    cards.push({
+                        id: row.id || '',
+                        name: PLAYER_NAME,
+                        number: (row.base_number || 'NNO').toString(),
+                        year: setData.set_year_label || 'Unknown',
+                        yearStart: parseInt(setData.set_year_start, 10) || 0,
+                        setName: setData.set_name || '',
+                        setDisplayName: setData.set_display_name || '',
+                        subsetName: subset ? (subset.set_name || '') : '',
+                        variantNote: row.variant_note || '',
+                        serialTotal: row.serial_total || null,
+                        price: parsePrice(row.price),
+                        imageFront: row.image_front || '',
+                        imageBack: row.image_back || '',
+                        orientation: row.orientation_front || 'portrait',
+                        tcdb: tcdb.indexOf('http') === 0 ? tcdb : ''
+                    });
+                }
+
+                Object.keys(sets).forEach(function (key) {
+                    var setData = sets[key];
+                    var seasonStart = parseInt(setData.set_year_start, 10);
+                    if (isNaN(seasonStart) || seasonStart < FIRST_SEASON_START || seasonStart > LAST_SEASON_START) { return; }
+                    (setData.cards || []).forEach(function (row) { addCard(row, setData, null); });
+                    (setData.subsets || []).forEach(function (subset) {
+                        (subset.cards || []).forEach(function (row) { addCard(row, setData, subset); });
+                    });
+                });
+
+                cards.sort(function (a, b) {
+                    return (a.yearStart - b.yearStart)
+                        || compareText(a.setDisplayName, b.setDisplayName)
+                        || compareText(a.subsetName, b.subsetName)
+                        || compareText(a.number, b.number);
+                });
+                return cards;
+            }
+
+            function groupByYear(cards) {
+                var groups = [];
+                var byKey = {};
+                cards.forEach(function (card) {
+                    var key = card.yearStart <= MERGED_LANE_LAST_START ? 'merged' : card.year;
+                    if (!byKey[key]) {
+                        byKey[key] = { year: card.year, navLabel: card.year, anchor: 'y' + card.year, seasons: [], cards: [] };
+                        groups.push(byKey[key]);
+                    }
+                    var group = byKey[key];
+                    if (group.seasons.indexOf(card.year) === -1) { group.seasons.push(card.year); }
+                    group.cards.push(card);
+                });
+
+                groups.forEach(function (group) {
+                    if (group.seasons.length > 1) {
+                        var first = group.seasons[0];
+                        var last = group.seasons[group.seasons.length - 1];
+                        group.year = first + ' – ' + last;
+                        group.navLabel = first.slice(0, 4) + '-' + last.slice(-2);
+                        group.anchor = 'y' + first + '-' + last;
+                    }
+                });
+                return groups;
+            }
+
+            function sumPrices(cards) {
+                var total = 0;
+                var priced = 0;
+                cards.forEach(function (card) {
+                    if (card.price !== null) { total += card.price; priced++; }
+                });
+                return { total: total, priced: priced };
+            }
+
+            function el(tag, className, text) {
+                var node = document.createElement(tag);
+                if (className) { node.className = className; }
+                if (text !== undefined && text !== null) { node.textContent = text; }
+                return node;
+            }
+
+            function cardTitle(card) {
+                return card.setDisplayName + (card.subsetName ? ' — ' + card.subsetName : '') + ' #' + card.number;
+            }
+
+            function actionLink(label, className, href, title) {
+                var link = el('a', 'chase-btn ' + className, label);
+                if (href) {
+                    link.href = href;
+                    link.target = '_blank';
+                    link.rel = 'noopener noreferrer';
+                    link.title = title;
+                } else {
+                    link.classList.add('is-disabled');
+                    link.setAttribute('aria-disabled', 'true');
+                    link.title = 'No TCDB link';
+                }
+                return link;
+            }
+
+            function placeholderFor(orientation) {
+                return orientation === 'landscape'
+                    ? 'img/cards/placeholder-landscape.svg'
+                    : 'img/cards/placeholder.svg';
+            }
+
+            function isPlaceholderImage(path) {
+                return /-placeholder\.[a-z]+$/i.test(path || '');
+            }
+
+            // Cards are pre-sorted, so cards from the same set/subset are adjacent.
+            function groupBySubset(cards) {
+                var stacks = [];
+                var last = null;
+                cards.forEach(function (card) {
+                    var key = card.setDisplayName + '|' + card.subsetName;
+                    if (last && last.key === key) {
+                        last.cards.push(card);
+                    } else {
+                        last = { key: key, cards: [card] };
+                        stacks.push(last);
+                    }
+                });
+                return stacks;
+            }
+
+            // Copies the JSON card id so it can be pasted into a find box in the data file.
+            function numberButton(card) {
+                var label = '#' + card.number;
+                if (!card.id) { return el('span', 'chase-number', label); }
+                var btn = el('button', 'chase-number chase-number--copy', label);
+                btn.type = 'button';
+                btn.title = 'Copy card id: ' + card.id;
+                btn.addEventListener('click', function () {
+                    copyText(card.id, function (ok) {
+                        btn.textContent = ok ? '✓ id copied' : 'copy failed';
+                        btn.classList.toggle('is-copied', ok);
+                        setTimeout(function () {
+                            btn.textContent = label;
+                            btn.classList.remove('is-copied');
+                        }, 1200);
+                    });
+                });
+                return btn;
+            }
+
+            function renderTile(cards) {
+                var isStack = cards.length > 1;
+                var first = cards[0];
+                var current = first;
+                var tile = el('article', 'chase-tile' + (isStack ? ' is-stack' : ''));
+
+                var thumbBtn = el('button', 'chase-thumb');
+                thumbBtn.type = 'button';
+                var img = el('img');
+                img.alt = '';
+                img.loading = 'lazy';
+                // Landscape scans are rotated so every tile shows a portrait card.
+                img.addEventListener('load', function () {
+                    img.classList.toggle('is-rotated', img.naturalWidth > img.naturalHeight);
+                });
+                img.addEventListener('error', function () {
+                    if (img.getAttribute('src') !== placeholderFor('portrait')) {
+                        img.src = placeholderFor('portrait');
+                    }
+                });
+                var flag = el('span', 'chase-thumb-flag', 'ref');
+                thumbBtn.appendChild(img);
+                thumbBtn.appendChild(flag);
+                if (isStack) {
+                    var stats = sumPrices(cards);
+                    var count = el('span', 'chase-stack-count', '×' + cards.length);
+                    count.title = cards.length + ' cards in this subset'
+                        + (stats.priced ? ' · ~' + formatPrice(stats.total) + ' est.' : '');
+                    thumbBtn.appendChild(count);
+                }
+                thumbBtn.addEventListener('click', function () { openPreview(current); });
+
+                var info = el('div', 'chase-info');
+                info.appendChild(el('div', 'chase-subset', first.subsetName || 'Base'));
+                info.appendChild(el('div', 'chase-set', first.setDisplayName));
+                var meta = el('div', 'chase-meta');
+                info.appendChild(meta);
+
+                var chipButtons = [];
+                if (isStack) {
+                    var chips = el('div', 'chase-chips');
+                    chips.setAttribute('role', 'group');
+                    chips.setAttribute('aria-label', 'Cards in this subset');
+                    cards.forEach(function (card) {
+                        var chip = el('button', 'chase-chip', card.number);
+                        chip.type = 'button';
+                        chip.title = '#' + card.number + (card.price !== null ? ' · ~' + formatPrice(card.price) : '');
+                        chip.addEventListener('click', function () { show(card); });
+                        chips.appendChild(chip);
+                        chipButtons.push(chip);
+                    });
+                    info.appendChild(chips);
+                }
+
+                var actions = el('div', 'chase-actions');
+
+                function show(card) {
+                    current = card;
+                    tile.title = cardTitle(card);
+                    thumbBtn.setAttribute('aria-label', 'Preview ' + cardTitle(card));
+                    img.classList.remove('is-rotated');
+                    img.src = card.imageFront || placeholderFor('portrait');
+                    var isRef = isPlaceholderImage(card.imageFront);
+                    flag.hidden = !isRef;
+                    thumbBtn.title = isRef ? 'Reference image (not my copy)' : '';
+
+                    meta.innerHTML = '';
+                    meta.appendChild(numberButton(card));
+                    if (card.serialTotal) { meta.appendChild(el('span', 'chase-tag', '/' + card.serialTotal)); }
+                    if (card.variantNote) { meta.appendChild(el('span', 'chase-tag', card.variantNote)); }
+                    if (card.price !== null) {
+                        var price = el('span', 'chase-price', '~' + formatPrice(card.price));
+                        price.title = 'Estimated price (or last seen)';
+                        meta.appendChild(price);
+                    }
+
+                    actions.innerHTML = '';
+                    actions.appendChild(actionLink('eBay', 'chase-btn--ebay', ebaySearchUrl(card), 'Search eBay listings'));
+                    actions.appendChild(actionLink('Sold', 'chase-btn--research', ebayResearchUrl(card), 'eBay sold research (3 years)'));
+                    actions.appendChild(actionLink('TCDB', 'chase-btn--tcdb', card.tcdb, 'Open on TCDB'));
+
+                    chipButtons.forEach(function (chip, index) {
+                        var active = cards[index] === card;
+                        chip.classList.toggle('is-active', active);
+                        chip.setAttribute('aria-pressed', active ? 'true' : 'false');
+                    });
+                }
+
+                show(first);
+                tile.appendChild(thumbBtn);
+                tile.appendChild(info);
+                tile.appendChild(actions);
+                return tile;
+            }
+
+            function render(groups) {
+                board.innerHTML = '';
+                yearsNav.innerHTML = '';
+
+                if (!groups.length) {
+                    board.appendChild(el('div', 'story-status', 'Nothing on the chase list right now.'));
+                    return;
+                }
+
+                groups.forEach(function (group) {
+                    var anchorId = group.anchor;
+                    var navLink = el('a', 'story-year-link', group.navLabel);
+                    navLink.href = '#' + anchorId;
+                    yearsNav.appendChild(navLink);
+
+                    var section = el('section', 'chase-year');
+                    section.id = anchorId;
+
+                    var header = el('header', 'chase-year-header');
+                    header.appendChild(el('h2', 'chase-year-label', group.year));
+                    var stats = sumPrices(group.cards);
+                    var statText = group.cards.length + (group.cards.length === 1 ? ' card' : ' cards');
+                    if (stats.priced) { statText += ' · ~' + formatPrice(stats.total); }
+                    header.appendChild(el('span', 'chase-year-stats', statText));
+                    section.appendChild(header);
+
+                    var grid = el('div', 'chase-grid');
+                    groupBySubset(group.cards).forEach(function (stack) { grid.appendChild(renderTile(stack.cards)); });
+                    section.appendChild(grid);
+
+                    board.appendChild(section);
+                });
+            }
+
+            function renderSummary(cards) {
+                var stats = sumPrices(cards);
+                document.getElementById('statCount').textContent = cards.length;
+                var valueNode = document.getElementById('statValue');
+                valueNode.textContent = stats.priced ? '~' + formatPrice(stats.total) : 'n/a';
+                valueNode.parentNode.title = stats.priced + ' of ' + cards.length + ' cards have a price';
+            }
+
+            function openPreview(card) {
+                previewInner.innerHTML = '';
+                [card.imageFront, card.imageBack].forEach(function (src, index) {
+                    if (!src && index === 1) { return; }
+                    var img = el('img', 'chase-preview-img');
+                    img.src = src || placeholderFor(card.orientation);
+                    img.alt = cardTitle(card) + (index === 0 ? ' (front)' : ' (back)');
+                    previewInner.appendChild(img);
+                });
+                var caption = cardTitle(card);
+                if (card.price !== null) { caption += ' · ~' + formatPrice(card.price); }
+                if (isPlaceholderImage(card.imageFront)) { caption += ' · reference image'; }
+                previewCaption.textContent = caption;
+                preview.hidden = false;
+            }
+
+            function closePreview() {
+                preview.hidden = true;
+                previewInner.innerHTML = '';
+            }
+
+            preview.addEventListener('click', closePreview);
+            document.addEventListener('keydown', function (event) {
+                if (event.key === 'Escape' && !preview.hidden) { closePreview(); }
+            });
+
+            function buildShareText() {
+                var lines = [PLAYER_NAME + ' — Chase list 1985-86 to 1996-97 (open to trades)'];
+                yearGroups.forEach(function (group) {
+                    lines.push('');
+                    lines.push(group.year);
+                    groupBySubset(group.cards).forEach(function (stack) {
+                        var first = stack.cards[0];
+                        var numbers = stack.cards.map(function (card) {
+                            var label = '#' + card.number;
+                            if (card.serialTotal) { label += ' /' + card.serialTotal; }
+                            if (card.variantNote) { label += ' (' + card.variantNote + ')'; }
+                            return label;
+                        });
+                        lines.push('- ' + first.setDisplayName + (first.subsetName ? ' — ' + first.subsetName : '') + ' ' + numbers.join(', '));
+                    });
+                });
+                lines.push('');
+                lines.push(window.location.href.split('#')[0]);
+                return lines.join('\n');
+            }
+
+            function flashCopy(label) {
+                copyBtn.textContent = label;
+                setTimeout(function () { copyBtn.textContent = 'Copy list'; }, 1800);
+            }
+
+            function fallbackCopy(text) {
+                var area = document.createElement('textarea');
+                area.value = text;
+                area.setAttribute('readonly', '');
+                area.style.position = 'fixed';
+                area.style.opacity = '0';
+                document.body.appendChild(area);
+                area.select();
+                var ok = false;
+                try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+                document.body.removeChild(area);
+                return ok;
+            }
+
+            function copyText(text, done) {
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(text).then(function () {
+                        done(true);
+                    }, function () {
+                        done(fallbackCopy(text));
+                    });
+                } else {
+                    done(fallbackCopy(text));
+                }
+            }
+
+            copyBtn.addEventListener('click', function () {
+                copyText(buildShareText(), function (ok) {
+                    flashCopy(ok ? 'Copied!' : 'Copy failed');
+                });
+            });
+
+            fetch(DATA_URL)
+                .then(function (response) {
+                    if (!response.ok) { throw new Error('HTTP ' + response.status); }
+                    return response.json();
+                })
+                .then(function (data) {
+                    var cards = collectCards(data);
+                    yearGroups = groupByYear(cards);
+                    renderSummary(cards);
+                    render(yearGroups);
+                })
+                .catch(function (error) {
+                    board.innerHTML = '';
+                    board.appendChild(el('div', 'story-status', 'Could not load chase list (' + error.message + ').'));
+                });
+        })();
+    </script>
+</body>
+
+</html>

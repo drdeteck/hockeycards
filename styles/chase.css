@@ -1,0 +1,441 @@
+/* Chase board — builds on story.css (topbar, theme variables, toggle) */
+
+:root {
+    --chase-ebay: #3D7A52;
+    --chase-research: #4A6A96;
+    --chase-tcdb: #9A5450;
+    --chase-btn-tint: 10%;
+    --chase-disabled-text: #A8A8A2;
+    --chase-price: #9A6700;
+}
+
+[data-theme='dark'] {
+    --chase-ebay: #7FB894;
+    --chase-research: #8FA9CF;
+    --chase-tcdb: #CF8F8A;
+    --chase-btn-tint: 14%;
+    --chase-disabled-text: #55565B;
+    --chase-price: #FCB514;
+}
+
+.chase-nav-link {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--story-nav-muted);
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+
+.chase-nav-link:hover,
+.chase-nav-link:focus {
+    color: var(--story-nav-text);
+    background-color: var(--story-nav-hover-bg);
+    text-decoration: none;
+}
+
+.chase-main {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 10px 12px 24px;
+}
+
+.chase-intro {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    margin-bottom: 8px;
+}
+
+.chase-title {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.chase-subtitle {
+    margin: 2px 0 0;
+    font-size: 12px;
+    color: var(--story-text-muted);
+}
+
+.chase-summary {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+}
+
+.chase-stat strong {
+    color: var(--story-text);
+}
+
+.chase-stat {
+    color: var(--story-text-muted);
+}
+
+/* Season swimlane: sideways label on the left, cards flowing on the right */
+.chase-year {
+    display: grid;
+    grid-template-columns: 30px minmax(0, 1fr);
+    gap: 6px;
+    margin-bottom: 8px;
+    padding: 6px 6px 6px 0;
+    background-color: var(--story-surface-alt);
+    border-radius: 4px;
+    scroll-margin-top: 52px;
+}
+
+.chase-year-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 6px 0;
+    border-right: 3px solid var(--story-accent);
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.chase-year-label {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+}
+
+.chase-year-stats {
+    font-size: 11px;
+    color: var(--story-text-muted);
+    white-space: nowrap;
+}
+
+.chase-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 10px;
+    align-content: start;
+}
+
+.chase-tile {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 5px;
+    background-color: var(--story-surface);
+    border: 1px solid var(--story-border);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px var(--story-card-shadow);
+    min-width: 0;
+}
+
+.chase-thumb {
+    position: relative;
+    display: block;
+    width: 100%;
+    aspect-ratio: 5 / 7;
+    padding: 0;
+    border: 0;
+    background: var(--story-surface-alt);
+    border-radius: 3px;
+    overflow: hidden;
+    cursor: zoom-in;
+}
+
+.chase-thumb img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Swap the box dimensions (140% = 7/5, 71.43% = 5/7) so a rotated landscape scan fills the portrait frame */
+.chase-thumb img.is-rotated {
+    top: 50%;
+    left: 50%;
+    width: 140%;
+    height: 71.4286%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+.chase-thumb-flag {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 9px;
+    line-height: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.chase-info {
+    flex: 1 1 auto;
+    min-width: 0;
+    line-height: 1.25;
+}
+
+/* Subset stack: layered edges behind the tile + clickable number chips */
+.chase-tile.is-stack {
+    box-shadow:
+        3px 3px 0 -1px var(--story-surface),
+        3px 3px 0 0 var(--story-border),
+        6px 6px 0 -1px var(--story-surface),
+        6px 6px 0 0 var(--story-border);
+}
+
+.chase-stack-count {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    padding: 1px 6px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 16px;
+    color: var(--story-nav-active-text);
+    background-color: var(--story-accent);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.chase-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    margin-top: 4px;
+}
+
+.chase-chip {
+    min-width: 24px;
+    padding: 0 4px;
+    border: 1px solid var(--story-border);
+    border-radius: 3px;
+    font-family: inherit;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 16px;
+    color: var(--story-text-muted);
+    background-color: var(--story-surface-alt);
+    cursor: pointer;
+}
+
+.chase-chip:hover,
+.chase-chip:focus {
+    color: var(--story-text);
+    border-color: var(--story-accent);
+    outline: none;
+}
+
+.chase-chip.is-active {
+    color: var(--story-nav-active-text);
+    background-color: var(--story-accent);
+    border-color: var(--story-accent);
+}
+
+.chase-set {
+    font-size: 10px;
+    line-height: 1.3;
+    color: var(--story-text-muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.chase-subset {
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.chase-meta {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 2px 5px;
+    margin-top: 1px;
+    font-size: 10px;
+    color: var(--story-text-muted);
+}
+
+.chase-number {
+    font-weight: 700;
+    color: var(--story-text);
+}
+
+.chase-number--copy {
+    padding: 0;
+    border: 0;
+    border-bottom: 1px dotted var(--story-text-muted);
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    background: none;
+    cursor: copy;
+}
+
+.chase-number--copy:hover,
+.chase-number--copy:focus {
+    color: var(--chase-price);
+    border-bottom-color: var(--chase-price);
+    outline: none;
+}
+
+.chase-number--copy.is-copied {
+    color: var(--chase-ebay);
+    border-bottom-color: transparent;
+}
+
+.chase-tag {
+    padding: 0 3px;
+    border-radius: 2px;
+    background-color: var(--story-surface-alt);
+}
+
+.chase-price {
+    margin-left: auto;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--chase-price);
+    cursor: help;
+}
+
+.chase-actions {
+    display: flex;
+    gap: 3px;
+    min-width: 0;
+}
+
+/* Quiet outline buttons that only fill on hover, so the board isn't a wall of RGB */
+.chase-btn {
+    --chase-btn-color: var(--story-text-muted);
+    flex: 1 1 0;
+    display: inline-block;
+    padding: 1px 4px;
+    border: 1px solid color-mix(in srgb, var(--chase-btn-color) 45%, transparent);
+    border-radius: 3px;
+    font-family: inherit;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    color: var(--chase-btn-color);
+    background-color: color-mix(in srgb, var(--chase-btn-color) var(--chase-btn-tint), transparent);
+    cursor: pointer;
+    transition: background-color 0.12s ease, color 0.12s ease;
+}
+
+.chase-btn:hover,
+.chase-btn:focus {
+    color: var(--story-surface);
+    background-color: var(--chase-btn-color);
+    border-color: var(--chase-btn-color);
+    text-decoration: none;
+    outline: none;
+}
+
+.chase-btn--ebay { --chase-btn-color: var(--chase-ebay); }
+.chase-btn--research { --chase-btn-color: var(--chase-research); }
+.chase-btn--tcdb { --chase-btn-color: var(--chase-tcdb); }
+
+.chase-btn.is-disabled,
+.chase-btn.is-disabled:hover {
+    color: var(--chase-disabled-text);
+    background-color: transparent;
+    border: 1px dashed var(--chase-disabled-text);
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.chase-btn--copy {
+    flex: none;
+    padding: 4px 10px;
+    font-size: 12px;
+    border: 0;
+    color: var(--story-nav-active-text);
+    background-color: var(--story-accent);
+}
+
+.chase-btn--copy:hover,
+.chase-btn--copy:focus {
+    color: var(--story-nav-active-text);
+    background-color: var(--story-accent);
+    filter: brightness(0.92);
+}
+
+/* Image preview overlay */
+.chase-preview {
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.82);
+    cursor: zoom-out;
+}
+
+.chase-preview[hidden] {
+    display: none;
+}
+
+.chase-preview-inner {
+    display: flex;
+    gap: 12px;
+    max-width: 100%;
+    max-height: 85vh;
+}
+
+.chase-preview-img {
+    max-height: 80vh;
+    max-width: 45vw;
+    object-fit: contain;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+
+.chase-preview-caption {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 13px;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .chase-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 600px) {
+    .chase-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .story-years-nav { display: none; }
+}
+
+@media (max-width: 400px) {
+    .chase-grid { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media print {
+    .story-header-stack,
+    .chase-actions,
+    .chase-btn--copy { display: none; }
+    .chase-tile { box-shadow: none; break-inside: avoid; }
+    .chase-year { break-inside: avoid; }
+}
