@@ -6876,6 +6876,25 @@
               "price": 15
             }
           ]
+        },
+        {
+          "set_key": "2023-24-upper-deck-tim-hortons-greatest-duos-bounded-by-honour",
+          "set_name": "Bounded By Honour",
+          "set_display_name": "Bounded By Honour",
+          "cards": [
+            {
+              "id": "ml-2023-24-upper-deck-tim-hortons-greatest-duos-bounded-by-honour-bh-3",
+              "base_number": "BH-3",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2023-24-Upper-Deck-Tim-Hortons-Greatest-Duos---Bounded-By-Honour-BH-3-Connor-McDavid--Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2023-24-Upper-Deck-Tim-Hortons-Greatest-Duos---Bounded-By-Honour-BH-3-Connor-McDavid--Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "variant_note": "w/ Connor McDavid",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
