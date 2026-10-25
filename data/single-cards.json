@@ -652,31 +652,5 @@
         ]
       }
     ]
-  },
-  "singles-2025-26-upper-deck-x-ovo-x-hockey-canada": {
-    "set_key": "singles-2025-26-upper-deck-x-ovo-x-hockey-canada",
-    "set_name": "Upper Deck X OVO X Hockey Canada",
-    "set_year_label": "2025-26",
-    "set_year_start": 2025,
-    "set_year_end": 2026,
-    "set_display_name": "2025-26 Upper Deck X OVO X Hockey Canada",
-    "set_category": "Singles",
-    "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/590289/2025-26-Upper-Deck-X-OVO-X-Hockey-Canada",
-    "source": "other-cards",
-    "cards": [
-      {
-        "id": "other-2025-26-upper-deck-x-ovo-x-hockey-canada-06",
-        "name": "Patrick Roy",
-        "base_number": "06",
-        "team": "Canada",
-        "orientation_front": "portrait",
-        "orientation_back": "portrait",
-        "image_front": "img/cards/Singles/2025-26-Upper-Deck-X-OVO-X-Hockey-Canada-06-Patrick-RoyFr.jpg",
-        "image_back": "img/cards/Singles/2025-26-Upper-Deck-X-OVO-X-Hockey-Canada-06-Patrick-RoyBk.jpg",
-        "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/590289/cid/33252126/2025-26-Upper-Deck-X-OVO-X-Hockey-Canada-06-Patrick-Roy",
-        "inCollection": true
-      }
-    ],
-    "subsets": []
   }
 }
