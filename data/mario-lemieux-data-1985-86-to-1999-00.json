@@ -5572,7 +5572,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "inCollection": false,
-              "serial_total": 5000
+              "serial_total": 5000,
+              "price": 40
             }
           ]
         }
