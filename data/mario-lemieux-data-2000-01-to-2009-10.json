@@ -4022,7 +4022,8 @@
               "image_back": "img/cards/ML66/2002-03-Be-a-Player-All-Star-Edition---He-Shoots-He-Scores-NNO-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 0.99
             }
           ]
         }
