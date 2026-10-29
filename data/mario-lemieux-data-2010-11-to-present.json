@@ -3159,6 +3159,7 @@
           "set_name": "Electrifying",
           "set_display_name": "2012-13 Fleer Retro - Electrifying",
           "set_tcdb_href": "",
+          "odds": "1:70",
           "cards": [
             {
               "id": "ml-2012-13-fleer-retro-electrifying-11",
@@ -3169,7 +3170,6 @@
               "image_back": "img/cards/ML66/2012-13-Fleer-Retro---Tradition-Electrifying-11-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "odds": "1:70",
               "inCollection": false
             }
           ]
@@ -6444,6 +6444,7 @@
           "set_name": "UD Canvas Black and White",
           "set_display_name": "2023-24 Upper Deck - UD Canvas Black and White",
           "set_tcdb_href": "",
+          "odds": "1:48",
           "cards": [
             {
               "id": "ml-2023-24-upper-deck-ud-canvas-black-and-white-c404",
@@ -6454,7 +6455,6 @@
               "image_back": "img/cards/ML66/2023-24-Upper-Deck---UD-Canvas-Black-White-C404-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "odds": "1:48",
               "inCollection": true,
               "price": 13.5
             }
@@ -6882,6 +6882,9 @@
           "set_key": "2023-24-upper-deck-tim-hortons-greatest-duos-bounded-by-honour",
           "set_name": "Bounded By Honour",
           "set_display_name": "Bounded By Honour",
+          "set_tcdb_href": "https://www.tcdb.com/Checklist.cfm/sid/424296/2023-24-",
+          "odds": "1:100",
+          "odds_source": "https://www.tcdb.com/Checklist.cfm/sid/424296/2023-24-",
           "cards": [
             {
               "id": "ml-2023-24-upper-deck-tim-hortons-greatest-duos-bounded-by-honour-bh-3",
@@ -7708,13 +7711,15 @@
               "base_number": "ESC-ML",
               "orientation_front": "landscape",
               "orientation_back": "landscape",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2025-26-Upper-Deck-Black-Diamond---Exquisite-Collection-Stanley-Cup-Heroes-ESC-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2025-26-Upper-Deck-Black-Diamond---Exquisite-Collection-Stanley-Cup-Heroes-ESC-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/570182/cid/32282899/2025-26-Upper-Deck-Black-Diamond-Exquisite-Collection-Stanley-Cup-Heroes-ESC-ML-Mario-Lemieux?PageIndex=1",
               "team": "Pittsburgh Penguins",
               "inCollection": true,
               "price": 9.5,
-              "serial_total": 299
+              "serial_total": 299,
+              "excludeFromBinder": true,
+              "isTooThickForBinder": true
             }
           ]
         }

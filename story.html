@@ -167,7 +167,7 @@
                 return subsets;
             }
 
-            function createCardElement(card, subsetName, setDisplayName) {
+            function createCardElement(card, subsetName, setDisplayName, subsetOdds) {
                 var item = document.createElement('div');
                 item.className = 'story-card-item';
 
@@ -203,6 +203,14 @@
                     numSpan.className = 'story-card-number ' + (isOwned ? 'story-card-number--owned' : 'story-card-number--missing');
                     numSpan.textContent = numberText;
                     caption.appendChild(numSpan);
+                }
+
+                if (subsetOdds) {
+                    caption.appendChild(document.createTextNode(' '));
+                    var oddsSpan = document.createElement('span');
+                    oddsSpan.className = 'story-card-odds';
+                    oddsSpan.textContent = '(' + subsetOdds + ')';
+                    caption.appendChild(oddsSpan);
                 }
 
                 if (card.is_image_placeholder === true) {
@@ -315,7 +323,7 @@
                         var subsetName = subset.set_name || subset.set_display_name || '';
                         var subsetCards = Array.isArray(subset.cards) ? subset.cards.slice().sort(compareCardsByNumber) : [];
                         for (var sc = 0; sc < subsetCards.length; sc++) {
-                            grid.appendChild(createCardElement(subsetCards[sc], subsetName, setObj.set_display_name));
+                            grid.appendChild(createCardElement(subsetCards[sc], subsetName, setObj.set_display_name, subset.odds));
                         }
                     }
 

@@ -262,6 +262,14 @@
                     "type": "string",
                     "description": "Trading Card Database subset URL, or an empty string when no link is available."
                 },
+                "odds": {
+                    "type": "string",
+                    "description": "Optional pack odds for this subset, such as \"1:48\"."
+                },
+                "odds_source": {
+                    "type": "string",
+                    "description": "Optional URL of the page that documents the odds."
+                },
                 "cards": {
                     "type": "array",
                     "description": "Cards belonging to this subset."
@@ -414,10 +422,6 @@
                 "note": {
                     "type": "string",
                     "description": "Optional collection note."
-                },
-                "odds": {
-                    "type": "string",
-                    "description": "Optional pack odds description."
                 },
                 "insert_subset": {
                     "type": "string",

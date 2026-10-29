@@ -390,6 +390,12 @@ body {
     color: #e74c3c;
 }
 
+.story-card-odds {
+    font-weight: 400;
+    color: var(--story-text-muted);
+    opacity: 0.6;
+}
+
 .story-card-placeholder-note {
     font-style: italic;
     font-weight: 400;

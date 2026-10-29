@@ -2471,6 +2471,8 @@
           "set_name": "Elite",
           "set_display_name": "1993-94 Donruss - Elite",
           "set_tcdb_href": "",
+          "odds": "1:60",
+          "odds_source": "https://www.tcdb.com/Checklist.cfm/sid/424296/2023-24-",
           "cards": [
             {
               "id": "ml-1993-94-donruss-elite-1",
@@ -7708,6 +7710,8 @@
           "set_name": "You Crash the Game Silver",
           "set_display_name": "1996-97 Collector's Choice - You Crash the Game Silver",
           "set_tcdb_href": "",
+          "odds": "1:5",
+          "odds_source": "https://www.tcdb.com/Inserts.cfm/sid/5247/1996-97-Collector-s-Choice",
           "cards": [
             {
               "id": "ml-1996-97-collectors-choice-ctg-c5a",
@@ -7741,7 +7745,15 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "inCollection": true
-            },
+            }
+          ]
+        },
+        {
+          "set_key": "1996-97-collectors-choice-you-crash-the-game-silver-exchange",
+          "set_name": "You Crash the Game Silver Exchange",
+          "set_display_name": "1996-97 Collector's Choice - You Crash the Game Silver Exchange",
+          "set_tcdb_href": "",
+          "cards": [
             {
               "id": "ml-1996-97-collectors-choice-ctg-cr5",
               "base_number": "CR5",
@@ -7762,6 +7774,8 @@
           "set_name": "Stick Ums",
           "set_display_name": "1996-97 Collector's Choice - Stick Ums",
           "set_tcdb_href": "",
+          "odds": "1:3",
+          "odds_source": "https://www.tcdb.com/Inserts.cfm/sid/5247/1996-97-Collector-s-Choice",
           "cards": [
             {
               "id": "ml-1996-97-collectors-choice-stick-ums-s7",
@@ -7801,6 +7815,8 @@
           "set_name": "You Crash the Game Gold",
           "set_display_name": "1996-97 Collector's Choice - You Crash the Game Gold",
           "set_tcdb_href": "",
+          "odds": "1:49",
+          "odds_source": "https://www.tcdb.com/Inserts.cfm/sid/5247/1996-97-Collector-s-Choice",
           "cards": [
             {
               "id": "ml-1996-97-collectors-choice-you-crash-the-game-gold-c5a",
@@ -9531,7 +9547,8 @@
               "inCollection": true,
               "price": 127.5,
               "serial_total": 600,
-              "isTooThickForBinder": true
+              "isTooThickForBinder": true,
+              "excludeFromBinder": true
             }
           ]
         },
