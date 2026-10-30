@@ -163,6 +163,16 @@ try {
 
             $filePath = Join-Path $root $relPath
 
+            # Mirror GitHub Pages: a folder URL redirects to a trailing slash and serves its index.html
+            if (Test-Path $filePath -PathType Container) {
+                if (-not $rawPath.EndsWith('/')) {
+                    $response.StatusCode = 301
+                    $response.RedirectLocation = $rawPath + '/'
+                    continue
+                }
+                $filePath = Join-Path $filePath 'index.html'
+            }
+
             if (Test-Path $filePath -PathType Leaf) {
                 $ext = [System.IO.Path]::GetExtension($filePath).ToLower()
                 $mime = if ($mimeTypes.ContainsKey($ext)) { $mimeTypes[$ext] } else { 'application/octet-stream' }

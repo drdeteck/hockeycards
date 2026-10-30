@@ -366,6 +366,23 @@ ul {
     margin: 0;
 }
 
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 16px;
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.footer-links a {
+    color: var(--color-blue);
+    text-decoration: underline;
+}
+
+.footer-links a:hover {
+    color: var(--color-pale-blue);
+}
+
 .theme-toggle {
     display: -webkit-inline-box;
     display: -webkit-inline-flex;

@@ -1,0 +1,951 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Golden Blades Decoder</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='2' y='2' width='60' height='60' rx='16' fill='%2314161c' stroke='%23d4a640' stroke-width='3'/%3E%3Ccircle cx='30' cy='28' r='14' fill='none' stroke='%23d4a640' stroke-width='4'/%3E%3Cpath d='M40 38l11 11' stroke='%23d4a640' stroke-width='6' stroke-linecap='round'/%3E%3Cpath d='M22 19H27.5L28 24Q28.5 25.5 31.5 26L37 27.3Q39.6 28 39.6 30.5V31.6H21.6Q20.6 25 22 19Z' fill='%23c8992f'/%3E%3Cpath d='M19.5 35.2H36.5Q41.2 35.2 40.6 31' fill='none' stroke='%23f3d27a' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #f5f2ea; --panel: #fffdf8; --ink: #1b1b1f; --muted: #6d6a64; --line: #e4dfd2; --soft: #efe9db;
+    --gold: #b8892b; --gold-hi: #f3d27a; --gold-lo: #8a6418; --navy: #14161c;
+    --win: #1d8a4b; --win-bg: rgba(29,138,75,.09); --lose: #77757d; --warn: #c0661f; --warn-bg: rgba(192,102,31,.08); --sample: #2f6db5; --sample-bg: rgba(47,109,181,.09);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111215; --panel: #1b1c20; --ink: #ecebe8; --muted: #9b9890; --line: #2e2f35; --soft: #24252a;
+      --win: #3cc274; --win-bg: rgba(60,194,116,.1); --lose: #a6a4ad; --warn-bg: rgba(192,102,31,.12); --sample: #5b9be6; --sample-bg: rgba(91,155,230,.12); }
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 1200px; margin: 0 auto; padding: 22px 16px 32px; }
+  button { font: inherit; }
+
+  /* header */
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; flex-wrap: wrap; }
+  .logo { width: 56px; height: 56px; flex: none; filter: drop-shadow(0 3px 8px rgba(138,100,24,.35)); }
+  .eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 2.5px; text-transform: uppercase; color: var(--muted); }
+  h1 { margin: 0; font-size: 30px; line-height: 1.05; font-weight: 900; font-style: italic; letter-spacing: -.3px; }
+  h1 .gb { background: linear-gradient(100deg, var(--gold-lo), var(--gold) 35%, var(--gold-hi) 55%, var(--gold) 75%); -webkit-background-clip: text; background-clip: text; color: transparent; text-transform: uppercase; }
+  h1 .dec { font-weight: 300; font-style: normal; color: var(--ink); margin-left: 4px; }
+  .badge { margin-left: auto; display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 5px 11px; background: var(--panel); }
+  .badge svg { width: 14px; height: 14px; }
+
+  .brand { flex: 1 1 220px; min-width: 0; }
+  @media (max-width: 760px) {
+    .badge { margin-left: 0; }
+    .logo { width: 46px; height: 46px; }
+    h1 { font-size: 24px; }
+    #msg { font-size: 22px; }
+  }
+
+  /* result banner */
+  #result { background: var(--panel); border: 1px solid var(--line); border-left: 5px solid var(--line); border-radius: 12px; padding: 14px 18px; margin-bottom: 16px; display: flex; gap: 16px; align-items: center; flex-wrap: wrap; min-height: 82px; transition: background .3s, border-color .3s; }
+  #result.win { border-left-color: var(--win); background: linear-gradient(90deg, var(--win-bg), var(--panel) 60%); }
+  #result.lose { border-left-color: var(--lose); }
+  #result.unk { border-left-color: var(--warn); }
+  .ico { flex: none; width: 42px; height: 42px; border-radius: 50%; display: grid; place-items: center; font-size: 20px; font-weight: 900; background: var(--soft); color: var(--muted); }
+  #result.win .ico { background: var(--win); color: #fff; }
+  #result.unk .ico { background: var(--warn-bg); color: var(--warn); }
+  #result.sample { border-left-color: var(--sample); background: linear-gradient(90deg, var(--sample-bg), var(--panel) 60%); }
+  #result.sample .ico { background: var(--sample); color: #fff; }
+  .rtext { min-width: 0; flex: 1 1 240px; }
+  .rlabel { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+  #msg { font-size: 26px; font-weight: 900; letter-spacing: .4px; line-height: 1.15; }
+  #msg.win { color: var(--win); }
+  #msg.lose { color: var(--lose); }
+  #msg.unk { color: var(--warn); font-size: 20px; }
+  #msg.sample { color: var(--sample); font-size: 22px; }
+  .detail { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+  .conf { text-align: right; cursor: help; }
+  .conf small { color: var(--muted); font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; font-weight: 700; }
+  .conf b { font-size: 28px; display: block; line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .bar { width: 170px; height: 7px; background: var(--soft); border-radius: 4px; overflow: hidden; margin-top: 5px; }
+  .bar i { display: block; height: 100%; width: 0; border-radius: 4px; background: linear-gradient(90deg, var(--gold-lo), var(--gold-hi)); transition: width .4s; }
+  @media (max-width: 760px) { .conf { text-align: left; } }
+
+  /* panels */
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px; min-width: 0; }
+  .panel h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--muted); margin: 0 0 10px; display: flex; justify-content: space-between; align-items: center; gap: 8px; min-height: 24px; }
+  #drop { border: 2px dashed var(--line); border-radius: 10px; min-height: 280px; display: flex; align-items: center; justify-content: center; text-align: center; color: var(--muted); cursor: pointer; position: relative; transition: border-color .2s, background .2s; padding: 20px; }
+  #drop:hover { border-color: var(--gold); }
+  #drop.over { border-color: var(--gold); background: rgba(184,137,43,.08); }
+  #drop.has { border: 0; min-height: 0; cursor: crosshair; display: block; padding: 0; }
+  #dropText { width: 100%; max-width: 360px; }
+  #dropText svg { width: 54px; height: 54px; color: var(--gold); margin-bottom: 8px; }
+  #dropText strong { display: block; color: var(--ink); font-size: 16px; }
+  .keys { margin-top: 10px; font-size: 12px; line-height: 2; }
+  kbd { font: 11px/1 ui-monospace, Consolas, monospace; border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; padding: 2px 5px; background: var(--soft); color: var(--ink); }
+  .empty { min-height: 280px; border-radius: 10px; background: repeating-linear-gradient(0deg, var(--soft) 0 3px, transparent 3px 6px); display: grid; place-items: center; color: var(--muted); font-size: 13px; text-align: center; padding: 20px; }
+  .empty span { background: var(--panel); padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); }
+  canvas { display: block; max-width: 100%; height: auto; margin: 0 auto; border-radius: 6px; }
+  #srcCanvas, #outCanvas { touch-action: none; }
+  #zoom { margin-top: 10px; width: 100%; background: #000; }
+  .zlabel { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); font-weight: 700; margin-top: 12px; }
+  .hint { font-size: 12.5px; color: var(--muted); margin-top: 8px; padding-left: 22px; position: relative; }
+  .hint b { color: var(--ink); }
+  .hint::before { content: "i"; position: absolute; left: 0; top: 1px; width: 16px; height: 16px; border-radius: 50%; background: var(--soft); color: var(--gold); font: 700 11px/16px Georgia, serif; text-align: center; }
+  .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 7px; overflow: hidden; }
+  .seg button { border: 0; background: transparent; color: var(--muted); font-size: 11.5px; padding: 4px 10px; cursor: pointer; }
+  .seg button.on { background: var(--navy); color: var(--gold-hi); }
+  .link { background: none; border: 0; color: var(--gold); cursor: pointer; font-size: 12px; padding: 0; text-transform: none; letter-spacing: 0; }
+  .link:hover { text-decoration: underline; }
+  input[type=file] { display: none; }
+  #urlForm { display: flex; gap: 6px; margin-top: 10px; flex-wrap: wrap; }
+  #url { flex: 1 1 180px; min-width: 0; font: inherit; font-size: 13px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 7px; background: var(--bg); color: var(--ink); }
+  #url:focus { outline: 2px solid var(--gold); outline-offset: -1px; }
+  #urlForm button { font-size: 13px; padding: 7px 12px; border: 1px solid transparent; border-radius: 7px; cursor: pointer; }
+  #urlForm button[type=submit] { background: var(--navy); color: var(--gold-hi); }
+  #pasteBtn { background: var(--gold); color: #fff; }
+  #clearBtn { background: transparent; color: var(--muted); border-color: var(--line) !important; }
+  #clearBtn:hover { color: var(--warn); border-color: var(--warn) !important; filter: none; }
+  #urlForm button:hover { filter: brightness(1.1); }
+  #presets { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin-top: 8px; font-size: 12px; color: var(--muted); }
+  #presets button { font-size: 12px; padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; background: var(--bg); color: var(--ink); cursor: pointer; }
+  #presets button:hover { border-color: var(--gold); color: var(--gold); }
+
+  /* tips + footer */
+  details { margin-top: 16px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 0 16px; }
+  summary { cursor: pointer; padding: 12px 0; font-weight: 700; font-size: 14px; list-style: none; display: flex; align-items: center; gap: 8px; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "+"; margin-left: auto; color: var(--gold); font-size: 18px; font-weight: 400; }
+  details[open] summary::after { content: "\2212"; }
+  details ul { margin: 0 0 14px; padding-left: 20px; color: var(--muted); font-size: 13.5px; }
+  details li { margin-bottom: 5px; }
+  details li b { color: var(--ink); }
+  footer { color: var(--muted); font-size: 12px; margin-top: 22px; line-height: 1.55; }
+  footer h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--ink); margin: 0 0 6px; }
+  footer ol { margin: 0 0 14px; padding-left: 18px; }
+  footer ol b { color: var(--ink); font-weight: 600; }
+  footer .legal { text-align: center; font-size: 11.5px; border-top: 1px solid var(--line); padding-top: 12px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <svg class="logo" viewBox="0 0 64 64" aria-hidden="true">
+      <defs>
+        <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3d27a"/><stop offset=".5" stop-color="#c8992f"/><stop offset="1" stop-color="#8a6418"/></linearGradient>
+        <clipPath id="lc"><rect x="4" y="4" width="56" height="56" rx="14"/></clipPath>
+        <clipPath id="lens"><circle cx="30" cy="28" r="13"/></clipPath>
+      </defs>
+      <rect x="2" y="2" width="60" height="60" rx="16" fill="#14161c"/>
+      <g clip-path="url(#lc)" stroke="#2c303a" stroke-width="2">
+        <path d="M4 9H60M4 15H60M4 21H60M4 27H60M4 33H60M4 39H60M4 45H60M4 51H60M4 57H60"/>
+      </g>
+      <circle cx="30" cy="28" r="13" fill="#1d2029"/>
+      <g clip-path="url(#lens)">
+        <path d="M22 19H27.5L28 24Q28.5 25.5 31.5 26L37 27.3Q39.6 28 39.6 30.5V31.6H21.6Q20.6 25 22 19Z" fill="#c8992f"/>
+        <path d="M24 31.6V34.5M36.5 31.6V34.5" stroke="#c8992f" stroke-width="2.2"/>
+        <path d="M19.5 35.2H36.5Q41.2 35.2 40.6 31" fill="none" stroke="#f3d27a" stroke-width="2.8" stroke-linecap="round"/>
+      </g>
+      <circle cx="30" cy="28" r="14" fill="none" stroke="url(#lg)" stroke-width="3.5"/>
+      <path d="M40.5 38.5l10 10" stroke="url(#lg)" stroke-width="6" stroke-linecap="round"/>
+      <rect x="2" y="2" width="60" height="60" rx="16" fill="none" stroke="url(#lg)" stroke-width="2.5"/>
+    </svg>
+    <div class="brand">
+      <div class="eyebrow">1996-97 Score Hockey</div>
+      <h1><span class="gb">Golden Blades</span><span class="dec">Decoder</span></h1>
+    </div>
+    <span class="badge" title="Your image never leaves this page: no upload, no server, works offline."><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="7" width="10" height="7" rx="1.5"/><path d="M5 7V5a3 3 0 0 1 6 0v2"/></svg>Runs 100% in your browser</span>
+  </header>
+
+  <section id="result" class="idle">
+    <div class="ico" id="ico">?</div>
+    <div class="rtext">
+      <div class="rlabel">Hidden message</div>
+      <div id="msg" class="lose">Waiting for a card&hellip;</div>
+      <div class="detail" id="detail">Load an image of a Golden Blades card back to begin.</div>
+    </div>
+    <div class="conf" id="confBox" hidden title="How clearly the decoded image matches this message rather than the other one, scaled by how sharp the match is. Above ~85% is a solid read.">
+      <small>Confidence</small>
+      <b id="confPct">&ndash;</b>
+      <div class="bar"><i id="confBar"></i></div>
+    </div>
+  </section>
+
+  <div class="grid">
+    <div class="panel">
+      <h2>Card back <button class="link" id="reset" hidden title="Discard your manual box and let the decoder find the panel again">&#8635; auto-detect again</button></h2>
+      <div id="drop">
+        <div id="dropText">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="9" width="36" height="30" rx="4"/><path d="M6 31l9-8 8 7 6-5 13 10"/><circle cx="32" cy="18" r="3"/></svg>
+          <strong>Drop a photo of the card back</strong>
+          or click to browse
+          <div class="keys"><kbd>Ctrl</kbd> + <kbd>V</kbd> paste a copied image &middot; the full back or just the scrambled box both work</div>
+        </div>
+        <canvas id="srcCanvas" hidden></canvas>
+      </div>
+      <form id="urlForm"><input type="url" id="url" placeholder="https://… image URL" autocomplete="off"><button type="submit" title="Load the image at this address (some sites block this)">Load URL</button><button type="button" id="pasteBtn" title="Right-click an image on any site → Copy image, then click here (or press Ctrl+V)">Paste image</button><button type="button" id="clearBtn" title="Remove the image and start over">Clear</button></form>
+      <div id="presets"><span>Try a sample:</span><button type="button" data-img="samples/win.jpg">Winner</button><button type="button" data-img="samples/lose.jpg">Sorry</button><button type="button" data-img="samples/sample.jpg">Sample card</button></div>
+      <div class="hint" id="srcHint">From a website? Right-click the image &rarr; <b>Copy image</b>, then paste here. It works on sites that block URLs.</div>
+      <input type="file" id="file" accept="image/*">
+    </div>
+    <div class="panel">
+      <h2>Decoded <span class="seg" title="Enhanced keeps shading; B&amp;W is a hard black/white cut that can be crisper on clean scans"><button data-v="gray" class="on">Enhanced</button><button data-v="bw">B&amp;W</button></span></h2>
+      <div class="empty" id="outEmpty"><span>The decoded card will appear here</span></div>
+      <canvas id="outCanvas" hidden></canvas>
+      <div class="zlabel" id="zlabel" hidden>Close-up of the decoded panel</div>
+      <canvas id="zoom" hidden></canvas>
+    </div>
+  </div>
+
+  <details>
+    <summary>Tips for a clean read</summary>
+    <ul>
+      <li><b>Shoot straight on.</b> Small tilts are corrected automatically, but strong angles blur the stripes.</li>
+      <li><b>Get close.</b> The fine horizontal lines in the scrambled box must be visible when you zoom in, so crop or move closer rather than shooting the whole table.</li>
+      <li><b>Avoid glare.</b> Toploaders and slabs reflect light; tilt the card slightly away from the lamp or take it out of the sleeve.</li>
+      <li><b>Wrong box detected?</b> Drag a rectangle over the scrambled panel on the left image to decode exactly that area.</li>
+      <li><b>Low confidence?</b> Try a sharper photo, or toggle <b>B&amp;W</b> and judge the decoded text by eye.</li>
+      <li><b>SAMPLE promo cards</b> have a thin scrambled strip with the message on one line instead of the regular two-line panel. The decoder reads both and labels the strip as SAMPLE.</li>
+      <li><b>Sharing:</b> add <code>?img=</code> plus an image address to this page's link to open it pre-loaded.</li>
+    </ul>
+  </details>
+  <footer>
+    <h3>How the decoding works</h3>
+    <ol>
+      <li><b>Find the panel.</b> The scrambled box is the only area covered in fine horizontal lines, so the decoder looks for that texture and checks that the lines repeat evenly.</li>
+      <li><b>Straighten and measure.</b> It corrects any tilt, then measures the line spacing and where each white mask line falls across the panel.</li>
+      <li><b>Remove the mask.</b> The white lines are dropped and the gaps filled in from the rows between them, which reveals the hidden text. This is the image on the right.</li>
+      <li><b>Name the message.</b> The revealed text is compared with the two known messages, SORRY / TRY AGAIN and SPECIAL / ARTIST'S PROOF, on one line for SAMPLE strips and two lines otherwise. Confidence shows how clearly one beats the other. It is a match, not character-by-character reading, so trust the decoded image if they ever disagree.</li>
+    </ol>
+    <div class="legal">Fan-made tool. Not affiliated with Score, Pinnacle Brands or the NHL/NHLPA.</div>
+  </footer>
+</main>
+
+<script>
+"use strict";
+// ---------------------------------------------------------------------------
+// Known messages. Add new ones here if other variants turn up.
+// ---------------------------------------------------------------------------
+const MESSAGES = [
+  { lines: ["SORRY", "TRY AGAIN"], label: "SORRY — TRY AGAIN", win: false },
+  { lines: ["SPECIAL", "ARTIST'S PROOF"], label: "SPECIAL ARTIST'S PROOF", win: true },
+];
+const WORK_MAX = 1600;   // longest side of the working image
+const DETECT_MAX = 800;  // longest side used for locating the scrambled box
+
+// ---------------------------------------------------------------------------
+// Small image-processing toolkit on Float32 grayscale arrays
+// ---------------------------------------------------------------------------
+function toGray(data, n) {
+  const g = new Float32Array(n);
+  for (let i = 0, j = 0; i < n; i++, j += 4) g[i] = 0.299 * data[j] + 0.587 * data[j + 1] + 0.114 * data[j + 2];
+  return g;
+}
+
+// Box blur with clamped edges, radius rx horizontally and ry vertically.
+function boxBlur(src, w, h, rx, ry) {
+  let out = src;
+  if (rx > 0) {
+    const tmp = new Float32Array(w * h), n = 2 * rx + 1;
+    for (let y = 0; y < h; y++) {
+      const o = y * w;
+      let s = 0;
+      for (let k = -rx; k <= rx; k++) s += src[o + Math.min(w - 1, Math.max(0, k))];
+      for (let x = 0; x < w; x++) {
+        tmp[o + x] = s / n;
+        s += src[o + Math.min(w - 1, x + rx + 1)] - src[o + Math.max(0, x - rx)];
+      }
+    }
+    out = tmp;
+  }
+  if (ry > 0) {
+    const tmp = new Float32Array(w * h), n = 2 * ry + 1;
+    for (let x = 0; x < w; x++) {
+      let s = 0;
+      for (let k = -ry; k <= ry; k++) s += out[Math.min(h - 1, Math.max(0, k)) * w + x];
+      for (let y = 0; y < h; y++) {
+        tmp[y * w + x] = s / n;
+        s += out[Math.min(h - 1, y + ry + 1) * w + x] - out[Math.max(0, y - ry) * w + x];
+      }
+    }
+    out = tmp;
+  }
+  return out === src ? Float32Array.from(src) : out;
+}
+
+// Gaussian approximated by three box passes.
+function gauss(src, w, h, sx, sy) {
+  const r = s => (s < 0.5 ? 0 : Math.max(1, Math.round((Math.sqrt(4 * s * s + 1) - 1) / 2)));
+  const rx = r(sx), ry = r(sy);
+  let o = src;
+  for (let i = 0; i < 3; i++) o = boxBlur(o, w, h, rx, ry);
+  return o;
+}
+
+function percentile(arr, p) {
+  const step = Math.max(1, Math.floor(arr.length / 20000));
+  const s = [];
+  for (let i = 0; i < arr.length; i += step) s.push(arr[i]);
+  s.sort((a, b) => a - b);
+  return s[Math.min(s.length - 1, Math.floor(p * (s.length - 1)))];
+}
+
+// Area-average resize.
+function resize(src, w, h, nw, nh) {
+  const out = new Float32Array(nw * nh), fx = w / nw, fy = h / nh;
+  for (let y = 0; y < nh; y++) {
+    const y0 = y * fy, y1 = y0 + fy;
+    for (let x = 0; x < nw; x++) {
+      const x0 = x * fx, x1 = x0 + fx;
+      let s = 0, a = 0;
+      for (let yy = Math.floor(y0); yy < Math.min(h, Math.ceil(y1)); yy++) {
+        const wy = Math.min(y1, yy + 1) - Math.max(y0, yy);
+        for (let xx = Math.floor(x0); xx < Math.min(w, Math.ceil(x1)); xx++) {
+          const wt = wy * (Math.min(x1, xx + 1) - Math.max(x0, xx));
+          s += src[yy * w + xx] * wt; a += wt;
+        }
+      }
+      out[y * nw + x] = a ? s / a : 0;
+    }
+  }
+  return out;
+}
+
+// ---------------------------------------------------------------------------
+// Step 1: locate the scrambled box (dense horizontal stripes, little vertical detail)
+// ---------------------------------------------------------------------------
+// Shrink a candidate box to the densest band of stripe energy. Neighbouring stripy things
+// (a striped jersey, a table rule) can merge into the same blob; this keeps only the core.
+function tighten(c, score, w) {
+  let { x, y, w: bw, h: bh } = c;
+  const band = (n, m) => {
+    const v = []; for (let i = 0; i < n; i++) v.push(m(i));
+    const sm = v.map((_, i) => (v[Math.max(0, i - 1)] + v[i] + v[Math.min(n - 1, i + 1)]) / 3);
+    const sorted = [...sm].sort((a, b) => a - b), thr = 0.45 * sorted[Math.floor(n * 0.9)];
+    let pk = 0; sm.forEach((u, i) => { if (u > sm[pk]) pk = i; });
+    let a = pk, b = pk;
+    while (a > 0 && sm[a - 1] > thr) a--;
+    while (b < n - 1 && sm[b + 1] > thr) b++;
+    return [a, b - a + 1];
+  };
+  for (let pass = 0; pass < 2; pass++) {
+    const [ry, rh] = band(bh, i => { let s = 0; for (let xx = x; xx < x + bw; xx++) s += score[(y + i) * w + xx]; return s / bw; });
+    y += ry; bh = rh;
+    const [rx, rw] = band(bw, i => { let s = 0; for (let yy = y; yy < y + bh; yy++) s += score[yy * w + x + i]; return s / bh; });
+    x += rx; bw = rw;
+  }
+  return { ...c, x, y, w: bw, h: bh };
+}
+
+// g/w/h: downscaled image used for the search; full/fullW: working-resolution image, fs: full/g scale
+function detectRegion(g, w, h, full, fullW, fs) {
+  const n = w * h, dy = new Float32Array(n), dx = new Float32Array(n);
+  for (let y = 1; y < h - 1; y++) for (let x = 1; x < w - 1; x++) {
+    const i = y * w + x, c = 2 * g[i];
+    dy[i] = Math.abs(g[i - w] + g[i + w] - c);
+    dx[i] = Math.abs(g[i - 1] + g[i + 1] - c);
+  }
+  const k = Math.max(4, Math.round(Math.max(w, h) / 110));
+  const ey = boxBlur(dy, w, h, k, k), ex = boxBlur(dx, w, h, k, k);
+  const score = new Float32Array(n);
+  for (let i = 0; i < n; i++) score[i] = ey[i] - ex[i];
+  const T = Math.max(5, 0.3 * percentile(score, 0.995));
+  let mask = new Float32Array(n);
+  for (let i = 0; i < n; i++) mask[i] = score[i] > T ? 1 : 0;
+  // morphological closing (dilate then erode) via box sums
+  const r = Math.max(2, Math.round(k / 2));
+  let m2 = boxBlur(mask, w, h, r, r);
+  for (let i = 0; i < n; i++) m2[i] = m2[i] > 0.001 ? 1 : 0;
+  m2 = boxBlur(m2, w, h, r, r);
+  for (let i = 0; i < n; i++) mask[i] = m2[i] > 0.999 ? 1 : 0;
+
+  // connected components, keep the one with the most stripe energy and a box-like shape
+  const lab = new Int32Array(n), stack = [], cands = [];
+  let id = 0;
+  for (let s = 0; s < n; s++) {
+    if (!mask[s] || lab[s]) continue;
+    id++; lab[s] = id; stack.push(s);
+    let x0 = w, y0 = h, x1 = 0, y1 = 0, area = 0, sum = 0;
+    while (stack.length) {
+      const i = stack.pop(), x = i % w, y = (i / w) | 0;
+      area++; sum += score[i];
+      if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y;
+      if (x > 0 && mask[i - 1] && !lab[i - 1]) { lab[i - 1] = id; stack.push(i - 1); }
+      if (x < w - 1 && mask[i + 1] && !lab[i + 1]) { lab[i + 1] = id; stack.push(i + 1); }
+      if (y > 0 && mask[i - w] && !lab[i - w]) { lab[i - w] = id; stack.push(i - w); }
+      if (y < h - 1 && mask[i + w] && !lab[i + w]) { lab[i + w] = id; stack.push(i + w); }
+    }
+    const bw = x1 - x0 + 1, bh = y1 - y0 + 1, asp = bw / bh;
+    if (area < 0.002 * n || asp < 1.3 || asp > 10 || area < 0.4 * bw * bh) continue;
+    cands.push({ x: x0, y: y0, w: bw, h: bh, val: sum * sum / area });
+  }
+  // the scrambled panel is many evenly spaced stripes; a toploader edge or a table rule is just a few.
+  // Check that at full resolution (stripes are only ~3px apart at detection scale).
+  cands.sort((a, b) => b.val - a.val);
+  let best = null;
+  for (const c0 of cands.slice(0, 6)) {
+    if (c0.w * c0.h > 0.55 * n) { best = best || { ...c0, full: true, score: 0 }; continue; }
+    const c = tighten(c0, score, w);
+    const fx = Math.floor(c.x * fs), fy = Math.floor(c.y * fs), fw = Math.floor(c.w * fs), fh = Math.floor(c.h * fs);
+    const sub = new Float32Array(fw * fh);
+    for (let y = 0; y < fh; y++) sub.set(full.subarray((fy + y) * fullW + fx, (fy + y) * fullW + fx + fw), y * fw);
+    const t = Math.tan(findTilt(sub, fw, fh) * Math.PI / 180);
+    const { P, strength } = findPeriod(rowProfile(sub, fw, fh, t, Math.floor(fw * 0.1), Math.ceil(fw * 0.9)));
+    if (fh / P < 5 || strength < 0.15) continue;
+    const s = c.val * strength;
+    if (!best || best.full || s > best.score) best = { ...c, score: s };
+  }
+  if (!best || best.full) return { x: 0, y: 0, w, h, auto: !best ? "none" : "full" };
+  // the blur radius k bleeds outward; pull edges back by roughly half of it
+  const p = Math.round(k * 0.5), bx = best.x, by = best.y, bw = best.w, bh = best.h;
+  return { x: bx + p, y: by + p, w: Math.max(10, bw - 2 * p), h: Math.max(10, bh - 2 * p), auto: "found" };
+}
+
+// ---------------------------------------------------------------------------
+// Step 2: decode the scrambled box
+//   - find the stripe tilt (projection profile search)
+//   - find the stripe period and, per vertical band, every bright mask line
+//   - drop the mask lines, re-fill from the data rows (normalised convolution)
+//   - flatten lighting and stretch contrast
+// ---------------------------------------------------------------------------
+function rowProfile(g, w, h, t, xs, xe) {
+  const prof = new Float32Array(h), cx = w / 2, step = Math.max(1, Math.floor((xe - xs) / 300));
+  for (let y = 0; y < h; y++) {
+    let s = 0, c = 0;
+    for (let x = xs; x < xe; x += step) {
+      const yy = y + (x - cx) * t;
+      if (yy < 0 || yy > h - 1) continue;
+      const y0 = Math.floor(yy), f = yy - y0, y1 = Math.min(h - 1, y0 + 1);
+      s += g[y0 * w + x] * (1 - f) + g[y1 * w + x] * f; c++;
+    }
+    prof[y] = c ? s / c : NaN;
+  }
+  return prof;
+}
+
+function profileSharpness(prof) {
+  let s = 0, c = 0;
+  for (let i = 1; i < prof.length; i++) {
+    const d = prof[i] - prof[i - 1];
+    if (!isNaN(d)) { s += d * d; c++; }
+  }
+  return c ? s / c : 0;
+}
+
+function findTilt(g, w, h) {
+  const xs = Math.floor(w * 0.08), xe = Math.ceil(w * 0.92);
+  const evalT = deg => profileSharpness(rowProfile(g, w, h, Math.tan(deg * Math.PI / 180), xs, xe));
+  let best = 0, bv = -1;
+  for (let a = -6; a <= 6.001; a += 0.25) { const v = evalT(a); if (v > bv) { bv = v; best = a; } }
+  const c = best;
+  for (let a = c - 0.25; a <= c + 0.25; a += 0.05) { const v = evalT(a); if (v > bv) { bv = v; best = a; } }
+  return best;
+}
+
+function shear(g, w, h, t) {
+  const out = new Float32Array(w * h), cx = w / 2;
+  for (let x = 0; x < w; x++) {
+    const off = (x - cx) * t;
+    for (let y = 0; y < h; y++) {
+      let yy = y + off;
+      yy = yy < 0 ? 0 : yy > h - 1 ? h - 1 : yy;
+      const y0 = Math.floor(yy), f = yy - y0, y1 = Math.min(h - 1, y0 + 1);
+      out[y * w + x] = g[y0 * w + x] * (1 - f) + g[y1 * w + x] * f;
+    }
+  }
+  return out;
+}
+
+function movingAvg(a, win) {
+  const n = a.length, out = new Float32Array(n), r = Math.max(1, Math.floor(win / 2));
+  for (let i = 0; i < n; i++) {
+    let s = 0, c = 0;
+    for (let k = Math.max(0, i - r); k <= Math.min(n - 1, i + r); k++) { s += a[k]; c++; }
+    out[i] = s / c;
+  }
+  return out;
+}
+
+function findPeriod(prof) {
+  const n = prof.length, base = movingAvg(prof, Math.min(61, Math.floor(n / 3) | 1));
+  const d = prof.map((v, i) => v - base[i]);
+  const maxLag = Math.min(60, Math.floor(n / 3));
+  const ac = new Float32Array(maxLag + 2);
+  for (let k = 0; k <= maxLag + 1; k++) {
+    let s = 0;
+    for (let i = 0; i + k < n; i++) s += d[i] * d[i + k];
+    ac[k] = s / (n - k);
+  }
+  let gmax = -Infinity;
+  for (let k = 2; k <= maxLag; k++) gmax = Math.max(gmax, ac[k]);
+  for (let k = 2; k <= maxLag; k++) {
+    if (ac[k] > ac[k - 1] && ac[k] >= ac[k + 1] && ac[k] > 0.6 * gmax) {
+      const a = ac[k - 1], b = ac[k], c = ac[k + 1], den = a - 2 * b + c;
+      return { P: k + (den ? 0.5 * (a - c) / den : 0), strength: ac[0] > 0 ? b / ac[0] : 0 };
+    }
+  }
+  return { P: 5, strength: 0 };
+}
+
+// Complex demodulation of a profile at period P: magnitude and phase of the stripe signal.
+function demod(prof, P, y0 = 0, y1 = prof.length) {
+  let re = 0, im = 0, c = 0;
+  for (let y = y0; y < y1; y++) {
+    const v = prof[y]; if (isNaN(v)) continue;
+    const a = 2 * Math.PI * y / P;
+    re += v * Math.cos(a); im -= v * Math.sin(a); c++;
+  }
+  return { mag: Math.hypot(re, im) / (c || 1), ph: Math.atan2(im, re) };
+}
+
+function detrend(prof, P) {
+  const base = movingAvg(prof, Math.max(3, Math.round(3 * P)));
+  return prof.map((v, i) => v - base[i]);
+}
+
+// Weight per row: 0 on the bright mask lines, 1 on the data rows between them.
+// Stripe centres sit where the phase of the fundamental is 0.
+function rowWeights(phase, P, n) {
+  const wts = new Float32Array(n);
+  for (let y = 0; y < n; y++) {
+    let f = (y / P + phase / (2 * Math.PI)) % 1; if (f < 0) f += 1;
+    const d = Math.min(f, 1 - f);              // 0 at a mask line, 0.5 between two
+    wts[y] = Math.min(1, Math.max(0, (d - 0.2) / 0.08));
+  }
+  return wts;
+}
+
+// pick: which pitch candidate to decode with (0 = strongest stripe signal)
+function decodeBox(g0, w0, h0, pick = 0) {
+  // keep the box at a sensible resolution
+  let g = g0, w = w0, h = h0;
+  const sc = Math.min(1, 900 / w0);
+  if (sc < 1) { w = Math.round(w0 * sc); h = Math.round(h0 * sc); g = resize(g0, w0, h0, w, h); }
+
+  const angle = findTilt(g, w, h);
+  const t = Math.tan(angle * Math.PI / 180);
+  const R = shear(g, w, h, t);
+  const prof = rowProfile(R, w, h, 0, Math.floor(w * 0.1), Math.ceil(w * 0.9));
+  let { P, strength } = findPeriod(prof);
+  // Text can hide the stripes in the middle of a strip (SAMPLE cards), and a little residual tilt
+  // smears them in a full-width profile. Score each pitch by the stripe energy of narrow column
+  // bands summed separately, which is insensitive to tilt, so the edges alone can carry it.
+  const bandProfs = n => Array.from({ length: n }, (_, b) => rowProfile(R, w, h, 0, Math.floor(b * w / n), Math.floor((b + 1) * w / n)));
+  const bandEnergy = (profs, p) => profs.reduce((s, bp) => s + demod(detrend(bp, p), p).mag ** 2, 0);
+  const coarse = bandProfs(Math.max(2, Math.min(12, Math.round(w / 40))));
+  // Text and print texture add peaks of their own, so keep the strongest few as candidates.
+  const ps = [], es = [];
+  for (let p = 3; p <= Math.min(40, h / 3); p *= 1.01) { ps.push(p); es.push(bandEnergy(coarse, p)); }
+  const cands = [];
+  for (let i = 0; i < ps.length; i++) if ((i === 0 || es[i] >= es[i - 1]) && (i === ps.length - 1 || es[i] >= es[i + 1])) cands.push(i);
+  cands.sort((a, b) => es[b] - es[a]);
+  const peaks = [];
+  for (const i of cands) if (peaks.length < 3 && peaks.every(q => Math.abs(ps[i] / q - 1) > 0.08)) peaks.push(ps[i]);
+  if (peaks.length) P = peaks[Math.min(pick, peaks.length - 1)];
+  // refine the period: the true pitch gives the strongest demodulated signal
+  let P0 = P, bestE = -1;
+  for (let p = P0 * 0.97; p <= P0 * 1.03; p += P0 * 0.001) {
+    const e = bandEnergy(coarse, p); if (e > bestE) { bestE = e; P = p; }
+  }
+
+  // per-band phase copes with residual tilt / slight perspective
+  const nb = Math.max(1, Math.min(12, Math.round(w / (10 * P))));
+  const phases = [], mags = [];
+  bandProfs(nb).forEach(bp => { const d = demod(detrend(bp, P), P); phases.push(d.ph); mags.push(d.mag); });
+  // unwrap from the strongest band outwards so weak bands don't flip the chain
+  const sb = mags.reduce((a, m, b) => m > mags[a] ? b : a, 0);
+  for (const dir of [1, -1]) for (let b = sb + dir; b >= 0 && b < nb; b += dir) {
+    while (phases[b] - phases[b - dir] > Math.PI) phases[b] -= 2 * Math.PI;
+    while (phases[b] - phases[b - dir] < -Math.PI) phases[b] += 2 * Math.PI;
+  }
+  // weak bands lean on a magnitude-weighted straight-line fit of the phase across the width
+  if (nb > 2) {
+    let sw = 0, sx = 0, sy = 0, sxx = 0, sxy = 0;
+    mags.forEach((m, b) => { const q = m * m; sw += q; sx += q * b; sy += q * phases[b]; sxx += q * b * b; sxy += q * b * phases[b]; });
+    const den = sw * sxx - sx * sx;
+    if (den > 1e-9) {
+      const slope = (sw * sxy - sx * sy) / den, icpt = (sy - slope * sx) / sw;
+      const med = [...mags].sort((a, b) => a - b)[nb >> 1];
+      for (let b = 0; b < nb; b++) {
+        const fit = icpt + slope * b;
+        let ph = phases[b];
+        while (ph - fit > Math.PI) ph -= 2 * Math.PI;
+        while (ph - fit < -Math.PI) ph += 2 * Math.PI;
+        phases[b] = (mags[b] * ph + med * fit) / (mags[b] + med);
+      }
+    }
+  }
+  const W = new Float32Array(w * h), N = new Float32Array(w * h);
+  for (let x = 0; x < w; x++) {
+    const fb = Math.min(nb - 1, Math.max(0, (x + 0.5) / (w / nb) - 0.5));
+    const b0 = Math.floor(fb), b1 = Math.min(nb - 1, b0 + 1), f = fb - b0;
+    const col = rowWeights(phases[b0] * (1 - f) + phases[b1] * f, P, h);
+    for (let y = 0; y < h; y++) {
+      const i = y * w + x;
+      W[i] = col[y]; N[i] = col[y] * R[i];
+    }
+  }
+  // fill the mask rows vertically; only a light horizontal blur so small lettering stays sharp
+  const Nb = gauss(N, w, h, 0.2 * P, 0.6 * P), Wb = gauss(W, w, h, 0.2 * P, 0.6 * P);
+  const rec = new Float32Array(w * h);
+  for (let i = 0; i < w * h; i++) rec[i] = Nb[i] / (Wb[i] + 1e-4);
+  const bg = gauss(rec, w, h, 6 * P, 6 * P);
+  for (let i = 0; i < w * h; i++) rec[i] -= bg[i];
+  const lo = percentile(rec, 0.01), hi = percentile(rec, 0.995);
+  const E = new Float32Array(w * h);
+  for (let i = 0; i < w * h; i++) E[i] = Math.min(1, Math.max(0, (rec[i] - lo) / (hi - lo || 1)));
+  return { E, w, h, angle, P: P / sc, strength, nPitch: peaks.length };
+}
+
+// ---------------------------------------------------------------------------
+// Step 3: read the message by matching rendered templates (normalised cross-correlation)
+// ---------------------------------------------------------------------------
+let TEMPLATES = null;
+function buildTemplates() {
+  const c = document.createElement("canvas"), x = c.getContext("2d", { willReadFrequently: true });
+  // each message in its regular two-line layout and the one-line layout used on SAMPLE strips
+  return MESSAGES.flatMap(m => [m.lines, [m.lines.join(" ")]].map(lines => {
+    const F = 60, lh = F * 1.08;
+    c.width = 1100; c.height = Math.ceil(lh * lines.length + F);
+    x.fillStyle = "#000"; x.fillRect(0, 0, c.width, c.height);
+    x.fillStyle = "#fff"; x.textAlign = "center"; x.textBaseline = "top";
+    x.font = `900 ${F}px "Arial Black", "Arial Bold", Impact, sans-serif`;
+    lines.forEach((s, i) => x.fillText(s, c.width / 2, F * 0.3 + i * lh));
+    const d = x.getImageData(0, 0, c.width, c.height).data;
+    let x0 = c.width, y0 = c.height, x1 = 0, y1 = 0;
+    for (let y = 0; y < c.height; y++) for (let xx = 0; xx < c.width; xx++) if (d[(y * c.width + xx) * 4] > 60) {
+      if (xx < x0) x0 = xx; if (xx > x1) x1 = xx; if (y < y0) y0 = y; if (y > y1) y1 = y;
+    }
+    const tw = x1 - x0 + 1, th = y1 - y0 + 1, t = new Float32Array(tw * th);
+    for (let y = 0; y < th; y++) for (let xx = 0; xx < tw; xx++) t[y * tw + xx] = d[((y + y0) * c.width + xx + x0) * 4] / 255;
+    return { msg: m, oneLine: lines.length === 1, t, tw, th };
+  }));
+}
+
+function ncc(D, dw, dh, T, tw, th) {
+  // zero-mean template
+  const n = tw * th;
+  let m = 0; for (let i = 0; i < n; i++) m += T[i]; m /= n;
+  const Tz = new Float32Array(n); let tn = 0;
+  for (let i = 0; i < n; i++) { Tz[i] = T[i] - m; tn += Tz[i] * Tz[i]; }
+  tn = Math.sqrt(tn);
+  // integral images of D and D^2
+  const W = dw + 1, I = new Float64Array(W * (dh + 1)), I2 = new Float64Array(W * (dh + 1));
+  for (let y = 0; y < dh; y++) for (let x = 0; x < dw; x++) {
+    const v = D[y * dw + x], k = (y + 1) * W + x + 1;
+    I[k] = v + I[k - 1] + I[k - W] - I[k - W - 1];
+    I2[k] = v * v + I2[k - 1] + I2[k - W] - I2[k - W - 1];
+  }
+  let best = -1, bx = 0, by = 0;
+  for (let oy = 0; oy + th <= dh; oy++) for (let ox = 0; ox + tw <= dw; ox++) {
+    const a = oy * W + ox, b = a + tw, c = a + th * W, d = c + tw;
+    const s = I[d] - I[b] - I[c] + I[a], s2 = I2[d] - I2[b] - I2[c] + I2[a];
+    const dn = Math.sqrt(Math.max(1e-9, s2 - s * s / n));
+    let dot = 0;
+    for (let y = 0; y < th; y++) {
+      const ro = (oy + y) * dw + ox, to = y * tw;
+      for (let x = 0; x < tw; x++) dot += Tz[to + x] * D[ro + x];
+    }
+    const v = dot / (tn * dn);
+    if (v > best) { best = v; bx = ox; by = oy; }
+  }
+  return { v: best, x: bx, y: by };
+}
+
+function classify(E, w, h) {
+  TEMPLATES = TEMPLATES || buildTemplates();
+  const dh = 40, dw = Math.max(20, Math.round(w * dh / h));
+  const D = gauss(resize(E, w, h, dw, dh), dw, dh, 0.6, 0.6);
+  // a thin SAMPLE strip (~6:1) only fits the one-line layout, the regular panel (~3:1) the two-line one
+  const ar = w / h;
+  const all = TEMPLATES.filter(tp => tp.oneLine ? ar > 4.2 : ar < 5).map(tp => {
+    let best = { v: -1 };
+    for (let th = Math.round(dh * (tp.oneLine ? 0.25 : 0.4)); th <= dh - 2; th += 2) {
+      for (const sx of tp.oneLine ? [0.6, 0.7, 0.8, 0.92, 1.05] : [0.75, 0.88, 1, 1.15, 1.3]) {
+        const tw = Math.round(tp.tw * th / tp.th * sx);
+        if (tw > dw - 2 || tw < 8) continue;
+        const T = gauss(resize(tp.t, tp.tw, tp.th, tw, th), tw, th, 0.8, 0.8);
+        const r = ncc(D, dw, dh, T, tw, th);
+        if (r.v > best.v) best = { ...r, tw, th };
+      }
+    }
+    return { msg: tp.msg, oneLine: tp.oneLine, ...best };
+  });
+  // best layout per message, then rank the messages
+  const results = MESSAGES.map(m => all.filter(r => r.msg === m).reduce((p, q) => q.v > p.v ? q : p))
+    .sort((a, b) => b.v - a.v);
+
+  const [a, b] = results;
+  // margin between the two best hypotheses -> probability; absolute match quality caps it
+  const pWin = 1 / (1 + Math.exp(-(a.v - b.v) / 0.04));
+  const quality = Math.min(1, Math.max(0, (a.v - 0.2) / 0.45));
+  const conf = pWin * (0.35 + 0.65 * quality);
+  return { best: a, runner: b, conf, scale: { sx: w / dw, sy: h / dh } };
+}
+
+// ---------------------------------------------------------------------------
+// UI
+// ---------------------------------------------------------------------------
+const $ = id => document.getElementById(id);
+const srcC = $("srcCanvas"), outC = $("outCanvas"), zoomC = $("zoom");
+const HINT0 = $("srcHint").innerHTML;
+let state = null, view = "gray";
+
+const COPY_TIP = "Tip: right-click the image on the website → “Copy image”, then press Ctrl+V here (or click Paste image). That works on any site.";
+
+function loadFile(file) {
+  // files dragged out of some sites arrive without a MIME type, so only reject known non-images
+  if (!file || (file.type && !file.type.startsWith("image/"))) return false;
+  const url = URL.createObjectURL(file), img = new Image();
+  img.onload = () => { URL.revokeObjectURL(url); setImage(img); };
+  img.onerror = () => { URL.revokeObjectURL(url); showError("That file isn't an image the browser can read. " + COPY_TIP); };
+  img.src = url;
+  return true;
+}
+
+// Result banner: kind is win | lose | unk | idle
+function banner(kind, icon, msg, detail, pct) {
+  $("result").className = kind; $("ico").textContent = icon;
+  $("msg").textContent = msg; $("msg").className = kind === "idle" ? "lose" : kind;
+  $("detail").textContent = detail;
+  $("confBox").hidden = pct == null;
+  if (pct != null) { $("confPct").textContent = pct + "%"; $("confBar").style.width = pct + "%"; }
+}
+
+function showError(text) {
+  banner("unk", "!", "Could not load image", text);
+}
+
+// Images from other sites can only be read if the site allows it (CORS).
+// Try a CORS image load first, then fetch() as a blob; no third-party proxy is used.
+function loadUrl(url) {
+  url = (url || "").trim();
+  if (!/^(https?:|data:image\/)/i.test(url)) { showError("That doesn't look like an image URL (it should start with http:// or https://)."); return; }
+  $("url").value = url.startsWith("data:") ? "" : url;
+  banner("idle", "…", "Loading…", url.slice(0, 120));
+  const img = new Image();
+  img.crossOrigin = "anonymous";
+  img.onload = () => setImage(img);
+  img.onerror = () => fetch(url, { mode: "cors" })
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.blob(); })
+    .then(b => loadFile(new File([b], "image", { type: b.type || "image/jpeg" })))
+    .catch(() => showError("This site doesn't let other pages read its images by URL. " + COPY_TIP));
+  img.src = url;
+}
+
+function setImage(img) {
+  const s = Math.min(1, WORK_MAX / Math.max(img.naturalWidth, img.naturalHeight));
+  const w = Math.round(img.naturalWidth * s), h = Math.round(img.naturalHeight * s);
+  const c = document.createElement("canvas"); c.width = w; c.height = h;
+  const x = c.getContext("2d", { willReadFrequently: true });
+  x.drawImage(img, 0, 0, w, h);
+  const rgba = x.getImageData(0, 0, w, h);
+  state = { canvas: c, rgba, w, h, gray: toGray(rgba.data, w * h) };
+  $("drop").classList.add("has"); $("dropText").hidden = true; srcC.hidden = false;
+  $("srcHint").innerHTML = "Wrong area? <b>Drag a box</b> over the scrambled panel to decode exactly that part. Double-click to load another image.";
+  $("outEmpty").hidden = true; outC.hidden = false;
+  document.body.classList.add("loaded");
+  autoDetect();
+}
+
+function autoDetect() {
+  const { gray, w, h } = state;
+  const s = Math.min(1, DETECT_MAX / Math.max(w, h));
+  const dw = Math.round(w * s), dh = Math.round(h * s);
+  const k = w / dw;
+  const r = detectRegion(s < 1 ? resize(gray, w, h, dw, dh) : gray, dw, dh, gray, w, k);
+  // small inset so the frame around the box doesn't count as stripes
+  const box = { x: Math.round(r.x * k), y: Math.round(r.y * k), w: Math.round(r.w * k), h: Math.round(r.h * k) };
+  state.detectMode = r.auto;
+  $("reset").hidden = true;
+  run(box);
+}
+
+function run(box) {
+  state.box = box;
+  const { gray, w } = state, crop = new Float32Array(box.w * box.h);
+  for (let y = 0; y < box.h; y++) crop.set(gray.subarray((box.y + y) * w + box.x, (box.y + y) * w + box.x + box.w), y * box.w);
+  const t0 = performance.now();
+  // the right line pitch is the one that turns the panel into legible text
+  let dec = decodeBox(crop, box.w, box.h), cls = classify(dec.E, dec.w, dec.h);
+  for (let k = 1; k < dec.nPitch; k++) {
+    const d = decodeBox(crop, box.w, box.h, k), c = classify(d.E, d.w, d.h);
+    if (c.best.v > cls.best.v) { dec = d; cls = c; }
+  }
+  state.dec = dec; state.cls = cls;
+  state.ms = Math.round(performance.now() - t0);
+  render();
+}
+
+function otsu(E) {
+  const hist = new Array(64).fill(0);
+  for (const v of E) hist[Math.min(63, (v * 64) | 0)]++;
+  let sum = 0; hist.forEach((c, i) => sum += i * c);
+  let wB = 0, sB = 0, best = 0, th = 32;
+  for (let i = 0; i < 64; i++) {
+    wB += hist[i]; if (!wB) continue;
+    const wF = E.length - wB; if (!wF) break;
+    sB += i * hist[i];
+    const mB = sB / wB, mF = (sum - sB) / wF, v = wB * wF * (mB - mF) ** 2;
+    if (v > best) { best = v; th = i; }
+  }
+  return (th + 0.5) / 64;
+}
+
+function decodedCanvas() {
+  const { E, w, h } = state.dec, c = document.createElement("canvas");
+  c.width = w; c.height = h;
+  const x = c.getContext("2d"), id = x.createImageData(w, h);
+  let src = E;
+  if (view === "bw") { const s = gauss(E, w, h, 0.8, 0.8), t = otsu(s); src = s.map(v => (v > t ? 1 : 0)); }
+  for (let i = 0; i < w * h; i++) {
+    const v = src[i];
+    // warm gold-on-black tint, like looking through the decoder
+    id.data[i * 4] = 20 + v * 235; id.data[i * 4 + 1] = 14 + v * 210; id.data[i * 4 + 2] = 8 + v * 150; id.data[i * 4 + 3] = 255;
+  }
+  x.putImageData(id, 0, 0);
+  return c;
+}
+
+function render() {
+  const { canvas, w, h, box, dec, cls } = state;
+  // left: original + detected box
+  srcC.width = w; srcC.height = h;
+  const sx = srcC.getContext("2d");
+  sx.drawImage(canvas, 0, 0);
+  sx.lineWidth = Math.max(2, w / 300); sx.strokeStyle = "#e0a42a";
+  sx.setLineDash([sx.lineWidth * 4, sx.lineWidth * 2]);
+  sx.strokeRect(box.x, box.y, box.w, box.h);
+  sx.setLineDash([]);
+  // right: same image with the box replaced by the decoded message
+  const dc = decodedCanvas();
+  outC.width = w; outC.height = h;
+  const ox = outC.getContext("2d");
+  ox.drawImage(canvas, 0, 0);
+  ox.imageSmoothingQuality = "high";
+  ox.drawImage(dc, box.x, box.y, box.w, box.h);
+  // zoom of the decoded box (only useful when the box is a small part of the photo)
+  const small = box.w * box.h < 0.5 * w * h;
+  zoomC.hidden = $("zlabel").hidden = !small;
+  if (small) {
+    zoomC.width = Math.max(600, dc.width); zoomC.height = Math.round(zoomC.width * box.h / box.w);
+    const zx = zoomC.getContext("2d"); zx.imageSmoothingQuality = "high";
+    zx.drawImage(dc, 0, 0, zoomC.width, zoomC.height);
+  }
+  // result banner
+  const pct = Math.round(cls.conf * 100), m = cls.best.msg;
+  const readable = cls.best.v > 0.3 && pct >= 40;
+  const how = state.detectMode === "manual" ? "manual selection" : state.detectMode === "found" ? "box auto-detected" : "whole image used";
+  const tech = `${how} · tilt ${(dec.angle + 0).toFixed(2).replace(/^-(0.00)$/, "$1")}° · line pitch ${dec.P.toFixed(1)}px · ${state.ms} ms`;
+  const shaky = pct < 75 ? "Not fully sure; check the decoded image by eye. " : "";
+  // Promo SAMPLE cards carry a thin strip (~6:1) with the message on one line instead of the regular ~3:1 two-line panel.
+  const aspect = state.box.w / state.box.h;
+  if (aspect > 4.5 && cls.best.oneLine) {
+    if (!readable) banner("sample", "S", "SAMPLE CARD — UNREADABLE", `Thin one-line strip (${aspect.toFixed(1)}:1) of a promotional SAMPLE card, but the text couldn't be matched (${tech}). Check the decoded strip by eye.`, pct);
+    else banner("sample", "S", `SAMPLE: ${m.label}`, `${shaky}Promotional SAMPLE card: the thin strip (${aspect.toFixed(1)}:1) holds the message on one line. Match ${cls.best.v.toFixed(2)} vs ${cls.runner.v.toFixed(2)} · ${tech}`, pct);
+    return;
+  }
+  if (!readable) banner("unk", "?", "Unreadable", `Couldn't match a known message (${tech}). Try a sharper, straighter photo or drag a box over the scrambled panel.`, pct);
+  else if (m.win) banner("win", "★", m.label, `${shaky}Winner! This is the prize message. Match ${cls.best.v.toFixed(2)} vs ${cls.runner.v.toFixed(2)} · ${tech}`, pct);
+  else banner("lose", "✕", m.label, `${shaky}Not a winner. Match ${cls.best.v.toFixed(2)} vs ${cls.runner.v.toFixed(2)} for ${cls.runner.msg.label} · ${tech}`, pct);
+}
+
+// --- input wiring ---
+const drop = $("drop"), file = $("file");
+drop.addEventListener("click", () => { if (!state) file.click(); });
+file.addEventListener("change", () => loadFile(file.files[0]));
+["dragenter", "dragover"].forEach(e => document.addEventListener(e, ev => { ev.preventDefault(); drop.classList.add("over"); }));
+["dragleave", "drop"].forEach(e => document.addEventListener(e, ev => { ev.preventDefault(); drop.classList.remove("over"); }));
+// The image URL inside dragged/copied HTML. Prefers the largest srcset entry, skips placeholder data: GIFs.
+function imgUrlFromHtml(html) {
+  if (!html) return "";
+  const doc = new DOMParser().parseFromString(html, "text/html"), img = doc.querySelector("img");
+  if (!img) return "";
+  const set = (img.getAttribute("srcset") || "").split(",").map(s => s.trim().split(/\s+/)[0]).filter(Boolean);
+  const cands = [set[set.length - 1], img.getAttribute("data-zoom-src"), img.getAttribute("data-src"), img.getAttribute("src")];
+  return cands.find(u => u && !/^data:image\/gif/i.test(u)) || "";
+}
+
+document.addEventListener("drop", ev => {
+  const dt = ev.dataTransfer;
+  if (dt.files.length && loadFile(dt.files[0])) return;
+  // an image dragged from another web page arrives as HTML (<img src>) and/or a URL
+  const uri = (dt.getData("text/uri-list") || dt.getData("text/plain")).split(/\r?\n/).find(l => l && !l.startsWith("#")) || "";
+  const url = imgUrlFromHtml(dt.getData("text/html")) || uri;
+  if (url) loadUrl(url);
+  else showError("Nothing usable was dropped. " + COPY_TIP);
+});
+document.addEventListener("paste", ev => {
+  if (ev.target === $("url")) return;
+  const it = [...ev.clipboardData.items].find(i => i.type.startsWith("image/"));
+  if (it) return loadFile(it.getAsFile());
+  const url = imgUrlFromHtml(ev.clipboardData.getData("text/html")) || ev.clipboardData.getData("text").trim();
+  if (/^(https?:|data:image\/)/i.test(url)) loadUrl(url);
+});
+// Paste button: reads the clipboard directly (browser asks for permission the first time)
+// Clear: back to the empty starting state
+$("clearBtn").addEventListener("click", () => {
+  state = null; file.value = ""; $("url").value = "";
+  $("drop").classList.remove("has"); $("dropText").hidden = false; srcC.hidden = true;
+  outC.hidden = zoomC.hidden = $("zlabel").hidden = true; $("outEmpty").hidden = false;
+  $("srcHint").innerHTML = HINT0; $("reset").hidden = true;
+  document.body.classList.remove("loaded");
+  banner("idle", "?", "Waiting for a card…", "Load an image of a Golden Blades card back to begin.");
+  if (location.search) history.replaceState(null, "", location.pathname);
+});
+$("pasteBtn").addEventListener("click", async () => {
+  try {
+    for (const item of await navigator.clipboard.read()) {
+      const type = item.types.find(t => t.startsWith("image/"));
+      if (type) return loadFile(new File([await item.getType(type)], "pasted", { type }));
+      if (item.types.includes("text/plain")) {
+        const text = (await (await item.getType("text/plain")).text()).trim();
+        if (/^https?:\/\//i.test(text)) return loadUrl(text);
+      }
+    }
+    showError("No image on the clipboard. Right-click the image on the website → “Copy image”, then try again.");
+  } catch (e) {
+    showError("The browser blocked clipboard access from the button. Press Ctrl+V on this page instead.");
+  }
+});
+$("urlForm").addEventListener("submit", ev => { ev.preventDefault(); loadUrl($("url").value); });
+document.querySelectorAll("#presets button").forEach(b =>
+  b.addEventListener("click", () => loadUrl(new URL(b.dataset.img, location.href).href)));
+// shareable links: index.html?img=https://...
+const qImg = new URLSearchParams(location.search).get("img");
+if (qImg) loadUrl(qImg);
+$("reset").addEventListener("click", ev => { ev.stopPropagation(); autoDetect(); });
+document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll(".seg button").forEach(o => o.classList.toggle("on", o === b));
+  view = b.dataset.v; if (state) render();
+}));
+
+// manual box selection on the source image (double-click = load a different image)
+let drag = null;
+const toImg = ev => {
+  const r = srcC.getBoundingClientRect();
+  return { x: Math.round((ev.clientX - r.left) * state.w / r.width), y: Math.round((ev.clientY - r.top) * state.h / r.height) };
+};
+srcC.addEventListener("pointerdown", ev => { drag = toImg(ev); srcC.setPointerCapture(ev.pointerId); });
+srcC.addEventListener("pointermove", ev => {
+  if (!drag) return;
+  const p = toImg(ev), sx = srcC.getContext("2d");
+  sx.drawImage(state.canvas, 0, 0);
+  sx.strokeStyle = "#e0a42a"; sx.lineWidth = Math.max(2, state.w / 300);
+  sx.strokeRect(drag.x, drag.y, p.x - drag.x, p.y - drag.y);
+});
+srcC.addEventListener("pointerup", ev => {
+  if (!drag) return;
+  const p = toImg(ev), a = drag; drag = null;
+  const x = Math.max(0, Math.min(a.x, p.x)), y = Math.max(0, Math.min(a.y, p.y));
+  const bw = Math.min(state.w, Math.max(a.x, p.x)) - x, bh = Math.min(state.h, Math.max(a.y, p.y)) - y;
+  if (bw < 30 || bh < 15) { render(); return; }
+  state.detectMode = "manual"; $("reset").hidden = false;
+  run({ x, y, w: bw, h: bh });
+});
+srcC.addEventListener("dblclick", () => file.click());
+
+// hook for testing from the console: decodeUrl("input1.png")
+window.decodeUrl = url => new Promise(res => {
+  const img = new Image();
+  img.onload = () => { setImage(img); res({ msg: state.cls.best.msg.label, conf: state.cls.conf, scores: [state.cls.best.v, state.cls.runner.v], box: state.box, mode: state.detectMode, angle: state.dec.angle, P: state.dec.P }); };
+  img.src = url;
+});
+</script>
+</body>
+</html>

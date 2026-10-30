@@ -1419,8 +1419,8 @@
               "image_back": "img/cards/ML66/2000-01-Topps-Stars---Progression-P1-Mario-Lemieux--Mike-Modano--Vincent-LecavalierBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false,
-              "price": 0.99
+              "inCollection": true,
+              "price": 1.79
             },
             {
               "id": "ml-2000-01-topps-stars-progression-p2",
@@ -1431,7 +1431,8 @@
               "image_back": "img/cards/ML66/2000-01-Topps-Stars---Progression-P2-Mario-Lemieux--Peter-Forsberg--Patrik-StefanBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 0.99
             },
             {
               "id": "ml-2000-01-topps-stars-progression-p3",
@@ -1442,7 +1443,8 @@
               "image_back": "img/cards/ML66/2000-01-Topps-Stars---Progression-P3-Mario-Lemieux--Steve-Yzerman--Scott-GomezBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 3.59
             }
           ]
         }
@@ -3313,7 +3315,8 @@
               "image_back": "img/cards/ML66/2001-02-Topps-Chrome---Mario-Returns-MR3-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50204/cid/1712806/2001-02-Topps-Chrome-MR3-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.99
             },
             {
               "id": "ml-2001-02-topps-chrome-mario-returns-mr4",
