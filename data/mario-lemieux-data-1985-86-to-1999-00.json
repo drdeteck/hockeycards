@@ -9782,11 +9782,12 @@
               "base_number": "6",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
+              "image_front": "img/cards/ML66/1996-97-Score---Golden-Blades-Winners-Redeemed-6-Mario-LemieuxFr.jpg",
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48601/cid/4518034/1996-97-Score-Golden-Blades-Winners-Redeemed-6-Mario-Lemieux-?PageIndex=1",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "is_image_placeholder": true
             }
           ]
         },
