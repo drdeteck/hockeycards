@@ -4859,7 +4859,7 @@
               "image_back": "img/cards/ML66/1994-95-Stadium-Club---Stanley-Cup-60-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48510/cid/1594554/1994-95-Stadium-Club-60-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": true,
+              "inCollection": false,
               "price": 5
             }
           ]
@@ -5939,7 +5939,8 @@
           "image_back": "img/cards/ML66/1995-96-Finest-190-Mario-LemieuxBk.jpg",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5140/cid/1219215/1995-96-Finest-190-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": false,
+          "price": 60
         }
       ],
       "subsets": [
@@ -6514,7 +6515,8 @@
               "image_back": "img/cards/ML66/1995-96-Pinnacle---Rink-Collection-Artists-Proofs-192-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5168/cid/1166617/1995-96-Pinnacle-192-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "price": 170
             }
           ]
         }
@@ -6912,7 +6914,8 @@
               "image_back": "img/cards/ML66/1995-96-SkyBox-Impact---Countdown-to-Impact-3-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5182/cid/1599373/1995-96-SkyBox-Impact-3-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "price": 30
             }
           ]
         }
@@ -6976,7 +6979,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "inCollection": false,
-              "price": 50.01
+              "price": 30
             }
           ]
         }
@@ -7021,7 +7024,8 @@
               "team": "Pittsburgh Penguins",
               "default_face": "back",
               "variant_note": "Wayne Gretzky vs Mario Lemieux",
-              "inCollection": false
+              "inCollection": false,
+              "price": 110
             }
           ]
         },
@@ -7201,7 +7205,8 @@
               "image_back": "img/cards/ML66/1995-96-Topps---Home-Grown-Canada-HGC30-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5205/cid/1600110/1995-96-Topps-HGC30-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "price": 92.50
             }
           ]
         }
@@ -7917,8 +7922,9 @@
               "image_back": "img/cards/ML66/1996-97-Donruss---Dominators-4-Mario-Lemieux--Jaromir-Jagr--Ron-FrancisBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false,
-              "serial_total": 5000
+              "inCollection": true,
+              "serial_total": 5000,
+              "price": 25
             }
           ]
         },
@@ -8307,7 +8313,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/411533/cid/1603170/1996-97-Donruss-Canadian-Ice-NNO-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "excludeFromBinder": true,
-              "inCollection": false
+              "inCollection": false,
+              "price": 150
             }
           ]
         }
@@ -8685,7 +8692,8 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5275/cid/1603798/1996-97-Fleer-NHL-Picks-3-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "price": 60
             }
           ]
         }
@@ -8839,7 +8847,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5292/cid/1604371/1996-97-Leaf-Limited-7-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "inCollection": false,
-              "serial_total": 1500
+              "serial_total": 1500,
+              "price": 100
             }
           ]
         },
@@ -8945,7 +8954,8 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48576/cid/1604705/1996-97-Leaf-Preferred-6-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "price": 50
             }
           ]
         }
@@ -8991,7 +9001,7 @@
               "name": "Mario Lemieux",
               "team": "Pittsburgh Penguins",
               "inCollection": false,
-              "price": 75.01
+              "price": 30
             }
           ]
         },
@@ -9181,7 +9191,8 @@
               "image_back": "img/cards/ML66/1996-97-Pinnacle---Trophies-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5318/cid/1605912/1996-97-Pinnacle-1-Hart-Memorial-Trophy-/-Art-Ross-Trophy-/-Lester-B.-Pearson-Award-(Mario-Lemieux)",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "price": 80
             }
           ]
         }
@@ -9635,7 +9646,9 @@
               "image_front": "img/cards/ML66/1996-97-SP---Clearcut-Winner-CW3-Mario-LemieuxFr.png",
               "image_back": "img/cards/ML66/1996-97-SP---Clearcut-Winner-CW3-Mario-LemieuxBk.png",
               "tcdb_href": "",
-              "team": "Pittsburgh Penguins"
+              "team": "Pittsburgh Penguins",
+              "inCollection": false,
+              "price": 90
             }
           ]
         }
@@ -9787,7 +9800,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48601/cid/4518034/1996-97-Score-Golden-Blades-Winners-Redeemed-6-Mario-Lemieux-?PageIndex=1",
               "team": "Pittsburgh Penguins",
               "inCollection": false,
-              "is_image_placeholder": true
+              "is_image_placeholder": true,
+              "price": 56.55
             }
           ]
         },
@@ -9828,7 +9842,8 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48598/cid/1606517/1996-97-Score-6-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "price": 200
             }
           ]
         },
@@ -9932,7 +9947,8 @@
               "image_back": "img/cards/ML66/1996-97-Select-Certified---Certified-Blue-10-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48604/cid/1607524/1996-97-Select-Certified-10-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "price": 80
             }
           ],
           "set_type": "parallel"
@@ -9952,7 +9968,8 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48603/cid/1607404/1996-97-Select-Certified-10-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "price": 181
             }
           ],
           "set_type": "parallel"
@@ -10527,7 +10544,8 @@
           "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments-1-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1
         },
         {
           "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-2",
@@ -10538,7 +10556,8 @@
           "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments-2-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1
         },
         {
           "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-3",
@@ -10549,7 +10568,8 @@
           "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments-3-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1
         },
         {
           "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-4",
@@ -10560,7 +10580,8 @@
           "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments-4-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1
         },
         {
           "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-5",
@@ -10571,7 +10592,8 @@
           "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments-5-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1
         },
         {
           "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-6",
@@ -10582,7 +10604,8 @@
           "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments-6-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1
         },
         {
           "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-7",
@@ -10593,7 +10616,8 @@
           "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments-7-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1
         },
         {
           "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-8",
@@ -10604,7 +10628,8 @@
           "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments-8-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1
         },
         {
           "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-9",
@@ -10615,7 +10640,8 @@
           "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments-9-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1
         },
         {
           "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-10",
@@ -10626,7 +10652,8 @@
           "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments-10-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1
         },
         {
           "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-11",
@@ -10637,7 +10664,8 @@
           "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments-11-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1
         },
         {
           "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-12",
@@ -10648,7 +10676,8 @@
           "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments-12-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1
         },
         {
           "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-13",
@@ -10659,7 +10688,8 @@
           "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments-13-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1
         },
         {
           "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-14",
@@ -10670,7 +10700,8 @@
           "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments-14-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1
         },
         {
           "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-15",
@@ -10681,7 +10712,8 @@
           "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments-15-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1
         },
         {
           "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-16",
@@ -10692,7 +10724,8 @@
           "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments-16-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1
         },
         {
           "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-17",
@@ -10703,7 +10736,8 @@
           "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments-17-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1
         },
         {
           "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-18",
@@ -10714,7 +10748,8 @@
           "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments-18-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 1
         }
       ],
       "subsets": [

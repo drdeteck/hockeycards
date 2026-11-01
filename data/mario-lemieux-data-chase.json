@@ -434,7 +434,8 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48605/cid/1607674/1996-97-Select-Certified-10-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "price": 1400
             }
           ]
         },
@@ -454,7 +455,7 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48606/cid/1607794/1996-97-Select-Certified-10-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "inCollection": false,
-              "price": 108.0
+              "price": 2100
             }
           ]
         },
@@ -473,7 +474,8 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48607/cid/1607914/1996-97-Select-Certified-10-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "price": 1800
             }
           ]
         }
@@ -504,7 +506,8 @@
               "image_back": "img/cards/ML66/Chase/1996-97-Upper-Deck-Ice---Stanley-Cup-Foundation-Dynasty-S7-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48627/cid/1610092/1996-97-Upper-Deck-Ice-S7-Mario-Lemieux-/-Jaromir-Jagr",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "price": 250
             }
           ]
         }
@@ -585,7 +588,8 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48625/cid/1609793/1996-97-Upper-Deck-LS3-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "price": 1700
             }
           ]
         }
