@@ -188,6 +188,26 @@
               "price": 8.00
             }
           ]
+        },
+        {
+          "set_key": "2011-12-o-pee-chee-rainbow",
+          "set_name": "Rainbow",
+          "set_display_name": "2011-12 O-Pee-Chee - Rainbow",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2011-12-o-pee-chee-rainbow-507",
+              "base_number": "507",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/59457/cid/3220672/2011-12-O-Pee-Chee-Rainbow-507-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "inCollection": true,
+              "price": 8.00
+            }
+          ]
         }
       ]
     },
@@ -2007,6 +2027,29 @@
         }
       ]
     },
+    "2014-15-leaf-national-sports-collectors-convention-vip": {
+      "set_key": "2014-15-leaf-national-sports-collectors-convention-vip",
+      "set_name": "Leaf National Sports Collectors Convention VIP",
+      "set_year_label": "2014-15",
+      "set_year_start": 2014,
+      "set_year_end": 2015,
+      "set_display_name": "2014-15 Leaf National Sports Collectors Convention VIP",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2014-15-leaf-national-sports-collectors-convention-vip-1",
+          "base_number": "1",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/165013/cid/10543842/2014-Leaf-National-Sports-Collectors-Convention-VIP-1-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "inCollection": true,
+          "price": 4.00
+        }
+      ]
+    },
     "2014-15-o-pee-chee": {
       "set_key": "2014-15-o-pee-chee",
       "set_name": "O-Pee-Chee",
@@ -2238,7 +2281,8 @@
           "image_back": "img/cards/ML66/2014-15-Upper-Deck-Masterpieces-120-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 4.00
         },
         {
           "id": "ml-2014-15-upper-deck-masterpieces-153",
@@ -2249,7 +2293,8 @@
           "image_back": "img/cards/ML66/2014-15-Upper-Deck-Masterpieces-153-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 4.00
         }
       ]
     },
@@ -3256,7 +3301,8 @@
               "image_back": "img/cards/ML66/2016-Upper-Deck-Team-Canada-Juniors---Program-of-Excellence-POE-59-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Team Canada",
-              "inCollection": false
+              "inCollection": true,
+              "price": 8.00
             }
           ]
         }
@@ -4114,7 +4160,8 @@
               "image_back": "img/cards/ML66/2017-18-Upper-Deck---Centennial-Standouts-CS-75-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.00
             },
             {
               "id": "ml-2017-18-upper-deck-centennial-standouts-cs66",
@@ -4125,7 +4172,8 @@
               "image_back": "img/cards/ML66/2017-18-Upper-Deck---Centennial-Standouts-CS-66-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.00
             }
           ]
         }

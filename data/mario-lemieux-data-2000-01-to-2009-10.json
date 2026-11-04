@@ -2755,6 +2755,26 @@
               "inCollection": false
             }
           ]
+        },
+        {
+          "set_key": "2001-02-parkhurst-waving-the-flag",
+          "set_name": "Waving the Flag",
+          "set_display_name": "2001-02 Parkhurst - Waving the Flag",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-parkhurst-waving-the-flag-1",
+              "base_number": "1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Parkhurst---Waving-the-Flag-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Parkhurst---Waving-the-Flag-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Team Canada",
+              "inCollection": true,
+              "price": 8.00
+            }
+          ]
         }
       ]
     },
@@ -2937,8 +2957,8 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50182/cid/1711804/2001-02-Stadium-Club-NHLP18-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false,
-              "price": 3.5
+              "inCollection": true,
+              "price": 4.00
             }
           ]
         }
@@ -4195,6 +4215,19 @@
               "note": "/200",
               "inCollection": true,
               "price": 7.5
+            },
+            {
+              "id": "ml-2002-03-bap-memorabilia-ruby-224",
+              "base_number": "224",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50395/cid/1721235/2002-03-Be-a-Player-Memorabilia-Ruby-224-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 200,
+              "inCollection": true,
+              "price": 8.00
             }
           ]
         }

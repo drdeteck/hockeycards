@@ -1360,6 +1360,28 @@
           "team": "Pittsburgh Penguins",
           "inCollection": true
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "1991-92-topps-pre-production-samples",
+          "set_name": "Pre-Production Samples",
+          "set_display_name": "1991-92 Topps - Pre-Production Samples",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1991-92-topps-pre-production-samples-nno",
+              "base_number": "NNO",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1991-92-Topps---Pre-Production-Samples-NNO-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1991-92-Topps---Pre-Production-Samples-NNO-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": true,
+              "price": 4.00
+            }
+          ]
+        }
       ]
     },
     "1991-92-upper-deck": {

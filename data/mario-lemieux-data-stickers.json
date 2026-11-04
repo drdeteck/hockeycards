@@ -836,6 +836,95 @@
                 }
             ]
         },
+        "1992-93-all-world-mario-lemieux-unlicensed": {
+            "set_key": "1992-93-all-world-mario-lemieux-unlicensed",
+            "set_name": "All World Mario Lemieux (unlicensed)",
+            "set_year_label": "1992-93",
+            "set_year_start": 1992,
+            "set_year_end": 1993,
+            "set_display_name": "1992-93 All World Mario Lemieux (unlicensed)",
+            "set_tcdb_href": "",
+            "cards": [
+                {
+                    "id": "ml-sticker-1992-93-all-world-mario-lemieux-unlicensed-1a",
+                    "base_number": "1A",
+                    "orientation_front": "portrait",
+                    "orientation_back": "landscape",
+                    "image_front": "img/cards/ML66/Stickers/1992-93-All-World-Mario-Lemieux-unlicensed--1a-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1992-93-All-World-Mario-Lemieux-unlicensed--1a-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "card_type": "sticker",
+                    "inCollection": false,
+                    "price": 4.00
+                },
+                {
+                    "id": "ml-sticker-1992-93-all-world-mario-lemieux-unlicensed-1b",
+                    "base_number": "1B",
+                    "orientation_front": "portrait",
+                    "orientation_back": "landscape",
+                    "image_front": "img/cards/ML66/Stickers/1992-93-All-World-Mario-Lemieux-unlicensed--1b-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1992-93-All-World-Mario-Lemieux-unlicensed--1b-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "card_type": "sticker",
+                    "inCollection": false,
+                    "price": 4.00
+                },
+                {
+                    "id": "ml-sticker-1992-93-all-world-mario-lemieux-unlicensed-1c",
+                    "base_number": "1C",
+                    "orientation_front": "portrait",
+                    "orientation_back": "landscape",
+                    "image_front": "img/cards/ML66/Stickers/1992-93-All-World-Mario-Lemieux-unlicensed--1c-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1992-93-All-World-Mario-Lemieux-unlicensed--1c-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "card_type": "sticker",
+                    "inCollection": false,
+                    "price": 4.00
+                },
+                {
+                    "id": "ml-sticker-1992-93-all-world-mario-lemieux-unlicensed-1d",
+                    "base_number": "1D",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1992-93-All-World-Mario-Lemieux-unlicensed--1d-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1992-93-All-World-Mario-Lemieux-unlicensed--1d-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "card_type": "sticker",
+                    "inCollection": true,
+                    "price": 4.00
+                },
+                {
+                    "id": "ml-sticker-1992-93-all-world-mario-lemieux-unlicensed-1e",
+                    "base_number": "1E",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1992-93-All-World-Mario-Lemieux-unlicensed--1e-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1992-93-All-World-Mario-Lemieux-unlicensed--1e-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "card_type": "sticker",
+                    "inCollection": true,
+                    "price": 4.00
+                },
+                {
+                    "id": "ml-sticker-1992-93-all-world-mario-lemieux-unlicensed-1f",
+                    "base_number": "1F",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/1992-93-All-World-Mario-Lemieux-unlicensed--1f-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/1992-93-All-World-Mario-Lemieux-unlicensed--1f-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "card_type": "sticker",
+                    "inCollection": true,
+                    "price": 4.00
+                }
+            ]
+        },
         "1992-93-american-sports-monthly-unlicensed": {
             "set_key": "1992-93-american-sports-monthly-unlicensed",
             "set_name": "American Sports Monthly (unlicensed)",
@@ -1063,7 +1152,8 @@
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true,
+                    "price": 5.00
                 }
             ],
             "subsets": [
@@ -1424,7 +1514,8 @@
                     "image_front": "img/cards/ML66/Stickers/1995-Semic-Ice-Hockey-Finnish--93-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/Stickers/1995-Semic-Ice-Hockey-Finnish--93-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
-                    "inCollection": false
+                    "inCollection": true,
+                    "price": 12.00
                 }
             ]
         },
@@ -1574,7 +1665,8 @@
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "card_type": "sticker",
-                    "inCollection": false,
+                    "inCollection": true,
+                    "price": 1.00,
                     "excludeFromBinder": true
                 },
                 {
@@ -1587,7 +1679,8 @@
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "card_type": "sticker",
-                    "inCollection": false,
+                    "inCollection": true,
+                    "price": 1.00,
                     "excludeFromBinder": true
                 },
                 {
@@ -1600,7 +1693,8 @@
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "card_type": "sticker",
-                    "inCollection": false,
+                    "inCollection": true,
+                    "price": 1.00,
                     "excludeFromBinder": true
                 },
                 {
@@ -1613,7 +1707,8 @@
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "card_type": "sticker",
-                    "inCollection": false,
+                    "inCollection": true,
+                    "price": 1.00,
                     "excludeFromBinder": true
                 },
                 {
