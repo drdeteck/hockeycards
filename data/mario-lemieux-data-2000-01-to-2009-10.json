@@ -10663,6 +10663,37 @@
         }
       ]
     },
+    "2008-09-upper-deck": {
+      "set_key": "2008-09-upper-deck",
+      "set_name": "Upper Deck",
+      "set_year_label": "2008-09",
+      "set_year_start": 2008,
+      "set_year_end": 2009,
+      "set_display_name": "2008-09 Upper Deck",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2008-09-upper-deck-clearcut-winners",
+          "set_name": "Clearcut Winners",
+          "set_display_name": "2008-09 Upper Deck - Clearcut Winners",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/52167/2008-09-Upper-Deck-Clearcut-Winners",
+          "cards": [
+            {
+              "id": "ml-2008-09-upper-deck-clearcut-winners-cc16",
+              "base_number": "CC16",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/52167/cid/4585553/2008-09-Upper-Deck-Clearcut-Winners-CC16-Mario-Lemieux-?PageIndex=1",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "2008-09-upper-deck-20th-anniversary": {
       "set_key": "2008-09-upper-deck-20th-anniversary",
       "set_name": "Upper Deck 20th Anniversary",
