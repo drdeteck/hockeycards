@@ -2428,7 +2428,8 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck---UD-Portraits-Red-P-53-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 7
             }
           ]
         },

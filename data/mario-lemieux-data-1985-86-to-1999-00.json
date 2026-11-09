@@ -913,8 +913,8 @@
               "image_back": "img/cards/ML66/1991-92-Pinnacle-French-B5-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false,
-              "price": 40
+              "inCollection": true,
+              "price": 30
             }
           ]
         }
@@ -5595,9 +5595,9 @@
               "image_back": "img/cards/ML66/1995-96-Donruss---Dominators-1-Peter-Forsberg--Eric-Lindros--Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false,
+              "inCollection": true,
               "serial_total": 5000,
-              "price": 40
+              "price": 13.71
             }
           ]
         }
@@ -5810,8 +5810,9 @@
               "image_back": "img/cards/ML66/1995-96-Donruss-Elite---Mario-Lemieux-Series-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5124/cid/1597589/1995-96-Donruss-Elite-1-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false,
-              "serial_total": 1066
+              "inCollection": true,
+              "serial_total": 1066,
+              "price": 40
             },
             {
               "id": "ml-1995-96-donruss-elite-mario-lemieux-series-3",
