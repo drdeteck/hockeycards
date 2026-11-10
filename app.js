@@ -2538,7 +2538,8 @@ function DataViewModel() {
             var serialGroups = [];
 
             var serialRanges = [
-                { label: 'upTo499', max: 499 },
+                { label: 'upTo250', max: 250 },
+                { label: '251To499', min: 251, max: 499 },
                 { label: '500To999', min: 500, max: 999 },
                 { label: '1000To1999', min: 1000, max: 1999 },
                 { label: '2000Plus', min: 2000 }
