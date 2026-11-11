@@ -486,7 +486,7 @@
                     "variant_note": "Larry Robinson / Larry Murphy panel",
                     "card_type": "sticker",
                     "default_face": "back",
-                    "inCollection": true,
+                    "inCollection": false,
                     "price": 2.5
                 },
                 {
@@ -1258,6 +1258,7 @@
                     "team": "Pittsburgh Penguins",
                     "card_type": "sticker",
                     "inCollection": true,
+                    "excludeFromBinder": true,
                     "price": 2.65
                 }
             ]
@@ -1281,7 +1282,8 @@
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/190550/cid/12016860/1993-94-Seasons-Patches-9-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
                     "card_type": "patch ",
-                    "inCollection": false
+                    "inCollection": false,
+                    "excludeFromBinder": true
                 }
             ]
         },
@@ -2068,6 +2070,29 @@
                     "image_front": "img/cards/ML66/Stickers/2003-04-Sports-Vault-NHL-Stickers-115-Mario-LemieuxFr.jpg",
                     "image_back": "img/cards/ML66/Stickers/2003-04-Sports-Vault-NHL-Stickers-115-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
+                    "team": "Pittsburgh Penguins",
+                    "card_type": "sticker",
+                    "inCollection": false
+                }
+            ]
+        },
+        "2005-06-panini-stickers": {
+            "set_key": "2005-06-panini-stickers",
+            "set_name": "Panini Stickers",
+            "set_year_label": "2005-06",
+            "set_year_start": 2005,
+            "set_year_end": 2006,
+            "set_display_name": "2005-06 Panini Stickers",
+            "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/78244/2005-06-Panini-Stickers",
+            "cards": [
+                {
+                    "id": "ml-sticker-2005-06-panini-stickers-140",
+                    "base_number": "140",
+                    "orientation_front": "portrait",
+                    "orientation_back": "portrait",
+                    "image_front": "img/cards/ML66/Stickers/2005-06-Panini-Stickers-140-Mario-LemieuxFr.jpg",
+                    "image_back": "img/cards/ML66/Stickers/2005-06-Panini-Stickers-140-Mario-LemieuxBk.jpg",
+                    "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/78244/cid/5554326/2005-06-Panini-Stickers-140-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
                     "card_type": "sticker",
                     "inCollection": false

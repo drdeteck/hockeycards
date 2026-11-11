@@ -2795,7 +2795,7 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck-Overtime---Blue-44-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": true,
+              "inCollection": false,
               "price": 4
             }
           ]
@@ -3298,8 +3298,8 @@
               "base_number": "POE-59",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/2016-Upper-Deck-Team-Canada-Juniors---Program-of-Excellence-POE-59-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2016-Upper-Deck-Team-Canada-Juniors---Program-of-Excellence-POE-59-Mario-LemieuxBk.jpg",
+              "image_front": "img/cards/ML66/2016-17-Upper-Deck-Team-Canada-Juniors---Program-of-Excellence-POE-59-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2016-17-Upper-Deck-Team-Canada-Juniors---Program-of-Excellence-POE-59-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Team Canada",
               "inCollection": true,
