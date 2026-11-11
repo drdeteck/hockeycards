@@ -492,6 +492,28 @@
         }
       ]
     },
+    "1990-91-score-hottest-and-rising-stars": {
+      "set_key": "1990-91-score-hottest-and-rising-stars",
+      "set_name": "Score Hottest and Rising Stars",
+      "set_year_label": "1990-91",
+      "set_year_start": 1990,
+      "set_year_end": 1991,
+      "set_display_name": "1990-91 Score Hottest and Rising Stars",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-1990-91-score-hottest-and-rising-stars-34",
+          "base_number": "34",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/1990-91-Score-Hottest-and-Rising-Stars-34-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/1990-91-Score-Hottest-and-Rising-Stars-34-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        }
+      ]
+    },
     "1990-91-topps": {
       "set_key": "1990-91-topps",
       "set_name": "Topps",
@@ -4881,8 +4903,8 @@
               "image_back": "img/cards/ML66/1994-95-Stadium-Club---Stanley-Cup-60-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/48510/cid/1594554/1994-95-Stadium-Club-60-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false,
-              "price": 5
+              "inCollection": true,
+              "price": 5.0
             }
           ]
         },

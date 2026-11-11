@@ -2073,7 +2073,8 @@
               "image_back": "img/cards/ML66/2001-02-O-Pee-Chee---1972-72-Heritage-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5.0
             }
           ]
         }
@@ -2087,50 +2088,44 @@
       "set_year_end": 2002,
       "set_display_name": "2001-02 Pacific",
       "set_tcdb_href": "",
-      "subsets": [
+      "cards": [
         {
-          "set_key": "2001-02-pacific-base",
-          "set_name": "Base",
-          "set_display_name": "2001-02 Pacific - Base",
-          "set_tcdb_href": "",
-          "cards": [
-            {
-              "id": "ml-2001-02-pacific-316",
-              "base_number": "316",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/2001-02-Pacific-316-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2001-02-Pacific-316-Mario-LemieuxBk.jpg",
-              "tcdb_href": "",
-              "team": "Pittsburgh Penguins",
-              "inCollection": true
-            },
-            {
-              "id": "ml-2001-02-pacific-419",
-              "base_number": "419",
-              "orientation_front": "landscape",
-              "orientation_back": "landscape",
-              "image_front": "img/cards/ML66/2001-02-Pacific-419-Mario-Lemieux--Krzysztof-OliwaFr.jpg",
-              "image_back": "img/cards/ML66/2001-02-Pacific-419-Mario-Lemieux--Krzysztof-OliwaBk.jpg",
-              "tcdb_href": "",
-              "team": "Pittsburgh Penguins",
-              "inCollection": true,
-              "price": 1.41
-            },
-            {
-              "id": "ml-2001-02-pacific-439",
-              "base_number": "439",
-              "orientation_front": "landscape",
-              "orientation_back": "landscape",
-              "image_front": "img/cards/ML66/2001-02-Pacific-439-Jaromir-Jagr--Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2001-02-Pacific-439-Jaromir-Jagr--Mario-LemieuxBk.jpg",
-              "tcdb_href": "",
-              "team": "Pittsburgh Penguins",
-              "inCollection": true,
-              "price": 1.41
-            }
-          ]
+          "id": "ml-2001-02-pacific-316",
+          "base_number": "316",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2001-02-Pacific-316-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2001-02-Pacific-316-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": true
         },
+        {
+          "id": "ml-2001-02-pacific-419",
+          "base_number": "419",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
+          "image_front": "img/cards/ML66/2001-02-Pacific-419-Mario-Lemieux--Krzysztof-OliwaFr.jpg",
+          "image_back": "img/cards/ML66/2001-02-Pacific-419-Mario-Lemieux--Krzysztof-OliwaBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": true,
+          "price": 1.41
+        },
+        {
+          "id": "ml-2001-02-pacific-439",
+          "base_number": "439",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
+          "image_front": "img/cards/ML66/2001-02-Pacific-439-Jaromir-Jagr--Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2001-02-Pacific-439-Jaromir-Jagr--Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": true,
+          "price": 1.41
+        }
+      ],
+      "subsets": [
         {
           "set_key": "2001-02-pacific-top-draft-picks",
           "set_name": "Top Draft Picks",
@@ -2168,6 +2163,25 @@
               "team": "Pittsburgh Penguins",
               "inCollection": true,
               "price": 11.7
+            }
+          ]
+        },
+        {
+          "set_key": "2001-02-pacific-1997-98-pacific-crown-collection-update-silver",
+          "set_name": "1997-98 Pacific Crown Collection Update Silver",
+          "set_display_name": "2001-02 Pacific - 1997-98 Pacific Crown Collection Update Silver",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-1997-98-pacific-crown-collection-update-silver-66",
+              "base_number": "66",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Pacific---1997-98-Pacific-Crown-Collection-Update-Silver-66-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific---1997-98-Pacific-Crown-Collection-Update-Silver-66-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
             }
           ]
         }
@@ -2221,6 +2235,26 @@
         }
       ],
       "subsets": [
+        {
+          "set_key": "2001-02-pacific-adrenaline-retail",
+          "set_name": "Retail",
+          "set_type": "parallel",
+          "set_display_name": "2001-02 Pacific Adrenaline - Retail",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-adrenaline-retail-155",
+              "base_number": "155",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Adrenaline---Retail-155-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Adrenaline---Retail-155-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
+            }
+          ]
+        },
         {
           "set_key": "2001-02-pacific-adrenaline-world-beaters",
           "set_name": "Adrenaline - World Beaters",
@@ -4318,7 +4352,8 @@
           "image_back": "",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5640/cid/1274189/2002-03-In-The-Game-Used-62-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 30.0
         },
         {
           "id": "ml-2002-03-in-the-game-used-162",
@@ -5529,7 +5564,8 @@
               "image_back": "img/cards/ML66/2002-03-Stadium-Club---Beam-Team-BT2-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 20.0
             }
           ]
         },
@@ -5810,7 +5846,8 @@
               "image_back": "",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 30.0
             }
           ]
         },
@@ -7051,7 +7088,8 @@
               "image_back": "img/cards/ML66/2003-04-Pacific---Red-274-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5.0
             }
           ]
         },
@@ -10627,7 +10665,8 @@
               "image_back": "img/cards/ML66/2008-09-O-Pee-Chee---Retro-570-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 20.0
             }
           ]
         },
@@ -11141,7 +11180,8 @@
           "image_back": "img/cards/ML66/2007-08-Fleer-Hot-Prospects-129-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false,
+          "inCollection": true,
+          "price": 10.0,
           "serial_total": 999
         }
       ],
