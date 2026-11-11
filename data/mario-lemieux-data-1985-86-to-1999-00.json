@@ -4892,6 +4892,7 @@
           "set_key": "1994-95-stadium-club-super-teams-exchange-stanley-cup-champion",
           "set_name": "Super Teams Exchange: Stanley Cup Champion",
           "set_display_name": "1994-95 Stadium Club - Super Teams Exchange: Stanley Cup Champion",
+          "set_type": "parallel",
           "set_tcdb_href": "",
           "cards": [
             {
@@ -4926,13 +4927,13 @@
               "team": "Pittsburgh Penguins",
               "inCollection": false
             }
-          ],
-          "set_type": "parallel"
+          ]
         },
         {
           "set_key": "1994-95-stadium-club-first-day-issue",
           "set_name": "First Day Issue",
           "set_display_name": "1994-95 Stadium Club - First Day Issue",
+          "set_type": "parallel",
           "set_tcdb_href": "",
           "cards": [
             {
@@ -4948,13 +4949,13 @@
               "inCollection": false,
               "price": 200
             }
-          ],
-          "set_type": "parallel"
+          ]
         },
         {
           "set_key": "1994-95-stadium-club-members-only",
           "set_name": "Members Only",
           "set_display_name": "1994-95 Stadium Club - Members Only",
+          "set_type": "parallel",
           "set_tcdb_href": "",
           "cards": [
             {
@@ -4970,8 +4971,7 @@
               "inCollection": false,
               "price": 45
             }
-          ],
-          "set_type": "parallel"
+          ]
         }
       ]
     },
