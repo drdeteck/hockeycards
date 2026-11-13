@@ -9594,6 +9594,26 @@
           ]
         },
         {
+          "set_key": "2005-06-ultra-scoring-kings-jerseys",
+          "set_name": "Scoring Kings Jerseys",
+          "set_display_name": "2005-06 Ultra - Scoring Kings Jerseys",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2005-06-ultra-scoring-kings-jerseys-skj-ml",
+              "base_number": "SKJ-ML",
+              "card_type": "memorabilia",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2005-06-Ultra---Scoring-Kings-Jerseys-SKJ-ML-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2005-06-Ultra---Scoring-Kings-Jerseys-SKJ-ML-Mario-LemieuxBk.jpg",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/52704/cid/1791301/2005-06-Ultra-Scoring-Kings-Jerseys-SKJ-ML-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "inCollection": true
+            }
+          ]
+        },
+        {
           "set_key": "2005-06-ultra-super-six",
           "set_name": "Super Six",
           "set_display_name": "2005-06 Ultra - Super Six",

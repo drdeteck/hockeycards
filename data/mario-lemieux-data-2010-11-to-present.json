@@ -1831,6 +1831,39 @@
         }
       ]
     },
+    "2015-16-panini-anthology": {
+      "set_key": "2015-16-panini-anthology",
+      "set_name": "Panini Anthology",
+      "set_year_label": "2015-16",
+      "set_year_start": 2015,
+      "set_year_end": 2016,
+      "set_display_name": "2015-16 Panini Anthology",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2015-16-panini-anthology-tetrad-materials",
+          "set_name": "Tetrad Materials",
+          "set_display_name": "2015-16 Panini Anthology - Tetrad Materials",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2015-16-panini-anthology-tetrad-materials-tm-6",
+              "base_number": "TM-6",
+              "card_type": "memorabilia",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/131093/cid/8828190/2015-16-Panini-Anthology-Tetrad-Materials-TM-6-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 199,
+              "inCollection": true
+            }
+          ]
+        }
+      ]
+    },
     "2015-16-upper-deck-goodwin-champions": {
       "set_key": "2015-16-upper-deck-goodwin-champions",
       "set_name": "Upper Deck Goodwin Champions",
@@ -3446,7 +3479,8 @@
               "image_back": "img/cards/ML66/2016-17-O-Pee-Chee-Platinum---NHL-Logo-Crest-Die-Cuts-NHLLD-3-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.0
             }
           ]
         },
@@ -3523,7 +3557,8 @@
               "image_back": "img/cards/ML66/2015-16-Upper-Deck-Tim-Hortons---Franchise-Force-FF-2-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 16.5
             }
           ]
         }
@@ -5948,6 +5983,28 @@
       ],
       "subsets": [
         {
+          "set_key": "2022-23-upper-deck-stature-photo-variant",
+          "set_name": "Photo Variant",
+          "set_type": "parallel",
+          "set_display_name": "2022-23 Upper Deck Stature - Photo Variant",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2022-23-upper-deck-stature-photo-variant-2",
+              "base_number": "2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/395706/cid/23061391/2022-23-Upper-Deck-Stature-Photo-Variant-2-Mario-Lemieux",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 99,
+              "inCollection": true,
+              "price": 10.0
+            }
+          ]
+        },
+        {
           "set_key": "2022-23-upper-deck-stature-dignified",
           "set_name": "Dignified",
           "set_display_name": "2022-23 Upper Deck Stature - Dignified",
@@ -7773,6 +7830,30 @@
           ]
         }
       ]
+    },
+    "2025-26-upper-deck-stature": {
+      "set_key": "2025-26-upper-deck-stature",
+      "set_name": "Upper Deck Stature",
+      "set_year_label": "2025-26",
+      "set_year_start": 2025,
+      "set_year_end": 2026,
+      "set_display_name": "2025-26 Upper Deck Stature",
+      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/592165/2025-26-Upper-Deck-Stature",
+      "cards": [
+        {
+          "id": "ml-2025-26-upper-deck-stature-52",
+          "base_number": "52",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/592165/cid/40568723/2025-26-Upper-Deck-Stature-52-Mario-Lemieux",
+          "team": "Pittsburgh Penguins",
+          "serial_total": 999,
+          "inCollection": true
+        }
+      ],
+      "subsets": []
     },
     "2025-26-upper-deck-tim-hortons-team-canada": {
       "set_key": "2025-26-upper-deck-tim-hortons-team-canada",
