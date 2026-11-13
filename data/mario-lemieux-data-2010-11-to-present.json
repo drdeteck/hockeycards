@@ -1858,7 +1858,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/131093/cid/8828190/2015-16-Panini-Anthology-Tetrad-Materials-TM-6-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "serial_total": 199,
-              "inCollection": true
+              "inCollection": true,
+              "isMemorabilia": true
             }
           ]
         }

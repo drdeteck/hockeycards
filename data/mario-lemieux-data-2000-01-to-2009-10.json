@@ -9609,7 +9609,8 @@
               "image_back": "img/cards/ML66/2005-06-Ultra---Scoring-Kings-Jerseys-SKJ-ML-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/52704/cid/1791301/2005-06-Ultra-Scoring-Kings-Jerseys-SKJ-ML-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": true
+              "inCollection": true,
+              "isMemorabilia": true
             }
           ]
         },
