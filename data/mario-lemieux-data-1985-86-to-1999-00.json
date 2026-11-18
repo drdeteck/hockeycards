@@ -7023,8 +7023,8 @@
               "image_back": "",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false,
-              "price": 30
+              "inCollection": true,
+              "price": 24.00
             }
           ]
         }
@@ -8737,8 +8737,8 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5275/cid/1603798/1996-97-Fleer-NHL-Picks-3-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false,
-              "price": 60
+              "inCollection": true,
+              "price": 42.00
             }
           ]
         }
