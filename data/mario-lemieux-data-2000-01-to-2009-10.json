@@ -2182,7 +2182,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "inCollection": true,
-              "price": 4.13
+              "price": 2.95,
+              "location": "US"
             }
           ]
         }
@@ -3014,7 +3015,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "inCollection": true,
-              "price": 4.13
+              "price": 2.95,
+              "location": "US"
             }
           ]
         }

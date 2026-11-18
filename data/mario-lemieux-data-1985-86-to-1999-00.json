@@ -8738,7 +8738,8 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5275/cid/1603798/1996-97-Fleer-NHL-Picks-3-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "inCollection": true,
-              "price": 42.00
+              "price": 30.00,
+              "location": "US"
             }
           ]
         }
@@ -8912,8 +8913,8 @@
               "image_back": "img/cards/ML66/1996-97-Leaf-Limited---Gold-85-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5290/cid/1604339/1996-97-Leaf-Limited-85-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false,
-              "price": 55.35,
+              "inCollection": true,
+              "price": 24.00,
               "location": "US"
             }
           ],
