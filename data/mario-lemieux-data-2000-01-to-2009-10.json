@@ -2181,7 +2181,8 @@
               "image_back": "img/cards/ML66/2001-02-Pacific---1997-98-Pacific-Crown-Collection-Update-Silver-66-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.13
             }
           ]
         }
@@ -2702,7 +2703,8 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/50122/cid/1708278/2001-02-Pacific-Private-Stock-Titanium-18-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 11.99
             }
           ]
         },
@@ -2993,6 +2995,26 @@
               "team": "Pittsburgh Penguins",
               "inCollection": true,
               "price": 4.00
+            }
+          ]
+        },
+        {
+          "set_key": "2001-02-stadium-club-gallery",
+          "set_name": "Gallery",
+          "set_display_name": "2001-02 Stadium Club - Gallery",
+          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/50176/2001-02-Stadium-Club---Gallery",
+          "cards": [
+            {
+              "id": "ml-2001-02-stadium-club-gallery-g21",
+              "base_number": "G21",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": true,
+              "price": 4.13
             }
           ]
         }
@@ -4811,7 +4833,8 @@
               "image_back": "",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/10510/cid/1545643/2002-03-Pacific-Crown-Royale-Red-78-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 11.99
             }
           ]
         },
@@ -6804,7 +6827,8 @@
               "image_back": "img/cards/ML66/2003-04-Bowman-Draft-Picks-and-Prospects---Chrome-66-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4.99
             }
           ]
         },
@@ -11586,8 +11610,9 @@
           "image_back": "img/cards/ML66/2009-10-Upper-Deck-Artifacts-105-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false,
-          "serial_total": 999
+          "serial_total": 999,
+          "inCollection": true,
+          "price": 9.99
         }
       ]
     },

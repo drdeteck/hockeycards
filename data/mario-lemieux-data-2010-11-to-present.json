@@ -2293,7 +2293,8 @@
           "image_back": "img/cards/ML66/2014-15-Upper-Deck-Ice-80-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 13.75
         }
       ]
     },
@@ -5279,7 +5280,8 @@
           "image_back": "img/cards/ML66/2020-21-Upper-Deck-Stature-90-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 10.15
         }
       ],
       "subsets": [
