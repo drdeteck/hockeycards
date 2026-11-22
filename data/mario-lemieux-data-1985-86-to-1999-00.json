@@ -10758,7 +10758,7 @@
           "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments-15-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": true,
+          "inCollection": false,
           "price": 1
         },
         {
@@ -10984,7 +10984,7 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "variant_note": "Gold",
-              "inCollection": false
+              "inCollection": true
             },
             {
               "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-gold-16",
