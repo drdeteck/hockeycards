@@ -920,6 +920,28 @@
           "inCollection": true,
           "price": 8
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2012-13-sp-authentic-spx",
+          "set_name": "SPx",
+          "set_display_name": "2012-13 SP Authentic - SPx",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2012-13-sp-authentic-spx-25",
+              "base_number": "25",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2012-13-SP-Authentic---SPx-25-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2012-13-SP-Authentic---SPx-25-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": true,
+              "price": 4.99
+            }
+          ]
+        }
       ]
     },
     "2012-13-sp-game-used": {
@@ -1831,6 +1853,43 @@
         }
       ]
     },
+    "2015-16-in-the-game-final-vault": {
+      "set_key": "2015-16-in-the-game-final-vault",
+      "set_name": "In The Game Final Vault",
+      "set_year_label": "2015-16",
+      "set_year_start": 2015,
+      "set_year_end": 2016,
+      "set_display_name": "2015-16 In The Game Final Vault",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "2015-16-in-the-game-final-vault-2004-05-in-the-game-ultimate-memorabilia-hart-trophy-blue-stamp",
+          "set_name": "2004-05 In The Game Ultimate Memorabilia - Hart Trophy (Blue Stamp)",
+          "set_display_name": "2015-16 In The Game Final Vault - 2004-05 In The Game Ultimate Memorabilia - Hart Trophy (Blue Stamp)",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2015-16-in-the-game-final-vault-2004-05-in-the-game-ultimate-memorabilia-hart-trophy-blue-stamp-1",
+              "base_number": "1",
+              "card_type": "memorabilia",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2015-16-In-The-Game-Final-Vault---2004-05-In-The-Game-Ultimate-Memorabilia-Hart-Trophy-Blue-Stamp-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-In-The-Game-Final-Vault---2004-05-In-The-Game-Ultimate-Memorabilia-Hart-Trophy-Blue-Stamp-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 1,
+              "inCollection": true,
+              "price": 38.67,
+              "excludeFromBinder": true,
+              "isTooThickForBinder": true,
+              "isMemorabilia": true
+            }
+          ]
+        }
+      ]
+    },
     "2015-16-panini-anthology": {
       "set_key": "2015-16-panini-anthology",
       "set_name": "Panini Anthology",
@@ -1853,12 +1912,15 @@
               "card_type": "memorabilia",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2015-16-Panini-Anthology---Tetrad-Materials-TM-6-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2015-16-Panini-Anthology---Tetrad-Materials-TM-6-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/131093/cid/8828190/2015-16-Panini-Anthology-Tetrad-Materials-TM-6-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "serial_total": 199,
               "inCollection": true,
+              "price": 36,
+              "excludeFromBinder": true,
+              "isTooThickForBinder": true,
               "isMemorabilia": true
             }
           ]
