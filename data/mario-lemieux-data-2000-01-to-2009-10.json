@@ -397,7 +397,8 @@
               "image_back": "img/cards/ML66/2000-01-Pacific-Crown-Royale---Red-87-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": false,
+              "price": 8
             }
           ]
         },
@@ -546,9 +547,9 @@
               "image_front": "img/cards/ML66/2000-01-Pacific-Private-Stock-Titanium---North-America-All-Stars-9-Mario-LemieuxFr.jpg",
               "image_back": "img/cards/ML66/2000-01-Pacific-Private-Stock-Titanium---North-America-All-Stars-9-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
-              "inCollection": false,
+              "inCollection": true,
               "serial_total": 1000,
-              "price": 49.99
+              "price": 14
             }
           ]
         }
@@ -908,8 +909,8 @@
               "image_back": "img/cards/ML66/2000-01-Topps---Mario-Lemieux-Reprints-18-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "price": 4.89,
-              "inCollection": false
+              "price": 3.25,
+              "inCollection": true
             },
             {
               "id": "ml-2000-01-topps-mario-lemieux-reprints-19",
@@ -1352,7 +1353,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "serial_total": 555,
-              "inCollection": false
+              "inCollection": false,
+              "price": 125
             }
           ]
         }
@@ -2401,6 +2403,26 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "inCollection": true
+            }
+          ]
+        },
+        {
+          "set_key": "2001-02-pacific-crown-royale-crowning-achievements",
+          "set_name": "Crowning Achievements",
+          "set_display_name": "2001-02 Pacific Crown Royale - Crowning Achievements",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-crown-royale-crowning-achievements-19",
+              "base_number": "19",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false,
+              "price": 8.58
             }
           ]
         }

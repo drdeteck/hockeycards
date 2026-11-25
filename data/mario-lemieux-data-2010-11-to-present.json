@@ -5744,6 +5744,26 @@
               "price": 2.57
             }
           ]
+        },
+        {
+          "set_key": "2021-22-upper-deck-tim-hortons-team-canada-team-canada-trios",
+          "set_name": "Team Canada Trios",
+          "set_display_name": "2021-22 Upper Deck Tim Hortons Team Canada - Team Canada Trios",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2021-22-upper-deck-tim-hortons-team-canada-team-canada-trios-t15",
+              "base_number": "T-15",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2021-22-Upper-Deck-Tim-Hortons-Team-Canada---Team-Canada-Trios-T-15-Mark-Messier--Wayne-Gretzky--Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2021-22-Upper-Deck-Tim-Hortons-Team-Canada---Team-Canada-Trios-T-15-Mark-Messier--Wayne-Gretzky--Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Team Canada",
+              "variant_note": "w/ Mark Messier & Wayne Gretzky",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -6117,7 +6137,7 @@
               "image_back": "img/cards/ML66/2022-23-Upper-Deck-Synergy---Red-66-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false,
+              "inCollection": true,
               "price": 2.95
             }
           ]
@@ -7025,7 +7045,7 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/424299/cid/24406758/2023-24-Upper-Deck-Tim-Hortons-Greatest-Duos---Rookie-Connections-RC-13-Mario-Lemieux-/-Patrick-Roy",
               "team": "Pittsburgh Penguins",
               "variant_note": "w/ Patrick Roy",
-              "inCollection": false,
+              "inCollection": true,
               "price": 2.00
             }
           ]
