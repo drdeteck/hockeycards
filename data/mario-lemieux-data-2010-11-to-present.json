@@ -8700,7 +8700,8 @@
           "image_back": "",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/662113/cid/38692535/2026-Upper-Deck-Team-Canada-167-Mario-Lemieux",
           "team": "Team Canada",
-          "inCollection": false
+          "inCollection": true,
+          "price": 5
         }
       ],
       "subsets": [

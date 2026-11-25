@@ -10876,7 +10876,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "variant_note": "Gold",
-              "inCollection": false
+              "inCollection": true,
+              "price": 5.70
             },
             {
               "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-gold-7",

@@ -988,7 +988,8 @@
               "image_back": "img/cards/ML66/2000-01-Topps---Combos-TC10-Jaromir-Jagr--Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.84
             }
           ]
         }
@@ -1877,7 +1878,8 @@
           "image_back": "img/cards/ML66/2001-02-Fleer-Greats-of-the-Game-81-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 2.75
         }
       ],
       "subsets": [
@@ -5567,7 +5569,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "serial_total": 199,
-              "inCollection": false
+              "inCollection": true,
+              "price": 21.39
             }
           ]
         }
@@ -6457,7 +6460,8 @@
               "image_back": "",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 8
             }
           ]
         },
