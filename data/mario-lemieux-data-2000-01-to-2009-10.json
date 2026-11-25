@@ -3010,8 +3010,8 @@
               "base_number": "G21",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2001-02-Stadium-Club---Gallery-G21-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Stadium-Club---Gallery-G21-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "inCollection": true,
@@ -4372,8 +4372,8 @@
           "base_number": "62",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
-          "image_front": "",
-          "image_back": "",
+          "image_front": "img/cards/ML66/2002-03-In-The-Game-Used-62-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2002-03-In-The-Game-Used-62-Mario-LemieuxBk.jpg",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5640/cid/1274189/2002-03-In-The-Game-Used-62-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "inCollection": true,
@@ -5867,8 +5867,8 @@
               "serial_total": 667,
               "orientation_front": "landscape",
               "orientation_back": "landscape",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/2002-03-Topps-Heritage---Chrome-7-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Topps-Heritage---Chrome-7-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "inCollection": true,
@@ -11408,7 +11408,8 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "inCollection": false,
-          "serial_total": 599
+          "serial_total": 599,
+          "excludeFromBinder": true
         },
         {
           "id": "ml-2009-10-upper-deck-trilogy-66",
@@ -11644,7 +11645,7 @@
               "image_back": "img/cards/ML66/2009-10-Upper-Deck---Ambassadors-of-the-Game-AG23-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": true,
+              "inCollection": false,
               "price": 2
             }
           ]

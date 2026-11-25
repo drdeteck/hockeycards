@@ -1712,19 +1712,6 @@
                     "inCollection": true,
                     "price": 1.00,
                     "excludeFromBinder": true
-                },
-                {
-                    "id": "ml-sticker-1996-97-metallic-impressions-team-metal-mario-lemieux-5",
-                    "base_number": "5",
-                    "orientation_front": "portrait",
-                    "orientation_back": "portrait",
-                    "image_front": "",
-                    "image_back": "",
-                    "tcdb_href": "",
-                    "team": "Pittsburgh Penguins",
-                    "card_type": "sticker",
-                    "inCollection": false,
-                    "excludeFromBinder": true
                 }
             ]
         },
@@ -2095,7 +2082,7 @@
                     "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/78244/cid/5554326/2005-06-Panini-Stickers-140-Mario-Lemieux",
                     "team": "Pittsburgh Penguins",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true
                 }
             ]
         }

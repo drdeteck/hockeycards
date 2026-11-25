@@ -373,7 +373,12 @@
                                     <use href="#icon-search"></use>
                                 </svg>Research</a>
                             <a class="btn btn-sm card-action-tcdb" target="_blank" rel="noopener noreferrer"
-                                data-bind="attr: { href: $root.CardExternalHref(), 'aria-label': 'Open TCDB page for ' + (card.name || 'card') }"><svg
+                                data-bind="attr: { href: $root.CardExternalHref() || null,
+                                                   'aria-label': $root.CardExternalHref() ? 'Open TCDB page for ' + (card.name || 'card') : 'No TCDB link',
+                                                   'aria-disabled': $root.CardExternalHref() ? null : 'true',
+                                                   tabindex: $root.CardExternalHref() ? null : '-1',
+                                                   title: $root.CardExternalHref() ? 'Open on TCDB' : 'No TCDB link' },
+                                           css: { disabled: !$root.CardExternalHref() }"><svg
                                     class="icon-inline" aria-hidden="true" focusable="false">
                                     <use href="#icon-external"></use>
                                 </svg>TCDB</a>

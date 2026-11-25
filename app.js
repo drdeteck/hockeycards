@@ -1221,9 +1221,9 @@ function DataViewModel() {
     self.CardExternalHref = ko.pureComputed(function () {
         var ctx = self.CurrentCardContext();
         if (!ctx || !ctx.card) {
-            return '#';
+            return '';
         }
-        return (ctx.card.tcdb_href) || ctx.collection.set_tcdb_href || '#';
+        return (ctx.card.tcdb_href) || ctx.collection.set_tcdb_href || '';
     });
 
     self.SanitizeFilenamePart = function (value) {
