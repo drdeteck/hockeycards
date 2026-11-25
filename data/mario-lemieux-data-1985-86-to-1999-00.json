@@ -10979,8 +10979,8 @@
               "base_number": "15",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Marios-Moments---Gold-15-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Marios-Moments---Gold-15-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "variant_note": "Gold",
@@ -11034,13 +11034,13 @@
               "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-600-goals-1",
               "base_number": "1",
               "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Marios-Moments---600-Goals-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Marios-Moments---600-Goals-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "variant_note": "600 Goals",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         }
