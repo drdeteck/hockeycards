@@ -5598,6 +5598,7 @@
           "set_key": "2002-03-stadium-club-silver-decoy",
           "set_name": "Silver Decoy",
           "set_display_name": "2002-03 Stadium Club - Silver Decoy",
+          "set_type": "parallel",
           "set_tcdb_href": "",
           "cards": [
             {
@@ -8260,7 +8261,7 @@
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/51325/cid/1761080/2003-04-Topps-C55-66-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
               "variant_note": "Head",
-              "inCollection": false
+              "inCollection": true
             }
           ]
         }
@@ -9323,7 +9324,8 @@
               "inCollection": true,
               "price": 30,
               "isMemorabilia": true,
-              "isTooThickForBinder": true
+              "isTooThickForBinder": true,
+              "excludeFromBinder": true
             }
           ]
         }
@@ -9401,6 +9403,7 @@
           "set_key": "2005-06-upper-deck-artifacts-red",
           "set_name": "Red",
           "set_display_name": "2005-06 Upper Deck Artifacts - Red",
+          "set_type": "parallel",
           "set_tcdb_href": "",
           "cards": [
             {

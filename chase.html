@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Chase board</title>
-    <meta name="description" content="Mario Lemieux cards (1985-86 to 1996-97) I'm still chasing — open to trades.">
+    <meta name="description" content="Mario Lemieux cards (1985-86 to 1996-97 and 2000-01 to 2005-06) I'm still chasing — open to trades.">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +23,10 @@
                 <span>Mario Lemieux · Chase</span>
             </a>
 
-            <nav class="story-years-nav" id="yearsNav" aria-label="Seasons"></nav>
+            <nav class="story-years-nav" id="viewNav" aria-label="Chase views">
+                <a class="story-year-link" href="#90s" data-view="90s" title="1985-86 to 1996-97">90s</a>
+                <a class="story-year-link" href="#2000s" data-view="2000s" title="2000-01 to 2005-06">2000s</a>
+            </nav>
 
             <div class="story-actions">
                 <a href="story.html" class="chase-nav-link">📖 Story</a>
@@ -42,8 +45,9 @@
         <section class="chase-intro">
             <div>
                 <h1 class="chase-title">Chase Board</h1>
-                <p class="chase-subtitle">Mario Lemieux cards I'm still missing from 1985-86 to 1996-97 — open to
-                    trades. Prices are estimates (or last seen sale).</p>
+                <p class="chase-subtitle">Mario Lemieux cards I'm still missing from <span
+                        id="rangeLabel">1985-86 to 1996-97</span> — open to trades. Prices are estimates (or last seen
+                    sale).</p>
             </div>
             <div class="chase-summary">
                 <span class="chase-stat"><strong id="statCount">–</strong> cards</span>
@@ -66,18 +70,37 @@
     <script>
         (function () {
             var STORAGE_KEY = 'hockeycards-theme';
-            var DATA_URL = 'data/mario-lemieux-data-1985-86-to-1999-00.json?ver=' + Date.now();
-            var FIRST_SEASON_START = 1985;
-            var LAST_SEASON_START = 1996;
-            // Sparse early seasons share a single lane.
-            var MERGED_LANE_LAST_START = 1992;
+            var CACHE_BUST = '?ver=' + Date.now();
             var PLAYER_NAME = 'Mario Lemieux';
+            // Each view reads one dataset and keeps a season range from it.
+            // mergedLaneLastStart: sparse early seasons up to this start year share a single lane.
+            var VIEWS = {
+                '90s': {
+                    dataUrl: 'data/mario-lemieux-data-1985-86-to-1999-00.json',
+                    firstSeasonStart: 1985,
+                    lastSeasonStart: 1996,
+                    mergedLaneLastStart: 1992,
+                    rangeLabel: '1985-86 to 1996-97'
+                },
+                '2000s': {
+                    dataUrl: 'data/mario-lemieux-data-2000-01-to-2009-10.json',
+                    firstSeasonStart: 2000,
+                    lastSeasonStart: 2005,
+                    mergedLaneLastStart: null,
+                    rangeLabel: '2000-01 to 2005-06'
+                }
+            };
+            var DEFAULT_VIEW = '90s';
+            var dataCache = {};
+            var currentView = null;
+            var loadToken = 0;
 
             var root = document.documentElement;
             var toggleBtn = document.getElementById('themeToggle');
             var toggleStatus = document.getElementById('themeToggleStatus');
             var board = document.getElementById('chaseBoard');
-            var yearsNav = document.getElementById('yearsNav');
+            var viewNav = document.getElementById('viewNav');
+            var rangeLabel = document.getElementById('rangeLabel');
             var copyBtn = document.getElementById('copyListBtn');
             var preview = document.getElementById('chasePreview');
             var previewInner = document.getElementById('chasePreviewInner');
@@ -141,7 +164,7 @@
                     + '&offset=0&limit=50&tabName=SOLD&tz=America%2FToronto';
             }
 
-            function collectCards(data) {
+            function collectCards(data, view) {
                 var cards = [];
                 var sets = (data && data.sets) || {};
 
@@ -170,7 +193,7 @@
                 Object.keys(sets).forEach(function (key) {
                     var setData = sets[key];
                     var seasonStart = parseInt(setData.set_year_start, 10);
-                    if (isNaN(seasonStart) || seasonStart < FIRST_SEASON_START || seasonStart > LAST_SEASON_START) { return; }
+                    if (isNaN(seasonStart) || seasonStart < view.firstSeasonStart || seasonStart > view.lastSeasonStart) { return; }
                     (setData.cards || []).forEach(function (row) { addCard(row, setData, null); });
                     (setData.subsets || []).forEach(function (subset) {
                         (subset.cards || []).forEach(function (row) { addCard(row, setData, subset); });
@@ -186,13 +209,14 @@
                 return cards;
             }
 
-            function groupByYear(cards) {
+            function groupByYear(cards, view) {
                 var groups = [];
                 var byKey = {};
                 cards.forEach(function (card) {
-                    var key = card.yearStart <= MERGED_LANE_LAST_START ? 'merged' : card.year;
+                    var merged = view.mergedLaneLastStart !== null && card.yearStart <= view.mergedLaneLastStart;
+                    var key = merged ? 'merged' : card.year;
                     if (!byKey[key]) {
-                        byKey[key] = { year: card.year, navLabel: card.year, anchor: 'y' + card.year, seasons: [], cards: [] };
+                        byKey[key] = { year: card.year, seasons: [], cards: [] };
                         groups.push(byKey[key]);
                     }
                     var group = byKey[key];
@@ -205,8 +229,6 @@
                         var first = group.seasons[0];
                         var last = group.seasons[group.seasons.length - 1];
                         group.year = first + ' – ' + last;
-                        group.navLabel = first.slice(0, 4) + '-' + last.slice(-2);
-                        group.anchor = 'y' + first + '-' + last;
                     }
                 });
                 return groups;
@@ -390,7 +412,6 @@
 
             function render(groups) {
                 board.innerHTML = '';
-                yearsNav.innerHTML = '';
 
                 if (!groups.length) {
                     board.appendChild(el('div', 'story-status', 'Nothing on the chase list right now.'));
@@ -398,13 +419,7 @@
                 }
 
                 groups.forEach(function (group) {
-                    var anchorId = group.anchor;
-                    var navLink = el('a', 'story-year-link', group.navLabel);
-                    navLink.href = '#' + anchorId;
-                    yearsNav.appendChild(navLink);
-
                     var section = el('section', 'chase-year');
-                    section.id = anchorId;
 
                     var header = el('header', 'chase-year-header');
                     header.appendChild(el('h2', 'chase-year-label', group.year));
@@ -457,7 +472,7 @@
             });
 
             function buildShareText() {
-                var lines = [PLAYER_NAME + ' — Chase list 1985-86 to 1996-97 (open to trades)'];
+                var lines = [PLAYER_NAME + ' — Chase list ' + VIEWS[currentView].rangeLabel + ' (open to trades)'];
                 yearGroups.forEach(function (group) {
                     lines.push('');
                     lines.push(group.year);
@@ -473,7 +488,7 @@
                     });
                 });
                 lines.push('');
-                lines.push(window.location.href.split('#')[0]);
+                lines.push(window.location.href.split('#')[0] + '#' + currentView);
                 return lines.join('\n');
             }
 
@@ -514,21 +529,57 @@
                 });
             });
 
-            fetch(DATA_URL)
-                .then(function (response) {
-                    if (!response.ok) { throw new Error('HTTP ' + response.status); }
-                    return response.json();
-                })
-                .then(function (data) {
-                    var cards = collectCards(data);
-                    yearGroups = groupByYear(cards);
-                    renderSummary(cards);
-                    render(yearGroups);
-                })
-                .catch(function (error) {
-                    board.innerHTML = '';
-                    board.appendChild(el('div', 'story-status', 'Could not load chase list (' + error.message + ').'));
+            function loadData(url) {
+                if (!dataCache[url]) {
+                    dataCache[url] = fetch(url + CACHE_BUST).then(function (response) {
+                        if (!response.ok) { throw new Error('HTTP ' + response.status); }
+                        return response.json();
+                    });
+                    dataCache[url].catch(function () { delete dataCache[url]; });
+                }
+                return dataCache[url];
+            }
+
+            function viewFromHash() {
+                var key = window.location.hash.replace(/^#/, '');
+                return VIEWS.hasOwnProperty(key) ? key : DEFAULT_VIEW;
+            }
+
+            function showView(key) {
+                if (key === currentView) { return; }
+                currentView = key;
+                var view = VIEWS[key];
+                var token = ++loadToken;
+
+                Array.prototype.forEach.call(viewNav.querySelectorAll('[data-view]'), function (link) {
+                    var active = link.getAttribute('data-view') === key;
+                    link.classList.toggle('is-active', active);
+                    if (active) { link.setAttribute('aria-current', 'page'); } else { link.removeAttribute('aria-current'); }
                 });
+                rangeLabel.textContent = view.rangeLabel;
+                document.getElementById('statCount').textContent = '–';
+                document.getElementById('statValue').textContent = '–';
+                yearGroups = [];
+                board.innerHTML = '';
+                board.appendChild(el('div', 'story-status', 'Loading cards...'));
+
+                loadData(view.dataUrl)
+                    .then(function (data) {
+                        if (token !== loadToken) { return; }
+                        var cards = collectCards(data, view);
+                        yearGroups = groupByYear(cards, view);
+                        renderSummary(cards);
+                        render(yearGroups);
+                    })
+                    .catch(function (error) {
+                        if (token !== loadToken) { return; }
+                        board.innerHTML = '';
+                        board.appendChild(el('div', 'story-status', 'Could not load chase list (' + error.message + ').'));
+                    });
+            }
+
+            window.addEventListener('hashchange', function () { showView(viewFromHash()); });
+            showView(viewFromHash());
         })();
     </script>
 </body>
