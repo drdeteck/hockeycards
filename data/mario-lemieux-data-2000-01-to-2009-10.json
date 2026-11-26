@@ -43,7 +43,8 @@
               "image_back": "img/cards/ML66/2000-01-Be-a-Player-Memorabilia---Parkhurst-2000-(50th-Anniversary)-P-166-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 7
             }
           ]
         }
@@ -413,7 +414,7 @@
               "base_number": "87",
               "orientation_front": "landscape",
               "orientation_back": "landscape",
-              "image_front": "img/cards/ML66/2000-01-Pacific-Crown-Royale---Ice-Blue-87-Mario-LemieuxFr.jpg",
+              "image_front": "img/cards/ML66/2000-01-Pacific-Crown-Royale---Ice-Blue-87-Mario-LemieuxFr.png",
               "image_back": "img/cards/ML66/2000-01-Pacific-Crown-Royale---Ice-Blue-87-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49637/cid/1681552/2000-01-Pacific-Crown-Royale-87-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
@@ -544,8 +545,8 @@
               "team": "Pittsburgh Penguins",
               "orientation_front": "landscape",
               "orientation_back": "landscape",
-              "image_front": "img/cards/ML66/2000-01-Pacific-Private-Stock-Titanium---North-America-All-Stars-9-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2000-01-Pacific-Private-Stock-Titanium---North-America-All-Stars-9-Mario-LemieuxBk.jpg",
+              "image_front": "img/cards/ML66/2000-01-Pacific-Private-Stock-Titanium---North-America-All-Stars-9-Mario-LemieuxFr.png",
+              "image_back": "img/cards/ML66/2000-01-Pacific-Private-Stock-Titanium---North-America-All-Stars-9-Mario-LemieuxBk.png",
               "tcdb_href": "",
               "inCollection": true,
               "serial_total": 1000,
@@ -1178,7 +1179,8 @@
               "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-15-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 0.99
             },
             {
               "id": "ml-2000-01-topps-chrome-mlr-16",
@@ -1257,7 +1259,8 @@
               "image_back": "img/cards/ML66/2000-01-Topps-Chrome---Mario-Lemieux-Reprints-22-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 0.99
             },
             {
               "id": "ml-2000-01-topps-chrome-mlr-23",
@@ -4903,7 +4906,8 @@
               "image_back": "img/cards/ML66/2002-03-Pacific-Crown-Royale---Lords-of-the-Rink-16-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 4
             }
           ]
         },

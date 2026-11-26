@@ -7152,7 +7152,8 @@
               "image_back": "img/cards/ML66/2023-Upper-Deck-Tim-Hortons-Legends---Championship-Resume-CR-12-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 1.99
             }
           ]
         },
