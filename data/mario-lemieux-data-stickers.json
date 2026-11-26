@@ -1472,7 +1472,7 @@
                     "team": "Pittsburgh Penguins",
                     "card_type": "sticker",
                     "inCollection": true,
-                    "price": 1.37
+                    "price": 0
                 }
             ]
         },
@@ -1539,7 +1539,8 @@
                     "image_back": "img/cards/ML66/Stickers/1995-Semic-Globe-VM-Swedish--87-Mario-LemieuxBk.jpg",
                     "tcdb_href": "",
                     "team": "Canada",
-                    "inCollection": false
+                    "inCollection": true,
+                    "price": 0
                 }
             ]
         },
@@ -1781,7 +1782,8 @@
                     "tcdb_href": "",
                     "team": "Pittsburgh Penguins",
                     "card_type": "sticker",
-                    "inCollection": false
+                    "inCollection": true,
+                    "price": 0
                 },
                 {
                     "id": "ml-sticker-1996-97-panini-stickers-144",
@@ -1830,12 +1832,12 @@
                             "base_number": "NNO",
                             "orientation_front": "landscape",
                             "orientation_back": "landscape",
-                            "image_front": "",
-                            "image_back": "",
+                            "image_front": "img/cards/ML66/Stickers/1996-97-Upper-Deck-Kraft---Jell-O-All-Stars-NNO-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/Stickers/1996-97-Upper-Deck-Kraft---Jell-O-All-Stars-NNO-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "card_type": "card",
-                            "inCollection": false
+                            "inCollection": true
                         }
                     ]
                 },
@@ -1850,8 +1852,8 @@
                             "base_number": "NNO Art Ross",
                             "orientation_front": "portrait",
                             "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
+                            "image_front": "img/cards/ML66/Stickers/1996-97-Upper-Deck-Kraft---Jell-O-Award-Winners-NNO(ArtRoss)-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/Stickers/1996-97-Upper-Deck-Kraft---Jell-O-Award-Winners-NNO(ArtRoss)-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "variant_note": "Art Ross Trophy",
@@ -1863,8 +1865,8 @@
                             "base_number": "NNO Hart",
                             "orientation_front": "portrait",
                             "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
+                            "image_front": "img/cards/ML66/Stickers/1996-97-Upper-Deck-Kraft---Jell-O-Award-Winners-NNO(Hart)-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/Stickers/1996-97-Upper-Deck-Kraft---Jell-O-Award-Winners-NNO(Hart)-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "variant_note": "Hart Memorial Trophy",
@@ -1906,11 +1908,32 @@
                             "base_number": "NNO",
                             "orientation_front": "portrait",
                             "orientation_back": "portrait",
-                            "image_front": "",
-                            "image_back": "",
+                            "image_front": "img/cards/ML66/Stickers/1996-97-Upper-Deck-Kraft---Kraft-Dinner-MVP-NNO-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/Stickers/1996-97-Upper-Deck-Kraft---Kraft-Dinner-MVP-NNO-Mario-LemieuxBk.jpg",
                             "tcdb_href": "",
                             "team": "Pittsburgh Penguins",
                             "card_type": "card",
+                            "inCollection": false
+                        }
+                    ]
+                },
+                {
+                    "set_key": "1996-97-upper-deck-kraft-team-rivals",
+                    "set_name": "Team Rivals",
+                    "set_display_name": "1996-97 Upper Deck Kraft - Team Rivals",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-sticker-1996-97-upper-deck-kraft-team-rivals-nno",
+                            "base_number": "NNO",
+                            "orientation_front": "square",
+                            "orientation_back": "square",
+                            "image_front": "img/cards/ML66/Stickers/1996-97-Upper-Deck-Kraft---Team-Rivals-NNO-Mario-LemieuxFr.jpg",
+                            "image_back": "img/cards/ML66/Stickers/1996-97-Upper-Deck-Kraft---Team-Rivals-NNO-Mario-LemieuxBk.jpg",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "variant_note": "with Vincent Damphousse, Doug Gilmour & Eric Lindros",
+                            "card_type": "disc",
                             "inCollection": false
                         }
                     ]

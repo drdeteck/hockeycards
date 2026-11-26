@@ -6959,8 +6959,8 @@
               "image_back": "img/cards/ML66/1995-96-SkyBox-Impact---Countdown-to-Impact-3-Mario-LemieuxBk.jpg",
               "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5182/cid/1599373/1995-96-SkyBox-Impact-3-Mario-Lemieux",
               "team": "Pittsburgh Penguins",
-              "inCollection": false,
-              "price": 30
+              "inCollection": true,
+              "price": 0
             }
           ]
         }

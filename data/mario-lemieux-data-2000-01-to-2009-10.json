@@ -7996,7 +7996,8 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "serial_total": 1994,
-              "inCollection": false
+              "inCollection": true,
+              "price": 0
             }
           ]
         },
