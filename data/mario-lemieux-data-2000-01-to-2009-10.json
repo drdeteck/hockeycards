@@ -9544,7 +9544,8 @@
           "image_back": "img/cards/ML66/2005-06-SP-Game-Used-79-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 6
         }
       ]
     },

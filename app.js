@@ -4,7 +4,7 @@ window.HCHB = window.HCHB || {};
 (function (App, $, undefined) {
 
     // Public property
-    App.HomeCollection = "McD91-92";
+    App.HomeCollection = "ML-1985-86";
     App.ViewModel = new DataViewModel();
 
     // Public function
@@ -2717,7 +2717,9 @@ function DataViewModel() {
         }
 
         // if the hash looks like a collection key, update selection too
-        if (hash !== 'home' && hash !== 'about' && !isBinderRoute) {
+        if (hash === 'home') {
+            self.CurrentCollectionKey(HCHB.App.HomeCollection);
+        } else if (hash !== 'about' && !isBinderRoute) {
             self.CurrentCollectionKey(hash.toLowerCase() === 'rookie' ? 'rookies' : hash);
         }
 

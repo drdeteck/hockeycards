@@ -1820,6 +1820,61 @@
             "cards": [],
             "subsets": [
                 {
+                    "set_key": "1996-97-upper-deck-kraft-jell-o-all-stars",
+                    "set_name": "Jell-O All-Stars",
+                    "set_display_name": "1996-97 Upper Deck Kraft - Jell-O All-Stars",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-sticker-1996-97-upper-deck-kraft-jell-o-all-stars-nno",
+                            "base_number": "NNO",
+                            "orientation_front": "landscape",
+                            "orientation_back": "landscape",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "card_type": "card",
+                            "inCollection": false
+                        }
+                    ]
+                },
+                {
+                    "set_key": "1996-97-upper-deck-kraft-jell-o-award-winners",
+                    "set_name": "Jell-O Award Winners",
+                    "set_display_name": "1996-97 Upper Deck Kraft - Jell-O Award Winners",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-sticker-1996-97-upper-deck-kraft-jell-o-award-winners-nno-art-ross",
+                            "base_number": "NNO Art Ross",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "variant_note": "Art Ross Trophy",
+                            "card_type": "card",
+                            "inCollection": false
+                        },
+                        {
+                            "id": "ml-sticker-1996-97-upper-deck-kraft-jell-o-award-winners-nno-hart",
+                            "base_number": "NNO Hart",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "variant_note": "Hart Memorial Trophy",
+                            "card_type": "card",
+                            "inCollection": true,
+                            "price": 1.4
+                        }
+                    ]
+                },
+                {
                     "set_key": "1996-97-upper-deck-kraft-kraft-dinner-magnets",
                     "set_name": "Kraft Dinner Magnets",
                     "set_display_name": "1996-97 Upper Deck Kraft - Kraft Dinner Magnets",
@@ -1837,6 +1892,26 @@
                             "card_type": "magnet",
                             "inCollection": true,
                             "price": 2.25
+                        }
+                    ]
+                },
+                {
+                    "set_key": "1996-97-upper-deck-kraft-kraft-dinner-mvp",
+                    "set_name": "Kraft Dinner MVP",
+                    "set_display_name": "1996-97 Upper Deck Kraft - Kraft Dinner MVP",
+                    "set_tcdb_href": "",
+                    "cards": [
+                        {
+                            "id": "ml-sticker-1996-97-upper-deck-kraft-kraft-dinner-mvp-nno",
+                            "base_number": "NNO",
+                            "orientation_front": "portrait",
+                            "orientation_back": "portrait",
+                            "image_front": "",
+                            "image_back": "",
+                            "tcdb_href": "",
+                            "team": "Pittsburgh Penguins",
+                            "card_type": "card",
+                            "inCollection": false
                         }
                     ]
                 }
