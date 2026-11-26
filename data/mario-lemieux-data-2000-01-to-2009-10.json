@@ -1810,7 +1810,8 @@
               "image_back": "img/cards/ML66/2001-02-Be-a-Player-Signature-Series---He-Shoots-He-Scores-Points-NNO-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 2.99
             }
           ]
         }
