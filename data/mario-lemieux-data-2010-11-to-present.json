@@ -2830,7 +2830,8 @@
               "image_back": "img/cards/ML66/2015-16-O-Pee-Chee-Platinum---Team-Logo-Die-Cut-T-35-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 6.08
             }
           ]
         }
@@ -5163,7 +5164,8 @@
               "image_back": "img/cards/ML66/2020-21-SP-Signature-Edition-Legends---Profiles-P-26-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 3
             },
             {
               "id": "ml-2020-21-sp-signature-edition-legends-profiles-p27",
@@ -7431,7 +7433,8 @@
               "image_back": "img/cards/ML66/2024-25-Upper-Deck---UD-Canvas-C249-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": false
+              "inCollection": true,
+              "price": 23.50
             }
           ]
         }
@@ -8836,7 +8839,8 @@
           "image_back": "img/cards/ML66/2017-18-SPx-21-Mario-LemieuxBk.jpg",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
-          "inCollection": false
+          "inCollection": true,
+          "price": 23
         }
       ]
     },
