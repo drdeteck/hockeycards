@@ -1871,7 +1871,7 @@
                             "team": "Pittsburgh Penguins",
                             "variant_note": "Hart Memorial Trophy",
                             "card_type": "card",
-                            "inCollection": true,
+                            "inCollection": false,
                             "price": 1.4
                         }
                     ]
