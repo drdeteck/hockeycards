@@ -306,6 +306,67 @@
               "inCollection": true
             }
           ]
+        },
+        {
+          "set_key": "2000-01-be-a-player-signature-series-ruby",
+          "set_name": "Ruby",
+          "set_display_name": "2000-01 Be a Player Signature Series - Ruby",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-be-a-player-signature-series-ruby-75",
+              "base_number": "75",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Ruby-75-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Ruby-75-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 200,
+              "inCollection": false
+            }
+          ],
+          "set_type": "parallel"
+        },
+        {
+          "set_key": "2000-01-be-a-player-signature-series-sapphire",
+          "set_name": "Sapphire",
+          "set_display_name": "2000-01 Be a Player Signature Series - Sapphire",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-be-a-player-signature-series-sapphire-75",
+              "base_number": "75",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Sapphire-75-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series---Sapphire-75-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 100,
+              "inCollection": false
+            }
+          ],
+          "set_type": "parallel"
+        },
+        {
+          "set_key": "2000-01-be-a-player-signature-series-he-shoots-he-scores-points",
+          "set_name": "He Shoots-He Scores Points",
+          "set_display_name": "2000-01 Be a Player Signature Series - He Shoots-He Scores Points",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-be-a-player-signature-series-he-shoots-he-scores-points-nno",
+              "base_number": "NNO",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series-He-Shoots-He-Scores-Points-NNO-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Be-a-Player-Signature-Series-He-Shoots-He-Scores-Points-NNO-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -486,6 +547,69 @@
               "price": 8.0
             }
           ]
+        },
+        {
+          "set_key": "2000-01-pacific-private-stock-silver",
+          "set_name": "Silver",
+          "set_type": "parallel",
+          "set_display_name": "2000-01 Pacific Private Stock - Silver",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-pacific-private-stock-silver-152",
+              "base_number": "152",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 120,
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2000-01-pacific-private-stock-gold",
+          "set_name": "Gold",
+          "set_type": "parallel",
+          "set_display_name": "2000-01 Pacific Private Stock - Gold",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-pacific-private-stock-gold-152",
+              "base_number": "152",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 75,
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2000-01-pacific-private-stock-premiere-date",
+          "set_name": "Premiere Date",
+          "set_type": "parallel",
+          "set_display_name": "2000-01 Pacific Private Stock - Premiere Date",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-pacific-private-stock-premiere-date-152",
+              "base_number": "152",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 60,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -576,6 +700,29 @@
           "team": "Pittsburgh Penguins",
           "inCollection": true,
           "price": 9.75
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2000-01-pacific-vanguard-holographic-purple",
+          "set_name": "Holographic Purple",
+          "set_display_name": "2000-01 Pacific Vanguard - Holographic Purple",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-pacific-vanguard-holographic-purple-151",
+              "base_number": "151",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2000-01-Pacific-Vanguard---Holographic-Purple-151-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Pacific-Vanguard---Holographic-Purple-151-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 105,
+              "inCollection": false
+            }
+          ],
+          "set_type": "parallel"
         }
       ]
     },
@@ -1626,6 +1773,50 @@
               "price": 7.67
             }
           ]
+        },
+        {
+          "set_key": "2000-01-upper-deck-legends-legendary-collection-gold",
+          "set_name": "Legendary Collection Gold",
+          "set_display_name": "2000-01 Upper Deck Legends - Legendary Collection Gold",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-upper-deck-legends-legendary-collection-gold-108",
+              "base_number": "108",
+              "variant_note": "Mario Lemieux / Jaromir Jagr",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2000-01-Upper-Deck-Legends---Legendary-Collection-Gold-108-Mario-Lemieux--Jaromir-JagrFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Upper-Deck-Legends---Legendary-Collection-Gold-108-Mario-Lemieux--Jaromir-JagrBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 375,
+              "inCollection": false
+            }
+          ],
+          "set_type": "parallel"
+        },
+        {
+          "set_key": "2000-01-upper-deck-legends-legendary-collection-silver",
+          "set_name": "Legendary Collection Silver",
+          "set_display_name": "2000-01 Upper Deck Legends - Legendary Collection Silver",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2000-01-upper-deck-legends-legendary-collection-silver-108",
+              "base_number": "108",
+              "variant_note": "Mario Lemieux / Jaromir Jagr",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2000-01-Upper-Deck-Legends---Legendary-Collection-Silver-108-Mario-Lemieux--Jaromir-JagrFr.jpg",
+              "image_back": "img/cards/ML66/2000-01-Upper-Deck-Legends---Legendary-Collection-Silver-108-Mario-Lemieux--Jaromir-JagrBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 100,
+              "inCollection": false
+            }
+          ],
+          "set_type": "parallel"
         }
       ]
     },

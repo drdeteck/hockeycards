@@ -8578,6 +8578,26 @@
               "price": 22.5
             }
           ]
+        },
+        {
+          "set_key": "1996-97-flair-now-and-then",
+          "set_name": "Now & Then",
+          "set_display_name": "1996-97 Flair - Now & Then",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-flair-now-and-then-2",
+              "base_number": "2",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/1996-97-Flair---Now-Then-2-Mario-Lemieux--Patrick-Roy--Kirk--MullerFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Flair---Now-Then-2-Mario-Lemieux--Patrick-Roy--Kirk--MullerBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "variant_note": "w/ Patrick Roy & Kirk Muller",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -8740,6 +8760,26 @@
               "inCollection": true,
               "price": 30.00,
               "location": "US"
+            }
+          ]
+        },
+        {
+          "set_key": "1996-97-fleer-nhl-picks-dream-lines",
+          "set_name": "Dream Lines",
+          "set_display_name": "1996-97 Fleer NHL Picks - Dream Lines",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-fleer-nhl-picks-dream-lines-1",
+              "base_number": "1",
+              "orientation_front": "landscape",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1996-97-Fleer-NHL-Picks---Dream-Lines-1-Eric-Lindros--Mario-Lemieux--Wayne-GretzkyFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Fleer-NHL-Picks---Dream-Lines-1-Eric-Lindros--Mario-Lemieux--Wayne-GretzkyBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "variant_note": "w/ Eric Lindros & Wayne Gretzky",
+              "inCollection": false
             }
           ]
         }
@@ -10569,6 +10609,25 @@
               "price": 18.0
             }
           ]
+        },
+        {
+          "set_key": "1996-97-zenith-champion-salute-promos",
+          "set_name": "Champion Salute Promos",
+          "set_display_name": "1996-97 Zenith - Champion Salute Promos",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-zenith-champion-salute-promos-5",
+              "base_number": "5",
+              "orientation_front": "portrait",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/1996-97-Zenith---Champion-Salute-Promos-5-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1996-97-Zenith---Champion-Salute-Promos-5-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -10811,8 +10870,8 @@
               "base_number": "1",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments---Gold-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments---Gold-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "variant_note": "Gold",
@@ -10835,8 +10894,8 @@
               "base_number": "3",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments---Gold-3-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments---Gold-3-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "variant_note": "Gold",
@@ -10847,8 +10906,8 @@
               "base_number": "4",
               "orientation_front": "landscape",
               "orientation_back": "landscape",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments---Gold-4-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments---Gold-4-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "variant_note": "Gold",
@@ -10869,10 +10928,10 @@
             {
               "id": "ml-1997-98-pinnacle-giant-eagle-marios-moments-gold-6",
               "base_number": "6",
-              "orientation_front": "landscape",
-              "orientation_back": "landscape",
-              "image_front": "",
-              "image_back": "",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments---Gold-6-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments---Gold-6-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "variant_note": "Gold",
@@ -10884,8 +10943,8 @@
               "base_number": "7",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments---Gold-7-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments---Gold-7-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "variant_note": "Gold",
@@ -10908,8 +10967,8 @@
               "base_number": "9",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments---Gold-9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments---Gold-9-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "variant_note": "Gold",
@@ -10920,8 +10979,8 @@
               "base_number": "10",
               "orientation_front": "landscape",
               "orientation_back": "landscape",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments---Gold-10-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments---Gold-10-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "variant_note": "Gold",
@@ -10956,8 +11015,8 @@
               "base_number": "13",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
+              "image_front": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments---Gold-13-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/1997-98-Pinnacle-Giant-Eagle-Mario's-Moments---Gold-13-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "variant_note": "Gold",
@@ -11097,8 +11156,8 @@
               "base_number": "SC1",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/1999-00-Topps---Stanley-Cup-Heroes-SC1-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/1999-00-Topps---Stanley-Cup-Heroes-SC1-Mario-LemieuxBk.jpg",
+              "image_front": "img/cards/ML66/1999-00-Topps---Stanley-Cup-Heroes-SC1-Mario-LemieuxFr.png",
+              "image_back": "img/cards/ML66/1999-00-Topps---Stanley-Cup-Heroes-SC1-Mario-LemieuxBk.png",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "inCollection": true,

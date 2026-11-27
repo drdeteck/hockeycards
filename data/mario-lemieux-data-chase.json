@@ -378,6 +378,50 @@
         }
       ]
     },
+    "1996-97-pinnacle-be-a-player": {
+      "set_key": "1996-97-pinnacle-be-a-player",
+      "set_name": "Pinnacle Be a Player",
+      "set_year_label": "1996-97",
+      "set_year_start": 1996,
+      "set_year_end": 1997,
+      "set_display_name": "1996-97 Pinnacle Be a Player",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "1996-97-pinnacle-be-a-player-mario-lemieux-die-cut",
+          "set_name": "Mario Lemieux Die Cut",
+          "set_display_name": "1996-97 Pinnacle Be a Player - Mario Lemieux Die Cut",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-pinnacle-be-a-player-mario-lemieux-die-cut-1",
+              "base_number": "1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/Chase/1996-97-Pinnacle-Be-a-Player---Mario-Lemieux-Die-Cut-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/Chase/1996-97-Pinnacle-Be-a-Player---Mario-Lemieux-Die-Cut-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 66,
+              "inCollection": false
+            },
+            {
+              "id": "ml-1996-97-pinnacle-be-a-player-mario-lemieux-die-cut-2",
+              "base_number": "2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/Chase/1996-97-Pinnacle-Be-a-Player---Mario-Lemieux-Die-Cut-2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/Chase/1996-97-Pinnacle-Be-a-Player---Mario-Lemieux-Die-Cut-2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 66,
+              "inCollection": false
+            }
+          ]
+        }
+      ]
+    },
     "1996-97-pinnacle-mint-collection": {
       "set_key": "1996-97-pinnacle-mint-collection",
       "set_name": "Pinnacle Mint Collection",
@@ -476,6 +520,38 @@
               "team": "Pittsburgh Penguins",
               "inCollection": false,
               "price": 1800
+            }
+          ]
+        }
+      ]
+    },
+    "1996-97-sp": {
+      "set_key": "1996-97-sp",
+      "set_name": "SP",
+      "set_year_label": "1996-97",
+      "set_year_start": 1996,
+      "set_year_end": 1997,
+      "set_display_name": "1996-97 SP",
+      "set_tcdb_href": "",
+      "cards": [],
+      "subsets": [
+        {
+          "set_key": "1996-97-sp-spx-force",
+          "set_name": "SPx Force",
+          "set_display_name": "1996-97 SP - SPx Force",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-1996-97-sp-spx-force-spx1",
+              "base_number": "SPX1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/Chase/1996-97-SP---SPx-Force-SPX1-Eric-Lindros--Mario-Lemieux--Peter-Forsberg--Wayne-GretzkyFr.jpg",
+              "image_back": "img/cards/ML66/Chase/1996-97-SP---SPx-Force-SPX1-Eric-Lindros--Mario-Lemieux--Peter-Forsberg--Wayne-GretzkyBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "variant_note": "w/ Eric Lindros, Peter Forsberg & Wayne Gretzky",
+              "inCollection": false
             }
           ]
         }
@@ -645,114 +721,6 @@
         }
       ]
     },
-    "1999-upper-deck-century-legends": {
-      "set_key": "1999-upper-deck-century-legends",
-      "set_name": "1999 Upper Deck Century Legends",
-      "set_year_label": "1999-00",
-      "set_year_start": 1999,
-      "set_year_end": 2000,
-      "set_display_name": "1999 Upper Deck Century Legends",
-      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5534/1999-upper-deck-century-legends",
-      "cards": [],
-      "subsets": [
-        {
-          "set_key": "1999-upper-deck-century-legends-century-collection",
-          "set_name": "Century Collection",
-          "set_display_name": "1999 Upper Deck Century Legends - Century Collection",
-          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49426/1999-upper-deck-century-legends-century-collection",
-          "cards": [
-            {
-              "id": "ml-1999-upper-deck-century-legends-century-collection-4",
-              "base_number": "4",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
-              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49426/cid/1666423/1999-Upper-Deck-Century-Legends-4-Mario-Lemieux",
-              "team": "Pittsburgh Penguins",
-              "inCollection": false
-            }
-          ]
-        },
-        {
-          "set_key": "1999-upper-deck-century-legends-epic-signatures",
-          "set_name": "Epic Signatures",
-          "set_display_name": "1999 Upper Deck Century Legends - Epic Signatures",
-          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49427/1999-upper-deck-century-legends-epic-signatures",
-          "cards": [
-            {
-              "id": "ml-1999-upper-deck-century-legends-epic-signatures-ml",
-              "base_number": "ML",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
-              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49427/cid/1666526/1999-Upper-Deck-Century-Legends-ML-Mario-Lemieux",
-              "team": "Pittsburgh Penguins",
-              "inCollection": false
-            }
-          ]
-        },
-        {
-          "set_key": "1999-upper-deck-century-legends-epic-signatures-gold",
-          "set_name": "Epic Signatures Gold",
-          "set_display_name": "1999 Upper Deck Century Legends - Epic Signatures Gold",
-          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49428/1999-upper-deck-century-legends-epic-signatures-gold",
-          "cards": [
-            {
-              "id": "ml-1999-upper-deck-century-legends-epic-signatures-gold-ml",
-              "base_number": "ML",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
-              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49428/cid/1666549/1999-Upper-Deck-Century-Legends-ML-Mario-Lemieux",
-              "team": "Pittsburgh Penguins",
-              "inCollection": false
-            }
-          ]
-        },
-        {
-          "set_key": "1999-upper-deck-century-legends-jerseys-of-the-century",
-          "set_name": "Jerseys of the Century",
-          "set_display_name": "1999 Upper Deck Century Legends - Jerseys of the Century",
-          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49431/1999-upper-deck-century-legends-jerseys-of-the-century",
-          "cards": [
-            {
-              "id": "ml-1999-upper-deck-century-legends-jerseys-of-the-century-jc5",
-              "base_number": "JC5",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
-              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49431/cid/1666583/1999-Upper-Deck-Century-Legends-JC5-Mario-Lemieux",
-              "team": "Pittsburgh Penguins",
-              "inCollection": false
-            }
-          ]
-        },
-        {
-          "set_key": "1999-upper-deck-century-legends-essence-of-the-game",
-          "set_name": "Essence of the Game",
-          "set_display_name": "1999 Upper Deck Century Legends - Essence of the Game",
-          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49429/1999-upper-deck-century-legends-essence-of-the-game",
-          "cards": [
-            {
-              "id": "ml-1999-upper-deck-century-legends-essence-of-the-game-e3",
-              "base_number": "E3",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
-              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49429/cid/1666563/1999-Upper-Deck-Century-Legends-E3-Mario-Lemieux-/-Jaromir-Jagr",
-              "team": "Pittsburgh Penguins",
-              "inCollection": true,
-              "price": 3.99
-            }
-          ]
-        }
-      ]
-    },
     "1995-96-finest": {
       "set_key": "1995-96-finest",
       "set_name": "Finest",
@@ -784,68 +752,30 @@
         }
       ]
     },
-    "2000-01-pacific-crown-royale": {
-      "set_key": "2000-01-pacific-crown-royale",
-      "set_name": "Pacific Crown Royale",
-      "set_year_label": "2000-01",
-      "set_year_start": 2000,
-      "set_year_end": 2001,
-      "set_display_name": "2000-01 Pacific Crown Royale",
-      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5550/2000-01-Pacific-Crown-Royale",
+    "1999-00-topps": {
+      "set_key": "1999-00-topps",
+      "set_name": "Topps",
+      "set_year_label": "1999-00",
+      "set_year_start": 1999,
+      "set_year_end": 2000,
+      "set_display_name": "1999-00 Topps",
+      "set_tcdb_href": "",
       "cards": [],
       "subsets": [
         {
-          "set_key": "2000-01-pacific-crown-royale-landmarks",
-          "set_name": "Landmarks",
-          "set_display_name": "2000-01 Pacific Crown Royale - Landmarks",
-          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49639/2000-01-Pacific-Crown-Royale---Landmarks",
+          "set_key": "1999-00-topps-stanley-cup-heroes-refractors",
+          "set_name": "Stanley Cup Heroes Refractors",
+          "set_display_name": "1999-00 Topps - Stanley Cup Heroes Refractors",
+          "set_tcdb_href": "",
           "cards": [
             {
-              "id": "ml-2000-01-pacific-crown-royale-landmarks-9",
-              "base_number": "9",
+              "id": "ml-1999-00-topps-stanley-cup-heroes-refractors-sc1",
+              "base_number": "SC1",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
-              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49639/cid/1681607/2000-01-Pacific-Crown-Royale-9-Mario-Lemieux",
-              "team": "Pittsburgh Penguins",
-              "inCollection": false
-            }
-          ]
-        },
-        {
-          "set_key": "2000-01-pacific-crown-royale-limited-series",
-          "set_name": "Limited Series",
-          "set_display_name": "2000-01 Pacific Crown Royale - Limited Series",
-          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49640/2000-01-Pacific-Crown-Royale---Limited-Series",
-          "cards": [
-            {
-              "id": "ml-2000-01-pacific-crown-royale-limited-series-87",
-              "base_number": "87",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
-              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49640/cid/1681695/2000-01-Pacific-Crown-Royale-87-Mario-Lemieux",
-              "team": "Pittsburgh Penguins",
-              "inCollection": false
-            }
-          ]
-        },
-        {
-          "set_key": "2000-01-pacific-crown-royale-premiere-date",
-          "set_name": "Premiere Date",
-          "set_display_name": "2000-01 Pacific Crown Royale - Premiere Date",
-          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49642/2000-01-Pacific-Crown-Royale---Premiere-Date",
-          "cards": [
-            {
-              "id": "ml-2000-01-pacific-crown-royale-premiere-date-87",
-              "base_number": "87",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "",
-              "image_back": "",
-              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49642/cid/1681823/2000-01-Pacific-Crown-Royale-87-Mario-Lemieux",
+              "image_front": "img/cards/ML66/Chase/1999-00-Topps-Stanley-Cup-Heroes-Refractors-SC1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/Chase/1999-00-Topps-Stanley-Cup-Heroes-Refractors-SC1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "inCollection": false
             }
@@ -853,35 +783,36 @@
         }
       ]
     },
-    "2000-01-be-a-player-signature-series": {
-      "set_key": "2000-01-be-a-player-signature-series",
-      "set_name": "Be a Player Signature Series",
+    "2000-01-upper-deck-legends": {
+      "set_key": "2000-01-upper-deck-legends",
+      "set_name": "Upper Deck Legends",
       "set_year_label": "2000-01",
       "set_year_start": 2000,
       "set_year_end": 2001,
-      "set_display_name": "2000-01 Be a Player Signature Series",
-      "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/5546/2000-01-Be-a-Player-Signature-Series",
+      "set_display_name": "2000-01 Upper Deck Legends",
+      "set_tcdb_href": "",
       "cards": [],
       "subsets": [
         {
-          "set_key": "2000-01-be-a-player-signature-series-he-shoots-he-scores-points",
-          "set_name": "He Shoots-He Scores Points",
-          "set_display_name": "2000-01 Be a Player Signature Series - He Shoots-He Scores Points",
-          "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/49556/2000-01-Be-a-Player-Signature-Series---He-Shoots-He-Scores-Points",
+          "set_key": "2000-01-upper-deck-legends-legendary-collection-bronze",
+          "set_name": "Legendary Collection Bronze",
+          "set_display_name": "2000-01 Upper Deck Legends - Legendary Collection Bronze",
+          "set_tcdb_href": "",
           "cards": [
             {
-              "id": "ml-2000-01-be-a-player-signature-series-he-shoots-he-scores-points-nno",
-              "base_number": "NNO",
-              "orientation_front": "portrait",
-              "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/Chase/2000-01-Be-a-Player-Signature-Series---He-Shoots-He-Scores-Points-NNO-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/Chase/2000-01-Be-a-Player-Signature-Series---He-Shoots-He-Scores-Points-NNO-Mario-LemieuxBk.jpg",
-              "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/49556/cid/1677125/2000-01-Be-a-Player-Signature-Series-NNO-Mario-Lemieux",
+              "id": "ml-2000-01-upper-deck-legends-legendary-collection-bronze-108",
+              "base_number": "108",
+              "variant_note": "Mario Lemieux / Jaromir Jagr",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/Chase/2000-01-Upper-Deck-Legends---Legendary-Collection-Bronze-108-Mario-Lemieux--Jaromir-JagrFr.jpg",
+              "image_back": "img/cards/ML66/Chase/2000-01-Upper-Deck-Legends---Legendary-Collection-Bronze-108-Mario-Lemieux--Jaromir-JagrBk.jpg",
+              "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "variant_note": "3PT",
               "inCollection": false
             }
-          ]
+          ],
+          "set_type": "parallel"
         }
       ]
     }
