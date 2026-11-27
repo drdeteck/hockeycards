@@ -2008,6 +2008,28 @@
               "price": 2.99
             }
           ]
+        },
+        {
+          "set_key": "2001-02-be-a-player-signature-series-certified-100",
+          "set_name": "Certified 100",
+          "set_display_name": "2001-02 Be a Player Signature Series - Certified 100",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2001-02-be-a-player-signature-series-certified-100-c-54",
+              "base_number": "C-54",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Be-a-Player-Signature-Series---Certified-100-C-54-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Be-a-Player-Signature-Series---Certified-100-C-54-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 100,
+              "inCollection": true,
+              "price": 17.04
+            }
+          ]
         }
       ]
     },
@@ -2279,6 +2301,84 @@
         }
       ]
     },
+    "2001-02-o-pee-chee-premier": {
+      "set_key": "2001-02-o-pee-chee-premier",
+      "set_name": "O-Pee-Chee Premier",
+      "set_year_label": "2001-02",
+      "set_year_start": 2001,
+      "set_year_end": 2002,
+      "set_display_name": "2001-02 O-Pee-Chee Premier",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2001-02-o-pee-chee-premier-1",
+          "base_number": "1",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2001-02-o-pee-chee-premier-326",
+          "base_number": "326",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2001-02-o-pee-chee-premier-327",
+          "base_number": "327",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2001-02-O-Pee-Chee-Premier-327-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2001-02-O-Pee-Chee-Premier-327-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2001-02-o-pee-chee-premier-328",
+          "base_number": "328",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2001-02-O-Pee-Chee-Premier-328-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2001-02-O-Pee-Chee-Premier-328-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2001-02-o-pee-chee-premier-329",
+          "base_number": "329",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "",
+          "image_back": "",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2001-02-o-pee-chee-premier-330",
+          "base_number": "330",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2001-02-O-Pee-Chee-Premier-330-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2001-02-O-Pee-Chee-Premier-330-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        }
+      ],
+      "subsets": []
+    },
     "2001-02-pacific": {
       "set_key": "2001-02-pacific",
       "set_name": "Pacific",
@@ -2356,8 +2456,8 @@
               "base_number": "10",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/2001-02-Pacific---North-America-All-Stars-Die-Cuts-10-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2001-02-Pacific---North-America-All-Stars-Die-Cuts-10-Mario-LemieuxBk.jpg",
+              "image_front": "img/cards/ML66/2001-02-Pacific---North-America-All-Stars-Die-Cuts-10-Mario-LemieuxFr.png",
+              "image_back": "img/cards/ML66/2001-02-Pacific---North-America-All-Stars-Die-Cuts-10-Mario-LemieuxBk.png",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "inCollection": true,
@@ -2383,6 +2483,46 @@
               "inCollection": true,
               "price": 2.95,
               "location": "US"
+            }
+          ]
+        },
+        {
+          "set_key": "2001-02-pacific-hobby-ltd",
+          "set_name": "Hobby LTD",
+          "set_display_name": "2001-02 Pacific - Hobby LTD",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-hobby-ltd-316",
+              "base_number": "316",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Pacific---Hobby-LTD-316-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific---Hobby-LTD-316-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 99,
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2001-02-pacific-gold-crown-die-cuts",
+          "set_name": "Gold Crown Die Cuts",
+          "set_display_name": "2001-02 Pacific - Gold Crown Die Cuts",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-gold-crown-die-cuts-17",
+              "base_number": "17",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Pacific---Gold-Crown-Die-Cuts-17-Mario-LemieuxFr.png",
+              "image_back": "img/cards/ML66/2001-02-Pacific---Gold-Crown-Die-Cuts-17-Mario-LemieuxBk.png",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
             }
           ]
         }
@@ -2475,6 +2615,26 @@
               "price": 4.8
             }
           ]
+        },
+        {
+          "set_key": "2001-02-pacific-adrenaline-blade-runners",
+          "set_name": "Blade Runners",
+          "set_display_name": "2001-02 Pacific Adrenaline - Blade Runners",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-adrenaline-blade-runners-9",
+              "base_number": "9",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Adrenaline---Blade-Runners-9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Adrenaline---Blade-Runners-9-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 63,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -2558,6 +2718,128 @@
               "price": 8.10
             }
           ]
+        },
+        {
+          "set_key": "2001-02-pacific-atomic-atomic-blast",
+          "set_name": "Atomic Blast",
+          "set_display_name": "2001-02 Pacific Atomic - Atomic Blast",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-atomic-atomic-blast-9",
+              "base_number": "9",
+              "orientation_front": "landscape",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Atomic---Atomic-Blast-9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Atomic---Atomic-Blast-9-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 55,
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2001-02-pacific-atomic-team-nucleus",
+          "set_name": "Team Nucleus",
+          "set_display_name": "2001-02 Pacific Atomic - Team Nucleus",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-atomic-team-nucleus-11",
+              "base_number": "11",
+              "orientation_front": "landscape",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Atomic---Team-Nucleus-11-Johan-Hedberg--Alexei-Kovalev--Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Atomic---Team-Nucleus-11-Johan-Hedberg--Alexei-Kovalev--Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "variant_note": "w/ Johan Hedberg & Alexei Kovalev",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2001-02-pacific-atomic-blue",
+          "set_name": "Blue",
+          "set_display_name": "2001-02 Pacific Atomic - Blue",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-atomic-blue-79",
+              "base_number": "79",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Atomic---Blue-79-Mario-LemieuxFr.png",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Atomic---Blue-79-Mario-LemieuxBk.png",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2001-02-pacific-atomic-gold",
+          "set_name": "Gold",
+          "set_display_name": "2001-02 Pacific Atomic - Gold",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-atomic-gold-79",
+              "base_number": "79",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Atomic---Gold-79-Mario-LemieuxFr.png",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Atomic---Gold-79-Mario-LemieuxBk.png",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 200,
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2001-02-pacific-atomic-red",
+          "set_name": "Red",
+          "set_display_name": "2001-02 Pacific Atomic - Red",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-atomic-red-79",
+              "base_number": "79",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Atomic---Red-79-Mario-LemieuxFr.png",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Atomic---Red-79-Mario-LemieuxBk.png",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 290,
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2001-02-pacific-atomic-premiere-date",
+          "set_name": "Premiere Date",
+          "set_display_name": "2001-02 Pacific Atomic - Premiere Date",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-atomic-premiere-date-79",
+              "base_number": "79",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Atomic---Premiere-Date-79-Mario-LemieuxFr.png",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Atomic---Premiere-Date-79-Mario-LemieuxBk.png",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -2575,8 +2857,8 @@
           "base_number": "117",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
-          "image_front": "img/cards/ML66/2001-02-Pacific-Crown-Royale-117-Mario-LemieuxFr.jpg",
-          "image_back": "img/cards/ML66/2001-02-Pacific-Crown-Royale-117-Mario-LemieuxBk.jpg",
+          "image_front": "img/cards/ML66/2001-02-Pacific-Crown-Royale-117-Mario-LemieuxFr.png",
+          "image_back": "img/cards/ML66/2001-02-Pacific-Crown-Royale-117-Mario-LemieuxBk.png",
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "inCollection": true,
@@ -2595,8 +2877,8 @@
               "base_number": "117",
               "orientation_front": "portrait",
               "orientation_back": "portrait",
-              "image_front": "img/cards/ML66/2001-02-Pacific-Crown-Royale---Retail-117-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2001-02-Pacific-Crown-Royale---Retail-117-Mario-LemieuxBk.jpg",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Crown-Royale---Retail-117-Mario-LemieuxFr.png",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Crown-Royale---Retail-117-Mario-LemieuxBk.png",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "inCollection": true

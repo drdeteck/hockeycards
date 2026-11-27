@@ -8596,6 +8596,30 @@
         }
       ]
     },
+    "2010-11-in-the-game-vip-fall-expo": {
+      "set_key": "2010-11-in-the-game-vip-fall-expo",
+      "set_name": "In The Game VIP Fall Expo",
+      "set_year_label": "2010-11",
+      "set_year_start": 2010,
+      "set_year_end": 2011,
+      "set_display_name": "2010-11 In The Game VIP Fall Expo",
+      "set_tcdb_href": "",
+      "cards": [
+        {
+          "id": "ml-2010-11-in-the-game-vip-fall-expo-itg-20",
+          "base_number": "ITG-20",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2010-11-In-the-Game-VIP-Fall-Expo-ITG-20-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2010-11-In-the-Game-VIP-Fall-Expo-ITG-20-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": true,
+          "price": 5.64
+        }
+      ],
+      "subsets": []
+    },
     "2010-11-in-the-game-enshrined": {
       "set_key": "2010-11-in-the-game-enshrined",
       "set_name": "In The Game Enshrined",
