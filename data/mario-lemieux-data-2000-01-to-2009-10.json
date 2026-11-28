@@ -5170,6 +5170,27 @@
               "price": 0.99
             }
           ]
+        },
+        {
+          "set_key": "2002-03-o-pee-chee-o-pee-chee-premier-red-line",
+          "set_name": "O-Pee-Chee Premier Red Line",
+          "set_display_name": "2002-03 O-Pee-Chee - O-Pee-Chee Premier Red Line",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2002-03-o-pee-chee-o-pee-chee-premier-red-line-2",
+              "base_number": "2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-O-Pee-Chee---O-Pee-Chee-Premier-Red-Line-2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-O-Pee-Chee---O-Pee-Chee-Premier-Red-Line-2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 100,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -5399,6 +5420,48 @@
               "image_back": "img/cards/ML66/2002-03-Pacific-Atomic---National-Pride-Canada-9-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-pacific-atomic-blue",
+          "set_name": "Blue",
+          "set_display_name": "2002-03 Pacific Atomic - Blue",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-atomic-blue-80",
+              "base_number": "80",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 175,
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-pacific-atomic-red",
+          "set_name": "Red",
+          "set_display_name": "2002-03 Pacific Atomic - Red",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-atomic-red-80",
+              "base_number": "80",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 125,
               "inCollection": false
             }
           ]
@@ -5721,6 +5784,26 @@
               "price": 10.26
             }
           ]
+        },
+        {
+          "set_key": "2002-03-pacific-heads-up-etched-in-time",
+          "set_name": "Etched in Time",
+          "set_display_name": "2002-03 Pacific Heads Up - Etched in Time",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-heads-up-etched-in-time-13",
+              "base_number": "13",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2002-03-Pacific-Heads-Up---Etched-in-Time-13-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Pacific-Heads-Up---Etched-in-Time-13-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 85,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -5734,18 +5817,6 @@
       "set_tcdb_href": "",
       "cards": [
         {
-          "id": "ml-2002-03-pacific-prism-platinum-mcdonalds-10",
-          "base_number": "10",
-          "orientation_front": "landscape",
-          "orientation_back": "landscape",
-          "image_front": "img/cards/ML66/2002-03-Pacific-Prism-Platinum-McDonald's-10-Mario-Lemieux--Simon-GagneFr.jpg",
-          "image_back": "img/cards/ML66/2002-03-Pacific-Prism-Platinum-McDonald's-10-Mario-Lemieux--Simon-GagneBk.jpg",
-          "tcdb_href": "",
-          "team": "Pittsburgh Penguins",
-          "inCollection": true,
-          "price": 0.99
-        },
-        {
           "id": "ml-2002-03-pacific-prism-platinum-mcdonalds-32",
           "base_number": "32",
           "orientation_front": "portrait",
@@ -5755,6 +5826,28 @@
           "tcdb_href": "",
           "team": "Pittsburgh Penguins",
           "inCollection": true
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2002-03-pacific-prism-platinum-mcdonalds-salt-lake-gold",
+          "set_name": "Salt Lake Gold",
+          "set_display_name": "2002-03 Pacific Prism Platinum McDonald's - Salt Lake Gold",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2002-03-pacific-prism-platinum-mcdonalds-10",
+              "base_number": "10",
+              "orientation_front": "landscape",
+              "orientation_back": "landscape",
+              "image_front": "img/cards/ML66/2002-03-Pacific-Prism-Platinum-McDonald's-10-Mario-Lemieux--Simon-GagneFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Pacific-Prism-Platinum-McDonald's-10-Mario-Lemieux--Simon-GagneBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": true,
+              "price": 0.99
+            }
+          ]
         }
       ]
     },
@@ -6545,6 +6638,68 @@
               "price": 5
             }
           ]
+        },
+        {
+          "set_key": "2002-03-topps-gold-foil",
+          "set_name": "Gold Foil",
+          "set_display_name": "2002-03 Topps - Gold Foil",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2002-03-topps-gold-foil-2",
+              "base_number": "2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Topps---Gold-Foil-2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Topps---Gold-Foil-2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-topps-o-pee-chee-blue-line",
+          "set_name": "O-Pee-Chee Blue Line",
+          "set_display_name": "2002-03 Topps - O-Pee-Chee Blue Line",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2002-03-topps-o-pee-chee-blue-line-2",
+              "base_number": "2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 500,
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-topps-o-pee-chee-red-line",
+          "set_name": "O-Pee-Chee Red Line",
+          "set_display_name": "2002-03 Topps - O-Pee-Chee Red Line",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2002-03-topps-o-pee-chee-red-line-2",
+              "base_number": "2",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Topps---O-Pee-Chee-Red-Line-2-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Topps---O-Pee-Chee-Red-Line-2-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 100,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -7007,6 +7162,27 @@
               "team": "Pittsburgh Penguins",
               "inCollection": true,
               "price": 1.65
+            }
+          ]
+        },
+        {
+          "set_key": "2002-03-upper-deck-artistic-impressions-gold",
+          "set_name": "Gold",
+          "set_display_name": "2002-03 Upper Deck Artistic Impressions - Gold",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2002-03-upper-deck-artistic-impressions-gold-72",
+              "base_number": "72",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2002-03-Upper-Deck-Artistic-Impressions---Gold-72-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2002-03-Upper-Deck-Artistic-Impressions---Gold-72-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 199,
+              "inCollection": false
             }
           ]
         }
@@ -7528,6 +7704,27 @@
               "price": 2.8
             }
           ]
+        },
+        {
+          "set_key": "2003-04-be-a-player-memorabilia-ruby",
+          "set_name": "Ruby",
+          "set_display_name": "2003-04 Be a Player Memorabilia - Ruby",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2003-04-be-a-player-memorabilia-ruby-48",
+              "base_number": "48",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Be-a-Player-Memorabilia---Ruby-48-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Be-a-Player-Memorabilia---Ruby-48-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 200,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -7792,6 +7989,48 @@
               "inCollection": false
             }
           ]
+        },
+        {
+          "set_key": "2003-04-o-pee-chee-goal-line",
+          "set_name": "Goal Line",
+          "set_display_name": "2003-04 O-Pee-Chee - Goal Line",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2003-04-o-pee-chee-goal-line-100",
+              "base_number": "100",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-O-Pee-Chee---Goal-Line-100-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-O-Pee-Chee---Goal-Line-100-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 50,
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-o-pee-chee-red-line",
+          "set_name": "Red Line",
+          "set_display_name": "2003-04 O-Pee-Chee - Red Line",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2003-04-o-pee-chee-red-line-100",
+              "base_number": "100",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-O-Pee-Chee---Red-Line-100-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-O-Pee-Chee---Red-Line-100-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 100,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -7875,6 +8114,26 @@
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
               "serial_total": 250,
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-pacific-cramers-choice",
+          "set_name": "Cramer's Choice",
+          "set_display_name": "2003-04 Pacific - Cramer's Choice",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-cramers-choice-8",
+              "base_number": "8",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 99,
               "inCollection": false
             }
           ]
@@ -7995,8 +8254,8 @@
       "subsets": [
         {
           "set_key": "2003-04-pacific-crown-royale-retail",
-          "set_name": "Retail",
-          "set_display_name": "2003-04 Pacific Crown Royale - Retail",
+          "set_name": "Silver",
+          "set_display_name": "2003-04 Pacific Crown Royale - Silver",
           "set_tcdb_href": "https://www.tcdb.com/ViewSet.cfm/sid/51115/2003-04-Pacific-Crown-Royale-Retail",
           "set_type": "parallel",
           "cards": [
@@ -8638,6 +8897,26 @@
               "price": 4.95
             }
           ]
+        },
+        {
+          "set_key": "2003-04-pacific-supreme-blue",
+          "set_name": "Blue",
+          "set_display_name": "2003-04 Pacific Supreme - Blue",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2003-04-pacific-supreme-blue-79",
+              "base_number": "79",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2003-04-Pacific-Supreme---Blue-79-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2003-04-Pacific-Supreme---Blue-79-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -8772,6 +9051,32 @@
           "inCollection": true
         },
         {
+          "id": "ml-2003-04-spx-xcitement-114",
+          "base_number": "114",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
+          "image_front": "img/cards/ML66/2003-04-SPx-114-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-SPx---SPxCitement-114-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "serial_total": 750,
+          "inCollection": true,
+          "price": 9.3
+        },
+        {
+          "id": "ml-2003-04-spx-xcitement-144",
+          "base_number": "144",
+          "orientation_front": "landscape",
+          "orientation_back": "landscape",
+          "image_front": "img/cards/ML66/2003-04-SPx-144-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2003-04-SPx-144-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "serial_total": 750,
+          "inCollection": true,
+          "price": 6.44
+        },
+        {
           "id": "ml-2003-04-spx-176",
           "base_number": "176",
           "orientation_front": "portrait",
@@ -8782,42 +9087,6 @@
           "team": "Pittsburgh Penguins",
           "serial_total": 250,
           "inCollection": false
-        }
-      ],
-      "subsets": [
-        {
-          "set_key": "2003-04-spx-xcitement",
-          "set_name": "SPxCitement",
-          "set_display_name": "2003-04 SPx - SPxCitement",
-          "set_tcdb_href": "",
-          "cards": [
-            {
-              "id": "ml-2003-04-spx-xcitement-144",
-              "base_number": "144",
-              "orientation_front": "landscape",
-              "orientation_back": "landscape",
-              "image_front": "img/cards/ML66/2003-04-SPx-144-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2003-04-SPx-144-Mario-LemieuxBk.jpg",
-              "tcdb_href": "",
-              "team": "Pittsburgh Penguins",
-              "serial_total": 750,
-              "inCollection": true,
-              "price": 6.44
-            },
-            {
-              "id": "ml-2003-04-spx-xcitement-114",
-              "base_number": "114",
-              "orientation_front": "landscape",
-              "orientation_back": "landscape",
-              "image_front": "img/cards/ML66/2003-04-SPx-114-Mario-LemieuxFr.jpg",
-              "image_back": "img/cards/ML66/2003-04-SPx---SPxCitement-114-Mario-LemieuxBk.jpg",
-              "tcdb_href": "",
-              "team": "Pittsburgh Penguins",
-              "serial_total": 750,
-              "inCollection": true,
-              "price": 9.3
-            }
-          ]
         }
       ]
     },
@@ -8906,6 +9175,48 @@
               "variant_note": "Rookie",
               "inCollection": true,
               "price": 5.55
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-topps-goal-line",
+          "set_name": "Goal Line",
+          "set_display_name": "2003-04 Topps - Goal Line",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2003-04-topps-goal-line-100",
+              "base_number": "100",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 50,
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2003-04-topps-red-line",
+          "set_name": "Red Line",
+          "set_display_name": "2003-04 Topps - Red Line",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2003-04-topps-red-line-100",
+              "base_number": "100",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 100,
+              "inCollection": false
             }
           ]
         }
@@ -9667,6 +9978,26 @@
               "price": 7.99
             }
           ]
+        },
+        {
+          "set_key": "2004-05-pacific-cramers-choice",
+          "set_name": "Cramer's Choice",
+          "set_display_name": "2004-05 Pacific - Cramer's Choice",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2004-05-pacific-cramers-choice-8",
+              "base_number": "8",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2004-05-Pacific---Cramer-s-Choice-8-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2004-05-Pacific---Cramer-s-Choice-8-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 99,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -9835,12 +10166,35 @@
           "base_number": "181",
           "orientation_front": "portrait",
           "orientation_back": "portrait",
-          "image_front": "",
-          "image_back": "",
+          "image_front": "img/cards/ML66/2005-06-Upper-Deck-Black-Diamond-181-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2005-06-Upper-Deck-Black-Diamond-181-Mario-LemieuxBk.jpg",
           "tcdb_href": "https://www.tcdb.com/ViewCard.cfm/sid/5754/cid/1302774/2005-06-Upper-Deck-Black-Diamond-181-Mario-Lemieux",
           "team": "Pittsburgh Penguins",
           "inCollection": false,
           "price": 4.9
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2005-06-upper-deck-black-diamond-ruby",
+          "set_name": "Ruby",
+          "set_display_name": "2005-06 Upper Deck Black Diamond - Ruby",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2005-06-upper-deck-black-diamond-ruby-181",
+              "base_number": "181",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2005-06-Upper-Deck-Black-Diamond---Ruby-181-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2005-06-Upper-Deck-Black-Diamond---Ruby-181-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 100,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -9864,6 +10218,28 @@
           "price": 1.36,
           "tcdb_href": "",
           "team": "Pittsburgh Penguins"
+        }
+      ],
+      "subsets": [
+        {
+          "set_key": "2005-06-upper-deck-be-a-player-outtakes",
+          "set_name": "Outtakes",
+          "set_display_name": "2005-06 Upper Deck Be a Player - Outtakes",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2005-06-upper-deck-be-a-player-outtakes-ot40",
+              "base_number": "OT40",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2005-06-Upper-Deck-Be-a-Player---Outtakes-OT40-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2005-06-Upper-Deck-Be-a-Player---Outtakes-OT40-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 499,
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
