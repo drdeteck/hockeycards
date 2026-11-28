@@ -2294,8 +2294,7 @@
               "image_back": "img/cards/ML66/2001-02-O-Pee-Chee---1972-72-Heritage-1-Mario-LemieuxBk.jpg",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
-              "inCollection": true,
-              "price": 5.0
+              "inCollection": false
             }
           ]
         }
@@ -2522,6 +2521,26 @@
               "image_back": "img/cards/ML66/2001-02-Pacific---Gold-Crown-Die-Cuts-17-Mario-LemieuxBk.png",
               "tcdb_href": "",
               "team": "Pittsburgh Penguins",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2001-02-pacific-cramers-choice",
+          "set_name": "Cramer's Choice",
+          "set_display_name": "2001-02 Pacific - Cramer's Choice",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-cramers-choice-9",
+              "base_number": "9",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "",
+              "image_back": "",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 49,
               "inCollection": false
             }
           ]
@@ -2904,6 +2923,44 @@
               "price": 8.58
             }
           ]
+        },
+        {
+          "set_key": "2001-02-pacific-crown-royale-all-star-honors",
+          "set_name": "All-Star Honors",
+          "set_display_name": "2001-02 Pacific Crown Royale - All-Star Honors",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-crown-royale-all-star-honors-17",
+              "base_number": "17",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Crown-Royale---All-Star-Honors-17-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Crown-Royale---All-Star-Honors-17-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2001-02-pacific-crown-royale-jewels-of-the-crown",
+          "set_name": "Jewels of the Crown",
+          "set_display_name": "2001-02 Pacific Crown Royale - Jewels of the Crown",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-crown-royale-jewels-of-the-crown-25",
+              "base_number": "25",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Crown-Royale---Jewels-of-the-Crown-25-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Crown-Royale---Jewels-of-the-Crown-25-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
+            }
+          ]
         }
       ]
     },
@@ -2947,6 +3004,45 @@
               "team": "Pittsburgh Penguins",
               "inCollection": true,
               "price": 3.99
+            }
+          ]
+        },
+        {
+          "set_key": "2001-02-pacific-heads-up-hd-nhl",
+          "set_name": "HD NHL",
+          "set_display_name": "2001-02 Pacific Heads Up - HD NHL",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-heads-up-hd-nhl-7",
+              "base_number": "7",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Heads-Up---HD-NHL-7-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Heads-Up---HD-NHL-7-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2001-02-pacific-heads-up-rink-immortals",
+          "set_name": "Rink Immortals",
+          "set_display_name": "2001-02 Pacific Heads Up - Rink Immortals",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-heads-up-rink-immortals-9",
+              "base_number": "9",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Heads-Up---Rink-Immortals-9-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Heads-Up---Rink-Immortals-9-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 105,
+              "inCollection": false
             }
           ]
         }
@@ -3058,6 +3154,46 @@
               "team": "Pittsburgh Penguins",
               "inCollection": true,
               "price": 7
+            }
+          ]
+        },
+        {
+          "set_key": "2001-02-pacific-private-stock-gold",
+          "set_name": "Gold",
+          "set_display_name": "2001-02 Pacific Private Stock - Gold",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-private-stock-gold-78",
+              "base_number": "78",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Private-Stock---Gold-78-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Private-Stock---Gold-78-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 106,
+              "inCollection": false
+            }
+          ]
+        },
+        {
+          "set_key": "2001-02-pacific-private-stock-ps-2002",
+          "set_name": "PS-2002",
+          "set_display_name": "2001-02 Pacific Private Stock - PS-2002",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-pacific-private-stock-ps-2002-59",
+              "base_number": "59",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Pacific-Private-Stock---PS-2002-59-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Pacific-Private-Stock---PS-2002-59-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": false
             }
           ]
         }
@@ -3349,6 +3485,29 @@
           "serial_total": 3500,
           "price": 4.0
         }
+      ],
+      "subsets": [
+        {
+          "set_key": "2001-02-sp-authentic-sp-limited",
+          "set_name": "SP Limited",
+          "set_display_name": "2001-02 SP Authentic - SP Limited",
+          "set_tcdb_href": "",
+          "set_type": "parallel",
+          "cards": [
+            {
+              "id": "ml-2001-02-sp-authentic-sp-limited-68",
+              "base_number": "68",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-SP-Authentic---SP-Limited-68-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-SP-Authentic---SP-Limited-68-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "serial_total": 150,
+              "inCollection": false
+            }
+          ]
+        }
       ]
     },
     "2001-02-sp-game-used": {
@@ -3543,6 +3702,61 @@
           "team": "Pittsburgh Penguins",
           "inCollection": true,
           "price": 1.5
+        },
+        {
+          "id": "ml-2001-02-topps-326",
+          "base_number": "326",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2001-02-Topps-326-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2001-02-Topps-326-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2001-02-topps-327",
+          "base_number": "327",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2001-02-Topps-327-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2001-02-Topps-327-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2001-02-topps-328",
+          "base_number": "328",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2001-02-Topps-328-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2001-02-Topps-328-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2001-02-topps-329",
+          "base_number": "329",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2001-02-Topps-329-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2001-02-Topps-329-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
+        },
+        {
+          "id": "ml-2001-02-topps-330",
+          "base_number": "330",
+          "orientation_front": "portrait",
+          "orientation_back": "portrait",
+          "image_front": "img/cards/ML66/2001-02-Topps-330-Mario-LemieuxFr.jpg",
+          "image_back": "img/cards/ML66/2001-02-Topps-330-Mario-LemieuxBk.jpg",
+          "tcdb_href": "",
+          "team": "Pittsburgh Penguins",
+          "inCollection": false
         }
       ],
       "subsets": [
@@ -3701,6 +3915,26 @@
               "team": "Pittsburgh Penguins",
               "inCollection": true,
               "price": 2.83
+            }
+          ]
+        },
+        {
+          "set_key": "2001-02-topps-1971-72-heritage",
+          "set_name": "1971-72 Heritage",
+          "set_display_name": "2001-02 Topps - 1971-72 Heritage",
+          "set_tcdb_href": "",
+          "cards": [
+            {
+              "id": "ml-2001-02-topps-1971-72-heritage-1",
+              "base_number": "1",
+              "orientation_front": "portrait",
+              "orientation_back": "portrait",
+              "image_front": "img/cards/ML66/2001-02-Topps---1971-72-Heritage-1-Mario-LemieuxFr.jpg",
+              "image_back": "img/cards/ML66/2001-02-Topps---1971-72-Heritage-1-Mario-LemieuxBk.jpg",
+              "tcdb_href": "",
+              "team": "Pittsburgh Penguins",
+              "inCollection": true,
+              "price": 5
             }
           ]
         }
